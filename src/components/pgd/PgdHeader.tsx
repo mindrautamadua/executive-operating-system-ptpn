@@ -9,7 +9,7 @@ export function PgdHeader() {
     <ModuleHeader
       icon={<PackageSearch size={19} strokeWidth={1.9} />}
       title="Pengadaan"
-      subtitle={<>Command Center Belanja, Vendor &amp; Integritas Pengadaan</>}
+      subtitle={<>Operating System Belanja, Vendor &amp; Integritas Pengadaan</>}
       controls={
         <>
           <SelectBox label="Periode" value="Mei 2026 (YTD)" width="170px" />

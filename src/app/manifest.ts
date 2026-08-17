@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Executive Command Center — PTPN Group",
-    short_name: "ECC PTPN",
+    name: "Executive Operating System — PTPN Group",
+    short_name: "EOS PTPN",
     description: "BOD Dashboard PTPN Group",
     start_url: "/",
     display: "standalone",

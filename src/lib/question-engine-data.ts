@@ -93,4 +93,4 @@ export const QUESTION_ENGINE_INTRO =
   "Dashboard menjawab; eksekutif bertanya. Kualitas keputusan Direksi ditentukan " +
   "oleh kualitas pertanyaannya — bukan kelengkapan datanya. Halaman ini melatih " +
   "refleks bertanya untuk lima situasi yang paling sering muncul di Executive " +
-  "Command Center. Jawab dulu pertanyaannya sendiri, baru baca rekomendasi sistem.";
+  "Operating System. Jawab dulu pertanyaannya sendiri, baru baca rekomendasi sistem.";

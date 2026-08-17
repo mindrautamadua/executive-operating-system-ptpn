@@ -8,7 +8,7 @@ export function HkmHeader() {
     <ModuleHeader
       icon={<Scale size={19} strokeWidth={1.9} />}
       title="Hukum"
-      subtitle={<>Command Center Kontrak, Perizinan &amp; Korporasi PTPN Group</>}
+      subtitle={<>Operating System Kontrak, Perizinan &amp; Korporasi PTPN Group</>}
       controls={
         <>
           <SelectBox label="Periode" value="Mei 2026 (YTD)" width="170px" />

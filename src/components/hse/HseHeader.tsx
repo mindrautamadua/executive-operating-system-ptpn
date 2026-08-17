@@ -9,7 +9,7 @@ export function HseHeader() {
       icon={<HardHat size={19} strokeWidth={1.9} />}
       title="K3 & Keamanan"
       subtitle={
-        <>Command Center Keselamatan Kerja, Kebakaran Lahan &amp; Keamanan Aset</>
+        <>Operating System Keselamatan Kerja, Kebakaran Lahan &amp; Keamanan Aset</>
       }
       controls={
         <>

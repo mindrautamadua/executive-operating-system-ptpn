@@ -8,7 +8,7 @@ export function ProdHeader() {
     <ModuleHeader
       icon={<Factory size={19} strokeWidth={1.9} />}
       title="Produksi & Operasi"
-      subtitle={<>Command Center Produksi, Pabrik &amp; Agronomi PTPN Group</>}
+      subtitle={<>Operating System Produksi, Pabrik &amp; Agronomi PTPN Group</>}
       controls={
         <>
           <SelectBox label="Periode" value="Mei 2026 (YTD)" width="170px" />

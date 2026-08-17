@@ -39,7 +39,7 @@ export interface SdmMenuSection {
   items: SdmMenuItem[];
 }
 
-/** Menu HC Executive Command Center — dikelompokkan per domain intelijen. */
+/** Menu HC Executive Operating System — dikelompokkan per domain intelijen. */
 export const SDM_MENU_SECTIONS: SdmMenuSection[] = [
   {
     items: [

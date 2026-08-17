@@ -1,4 +1,4 @@
-# Executive Command Center — PTPN Group
+# Executive Operating System — PTPN Group
 
 Mockup dashboard BOD PTPN Group, dibangun ulang dari `referensi-mockup/dashboard-utama.png`.
 

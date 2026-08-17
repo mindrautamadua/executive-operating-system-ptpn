@@ -13,7 +13,7 @@ import { StgAlerts } from "@/components/stg/overview/StgAlerts";
 import { StgInsight } from "@/components/stg/overview/StgInsight";
 import { stgDataTrust } from "@/lib/stg-core";
 
-export const metadata = { title: "Strategy Executive Command Center — PTPN Group" };
+export const metadata = { title: "Strategy Executive Operating System — PTPN Group" };
 
 export default function StrategiKinerjaPage() {
   return (

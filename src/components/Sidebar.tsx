@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { PanelLeftClose, PanelLeftOpen } from "lucide-react";
 import { PtpnLogo } from "./PtpnLogo";
-import { CEO_NAV_SECTIONS, NAV_SECTIONS } from "@/lib/nav";
+import { BOARD_NAV_SECTIONS, CEO_NAV_SECTIONS, NAV_SECTIONS } from "@/lib/nav";
 import { dataTrust } from "@/lib/hc-data";
 import { useSidebarCollapsed } from "@/components/shared/useSidebarCollapsed";
 import { useNavMode, type NavMode } from "@/components/shared/useNavMode";
@@ -16,7 +16,8 @@ export function Sidebar() {
   const [pill, setPill] = useState<{ top: number; height: number } | null>(null);
   const { collapsed, toggle } = useSidebarCollapsed();
   const { mode, set: setMode } = useNavMode();
-  const sections = mode === "ceo" ? CEO_NAV_SECTIONS : NAV_SECTIONS;
+  const sections =
+    mode === "ceo" ? CEO_NAV_SECTIONS : mode === "komisaris" ? BOARD_NAV_SECTIONS : NAV_SECTIONS;
 
   // Pill hijau meluncur mengikuti item aktif, diukur ulang saat rute berubah.
   useLayoutEffect(() => {
@@ -59,6 +60,7 @@ export function Sidebar() {
             [
               { id: "ceo", label: "CEO" },
               { id: "fungsional", label: "Fungsional" },
+              { id: "komisaris", label: "Dekom" },
             ] as { id: NavMode; label: string }[]
           ).map((m) => (
             <button

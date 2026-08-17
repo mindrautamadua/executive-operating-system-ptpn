@@ -356,6 +356,71 @@ export const decisionOutcomes: DecisionOutcome[] = [
     why: "Pasokan bibit tersertifikasi terlambat 2 bulan dan jendela tanam basah lebih pendek.",
     lesson: "Kesiapan bibit & jendela cuaca jadi critical path — amankan kontrak bibit H-6 bulan.",
   },
+  {
+    id: "DEC-2026-013",
+    title: "Capex Revitalisasi PG Glenmore & Assembagoes",
+    decided: "22 Apr 2026",
+    owner: "Direktorat Produksi SGN",
+    assumption: "EPC award ≤60 hari; commissioning sebelum giling 2027",
+    expected: "Kontrak EPC terteken & mobilisasi mulai Jul 2026",
+    actual: "EPC awarded 8 Jul; mobilisasi berjalan sesuai jadwal",
+    variance: "On plan",
+    tone: "good",
+    why: "Paket lelang disiapkan paralel dengan persetujuan — tidak menunggu berurutan.",
+    lesson: "Persiapan pengadaan paralel dengan sirkuler keputusan memangkas 1–2 bulan lead time.",
+  },
+  {
+    id: "DEC-2026-002",
+    title: "Fasilitas Modal Kerja Committed SGN Rp 2,4 T",
+    decided: "5 Feb 2026",
+    owner: "Direktorat Keuangan Holding",
+    assumption: "Kebutuhan puncak musim giling ≤ Rp 2,4 T",
+    expected: "Likuiditas musim giling aman; risiko likuiditas SGN turun dari Ekstrem",
+    actual: "Fasilitas efektif; risiko turun Ekstrem → Tinggi (register risiko)",
+    variance: "Sesuai janji",
+    tone: "good",
+    why: "Komitmen bank tuntas sebelum kebutuhan puncak — tidak ada penarikan darurat.",
+    lesson: "Keputusan likuiditas musiman harus final satu kuartal sebelum musim, bukan saat musim.",
+  },
+  {
+    id: "DEC-2026-009",
+    title: "Task Force EUDR & Traceability Rantai Pasok",
+    decided: "15 Apr 2026",
+    owner: "Direktorat Pemasaran Holding",
+    assumption: "Onboarding plasma ke sistem traceability 8 rb petani/bulan",
+    expected: "Cakupan traceability ekspor EU 100% pada Q4 2026",
+    actual: "Cakupan 74% per Mei — di bawah jalur menuju Q4",
+    variance: "-26 pts vs jalur",
+    tone: "warn",
+    why: "Onboarding petani plasma lebih lambat dari asumsi (5 rb/bulan aktual).",
+    lesson: "Target yang bergantung pihak ketiga (plasma) butuh insentif & buffer waktu, bukan hanya sistem.",
+  },
+  {
+    id: "DEC-2025-029",
+    title: "Cash Pooling Grup",
+    decided: "18 Sep 2025",
+    owner: "Direktorat Keuangan Holding",
+    assumption: "Seluruh rekening operasional subholding tergabung ≤6 bulan",
+    expected: "Penghematan bunga neto Rp 45 M/tahun",
+    actual: "Run-rate Rp 38 M/tahun (84% rekening tergabung)",
+    variance: "-16%",
+    tone: "warn",
+    why: "Sebagian rekening regional belum migrasi karena kendala perjanjian bank daerah.",
+    lesson: "Sisa ekor migrasi (16%) menahan benefit — selesaikan penuh, jangan berhenti di 80%.",
+  },
+  {
+    id: "DEC-2025-019",
+    title: "ERP Rollout Wave 2 (SGN & PTPN I)",
+    decided: "22 Jul 2025",
+    owner: "Direktorat TI Holding",
+    assumption: "Data migrasi & change management siap per jadwal go-live Q2 2026",
+    expected: "Go-live Q2 2026; benefit efisiensi mulai terealisasi 2026",
+    actual: "Go-live mundur 2 kuartal — benefit tertahan (estimasi Rp 1,17 T kumulatif)",
+    variance: "Tertunda 2 kuartal",
+    tone: "bad",
+    why: "Kualitas data master di bawah ambang migrasi & resistensi perubahan proses di PG.",
+    lesson: "Kesiapan data & manusia adalah critical path ERP — ukur readiness sebelum menetapkan tanggal go-live.",
+  },
 ];
 
 /**
@@ -385,11 +450,13 @@ export const decisionPortfolio = {
   /**
    * Expected vs realized dari keputusan terukur yang bernilai finansial:
    * pengadaan (target FY Rp 0,85 T · realisasi Rp 0,386 T YTD) + divestasi
-   * tahap 0 (Rp 0,90 T · Rp 0,74 T). Replanting non-finansial, tak dihitung.
+   * tahap 0 (Rp 0,90 T · Rp 0,74 T) + cash pooling (Rp 0,045 T/thn · run-rate
+   * Rp 0,038 T). Keputusan non-finansial (replanting, capex PG, EUDR) dan
+   * benefit ERP yang tertahan (diukur setelah go-live) tidak dihitung.
    */
-  expectedMeasuredRpT: 1.75,
-  realizedRpT: 1.13,
-  realizationPct: Math.round((1.13 / 1.75) * 100),
+  expectedMeasuredRpT: 1.8,
+  realizedRpT: 1.16,
+  realizationPct: Math.round((1.164 / 1.795) * 100),
 };
 
 /* ── 9. Alerts ────────────────────────────────────────────────────── */

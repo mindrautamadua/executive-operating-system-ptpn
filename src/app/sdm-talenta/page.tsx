@@ -15,7 +15,7 @@ import { TalentActionIntelligence } from "@/components/hc/TalentActionIntelligen
 import { AlertsNotifications } from "@/components/hc/AlertsNotifications";
 import { HcCopilot } from "@/components/hc/HcCopilot";
 
-export const metadata = { title: "HC Executive Command Center — PTPN Group" };
+export const metadata = { title: "HC Executive Operating System — PTPN Group" };
 
 export default function SdmTalentaPage() {
   return (

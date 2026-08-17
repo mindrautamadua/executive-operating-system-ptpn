@@ -9,7 +9,7 @@ export function TikHeader() {
     <ModuleHeader
       icon={<MonitorCog size={19} strokeWidth={1.9} />}
       title="Teknologi Informasi"
-      subtitle={<>Command Center Digital, Data &amp; Keamanan Siber PTPN Group</>}
+      subtitle={<>Operating System Digital, Data &amp; Keamanan Siber PTPN Group</>}
       controls={
         <>
           <SelectBox label="Periode" value="Mei 2026 (YTD)" width="170px" />

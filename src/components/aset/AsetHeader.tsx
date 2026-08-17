@@ -8,7 +8,7 @@ export function AsetHeader() {
     <ModuleHeader
       icon={<Building2 size={19} strokeWidth={1.9} />}
       title="Aset & Investasi"
-      subtitle={<>Command Center Aset, Lahan &amp; Investasi PTPN Group</>}
+      subtitle={<>Operating System Aset, Lahan &amp; Investasi PTPN Group</>}
       controls={
         <>
           <SelectBox label="Periode" value="Mei 2026 (YTD)" width="170px" />

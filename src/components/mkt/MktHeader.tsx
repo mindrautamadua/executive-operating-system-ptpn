@@ -8,7 +8,7 @@ export function MktHeader() {
     <ModuleHeader
       icon={<ShoppingBag size={19} strokeWidth={1.9} />}
       title="Pemasaran & Penjualan"
-      subtitle={<>Commercial Command Center Komoditas PTPN Group</>}
+      subtitle={<>Commercial Operating System Komoditas PTPN Group</>}
       controls={
         <>
           <SelectBox label="Periode" value="Mei 2026 (YTD)" width="170px" />

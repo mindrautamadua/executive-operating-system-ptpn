@@ -25,6 +25,9 @@ import { PerformanceNarrative } from "@/components/PerformanceNarrative";
 import { CpoMarketCard } from "@/components/CpoMarketCard";
 import { ImpactChainCard } from "@/components/ImpactChainCard";
 import { ExecutiveTension } from "@/components/ExecutiveTension";
+import { BoardChallengeCard } from "@/components/BoardChallengeCard";
+import { HomeViewSwitch } from "@/components/HomeViewSwitch";
+import { DecisionPortfolioCard } from "@/components/stg/keputusan-bod/DecisionPortfolioCard";
 
 /** Kepala seksi kecil bergaya HC ECC, memisahkan kelompok kartu. */
 function SectionLabel({ children }: { children: React.ReactNode }) {
@@ -64,49 +67,95 @@ function LayerBand({
   );
 }
 
-/**
- * Dashboard utama, mengikuti kerangka halaman SDM & Talenta (HC ECC):
- * DataTrustStrip di atas, kepala seksi kecil, kolom utama + rail kanan 330px,
- * dan entrance anim-rise berjenjang per kartu. Konten disusun dalam tiga layer
- * kognitif (ACT → UNDERSTAND → EXPLORE) via LayerBand.
- */
-export default function Page() {
+/** Grid Keputusan & Penciptaan Nilai — dipakai bersama view CEO & Fungsional. */
+function DecisionValueGrid() {
   return (
-    <AppShell>
-      <div className="px-5 pb-5">
-        <DataTrustStrip data={coreDataTrust} />
+    <div className="grid grid-cols-1 items-stretch gap-3 xl:grid-cols-[minmax(0,1fr)_330px]">
+      <div
+        className="anim-rise grid min-w-0 grid-cols-1 items-stretch gap-3 lg:grid-cols-2"
+        style={{ "--d": "40ms" } as React.CSSProperties}
+      >
+        <CeoValueCreation />
+        <EnterpriseRiskValue />
+      </div>
+      <div className="anim-rise min-w-0" style={{ "--d": "70ms" } as React.CSSProperties}>
+        <CeoDecisionQueue />
+      </div>
+    </div>
+  );
+}
 
-        <LayerBand n={1} code="Act" question="Apa yang butuh perhatian & keputusan saya sekarang?" />
-        <CeoMorningBrief />
+/**
+ * MODE CEO — Act & Decide. Kompresi sinyal, bukan dashboard yang dikurangi:
+ * hanya brief, keputusan/nilai/risiko, narasi, dan kontradiksi. Tidak ada
+ * KPI grid, peta, atau kartu domain — itu pekerjaan mode Fungsional.
+ */
+function CeoHomeView() {
+  return (
+    <>
+      <CeoMorningBrief />
+      <SectionLabel>Keputusan &amp; Penciptaan Nilai</SectionLabel>
+      <DecisionValueGrid />
+      <PerformanceNarrative />
+      <ExecutiveTension />
+    </>
+  );
+}
 
-        <SectionLabel>Keputusan &amp; Penciptaan Nilai</SectionLabel>
-        <div className="grid grid-cols-1 items-stretch gap-3 xl:grid-cols-[minmax(0,1fr)_330px]">
-          <div
-            className="anim-rise grid min-w-0 grid-cols-1 items-stretch gap-3 lg:grid-cols-2"
-            style={{ "--d": "40ms" } as React.CSSProperties}
-          >
-            <CeoValueCreation />
-            <EnterpriseRiskValue />
-          </div>
-          <div className="anim-rise min-w-0" style={{ "--d": "70ms" } as React.CSSProperties}>
-            <CeoDecisionQueue />
-          </div>
+/**
+ * MODE KOMISARIS — Oversight & Challenge. Bukan daftar tugas melainkan
+ * daftar ujian: kontradiksi, pertanyaan pengawasan per isu, risiko, antrian
+ * keputusan (dengan biaya delay), dan portofolio keputusan (janji vs
+ * realisasi manajemen).
+ */
+function BoardHomeView() {
+  return (
+    <>
+      <ExecutiveTension />
+      <div className="mt-3">
+        <BoardChallengeCard />
+      </div>
+      <SectionLabel>Nilai, Risiko &amp; Keputusan yang Diawasi</SectionLabel>
+      <DecisionValueGrid />
+      <div className="mt-3 grid grid-cols-1 items-stretch gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,40fr)_minmax(0,60fr)]">
+        <div className="anim-rise min-h-[280px]" style={{ "--d": "120ms" } as React.CSSProperties}>
+          <DecisionPortfolioCard />
         </div>
-
-        <LayerBand n={2} code="Understand" question="Mengapa angka bergerak?" />
-        <SectionLabel>Key Strategic KPI</SectionLabel>
-        <KpiStrip />
-        <PerformanceNarrative />
-        <ExecutiveTension />
-        <div
-          className="anim-rise mt-3 grid grid-cols-1 items-stretch gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]"
-          style={{ "--d": "60ms" } as React.CSSProperties}
-        >
-          <IndonesiaMap />
-          <KinerjaRegional />
+        <div className="anim-rise min-h-[280px]" style={{ "--d": "150ms" } as React.CSSProperties}>
+          <ImpactChainCard />
         </div>
+      </div>
+    </>
+  );
+}
 
-        <ExploreDisclosure>
+/**
+ * MODE FUNGSIONAL — Analyze & Execute. Arsitektur lengkap tiga layer
+ * kognitif (ACT → UNDERSTAND → EXPLORE) dengan seluruh kartu domain.
+ */
+function FullHomeView() {
+  return (
+    <>
+      <LayerBand n={1} code="Act" question="Apa yang butuh perhatian & keputusan saya sekarang?" />
+      <CeoMorningBrief />
+
+      <SectionLabel>Keputusan &amp; Penciptaan Nilai</SectionLabel>
+      <DecisionValueGrid />
+
+      <LayerBand n={2} code="Understand" question="Mengapa angka bergerak?" />
+      <SectionLabel>Key Strategic KPI</SectionLabel>
+      <KpiStrip />
+      <PerformanceNarrative />
+      <ExecutiveTension />
+      <div
+        className="anim-rise mt-3 grid grid-cols-1 items-stretch gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]"
+        style={{ "--d": "60ms" } as React.CSSProperties}
+      >
+        <IndonesiaMap />
+        <KinerjaRegional />
+      </div>
+
+      <ExploreDisclosure>
         <div className="grid grid-cols-1 items-start gap-3 xl:grid-cols-[minmax(0,1fr)_330px]">
           {/* kolom utama */}
           <div className="flex min-w-0 flex-col gap-3">
@@ -161,7 +210,28 @@ export default function Page() {
             </div>
           </div>
         </div>
-        </ExploreDisclosure>
+      </ExploreDisclosure>
+    </>
+  );
+}
+
+/**
+ * Dashboard utama dengan tiga arsitektur informasi mengikuti mode navigasi
+ * sidebar: CEO (kompresi sinyal — what should I know), Fungsional (tiga layer
+ * kognitif lengkap — what should I analyze), Komisaris (oversight & challenge
+ * — did management deliver). Ketiga view dirender server-side; pemilihan di
+ * client via HomeViewSwitch, kerangka tetap Tipe A (HC ECC).
+ */
+export default function Page() {
+  return (
+    <AppShell>
+      <div className="px-5 pb-5">
+        <DataTrustStrip data={coreDataTrust} />
+        <HomeViewSwitch
+          ceo={<CeoHomeView />}
+          fungsional={<FullHomeView />}
+          komisaris={<BoardHomeView />}
+        />
       </div>
     </AppShell>
   );

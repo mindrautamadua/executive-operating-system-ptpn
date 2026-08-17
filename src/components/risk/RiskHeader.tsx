@@ -8,7 +8,7 @@ export function RiskHeader() {
     <ModuleHeader
       icon={<ShieldCheck size={19} strokeWidth={1.9} />}
       title={<>Risiko &amp; Kepatuhan</>}
-      subtitle={<>Enterprise Risk &amp; Compliance Command Center</>}
+      subtitle={<>Enterprise Risk &amp; Compliance Operating System</>}
       controls={
         <>
           <SelectBox label="Periode" value="Mei 2026 (YTD)" width="160px" />

@@ -52,7 +52,7 @@ export default function TalentBriefPage() {
               <PtpnLogo size={20} />
               <div className="leading-none">
                 <div className="text-[11px] font-extrabold text-[#1b3a6b]">
-                  PTPN GROUP — Executive Command Center
+                  PTPN GROUP — Executive Operating System
                 </div>
                 <div className="mt-[3px] text-[8px] font-semibold text-ink-500">
                   EXECUTIVE TALENT BRIEF · Rahasia — untuk Talent Committee
@@ -64,7 +64,7 @@ export default function TalentBriefPage() {
 
           {/* identitas */}
           <div className="mt-4 flex items-center gap-4">
-            <PersonAvatar seed={profil.seed} size={64} className="ring-2 ring-[#eef5f0]" />
+            <PersonAvatar seed={profil.seed} name={profil.nama} size={64} className="ring-2 ring-[#eef5f0]" />
             <div className="min-w-0 flex-1">
               <div className="flex items-center gap-2">
                 <h1 className="text-[16px] font-extrabold tracking-tight text-ink-900">
@@ -188,7 +188,7 @@ export default function TalentBriefPage() {
 
           <div className="mt-5 flex items-center justify-between border-t border-[#eef2f6] pt-2.5 text-[7.5px] text-ink-400">
             <span>
-              Dihasilkan otomatis dari Executive Command Center · Sumber: HRIS, SMK, People Math,
+              Dihasilkan otomatis dari Executive Operating System · Sumber: HRIS, SMK, People Math,
               HPI BEM
             </span>
             <span>Dokumen rahasia — jangan disebarluaskan</span>

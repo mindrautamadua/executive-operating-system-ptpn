@@ -1,6 +1,8 @@
 // Naikkan versi setiap kali shell aplikasi berubah (mis. menu/sidebar) agar
 // cache lama dibuang saat service worker baru aktif.
-const CACHE_NAME = "ecc-cache-v4";
+// v5: bump wajib setelah ikon ECC → EOS — tanpa ini pengguna PWA lama tetap
+// melihat ikon ECC dari precache.
+const CACHE_NAME = "eos-cache-v5";
 const OFFLINE_URL = "/";
 
 // Precache halaman utama + aset statis dasar.

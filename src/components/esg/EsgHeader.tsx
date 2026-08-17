@@ -8,7 +8,7 @@ export function EsgHeader() {
     <ModuleHeader
       icon={<Leaf size={19} strokeWidth={1.9} />}
       title="ESG & Sustainability"
-      subtitle={<>Command Center Keberlanjutan PTPN Group</>}
+      subtitle={<>Operating System Keberlanjutan PTPN Group</>}
       controls={
         <>
           <SelectBox label="Periode" value="Mei 2026 (YTD)" width="170px" />

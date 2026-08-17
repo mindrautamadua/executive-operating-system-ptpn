@@ -188,6 +188,52 @@ export const executiveTensions: ExecutiveTension[] = [
   },
 ];
 
+/* ── 1b3. Board Challenge Questions (Mode Komisaris) ──────────────── */
+
+export interface BoardChallenge {
+  issue: string;
+  /** Klaim manajemen yang sedang diuji Dekom. */
+  managementSays: string;
+  /** Pertanyaan pengawasan — menantang, bukan mengeksekusi. */
+  questions: string[];
+}
+
+/**
+ * Mode Komisaris membaca dashboard secara berbeda: bukan "apa yang harus
+ * saya lakukan" (itu Direksi), melainkan "pertanyaan apa yang harus saya
+ * ajukan ke Direksi". Tiap isu material membawa klaim manajemen + pertanyaan
+ * pengawasannya.
+ */
+export const boardChallenges: BoardChallenge[] = [
+  {
+    issue: "Pemulihan produksi Regional 4",
+    managementSays: `Menutup gap menambah laba bersih ± Rp 107 M disetahunkan (confidence 72%).`,
+    questions: [
+      "Apa buktinya gap bisa ditutup penuh dalam 12 bulan — dan asumsi mana yang paling rapuh?",
+      "Siapa yang memimpin pemulihan selama posisi Regional Head 4 masih kosong?",
+      "Apa downside bila pemulihan mundur dua kuartal, dan kapan kita tahu?",
+    ],
+  },
+  {
+    issue: "Value creation Rp 1,86 T",
+    managementSays: "44% target FY tercapai; efisiensi & hilirisasi driver utama.",
+    questions: [
+      "Berapa yang struktural vs market-driven — sustainable run-rate-nya berapa?",
+      "Leakage Rp 0,45 T: apa rencana penutupan dan siapa pemiliknya?",
+      "Bila ASP CPO kembali ke asumsi RKAP, apakah target FY Rp 4,2 T masih realistis?",
+    ],
+  },
+  {
+    issue: "3 keputusan Direksi overdue",
+    managementSays: "Restrukturisasi PG, divestasi, dan bioetanol dalam finalisasi.",
+    questions: [
+      "Apa yang sebenarnya menahan — informasi kurang atau keberanian memutus?",
+      "Biaya penundaan ± Rp 27 M/bulan (PG): sampai kapan bisa diterima?",
+      "Eskalasi apa yang Dekom perlu lakukan bila lewat satu siklus rapat lagi?",
+    ],
+  },
+];
+
 /* ── 1c. Posisi Pasar CPO: ASP vs spot → keputusan hedge ──────────── */
 
 const premiumSpotPct = ((PEMASARAN.cpoKpbnSpotRpKg - hargaGrup.CPO) / hargaGrup.CPO) * 100;

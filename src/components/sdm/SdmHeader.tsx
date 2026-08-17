@@ -69,7 +69,7 @@ export function SdmHeader() {
   return (
     <ModuleHeader
       icon={<LayoutDashboard size={19} strokeWidth={1.9} />}
-      title="HC Executive Command Center"
+      title="HC Executive Operating System"
       subtitle="Human Capital Intelligence for Sustainable Growth"
       controls={
         <>

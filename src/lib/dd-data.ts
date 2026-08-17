@@ -371,4 +371,4 @@ export const ddStats: DdStat[] = [
 ];
 
 export const ddFootnote =
-  "Setiap angka di Executive Command Center memiliki satu definisi, satu formula, satu pemilik, dan satu sumber resmi. Status Certified berarti definisi disetujui, sumber terverifikasi, dan kualitas data tervalidasi; Provisional berarti definisi disetujui namun validasi data masih berjalan. Perubahan definisi dikelola Data Governance Committee melalui review triwulanan.";
+  "Setiap angka di Executive Operating System memiliki satu definisi, satu formula, satu pemilik, dan satu sumber resmi. Status Certified berarti definisi disetujui, sumber terverifikasi, dan kualitas data tervalidasi; Provisional berarti definisi disetujui namun validasi data masih berjalan. Perubahan definisi dikelola Data Governance Committee melalui review triwulanan.";

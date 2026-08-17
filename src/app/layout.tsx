@@ -12,14 +12,14 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Executive Command Center — PTPN Group",
+  title: "Executive Operating System — PTPN Group",
   description: "BOD Dashboard PTPN Group",
-  applicationName: "ECC PTPN",
+  applicationName: "EOS PTPN",
   manifest: "/manifest.webmanifest",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "ECC PTPN",
+    title: "EOS PTPN",
   },
   icons: {
     icon: [

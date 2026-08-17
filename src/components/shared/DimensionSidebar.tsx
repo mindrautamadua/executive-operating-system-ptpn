@@ -117,7 +117,7 @@ export function DimensionSidebar({ sections, dataTrust, active, dimensionLabel }
                 PTPN <span className="text-ptpn-green">GROUP</span>
               </div>
               <div className="mt-[3px] whitespace-nowrap text-[7.5px] font-semibold text-ptpn-green">
-                Executive Command Center
+                Executive Operating System
               </div>
             </div>
           )}

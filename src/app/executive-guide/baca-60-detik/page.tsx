@@ -17,7 +17,7 @@ export default function Baca60DetikPage() {
   return (
     <GuideShell
       title="The 60-Second Executive Read"
-      subtitle="Cara membaca Executive Command Center dalam 60 detik"
+      subtitle="Cara membaca Executive Operating System dalam 60 detik"
       active="/executive-guide/baca-60-detik"
     >
       <div className="grid grid-cols-1 gap-3 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]">
@@ -48,7 +48,7 @@ export default function Baca60DetikPage() {
               Number → Delta → Driver → Impact → Action
             </GuideTitle>
             <p className="mb-3 text-[9.5px] leading-relaxed text-ink-500">
-              Satu pola untuk semua angka di Command Center. Contoh dengan EBITDA (angka hidup
+              Satu pola untuk semua angka di Operating System. Contoh dengan EBITDA (angka hidup
               dari data yang sama dengan dashboard):
             </p>
             <FlowList

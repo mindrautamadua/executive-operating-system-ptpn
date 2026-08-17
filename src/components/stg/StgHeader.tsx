@@ -8,7 +8,7 @@ export function StgHeader() {
     <ModuleHeader
       icon={<LineChart size={19} strokeWidth={1.9} />}
       title={<>Strategi &amp; Kinerja</>}
-      subtitle={<>Command Center Eksekusi Strategi &amp; Kinerja Korporat</>}
+      subtitle={<>Operating System Eksekusi Strategi &amp; Kinerja Korporat</>}
       controls={
         <>
           <SelectBox label="Periode" value="Mei 2026 (YTD)" width="170px" />

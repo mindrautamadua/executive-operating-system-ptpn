@@ -16,7 +16,7 @@ export function Header() {
   return (
     <ModuleHeader
       icon={<LayoutDashboard size={19} strokeWidth={1.9} />}
-      title="Executive Command Center"
+      title="Executive Operating System"
       subtitle="PTPN Group · Corporate Performance Intelligence"
       controls={
         <>

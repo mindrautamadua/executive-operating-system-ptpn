@@ -58,7 +58,9 @@ export default function PerbandinganTalentaPage() {
                               k.utama ? "bg-ptpn-greenLight" : ""
                             }`}
                           >
-                            <PersonAvatar seed={k.seed} size={26} />
+                            {/* name wajib: gender foto diturunkan dari nama
+                                sehingga foto & nama tidak bertentangan. */}
+                            <PersonAvatar seed={k.seed} name={k.nama} size={26} />
                             <div className="min-w-0 leading-tight">
                               <div className="flex items-center gap-1.5">
                                 <span className="truncate text-[9.5px] font-extrabold text-ink-900">

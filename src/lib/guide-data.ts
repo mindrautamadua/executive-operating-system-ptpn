@@ -42,7 +42,7 @@ export const GUIDE_TAGLINE =
 
 export const GUIDE_INTRO =
   "Executive Guide bukan panduan memakai aplikasi, melainkan panduan membaca " +
-  "perusahaan melalui Executive Command Center: cara membaca sinyal, memahami " +
+  "perusahaan melalui Executive Operating System: cara membaca sinyal, memahami " +
   "dampak bisnis, dan mengambil keputusan yang lebih baik.";
 
 /* ── Landing: empat kartu pintu masuk ─────────────────────────────── */
@@ -60,7 +60,7 @@ export const guideLandingCards: GuideLandingCard[] = [
     num: "01",
     tag: "START HERE",
     title: "Baca 60 Detik",
-    desc: "Cara membaca Executive Command Center dalam 60 detik: urutan enam langkah dari Data Trust sampai keputusan.",
+    desc: "Cara membaca Executive Operating System dalam 60 detik: urutan enam langkah dari Data Trust sampai keputusan.",
     href: "/executive-guide/baca-60-detik",
   },
   {

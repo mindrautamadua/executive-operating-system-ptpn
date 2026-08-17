@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ChevronLeft } from "lucide-react";
 import { ExportButton, ModuleHeader, SelectBox } from "@/components/ui/ModuleHeader";
 
-/** Header standar halaman detail kartu HC Executive Command Center (SDM & Talenta). */
+/** Header standar halaman detail kartu HC Executive Operating System (SDM & Talenta). */
 export function SdmDetailHeader({
   icon,
   title,
@@ -13,7 +13,7 @@ export function SdmDetailHeader({
   stat,
   breadcrumb,
   backHref = "/sdm-talenta",
-  backLabel = "HC Command Center",
+  backLabel = "HC Operating System",
 }: {
   icon: ReactNode;
   title: string;

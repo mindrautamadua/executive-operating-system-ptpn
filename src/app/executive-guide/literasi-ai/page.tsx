@@ -25,7 +25,7 @@ export default function LiterasiAiPage() {
             Tangga dari Informasi ke Keputusan
           </GuideTitle>
           <p className="mb-3 text-[9.5px] leading-relaxed text-ink-500">
-            Inti filosofi Executive Command Center: enam tingkat yang tidak boleh saling menyamar.
+            Inti filosofi Executive Operating System: enam tingkat yang tidak boleh saling menyamar.
             Contoh dengan harga CPO (angka dari data dashboard):
           </p>
           <FlowList

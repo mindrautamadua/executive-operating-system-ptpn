@@ -335,7 +335,7 @@ export const initiatives: StrategicInitiative[] = [
   },
   {
     id: "STG-22",
-    name: "Command Center & Analitik Eksekutif",
+    name: "Operating System & Analitik Eksekutif",
     theme: "Digital",
     owner: "Holding",
     progress: 76,

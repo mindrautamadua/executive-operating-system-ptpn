@@ -1,7 +1,7 @@
 import type { BarRow, DetailKpi, DetailNote } from "@/components/wa/detail/parts";
 
 /**
- * Data halaman detail kartu HC Executive Command Center (SDM & Talenta):
+ * Data halaman detail kartu HC Executive Operating System (SDM & Talenta):
  * Strategic Alignment, BOD Decision Center, dan Alerts & Notifications.
  *
  * Seluruh angka konsisten dengan seed kartu di `hc-data.ts` (72.318 kebutuhan,

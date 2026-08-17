@@ -1,7 +1,7 @@
 import { BASELINE_TRUST, KEUANGAN, RKAP_YTD, SDM } from "./group-baseline";
 import type { DimensionDataTrust } from "./dimension-menu";
 /**
- * Data statis halaman HC Executive Command Center (/sdm-talenta).
+ * Data statis halaman HC Executive Operating System (/sdm-talenta).
  * Periode acuan: Mei 2026 (YTD). Metrik yang dikutip lintas halaman
  * (produktivitas, turnover, engagement) diturunkan dari group-baseline —
  * satu definisi, satu formula, satu angka di semua halaman.
