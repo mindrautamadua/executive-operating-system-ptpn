@@ -21,8 +21,16 @@ const KIND_COLOR: Record<WfStep["kind"], string> = {
 };
 
 /** Tick dua baris (label dipisah "\n"). */
-function MultilineTick({ x, y, payload }: any) {
-  const lines = String(payload.value).split("\n");
+function MultilineTick({
+  x = 0,
+  y = 0,
+  payload,
+}: {
+  x?: number;
+  y?: number;
+  payload?: { value: string | number };
+}) {
+  const lines = String(payload?.value).split("\n");
   return (
     <text x={x} y={y + 8} textAnchor="middle" fontSize={7} fill="var(--chart-tick)">
       {lines.map((line: string, i: number) => (
@@ -75,8 +83,14 @@ export function WorkforceWaterfall() {
             <Tooltip
               cursor={{ fill: "rgba(148,163,184,0.08)" }}
               contentStyle={CHART_TOOLTIP_STYLE}
-              formatter={(v: number, _n: string, item: any) =>
-                item?.dataKey === "base" ? [null, null] : [item.payload.label, "Kontribusi"]
+              formatter={(
+                v: number,
+                _n: string,
+                item: { dataKey?: string | number; payload?: { label: string } },
+              ) =>
+                item?.dataKey === "base"
+                  ? [null, null]
+                  : [item?.payload?.label, "Kontribusi"]
               }
             />
             {/* dasar transparan agar bar delta "melayang" ala waterfall */}

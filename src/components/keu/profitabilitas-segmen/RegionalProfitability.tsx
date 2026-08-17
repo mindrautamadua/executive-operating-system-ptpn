@@ -67,8 +67,8 @@ export function RegionalProfitability() {
             <Tooltip
               cursor={{ fill: "rgba(148,163,184,0.08)" }}
               contentStyle={CHART_TOOLTIP_STYLE}
-              formatter={(v: number, _n: string, item: any) => [
-                `Rp ${fmtId(v, 1)} jt/ha · yield ${fmtId(item.payload.yieldTbsTonHa, 1)} ton/ha`,
+              formatter={(v: number, _n: string, item: { payload?: { yieldTbsTonHa?: number } }) => [
+                `Rp ${fmtId(v, 1)} jt/ha · yield ${fmtId(item.payload?.yieldTbsTonHa ?? 0, 1)} ton/ha`,
                 "EBITDA/ha",
               ]}
             />

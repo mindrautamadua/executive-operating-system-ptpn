@@ -18,8 +18,16 @@ import { CHART_AXIS, CHART_TOOLTIP_STYLE, PALETTE, SEMANTIC } from "@/lib/chart-
 import { useSubholding } from "@/components/SubholdingProvider";
 import { SectionHead } from "../../hc/SectionHead";
 
-function MultilineTick({ x, y, payload }: any) {
-  const lines = String(payload.value).split(" ");
+function MultilineTick({
+  x = 0,
+  y = 0,
+  payload,
+}: {
+  x?: number;
+  y?: number;
+  payload?: { value: string | number };
+}) {
+  const lines = String(payload?.value).split(" ");
   return (
     <text x={x} y={y + 8} textAnchor="middle" fontSize={7} fill="var(--chart-tick)">
       {lines.map((line: string, i: number) => (
@@ -83,8 +91,8 @@ export function SgnMillProfitability() {
             <Tooltip
               cursor={{ fill: "rgba(148,163,184,0.08)" }}
               contentStyle={CHART_TOOLTIP_STYLE}
-              formatter={(v: number, _n: string, item: any) => [
-                `${fmtId(v, 1)}% · ${item.payload.pgRugi}/${item.payload.pgCount} PG rugi · rendemen ${fmtId(item.payload.rendemenPct, 1)}%`,
+              formatter={(v: number, _n: string, item: { payload?: { pgRugi?: number; pgCount?: number; rendemenPct?: number } }) => [
+                `${fmtId(v, 1)}% · ${item.payload?.pgRugi}/${item.payload?.pgCount} PG rugi · rendemen ${fmtId(item.payload?.rendemenPct ?? 0, 1)}%`,
                 "Margin EBITDA",
               ]}
             />

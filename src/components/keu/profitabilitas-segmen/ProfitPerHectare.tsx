@@ -91,9 +91,9 @@ export function ProfitPerHectare() {
             <Tooltip
               contentStyle={CHART_TOOLTIP_STYLE}
               cursor={{ strokeDasharray: "3 3" }}
-              formatter={(v: number, name: string, item: any) =>
+              formatter={(v: number, name: string, item: { payload?: { regional?: string } }) =>
                 name === "costPerHaRpJt"
-                  ? [`Rp ${fmtId(v, 1)} jt/ha — ${item.payload.regional}`, "Biaya Kebun"]
+                  ? [`Rp ${fmtId(v, 1)} jt/ha — ${item.payload?.regional}`, "Biaya Kebun"]
                   : name === "yieldTbsTonHa"
                     ? [`${fmtId(v, 1)} ton/ha`, "Yield TBS"]
                     : [`${fmtId(v, 1)} rb ha`, "Luas Tertanam"]

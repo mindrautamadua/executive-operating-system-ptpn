@@ -22,13 +22,19 @@ const SERIES: Record<string, string> = {
 };
 
 /** Label gap merah di dasar bar Demand. */
-function GapLabel(props: any) {
-  const { x, y, width, height, index } = props;
+function GapLabel(props: {
+  x?: number | string;
+  y?: number | string;
+  width?: number | string;
+  height?: number | string;
+  index?: number;
+}) {
+  const { x = 0, y = 0, width = 0, height = 0, index } = props;
   if (index == null) return null;
   return (
     <text
-      x={x + width + 4}
-      y={y + height - 5}
+      x={Number(x) + Number(width) + 4}
+      y={Number(y) + Number(height) - 5}
       fill={PALETTE.red}
       fontSize={8}
       fontWeight={700}

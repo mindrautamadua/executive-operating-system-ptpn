@@ -52,8 +52,8 @@ export function DebtMaturityProfile() {
             <Tooltip
               cursor={{ fill: "rgba(148,163,184,0.08)" }}
               contentStyle={CHART_TOOLTIP_STYLE}
-              formatter={(v: number, _n: string, item: any) => [
-                `Rp ${fmtId(v, 1)} T${item.payload.peak ? " · puncak refinancing" : ""}`,
+              formatter={(v: number, _n: string, item: { payload?: { peak?: boolean } }) => [
+                `Rp ${fmtId(v, 1)} T${item.payload?.peak ? " · puncak refinancing" : ""}`,
                 "Pokok Jatuh Tempo",
               ]}
             />

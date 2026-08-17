@@ -51,8 +51,8 @@ export function PayablesMaturity() {
             <Tooltip
               cursor={{ fill: "rgba(148,163,184,0.08)" }}
               contentStyle={CHART_TOOLTIP_STYLE}
-              formatter={(v: number, _n: string, item: any) => [
-                `Rp ${fmtId(v, 1)} T — ${item.payload.keterangan}`,
+              formatter={(v: number, _n: string, item: { payload?: { keterangan: string } }) => [
+                `Rp ${fmtId(v, 1)} T — ${item.payload?.keterangan}`,
                 "Jatuh Tempo",
               ]}
             />

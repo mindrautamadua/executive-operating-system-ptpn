@@ -84,8 +84,8 @@ export function CostPerRegional() {
             <Tooltip
               cursor={{ fill: "rgba(148,163,184,0.08)" }}
               contentStyle={CHART_TOOLTIP_STYLE}
-              formatter={(v: number, _n: string, item: any) => [
-                `Rp ${ribuan(v)}/kg (${item.payload.gapRpKg > 0 ? "+" : ""}${ribuan(item.payload.gapRpKg)} vs target)`,
+              formatter={(v: number, _n: string, item: { payload?: { gapRpKg?: number } }) => [
+                `Rp ${ribuan(v)}/kg (${(item.payload?.gapRpKg ?? 0) > 0 ? "+" : ""}${ribuan(item.payload?.gapRpKg ?? 0)} vs target)`,
                 "HPP/kg CPO",
               ]}
             />

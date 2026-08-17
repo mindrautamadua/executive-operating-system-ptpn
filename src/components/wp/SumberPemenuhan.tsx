@@ -11,8 +11,22 @@ import { NotePill } from "./NotePill";
 const RAD = Math.PI / 180;
 
 /** Label persentase di dalam slice donut. */
-function renderPctLabel(props: any) {
-  const { cx, cy, midAngle, innerRadius, outerRadius, index } = props;
+function renderPctLabel(props: {
+  cx?: number;
+  cy?: number;
+  midAngle?: number;
+  innerRadius?: number;
+  outerRadius?: number;
+  index?: number;
+}) {
+  const {
+    cx = 0,
+    cy = 0,
+    midAngle = 0,
+    innerRadius = 0,
+    outerRadius = 0,
+    index = 0,
+  } = props;
   const r = (innerRadius + outerRadius) / 2;
   const x = cx + r * Math.cos(-midAngle * RAD);
   const y = cy + r * Math.sin(-midAngle * RAD);
@@ -60,8 +74,8 @@ export function SumberPemenuhan() {
                 label={renderPctLabel}
                 labelLine={false}
                 activeIndex={active ?? undefined}
-                activeShape={(props: any) => (
-                  <Sector {...props} outerRadius={props.outerRadius + 4} />
+                activeShape={(props: { outerRadius?: number }) => (
+                  <Sector {...props} outerRadius={(props.outerRadius ?? 0) + 4} />
                 )}
                 onMouseEnter={(_, i) => setActive(i)}
                 onMouseLeave={() => setActive(null)}

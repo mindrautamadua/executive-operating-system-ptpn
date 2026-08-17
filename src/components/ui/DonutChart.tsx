@@ -70,8 +70,8 @@ export function DonutChart({
             animationBegin={200}
             animationDuration={700}
             activeIndex={active ?? undefined}
-            activeShape={(props: any) => (
-              <Sector {...props} outerRadius={props.outerRadius + 4} />
+            activeShape={(props: { outerRadius?: number }) => (
+              <Sector {...props} outerRadius={(props.outerRadius ?? 0) + 4} />
             )}
             onMouseEnter={(_, i) => setHover(i)}
             onMouseLeave={() => setHover(null)}
