@@ -6,6 +6,7 @@ import { ChevronLeft, LayoutGrid, PanelLeftClose, PanelLeftOpen } from "lucide-r
 import { PtpnLogo } from "../PtpnLogo";
 import { useSubholding } from "@/components/SubholdingProvider";
 import { useSidebarCollapsed } from "@/components/shared/useSidebarCollapsed";
+import { ModeNavBlock } from "@/components/shared/ModeNavBlock";
 import type {
   DimensionDataTrust,
   DimensionMenuItem,
@@ -146,6 +147,7 @@ export function DimensionSidebar({ sections, dataTrust, active, dimensionLabel }
       </div>
 
       <nav className="scroll-thin min-h-0 flex-1 overflow-y-auto px-2.5 pb-2 pt-2">
+        <ModeNavBlock collapsed={collapsed} />
         {sections.map((section, si) => (
           <div key={section.title ?? si}>
             {section.title &&

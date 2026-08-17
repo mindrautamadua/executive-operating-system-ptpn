@@ -8,7 +8,18 @@ import { PtpnLogo } from "./PtpnLogo";
 import { BOARD_NAV_SECTIONS, CEO_NAV_SECTIONS, NAV_SECTIONS } from "@/lib/nav";
 import { dataTrust } from "@/lib/hc-data";
 import { useSidebarCollapsed } from "@/components/shared/useSidebarCollapsed";
-import { useNavMode, type NavMode } from "@/components/shared/useNavMode";
+import {
+  CEO_MODE_ENABLED,
+  KOMISARIS_MODE_ENABLED,
+  useNavMode,
+  type NavMode,
+} from "@/components/shared/useNavMode";
+
+const MODE_OPTIONS: { id: NavMode; label: string }[] = [
+  ...(CEO_MODE_ENABLED ? [{ id: "ceo" as const, label: "CEO" }] : []),
+  { id: "fungsional", label: "Fungsional" },
+  ...(KOMISARIS_MODE_ENABLED ? [{ id: "komisaris" as const, label: "Dekom" }] : []),
+];
 
 export function Sidebar() {
   const pathname = usePathname();
@@ -54,15 +65,9 @@ export function Sidebar() {
       </div>
 
       {/* mode navigasi: CEO (tujuh pintu keputusan) vs fungsional (per dimensi) */}
-      {!collapsed && (
+      {!collapsed && MODE_OPTIONS.length > 1 && (
         <div className="mx-3 mb-1.5 flex rounded-lg bg-[#f0f3f6] p-[3px]">
-          {(
-            [
-              { id: "ceo", label: "CEO" },
-              { id: "fungsional", label: "Fungsional" },
-              { id: "komisaris", label: "Dekom" },
-            ] as { id: NavMode; label: string }[]
-          ).map((m) => (
+          {MODE_OPTIONS.map((m) => (
             <button
               key={m.id}
               type="button"

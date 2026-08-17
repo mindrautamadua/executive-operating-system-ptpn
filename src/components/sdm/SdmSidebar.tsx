@@ -7,6 +7,7 @@ import { PtpnLogo } from "../PtpnLogo";
 import { SDM_MENU_SECTIONS, type SdmMenuItem } from "@/lib/sdm-menu";
 import { dataTrust } from "@/lib/hc-data";
 import { useSidebarCollapsed } from "@/components/shared/useSidebarCollapsed";
+import { ModeNavBlock } from "@/components/shared/ModeNavBlock";
 
 interface Props {
   /** Override label menu aktif. Default: dicocokkan dari URL. */
@@ -126,6 +127,7 @@ export function SdmSidebar({ active }: Props) {
       </div>
 
       <nav className="scroll-thin min-h-0 flex-1 overflow-y-auto px-2.5 pb-2 pt-2">
+        <ModeNavBlock collapsed={collapsed} />
         {SDM_MENU_SECTIONS.map((section, si) => (
           <div key={section.title ?? si}>
             {section.title &&
