@@ -37,7 +37,7 @@ export function UnionRelationsHealth() {
           <span className="min-w-0 leading-tight">
             <span className="block text-[13px] font-extrabold text-ink-900">
               {unionIntelTotals.bipartiteIndex}
-              <span className="text-[8px] font-bold text-ink-400">/100</span>
+              <span className="text-[9px] font-bold text-ink-500">/100</span>
             </span>
             <span className="block truncate text-[7.5px] text-ink-500">
               {unionIntelTotals.bipartiteCaption} · {unionIntelTotals.bipartiteNote}
@@ -46,7 +46,7 @@ export function UnionRelationsHealth() {
         </div>
       </div>
 
-      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_46px_36px_44px_52px] items-center gap-x-1.5 border-b border-[#eef2f6] pb-1.5 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_46px_36px_44px_52px] items-center gap-x-1.5 border-b border-[#eef2f6] pb-1.5 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Serikat</span>
         <span className="text-right">Anggota</span>
         <span className="text-center">Kasus</span>
@@ -81,7 +81,7 @@ export function UnionRelationsHealth() {
             </span>
             <span className="text-center">
               <span
-                className={`inline-block rounded-md px-1.5 py-[2px] text-[8px] font-bold ${RISK_STYLE[u.risk]}`}
+                className={`inline-block rounded-md px-1.5 py-[2px] text-[9px] font-bold ${RISK_STYLE[u.risk]}`}
               >
                 {u.risk}
               </span>

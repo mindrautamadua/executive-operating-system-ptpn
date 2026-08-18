@@ -30,7 +30,7 @@ export function QuickAccess() {
             >
               <Icon size={13} strokeWidth={1.9} />
             </span>
-            <span className="text-[8px] font-bold leading-[1.3] text-ink-700">{label}</span>
+            <span className="text-[9px] font-bold leading-[1.3] text-ink-700">{label}</span>
           </button>
         ))}
       </div>

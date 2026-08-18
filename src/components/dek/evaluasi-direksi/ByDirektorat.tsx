@@ -66,7 +66,7 @@ export function ByDirektorat() {
                 >
                   {d.kpiMerah}
                 </td>
-                <td className="border-b border-[#f3f6f9] py-[5px] pr-2 text-[8px] leading-snug text-ink-500">
+                <td className="border-b border-[#f3f6f9] py-[5px] pr-2 text-[9px] leading-snug text-ink-500">
                   {d.catatanPengawasan}
                 </td>
                 <td className="border-b border-[#f3f6f9] py-[5px]">

@@ -9,7 +9,7 @@ function StatusBadge({ status }: { status: "Aktif" | "Draft" }) {
       : "bg-[#eef2f6] text-ink-500";
   return (
     <span
-      className={`inline-flex items-center justify-center rounded-full px-2 py-[2px] text-[8px] font-bold ${cls}`}
+      className={`inline-flex items-center justify-center rounded-full px-2 py-[2px] text-[9px] font-bold ${cls}`}
     >
       {status}
     </span>
@@ -35,7 +35,7 @@ export function ScenarioManager() {
         </button>
       </div>
 
-      <div className="mt-2 grid grid-cols-[86px_minmax(0,1fr)_78px_44px_84px] items-center gap-x-2 border-b border-[#eef2f6] pb-1.5 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[86px_minmax(0,1fr)_78px_44px_84px] items-center gap-x-2 border-b border-[#eef2f6] pb-1.5 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Skenario</span>
         <span>Deskripsi</span>
         <span>Tipe</span>

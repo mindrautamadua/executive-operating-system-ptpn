@@ -57,7 +57,7 @@ export function RiskHeatmapOrg() {
       <SectionHead title="Risk Heatmap by Organization" />
       <p className="mt-[3px] text-[9px] text-ink-500">Peta Risiko per Sub Holding / Regional</p>
 
-      <div className="mt-2.5 grid grid-cols-[minmax(0,1fr)_30px_40px_28px_32px_36px] items-center gap-x-1 border-b border-[#eef2f6] pb-1.5 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2.5 grid grid-cols-[minmax(0,1fr)_30px_40px_28px_32px_36px] items-center gap-x-1 border-b border-[#eef2f6] pb-1.5 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Organisasi</span>
         <span className="text-center">High</span>
         <span className="text-center">Medium</span>

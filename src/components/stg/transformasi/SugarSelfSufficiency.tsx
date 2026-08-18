@@ -45,7 +45,7 @@ export function SugarSelfSufficiency() {
       </p>
 
       {luarCakupan && (
-        <p className="mt-1 text-[8px] text-ink-400">
+        <p className="mt-1 text-[9px] text-ink-500">
           Program gula sepenuhnya wilayah SugarCo (SGN) — angka di bawah bukan bagian dari cakupan
           yang sedang dipilih.
         </p>
@@ -105,7 +105,7 @@ export function SugarSelfSufficiency() {
       </div>
 
       <p
-        className="mt-1 text-[8px] leading-snug text-ink-400 transition-opacity"
+        className="mt-1 text-[9px] leading-snug text-ink-500 transition-opacity"
         style={{ opacity: luarCakupan ? 0.25 : 1 }}
       >
         {sugarGapNote.catatan}

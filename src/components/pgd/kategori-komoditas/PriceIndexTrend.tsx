@@ -42,7 +42,7 @@ export function PriceIndexTrend() {
               dataKey="month"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={3}
             />
             <YAxis
@@ -74,7 +74,7 @@ export function PriceIndexTrend() {
               label={{
                 value: "Asumsi RKAP 2026",
                 position: "insideBottomRight",
-                fontSize: 7.5,
+                fontSize: 8.5,
                 fill: PALETTE.amber,
               }}
             />
@@ -94,7 +94,7 @@ export function PriceIndexTrend() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Seluruh komoditas melewati garis asumsi RKAP sejak Q1 2025; NPK tertinggi (106,0) dan
         menekan komponen biaya pemeliharaan tanaman.
       </p>

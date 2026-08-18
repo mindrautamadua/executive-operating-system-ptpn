@@ -80,7 +80,7 @@ export function HseKpiStrip() {
                 )}
               </div>
               {k.flag && (
-                <div className="mt-[5px] inline-flex items-center gap-1 rounded-md bg-[#fdecec] px-1.5 py-[2px] text-[8px] font-extrabold uppercase tracking-[0.04em] text-[#ef4444]">
+                <div className="mt-[5px] inline-flex items-center gap-1 rounded-md bg-[#fdecec] px-1.5 py-[2px] text-[9px] font-extrabold uppercase tracking-[0.04em] text-[#ef4444]">
                   {k.flag}
                 </div>
               )}

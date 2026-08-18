@@ -98,7 +98,7 @@ export function TingkatOrganisasi() {
             >
               <span className="text-[9px] text-ink-500">{b.level}</span>
               <span className="text-[9.5px] font-bold text-ink-900">{b.value}</span>
-              <span className="text-[9px] text-ink-400">({b.pct})</span>
+              <span className="text-[9px] text-ink-500">({b.pct})</span>
             </div>
           ))}
         </div>

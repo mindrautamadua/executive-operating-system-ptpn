@@ -38,11 +38,11 @@ export function GovernanceMaturity() {
         <ResponsiveContainer width="100%" height="100%">
           <RadarChart data={radarData} margin={{ top: 6, right: 24, bottom: 2, left: 24 }}>
             <PolarGrid stroke={CHART_AXIS.grid} />
-            <PolarAngleAxis dataKey="dimensi" tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }} />
+            <PolarAngleAxis dataKey="dimensi" tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }} />
             <PolarRadiusAxis
               domain={[0, 5]}
               tickCount={6}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               axisLine={false}
             />
             <Tooltip
@@ -70,7 +70,7 @@ export function GovernanceMaturity() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Master &amp; Reference Data terlemah (2,6) — persis penyebab tertundanya rollout ERP modul
         kebun.
       </p>

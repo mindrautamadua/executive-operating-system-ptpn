@@ -47,7 +47,7 @@ export function ImpactWaterfall() {
               dataKey="name"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
               tickFormatter={(v: string) => (v === "Digital & Data" ? "Digital" : v)}
             />
@@ -84,7 +84,7 @@ export function ImpactWaterfall() {
                       x={x + width / 2}
                       y={y - 5}
                       textAnchor="middle"
-                      style={{ fontSize: 7.5, fill: "#64748b", fontWeight: 700 }}
+                      style={{ fontSize: 8.5, fill: "#64748b", fontWeight: 700 }}
                     >
                       {value}
                     </text>

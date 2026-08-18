@@ -55,7 +55,7 @@ export function PmKpiStrip() {
             <div className="mt-2.5 whitespace-nowrap text-[19px] font-extrabold leading-none tracking-[-0.01em] text-ink-900">
               {k.value}
               {k.unit && (
-                <span className="ml-[3px] text-[10px] font-semibold text-ink-400">{k.unit}</span>
+                <span className="ml-[3px] text-[10px] font-semibold text-ink-500">{k.unit}</span>
               )}
             </div>
             <div className="mt-[4px] truncate text-[8.5px] text-ink-500" title={k.sub}>

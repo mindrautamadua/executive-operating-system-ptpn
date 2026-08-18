@@ -41,7 +41,7 @@ export function IncidentByCause() {
               dataKey="penyebab"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -69,7 +69,7 @@ export function IncidentByCause() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Faktor perilaku &amp; pengawasan (tindakan tidak aman 40,5%) melampaui faktor infrastruktur
         (kondisi tidak aman 25,0%) — intervensi utama ada pada observasi mandor, bukan belanja modal.
       </p>

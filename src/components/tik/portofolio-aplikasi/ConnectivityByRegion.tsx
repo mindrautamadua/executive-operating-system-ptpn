@@ -101,14 +101,14 @@ export function ConnectivityByRegion() {
                 position="top"
                 offset={5}
                 formatter={(v: React.ReactNode) => `${v}%`}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Regional 7 (62%, VSAT &amp; seluler) dan Regional 5 (72%) berstatus terbatas/kritis — 151
         kebun terpencil menahan rata-rata grup di 82%.
       </p>

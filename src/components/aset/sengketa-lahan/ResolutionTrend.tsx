@@ -77,14 +77,14 @@ export function ResolutionTrend() {
                 position="top"
                 offset={6}
                 formatter={(v: number) => num(v)}
-                style={{ fontSize: 7.5, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Line>
           </LineChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 line-clamp-2 text-[8px] leading-snug text-ink-400">{resolutionNote}</p>
+      <p className="mt-1 line-clamp-2 text-[9px] leading-snug text-ink-500">{resolutionNote}</p>
     </div>
   );
 }

@@ -81,7 +81,7 @@ export function HppWaterfall() {
               dataKey="name"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -89,7 +89,7 @@ export function HppWaterfall() {
               ticks={[0, 2500, 5000, 7500, 10000]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => `${v / 1000}K`}
               width={30}
             />
@@ -101,7 +101,7 @@ export function HppWaterfall() {
               label={{
                 value: "Target 8.700",
                 position: "insideTopLeft",
-                fontSize: 7.5,
+                fontSize: 8.5,
                 fontWeight: 700,
                 fill: PALETTE.amber,
               }}
@@ -129,14 +129,14 @@ export function HppWaterfall() {
                 position="top"
                 offset={4}
                 formatter={(v: number) => v.toLocaleString("id-ID")}
-                style={{ fontSize: 7.5, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 line-clamp-2 text-[8px] leading-snug text-ink-400">{hppNote}</p>
+      <p className="mt-1 line-clamp-2 text-[9px] leading-snug text-ink-500">{hppNote}</p>
         </>
       )}
     </div>

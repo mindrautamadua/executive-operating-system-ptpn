@@ -42,7 +42,7 @@ export function AdvocacyAgenda() {
                 <div className="truncate text-[9.5px] font-bold text-ink-900" title={a.isu}>
                   {a.isu}
                 </div>
-                <div className="mt-[2px] text-[8px] text-ink-400">{a.regulasi}</div>
+                <div className="mt-[2px] text-[9px] text-ink-500">{a.regulasi}</div>
               </div>
               <ToneBadge label={a.status} tone={STATUS_TONE[a.status]} />
             </div>
@@ -50,19 +50,19 @@ export function AdvocacyAgenda() {
             <p className="mt-[4px] text-[8.5px] leading-snug text-ink-500">{a.posisiPerusahaan}</p>
 
             <div className="mt-[4px] flex items-center justify-between gap-2">
-              <span className="min-w-0 truncate text-[8px] font-semibold text-ink-700">
+              <span className="min-w-0 truncate text-[9px] font-semibold text-ink-700">
                 Dampak: {a.dampak}
               </span>
               {a.href && a.hrefLabel && (
                 <Link
                   href={a.href}
-                  className="inline-flex shrink-0 items-center gap-1 text-[8px] font-semibold text-ptpn-green hover:underline"
+                  className="inline-flex shrink-0 items-center gap-1 text-[9px] font-semibold text-ptpn-green hover:underline"
                 >
                   {a.hrefLabel} <ArrowRight size={9} />
                 </Link>
               )}
             </div>
-            <div className="mt-[2px] truncate text-[8px] text-ink-400">Kanal: {a.kanal}</div>
+            <div className="mt-[2px] truncate text-[9px] text-ink-500">Kanal: {a.kanal}</div>
           </div>
         ))}
       </div>

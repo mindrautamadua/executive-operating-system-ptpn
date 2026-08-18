@@ -47,7 +47,7 @@ export function StokTrendChart() {
               dataKey="minggu"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -76,7 +76,7 @@ export function StokTrendChart() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 truncate text-[8px] text-ink-400" title={stokTrendNote}>
+      <p className="mt-1 truncate text-[9px] text-ink-500" title={stokTrendNote}>
         {stokTrendNote}
       </p>
       </>

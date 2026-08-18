@@ -26,7 +26,7 @@ export function IrDisruptionBanner() {
           </h3>
           <span className="flex items-baseline gap-1">
             <span className="text-[17px] font-extrabold leading-none text-ink-900">82,6</span>
-            <span className="text-[9px] font-bold text-ink-400">/100</span>
+            <span className="text-[9px] font-bold text-ink-500">/100</span>
           </span>
         </div>
 
@@ -73,8 +73,8 @@ export function IrDisruptionBanner() {
             <span className="text-[17px] font-extrabold leading-none text-ptpn-green">
               {irDisruption.score}
             </span>
-            <span className="text-[9px] font-bold text-ink-400">/100</span>
-            <span className="ml-1 rounded-md bg-ptpn-greenLight px-1.5 py-[2px] text-[8px] font-bold text-ptpn-green">
+            <span className="text-[9px] font-bold text-ink-500">/100</span>
+            <span className="ml-1 rounded-md bg-ptpn-greenLight px-1.5 py-[2px] text-[9px] font-bold text-ptpn-green">
               {irDisruption.category}
             </span>
           </span>
@@ -109,7 +109,7 @@ export function IrDisruptionBanner() {
               {d}
             </span>
           ))}
-          <span className="ml-auto text-[8px] font-semibold text-ptpn-green">
+          <span className="ml-auto text-[9px] font-semibold text-ptpn-green">
             {irDisruption.delta}
           </span>
         </div>

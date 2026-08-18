@@ -53,7 +53,7 @@ export function KinerjaSdm() {
         mengancam eksekusi strategi bila suksesinya tidak siap.
       */}
       <div className="mt-1.5 rounded-lg bg-[#fdf5f5] px-2 py-1.5">
-        <div className="text-[8px] font-extrabold uppercase tracking-[0.05em] text-[#ef4444]">
+        <div className="text-[9px] font-extrabold uppercase tracking-[0.05em] text-[#ef4444]">
           Risiko Suksesi Posisi Kritikal
         </div>
         <div className="mt-[3px] flex flex-col gap-[2px]">

@@ -45,7 +45,7 @@ export function HeadcountTrend() {
               dataKey="name"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={2}
               tickFormatter={(v: string) => v.replace(" 20", " ")}
             />
@@ -87,7 +87,7 @@ export function HeadcountTrend() {
                       x={x}
                       y={y - 8}
                       textAnchor="end"
-                      style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                      style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
                     >
                       {ribuan(value ?? 0)}
                     </text>

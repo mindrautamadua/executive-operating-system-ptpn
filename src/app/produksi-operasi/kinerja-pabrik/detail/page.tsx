@@ -262,7 +262,7 @@ export default function KinerjaPabrikDetailPage() {
                       ))}
                     </tbody>
                   </table>
-                  <p className="mt-1.5 text-[8px] leading-snug text-ink-400">{catatan}</p>
+                  <p className="mt-1.5 text-[9px] leading-snug text-ink-500">{catatan}</p>
                 </div>
               ))}
             </div>

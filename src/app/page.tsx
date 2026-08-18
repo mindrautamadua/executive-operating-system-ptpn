@@ -55,13 +55,13 @@ function LayerBand({
 }) {
   return (
     <div className="mb-2 mt-4 flex items-center gap-2">
-      <span className="rounded bg-[#1b3a6b] px-1.5 py-[2px] text-[8px] font-extrabold tracking-[0.06em] text-white">
+      <span className="rounded bg-[#1b3a6b] px-1.5 py-[2px] text-[9px] font-extrabold tracking-[0.06em] text-white">
         LAYER {n}
       </span>
       <h2 className="text-[10px] font-extrabold uppercase tracking-[0.05em] text-ink-900">
         {code}
       </h2>
-      <span className="text-[9px] italic text-ink-400">{question}</span>
+      <span className="text-[9px] italic text-ink-500">{question}</span>
       <span className="h-px flex-1 bg-[#e3e9ef]" />
     </div>
   );

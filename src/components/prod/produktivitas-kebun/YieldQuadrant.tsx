@@ -61,7 +61,7 @@ export function YieldQuadrant() {
               ticks={[11, 13, 15, 17]}
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => `${v} th`}
             />
             <YAxis
@@ -71,7 +71,7 @@ export function YieldQuadrant() {
               ticks={[17, 19, 21, 23, 25]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <ReferenceLine
               y={YIELD_GRUP_TON_HA}
@@ -105,14 +105,14 @@ export function YieldQuadrant() {
                 dataKey="name"
                 position="top"
                 offset={5}
-                style={{ fontSize: 7, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Scatter>
           </ScatterChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 truncate text-[8px] text-ink-400">
+      <p className="mt-1 truncate text-[9px] text-ink-500">
         Kanan-bawah = tua &amp; rendah (R6–R7): prioritas replanting.
       </p>
         </>

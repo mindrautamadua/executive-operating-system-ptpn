@@ -31,7 +31,7 @@ export function StokVsHargaCard() {
       <>
       <div className="mt-2 grid grid-cols-2 gap-2">
         <div className="rounded-lg border border-[#eef2f6] bg-[#fbfcfd] px-2.5 py-2">
-          <div className="text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+          <div className="text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
             Spot KPBN
           </div>
           <div className="mt-1 text-[13px] font-extrabold leading-none text-ptpn-green">
@@ -39,7 +39,7 @@ export function StokVsHargaCard() {
           </div>
         </div>
         <div className="rounded-lg border border-[#eef2f6] bg-[#fbfcfd] px-2.5 py-2">
-          <div className="text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+          <div className="text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
             Rata-rata YTD
           </div>
           <div className="mt-1 text-[13px] font-extrabold leading-none text-ink-900">

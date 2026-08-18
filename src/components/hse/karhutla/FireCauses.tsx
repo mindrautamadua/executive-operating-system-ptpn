@@ -34,7 +34,7 @@ export function FireCauses() {
               )}
               <span className="shrink-0 text-[11px] font-extrabold tabular-nums text-ink-900">
                 {c.kejadian}
-                <span className="text-[8px] font-bold text-ink-400"> kejadian</span>
+                <span className="text-[9px] font-bold text-ink-500"> kejadian</span>
               </span>
             </div>
             <div className="mt-[5px] h-[7px] w-full overflow-hidden rounded-full bg-[#eef2f6]">

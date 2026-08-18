@@ -38,7 +38,7 @@ export function WorkforceRiskOverlay() {
         ))}
       </div>
 
-      <p className="mt-2 shrink-0 text-[8px] leading-[1.5] text-ink-500">{wpRisk.note}</p>
+      <p className="mt-2 shrink-0 text-[9px] leading-[1.5] text-ink-500">{wpRisk.note}</p>
     </div>
   );
 }

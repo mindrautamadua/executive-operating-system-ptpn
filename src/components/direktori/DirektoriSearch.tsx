@@ -247,7 +247,7 @@ export function DirektoriSearch() {
                       <span className="block truncate text-[9.5px] font-semibold text-ink-900" title={k.nama}>
                         {k.nama}
                       </span>
-                      <span className="block truncate text-[8px] text-ink-400" title={k.email}>
+                      <span className="block truncate text-[9px] text-ink-500" title={k.email}>
                         {k.id} · {k.email}
                       </span>
                     </span>
@@ -301,7 +301,7 @@ export function DirektoriSearch() {
                   <div className="mt-2 text-[10px] font-semibold text-ink-700">
                     Tidak ada karyawan yang cocok
                   </div>
-                  <div className="mt-[2px] text-[9px] text-ink-400">
+                  <div className="mt-[2px] text-[9px] text-ink-500">
                     Ubah kata kunci pencarian atau bersihkan filter.
                   </div>
                 </td>

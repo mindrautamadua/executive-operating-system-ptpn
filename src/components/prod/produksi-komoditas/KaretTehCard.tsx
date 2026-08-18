@@ -42,7 +42,7 @@ function Mini({
               dataKey="bulan"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -50,7 +50,7 @@ function Mini({
               ticks={ticks}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => num(v)}
             />
             <Tooltip

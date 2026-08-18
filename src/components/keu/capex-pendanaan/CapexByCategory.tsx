@@ -25,7 +25,7 @@ interface TickProps {
 function MultilineTick({ x = 0, y = 0, payload }: TickProps) {
   const lines = String(payload?.value ?? "").split("\n");
   return (
-    <text x={x} y={y + 8} textAnchor="middle" fontSize={7} fill="var(--chart-tick)">
+    <text x={x} y={y + 8} textAnchor="middle" fontSize={8} fill="var(--chart-tick)">
       {lines.map((line, i) => (
         <tspan key={line} x={x} dy={i === 0 ? 0 : 8}>
           {line}

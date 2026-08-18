@@ -21,7 +21,7 @@ export function InsightLnd() {
           Beta
         </span>
       </div>
-      <p className="mt-[3px] text-[9px] text-ink-400">
+      <p className="mt-[3px] text-[9px] text-ink-500">
         Diagnostik lintas modul: learning, workforce planning, risiko &amp; suksesi (Q2 2026).
       </p>
 

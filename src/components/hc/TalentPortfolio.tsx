@@ -24,7 +24,7 @@ export function TalentPortfolio() {
       <div className="mt-3 flex items-start gap-3">
         <div className="flex shrink-0 items-center gap-1.5">
           <div
-            className="text-[8px] font-semibold text-ink-400"
+            className="text-[9px] font-semibold text-ink-500"
             style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}
           >
             Performance
@@ -47,7 +47,7 @@ export function TalentPortfolio() {
               <span>Medium</span>
               <span>High</span>
             </div>
-            <div className="text-[8px] font-semibold text-ink-400">Potential</div>
+            <div className="text-[9px] font-semibold text-ink-500">Potential</div>
           </div>
         </div>
 

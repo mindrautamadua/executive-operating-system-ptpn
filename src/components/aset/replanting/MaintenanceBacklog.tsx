@@ -80,7 +80,7 @@ export function MaintenanceBacklog() {
               dataKey="short"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               width={82}
             />
             <Tooltip
@@ -106,14 +106,14 @@ export function MaintenanceBacklog() {
                 position="right"
                 offset={5}
                 formatter={(v: React.ReactNode) => `Rp ${rp(Number(v))} M`}
-                style={{ fontSize: 7, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">{maintenanceBacklogNote}</p>
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">{maintenanceBacklogNote}</p>
     </div>
   );
 }

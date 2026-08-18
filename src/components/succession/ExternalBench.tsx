@@ -39,7 +39,7 @@ export function ExternalBench() {
                 {e.posisi}
               </span>
               <span
-                className={`inline-flex shrink-0 items-center rounded px-1.5 py-[2px] text-[8px] font-bold leading-none ${KETERSEDIAAN_STYLE[e.ketersediaan]}`}
+                className={`inline-flex shrink-0 items-center rounded px-1.5 py-[2px] text-[9px] font-bold leading-none ${KETERSEDIAAN_STYLE[e.ketersediaan]}`}
                 title="Ketersediaan kandidat di pasar eksternal"
               >
                 {e.ketersediaan}

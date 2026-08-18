@@ -96,7 +96,7 @@ export function FfaVsOerChart() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">{ffaOerNote}</p>
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">{ffaOerNote}</p>
       </>
       )}
     </div>

@@ -25,12 +25,12 @@ export function EmployeeHpiProfileCard() {
           <div className="min-w-0 leading-tight">
             <div className="text-[12.5px] font-extrabold text-ink-900">{p.nama}</div>
             <div className="mt-[3px] text-[9.5px] text-ink-500">{p.jabatan}</div>
-            <div className="mt-[2px] text-[9px] text-ink-400">{p.unit}</div>
+            <div className="mt-[2px] text-[9px] text-ink-500">{p.unit}</div>
             <div className="mt-2 flex flex-wrap gap-1.5">
-              <span className="rounded-md bg-ptpn-greenLight px-1.5 py-[3px] text-[8px] font-bold text-ptpn-green">
+              <span className="rounded-md bg-ptpn-greenLight px-1.5 py-[3px] text-[9px] font-bold text-ptpn-green">
                 {p.badges[0]}
               </span>
-              <span className="rounded-md bg-[#e8f1fd] px-1.5 py-[3px] text-[8px] font-bold text-[#2f6fe4]">
+              <span className="rounded-md bg-[#e8f1fd] px-1.5 py-[3px] text-[9px] font-bold text-[#2f6fe4]">
                 {p.badges[1]}
               </span>
             </div>
@@ -42,7 +42,7 @@ export function EmployeeHpiProfileCard() {
           <div className="text-[8.5px] font-semibold text-ink-500">Performance Score</div>
           <div className="mt-1.5 text-[19px] font-extrabold leading-none text-ink-900">
             {p.performance.skor}
-            <span className="ml-[2px] text-[10px] font-semibold text-ink-400">
+            <span className="ml-[2px] text-[10px] font-semibold text-ink-500">
               {p.performance.maks}
             </span>
           </div>
@@ -55,7 +55,7 @@ export function EmployeeHpiProfileCard() {
           <div className="mt-1 text-[15px] font-extrabold leading-none text-[#d98b06]">
             {p.performance.gap}
           </div>
-          <div className="mt-[2px] text-[8px] text-ink-400">{p.performance.gapCaption}</div>
+          <div className="mt-[2px] text-[9px] text-ink-500">{p.performance.gapCaption}</div>
         </div>
 
         {/* HPI BEM Detail */}
@@ -71,7 +71,7 @@ export function EmployeeHpiProfileCard() {
                 </div>
                 <div className="mt-1.5 text-[15px] font-extrabold leading-none text-ink-900">
                   {b.nilai}
-                  <span className="ml-[2px] text-[9px] font-semibold text-ink-400">/ 5</span>
+                  <span className="ml-[2px] text-[9px] font-semibold text-ink-500">/ 5</span>
                 </div>
                 <div className="mt-2 h-[6px] overflow-hidden rounded-full bg-[#eef2f6]">
                   <div
@@ -102,12 +102,12 @@ export function EmployeeHpiProfileCard() {
             ))}
           </ul>
           <div className="mt-2 border-t border-[#f4e6c6] pt-1.5" title={p.rootCause.estimasiTooltip}>
-            <div className="text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+            <div className="text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
               Estimated Improvement Potential
             </div>
             <div className="mt-[2px] text-[9.5px] font-extrabold text-ptpn-greenDark">
               {p.rootCause.estimasi}
-              <span className="ml-1 text-[8px] font-medium text-ink-400">(estimasi model)</span>
+              <span className="ml-1 text-[9px] font-medium text-ink-500">(estimasi model)</span>
             </div>
           </div>
         </div>
@@ -128,7 +128,7 @@ export function EmployeeHpiProfileCard() {
                   {r.aksi}
                 </span>
                 <span
-                  className={`shrink-0 rounded-md px-1.5 py-[2px] text-[8px] font-bold ${IMPACT_BADGE[r.impact]}`}
+                  className={`shrink-0 rounded-md px-1.5 py-[2px] text-[9px] font-bold ${IMPACT_BADGE[r.impact]}`}
                 >
                   {r.impact}
                 </span>

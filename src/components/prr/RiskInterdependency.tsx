@@ -93,7 +93,7 @@ export function RiskInterdependency({ showLink = true }: { showLink?: boolean } 
       </div>
 
       <div className="mt-1 flex items-center justify-between rounded-md bg-[#fdf7f7] px-2 py-[5px]">
-        <span className="text-[8px] leading-[1.4] text-ink-700">
+        <span className="text-[9px] leading-[1.4] text-ink-700">
           Skill Gap → Produktivitas → Beban Kerja → Turnover → Succession
         </span>
         <span className="shrink-0 rounded-md bg-[#fdecec] px-1.5 py-[2px] text-[7.5px] font-extrabold text-[#ef4444]">

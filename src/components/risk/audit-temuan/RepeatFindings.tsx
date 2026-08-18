@@ -28,7 +28,7 @@ export function RepeatFindings() {
             />
             <span className="min-w-0 flex-1 leading-[1.3]">
               <span className="block truncate text-[9px] font-bold text-ink-900">{r.temuan}</span>
-              <span className="block truncate text-[8px] text-ink-400">
+              <span className="block truncate text-[9px] text-ink-500">
                 {r.unit} · Sumber {r.sumber}
               </span>
             </span>

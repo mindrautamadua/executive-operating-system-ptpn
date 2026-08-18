@@ -24,7 +24,7 @@ export function ActionItemsFromMinutes() {
               </div>
               <div className="mt-1.5 whitespace-nowrap text-[18px] font-extrabold leading-none tracking-[-0.01em] text-ink-900">
                 {a.total}
-                <span className="text-[9px] font-bold text-ink-400"> butir</span>
+                <span className="text-[9px] font-bold text-ink-500"> butir</span>
               </div>
               <div className="mt-1.5 flex items-center gap-1.5">
                 <ToneBadge label={`${a.selesai} selesai`} tone="good" />
@@ -33,7 +33,7 @@ export function ActionItemsFromMinutes() {
                   tone={a.terbuka > 10 ? "bad" : "warn"}
                 />
               </div>
-              <div className="mt-1.5 text-[8px] font-semibold text-ink-500">
+              <div className="mt-1.5 text-[9px] font-semibold text-ink-500">
                 Penyelesaian {a.penyelesaian}
               </div>
             </div>
@@ -41,7 +41,7 @@ export function ActionItemsFromMinutes() {
         </div>
       </div>
 
-      <p className="pb-1 pt-1 text-[8px] leading-snug text-ink-400">{actionItemsNote}</p>
+      <p className="pb-1 pt-1 text-[9px] leading-snug text-ink-500">{actionItemsNote}</p>
     </div>
   );
 }

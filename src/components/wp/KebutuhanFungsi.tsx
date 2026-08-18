@@ -35,7 +35,7 @@ export function KebutuhanFungsi() {
       <div className="scroll-thin mt-2 min-h-0 flex-1 overflow-y-auto">
       <table className="w-full">
         <thead>
-          <tr className="text-[8px] font-semibold uppercase tracking-[0.03em] text-ink-400">
+          <tr className="text-[9px] font-semibold uppercase tracking-[0.03em] text-ink-500">
             <th className="pb-1.5 text-left font-semibold">Fungsi</th>
             <th className="pb-1.5 text-right font-semibold">2026 (F)</th>
             <th className="pb-1.5 text-right font-semibold">2027 (F)</th>

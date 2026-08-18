@@ -27,7 +27,7 @@ export function TopComplianceIssues() {
             Isu Kepatuhan Prioritas yang Memerlukan Tindakan
           </p>
         </div>
-        <span className="mt-[2px] shrink-0 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+        <span className="mt-[2px] shrink-0 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
           Potensi Eksposur
         </span>
       </div>
@@ -50,7 +50,7 @@ export function TopComplianceIssues() {
                 <StatusBadge status={c.status} />
               </span>
               <span className="mt-[1px] block truncate text-[8.5px] text-ink-500">{c.desc}</span>
-              <span className="block truncate text-[8px] text-ink-400">
+              <span className="block truncate text-[9px] text-ink-500">
                 {c.units} · Owner: {c.owner} · Umur {c.ageDays} hr
               </span>
               <span

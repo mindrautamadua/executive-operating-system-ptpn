@@ -56,7 +56,7 @@ export function CriticalPath30Days() {
                 tone={c.risk === "Tinggi" ? "bad" : "warn"}
               />
             </div>
-            <div className="mt-[3px] flex items-center justify-between gap-2 text-[8px] text-ink-400">
+            <div className="mt-[3px] flex items-center justify-between gap-2 text-[9px] text-ink-500">
               <span className="truncate">
                 {c.program} · {c.pic}
               </span>

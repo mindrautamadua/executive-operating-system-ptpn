@@ -76,13 +76,13 @@ export function DecisionActions({ id }: { id: string }) {
         <span className="rounded bg-ptpn-green px-1.5 py-[2px] text-[7.5px] font-bold uppercase tracking-[0.04em] text-white">
           {entry.action}
         </span>
-        <span className="min-w-0 flex-1 truncate text-[8px] text-ink-400">
+        <span className="min-w-0 flex-1 truncate text-[9px] text-ink-500">
           Dicatat {entry.at} · decision log
         </span>
         <button
           type="button"
           onClick={reset}
-          className="shrink-0 text-[8px] font-semibold text-ink-400 hover:text-ink-700"
+          className="shrink-0 text-[9px] font-semibold text-ink-500 hover:text-ink-700"
         >
           Ubah
         </button>

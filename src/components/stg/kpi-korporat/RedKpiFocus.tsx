@@ -35,18 +35,18 @@ export function RedKpiFocus() {
                   <div className="text-[9px] font-extrabold leading-snug text-ink-900">
                     {r.name}
                   </div>
-                  <div className="mt-[2px] text-[8px] font-semibold leading-snug text-[#ef4444]">
+                  <div className="mt-[2px] text-[9px] font-semibold leading-snug text-[#ef4444]">
                     {r.gap}
                   </div>
                 </div>
               </div>
-              <p className="mt-1.5 text-[8px] leading-snug text-ink-500">
+              <p className="mt-1.5 text-[9px] leading-snug text-ink-500">
                 <span className="font-bold text-ink-700">Akar masalah:</span> {r.rootCause}
               </p>
-              <p className="mt-[3px] text-[8px] leading-snug text-ink-700">
+              <p className="mt-[3px] text-[9px] leading-snug text-ink-700">
                 <span className="font-bold text-ptpn-green">Aksi:</span> {r.action}
               </p>
-              <div className="mt-1.5 border-t border-[#f5d9d9] pt-1 text-[8px] font-semibold text-ink-500">
+              <div className="mt-1.5 border-t border-[#f5d9d9] pt-1 text-[9px] font-semibold text-ink-500">
                 PIC: {r.owner}
               </div>
             </div>

@@ -45,7 +45,7 @@ export function ScorecardByPerspective() {
               dataKey="name"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis

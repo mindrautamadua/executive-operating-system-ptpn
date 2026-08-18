@@ -56,7 +56,7 @@ export function AnomalyDetection() {
               <span className="ml-auto text-[9.5px] font-semibold tabular-nums text-ink-900">
                 {d.value}
               </span>
-              <span className="w-[38px] text-right text-[9px] tabular-nums text-ink-400">
+              <span className="w-[38px] text-right text-[9px] tabular-nums text-ink-500">
                 ({d.pct})
               </span>
             </div>
@@ -68,7 +68,7 @@ export function AnomalyDetection() {
       <div className="mt-1 border-t border-[#f0f3f6] pt-1.5">
         <div className="flex items-center justify-between">
           <span className="text-[9px] font-semibold text-ink-500">Insiden per Hari</span>
-          <span className="text-[9px] text-ink-400">30 hari terakhir</span>
+          <span className="text-[9px] text-ink-500">30 hari terakhir</span>
         </div>
         <div className="mt-1 flex h-[24px] items-end gap-[2px]">
           {anomaliHarian.map((v, i) => (

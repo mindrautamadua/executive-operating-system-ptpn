@@ -37,7 +37,7 @@ export function SavingsByCategory() {
               dataKey="kategori"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={0}
               tickFormatter={(v: string) => v.split(" ")[0]}
             />
@@ -78,7 +78,7 @@ export function SavingsByCategory() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Pupuk &amp; agrokimia menyumbang Rp 124 M (32,1% total penghematan); TI &amp; lisensi
         tertinggal di 38,1% target FY.
       </p>

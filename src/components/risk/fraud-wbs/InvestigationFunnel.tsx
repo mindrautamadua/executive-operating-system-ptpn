@@ -37,7 +37,7 @@ export function InvestigationFunnel() {
                 <span className="w-[22px] shrink-0 text-right text-[10px] font-extrabold text-ink-900">
                   {s.count}
                 </span>
-                <span className="w-[28px] shrink-0 text-right text-[8px] font-semibold text-ink-400">
+                <span className="w-[28px] shrink-0 text-right text-[9px] font-semibold text-ink-500">
                   {pct}%
                 </span>
               </div>
@@ -46,7 +46,7 @@ export function InvestigationFunnel() {
         })}
       </ul>
 
-      <p className="mt-1.5 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1.5 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         Konversi laporan → terbukti 38%; 3 kasus terbukti masih menunggu penetapan sanksi final.
       </p>
     </div>

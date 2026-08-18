@@ -60,7 +60,7 @@ export function SpendBenchmark() {
               dataKey="singkat"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 6.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
               angle={-16}
               textAnchor="end"
@@ -97,14 +97,14 @@ export function SpendBenchmark() {
                 position="top"
                 offset={5}
                 formatter={(v: React.ReactNode) => `${persen(Number(v))}%`}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         PTPN 1,6% berada di tengah band agribisnis, namun masih di bawah BUMN sejenis (1,9%) —
         besaran bukan masalah utama, serapan capex yang tertinggal.
       </p>

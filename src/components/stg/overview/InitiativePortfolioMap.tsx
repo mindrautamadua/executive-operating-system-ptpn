@@ -58,7 +58,7 @@ export function InitiativePortfolioMap() {
               ticks={[20, 35, 50, 65, 80]}
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => `${v}%`}
             />
             <YAxis
@@ -68,7 +68,7 @@ export function InitiativePortfolioMap() {
               ticks={[0.2, 0.4, 0.6, 0.8]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => v.toLocaleString("id-ID")}
               width={34}
             />
@@ -94,7 +94,7 @@ export function InitiativePortfolioMap() {
         </ResponsiveContainer>
       </div>
 
-      <div className="mt-1 flex items-center justify-center gap-3 text-[8px] text-ink-500">
+      <div className="mt-1 flex items-center justify-center gap-3 text-[9px] text-ink-500">
         {LEGEND.map((l) => (
           <span key={l.label} className="flex items-center gap-1">
             <span

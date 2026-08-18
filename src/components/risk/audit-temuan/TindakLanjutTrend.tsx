@@ -33,7 +33,7 @@ export function TindakLanjutTrend() {
               dataKey="bulan"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={1}
             />
             <YAxis
@@ -61,7 +61,7 @@ export function TindakLanjutTrend() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 rounded-md bg-ptpn-greenLight px-2 py-[5px] text-[8px] leading-[1.4] text-ptpn-greenDark">
+      <p className="mt-1 rounded-md bg-ptpn-greenLight px-2 py-[5px] text-[9px] leading-[1.4] text-ptpn-greenDark">
         Closure rate naik 66% → 81% dalam 12 bulan; sisa gap ada pada temuan bernilai besar.
       </p>
     </div>

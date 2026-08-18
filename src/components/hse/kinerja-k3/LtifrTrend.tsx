@@ -38,7 +38,7 @@ export function LtifrTrend() {
               dataKey="bulan"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={1}
             />
             <YAxis
@@ -89,7 +89,7 @@ export function LtifrTrend() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Perbaikan 24 bulan mencapai 0,36 poin (1,78 → 1,42), namun jarak ke target masih 0,22 poin;
         pada laju rata-rata 0,015 poin/bulan target ≤1,20 baru tercapai sekitar pertengahan 2027.
       </p>

@@ -62,7 +62,7 @@ export function ExpiryCalendar() {
                       {r.izin}
                     </span>
                   </div>
-                  <div className="mt-[2px] truncate text-[8px] text-ink-400">{r.domain}</div>
+                  <div className="mt-[2px] truncate text-[9px] text-ink-500">{r.domain}</div>
                 </td>
                 <td className="max-w-0 truncate py-[7px] pl-3 text-[9px] text-ink-700" title={r.unit}>
                   {r.unit}
@@ -79,7 +79,7 @@ export function ExpiryCalendar() {
         </table>
       </div>
 
-      <p className="mt-1 border-t border-[#f5f8fa] pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="mt-1 border-t border-[#f5f8fa] pt-1.5 text-[9px] leading-snug text-ink-500">
         Ikon merah menandai izin yang kedaluwarsanya menghentikan operasi unit; Agustus 2026
         menampung 11 izin — beban bulanan tertinggi.
       </p>

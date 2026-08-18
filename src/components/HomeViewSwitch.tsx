@@ -40,7 +40,7 @@ export function HomeViewSwitch({
     <>
       {band && (
         <div className="mb-3 flex items-center gap-2 rounded-xl bg-[#1b3a6b] px-3.5 py-2">
-          <span className="shrink-0 rounded bg-white/15 px-1.5 py-[2px] text-[8px] font-extrabold tracking-[0.06em] text-white">
+          <span className="shrink-0 rounded bg-white/15 px-1.5 py-[2px] text-[9px] font-extrabold tracking-[0.06em] text-white">
             {band.label}
           </span>
           <span className="min-w-0 text-[9px] leading-[1.35] text-white/75">{band.question}</span>

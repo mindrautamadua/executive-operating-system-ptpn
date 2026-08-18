@@ -16,7 +16,7 @@ export function BodDecisionCenter() {
           <Gavel size={13} className="text-[#1b3a6b]" />
           BOD Succession Decision Center
         </h3>
-        <span className="shrink-0 text-[9px] font-semibold text-ink-400">
+        <span className="shrink-0 text-[9px] font-semibold text-ink-500">
           2 keputusan • 1 peluang
         </span>
       </div>
@@ -31,7 +31,7 @@ export function BodDecisionCenter() {
               style={{ borderTop: `3px solid ${style.border}` }}
             >
               <span
-                className={`inline-flex w-fit items-center rounded px-1.5 py-[2px] text-[8px] font-bold leading-none ${style.chip}`}
+                className={`inline-flex w-fit items-center rounded px-1.5 py-[2px] text-[9px] font-bold leading-none ${style.chip}`}
               >
                 {d.label}
               </span>

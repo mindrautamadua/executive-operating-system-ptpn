@@ -31,7 +31,7 @@ export function RekomendasiHcCard() {
               <p className="mt-[2px] text-[9.5px] leading-snug text-ink-900">{a.aksi}</p>
             </div>
             <span
-              className={`shrink-0 rounded-full px-2 py-[3px] text-[8px] font-bold ${STATUS_TONE[a.status]}`}
+              className={`shrink-0 rounded-full px-2 py-[3px] text-[9px] font-bold ${STATUS_TONE[a.status]}`}
             >
               {a.status}
             </span>

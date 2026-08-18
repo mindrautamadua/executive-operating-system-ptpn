@@ -36,7 +36,7 @@ function ScenarioCard({ s }: { s: Scenario }) {
         </span>
         <span className="min-w-0 leading-tight">
           <span className="block truncate text-[9.5px] font-extrabold text-ink-900">{s.code}</span>
-          <span className={`block truncate text-[8px] font-semibold ${tone.icon}`}>
+          <span className={`block truncate text-[9px] font-semibold ${tone.icon}`}>
             {s.subtitle}
           </span>
         </span>
@@ -81,7 +81,7 @@ export function ScenarioPlanning() {
         </div>
         <button className="flex shrink-0 items-center justify-between gap-2 rounded-lg border border-[#e3e9ef] bg-white px-3 py-1.5 text-left shadow-card">
           <span className="leading-tight">
-            <span className="block text-[8px] font-medium text-ink-400">Pilih Skenario</span>
+            <span className="block text-[9px] font-medium text-ink-500">Pilih Skenario</span>
             <span className="mt-[1px] block text-[10px] font-bold text-ink-900">
               Semua Skenario
             </span>

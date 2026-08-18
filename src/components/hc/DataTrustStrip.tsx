@@ -35,7 +35,7 @@ export function DataTrustStrip({ data = dataTrust }: { data?: typeof dataTrust }
         angka mewakili periode s.d. tanggal efektif. Hover menjelaskan bedanya.
       */}
       <div className="asof-badge group relative flex cursor-help items-center gap-1.5 rounded bg-[#1b3a6b] px-2 py-[3px]">
-        <span className="asof-label text-[8px] font-bold uppercase tracking-[0.05em] text-[#b9c7dd]">
+        <span className="asof-label text-[9px] font-bold uppercase tracking-[0.05em] text-[#b9c7dd]">
           Data Bisnis Per
         </span>
         <span className="asof-value text-[10px] font-extrabold uppercase tracking-[0.02em] text-white underline decoration-dotted decoration-[#5f7396] underline-offset-2">
@@ -69,7 +69,7 @@ export function DataTrustStrip({ data = dataTrust }: { data?: typeof dataTrust }
               <span className="font-bold text-ink-900">{data.sources.slice(0, 2).join(", ")}</span>
             </div>
           </div>
-          <p className="mt-1.5 border-t border-[#eef2f6] pt-1.5 text-[8px] leading-snug text-ink-400">
+          <p className="mt-1.5 border-t border-[#eef2f6] pt-1.5 text-[9px] leading-snug text-ink-500">
             Angka kinerja merepresentasikan periode bisnis s.d. tanggal efektif. Sinkronisasi
             sistem, feed pasar, dan model forecast berjalan lebih sering tanpa mengubah
             periode data kinerja.
@@ -118,7 +118,7 @@ export function DataTrustStrip({ data = dataTrust }: { data?: typeof dataTrust }
           {data.sources.map((s) => (
             <span
               key={s}
-              className="shrink-0 rounded bg-[#eef2f6] px-1.5 py-[2px] text-[8px] font-semibold text-ink-700"
+              className="shrink-0 rounded bg-[#eef2f6] px-1.5 py-[2px] text-[9px] font-semibold text-ink-700"
             >
               {s}
             </span>

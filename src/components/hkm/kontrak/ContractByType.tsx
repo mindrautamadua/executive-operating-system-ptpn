@@ -53,7 +53,7 @@ export function ContractByType() {
         ))}
       </div>
 
-      <p className="mt-1.5 border-t border-[#f5f8fa] pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="mt-1.5 border-t border-[#f5f8fa] pt-1.5 text-[9px] leading-snug text-ink-500">
         Pengadaan mendominasi jumlah (1.246 kontrak, 67,6%), tetapi nilai terkonsentrasi pada
         off-take dan KSO — tiga kategori bertaut langsung ke modul pemilik prosesnya.
       </p>

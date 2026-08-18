@@ -62,7 +62,7 @@ export function SegmentPnlMatrix() {
                   <div className="whitespace-nowrap text-[9.5px] font-bold text-ink-900">
                     {s.segment}
                   </div>
-                  <div className="max-w-[240px] truncate text-[8px] text-ink-500" title={s.note}>
+                  <div className="max-w-[240px] truncate text-[9px] text-ink-500" title={s.note}>
                     {s.note}
                   </div>
                 </td>

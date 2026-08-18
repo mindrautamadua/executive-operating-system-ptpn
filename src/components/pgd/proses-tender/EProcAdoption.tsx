@@ -47,7 +47,7 @@ export function EProcAdoption() {
               dataKey="unit"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <YAxis
               domain={[0, 100]}
@@ -107,7 +107,7 @@ export function EProcAdoption() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         PalmCo Regional 5 terendah (80% e-Proc · 58% full digital) dan sekaligus mencatat maverick
         spend tertinggi 10,6%.
       </p>

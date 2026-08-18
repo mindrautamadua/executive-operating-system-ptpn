@@ -27,7 +27,7 @@ export function LicenseOptimization() {
           <div className="text-[16px] font-extrabold leading-none text-ptpn-green">
             Rp {totalHematRpM} M<span className="text-[9px] font-bold">/tahun</span>
           </div>
-          <p className="mt-[3px] text-[8px] leading-snug text-ink-500">
+          <p className="mt-[3px] text-[9px] leading-snug text-ink-500">
             Potensi hemat dari 8.328 lisensi tidak terpakai — cukup mendanai 58% uplift keamanan
             siber Rp 65 M.
           </p>
@@ -50,11 +50,11 @@ export function LicenseOptimization() {
                   style={{ width: `${(r.potensiHematRpM / maxHemat) * 100}%` }}
                 />
               </div>
-              <span className="shrink-0 text-[8px] font-semibold text-ink-400">
+              <span className="shrink-0 text-[9px] font-semibold text-ink-500">
                 {angka(r.tidakTerpakai)} dari {angka(r.dibeli)} idle
               </span>
             </div>
-            <p className="mt-[3px] text-[8px] leading-snug text-ink-400">{r.tindakan}</p>
+            <p className="mt-[3px] text-[9px] leading-snug text-ink-500">{r.tindakan}</p>
           </div>
         ))}
       </div>

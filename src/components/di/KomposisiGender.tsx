@@ -12,7 +12,7 @@ export function KomposisiGender() {
   return (
     <div className="card anim-rise flex h-full flex-col px-4 pb-2.5 pt-3">
       <h3 className="card-title-navy">Komposisi Karyawan berdasarkan Gender</h3>
-      <p className="mt-[3px] text-[9px] text-ink-400">(Per 30 Jun 2026)</p>
+      <p className="mt-[3px] text-[9px] text-ink-500">(Per 30 Jun 2026)</p>
 
       <div className="flex min-h-0 flex-1 flex-col justify-center gap-3">
         {/* dua blok statistik besar */}

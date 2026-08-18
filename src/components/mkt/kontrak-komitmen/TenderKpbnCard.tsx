@@ -28,7 +28,7 @@ export function TenderKpbnCard() {
 
       {!luarCakupan && (
         <>
-      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_52px_64px_64px_70px] items-center gap-x-2 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_52px_64px_64px_70px] items-center gap-x-2 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Tanggal</span>
         <span className="text-right">Volume</span>
         <span className="text-right">Dasar</span>
@@ -61,7 +61,7 @@ export function TenderKpbnCard() {
         </>
       )}
 
-      <p className="mt-1.5 truncate text-[8px] text-ink-400">
+      <p className="mt-1.5 truncate text-[9px] text-ink-500">
         Premium terbentuk menguat: +Rp 50-85/kg (April) → +Rp 120/kg (akhir Mei).
       </p>
     </div>

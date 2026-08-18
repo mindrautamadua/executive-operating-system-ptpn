@@ -29,7 +29,7 @@ export function StressTestCase() {
             <span className="mt-[3px] text-[15px] font-extrabold leading-none tracking-[-0.01em] text-ink-900">
               {h.value}
             </span>
-            <span className="mt-[3px] truncate text-[8px] text-ink-400" title={h.sub}>
+            <span className="mt-[3px] truncate text-[9px] text-ink-500" title={h.sub}>
               {h.sub}
             </span>
           </div>

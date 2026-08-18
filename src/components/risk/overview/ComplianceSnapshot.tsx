@@ -29,17 +29,17 @@ export function ComplianceSnapshot() {
       <div className="mt-2 grid grid-cols-3 gap-2">
         <div className="rounded-lg border border-[#d6ecdf] bg-[#f4faf6] px-2 py-1.5">
           <div className="text-[13px] font-extrabold leading-none text-ptpn-green">91,2%</div>
-          <div className="mt-[3px] text-[8px] font-semibold text-ink-500">Patuh</div>
+          <div className="mt-[3px] text-[9px] font-semibold text-ink-500">Patuh</div>
         </div>
         <div className="rounded-lg border border-[#f3e3c3] bg-[#fdf9f0] px-2 py-1.5">
           <div className="text-[13px] font-extrabold leading-none text-[#d98b06]">{parsial}</div>
-          <div className="mt-[3px] text-[8px] font-semibold text-ink-500">Parsial</div>
+          <div className="mt-[3px] text-[9px] font-semibold text-ink-500">Parsial</div>
         </div>
         <div className="rounded-lg border border-[#f6d5d5] bg-[#fdf5f5] px-2 py-1.5">
           <div className="text-[13px] font-extrabold leading-none text-[#ef4444]">
             {nonCompliant}
           </div>
-          <div className="mt-[3px] text-[8px] font-semibold text-ink-500">Non-Compliant</div>
+          <div className="mt-[3px] text-[9px] font-semibold text-ink-500">Non-Compliant</div>
         </div>
       </div>
 

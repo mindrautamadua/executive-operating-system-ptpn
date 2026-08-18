@@ -42,7 +42,7 @@ export function PaymentTermsProfile() {
               dataKey="bucket"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <YAxis
               domain={[0, 32]}
@@ -71,7 +71,7 @@ export function PaymentTermsProfile() {
                 formatter={(v: number) =>
                   `Rp ${v.toLocaleString("id-ID", { minimumFractionDigits: 2 })} T`
                 }
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
@@ -83,15 +83,15 @@ export function PaymentTermsProfile() {
           <span className="text-[11px] font-extrabold leading-none text-ink-900">
             {paymentTermsSummary.dpoAktualHari}
           </span>
-          <span className="text-[8px] font-semibold text-ink-500">hari DPO aktual</span>
+          <span className="text-[9px] font-semibold text-ink-500">hari DPO aktual</span>
         </span>
         <span className="flex items-baseline gap-1">
           <span className="text-[11px] font-extrabold leading-none text-[#d98b06]">
             +{paymentTermsSummary.lagProsesHari}
           </span>
-          <span className="text-[8px] font-semibold text-ink-500">hari lag proses</span>
+          <span className="text-[9px] font-semibold text-ink-500">hari lag proses</span>
         </span>
-        <p className="min-w-0 flex-1 text-[8px] leading-snug text-ink-400">
+        <p className="min-w-0 flex-1 text-[9px] leading-snug text-ink-500">
           {paymentTermsSummary.note}
         </p>
       </div>

@@ -83,7 +83,7 @@ export function CompletionTrend() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 truncate text-[8px] text-ink-400">
+      <p className="mt-1 truncate text-[9px] text-ink-500">
         Aktual Mei 58 vs rencana 68 — gap 10 milestone dan melebar sejak Maret.
       </p>
     </div>

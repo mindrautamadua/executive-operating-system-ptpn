@@ -37,7 +37,7 @@ export function PremiumValue() {
       >
         {KPI.map((k) => (
           <div key={k.label} className="rounded-xl bg-[#f8fafc] px-2.5 py-2">
-            <div className="text-[8px] font-semibold text-ink-400">{k.label}</div>
+            <div className="text-[9px] font-semibold text-ink-500">{k.label}</div>
             <div className="mt-[3px] whitespace-nowrap text-[12px] font-extrabold leading-none text-ink-900">
               {k.value}
             </div>
@@ -82,7 +82,7 @@ export function PremiumValue() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Premi naik konsisten Rp 14 M → Rp 24 M/bulan seiring bertambahnya volume bersertifikat.
       </p>
     </div>

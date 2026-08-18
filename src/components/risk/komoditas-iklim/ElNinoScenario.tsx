@@ -98,7 +98,7 @@ export function ElNinoScenario() {
               <span className="text-[9px] font-extrabold text-ink-900">{s.skenario}</span>
               <span className="text-[8.5px] font-bold text-ink-500">{s.probabilitasPct}%</span>
             </div>
-            <div className="mt-[2px] text-[8px] font-semibold text-[#ef4444]">
+            <div className="mt-[2px] text-[9px] font-semibold text-[#ef4444]">
               Produksi H2 {s.dampakProduksiH2Pct}%
             </div>
             <p className="mt-[2px] text-[7.5px] leading-snug text-ink-500">{s.respons}</p>

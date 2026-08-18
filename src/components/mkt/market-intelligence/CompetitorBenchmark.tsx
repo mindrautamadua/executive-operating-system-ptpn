@@ -18,7 +18,7 @@ export function CompetitorBenchmark() {
         ASP, Yield &amp; Margin CPO vs Emiten Sawit (estimasi publik YTD)
       </p>
 
-      <div className="mt-2 grid grid-cols-[minmax(0,1.25fr)_72px_66px_66px_minmax(0,1.35fr)] items-center gap-x-2 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1.25fr)_72px_66px_66px_minmax(0,1.35fr)] items-center gap-x-2 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Perusahaan</span>
         <span className="text-right">ASP CPO</span>
         <span className="text-right">Yield TBS</span>
@@ -62,7 +62,7 @@ export function CompetitorBenchmark() {
         })}
       </ul>
 
-      <p className="mt-1.5 truncate text-[8px] text-ink-400">
+      <p className="mt-1.5 truncate text-[9px] text-ink-500">
         Margin CPO PTPN tertinggi di peer set — ditopang HPP rendah; gap yield jadi agenda hulu.
       </p>
     </div>

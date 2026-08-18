@@ -31,7 +31,7 @@ export function EarlyWarningAbsensi() {
             <span className="ml-auto text-[10px] font-bold tabular-nums text-ink-900">
               {r.value}
             </span>
-            <span className="w-[36px] text-right text-[9px] tabular-nums text-ink-400">
+            <span className="w-[36px] text-right text-[9px] tabular-nums text-ink-500">
               {r.pct}
             </span>
           </div>

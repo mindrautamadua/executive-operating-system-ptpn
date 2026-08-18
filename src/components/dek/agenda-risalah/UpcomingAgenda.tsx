@@ -39,12 +39,12 @@ export function UpcomingAgenda() {
               <p className="mt-1.5 flex-1 text-[8.5px] font-bold leading-snug text-ink-900">
                 {a.agenda}
               </p>
-              <p className="mt-1.5 flex items-start gap-1 text-[8px] leading-snug text-ink-500">
+              <p className="mt-1.5 flex items-start gap-1 text-[9px] leading-snug text-ink-500">
                 <FileInput size={9} className="mt-[1px] shrink-0 text-ink-400" />
                 <span>{a.materiDiminta}</span>
               </p>
               <div className="mt-1.5 flex items-center justify-between gap-1.5 border-t border-[#eef2f6] pt-1">
-                <span className="truncate text-[8px] font-semibold text-ink-500">
+                <span className="truncate text-[9px] font-semibold text-ink-500">
                   Tenggat {a.tenggatMateri}
                 </span>
                 <ToneBadge label={a.statusMateri} tone={MATERI_TONE[a.statusMateri]} />

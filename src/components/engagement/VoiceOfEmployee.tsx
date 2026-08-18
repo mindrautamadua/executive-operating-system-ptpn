@@ -49,7 +49,7 @@ export function VoiceOfEmployee() {
                 {t.share}%
               </span>
               <span
-                className={`flex w-[46px] shrink-0 items-center justify-end gap-[2px] text-[8px] font-bold tabular-nums ${
+                className={`flex w-[46px] shrink-0 items-center justify-end gap-[2px] text-[9px] font-bold tabular-nums ${
                   memburuk ? "text-[#dc2626]" : "text-[#0f7a44]"
                 }`}
               >

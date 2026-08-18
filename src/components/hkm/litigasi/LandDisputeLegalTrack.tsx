@@ -56,7 +56,7 @@ export function LandDisputeLegalTrack() {
               dataKey="nama"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               width={168}
             />
             <Tooltip
@@ -90,17 +90,17 @@ export function LandDisputeLegalTrack() {
       <div className="mt-1 grid grid-cols-3 gap-2">
         {landDisputeLegalTrack.map((r) => (
           <div key={r.jalur} className="rounded-md bg-[#f8fafc] px-2 py-[5px]">
-            <div className="text-[8px] font-bold text-ink-700">
+            <div className="text-[9px] font-bold text-ink-700">
               {r.rataDurasiBulan} bln · Rp {r.biayaRataRpM.toLocaleString("id-ID")} M/kasus
             </div>
-            <div className="mt-[2px] text-[8px] leading-snug text-ink-500">
+            <div className="mt-[2px] text-[9px] leading-snug text-ink-500">
               {r.tingkatKeberhasilan}
             </div>
           </div>
         ))}
       </div>
 
-      <p className="pt-1 text-[8px] leading-snug text-ink-400">{landDisputeStats.note}</p>
+      <p className="pt-1 text-[9px] leading-snug text-ink-500">{landDisputeStats.note}</p>
     </div>
   );
 }

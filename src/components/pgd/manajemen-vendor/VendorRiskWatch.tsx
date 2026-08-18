@@ -40,7 +40,7 @@ export function VendorRiskWatch() {
                   <span className="truncate text-[9.5px] font-bold text-ink-900">{v.vendor}</span>
                 </div>
                 <div className="flex shrink-0 items-center gap-1.5">
-                  <span className="text-[8px] font-bold text-ink-500">
+                  <span className="text-[9px] font-bold text-ink-500">
                     Rp {v.eksposurRpM} M
                   </span>
                   <ToneBadge label={v.status} tone={BADGE_TONE[v.status] ?? "neutral"} />

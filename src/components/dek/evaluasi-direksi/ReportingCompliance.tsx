@@ -41,7 +41,7 @@ export function ReportingCompliance() {
                   style={{ width: `${pct}%` }}
                 />
               </div>
-              <p className="mt-[4px] text-[8px] leading-snug text-ink-500">{r.catatan}</p>
+              <p className="mt-[4px] text-[9px] leading-snug text-ink-500">{r.catatan}</p>
             </div>
           );
         })}

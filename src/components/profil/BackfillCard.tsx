@@ -39,7 +39,7 @@ export function BackfillCard() {
               <div className="mt-[2px] truncate text-[8.5px] text-ink-500">{k.jabatan}</div>
             </div>
             <span
-              className={`shrink-0 rounded-full px-2 py-[3px] text-[8px] font-bold ${READINESS_TONE[k.readiness]}`}
+              className={`shrink-0 rounded-full px-2 py-[3px] text-[9px] font-bold ${READINESS_TONE[k.readiness]}`}
             >
               {k.readiness}
             </span>

@@ -150,7 +150,7 @@ export function MarginWaterfall() {
                 dataKey="label"
                 position="top"
                 offset={5}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>

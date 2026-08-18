@@ -42,7 +42,7 @@ export function GulaLossesBreakdown() {
                       }`}
                     >
                       {num(l.aktualPct)}%
-                      <span className="ml-1 text-[8px] font-semibold text-ink-400">
+                      <span className="ml-1 text-[9px] font-semibold text-ink-500">
                         / norma {num(l.normaPct)}%
                       </span>
                     </span>
@@ -64,7 +64,7 @@ export function GulaLossesBreakdown() {
             })}
           </ul>
 
-          <p className="mt-2 line-clamp-2 text-[8px] leading-snug text-ink-400">{gulaLossesNote}</p>
+          <p className="mt-2 line-clamp-2 text-[9px] leading-snug text-ink-500">{gulaLossesNote}</p>
         </>
       )}
     </div>

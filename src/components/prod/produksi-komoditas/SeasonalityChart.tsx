@@ -51,7 +51,7 @@ export function SeasonalityChart() {
               dataKey="bulan"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -59,7 +59,7 @@ export function SeasonalityChart() {
               ticks={[0.15, 0.18, 0.21, 0.24]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) =>
                 v.toLocaleString("id-ID", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
               }
@@ -89,7 +89,7 @@ export function SeasonalityChart() {
 
       <div className="mt-1 flex items-center gap-3">
         {SERIES.map((s) => (
-          <span key={s.key} className="flex items-center gap-1.5 text-[8px] font-semibold text-ink-500">
+          <span key={s.key} className="flex items-center gap-1.5 text-[9px] font-semibold text-ink-500">
             <span className="h-[3px] w-[14px] rounded-full" style={{ background: s.color }} />
             {s.label}
           </span>

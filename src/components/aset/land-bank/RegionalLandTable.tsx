@@ -43,7 +43,7 @@ export function RegionalLandTable() {
       </p>
 
       <div
-        className={`mt-2 grid ${COLS} items-center gap-x-2 pr-2 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400`}
+        className={`mt-2 grid ${COLS} items-center gap-x-2 pr-2 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500`}
       >
         <span>Wilayah</span>
         <span className="text-right">Total</span>
@@ -93,7 +93,7 @@ export function RegionalLandTable() {
         })}
       </ul>
 
-      <p className="mt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="mt-1.5 text-[9px] leading-snug text-ink-500">
         {active === "all" || active === "palmco" ? (
           <>
             Regional 2 &amp; 3 menahan 98 rb ha expiry (52% &amp; 44% dari luasnya) — prioritas

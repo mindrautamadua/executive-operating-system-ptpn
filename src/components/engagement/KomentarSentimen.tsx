@@ -64,7 +64,7 @@ export function KomentarSentimen() {
                   tone={s.icon === "negatif" && s.trend === "down" ? "good" : undefined}
                   size={9}
                 />
-                <span className="text-[9px] text-ink-400">{s.compare}</span>
+                <span className="text-[9px] text-ink-500">{s.compare}</span>
               </div>
               <p
                 key={kutipan}

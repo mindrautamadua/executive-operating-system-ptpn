@@ -49,7 +49,7 @@ export function BalanceSheetComposition() {
                 dataKey="name"
                 tickLine={false}
                 axisLine={{ stroke: CHART_AXIS.axis }}
-                tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+                tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
                 interval={0}
               />
               <YAxis
@@ -73,7 +73,7 @@ export function BalanceSheetComposition() {
         </div>
 
         <div className="flex min-w-0 flex-1 flex-col justify-center gap-[3px]">
-          <div className="text-[8px] font-extrabold uppercase tracking-[0.05em] text-ink-400">
+          <div className="text-[9px] font-extrabold uppercase tracking-[0.05em] text-ink-500">
             Aset
           </div>
           {balanceAssets.map((b) => (
@@ -87,7 +87,7 @@ export function BalanceSheetComposition() {
               </span>
             </div>
           ))}
-          <div className="mt-1.5 text-[8px] font-extrabold uppercase tracking-[0.05em] text-ink-400">
+          <div className="mt-1.5 text-[9px] font-extrabold uppercase tracking-[0.05em] text-ink-500">
             Pendanaan
           </div>
           {balanceFunding.map((b) => (

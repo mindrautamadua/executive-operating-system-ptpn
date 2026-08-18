@@ -20,7 +20,7 @@ export function BoardChallengeCard() {
       <div className="mt-2 grid grid-cols-1 gap-3 lg:grid-cols-3">
         {boardChallenges.map((c) => (
           <div key={c.issue} className="rounded-xl border border-[#eef2f6] px-2.5 py-2">
-            <div className="text-[8px] font-extrabold uppercase tracking-[0.05em] text-ink-500">
+            <div className="text-[9px] font-extrabold uppercase tracking-[0.05em] text-ink-500">
               {c.issue}
             </div>
             <p className="mt-1 rounded-lg bg-[#f5f8fa] px-2 py-1 text-[8.5px] leading-[1.4] text-ink-700">

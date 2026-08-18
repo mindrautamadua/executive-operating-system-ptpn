@@ -64,7 +64,7 @@ export function AgingBuckets() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 rounded-md bg-[#fdecec] px-2 py-[5px] text-[8px] leading-[1.4] text-[#b91c1c]">
+      <p className="mt-1 rounded-md bg-[#fdecec] px-2 py-[5px] text-[9px] leading-[1.4] text-[#b91c1c]">
         11 temuan overdue = 7 bucket 90–180 hari + 4 bucket &gt;180 hari — wajib eskalasi Komite Audit.
       </p>
     </div>

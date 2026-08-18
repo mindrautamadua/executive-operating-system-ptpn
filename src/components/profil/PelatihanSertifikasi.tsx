@@ -24,7 +24,7 @@ export function PelatihanSertifikasi() {
 
       {/* Learning -> capability: bukti pelatihan menaikkan kompetensi. */}
       <div className="mt-2 rounded-lg bg-[#f5f8fa] px-2.5 py-2">
-        <div className="text-[8px] font-extrabold uppercase tracking-[0.05em] text-ink-400">
+        <div className="text-[9px] font-extrabold uppercase tracking-[0.05em] text-ink-500">
           Dampak ke Kompetensi
         </div>
         <div className="mt-1 space-y-1">

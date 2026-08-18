@@ -57,7 +57,7 @@ export function SengketaByType() {
                 {d.name}
               </span>
               <span className="shrink-0 text-[9.5px] font-bold text-ink-900">{num(d.value)}</span>
-              <span className="w-[46px] shrink-0 text-right text-[9px] text-ink-400">
+              <span className="w-[46px] shrink-0 text-right text-[9px] text-ink-500">
                 {d.kasus} kss
               </span>
             </div>
@@ -65,7 +65,7 @@ export function SengketaByType() {
         </div>
       </div>
 
-      <p className="mt-1 text-[8px] leading-snug text-ink-400">
+      <p className="mt-1 text-[9px] leading-snug text-ink-500">
         Okupasi masyarakat mendominasi 54% luas dan 55% jumlah kasus.
       </p>
     </div>

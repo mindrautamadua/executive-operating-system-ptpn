@@ -60,7 +60,7 @@ export function InitiativePortfolio() {
                 <td className="border-b border-[#f3f6f9] py-[5px] pr-2 text-[8.5px] font-bold leading-snug text-ink-900">
                   {ini.inisiatif}
                 </td>
-                <td className="border-b border-[#f3f6f9] py-[5px] pr-2 text-[8px] text-ink-500">
+                <td className="border-b border-[#f3f6f9] py-[5px] pr-2 text-[9px] text-ink-500">
                   {ini.workstream}
                 </td>
                 <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[5px] pr-2 text-right text-[8.5px] font-bold text-ink-900">
@@ -82,7 +82,7 @@ export function InitiativePortfolio() {
                 <td className="border-b border-[#f3f6f9] py-[5px] pr-2">
                   <ToneBadge label={ini.status} tone={STATUS_TONE[ini.status]} />
                 </td>
-                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[5px] text-[8px] text-ink-500">
+                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[5px] text-[9px] text-ink-500">
                   {ini.owner}
                 </td>
               </tr>

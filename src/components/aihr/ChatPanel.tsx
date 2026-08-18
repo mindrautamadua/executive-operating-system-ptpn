@@ -105,7 +105,7 @@ function EvidenceStrip() {
   ];
   return (
     <div className="mt-2.5 rounded-lg border border-[#e3ecf8] bg-[#f7faff] px-2.5 pb-2 pt-2">
-      <div className="flex items-center gap-1.5 text-[8px] font-extrabold uppercase tracking-[0.06em] text-[#1d5bc4]">
+      <div className="flex items-center gap-1.5 text-[9px] font-extrabold uppercase tracking-[0.06em] text-[#1d5bc4]">
         <Database size={9} /> Evidence
       </div>
       <div className="mt-1.5 grid grid-cols-5 gap-2">
@@ -118,7 +118,7 @@ function EvidenceStrip() {
           </div>
         ))}
       </div>
-      <div className="mt-1.5 border-t border-[#e3ecf8] pt-1.5 text-[8px] text-ink-500">
+      <div className="mt-1.5 border-t border-[#e3ecf8] pt-1.5 text-[9px] text-ink-500">
         Kalkulasi: <span className="font-mono font-bold text-ink-700">{e.formula}</span>
       </div>
     </div>
@@ -217,7 +217,7 @@ function TurnoverCard() {
 
       <div className="mt-2.5 grid grid-cols-[minmax(0,1fr)_auto] gap-3">
         <div>
-          <div className="text-[8px] font-extrabold uppercase tracking-[0.06em] text-ink-400">
+          <div className="text-[9px] font-extrabold uppercase tracking-[0.06em] text-ink-500">
             Likely drivers
           </div>
           <ol className="mt-1 flex flex-col gap-[3px]">
@@ -232,7 +232,7 @@ function TurnoverCard() {
           </ol>
         </div>
         <div className="text-right">
-          <div className="text-[8px] font-extrabold uppercase tracking-[0.06em] text-ink-400">
+          <div className="text-[9px] font-extrabold uppercase tracking-[0.06em] text-ink-500">
             Confidence
           </div>
           <div className="mt-[2px] text-[18px] font-extrabold leading-none text-ink-900">
@@ -242,10 +242,10 @@ function TurnoverCard() {
       </div>
 
       <div className="mt-2.5 rounded-lg border border-[#e3ecf8] bg-[#f7faff] px-2.5 py-1.5">
-        <span className="text-[8px] font-bold text-[#1d5bc4]">
+        <span className="text-[9px] font-bold text-[#1d5bc4]">
           Modul dikonsultasikan: {a.modulesConsulted.join(" · ")}
         </span>
-        <span className="ml-2 text-[8px] text-ink-400">({a.searchMeta})</span>
+        <span className="ml-2 text-[9px] text-ink-500">({a.searchMeta})</span>
       </div>
 
       <div className="mt-2.5 flex items-center justify-between border-t border-[#eef2f6] pt-2">
@@ -311,7 +311,7 @@ export function ChatPanel() {
           <div className="max-w-[70%] rounded-xl rounded-tr-sm border border-[#d9efe3] bg-[#eaf7f0] px-3 py-2.5">
             <div className="flex items-baseline gap-2">
               <span className="text-[9px] font-extrabold text-ink-900">Anda</span>
-              <span className="text-[8px] text-ink-400">{userQuestion.time}</span>
+              <span className="text-[9px] text-ink-500">{userQuestion.time}</span>
             </div>
             <p className="mt-1 text-[9.5px] font-semibold leading-[1.45] text-ink-900">
               {userQuestion.text}
@@ -334,7 +334,7 @@ export function ChatPanel() {
           <div className="min-w-0 max-w-[88%]">
             <div className="flex items-center gap-2">
               <span className="text-[9px] font-extrabold text-ink-900">AI HR Assistant</span>
-              <span className="text-[8px] text-ink-400">{headcountAnswer.time}</span>
+              <span className="text-[9px] text-ink-500">{headcountAnswer.time}</span>
               <GovernanceChip level="info" />
             </div>
             <div className="mt-1 rounded-xl rounded-tl-sm border border-[#eef2f6] bg-[#fbfcfd] px-3 pb-3 pt-2.5">
@@ -349,7 +349,7 @@ export function ChatPanel() {
           <div className="max-w-[70%] rounded-xl rounded-tr-sm border border-[#d9efe3] bg-[#eaf7f0] px-3 py-2.5">
             <div className="flex items-baseline gap-2">
               <span className="text-[9px] font-extrabold text-ink-900">Anda</span>
-              <span className="text-[8px] text-ink-400">{turnoverQuestion.time}</span>
+              <span className="text-[9px] text-ink-500">{turnoverQuestion.time}</span>
             </div>
             <p className="mt-1 text-[9.5px] font-semibold leading-[1.45] text-ink-900">
               {turnoverQuestion.text}
@@ -372,7 +372,7 @@ export function ChatPanel() {
           <div className="min-w-0 max-w-[88%]">
             <div className="flex items-center gap-2">
               <span className="text-[9px] font-extrabold text-ink-900">AI HR Assistant</span>
-              <span className="text-[8px] text-ink-400">{turnoverAnswer.time}</span>
+              <span className="text-[9px] text-ink-500">{turnoverAnswer.time}</span>
               <GovernanceChip level="decision" />
             </div>
             <div className="mt-1 rounded-xl rounded-tl-sm border border-[#eef2f6] bg-[#fbfcfd] px-3 pb-3 pt-2.5">
@@ -412,8 +412,8 @@ export function ChatPanel() {
                 key={m}
                 className={
                   m === activeReasoningMode
-                    ? "shrink-0 rounded-full bg-ink-900 px-2.5 py-[4px] text-[8px] font-bold text-white"
-                    : "shrink-0 rounded-full border border-[#e3e9ef] bg-[#f8fafc] px-2.5 py-[4px] text-[8px] font-semibold text-ink-600 transition-colors hover:bg-[#eef2f6]"
+                    ? "shrink-0 rounded-full bg-ink-900 px-2.5 py-[4px] text-[9px] font-bold text-white"
+                    : "shrink-0 rounded-full border border-[#e3e9ef] bg-[#f8fafc] px-2.5 py-[4px] text-[9px] font-semibold text-ink-600 transition-colors hover:bg-[#eef2f6]"
                 }
               >
                 {m}
@@ -437,7 +437,7 @@ export function ChatPanel() {
             </button>
           </div>
         </div>
-        <p className="mt-2 text-center text-[8px] text-ink-400">{aihrDisclaimer}</p>
+        <p className="mt-2 text-center text-[9px] text-ink-500">{aihrDisclaimer}</p>
       </div>
     </div>
   );

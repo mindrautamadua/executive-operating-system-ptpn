@@ -93,7 +93,7 @@ export function CertMatrix() {
         </table>
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         {isFiltered
           ? `Menampilkan ${rows.length} baris skema milik ${def.label}; basis unit tetap mengacu portofolio sertifikasi grup.`
           : "SGN memakai ISO 14001 di luar basis 76 unit sawit; RSPO SupportingCo (2/18) menjadi titik terlemah portofolio."}

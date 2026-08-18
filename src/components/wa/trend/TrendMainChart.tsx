@@ -46,7 +46,7 @@ export function TrendMainChart() {
               dataKey="name"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={2}
               tickFormatter={(v: string) => v.replace(" 20", " ")}
             />
@@ -75,7 +75,7 @@ export function TrendMainChart() {
                 label={{
                   value: `${e.label} ${e.delta}`,
                   position: "insideTopLeft",
-                  fontSize: 7,
+                  fontSize: 8,
                   fill: "#64748b",
                 }}
               />
@@ -118,7 +118,7 @@ export function TrendMainChart() {
           <span className="h-[3px] w-[12px] rounded-full bg-[#3b7ded]" /> Proyeksi
         </span>
         {trendEvents.map((e) => (
-          <span key={e.month} className="text-[8px] text-ink-400">
+          <span key={e.month} className="text-[9px] text-ink-500">
             {e.month}: {e.note}
           </span>
         ))}

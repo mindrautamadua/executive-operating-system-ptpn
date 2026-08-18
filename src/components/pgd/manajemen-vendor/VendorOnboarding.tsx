@@ -41,7 +41,7 @@ export function VendorOnboarding() {
         ))}
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         Penyusutan terbesar pada kualifikasi teknis &amp; keuangan (66,3% → 33,3%) yang juga tahap
         terlama (12 hari).
       </p>

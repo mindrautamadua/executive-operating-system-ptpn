@@ -52,12 +52,12 @@ export function PdpReadiness() {
               />
             </div>
 
-            <p className="mt-1 text-[8px] leading-snug text-ink-400">{p.catatan}</p>
+            <p className="mt-1 text-[9px] leading-snug text-ink-500">{p.catatan}</p>
           </div>
         ))}
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         Hak subjek data (68) menjadi pilar terlemah — kanal permintaan belum terotomasi dan SLA
         respons belum diukur.
       </p>

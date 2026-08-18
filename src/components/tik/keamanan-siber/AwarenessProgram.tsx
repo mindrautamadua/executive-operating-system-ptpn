@@ -54,7 +54,7 @@ export function AwarenessProgram() {
               </span>
             </div>
 
-            <p className="mt-1 text-[8px] leading-snug text-ink-400">{p.hasil}</p>
+            <p className="mt-1 text-[9px] leading-snug text-ink-500">{p.hasil}</p>
           </div>
         ))}
       </div>

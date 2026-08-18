@@ -51,7 +51,7 @@ export function SignalFeed() {
               </span>
             </div>
             <p className="mt-[3px] text-[8.5px] leading-snug text-ink-500">{s.dampak}</p>
-            <div className="mt-[3px] text-[8px] text-ink-400">
+            <div className="mt-[3px] text-[9px] text-ink-500">
               {s.tanggal} · {s.sumber}
             </div>
           </li>

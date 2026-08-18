@@ -38,7 +38,7 @@ export function DowntimePareto() {
               dataKey="penyebab"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -47,7 +47,7 @@ export function DowntimePareto() {
               ticks={[0, 700, 1400, 2100, 2800]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => ribuan(v)}
             />
             <YAxis
@@ -57,7 +57,7 @@ export function DowntimePareto() {
               ticks={[0, 25, 50, 75, 100]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => `${v}%`}
             />
             <Tooltip
@@ -73,7 +73,7 @@ export function DowntimePareto() {
                 position="top"
                 offset={4}
                 formatter={(v: number) => ribuan(v)}
-                style={{ fontSize: 7.5, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Bar>
             <Line
@@ -89,7 +89,7 @@ export function DowntimePareto() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 truncate text-[8px] text-ink-400">
+      <p className="mt-1 truncate text-[9px] text-ink-500">
         Total 6.400 jam YTD · garis = kumulatif Pareto (%)
       </p>
     </div>

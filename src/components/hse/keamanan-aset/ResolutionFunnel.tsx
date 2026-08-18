@@ -32,7 +32,7 @@ export function ResolutionFunnel() {
                 style={{ width: `${s.pct}%`, backgroundColor: s.color }}
               />
             </div>
-            <p className="mt-[3px] truncate text-[8px] text-ink-500">
+            <p className="mt-[3px] truncate text-[9px] text-ink-500">
               {desimal(s.pct)}% · rata-rata {s.durasiHari} hari
             </p>
           </div>

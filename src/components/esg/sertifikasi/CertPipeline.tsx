@@ -67,7 +67,7 @@ export function CertPipeline() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Beban audit terberat pada Q3–Q4 2026 (7 unit stage 1–2 per kuartal) — slot lembaga
         sertifikasi perlu dikunci lebih awal.
       </p>

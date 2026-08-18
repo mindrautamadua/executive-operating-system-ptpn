@@ -66,7 +66,7 @@ export function SpendByCategory() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Pupuk &amp; agrokimia (29,0%) dan BBM &amp; energi (17,3%) menyerap 46,3% belanja — dua
         kategori paling terpapar kenaikan indeks harga input.
       </p>

@@ -42,7 +42,7 @@ export function LiquidityRunway() {
               dataKey="week"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -61,7 +61,7 @@ export function LiquidityRunway() {
               label={{
                 value: "Minimum Cash 3,5 T",
                 position: "insideBottomRight",
-                style: { fontSize: 7.5, fill: PALETTE.red, fontWeight: 800 },
+                style: { fontSize: 8.5, fill: PALETTE.red, fontWeight: 800 },
               }}
             />
             <Tooltip
@@ -81,7 +81,7 @@ export function LiquidityRunway() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 truncate text-[8px] leading-snug text-ink-500" title={runwayNote}>
+      <p className="mt-1 truncate text-[9px] leading-snug text-ink-500" title={runwayNote}>
         {runwayNote}
       </p>
     </div>

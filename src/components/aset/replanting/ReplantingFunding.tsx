@@ -78,7 +78,7 @@ export function ReplantingFunding() {
         ))}
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">{replantingFundingNote}</p>
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">{replantingFundingNote}</p>
     </div>
   );
 }

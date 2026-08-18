@@ -43,7 +43,7 @@ export function IntegrityFunnel() {
         ))}
       </ul>
 
-      <p className="mt-auto rounded-md bg-[#fdecec] px-2 py-[5px] text-[8px] leading-[1.4] text-[#b91c1c]">
+      <p className="mt-auto rounded-md bg-[#fdecec] px-2 py-[5px] text-[9px] leading-[1.4] text-[#b91c1c]">
         4 kasus terbukti dan 2 telah diteruskan ke sanksi / APH — substantiation rate 28,6%.
       </p>
     </div>

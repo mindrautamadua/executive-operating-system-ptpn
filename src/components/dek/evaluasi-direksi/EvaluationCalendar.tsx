@@ -39,8 +39,8 @@ export function EvaluationCalendar() {
                 {s.tahap}
               </span>
             </div>
-            <div className="mt-[3px] text-[8px] font-semibold text-ink-500">{s.periode}</div>
-            <p className="mt-1.5 text-[8px] leading-snug text-ink-500">{s.keluaran}</p>
+            <div className="mt-[3px] text-[9px] font-semibold text-ink-500">{s.periode}</div>
+            <p className="mt-1.5 text-[9px] leading-snug text-ink-500">{s.keluaran}</p>
             <div className="mt-auto pt-1.5">
               <ToneBadge label={s.status} tone={STATUS_TONE[s.status]} />
               <div className="mt-[4px] truncate text-[7.5px] font-semibold text-ink-400">

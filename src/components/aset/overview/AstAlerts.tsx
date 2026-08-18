@@ -51,7 +51,7 @@ export function AstAlerts() {
                 </span>
               </div>
               <p className="mt-1.5 flex-1 text-[8.5px] leading-[1.45] text-ink-500">{a.text}</p>
-              <div className="mt-1.5 text-[8px] text-ink-400">{a.time}</div>
+              <div className="mt-1.5 text-[9px] text-ink-500">{a.time}</div>
             </div>
           );
         })}

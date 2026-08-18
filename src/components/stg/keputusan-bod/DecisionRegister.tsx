@@ -49,20 +49,20 @@ export function DecisionRegister() {
           <tbody>
             {rows.map((d) => (
               <tr key={`${d.tanggal}-${d.title}`} className="align-middle">
-                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[8px] font-semibold text-ink-500">
+                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[9px] font-semibold text-ink-500">
                   {d.tanggal}
                 </td>
                 <td className="border-b border-[#f3f6f9] py-[6px] pr-2 text-[8.5px] font-bold leading-snug text-ink-900">
                   {d.title}
                 </td>
-                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[8px] text-ink-500">
+                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[9px] text-ink-500">
                   {d.category}
                 </td>
-                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[8px] text-ink-500">
+                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[9px] text-ink-500">
                   {d.pic}
                 </td>
                 <td
-                  className={`whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[8px] font-semibold ${
+                  className={`whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[9px] font-semibold ${
                     d.status === "Overdue" ? "text-[#ef4444]" : "text-ink-700"
                   }`}
                 >

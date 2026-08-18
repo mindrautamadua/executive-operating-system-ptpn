@@ -91,7 +91,7 @@ export function HkmKpiStrip() {
               {k.href && k.hrefLabel && (
                 <Link
                   href={k.href}
-                  className="mt-1 block truncate text-[8px] font-semibold text-ptpn-green hover:underline"
+                  className="mt-1 block truncate text-[9px] font-semibold text-ptpn-green hover:underline"
                   title={k.hrefLabel}
                 >
                   {k.hrefLabel}

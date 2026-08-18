@@ -31,7 +31,7 @@ export function IrAiIntelligence() {
             key={iv.horizon}
             className="flex flex-col rounded-lg border border-[#eef2f6] bg-[#fbfcfe] px-2.5 py-2"
           >
-            <span className="text-[8px] font-extrabold uppercase tracking-[0.04em] text-ptpn-green">
+            <span className="text-[9px] font-extrabold uppercase tracking-[0.04em] text-ptpn-green">
               Intervensi {iv.horizon}
             </span>
             <ul className="mt-1 flex flex-1 flex-col justify-around">
@@ -48,7 +48,7 @@ export function IrAiIntelligence() {
 
       <div className="mt-2 flex items-center gap-1.5 rounded-lg bg-ptpn-greenLight px-2.5 py-1.5">
         <TrendingDown size={11} className="shrink-0 text-ptpn-green" />
-        <span className="text-[8px] font-bold leading-[1.35] text-ptpn-greenDark">{irAiImpact}</span>
+        <span className="text-[9px] font-bold leading-[1.35] text-ptpn-greenDark">{irAiImpact}</span>
       </div>
     </div>
   );

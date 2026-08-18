@@ -62,7 +62,7 @@ export function AgendaByTheme() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Keberlanjutan hanya 5 butir (5,2%) dan tidak pernah menjadi mata agenda utama, padahal
         risiko regulasi pasar ekspor terus menguat.
       </p>

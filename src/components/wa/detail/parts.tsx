@@ -58,7 +58,7 @@ export function DetailKpiStrip({ items }: { items: DetailKpi[] }) {
           </div>
           <div className="mt-2.5 flex items-center gap-1.5">
             {k.trend === "flat" ? (
-              <span className="text-[10px] font-semibold text-ink-400">{k.delta}</span>
+              <span className="text-[10px] font-semibold text-ink-500">{k.delta}</span>
             ) : (
               <Delta
                 value={k.delta.replace("-", "")}
@@ -141,7 +141,7 @@ export function BarListCard({
       </div>
 
       {footer && (
-        <p className="mt-2 border-t border-[#eef2f6] pt-1.5 text-[8px] leading-[1.4] text-ink-400">
+        <p className="mt-2 border-t border-[#eef2f6] pt-1.5 text-[9px] leading-[1.4] text-ink-500">
           {footer}
         </p>
       )}
@@ -235,7 +235,7 @@ export function DetailTable({
       </div>
 
       {note && (
-        <p className="mt-2 border-t border-[#eef2f6] pt-1.5 text-[8px] leading-[1.4] text-ink-400">
+        <p className="mt-2 border-t border-[#eef2f6] pt-1.5 text-[9px] leading-[1.4] text-ink-500">
           {note}
         </p>
       )}

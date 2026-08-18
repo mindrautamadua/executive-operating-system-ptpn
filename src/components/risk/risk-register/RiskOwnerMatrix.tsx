@@ -26,7 +26,7 @@ export function RiskOwnerMatrix() {
         Sebaran Level Risiko per Direktorat Pemilik (Total 142)
       </p>
 
-      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_34px_34px_38px_34px_34px] items-center gap-x-1 border-b border-[#eef2f6] pb-1.5 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_34px_34px_38px_34px_34px] items-center gap-x-1 border-b border-[#eef2f6] pb-1.5 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Direktorat</span>
         <span className="text-center">Ekst</span>
         <span className="text-center">Tinggi</span>

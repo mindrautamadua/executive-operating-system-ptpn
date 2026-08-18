@@ -53,7 +53,7 @@ export function FunnelBottleneck() {
                   / SLA {fmtHari(s.target)}
                 </span>
                 <span
-                  className={`${TONE_CHIP[s.tone]} rounded px-1.5 py-[1px] text-[8px] font-bold tabular-nums`}
+                  className={`${TONE_CHIP[s.tone]} rounded px-1.5 py-[1px] text-[9px] font-bold tabular-nums`}
                 >
                   {s.share}
                 </span>

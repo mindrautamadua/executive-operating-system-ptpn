@@ -40,7 +40,7 @@ export function ExpiryTimeline() {
               dataKey="bulan"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: string) => v.replace(" 20", " ")}
             />
             <YAxis
@@ -66,14 +66,14 @@ export function ExpiryTimeline() {
               <LabelList
                 dataKey="jumlah"
                 position="top"
-                style={{ fontSize: 7.5, fill: CHART_AXIS.tick, fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: CHART_AXIS.tick, fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Puncak Juli (41 kontrak, Rp 3,42 T) dan Desember (46 kontrak, Rp 4,86 T) — dua bulan itu
         menampung 24% nilai kontrak grup.
       </p>

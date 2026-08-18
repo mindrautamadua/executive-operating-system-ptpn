@@ -33,7 +33,7 @@ export function IndonesiaMap() {
       <div className="flex items-baseline justify-between gap-2">
         <h3 className="card-title whitespace-nowrap">SEBARAN OPERASI GRUP</h3>
         <div className="flex shrink-0 items-baseline gap-2">
-          <span className="text-[9px] text-ink-400">Pendapatan YTD 2026</span>
+          <span className="text-[9px] text-ink-500">Pendapatan YTD 2026</span>
           <DetailLink href="/produksi-operasi" />
         </div>
       </div>

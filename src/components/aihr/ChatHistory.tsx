@@ -37,7 +37,7 @@ export function ChatHistory() {
                 </span>
               )}
             </span>
-            <span className="shrink-0 text-[8px] font-semibold text-ink-400">{when}</span>
+            <span className="shrink-0 text-[9px] font-semibold text-ink-500">{when}</span>
           </button>
         ))}
       </div>

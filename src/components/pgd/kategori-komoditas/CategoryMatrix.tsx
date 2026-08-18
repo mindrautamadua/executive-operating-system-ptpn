@@ -58,12 +58,12 @@ export function CategoryMatrix() {
               <div className="flex items-center justify-between gap-2">
                 <span className="text-[10px] font-extrabold text-ink-900">{q.key}</span>
                 <span
-                  className={`shrink-0 rounded px-1.5 py-[2px] text-[8px] font-bold ${q.chip}`}
+                  className={`shrink-0 rounded px-1.5 py-[2px] text-[9px] font-bold ${q.chip}`}
                 >
                   {rp(spend)} · {vendor.toLocaleString("id-ID")} vendor
                 </span>
               </div>
-              <p className="mt-[3px] text-[8px] leading-snug text-ink-400">{q.caption}</p>
+              <p className="mt-[3px] text-[9px] leading-snug text-ink-500">{q.caption}</p>
 
               <div className="mt-1.5 flex min-h-0 flex-1 flex-col gap-[3px]">
                 {rows.map((c) => (
@@ -71,7 +71,7 @@ export function CategoryMatrix() {
                     <span className="truncate text-[8.5px] font-semibold text-ink-700">
                       {c.kategori}
                     </span>
-                    <span className="shrink-0 text-[8px] font-bold text-ink-500">
+                    <span className="shrink-0 text-[9px] font-bold text-ink-500">
                       {rp(c.valueRpT)} · {c.vendor.toLocaleString("id-ID")}
                     </span>
                   </div>
@@ -82,7 +82,7 @@ export function CategoryMatrix() {
         })}
       </div>
 
-      <p className="mt-2 text-[8px] leading-snug text-ink-400">
+      <p className="mt-2 text-[9px] leading-snug text-ink-500">
         Strategic (Rp 5,71 T) &amp; Bottleneck (Rp 2,15 T dengan hanya 24 vendor) mencakup 63,4%
         belanja — fokus utama kapasitas category manager.
       </p>

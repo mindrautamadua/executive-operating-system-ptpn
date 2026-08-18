@@ -27,7 +27,7 @@ export function CostPerRegional() {
         <ScopeEmpty label={def.fullLabel} />
       ) : (
         <>
-      <div className="mt-2 grid grid-cols-[64px_72px_minmax(0,1fr)_58px] items-center gap-x-2 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[64px_72px_minmax(0,1fr)_58px] items-center gap-x-2 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Regional</span>
         <span className="text-right">HPP /kg</span>
         <span>Driver Utama</span>
@@ -52,7 +52,7 @@ export function CostPerRegional() {
             >
               {r.hppRpKg.toLocaleString("id-ID")}
             </span>
-            <span className="truncate text-[8px] text-ink-500">{r.driver}</span>
+            <span className="truncate text-[9px] text-ink-500">{r.driver}</span>
             <span className="flex justify-end">
               <ToneBadge
                 label={r.outlier ? "Outlier" : r.hppRpKg <= HPP_CPO_RP_KG ? "Efisien" : "Normal"}

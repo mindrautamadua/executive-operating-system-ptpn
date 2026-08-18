@@ -55,7 +55,7 @@ export function DecisionScenarioCard() {
         })}
       </div>
 
-      <p className="mt-2 text-[8px] text-ink-400">
+      <p className="mt-2 text-[9px] text-ink-500">
         Konsekuensi dirangkum dari data profil (syarat jabatan, backfill, tenure, kompensasi);
         keputusan final pada komite suksesi.
       </p>

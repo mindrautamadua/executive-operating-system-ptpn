@@ -30,7 +30,7 @@ export default function ExecutiveGuidePage() {
                 <span className="text-[22px] font-extrabold tracking-tight text-[#dbe5f1]">
                   {c.num}
                 </span>
-                <span className="text-[8px] font-bold uppercase tracking-[0.08em] text-ptpn-green">
+                <span className="text-[9px] font-bold uppercase tracking-[0.08em] text-ptpn-green">
                   {c.tag}
                 </span>
               </div>

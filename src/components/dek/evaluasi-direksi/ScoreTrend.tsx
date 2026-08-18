@@ -40,14 +40,14 @@ export function ScoreTrend() {
               className="h-[7px] w-[7px] shrink-0 rounded-full"
               style={{ backgroundColor: PALETTE.green }}
             />
-            <span className="text-[8px] font-semibold text-ink-500">Skor Kolektif</span>
+            <span className="text-[9px] font-semibold text-ink-500">Skor Kolektif</span>
           </span>
           <span className="flex items-center gap-1">
             <span
               className="h-[7px] w-[7px] shrink-0 rounded-full"
               style={{ backgroundColor: PALETTE.red }}
             />
-            <span className="text-[8px] font-semibold text-ink-500">Ambang Baik</span>
+            <span className="text-[9px] font-semibold text-ink-500">Ambang Baik</span>
           </span>
         </div>
       </div>
@@ -97,7 +97,7 @@ export function ScoreTrend() {
                 position="top"
                 offset={6}
                 formatter={(v: number) => v.toLocaleString("id-ID")}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Line>
           </LineChart>

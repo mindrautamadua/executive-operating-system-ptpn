@@ -23,7 +23,7 @@ export function PayForPerformance() {
           Pay-for-Performance Effectiveness
           <ScopeNote />
         </h3>
-        <span className="shrink-0 text-[9px] font-semibold text-ink-400">{p4pRingkas.korelasi}</span>
+        <span className="shrink-0 text-[9px] font-semibold text-ink-500">{p4pRingkas.korelasi}</span>
       </div>
 
       <ul className="mt-2.5 flex min-h-0 flex-1 flex-col justify-between gap-[3px]">
@@ -44,7 +44,7 @@ export function PayForPerformance() {
             <span className="w-[52px] shrink-0 text-right text-[8.5px] font-extrabold text-ink-900">
               {r.avgReward}
             </span>
-            <span className="w-[34px] shrink-0 text-right text-[8px] font-bold text-ink-500">
+            <span className="w-[34px] shrink-0 text-right text-[9px] font-bold text-ink-500">
               {r.merit}
             </span>
           </li>
@@ -73,7 +73,7 @@ export function PayForPerformance() {
       <div className="mt-2 flex flex-col gap-[4px]">
         {rewardMisalignment.map((m) => (
           <div key={m.label} className="flex items-center justify-between gap-2">
-            <span className="min-w-0 truncate text-[8px] font-semibold text-ink-600">
+            <span className="min-w-0 truncate text-[9px] font-semibold text-ink-600">
               {m.label} <span className="text-ink-400">· {m.note}</span>
             </span>
             <span

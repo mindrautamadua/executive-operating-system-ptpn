@@ -38,7 +38,7 @@ export function RenewalFunnel() {
                     style={{ width: `${lebar}%`, backgroundColor: s.color }}
                   />
                 </div>
-                <span className="w-[38px] shrink-0 text-right text-[8px] font-semibold tabular-nums text-ink-400">
+                <span className="w-[38px] shrink-0 text-right text-[9px] font-semibold tabular-nums text-ink-500">
                   {drop === null ? "100%" : `−${drop}`}
                 </span>
               </div>
@@ -47,7 +47,7 @@ export function RenewalFunnel() {
         })}
       </div>
 
-      <p className="mt-1.5 border-t border-[#f5f8fa] pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="mt-1.5 border-t border-[#f5f8fa] pt-1.5 text-[9px] leading-snug text-ink-500">
         Kebocoran terbesar bersifat teknis: kelengkapan dokumen (43 → 33, 22 hari) dan verifikasi
         lapangan (27 → 14, 31 hari).
       </p>

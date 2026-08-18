@@ -29,7 +29,7 @@ export function AnalitikPrediktif() {
             {/* Rentang P10–P90 + keyakinan — forecast bukan angka pasti.
                 Definisi confidence dieksplisitkan supaya bukan angka dekoratif. */}
             <div
-              className="mt-[3px] cursor-help truncate text-[8px] text-ink-400 underline decoration-dotted decoration-[#c6cfd8] underline-offset-2"
+              className="mt-[3px] cursor-help truncate text-[9px] text-ink-500 underline decoration-dotted decoration-[#c6cfd8] underline-offset-2"
               title={`Rentang P10–P90 ${a.range}. Keyakinan ${a.confidencePct}% = kalibrasi historis model: probabilitas realisasi jatuh di dalam rentang ini, dihitung dari akurasi forecast periode-periode sebelumnya.`}
             >
               {a.range} · {a.confidencePct}%

@@ -85,7 +85,7 @@ export function ProjectPortfolio() {
         </table>
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         Dua proyek merah — ERP Wave 3 (42%) dan uplift keamanan siber (34%) — menyerap Rp 233 M dan
         keduanya menjadi agenda keputusan BOD kuartal ini.
       </p>

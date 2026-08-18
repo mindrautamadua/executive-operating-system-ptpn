@@ -79,7 +79,7 @@ export function TransformationHealthGrid() {
             </div>
 
             <div className="mt-auto flex items-center justify-between gap-1.5 pt-1.5">
-              <span className="truncate text-[8px] text-ink-400" title={p.sponsor}>
+              <span className="truncate text-[9px] text-ink-500" title={p.sponsor}>
                 {p.sponsor}
               </span>
               <span className="shrink-0 text-[8.5px] font-extrabold text-ink-900">

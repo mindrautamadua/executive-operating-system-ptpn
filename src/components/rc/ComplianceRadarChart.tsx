@@ -32,7 +32,7 @@ function AxisTick({ x = 0, y = 0, textAnchor = "middle", payload }: TickProps) {
           key={line}
           x={x}
           dy={i === 0 ? (lines.length > 1 ? -4 : 0) : 9}
-          style={{ fontSize: 7.5, fill: "var(--chart-tick)", fontWeight: 600 }}
+          style={{ fontSize: 8.5, fill: "var(--chart-tick)", fontWeight: 600 }}
         >
           {line}
         </tspan>
@@ -81,7 +81,7 @@ export function ComplianceRadarChart() {
               domain={[0, 100]}
               tickCount={5}
               angle={90}
-              tick={{ fontSize: 7, fill: "var(--chart-tick)" }}
+              tick={{ fontSize: 8, fill: "var(--chart-tick)" }}
               axisLine={false}
             />
             <Radar

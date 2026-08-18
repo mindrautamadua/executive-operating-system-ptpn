@@ -52,7 +52,7 @@ export function KonversiTalenta() {
         })}
       </div>
 
-      <p className="mt-1.5 border-t border-[#f0f3f6] pt-1.5 text-[8px] leading-[1.4] text-ink-400">
+      <p className="mt-1.5 border-t border-[#f0f3f6] pt-1.5 text-[9px] leading-[1.4] text-ink-500">
         86 Ready Now berisiko keluar — retention plan diprioritaskan di Performance Decision
         Center.
       </p>

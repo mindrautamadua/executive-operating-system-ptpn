@@ -59,7 +59,7 @@ export function PsrProgress() {
             <div className="text-[7.5px] text-ink-400">Tersalur YTD</div>
             <div className="text-[11px] font-extrabold text-ink-900">
               Rp {psrProgress.tersalurRpM.toLocaleString("id-ID")} M{" "}
-              <span className="text-[8px] font-semibold text-ink-500">({danaPct}%)</span>
+              <span className="text-[9px] font-semibold text-ink-500">({danaPct}%)</span>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ export function PsrProgress() {
         </div>
       </div>
 
-      <p className="mt-auto pt-2 text-[8px] leading-snug text-ink-400">{psrProgress.note}</p>
+      <p className="mt-auto pt-2 text-[9px] leading-snug text-ink-500">{psrProgress.note}</p>
       </>
       )}
     </div>

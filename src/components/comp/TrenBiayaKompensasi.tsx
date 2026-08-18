@@ -31,7 +31,7 @@ export function TrenBiayaKompensasi() {
         </button>
       </div>
 
-      <div className="mt-1.5 text-[9px] text-ink-400">(Rp Miliar)</div>
+      <div className="mt-1.5 text-[9px] text-ink-500">(Rp Miliar)</div>
 
       <div className="min-h-0 w-full flex-1">
         <ResponsiveContainer width="100%" height="100%">

@@ -48,19 +48,19 @@ export function GulaPgReadiness() {
         <>
           <div className="mt-2 grid grid-cols-3 gap-2">
             <div className="rounded-lg bg-[var(--surface-2)] p-2 text-center">
-              <div className="text-[8px] uppercase tracking-wide text-ink-400">Jam Berhenti</div>
+              <div className="text-[9px] uppercase tracking-wide text-ink-500">Jam Berhenti</div>
               <div className="mt-0.5 text-[12px] font-bold text-amber-600">
                 {pct(rataBerhenti)}%
               </div>
             </div>
             <div className="rounded-lg bg-[var(--surface-2)] p-2 text-center">
-              <div className="text-[8px] uppercase tracking-wide text-ink-400">Recovery</div>
+              <div className="text-[9px] uppercase tracking-wide text-ink-500">Recovery</div>
               <div className="mt-0.5 text-[12px] font-bold text-amber-600">
                 {pct(rataRecovery)}%
               </div>
             </div>
             <div className="rounded-lg bg-[var(--surface-2)] p-2 text-center">
-              <div className="text-[8px] uppercase tracking-wide text-ink-400">PG Merah</div>
+              <div className="text-[9px] uppercase tracking-wide text-ink-500">PG Merah</div>
               <div className="mt-0.5 text-[12px] font-bold text-red-600">{merah.length}</div>
             </div>
           </div>
@@ -86,7 +86,7 @@ export function GulaPgReadiness() {
             ))}
           </div>
 
-          <p className="mt-2 border-t border-[var(--border-hair)] pt-1.5 text-[8px] leading-snug text-ink-400">
+          <p className="mt-2 border-t border-[var(--border-hair)] pt-1.5 text-[9px] leading-snug text-ink-500">
             5 PG dengan jam berhenti tertinggi — keandalan giling menentukan capaian FY gula 780 rb
             ton.
           </p>

@@ -48,7 +48,7 @@ export function HppTrend() {
               dataKey="bulan"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={1}
             />
             <YAxis
@@ -96,15 +96,15 @@ export function HppTrend() {
       </div>
 
       <div className="mt-1 flex items-center gap-3">
-        <span className="flex items-center gap-1.5 text-[8px] font-semibold text-ink-500">
+        <span className="flex items-center gap-1.5 text-[9px] font-semibold text-ink-500">
           <span className="h-[3px] w-[14px] rounded-full" style={{ background: PALETTE.green }} />
           Harga Jual
         </span>
-        <span className="flex items-center gap-1.5 text-[8px] font-semibold text-ink-500">
+        <span className="flex items-center gap-1.5 text-[9px] font-semibold text-ink-500">
           <span className="h-[3px] w-[14px] rounded-full" style={{ background: PALETTE.red }} />
           HPP CPO
         </span>
-        <span className="min-w-0 truncate text-[8px] text-ink-400">{hppTrendNote}</span>
+        <span className="min-w-0 truncate text-[9px] text-ink-500">{hppTrendNote}</span>
       </div>
         </>
       )}

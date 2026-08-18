@@ -50,7 +50,7 @@ export function UtilisasiByJenis() {
               dataKey="name"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -83,7 +83,7 @@ export function UtilisasiByJenis() {
                 position="top"
                 offset={4}
                 formatter={(v: number) => pct(v)}
-                style={{ fontSize: 7.5, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Bar>
             <Bar dataKey="target" fill={PALETTE.slate} fillOpacity={0.45} radius={[3, 3, 0, 0]}>
@@ -99,7 +99,7 @@ export function UtilisasiByJenis() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 truncate text-[8px] text-ink-400">
+      <p className="mt-1 truncate text-[9px] text-ink-500">
         PG: musim giling baru mulai Mei — utilisasi bulan pertama giling.
       </p>
     </div>

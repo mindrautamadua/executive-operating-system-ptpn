@@ -47,7 +47,7 @@ export function ComplianceReporting() {
               <div className="truncate text-[9.5px] font-semibold text-ink-900" title={r.laporan}>
                 {r.laporan}
               </div>
-              <div className="mt-[2px] text-[8px] text-ink-500">
+              <div className="mt-[2px] text-[9px] text-ink-500">
                 {r.penerima} · {r.frekuensi} · jatuh tempo {r.jatuhTempo}
               </div>
             </div>
@@ -56,7 +56,7 @@ export function ComplianceReporting() {
         ))}
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         2 laporan terlambat YTD (AHU &amp; LKPM) bersifat administratif namun menjadi temuan
         berulang pada asesmen GCG.
       </p>

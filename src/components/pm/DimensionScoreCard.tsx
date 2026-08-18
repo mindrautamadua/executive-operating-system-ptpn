@@ -68,10 +68,10 @@ function RadarChart() {
       <text x={cx} y={cy - 4} textAnchor="middle" fontSize={21} fontWeight={800} fill="#0f7a44">
         {pmDimensiTotal.skor}
       </text>
-      <text x={cx} y={cy + 9} textAnchor="middle" fontSize={7.5} fill="#6b7280">
+      <text x={cx} y={cy + 9} textAnchor="middle" fontSize={8} fill="#6b7280">
         Total Score
       </text>
-      <text x={cx} y={cy + 19} textAnchor="middle" fontSize={7.5} fontWeight={700} fill="#0f7a44">
+      <text x={cx} y={cy + 19} textAnchor="middle" fontSize={8} fontWeight={700} fill="#0f7a44">
         ({pmDimensiTotal.kategori})
       </text>
     </svg>

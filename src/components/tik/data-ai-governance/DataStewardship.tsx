@@ -25,17 +25,17 @@ export function DataStewardship() {
               </span>
             </div>
             <div className="mt-[3px] flex items-center gap-1.5">
-              <span className="truncate text-[8px] font-semibold text-ink-500">
+              <span className="truncate text-[9px] font-semibold text-ink-500">
                 {r.cakupanDomain}
               </span>
-              <span className="shrink-0 text-[8px] text-ink-400">· {r.entitas}</span>
+              <span className="shrink-0 text-[9px] text-ink-500">· {r.entitas}</span>
             </div>
-            <p className="mt-[2px] text-[8px] leading-snug text-ink-400">{r.tanggungJawab}</p>
+            <p className="mt-[2px] text-[9px] leading-snug text-ink-500">{r.tanggungJawab}</p>
           </div>
         ))}
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         1 posisi Data Protection Officer subholding masih kosong — celah akuntabilitas kepatuhan
         PDP.
       </p>

@@ -100,7 +100,7 @@ export function CapexVsOpexTrend() {
                 position="top"
                 offset={5}
                 formatter={(v: React.ReactNode) => rupiah(Number(v))}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
             <Line
@@ -116,7 +116,7 @@ export function CapexVsOpexTrend() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Belanja TI naik 80% dalam 5 tahun (Rp 0,51 T → Rp 0,92 T); rasio terhadap pendapatan bergerak
         1,1% → 1,6%, tetap di dalam rentang benchmark.
       </p>

@@ -53,7 +53,7 @@ export function ImpactVsEffort() {
               ticks={[0, 0.8, 1.6, 2.4, 3.2]}
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => v.toLocaleString("id-ID")}
             />
             <YAxis
@@ -63,7 +63,7 @@ export function ImpactVsEffort() {
               ticks={[0.2, 0.4, 0.6, 0.8]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => v.toLocaleString("id-ID")}
               width={34}
             />
@@ -97,7 +97,7 @@ export function ImpactVsEffort() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 truncate text-[8px] text-ink-400">
+      <p className="mt-1 truncate text-[9px] text-ink-500">
         Kiri-atas = dampak tinggi &amp; effort rendah (quick win); kanan-bawah perlu uji ulang
         prioritas.
       </p>

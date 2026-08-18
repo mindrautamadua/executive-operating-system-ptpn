@@ -64,7 +64,7 @@ export function YieldByRegional() {
               ticks={[0, 6, 12, 18, 24]}
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <YAxis
               type="category"
@@ -82,7 +82,7 @@ export function YieldByRegional() {
               label={{
                 value: `Grup ${num(YIELD_GRUP_TON_HA)}`,
                 position: "insideBottomLeft",
-                fontSize: 7.5,
+                fontSize: 8.5,
                 fontWeight: 700,
                 fill: PALETTE.navy,
               }}
@@ -95,7 +95,7 @@ export function YieldByRegional() {
               label={{
                 value: `Benchmark ${num(YIELD_BENCHMARK_SWASTA_TON_HA)}`,
                 position: "insideTopLeft",
-                fontSize: 7.5,
+                fontSize: 8.5,
                 fontWeight: 700,
                 fill: PALETTE.amber,
               }}
@@ -120,7 +120,7 @@ export function YieldByRegional() {
                 position="right"
                 offset={4}
                 formatter={(v: number) => num(v)}
-                style={{ fontSize: 7.5, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>

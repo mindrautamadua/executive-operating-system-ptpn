@@ -34,7 +34,7 @@ export function TikRiskRadar() {
             <PolarRadiusAxis
               domain={[0, 100]}
               tickCount={5}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               axisLine={false}
             />
             <Tooltip
@@ -62,7 +62,7 @@ export function TikRiskRadar() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Keamanan siber (78 vs toleransi 45) adalah deviasi terbesar; utang teknis (68) dan delivery
         program (66) menyusul di urutan berikutnya.
       </p>

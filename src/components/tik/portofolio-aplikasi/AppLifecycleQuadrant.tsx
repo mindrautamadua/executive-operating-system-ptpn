@@ -57,7 +57,7 @@ export function AppLifecycleQuadrant() {
               ticks={[20, 40, 60, 80, 100]}
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <YAxis
               type="number"
@@ -66,7 +66,7 @@ export function AppLifecycleQuadrant() {
               ticks={[20, 40, 60, 80, 100]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <ReferenceLine
               x={AMBANG}
@@ -96,14 +96,14 @@ export function AppLifecycleQuadrant() {
                 dataKey="singkat"
                 position="top"
                 offset={5}
-                style={{ fontSize: 6.5, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Scatter>
           </ScatterChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Kiri-atas = Tolerate · kanan-atas = Invest · kanan-bawah = Migrate (nilai tinggi, teknis
         lemah) · kiri-bawah = Eliminate.
       </p>

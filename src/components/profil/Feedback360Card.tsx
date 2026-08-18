@@ -28,7 +28,7 @@ export function Feedback360Card() {
               className={`rounded-xl border border-[#eef2f6] border-l-[3px] px-3 py-2.5 ${tone.border}`}
             >
               <span
-                className={`inline-block rounded-full px-2 py-[2px] text-[8px] font-extrabold ${tone.chip}`}
+                className={`inline-block rounded-full px-2 py-[2px] text-[9px] font-extrabold ${tone.chip}`}
               >
                 {t.sumber}
               </span>
@@ -40,7 +40,7 @@ export function Feedback360Card() {
         })}
       </div>
 
-      <p className="mt-2 flex items-start gap-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="mt-2 flex items-start gap-1.5 text-[9px] leading-snug text-ink-500">
         <Lock size={10} className="mt-[1px] shrink-0" />
         {feedback360.catatan}
       </p>

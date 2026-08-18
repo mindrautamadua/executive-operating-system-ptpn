@@ -28,7 +28,7 @@ export function NineBoxDetailGrid() {
 
       <div className="mt-3 flex min-h-0 flex-1 gap-2">
         <div
-          className="flex shrink-0 items-center justify-center text-[8px] font-bold uppercase tracking-[0.12em] text-ink-400"
+          className="flex shrink-0 items-center justify-center text-[9px] font-bold uppercase tracking-[0.12em] text-ink-500"
           style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}
         >
           Potential
@@ -67,7 +67,7 @@ export function NineBoxDetailGrid() {
                     </span>
                     <span className="text-[8.5px] font-semibold opacity-75">({cell.pct})</span>
                   </div>
-                  <span className="mt-1 truncate text-[8px] font-medium opacity-80" title={cell.action}>
+                  <span className="mt-1 truncate text-[9px] font-medium opacity-80" title={cell.action}>
                     {cell.action}
                   </span>
                 </div>
@@ -82,7 +82,7 @@ export function NineBoxDetailGrid() {
               </div>
             ))}
           </div>
-          <div className="ml-[52px] mt-[3px] text-center text-[8px] font-bold uppercase tracking-[0.12em] text-ink-400">
+          <div className="ml-[52px] mt-[3px] text-center text-[9px] font-bold uppercase tracking-[0.12em] text-ink-500">
             Performance
           </div>
         </div>
@@ -132,9 +132,9 @@ export function PipelineFunnel({
               className="anim-grow-x mt-[3px] flex h-[22px] items-center justify-end rounded-md px-2"
               style={{ width: `${s.width}%`, background: s.color }}
             >
-              <span className="text-[8px] font-bold text-white/90">{s.konversi}</span>
+              <span className="text-[9px] font-bold text-white/90">{s.konversi}</span>
             </div>
-            <p className="mt-[3px] text-[8px] leading-[1.4] text-ink-400">{s.keterangan}</p>
+            <p className="mt-[3px] text-[9px] leading-[1.4] text-ink-500">{s.keterangan}</p>
           </div>
         ))}
       </div>
@@ -199,7 +199,7 @@ export function CoverageStackBars({
               className="h-[6px] w-[6px] shrink-0 rounded-[2px]"
               style={{ background: l.color }}
             />
-            <span className="text-[8px] font-medium text-ink-500">{l.label}</span>
+            <span className="text-[9px] font-medium text-ink-500">{l.label}</span>
           </li>
         ))}
       </ul>
@@ -233,7 +233,7 @@ export function RoiChain({
               <div className="mt-1 text-[16px] font-extrabold leading-none text-ink-900">
                 {s.value}
               </div>
-              <div className="mt-1 truncate text-[8px] text-ink-500">{s.sub}</div>
+              <div className="mt-1 truncate text-[9px] text-ink-500">{s.sub}</div>
             </div>
             {i < steps.length - 1 && (
               <ArrowRight size={13} className="shrink-0 text-ink-300" />
@@ -243,7 +243,7 @@ export function RoiChain({
       </div>
 
       {note && (
-        <p className="mt-2 border-t border-[#eef2f6] pt-1.5 text-[8px] leading-[1.4] text-ink-400">
+        <p className="mt-2 border-t border-[#eef2f6] pt-1.5 text-[9px] leading-[1.4] text-ink-500">
           {note}
         </p>
       )}

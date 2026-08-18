@@ -54,7 +54,7 @@ function ChartCard({
       {subtitle && <p className="mt-[3px] text-[9px] text-ink-500">{subtitle}</p>}
       <div className="mt-1 min-h-0 w-full flex-1">{children}</div>
       {footer && (
-        <p className="mt-1.5 border-t border-[#eef2f6] pt-1.5 text-[8px] leading-[1.4] text-ink-400">
+        <p className="mt-1.5 border-t border-[#eef2f6] pt-1.5 text-[9px] leading-[1.4] text-ink-500">
           {footer}
         </p>
       )}
@@ -98,7 +98,7 @@ export function TiTrendCard({
             dataKey="name"
             tickLine={false}
             axisLine={{ stroke: CHART_AXIS.axis }}
-            tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+            tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
           />
           <YAxis
             domain={domain ?? ["auto", "auto"]}
@@ -118,7 +118,7 @@ export function TiTrendCard({
             verticalAlign="bottom"
             height={18}
             iconSize={7}
-            wrapperStyle={{ fontSize: 7.5 }}
+            wrapperStyle={{ fontSize: 8.5 }}
             formatter={(v: string) => series.find((s) => s.key === v)?.label ?? v}
           />
           {reference && (
@@ -170,7 +170,7 @@ export function TiStackedBarCard({
             dataKey="name"
             tickLine={false}
             axisLine={{ stroke: CHART_AXIS.axis }}
-            tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+            tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
           />
           <YAxis
             tickLine={false}
@@ -190,7 +190,7 @@ export function TiStackedBarCard({
             verticalAlign="bottom"
             height={18}
             iconSize={7}
-            wrapperStyle={{ fontSize: 7.5 }}
+            wrapperStyle={{ fontSize: 8.5 }}
             formatter={(v: string) => series.find((s) => s.key === v)?.label ?? v}
           />
           {series.map((s) => (
@@ -259,7 +259,7 @@ export function TiDonutCard({
             <span className="text-[19px] font-extrabold leading-none text-ink-900">
               {centerValue}
             </span>
-            <span className="mt-[3px] text-[8px] font-semibold text-ink-400">{centerLabel}</span>
+            <span className="mt-[3px] text-[9px] font-semibold text-ink-500">{centerLabel}</span>
           </div>
         </div>
 
@@ -275,7 +275,7 @@ export function TiDonutCard({
               </span>
               <span className="ml-[13px] text-[9px] font-extrabold text-ink-900">
                 {d.value}
-                <span className="ml-1 text-[8px] font-medium text-ink-400">{d.pctLabel}</span>
+                <span className="ml-1 text-[9px] font-medium text-ink-500">{d.pctLabel}</span>
               </span>
             </li>
           ))}
@@ -306,7 +306,7 @@ export function TiRadarCard({
       <ResponsiveContainer width="100%" height="100%">
         <RadarChart data={data} margin={{ top: 6, right: 22, bottom: 0, left: 22 }}>
           <PolarGrid stroke={CHART_AXIS.grid} />
-          <PolarAngleAxis dataKey="label" tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }} />
+          <PolarAngleAxis dataKey="label" tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }} />
           <PolarRadiusAxis domain={[3, 5]} tick={false} axisLine={false} />
           <Tooltip
             contentStyle={CHART_TOOLTIP_STYLE}
@@ -319,7 +319,7 @@ export function TiRadarCard({
             verticalAlign="bottom"
             height={16}
             iconSize={7}
-            wrapperStyle={{ fontSize: 7.5 }}
+            wrapperStyle={{ fontSize: 8.5 }}
             formatter={(v: string) => (v === "score" ? "PTPN Group" : "Benchmark industri")}
           />
           <Radar

@@ -21,7 +21,7 @@ function TrajectoryChart() {
       {[4, 4.5, 5].map((g) => (
         <g key={g}>
           <line x1={padL} y1={y(g)} x2={W - padR} y2={y(g)} stroke="#eef2f6" />
-          <text x={padL - 4} y={y(g) + 2.5} fontSize={6.5} fill="#9ca3af" textAnchor="end">
+          <text x={padL - 4} y={y(g) + 2.5} fontSize={8} fill="#9ca3af" textAnchor="end">
             {g.toLocaleString("id-ID", { minimumFractionDigits: 1 })}
           </text>
         </g>
@@ -34,14 +34,14 @@ function TrajectoryChart() {
           <text
             x={x(i)}
             y={y(p.skor) - 6}
-            fontSize={7}
+            fontSize={8}
             fontWeight={800}
             fill="#0f7a44"
             textAnchor="middle"
           >
             {p.skor.toLocaleString("id-ID", { minimumFractionDigits: 1 })}
           </text>
-          <text x={x(i)} y={H - 5} fontSize={6.5} fill="#6b7280" textAnchor="middle">
+          <text x={x(i)} y={H - 5} fontSize={8} fill="#6b7280" textAnchor="middle">
             {p.tahun}
           </text>
         </g>

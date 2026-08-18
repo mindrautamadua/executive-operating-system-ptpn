@@ -80,7 +80,7 @@ export function ProgramPortfolio() {
         </table>
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         1 program merah (elektrifikasi pompa SGN, 22%) tersandera kapasitas jaringan PLN; 5 program
         amber butuh pengawalan kuartalan.
       </p>

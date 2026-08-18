@@ -36,7 +36,7 @@ function MenuRow({ item, on, collapsed }: { item: SdmMenuItem; on: boolean; coll
         <>
           <span className="min-w-0 flex-1 truncate leading-[1.2]">{label}</span>
           {badge && (
-            <span className="shrink-0 rounded bg-ptpn-greenLight px-1 py-[1px] text-[8px] font-bold text-ptpn-green">
+            <span className="shrink-0 rounded bg-ptpn-greenLight px-1 py-[1px] text-[9px] font-bold text-ptpn-green">
               {badge}
             </span>
           )}
@@ -104,7 +104,7 @@ export function SdmSidebar({ active }: Props) {
           )}
         </Link>
         {!collapsed && (
-          <div className="mt-2 inline-flex rounded bg-[#eef2f6] px-1.5 py-[2px] text-[8px] font-bold uppercase tracking-[0.06em] text-ink-500">
+          <div className="mt-2 inline-flex rounded bg-[#eef2f6] px-1.5 py-[2px] text-[9px] font-bold uppercase tracking-[0.06em] text-ink-500">
             SDM &amp; Talenta
           </div>
         )}

@@ -95,7 +95,7 @@ export function MilestoneByOwner() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 truncate text-[8px] text-ink-400">
+      <p className="mt-1 truncate text-[9px] text-ink-500">
         {isFiltered
           ? "Batang non-aktif diredupkan; komposisi seluruh owner tetap ditampilkan sebagai konteks."
           : "SGN: 8 dari 40 milestone terlambat (20%) — rasio tertinggi lintas subholding."}

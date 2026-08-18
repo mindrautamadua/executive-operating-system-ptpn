@@ -44,7 +44,7 @@ export function TkdnByCategory() {
               dataKey="short"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -80,14 +80,14 @@ export function TkdnByCategory() {
                 dataKey="tkdnPct"
                 position="top"
                 formatter={(v: number) => `${v.toLocaleString("id-ID")}%`}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 rounded-md bg-[#fdf3e0] px-2 py-[5px] text-[8px] leading-[1.4] text-[#a26a05]">
+      <p className="mt-1 rounded-md bg-[#fdf3e0] px-2 py-[5px] text-[9px] leading-[1.4] text-[#a26a05]">
         Tiga kategori impor-intensif (suku cadang 42,8% · alat berat 35,2% · TI 24,8%) menahan TKDN
         grup — total belanja Rp 3,29 T.
       </p>

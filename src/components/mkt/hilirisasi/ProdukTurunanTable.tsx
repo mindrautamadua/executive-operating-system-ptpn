@@ -35,7 +35,7 @@ export function ProdukTurunanTable() {
 
       {rows.length > 0 && (
         <>
-      <div className="mt-2 grid grid-cols-[minmax(0,1.3fr)_62px_62px_minmax(0,1.1fr)_minmax(0,1.2fr)] items-center gap-x-2 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1.3fr)_62px_62px_minmax(0,1.1fr)_minmax(0,1.2fr)] items-center gap-x-2 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Produk</span>
         <span className="text-right">Volume</span>
         <span className="text-right">Nilai</span>
@@ -72,7 +72,7 @@ export function ProdukTurunanTable() {
         </>
       )}
 
-      <p className="mt-1.5 truncate text-[8px] text-ink-400">
+      <p className="mt-1.5 truncate text-[9px] text-ink-500">
         PKO dibukukan pada segmen PK &amp; PKO — ditampilkan sebagai referensi rantai turunan.
       </p>
     </div>

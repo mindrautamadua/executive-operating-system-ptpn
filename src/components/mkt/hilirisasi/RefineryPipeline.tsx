@@ -82,7 +82,7 @@ export function RefineryPipeline() {
               </span>
             </div>
             <div className="mt-auto pt-2">
-              <div className="flex items-center justify-between text-[8px] font-semibold text-ink-500">
+              <div className="flex items-center justify-between text-[9px] font-semibold text-ink-500">
                 <span>Progress</span>
                 <span className="font-bold text-ink-700">{p.progressPct}%</span>
               </div>

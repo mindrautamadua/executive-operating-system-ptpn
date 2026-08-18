@@ -49,7 +49,7 @@ export function PgDowntimePareto() {
                   dataKey="penyebab"
                   tickLine={false}
                   axisLine={{ stroke: CHART_AXIS.axis }}
-                  tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+                  tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
                   interval={0}
                 />
                 <YAxis
@@ -58,7 +58,7 @@ export function PgDowntimePareto() {
                   ticks={[0, 200, 400, 600, 800]}
                   tickLine={false}
                   axisLine={false}
-                  tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+                  tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
                   tickFormatter={(v: number) => ribuan(v)}
                 />
                 <YAxis
@@ -68,7 +68,7 @@ export function PgDowntimePareto() {
                   ticks={[0, 25, 50, 75, 100]}
                   tickLine={false}
                   axisLine={false}
-                  tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+                  tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
                   tickFormatter={(v: number) => `${v}%`}
                 />
                 <Tooltip
@@ -90,7 +90,7 @@ export function PgDowntimePareto() {
                     position="top"
                     offset={4}
                     formatter={(v: number) => ribuan(v)}
-                    style={{ fontSize: 7.5, fill: "var(--text-1)", fontWeight: 700 }}
+                    style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
                   />
                 </Bar>
                 <Line
@@ -106,7 +106,7 @@ export function PgDowntimePareto() {
             </ResponsiveContainer>
           </div>
 
-          <p className="mt-1 truncate text-[8px] text-ink-400">
+          <p className="mt-1 truncate text-[9px] text-ink-500">
             Total 1.870 jam berhenti giling · garis = kumulatif Pareto (%)
           </p>
         </>

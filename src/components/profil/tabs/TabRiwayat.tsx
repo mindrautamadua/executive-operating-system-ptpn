@@ -120,7 +120,7 @@ function RiwayatPendidikanCard() {
               </div>
               <div className="shrink-0 text-right leading-tight">
                 <div className="text-[9px] text-ink-500">{p.periode}</div>
-                <span className="mt-1 inline-block rounded-md bg-[#e8f7ef] px-2 py-[2px] text-[8px] font-semibold text-[#16a34a]">
+                <span className="mt-1 inline-block rounded-md bg-[#e8f7ef] px-2 py-[2px] text-[9px] font-semibold text-[#16a34a]">
                   Selesai
                 </span>
               </div>

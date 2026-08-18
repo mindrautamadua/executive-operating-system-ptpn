@@ -58,7 +58,7 @@ export function ControlEffectiveness() {
               </span>
             </div>
 
-            <div className="mt-[3px] flex items-center gap-2 text-[8px] text-ink-400">
+            <div className="mt-[3px] flex items-center gap-2 text-[9px] text-ink-500">
               <span>
                 Cakupan{" "}
                 <span className="font-bold text-ink-700">

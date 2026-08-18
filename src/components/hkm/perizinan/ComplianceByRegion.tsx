@@ -97,7 +97,7 @@ export function ComplianceByRegion() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Regional 3 memikul portofolio terbesar (112 izin) sekaligus kedaluwarsa terbanyak (9) dengan
         kepatuhan 91,4%; Regional 7 terendah di 89,3%.
       </p>

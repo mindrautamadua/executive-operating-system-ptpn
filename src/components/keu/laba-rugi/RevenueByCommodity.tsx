@@ -47,7 +47,7 @@ export function RevenueByCommodity() {
               <span className="shrink-0 text-[9.5px] font-bold tabular-nums text-ink-900">
                 {fmtId(d.valueRpT, 1)} T
               </span>
-              <span className="w-[30px] shrink-0 text-right text-[9px] tabular-nums text-ink-400">
+              <span className="w-[30px] shrink-0 text-right text-[9px] tabular-nums text-ink-500">
                 {d.pct}%
               </span>
             </div>

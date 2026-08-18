@@ -93,7 +93,7 @@ export function ValueCreationTrend() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 truncate text-[8px] text-ink-400">
+      <p className="mt-1 truncate text-[9px] text-ink-500">
         Realisasi Mei Rp 1,86 T tertinggal Rp 0,14 T dari jalur target (Rp 2,00 T).
       </p>
     </div>

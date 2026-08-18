@@ -36,7 +36,7 @@ export function SecurityIncidentType() {
               )}
               <span className="shrink-0 text-[11px] font-extrabold tabular-nums text-ink-900">
                 {s.kasus}
-                <span className="text-[8px] font-bold text-ink-400"> kasus</span>
+                <span className="text-[9px] font-bold text-ink-500"> kasus</span>
               </span>
             </div>
             <div className="mt-[5px] h-[7px] w-full overflow-hidden rounded-full bg-[#eef2f6]">

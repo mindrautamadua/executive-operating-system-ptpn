@@ -76,7 +76,7 @@ export function AssetValueTrend() {
                 position="top"
                 offset={6}
                 formatter={(v: number) => num(v)}
-                style={{ fontSize: 7.5, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Area>
             <Line
@@ -93,7 +93,7 @@ export function AssetValueTrend() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 truncate text-[8px] text-ink-400" title={assetValueNote}>
+      <p className="mt-1 truncate text-[9px] text-ink-500" title={assetValueNote}>
         {assetValueNote}
       </p>
     </div>

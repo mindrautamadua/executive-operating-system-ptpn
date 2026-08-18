@@ -28,7 +28,7 @@ export function IntersegmentFlow() {
                   {n.value}
                 </span>
               </div>
-              <p className="mt-[2px] text-[8px] leading-snug text-ink-500">{n.text}</p>
+              <p className="mt-[2px] text-[9px] leading-snug text-ink-500">{n.text}</p>
             </div>
           </div>
         ))}

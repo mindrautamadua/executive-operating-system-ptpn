@@ -113,7 +113,7 @@ export function ValueBySubholding() {
                     position="top"
                     offset={5}
                     formatter={(v: number) => fmt(v)}
-                    style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                    style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
                   />
                 )}
               </Bar>

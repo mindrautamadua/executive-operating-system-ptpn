@@ -47,7 +47,7 @@ export function ExpiryCalendar() {
           >
             <div className="min-w-0 flex-1">
               <div className="truncate text-[9.5px] font-bold text-ink-900">{c.unit}</div>
-              <div className="mt-[2px] text-[8px] text-ink-400">
+              <div className="mt-[2px] text-[9px] text-ink-500">
                 {c.skema} · habis {c.habis}
               </div>
             </div>
@@ -59,7 +59,7 @@ export function ExpiryCalendar() {
         ))}
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         PKS Adolina (2 bulan, closing NC) paling mendesak; 4 sertifikat masih berstatus perlu
         penjadwalan.
       </p>

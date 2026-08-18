@@ -70,7 +70,7 @@ export function RiskSummary() {
     >
       <SectionHead title="Ringkasan Risiko" />
 
-      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_44px_34px_40px_62px] items-center gap-x-1 border-b border-[#eef2f6] pb-1.5 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_44px_34px_40px_62px] items-center gap-x-1 border-b border-[#eef2f6] pb-1.5 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Risiko</span>
         <span className="text-center">Level</span>
         <span className="text-center">Skor</span>

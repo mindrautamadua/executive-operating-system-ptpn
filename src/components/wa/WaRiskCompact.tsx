@@ -50,7 +50,7 @@ export function WaRiskCompact() {
               <div className={`mt-1 text-[15px] font-extrabold leading-none ${t.value}`}>
                 {r.value}
               </div>
-              <div className="mt-[3px] truncate text-[8px] leading-snug text-ink-500">{r.sub}</div>
+              <div className="mt-[3px] truncate text-[9px] leading-snug text-ink-500">{r.sub}</div>
             </div>
           );
         })}

@@ -52,7 +52,7 @@ export function SensitivityTornadoFin() {
               dataKey="driver"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick, fontWeight: 600 }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick, fontWeight: 600 }}
               width={92}
             />
             <Tooltip

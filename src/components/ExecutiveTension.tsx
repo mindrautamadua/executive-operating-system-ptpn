@@ -20,7 +20,7 @@ export function ExecutiveTension() {
       <div className="mt-2 grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-4">
         {executiveTensions.map((t) => (
           <div key={t.domain} className="rounded-xl border border-[#eef2f6] px-2.5 py-2">
-            <div className="text-[8px] font-extrabold uppercase tracking-[0.05em] text-ink-500">
+            <div className="text-[9px] font-extrabold uppercase tracking-[0.05em] text-ink-500">
               {t.domain}
             </div>
             <p className="mt-1 flex items-start gap-1 text-[8.5px] leading-[1.35] text-ink-700">

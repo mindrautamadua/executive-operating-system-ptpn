@@ -20,7 +20,7 @@ export function TalentPoolFungsi() {
       style={{ "--d": "600ms" } as React.CSSProperties}
     >
       <h3 className="card-title-navy">Talent Pool (High Potential)</h3>
-      <p className="mt-[3px] text-[9px] text-ink-400">Berdasarkan Fungsi</p>
+      <p className="mt-[3px] text-[9px] text-ink-500">Berdasarkan Fungsi</p>
 
       <div className="flex min-h-0 flex-1 items-center">
         {/* total di tengah diturunkan dari data */}
@@ -48,7 +48,7 @@ export function TalentPoolFungsi() {
               <span className="ml-auto text-[9px] font-semibold tabular-nums text-ink-900">
                 {d.pct}
               </span>
-              <span className="w-[34px] text-right text-[9px] tabular-nums text-ink-400">
+              <span className="w-[34px] text-right text-[9px] tabular-nums text-ink-500">
                 ({d.jumlah})
               </span>
             </div>

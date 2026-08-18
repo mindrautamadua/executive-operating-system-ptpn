@@ -43,7 +43,7 @@ export function InitiativeFunding() {
               dataKey="short"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -85,7 +85,7 @@ export function InitiativeFunding() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 truncate text-[8px] text-ink-400">
+      <p className="mt-1 truncate text-[9px] text-ink-500">
         Gap terbesar: Hilirisasi Rp 2,1 T dan Swasembada Gula Rp 2,4 T.
       </p>
     </div>

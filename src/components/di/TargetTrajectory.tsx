@@ -28,7 +28,7 @@ export function TargetTrajectory() {
       <div className="flex items-start justify-between gap-2">
         <div>
           <h3 className="card-title-navy">Trajectory Target: Perempuan di Manajemen</h3>
-          <p className="mt-[3px] text-[9px] text-ink-400">Aktual vs proyeksi menuju 30% (2028)</p>
+          <p className="mt-[3px] text-[9px] text-ink-500">Aktual vs proyeksi menuju 30% (2028)</p>
         </div>
         <span className="tone-amber shrink-0 whitespace-nowrap rounded px-1.5 py-[2px] text-[9px] font-bold">
           {trajectoryRingkas.status}
@@ -110,24 +110,24 @@ export function TargetTrajectory() {
 
       <div className="mt-1 flex items-center gap-3 rounded-lg bg-[#f6f9fc] px-2.5 py-[6px]">
         <div className="shrink-0 leading-tight">
-          <div className="text-[8px] text-ink-400">Proyeksi 2028</div>
+          <div className="text-[9px] text-ink-500">Proyeksi 2028</div>
           <div className="text-[12px] font-extrabold tabular-nums text-ink-900">
             {trajectoryRingkas.proyeksi2028}
           </div>
         </div>
         <div className="shrink-0 leading-tight">
-          <div className="text-[8px] text-ink-400">Gap vs Target</div>
+          <div className="text-[9px] text-ink-500">Gap vs Target</div>
           <div className="text-[12px] font-extrabold tabular-nums text-[#ef4444]">
             {trajectoryRingkas.gap}
           </div>
         </div>
         <div className="shrink-0 leading-tight">
-          <div className="text-[8px] text-ink-400">Prob. Tercapai</div>
+          <div className="text-[9px] text-ink-500">Prob. Tercapai</div>
           <div className="text-[12px] font-extrabold tabular-nums text-ink-900">
             {trajectoryRingkas.probabilitas}
           </div>
         </div>
-        <p className="min-w-0 flex-1 text-[8px] leading-[1.35] text-ink-500">
+        <p className="min-w-0 flex-1 text-[9px] leading-[1.35] text-ink-500">
           {trajectoryRingkas.catatan}
         </p>
       </div>

@@ -49,16 +49,16 @@ export function EngagementRiskMatrix() {
             style={{ top: `${yPct(matrixThreshold.response)}%` }}
           />
           {/* label kuadran */}
-          <span className="absolute left-1.5 top-1 text-[7px] font-bold text-[#dc2626]/70">
+          <span className="absolute left-1.5 top-1 text-[9px] font-bold text-[#dc2626]/70">
             HIDDEN RISK ZONE
           </span>
-          <span className="absolute right-1.5 top-1 text-[7px] font-bold text-[#0f7a44]/70">
+          <span className="absolute right-1.5 top-1 text-[9px] font-bold text-[#0f7a44]/70">
             RELIABLE STRENGTH
           </span>
-          <span className="absolute bottom-1 left-1.5 text-[7px] font-semibold text-ink-400">
+          <span className="absolute bottom-1 left-1.5 text-[9px] font-semibold text-ink-500">
             ← Low engagement
           </span>
-          <span className="absolute bottom-1 right-1.5 text-[7px] font-semibold text-ink-400">
+          <span className="absolute bottom-1 right-1.5 text-[9px] font-semibold text-ink-500">
             High engagement →
           </span>
           {/* titik unit */}
@@ -78,7 +78,7 @@ export function EngagementRiskMatrix() {
                 className="h-[8px] w-[8px] shrink-0 rounded-full border-[1.5px] border-white shadow-card"
                 style={{ background: KUADRAN_COLOR[p.kuadran] }}
               />
-              <span className="ml-[3px] whitespace-nowrap text-[7px] font-semibold text-ink-700">
+              <span className="ml-[3px] whitespace-nowrap text-[9px] font-semibold text-ink-700">
                 {p.unit}
               </span>
             </span>

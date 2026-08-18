@@ -61,7 +61,7 @@ export function RegionalProfitability() {
               dataKey="regional"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               width={122}
             />
             <Tooltip
@@ -81,7 +81,7 @@ export function RegionalProfitability() {
                 position="right"
                 offset={5}
                 formatter={(v: number) => fmtId(v, 1)}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>

@@ -91,7 +91,7 @@ export function AssetReturnQuadrant() {
               ticks={[60, 68, 76, 84]}
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => `${v}%`}
             />
             <YAxis
@@ -101,7 +101,7 @@ export function AssetReturnQuadrant() {
               ticks={[-5, 0, 5, 10]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => `${v}%`}
             />
             <ZAxis type="number" dataKey="nilaiAsetRpT" range={[30, 170]} />
@@ -135,7 +135,7 @@ export function AssetReturnQuadrant() {
                 dataKey="short"
                 position="top"
                 offset={4}
-                style={{ fontSize: 6.5, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Scatter>
           </ScatterChart>

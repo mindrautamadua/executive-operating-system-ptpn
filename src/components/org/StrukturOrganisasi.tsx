@@ -168,7 +168,7 @@ export function StrukturOrganisasi() {
                     {l.value}
                   </div>
                 )}
-                <div className="mt-[3px] text-[9px] leading-[1.2] text-ink-400">{l.caption}</div>
+                <div className="mt-[3px] text-[9px] leading-[1.2] text-ink-500">{l.caption}</div>
               </div>
             ))}
           </div>

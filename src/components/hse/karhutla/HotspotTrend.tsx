@@ -44,7 +44,7 @@ export function HotspotTrend() {
               dataKey="bulan"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -53,7 +53,7 @@ export function HotspotTrend() {
               ticks={[0, 10, 20, 30, 40]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <YAxis
               yAxisId="kejadian"
@@ -62,7 +62,7 @@ export function HotspotTrend() {
               ticks={[0, 2, 4, 6]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <Tooltip
               cursor={{ fill: "rgba(148,163,184,0.08)" }}
@@ -82,7 +82,7 @@ export function HotspotTrend() {
                 dataKey="hotspot"
                 position="top"
                 offset={4}
-                style={{ fontSize: 7, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Bar>
             <Line
@@ -98,7 +98,7 @@ export function HotspotTrend() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 truncate text-[8px] text-ink-400" title={hotspotFootnote}>
+      <p className="mt-1 truncate text-[9px] text-ink-500" title={hotspotFootnote}>
         Jul–Sep 2025 menyumbang 91 dari 214 hotspot (42,5%) · probabilitas El Nino H2 2026 62%
       </p>
     </div>

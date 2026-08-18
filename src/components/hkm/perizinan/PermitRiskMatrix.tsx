@@ -95,7 +95,7 @@ export function PermitRiskMatrix() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Kuadran kiri-atas (dampak 4–5, sisa &lt;75 hari) memuat 5 izin penghenti operasi — semuanya
         di Regional 3, 5, dan 7 pada Juli–Agustus.
       </p>

@@ -64,7 +64,7 @@ export function PendingDetail() {
                     {p.perihal}
                   </span>
                 </div>
-                <span className={`shrink-0 rounded px-1.5 py-[2px] text-[8px] font-bold ${t.pill}`}>
+                <span className={`shrink-0 rounded px-1.5 py-[2px] text-[9px] font-bold ${t.pill}`}>
                   {p.nilai}
                 </span>
               </div>

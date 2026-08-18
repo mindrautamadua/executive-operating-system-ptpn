@@ -111,7 +111,7 @@ export function AssetHoldSellMatrix() {
               ticks={[1, 2, 3, 4, 5]}
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <YAxis
               type="number"
@@ -120,7 +120,7 @@ export function AssetHoldSellMatrix() {
               ticks={[-5, 0, 5, 10]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => `${v}%`}
             />
             <ZAxis type="number" dataKey="nilaiBukuRpM" range={[30, 180]} />
@@ -154,7 +154,7 @@ export function AssetHoldSellMatrix() {
                 dataKey="short"
                 position="top"
                 offset={5}
-                style={{ fontSize: 6.5, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Scatter>
           </ScatterChart>
@@ -176,7 +176,7 @@ export function AssetHoldSellMatrix() {
         ))}
       </div>
 
-      <p className="pt-1 text-[8px] leading-snug text-ink-400">{holdSellNote}</p>
+      <p className="pt-1 text-[9px] leading-snug text-ink-500">{holdSellNote}</p>
     </div>
   );
 }

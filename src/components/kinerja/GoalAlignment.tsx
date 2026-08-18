@@ -30,7 +30,7 @@ export function GoalAlignment() {
                 <span className="text-[10px] font-extrabold tabular-nums text-ink-900">
                   {s.value}
                 </span>
-                <span className="text-[8px] text-ink-400">{s.sub}</span>
+                <span className="text-[9px] text-ink-500">{s.sub}</span>
               </span>
             </div>
           </div>
@@ -43,7 +43,7 @@ export function GoalAlignment() {
           <span className="font-extrabold text-ptpn-green">{alignmentIndexKinerja.value}</span>{" "}
           <span className="text-ink-400">/ target {alignmentIndexKinerja.target}</span>
         </span>
-        <span className="truncate pl-2 text-[8px] text-ink-400">{alignmentIndexKinerja.note}</span>
+        <span className="truncate pl-2 text-[9px] text-ink-500">{alignmentIndexKinerja.note}</span>
       </div>
     </div>
   );

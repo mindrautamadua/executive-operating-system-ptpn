@@ -75,12 +75,12 @@ export function NearMissReporting() {
       </div>
 
       <div className="flex items-center justify-between gap-2 border-t border-[#f4f7fa] pt-1.5">
-        <p className="text-[8px] leading-snug text-ink-400">{nearMissRatio.catatan}</p>
+        <p className="text-[9px] leading-snug text-ink-500">{nearMissRatio.catatan}</p>
         <div className="shrink-0 text-right">
           <div className="whitespace-nowrap text-[11px] font-extrabold leading-none text-ink-900">
             {nearMissRatio.rasio}
           </div>
-          <div className="mt-[2px] whitespace-nowrap text-[8px] font-semibold text-ink-400">
+          <div className="mt-[2px] whitespace-nowrap text-[9px] font-semibold text-ink-500">
             target {nearMissRatio.rasioTarget}
           </div>
         </div>

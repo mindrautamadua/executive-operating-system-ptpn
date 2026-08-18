@@ -87,14 +87,14 @@ export function HarvestCycleCard() {
                 dataKey="rotasiHari"
                 position="top"
                 formatter={(v: number) => v.toLocaleString("id-ID", { minimumFractionDigits: 1 })}
-                style={{ fontSize: 7.5, fill: "#64748b", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#64748b", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Regional 5–7 rotasi 8,2–8,9 hari — kekurangan pemanen &amp; jalan produksi rusak; link ke
         program mekanisasi OPEX.
       </p>

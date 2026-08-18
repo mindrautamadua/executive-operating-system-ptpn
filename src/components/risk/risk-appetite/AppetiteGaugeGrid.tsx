@@ -80,7 +80,7 @@ export function AppetiteGaugeGrid() {
 
             <Gauge pct={g.utilisasiPct} color={STATUS_COLOR[g.status]} />
 
-            <div className="mt-1 flex items-center justify-between gap-1.5 text-[8px]">
+            <div className="mt-1 flex items-center justify-between gap-1.5 text-[9px]">
               <span className="truncate text-ink-500">
                 Limit <span className="font-bold text-ink-700">{g.limitLabel}</span>
               </span>

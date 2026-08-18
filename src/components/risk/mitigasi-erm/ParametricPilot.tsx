@@ -59,7 +59,7 @@ export function ParametricPilot() {
         ))}
       </ul>
 
-      <p className="mt-1.5 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1.5 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         Usulan perluasan ke 6 regional prioritas (premi Rp 28 M/tahun) menunggu keputusan Direksi
         sebelum puncak musim kering.
       </p>

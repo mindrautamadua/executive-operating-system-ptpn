@@ -35,7 +35,7 @@ export function RiskMovement() {
         {SUMMARY.map((s) => (
           <div key={s.key} className="rounded-lg border border-[#eef2f6] bg-[#fbfcfd] px-2 py-1.5">
             <div className={`text-[14px] font-extrabold leading-none ${s.cls}`}>{s.value}</div>
-            <div className="mt-[3px] truncate text-[8px] font-semibold text-ink-500">{s.label}</div>
+            <div className="mt-[3px] truncate text-[9px] font-semibold text-ink-500">{s.label}</div>
           </div>
         ))}
       </div>
@@ -55,7 +55,7 @@ export function RiskMovement() {
                   <span className="truncate text-[9.5px] font-bold text-ink-900">{m.name}</span>
                   <ToneBadge label={a.label} tone={a.tone} />
                 </span>
-                <span className="block truncate text-[8px] text-ink-500">{m.catatan}</span>
+                <span className="block truncate text-[9px] text-ink-500">{m.catatan}</span>
               </span>
               <span className="shrink-0 text-right text-[8.5px] font-semibold text-ink-500">
                 {m.dari ? `${m.dari} → ` : "→ "}

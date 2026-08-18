@@ -60,7 +60,7 @@ export function RewardDevelopment() {
         />
       </div>
 
-      <p className="mt-1.5 border-t border-[#f0f3f6] pt-1.5 text-[8px] leading-[1.4] text-ink-400">
+      <p className="mt-1.5 border-t border-[#f0f3f6] pt-1.5 text-[9px] leading-[1.4] text-ink-500">
         Loop tertutup: hasil learning dievaluasi ulang pada siklus Q3 2026 — target dimensi
         Inovasi naik dari 81,6 ke ≥ 85.
       </p>

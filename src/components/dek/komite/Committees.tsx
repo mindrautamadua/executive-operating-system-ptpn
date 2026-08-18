@@ -40,7 +40,7 @@ export function Committees() {
                 </div>
                 <div className="mt-[2px] text-[12px] font-extrabold tabular-nums text-ink-900">
                   {c.kursi}
-                  <span className="ml-[3px] text-[8px] font-bold text-ink-400">
+                  <span className="ml-[3px] text-[9px] font-bold text-ink-500">
                     · {c.anggotaIndependenNonDekom} independen
                   </span>
                 </div>
@@ -51,7 +51,7 @@ export function Committees() {
                 </div>
                 <div className="mt-[2px] text-[12px] font-extrabold tabular-nums text-ink-900">
                   {c.rapatYtd}
-                  <span className="ml-[3px] text-[8px] font-bold text-ink-400">rapat</span>
+                  <span className="ml-[3px] text-[9px] font-bold text-ink-500">rapat</span>
                 </div>
               </div>
             </div>

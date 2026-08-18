@@ -34,7 +34,7 @@ export function SkillGapClosure() {
           {gapClosureTotal.pct} YTD
         </span>
       </div>
-      <p className="mt-[3px] text-[9px] text-ink-400">{gapClosureTotal.note}</p>
+      <p className="mt-[3px] text-[9px] text-ink-500">{gapClosureTotal.note}</p>
 
       <div className="mt-1.5 min-h-0 flex-1">
         <table className="w-full border-separate border-spacing-y-[2px]">
@@ -88,14 +88,14 @@ export function SkillGapClosure() {
                   </td>
                   <td className="text-center">
                     <span
-                      className={`inline-block rounded px-1.5 py-[2px] text-[8px] font-extrabold ${DEMAND_CLS[r.demand]}`}
+                      className={`inline-block rounded px-1.5 py-[2px] text-[9px] font-extrabold ${DEMAND_CLS[r.demand]}`}
                     >
                       {r.demand}
                     </span>
                   </td>
                   <td className="text-right">
                     <span
-                      className={`inline-block whitespace-nowrap rounded px-1.5 py-[2px] text-[8px] font-extrabold ${a.cls}`}
+                      className={`inline-block whitespace-nowrap rounded px-1.5 py-[2px] text-[9px] font-extrabold ${a.cls}`}
                     >
                       {a.label}
                     </span>

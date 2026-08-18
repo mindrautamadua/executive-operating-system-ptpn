@@ -57,7 +57,7 @@ export function ScoreTrend() {
                 className="h-[7px] w-[7px] shrink-0 rounded-full"
                 style={{ backgroundColor: s.color }}
               />
-              <span className="text-[8px] font-semibold text-ink-500">{s.label}</span>
+              <span className="text-[9px] font-semibold text-ink-500">{s.label}</span>
             </span>
           ))}
         </div>

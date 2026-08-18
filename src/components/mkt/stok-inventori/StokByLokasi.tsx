@@ -38,7 +38,7 @@ export function StokByLokasi() {
               <span className="block truncate text-[9px] font-bold text-ink-900" title={r.regional}>
                 {r.regional}
               </span>
-              <span className="block text-[8px] text-ink-400">{r.terminal} terminal</span>
+              <span className="block text-[9px] text-ink-500">{r.terminal} terminal</span>
             </span>
             <span className="flex items-center gap-1.5">
               <span className="h-[7px] min-w-0 flex-1 overflow-hidden rounded-full bg-[#eef2f6]">
@@ -58,7 +58,7 @@ export function StokByLokasi() {
         ))}
       </ul>
 
-      <p className="mt-1.5 truncate text-[8px] text-ink-400">
+      <p className="mt-1.5 truncate text-[9px] text-ink-500">
         33% stok terkonsentrasi di Regional Sumut — risiko logistik satu koridor.
       </p>
       </>

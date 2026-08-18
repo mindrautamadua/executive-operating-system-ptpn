@@ -38,27 +38,27 @@ export function RecommendationRegister() {
           <tbody>
             {recommendationRegister.map((r) => (
               <tr key={r.id} className="align-middle">
-                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[8px] font-semibold tabular-nums text-ink-500">
+                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[9px] font-semibold tabular-nums text-ink-500">
                   {r.id}
                 </td>
-                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[8px] text-ink-500">
+                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[9px] text-ink-500">
                   {r.bidang}
                 </td>
                 <td className="border-b border-[#f3f6f9] py-[6px] pr-2 text-[8.5px] font-bold leading-snug text-ink-900">
                   {r.isi}
                 </td>
-                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[8px] text-ink-500">
+                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[9px] text-ink-500">
                   {r.pic}
                 </td>
                 <td
-                  className={`whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[8px] font-semibold ${
+                  className={`whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[9px] font-semibold ${
                     r.status === "Overdue" ? "text-[#ef4444]" : "text-ink-700"
                   }`}
                 >
                   {r.tenggat}
                 </td>
                 <td
-                  className={`whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-right text-[8px] font-extrabold tabular-nums ${
+                  className={`whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-right text-[9px] font-extrabold tabular-nums ${
                     r.terlambatHari === null ? "text-ink-400" : "text-[#ef4444]"
                   }`}
                 >

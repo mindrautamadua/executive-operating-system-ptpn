@@ -56,7 +56,7 @@ export function TrainingProgram() {
               dataKey="program"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 6.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               width={142}
               interval={0}
             />
@@ -82,7 +82,7 @@ export function TrainingProgram() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">{trainingFootnote}</p>
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">{trainingFootnote}</p>
     </div>
   );
 }

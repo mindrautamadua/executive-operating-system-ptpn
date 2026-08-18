@@ -4,7 +4,7 @@ import { ArrowLeft } from "lucide-react";
 /** Elemen bersama halaman detail (mockup) dimensi Produksi & Operasi. */
 
 export const TH =
-  "px-2 py-1.5 text-left text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-400";
+  "px-2 py-1.5 text-left text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500";
 export const TD = "px-2 py-1.5 text-[9px] text-ink-700 border-t border-[var(--border-hair)]";
 
 export function Pill({
@@ -21,7 +21,7 @@ export function Pill({
         ? "bg-amber-500/10 text-amber-600"
         : "bg-red-500/10 text-red-600";
   return (
-    <span className={`inline-block rounded-full px-2 py-[2px] text-[8px] font-bold ${cls}`}>
+    <span className={`inline-block rounded-full px-2 py-[2px] text-[9px] font-bold ${cls}`}>
       {children}
     </span>
   );
@@ -47,7 +47,7 @@ export function DetailCard({
       </h3>
       <p className="mt-[3px] text-[9px] text-ink-500">{subtitle}</p>
       <div className="mt-2 overflow-x-auto">{children}</div>
-      {note && <p className="mt-2 text-[8px] leading-snug text-ink-400">{note}</p>}
+      {note && <p className="mt-2 text-[9px] leading-snug text-ink-500">{note}</p>}
     </section>
   );
 }

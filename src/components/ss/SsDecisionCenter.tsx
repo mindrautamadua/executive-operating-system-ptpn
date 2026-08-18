@@ -29,7 +29,7 @@ export function SsDecisionCenter() {
           <Gavel size={13} className="text-[#1b3a6b]" />
           BOD Scenario Decision Center
         </h3>
-        <span className="shrink-0 text-[9px] font-semibold text-ink-400">
+        <span className="shrink-0 text-[9px] font-semibold text-ink-500">
           Rekomendasi: {strategicScore.scenario} • Risk Score {scenarioRiskScore.value}/100
         </span>
       </div>
@@ -40,7 +40,7 @@ export function SsDecisionCenter() {
           style={{ borderTop: "3px solid #16a34a" }}
         >
           <div className="flex items-center justify-between">
-            <span className="inline-flex w-fit items-center rounded px-1.5 py-[2px] text-[8px] font-bold leading-none tone-green">
+            <span className="inline-flex w-fit items-center rounded px-1.5 py-[2px] text-[9px] font-bold leading-none tone-green">
               Recommended
             </span>
             <span className="text-[13px] font-extrabold leading-none text-ink-900">
@@ -54,7 +54,7 @@ export function SsDecisionCenter() {
           <ul className="mt-1.5 flex min-h-0 flex-1 flex-col justify-between gap-[3px]">
             {strategicScore.breakdown.map((d) => (
               <li key={d.label} className="flex shrink-0 items-center gap-2">
-                <span className="w-[104px] shrink-0 truncate text-[8px] font-semibold text-ink-600">
+                <span className="w-[104px] shrink-0 truncate text-[9px] font-semibold text-ink-600">
                   {d.label}
                 </span>
                 <div className="h-[6px] min-w-0 flex-1 overflow-hidden rounded-full bg-[var(--chart-grid)]">
@@ -75,7 +75,7 @@ export function SsDecisionCenter() {
           className="flex min-w-0 flex-col rounded-xl border border-[#eef2f6] px-3 py-2.5"
           style={{ borderTop: "3px solid #f59e0b" }}
         >
-          <span className="inline-flex w-fit items-center rounded px-1.5 py-[2px] text-[8px] font-bold leading-none tone-amber">
+          <span className="inline-flex w-fit items-center rounded px-1.5 py-[2px] text-[9px] font-bold leading-none tone-amber">
             Approval Conditions
           </span>
           <div className="mt-1 text-[10.5px] font-bold leading-tight text-ink-900">
@@ -97,7 +97,7 @@ export function SsDecisionCenter() {
           className="flex min-w-0 flex-col rounded-xl border border-[#eef2f6] px-3 py-2.5"
           style={{ borderTop: "3px solid #3b7ded" }}
         >
-          <span className="inline-flex w-fit items-center rounded bg-[#e8f1fd] px-1.5 py-[2px] text-[8px] font-bold leading-none text-[#1d4ed8]">
+          <span className="inline-flex w-fit items-center rounded bg-[#e8f1fd] px-1.5 py-[2px] text-[9px] font-bold leading-none text-[#1d4ed8]">
             Decision Log
           </span>
           <div className="mt-1 flex items-center gap-1 text-[10.5px] font-bold leading-tight text-ink-900">

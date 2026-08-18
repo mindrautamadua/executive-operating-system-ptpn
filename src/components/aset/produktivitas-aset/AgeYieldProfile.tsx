@@ -104,7 +104,7 @@ export function AgeYieldProfile() {
                 position="top"
                 offset={5}
                 formatter={(v: React.ReactNode) => num(Number(v))}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
             <Line
@@ -120,7 +120,7 @@ export function AgeYieldProfile() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">{ageYieldNote}</p>
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">{ageYieldNote}</p>
     </div>
   );
 }

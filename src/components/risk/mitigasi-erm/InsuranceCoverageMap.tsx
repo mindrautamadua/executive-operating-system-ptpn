@@ -30,7 +30,7 @@ export function InsuranceCoverageMap() {
               {["Lini Asuransi", "TSI (Rp T)", "Premi (Rp M)", "Loss Ratio"].map((h) => (
                 <th
                   key={h}
-                  className="py-[5px] text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-400"
+                  className="py-[5px] text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500"
                 >
                   {h}
                 </th>
@@ -46,7 +46,7 @@ export function InsuranceCoverageMap() {
                     {l.catatan && <ToneBadge label="Baru 2026" tone="info" />}
                   </span>
                   {l.catatan && (
-                    <span className="mt-[1px] block truncate text-[8px] text-ink-400">
+                    <span className="mt-[1px] block truncate text-[9px] text-ink-500">
                       {l.catatan}
                     </span>
                   )}
@@ -81,7 +81,7 @@ export function InsuranceCoverageMap() {
         </table>
       </div>
 
-      <p className="mt-1.5 rounded-md bg-[#fdf3e0] px-2 py-[5px] text-[8px] leading-[1.4] text-[#a26a05]">
+      <p className="mt-1.5 rounded-md bg-[#fdf3e0] px-2 py-[5px] text-[9px] leading-[1.4] text-[#a26a05]">
         Loss ratio kendaraan &amp; alat berat 62% jauh di atas blended 42% — kandidat renegosiasi
         premi saat renewal 2027.
       </p>

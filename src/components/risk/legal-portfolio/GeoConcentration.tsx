@@ -43,7 +43,7 @@ export function GeoConcentration() {
               dataKey="provinsi"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               width={92}
             />
             <Tooltip
@@ -61,14 +61,14 @@ export function GeoConcentration() {
               <LabelList
                 dataKey="count"
                 position="right"
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         Sumut, Riau &amp; Jatim memegang 52% perkara — penempatan tim legal regional mengikuti pola
         ini.
       </p>

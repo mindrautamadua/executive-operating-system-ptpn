@@ -75,7 +75,7 @@ export function DmoDpoTracker() {
                 dataKey="pct"
                 position="top"
                 formatter={(v: number) => `${v}%`}
-                style={{ fontSize: 7.5, fill: "var(--chart-tick)", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "var(--chart-tick)", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>

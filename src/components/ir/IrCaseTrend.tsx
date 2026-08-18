@@ -47,7 +47,7 @@ export function IrCaseTrend() {
               dataKey="name"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -71,7 +71,7 @@ export function IrCaseTrend() {
               strokeWidth={1.8}
               dot={{ r: 2.4, fill: PALETTE.blue, strokeWidth: 0 }}
               activeDot={{ r: 4 }}
-              label={{ position: "top", fontSize: 7, fill: PALETTE.blue, dy: -2 }}
+              label={{ position: "top", fontSize: 8, fill: PALETTE.blue, dy: -2 }}
             />
             <Line
               type="linear"
@@ -80,7 +80,7 @@ export function IrCaseTrend() {
               strokeWidth={1.8}
               dot={{ r: 2.4, fill: PALETTE.green, strokeWidth: 0 }}
               activeDot={{ r: 4 }}
-              label={{ position: "bottom", fontSize: 7, fill: PALETTE.green, dy: 2 }}
+              label={{ position: "bottom", fontSize: 8, fill: PALETTE.green, dy: 2 }}
             />
           </LineChart>
         </ResponsiveContainer>

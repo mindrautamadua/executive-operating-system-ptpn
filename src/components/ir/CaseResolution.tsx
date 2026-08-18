@@ -41,7 +41,7 @@ export function CaseResolution() {
                 {s.name}
               </span>
               <span className="shrink-0 text-[9.5px] font-bold text-ink-900">{s.value}</span>
-              <span className="w-[38px] shrink-0 text-right text-[9px] text-ink-400">
+              <span className="w-[38px] shrink-0 text-right text-[9px] text-ink-500">
                 ({s.pct})
               </span>
             </div>

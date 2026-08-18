@@ -42,7 +42,7 @@ export function AspirasiMobilitasCard() {
         ))}
       </div>
 
-      <p className="mt-2 rounded-lg bg-[#f5f8fa] px-2.5 py-[6px] text-[8px] leading-snug text-ink-500">
+      <p className="mt-2 rounded-lg bg-[#f5f8fa] px-2.5 py-[6px] text-[9px] leading-snug text-ink-500">
         {aspirasiMobilitas.wawancara}
       </p>
     </div>

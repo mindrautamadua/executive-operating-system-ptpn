@@ -70,13 +70,13 @@ export function ApprovalRegister() {
                     )}
                   </div>
                 </td>
-                <td className="border-b border-[#f3f6f9] py-[5px] pr-2 text-[8px] leading-snug text-ink-500">
+                <td className="border-b border-[#f3f6f9] py-[5px] pr-2 text-[9px] leading-snug text-ink-500">
                   {a.kategori}
                 </td>
                 <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[5px] pr-2 text-right text-[8.5px] font-semibold tabular-nums text-ink-900">
                   {a.nilai}
                 </td>
-                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[5px] pr-2 text-[8px] tabular-nums text-ink-500">
+                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[5px] pr-2 text-[9px] tabular-nums text-ink-500">
                   {a.tanggalMasuk}
                 </td>
                 <td className="border-b border-[#f3f6f9] py-[5px] pr-2">

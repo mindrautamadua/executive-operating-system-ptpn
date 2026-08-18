@@ -52,17 +52,17 @@ export function ProfilHero() {
                 {profil.nama}
               </h2>
               {/* Tiga dimensi taxonomy berbeda — jangan dicampur jadi satu badge. */}
-              <span className="flex items-center overflow-hidden rounded-full border border-[#c6e8d4] text-[8px] font-extrabold uppercase tracking-[0.04em]">
+              <span className="flex items-center overflow-hidden rounded-full border border-[#c6e8d4] text-[9px] font-extrabold uppercase tracking-[0.04em]">
                 <span className="bg-[#eef2f6] px-1.5 py-[3px] text-ink-400">Segmen</span>
                 <span className="bg-ptpn-greenLight px-2 py-[3px] text-ptpn-greenDark">
                   {profil.badge}
                 </span>
               </span>
-              <span className="flex items-center overflow-hidden rounded-full border border-[#c6e8d4] text-[8px] font-extrabold uppercase tracking-[0.04em]">
+              <span className="flex items-center overflow-hidden rounded-full border border-[#c6e8d4] text-[9px] font-extrabold uppercase tracking-[0.04em]">
                 <span className="bg-[#eef2f6] px-1.5 py-[3px] text-ink-400">Status</span>
                 <span className="bg-ptpn-green px-2 py-[3px] text-white">High Potential</span>
               </span>
-              <span className="flex items-center overflow-hidden rounded-full border border-[#f6e2b4] text-[8px] font-extrabold uppercase tracking-[0.04em]">
+              <span className="flex items-center overflow-hidden rounded-full border border-[#f6e2b4] text-[9px] font-extrabold uppercase tracking-[0.04em]">
                 <span className="bg-[#eef2f6] px-1.5 py-[3px] text-ink-400">Suksesi</span>
                 <span className="bg-[#fdf3e0] px-2 py-[3px] text-[#c07c05]">Ready 1–2 Thn</span>
               </span>

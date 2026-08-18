@@ -26,7 +26,7 @@ export function OverdueDetail() {
               <div className="flex items-start gap-1.5">
                 <AlarmClock size={11} strokeWidth={2} className="mt-[1px] shrink-0 text-[#ef4444]" />
                 <div className="min-w-0">
-                  <div className="text-[8px] font-bold tabular-nums text-ink-400">{o.id}</div>
+                  <div className="text-[9px] font-bold tabular-nums text-ink-500">{o.id}</div>
                   <div className="mt-[2px] text-[9px] font-extrabold leading-snug text-ink-900">
                     {o.isi}
                   </div>
@@ -35,26 +35,26 @@ export function OverdueDetail() {
 
               <div className="mt-1.5 flex items-center gap-1.5">
                 <ToneBadge label={`Telat ${o.terlambatHari} hari`} tone="bad" />
-                <span className="truncate text-[8px] font-semibold text-ink-500">
+                <span className="truncate text-[9px] font-semibold text-ink-500">
                   Tenggat {o.tenggat}
                 </span>
               </div>
 
-              <p className="mt-1.5 flex items-start gap-1 text-[8px] leading-snug text-ink-500">
+              <p className="mt-1.5 flex items-start gap-1 text-[9px] leading-snug text-ink-500">
                 <Eye size={9} className="mt-[1px] shrink-0 text-[#ef4444]" />
                 <span>
                   <span className="font-bold text-ink-700">Dampak:</span> {o.dampak}
                 </span>
               </p>
 
-              <p className="mt-1 flex items-start gap-1 text-[8px] leading-snug text-ink-500">
+              <p className="mt-1 flex items-start gap-1 text-[9px] leading-snug text-ink-500">
                 <ArrowUpRight size={9} className="mt-[1px] shrink-0 text-[#ef4444]" />
                 <span>
                   <span className="font-bold text-ink-700">Eskalasi Dekom:</span> {o.eskalasi}
                 </span>
               </p>
 
-              <div className="mt-1.5 border-t border-[#f5d9d9] pt-1 text-[8px] font-semibold text-ink-500">
+              <div className="mt-1.5 border-t border-[#f5d9d9] pt-1 text-[9px] font-semibold text-ink-500">
                 PIC: {o.pic}
               </div>
             </div>

@@ -32,7 +32,7 @@ export function CompaRangePanel() {
           Compa-Ratio &amp; Range Positioning
           <ScopeNote />
         </h3>
-        <span className="shrink-0 text-[9px] font-semibold text-ink-400">
+        <span className="shrink-0 text-[9px] font-semibold text-ink-500">
           Compa = Actual Pay / Market P50
         </span>
       </div>
@@ -60,7 +60,7 @@ export function CompaRangePanel() {
                 <span className="w-[30px] shrink-0 text-right text-[9px] font-extrabold text-ink-900">
                   {r.compa}%
                 </span>
-                <span className="w-[26px] shrink-0 text-right text-[8px] font-bold text-ink-500">
+                <span className="w-[26px] shrink-0 text-right text-[9px] font-bold text-ink-500">
                   {r.posisi}
                 </span>
                 <span
@@ -98,7 +98,7 @@ export function CompaRangePanel() {
           <ul className="mt-1 flex min-h-0 flex-1 flex-col justify-between gap-[2px]">
             {rangePosition.map((r) => (
               <li key={r.label} className="flex shrink-0 items-center gap-2">
-                <span className="w-[76px] shrink-0 text-[8px] font-semibold text-ink-600">{r.label}</span>
+                <span className="w-[76px] shrink-0 text-[9px] font-semibold text-ink-600">{r.label}</span>
                 <div className="h-[6px] min-w-0 flex-1 overflow-hidden rounded-full bg-[var(--chart-grid)]">
                   <div className="h-full rounded-full" style={{ width: `${r.pct * 2}%`, background: r.color }} />
                 </div>
@@ -115,7 +115,7 @@ export function CompaRangePanel() {
           className="flex min-w-0 flex-col rounded-xl border border-[#eef2f6] px-3 py-2.5"
           style={{ borderTop: "3px solid #ef4444" }}
         >
-          <span className="inline-flex w-fit items-center rounded px-1.5 py-[2px] text-[8px] font-bold leading-none tone-red">
+          <span className="inline-flex w-fit items-center rounded px-1.5 py-[2px] text-[9px] font-bold leading-none tone-red">
             Structural Pay Risk
           </span>
           <ul className="mt-1.5 flex min-h-0 flex-1 flex-col justify-between gap-[4px]">
@@ -132,7 +132,7 @@ export function CompaRangePanel() {
               </li>
             ))}
           </ul>
-          <p className="mt-1.5 border-t border-[#eef2f6] pt-1.5 text-[8px] leading-snug text-ink-500">
+          <p className="mt-1.5 border-t border-[#eef2f6] pt-1.5 text-[9px] leading-snug text-ink-500">
             Salary inversion otomatis masuk{" "}
             <span className="font-bold text-ink-700">People Risk Radar</span> sebagai
             compensation-driven retention risk.

@@ -83,16 +83,16 @@ export function PartnershipDeals() {
                   style={{ width: `${(d.nilaiKontrakRpM / MAX) * 100}%` }}
                 />
               </div>
-              <span className="shrink-0 text-[8px] font-semibold text-ink-400">
+              <span className="shrink-0 text-[9px] font-semibold text-ink-500">
                 tenor {d.tenorTahun} thn · YTD Rp {rp(d.pendapatanYtdRpM)} M
               </span>
             </div>
-            <p className="mt-[3px] truncate text-[8px] text-ink-400">{d.mitra}</p>
+            <p className="mt-[3px] truncate text-[9px] text-ink-500">{d.mitra}</p>
           </div>
         ))}
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">{partnershipNote}</p>
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">{partnershipNote}</p>
     </div>
   );
 }

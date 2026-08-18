@@ -90,7 +90,7 @@ export function MarginTrendChart() {
         {SERIES.map((s) => (
           <span
             key={s.key}
-            className="flex items-center gap-1.5 text-[8px] font-semibold text-ink-500"
+            className="flex items-center gap-1.5 text-[9px] font-semibold text-ink-500"
             style={{ opacity: opacity(s.label) }}
           >
             <span className="h-[3px] w-[14px] rounded-full" style={{ background: s.color }} />

@@ -63,7 +63,7 @@ export function AgingBuckets() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Dua butir di atas 90 hari menjadi prasyarat tanggapan Dekom atas permohonan persetujuan yang
         sedang menunggu.
       </p>

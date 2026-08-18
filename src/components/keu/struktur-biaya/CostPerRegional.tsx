@@ -60,7 +60,7 @@ export function CostPerRegional() {
               ticks={[8000, 8500, 9000, 9500, 10000]}
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => `${(v / 1000).toLocaleString("id-ID")}rb`}
             />
             <YAxis
@@ -68,7 +68,7 @@ export function CostPerRegional() {
               dataKey="regional"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               width={122}
             />
             <ReferenceLine
@@ -78,7 +78,7 @@ export function CostPerRegional() {
               label={{
                 value: "Target",
                 position: "insideTopRight",
-                style: { fontSize: 7.5, fill: PALETTE.navy, fontWeight: 800 },
+                style: { fontSize: 8.5, fill: PALETTE.navy, fontWeight: 800 },
               }}
             />
             <Tooltip
@@ -98,7 +98,7 @@ export function CostPerRegional() {
                 position="right"
                 offset={5}
                 formatter={(v: number) => ribuan(v)}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>

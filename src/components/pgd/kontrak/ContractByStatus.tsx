@@ -66,7 +66,7 @@ export function ContractByStatus() {
                   {r.jumlah.toLocaleString("id-ID")}
                 </span>
               </div>
-              <div className="mt-[2px] pl-[14px] text-[8px] text-ink-400">
+              <div className="mt-[2px] pl-[14px] text-[9px] text-ink-500">
                 Nilai Rp {r.valueRpT.toLocaleString("id-ID", { minimumFractionDigits: 2 })} T
               </div>
             </li>
@@ -74,7 +74,7 @@ export function ContractByStatus() {
         </ul>
       </div>
 
-      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         42 kontrak payung (3,4% jumlah) menutup 34,0% nilai — instrumen paling padat nilai per
         kontrak yang dikelola.
       </p>

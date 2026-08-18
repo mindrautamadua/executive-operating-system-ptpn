@@ -37,7 +37,7 @@ export function FairnessKinerja() {
                 {f.ambang}
               </span>
               <span
-                className={`w-[52px] shrink-0 rounded px-1.5 py-[2px] text-center text-[8px] font-bold ${s.badge}`}
+                className={`w-[52px] shrink-0 rounded px-1.5 py-[2px] text-center text-[9px] font-bold ${s.badge}`}
               >
                 {s.label}
               </span>
@@ -46,7 +46,7 @@ export function FairnessKinerja() {
         })}
       </div>
 
-      <p className="mt-1.5 border-t border-[#f0f3f6] pt-1.5 text-[8px] leading-[1.4] text-ink-400">
+      <p className="mt-1.5 border-t border-[#f0f3f6] pt-1.5 text-[9px] leading-[1.4] text-ink-500">
         {fairnessNote}
       </p>
     </div>

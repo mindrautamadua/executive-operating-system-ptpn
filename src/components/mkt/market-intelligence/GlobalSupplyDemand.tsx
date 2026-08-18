@@ -93,20 +93,20 @@ export function GlobalSupplyDemand() {
       )}
 
       <div className="mt-1 flex items-center gap-3">
-        <span className="flex items-center gap-1.5 text-[8px] font-semibold text-ink-500">
+        <span className="flex items-center gap-1.5 text-[9px] font-semibold text-ink-500">
           <span className="h-[7px] w-[7px] rounded-sm" style={{ background: PALETTE.blueSoft }} />
           Produksi
         </span>
-        <span className="flex items-center gap-1.5 text-[8px] font-semibold text-ink-500">
+        <span className="flex items-center gap-1.5 text-[9px] font-semibold text-ink-500">
           <span className="h-[7px] w-[7px] rounded-sm" style={{ background: PALETTE.green }} />
           Konsumsi
         </span>
-        <span className="flex items-center gap-1.5 text-[8px] font-semibold text-ink-500">
+        <span className="flex items-center gap-1.5 text-[9px] font-semibold text-ink-500">
           <span className="h-[3px] w-[14px] rounded-full" style={{ background: PALETTE.amber }} />
           Stok Akhir (kanan)
         </span>
       </div>
-      <p className="mt-1 truncate text-[8px] text-ink-400" title={globalSupplyDemandNote}>
+      <p className="mt-1 truncate text-[9px] text-ink-500" title={globalSupplyDemandNote}>
         {globalSupplyDemandNote}
       </p>
     </div>

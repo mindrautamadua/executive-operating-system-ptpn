@@ -71,7 +71,7 @@ export function ScenarioComparison() {
                 position="top"
                 offset={4}
                 formatter={(v: number) => fmtId(v, 1)}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
             <Bar dataKey="laba" fill={PALETTE.blue} radius={[2, 2, 0, 0]} maxBarSize={34}>
@@ -80,7 +80,7 @@ export function ScenarioComparison() {
                 position="top"
                 offset={4}
                 formatter={(v: number) => fmtId(v, 1)}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
@@ -101,7 +101,7 @@ export function ScenarioComparison() {
                   ND/EBITDA {fmtId(s.netDebtEbitda, 1)}x
                 </span>
               </span>
-              <p className="truncate text-[8px] leading-snug text-ink-500" title={s.asumsi}>
+              <p className="truncate text-[9px] leading-snug text-ink-500" title={s.asumsi}>
                 {s.asumsi}
               </p>
             </div>

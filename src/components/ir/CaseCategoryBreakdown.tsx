@@ -40,7 +40,7 @@ export function CaseCategoryBreakdown() {
                 {c.name}
               </span>
               <span className="shrink-0 text-[9.5px] font-bold text-ink-900">{c.value}</span>
-              <span className="w-[42px] shrink-0 text-right text-[9px] text-ink-400">
+              <span className="w-[42px] shrink-0 text-right text-[9px] text-ink-500">
                 ({c.pct})
               </span>
             </div>

@@ -71,7 +71,7 @@ export function ProjectSCurveWatch() {
               dataKey="periode"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <YAxis
               domain={[0, 60]}
@@ -143,7 +143,7 @@ export function ProjectSCurveWatch() {
         ))}
       </div>
 
-      <p className="pt-1 text-[8px] leading-snug text-ink-400">{sCurveWatchNote}</p>
+      <p className="pt-1 text-[9px] leading-snug text-ink-500">{sCurveWatchNote}</p>
     </div>
   );
 }

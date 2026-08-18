@@ -24,10 +24,10 @@ export function IrEarlyWarning() {
           </span>
           <span className="text-[8.5px] font-bold text-ink-400">/100</span>
         </span>
-        <span className="rounded-md bg-[#fdf3e0] px-1.5 py-[2px] text-[8px] font-bold text-[#d98b06]">
+        <span className="rounded-md bg-[#fdf3e0] px-1.5 py-[2px] text-[9px] font-bold text-[#d98b06]">
           {irEarlyWarning.category}
         </span>
-        <span className="ml-auto text-[8px] font-semibold text-ink-500">
+        <span className="ml-auto text-[9px] font-semibold text-ink-500">
           Horizon risiko: {irEarlyWarning.horizon}
         </span>
       </div>
@@ -43,7 +43,7 @@ export function IrEarlyWarning() {
         ))}
       </div>
 
-      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_54px_50px_54px] items-center gap-x-2 border-b border-[#eef2f6] pb-1.5 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_54px_50px_54px] items-center gap-x-2 border-b border-[#eef2f6] pb-1.5 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Lokasi (Isu Utama)</span>
         <span>Risiko</span>
         <span className="text-center">Prob.</span>
@@ -64,7 +64,7 @@ export function IrEarlyWarning() {
             </span>
             <span>
               <span
-                className={`inline-block rounded-md px-1.5 py-[3px] text-[8px] font-bold ${RISK_STYLE[r.risk]}`}
+                className={`inline-block rounded-md px-1.5 py-[3px] text-[9px] font-bold ${RISK_STYLE[r.risk]}`}
               >
                 {r.risk}
               </span>

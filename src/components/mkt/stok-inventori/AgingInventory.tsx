@@ -56,7 +56,7 @@ export function AgingInventory() {
                 </span>
               ))}
             </div>
-            <div className="mt-1 flex justify-between text-[8px] text-ink-400">
+            <div className="mt-1 flex justify-between text-[9px] text-ink-500">
               {row.buckets.map((b) => (
                 <span key={b.label}>{num(b.rbTon)} rb</span>
               ))}
@@ -67,13 +67,13 @@ export function AgingInventory() {
 
       <div className="mt-1 flex items-center gap-3">
         {rows[0].buckets.map((b, i) => (
-          <span key={b.label} className="flex items-center gap-1.5 text-[8px] font-semibold text-ink-500">
+          <span key={b.label} className="flex items-center gap-1.5 text-[9px] font-semibold text-ink-500">
             <span className="h-[7px] w-[7px] rounded-sm" style={{ background: BUCKET_COLORS[i] }} />
             {b.label}
           </span>
         ))}
       </div>
-      <p className="mt-1 truncate text-[8px] text-ink-400" title={agingNote}>
+      <p className="mt-1 truncate text-[9px] text-ink-500" title={agingNote}>
         {agingNote}
       </p>
       </>

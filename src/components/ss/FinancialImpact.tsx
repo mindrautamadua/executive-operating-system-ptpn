@@ -33,7 +33,7 @@ export function FinancialImpact() {
       <SectionHead title="Dampak Finansial (2026 - 2028)" />
       <p className="mt-[3px] text-[9px] text-ink-500">Proyeksi dampak finansial kumulatif</p>
 
-      <div className="mt-1 flex items-center justify-between text-[8px] font-semibold text-ink-400">
+      <div className="mt-1 flex items-center justify-between text-[9px] font-semibold text-ink-500">
         <span>Miliar Rupiah</span>
         <span>ROI (%)</span>
       </div>
@@ -82,7 +82,7 @@ export function FinancialImpact() {
                 dataKey="baseline"
                 position="top"
                 formatter={ribuan}
-                style={{ fontSize: 7, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
             <Bar yAxisId="cost" dataKey="scenario" fill={PALETTE.green} radius={[3, 3, 0, 0]} barSize={16}>
@@ -90,7 +90,7 @@ export function FinancialImpact() {
                 dataKey="scenario"
                 position="top"
                 formatter={ribuan}
-                style={{ fontSize: 7, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
             <Line
@@ -108,7 +108,7 @@ export function FinancialImpact() {
 
       <div className="mt-0.5 flex items-center justify-center gap-4">
         {LEGEND.map((l) => (
-          <span key={l.label} className="flex items-center gap-1.5 text-[8px] font-semibold text-ink-500">
+          <span key={l.label} className="flex items-center gap-1.5 text-[9px] font-semibold text-ink-500">
             {l.type === "bar" ? (
               <span className="h-[8px] w-[8px] shrink-0 rounded-[2px]" style={{ background: l.color }} />
             ) : (

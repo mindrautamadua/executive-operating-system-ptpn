@@ -40,7 +40,7 @@ export function DriverPareto() {
               dataKey="short"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 6.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
               angle={-32}
               textAnchor="end"
@@ -75,7 +75,7 @@ export function DriverPareto() {
               y={80}
               stroke="#94a3b8"
               strokeDasharray="3 3"
-              label={{ value: "80%", position: "right", fontSize: 7.5, fill: "#94a3b8" }}
+              label={{ value: "80%", position: "right", fontSize: 8.5, fill: "#94a3b8" }}
             />
             <Bar yAxisId="left" dataKey="pct" radius={[3, 3, 0, 0]} isAnimationActive={false}>
               {driverPareto.map((d) => (

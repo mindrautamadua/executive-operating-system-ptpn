@@ -39,7 +39,7 @@ export function RegulasiPasarCard() {
       {rows.length > 0 && (
         <>
       <div
-        className={`mt-2 grid ${COLS} items-center gap-x-3 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400`}
+        className={`mt-2 grid ${COLS} items-center gap-x-3 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500`}
       >
         <span>Regulasi</span>
         <span>Status</span>
@@ -67,7 +67,7 @@ export function RegulasiPasarCard() {
         </>
       )}
 
-      <p className="mt-1.5 truncate text-[8px] text-ink-400">
+      <p className="mt-1.5 truncate text-[9px] text-ink-500">
         Kepatuhan DMO 100% menopang izin ekspor · beban pungutan &amp; bea keluar menekan net-back FOB.
       </p>
     </div>

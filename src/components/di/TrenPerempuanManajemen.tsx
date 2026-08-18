@@ -25,7 +25,7 @@ export function TrenPerempuanManajemen() {
       <div className="flex items-start justify-between gap-2">
         <div>
           <h3 className="card-title-navy">Tren Representasi Perempuan di Manajemen</h3>
-          <p className="mt-[3px] text-[9px] text-ink-400">
+          <p className="mt-[3px] text-[9px] text-ink-500">
             % Perempuan pada Level Manajemen
           </p>
         </div>

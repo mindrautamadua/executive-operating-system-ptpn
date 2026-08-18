@@ -57,7 +57,7 @@ export function RiskTrend() {
               label={{
                 value: `Risk Appetite ≤${RISK_APPETITE}`,
                 position: "insideBottomLeft",
-                fontSize: 7.5,
+                fontSize: 8.5,
                 fontWeight: 700,
                 fill: "#2f6fe4",
               }}
@@ -67,7 +67,7 @@ export function RiskTrend() {
               dataKey="name"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={1}
             />
             <YAxis
@@ -113,7 +113,7 @@ export function RiskTrend() {
                 dataKey="value"
                 position="top"
                 offset={7}
-                style={{ fontSize: 7.5, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Line>
           </ComposedChart>
@@ -124,7 +124,7 @@ export function RiskTrend() {
         {BANDS.map((b) => (
           <span
             key={b.label}
-            className={`rounded-md px-2 py-[5px] text-center text-[8px] font-bold ${b.cls}`}
+            className={`rounded-md px-2 py-[5px] text-center text-[9px] font-bold ${b.cls}`}
           >
             {b.label}
           </span>

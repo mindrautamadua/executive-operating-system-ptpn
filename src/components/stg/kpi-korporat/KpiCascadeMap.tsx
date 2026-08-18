@@ -56,7 +56,7 @@ export function KpiCascadeMap() {
                 <div className="text-[9px] font-extrabold leading-snug text-ink-900">
                   {row.groupKpi}
                 </div>
-                <div className="mt-[2px] text-[8px] font-semibold text-ink-400">
+                <div className="mt-[2px] text-[9px] font-semibold text-ink-500">
                   {row.perspective}
                 </div>
               </div>

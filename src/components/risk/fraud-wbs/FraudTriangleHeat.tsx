@@ -35,7 +35,7 @@ export function FraudTriangleHeat() {
               {["Entitas", "Laporan", "Terbukti", "Rate", "Kerugian"].map((h) => (
                 <th
                   key={h}
-                  className="py-[5px] text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-400"
+                  className="py-[5px] text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500"
                 >
                   {h}
                 </th>
@@ -78,7 +78,7 @@ export function FraudTriangleHeat() {
         </table>
       </div>
 
-      <p className="mt-1.5 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1.5 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         {isFiltered
           ? `Baris ${def.label} dari konsentrasi fraud 3 subholding; basis 43 laporan grup YTD.`
           : "PalmCo memegang 45% laporan dan 45% kerugian — proporsional terhadap skala operasi, bukan anomali tata kelola."}

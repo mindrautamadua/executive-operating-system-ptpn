@@ -66,7 +66,7 @@ export function DowntimeAnalysis() {
               dataKey="short"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -74,7 +74,7 @@ export function DowntimeAnalysis() {
               ticks={[0, 1750, 3500, 5250, 7000]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => ribuan(v)}
               width={40}
             />
@@ -104,14 +104,14 @@ export function DowntimeAnalysis() {
 
       <div className="mb-1 flex flex-wrap items-center justify-center gap-x-3 gap-y-1">
         {SERIES.map((s) => (
-          <span key={s.key} className="flex items-center gap-1.5 text-[8px] text-ink-500">
+          <span key={s.key} className="flex items-center gap-1.5 text-[9px] text-ink-500">
             <span className="h-[7px] w-[7px] rounded-full" style={{ background: s.color }} />
             {s.label}
           </span>
         ))}
       </div>
 
-      <p className="line-clamp-2 text-[8px] leading-snug text-ink-400">{downtimeNote}</p>
+      <p className="line-clamp-2 text-[9px] leading-snug text-ink-500">{downtimeNote}</p>
     </div>
   );
 }

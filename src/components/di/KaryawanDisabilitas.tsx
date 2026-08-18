@@ -22,7 +22,7 @@ export function KaryawanDisabilitas() {
       style={{ "--d": "60ms" } as React.CSSProperties}
     >
       <h3 className="card-title-navy">Karyawan Disabilitas berdasarkan Jenis</h3>
-      <p className="mt-[3px] text-[9px] text-ink-400">(Per 30 Jun 2026)</p>
+      <p className="mt-[3px] text-[9px] text-ink-500">(Per 30 Jun 2026)</p>
 
       <div className="flex min-h-0 flex-1 items-center gap-3">
         <DonutChart
@@ -68,7 +68,7 @@ export function KaryawanDisabilitas() {
 
       {/* inclusion outcome: rasio karier vs rata-rata organisasi — bukan hanya representasi */}
       <div className="mt-1 flex items-center gap-2 border-t border-[#eef2f6] pt-1.5">
-        <span className="shrink-0 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+        <span className="shrink-0 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
           Outcome vs org
         </span>
         {disabilitasEquity.map((e) => (

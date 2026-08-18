@@ -54,7 +54,7 @@ export function CorporateActions() {
               </div>
               <div className="flex shrink-0 flex-col items-end gap-[3px]">
                 <ToneBadge label={a.status} tone={STATUS_TONE[a.status]} />
-                <span className="text-[8px] font-semibold text-ink-400">Target {a.target}</span>
+                <span className="text-[9px] font-semibold text-ink-500">Target {a.target}</span>
               </div>
             </div>
 
@@ -73,7 +73,7 @@ export function CorporateActions() {
             {a.href && a.hrefLabel && (
               <Link
                 href={a.href}
-                className="mt-[4px] inline-flex items-center gap-1 text-[8px] font-semibold text-ptpn-green hover:underline"
+                className="mt-[4px] inline-flex items-center gap-1 text-[9px] font-semibold text-ptpn-green hover:underline"
               >
                 {a.hrefLabel} <ArrowRight size={9} />
               </Link>

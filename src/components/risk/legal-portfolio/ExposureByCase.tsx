@@ -57,7 +57,7 @@ export function ExposureByCase() {
               dataKey="nama"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               width={186}
             />
             <Tooltip
@@ -75,14 +75,14 @@ export function ExposureByCase() {
               <LabelList
                 dataKey="eksposur"
                 position="right"
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 rounded-md bg-[#fdecec] px-2 py-[5px] text-[8px] leading-[1.4] text-[#b91c1c]">
+      <p className="mt-1 rounded-md bg-[#fdecec] px-2 py-[5px] text-[9px] leading-[1.4] text-[#b91c1c]">
         Perkara terbesar — gugatan pembatalan HGU Regional 3 Riau Rp 1,10 T (banding) — menyumbang
         26% total eksposur Rp 4,2 T.
       </p>

@@ -48,7 +48,7 @@ export function TheftByRegional() {
               dataKey="label"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -56,7 +56,7 @@ export function TheftByRegional() {
               ticks={[0, 20, 40, 60, 80]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <Tooltip
               cursor={{ fill: "rgba(148,163,184,0.08)" }}
@@ -78,14 +78,14 @@ export function TheftByRegional() {
                 dataKey="kasus"
                 position="top"
                 offset={4}
-                style={{ fontSize: 7.5, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 line-clamp-2 text-[8px] leading-snug text-ink-400" title={theftRestanFootnote}>
+      <p className="mt-1 line-clamp-2 text-[9px] leading-snug text-ink-500" title={theftRestanFootnote}>
         {theftRestanFootnote}{" "}
         <Link
           href="/produksi-operasi/panen-logistik"

@@ -54,7 +54,7 @@ export function SllKpiTracker() {
         <span className="text-[8.5px] font-semibold text-ink-500">
           Step-down margin terverifikasi · efektif Juni 2026
         </span>
-        <span className="text-[9px] tabular-nums text-ink-400">
+        <span className="text-[9px] tabular-nums text-ink-500">
           <span className="text-[12px] font-extrabold text-ptpn-green">-12,5 bps</span> · hemat ±Rp
           8 M/thn
         </span>

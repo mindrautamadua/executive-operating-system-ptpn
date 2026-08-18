@@ -52,7 +52,7 @@ export function ExecutiveCase({
     <GuideCard>
       <div className="flex items-center justify-between gap-2">
         <GuideTitle kicker="Learning mode">Jawab Dulu, Baru Bandingkan</GuideTitle>
-        <span className="shrink-0 rounded bg-[#eef2f6] px-1.5 py-[2px] text-[8px] font-bold text-ink-500">
+        <span className="shrink-0 rounded bg-[#eef2f6] px-1.5 py-[2px] text-[9px] font-bold text-ink-500">
           {terisi}/{questions.length} dijawab
         </span>
       </div>
@@ -107,7 +107,7 @@ export function ExecutiveCase({
         )}
       </button>
       {!terbuka && terisi < questions.length && (
-        <p className="mt-1.5 text-center text-[8px] text-ink-400">
+        <p className="mt-1.5 text-center text-[9px] text-ink-500">
           Disarankan menjawab semua pertanyaan dulu — membaca jawaban sebelum berpikir
           menggagalkan latihannya.
         </p>

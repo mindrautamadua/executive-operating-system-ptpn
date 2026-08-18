@@ -14,7 +14,7 @@ export function RiwayatPendidikan() {
         <div className="min-w-0 leading-tight">
           <div className="text-[10.5px] font-bold text-ink-900">{pendidikan.jenjang}</div>
           <div className="mt-[3px] text-[9px] text-ink-500">{pendidikan.institusi}</div>
-          <div className="mt-[2px] text-[9px] text-ink-400">{pendidikan.periode}</div>
+          <div className="mt-[2px] text-[9px] text-ink-500">{pendidikan.periode}</div>
           <span className="mt-2 inline-block rounded-md border border-[#e3e9ef] bg-[#f7f9fb] px-2 py-[3px] text-[8.5px] font-semibold text-ink-700">
             {pendidikan.ipk}
           </span>

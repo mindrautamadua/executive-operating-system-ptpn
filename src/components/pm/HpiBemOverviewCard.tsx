@@ -51,7 +51,7 @@ export function HpiBemOverviewCard() {
           <div className="mt-2 space-y-2">
             {hpiBemOverview.kelompok.map((g) => (
               <div key={g.judul}>
-                <div className="text-[8px] font-bold uppercase tracking-[0.04em] text-ink-400">
+                <div className="text-[9px] font-bold uppercase tracking-[0.04em] text-ink-500">
                   {g.judul}
                 </div>
                 <div className="mt-1 space-y-[7px]">

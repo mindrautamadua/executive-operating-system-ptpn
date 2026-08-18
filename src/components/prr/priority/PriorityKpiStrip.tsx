@@ -37,7 +37,7 @@ export function PriorityKpiStrip() {
           </div>
           <div className="mt-2.5 flex items-center gap-1.5">
             {k.trend === "flat" ? (
-              <span className="text-[10px] font-semibold text-ink-400">{k.delta}</span>
+              <span className="text-[10px] font-semibold text-ink-500">{k.delta}</span>
             ) : (
               <Delta
                 value={k.delta.replace("-", "")}

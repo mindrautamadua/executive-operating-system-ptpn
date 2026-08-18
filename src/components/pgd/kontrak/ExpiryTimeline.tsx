@@ -40,7 +40,7 @@ export function ExpiryTimeline() {
               dataKey="month"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <YAxis
               tickLine={false}
@@ -67,7 +67,7 @@ export function ExpiryTimeline() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 rounded-md bg-[#fdecec] px-2 py-[5px] text-[8px] leading-[1.4] text-[#b91c1c]">
+      <p className="mt-1 rounded-md bg-[#fdecec] px-2 py-[5px] text-[9px] leading-[1.4] text-[#b91c1c]">
         87 kontrak senilai Rp 2,86 T jatuh tempo ≤ 90 hari; hanya 39 memiliki paket pengganti di
         pipeline tender.
       </p>

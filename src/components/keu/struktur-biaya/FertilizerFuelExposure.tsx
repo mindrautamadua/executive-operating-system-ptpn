@@ -25,7 +25,7 @@ export function FertilizerFuelExposure() {
               </span>
               <div className="min-w-0 flex-1">
                 <div className="truncate text-[9px] font-bold text-ink-900">{f.item}</div>
-                <div className="mt-[1px] text-[8px] text-ink-500">
+                <div className="mt-[1px] text-[9px] text-ink-500">
                   Asumsi {f.asumsiRkap} → Aktual{" "}
                   <span className="font-semibold text-ink-700">{f.aktual}</span>
                 </div>

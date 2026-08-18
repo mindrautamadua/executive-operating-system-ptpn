@@ -61,7 +61,7 @@ export function FailedTenderCauses() {
               dataKey="short"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               width={148}
             />
             <Tooltip
@@ -83,7 +83,7 @@ export function FailedTenderCauses() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 rounded-md bg-[#fdf3e0] px-2 py-[5px] text-[8px] leading-[1.4] text-[#a26a05]">
+      <p className="mt-1 rounded-md bg-[#fdf3e0] px-2 py-[5px] text-[9px] leading-[1.4] text-[#a26a05]">
         19 dari 30 tender gagal berasal dari peserta kurang dan penawaran di atas HPS — tender ulang
         menambah 24-32 hari per paket.
       </p>

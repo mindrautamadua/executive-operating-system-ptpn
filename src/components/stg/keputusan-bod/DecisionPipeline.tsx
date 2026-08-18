@@ -81,7 +81,7 @@ export function DecisionPipeline() {
                 className="h-[7px] w-[7px] shrink-0 rounded-[2px]"
                 style={{ backgroundColor: s.color }}
               />
-              <span className="text-[8px] font-semibold text-ink-500">{s.label}</span>
+              <span className="text-[9px] font-semibold text-ink-500">{s.label}</span>
             </span>
           ))}
         </div>

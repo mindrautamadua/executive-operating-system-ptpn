@@ -88,7 +88,7 @@ export function EnterpriseHeatmap() {
             {l}
           </span>
         ))}
-        <span className="text-[8px] font-semibold text-ink-400">Dampak →</span>
+        <span className="text-[9px] font-semibold text-ink-500">Dampak →</span>
       </div>
     </div>
   );

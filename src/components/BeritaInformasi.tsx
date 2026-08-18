@@ -41,12 +41,12 @@ export function BeritaInformasi() {
                   className="h-[7px] w-[7px] shrink-0 rounded-full"
                   style={{ background: `hsl(${it.hue} 55% 45%)` }}
                 />
-                <span className="text-[9px] text-ink-400">{it.date}</span>
-                <span className="rounded bg-[#eef2f6] px-1 py-[1px] text-[8px] font-bold uppercase tracking-[0.03em] text-ink-500">
+                <span className="text-[9px] text-ink-500">{it.date}</span>
+                <span className="rounded bg-[#eef2f6] px-1 py-[1px] text-[9px] font-bold uppercase tracking-[0.03em] text-ink-500">
                   {it.kategori}
                 </span>
                 <span
-                  className="ml-auto shrink-0 rounded px-1 py-[1px] text-[8px] font-bold"
+                  className="ml-auto shrink-0 rounded px-1 py-[1px] text-[9px] font-bold"
                   style={{ color: r.text, background: r.bg }}
                 >
                   RELEVANSI {it.relevansi.toUpperCase()}

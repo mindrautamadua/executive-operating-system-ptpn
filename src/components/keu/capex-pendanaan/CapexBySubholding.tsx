@@ -86,7 +86,7 @@ export function CapexBySubholding() {
                 position="top"
                 offset={5}
                 formatter={(v: number) => `${fmtId(v, 1)}%`}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
@@ -97,7 +97,7 @@ export function CapexBySubholding() {
         {data.map((d) => (
           <div
             key={d.name}
-            className="flex items-center gap-1.5 text-[8px] text-ink-500 transition-opacity"
+            className="flex items-center gap-1.5 text-[9px] text-ink-500 transition-opacity"
             style={{ opacity: dim(d.sub) }}
           >
             <span className="w-[42px] shrink-0 font-bold text-ink-700">{d.name}</span>

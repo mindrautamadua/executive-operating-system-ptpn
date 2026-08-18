@@ -45,7 +45,7 @@ export function CapexRevitalisasi() {
                 <span className="truncate text-[9px] font-extrabold text-ink-900">{r.pabrik}</span>
                 <ToneBadge label={r.status} tone={STATUS_TONE[r.status]} />
               </span>
-              <span className="shrink-0 text-[8px] font-semibold text-ink-500">
+              <span className="shrink-0 text-[9px] font-semibold text-ink-500">
                 Rp {r.capexRpM} M · {r.target}
               </span>
             </div>

@@ -95,7 +95,7 @@ export function ScorecardSnapshot() {
         {scorecardSnapshot.map((s) => (
           <li
             key={s.entity}
-            className="min-w-0 flex-1 text-center text-[8px] text-ink-400 transition-opacity"
+            className="min-w-0 flex-1 text-center text-[9px] text-ink-500 transition-opacity"
             style={{ opacity: dim(s.entity) }}
           >
             {s.category}

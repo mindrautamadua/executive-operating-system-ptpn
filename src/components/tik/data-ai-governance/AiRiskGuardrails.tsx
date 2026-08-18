@@ -30,13 +30,13 @@ export function AiRiskGuardrails() {
               <span className="text-[9px] font-bold leading-snug text-ink-900">{g.guardrail}</span>
               <ToneBadge label={g.status} tone={STATUS_TONE[g.status]} />
             </div>
-            <p className="mt-1.5 text-[8px] leading-snug text-ink-500">
+            <p className="mt-1.5 text-[9px] leading-snug text-ink-500">
               <span className="font-semibold text-ink-700">Cakupan:</span> {g.cakupan}
             </p>
-            <p className="mt-[3px] text-[8px] leading-snug text-ink-500">
+            <p className="mt-[3px] text-[9px] leading-snug text-ink-500">
               <span className="font-semibold text-ink-700">Pemilik:</span> {g.pemilik}
             </p>
-            <p className="mt-auto pt-1.5 text-[8px] leading-snug text-ink-400">{g.catatan}</p>
+            <p className="mt-auto pt-1.5 text-[9px] leading-snug text-ink-500">{g.catatan}</p>
           </div>
         ))}
       </div>

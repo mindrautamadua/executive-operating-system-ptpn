@@ -52,7 +52,7 @@ export function SpeakUpIntelligence() {
         <span className="h-full" style={{ width: `${pct(s.investigating)}%`, background: "#f5a524" }} />
         <span className="h-full" style={{ width: `${pct(s.unsubstantiated)}%`, background: "#94a3b8" }} />
       </div>
-      <div className="mt-1.5 flex items-center gap-3 text-[8px] font-semibold text-ink-500">
+      <div className="mt-1.5 flex items-center gap-3 text-[9px] font-semibold text-ink-500">
         <span className="flex items-center gap-1">
           <span className="h-[7px] w-[7px] rounded-full bg-[#ef4444]" />
           Substantiated {pct(s.substantiated)}%
@@ -74,7 +74,7 @@ export function SpeakUpIntelligence() {
         <Tile label="Repeat Offense" value={`${s.repeatOffense}`} tone="bad" />
       </div>
 
-      <p className="mt-1.5 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1.5 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         Kenaikan laporan (+4 vs Apr) diiringi substantiation rate stabil — indikasi naiknya
         trust terhadap kanal pelaporan, bukan naiknya misconduct.
       </p>

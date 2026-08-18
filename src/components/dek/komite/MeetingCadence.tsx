@@ -43,7 +43,7 @@ export function MeetingCadence() {
                 className="h-[7px] w-[7px] shrink-0 rounded-full"
                 style={{ backgroundColor: s.color }}
               />
-              <span className="text-[8px] font-semibold text-ink-500">{s.label}</span>
+              <span className="text-[9px] font-semibold text-ink-500">{s.label}</span>
             </span>
           ))}
         </div>
@@ -61,7 +61,7 @@ export function MeetingCadence() {
               dataKey="bulan"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis

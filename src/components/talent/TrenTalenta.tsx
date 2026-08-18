@@ -42,7 +42,7 @@ export function TrenTalenta() {
         <span className="text-[20px] font-extrabold leading-none text-ink-900">3.742</span>
         <Delta value="6,8%" trend="up" size={10} />
       </div>
-      <div className="mt-[4px] text-[9px] text-ink-400">vs Mei 2025: 3.504</div>
+      <div className="mt-[4px] text-[9px] text-ink-500">vs Mei 2025: 3.504</div>
 
       <div className="mt-1 min-h-0 w-full flex-1">
         <ResponsiveContainer width="100%" height="100%">

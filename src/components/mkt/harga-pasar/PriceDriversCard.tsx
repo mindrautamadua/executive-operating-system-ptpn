@@ -58,7 +58,7 @@ export function PriceDriversCard() {
               </span>
               <ToneBadge label={d.dampak} tone={DAMPAK_TONE[d.dampak]} />
             </div>
-            <p className="mt-[2px] truncate text-[8px] text-ink-400" title={d.keterangan}>
+            <p className="mt-[2px] truncate text-[9px] text-ink-500" title={d.keterangan}>
               {d.keterangan}
             </p>
           </li>

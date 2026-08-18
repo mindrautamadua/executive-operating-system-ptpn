@@ -64,7 +64,7 @@ export function UtilizationSnapshot() {
               dataKey="short"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -94,7 +94,7 @@ export function UtilizationSnapshot() {
                 position="top"
                 offset={4}
                 formatter={(v: number) => `${num(v)}%`}
-                style={{ fontSize: 7.5, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Bar>
             <Bar name="Target" dataKey="targetPct" barSize={30} radius={[3, 3, 0, 0]} fill={PALETTE.slate}>
@@ -106,7 +106,7 @@ export function UtilizationSnapshot() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 truncate text-[8px] text-ink-400">
+      <p className="mt-1 truncate text-[9px] text-ink-500">
         Seluruh jenis fasilitas berada di bawah target; gap terbesar pada PG (-13,8 ppt) dan karet
         (-10,2 ppt).
       </p>

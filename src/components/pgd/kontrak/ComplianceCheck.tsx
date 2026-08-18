@@ -47,7 +47,7 @@ export function ComplianceCheck() {
                 style={{ width: `${c.patuhPct}%` }}
               />
             </span>
-            <div className="mt-[2px] text-[8px] text-ink-400">
+            <div className="mt-[2px] text-[9px] text-ink-500">
               {c.patuh.toLocaleString("id-ID")} dari {c.basis.toLocaleString("id-ID")} kontrak
             </div>
           </li>

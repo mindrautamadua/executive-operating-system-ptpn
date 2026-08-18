@@ -53,7 +53,7 @@ function OrgLevelSelect() {
                   <span className="block truncate text-[10px] font-semibold text-ink-900">
                     {n.label}
                   </span>
-                  <span className="block text-[8px] text-ink-400">{n.level}</span>
+                  <span className="block text-[9px] text-ink-500">{n.level}</span>
                 </span>
                 {i === selected && <Check size={12} className="shrink-0 text-ptpn-green" />}
               </button>

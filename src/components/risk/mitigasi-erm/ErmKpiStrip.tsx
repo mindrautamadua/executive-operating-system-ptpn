@@ -40,7 +40,7 @@ export function ErmKpiStrip() {
                 {k.value}
               </span>
               {k.valueSuffix && (
-                <span className="text-[10px] font-bold text-ink-400">{k.valueSuffix}</span>
+                <span className="text-[10px] font-bold text-ink-500">{k.valueSuffix}</span>
               )}
             </div>
             <div

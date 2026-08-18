@@ -26,7 +26,7 @@ export function EngagementDemografi() {
     >
       <div className="flex items-baseline justify-between gap-2">
         <h3 className="card-title-navy">Engagement Score berdasarkan Demografi</h3>
-        <span className="shrink-0 text-[9px] text-ink-400">
+        <span className="shrink-0 text-[9px] text-ink-500">
           Overall <span className="font-bold text-ink-900">{overallScore}</span>
         </span>
       </div>

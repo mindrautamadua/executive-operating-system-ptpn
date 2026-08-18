@@ -49,7 +49,7 @@ export function ByTheme() {
               <span className="shrink-0 text-[9.5px] font-bold tabular-nums text-ink-900">
                 {t.jumlah}
               </span>
-              <span className="w-[36px] shrink-0 text-right text-[9px] tabular-nums text-ink-400">
+              <span className="w-[36px] shrink-0 text-right text-[9px] tabular-nums text-ink-500">
                 {t.porsi}
               </span>
             </div>

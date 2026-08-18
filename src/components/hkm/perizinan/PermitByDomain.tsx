@@ -52,7 +52,7 @@ export function PermitByDomain() {
         ))}
       </div>
 
-      <p className="mt-1.5 border-t border-[#f5f8fa] pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="mt-1.5 border-t border-[#f5f8fa] pt-1.5 text-[9px] leading-snug text-ink-500">
         Lingkungan (168) dan Pertanahan &amp; HGU (142) menguasai 50,7% portofolio izin dan
         menyumbang 23 dari 43 izin yang berakhir ≤6 bulan.
       </p>

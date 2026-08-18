@@ -27,7 +27,7 @@ export function NdpeGrievanceTracker() {
             <div key={g.kategori}>
               <div className="flex items-baseline justify-between gap-2">
                 <span className="truncate text-[9.5px] font-bold text-ink-900">{g.kategori}</span>
-                <span className="shrink-0 text-[9px] tabular-nums text-ink-400">
+                <span className="shrink-0 text-[9px] tabular-nums text-ink-500">
                   <span className="font-extrabold text-ptpn-green">{g.selesai}</span> selesai ·{" "}
                   <span className="font-extrabold text-[#d98b06]">{g.terbuka}</span> terbuka
                 </span>

@@ -86,7 +86,7 @@ export function PriceVolumeBridge() {
               dataKey="name"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -120,14 +120,14 @@ export function PriceVolumeBridge() {
                 position="top"
                 offset={4}
                 formatter={(v: number) => t(v)}
-                style={{ fontSize: 7.5, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 text-[8px] leading-snug text-ink-400">
+      <p className="mt-1 text-[9px] leading-snug text-ink-500">
         +Rp 2,3 T YoY: harga +1,42 · volume +0,68 · mix &amp; hilirisasi +0,25 · lainnya −0,05
       </p>
     </div>

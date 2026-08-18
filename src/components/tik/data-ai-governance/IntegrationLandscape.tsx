@@ -44,7 +44,7 @@ export function IntegrationLandscape() {
                 <ToneBadge label={r.metode} tone={METODE_TONE[r.metode]} />
               </div>
               <div className="mt-[3px] flex items-center justify-between gap-2">
-                <span className="shrink-0 text-[8px] font-semibold text-ink-500">
+                <span className="shrink-0 text-[9px] font-semibold text-ink-500">
                   {r.interfaceAktif} interface · kualitas {persen(r.kualitasPct)}%
                 </span>
                 <ToneBadge label={r.status} tone={STATUS_TONE[r.status]} />
@@ -61,15 +61,15 @@ export function IntegrationLandscape() {
           <div className="text-[9.5px] font-extrabold leading-snug text-ink-900">
             Data Platform &amp; BI Eksekutif
           </div>
-          <p className="mt-[3px] text-[8px] leading-snug text-ink-500">
+          <p className="mt-[3px] text-[9px] leading-snug text-ink-500">
             Single source of truth grup · cakupan data kritikal 78% · go-live Q1 2027.
           </p>
           <div className="mt-2 flex flex-col gap-[3px]">
-            <span className="text-[8px] font-semibold text-ink-500">
+            <span className="text-[9px] font-semibold text-ink-500">
               12 domain data terkelola
             </span>
-            <span className="text-[8px] font-semibold text-ink-500">34 data steward</span>
-            <span className="text-[8px] font-semibold text-[#ef4444]">
+            <span className="text-[9px] font-semibold text-ink-500">34 data steward</span>
+            <span className="text-[9px] font-semibold text-[#ef4444]">
               17 interface masih manual
             </span>
           </div>

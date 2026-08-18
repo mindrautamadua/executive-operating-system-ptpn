@@ -45,7 +45,7 @@ export function LegalSpendBreakdown() {
               dataKey="nama"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               width={150}
             />
             <Tooltip
@@ -70,14 +70,14 @@ export function LegalSpendBreakdown() {
                 dataKey="ytdRpM"
                 position="right"
                 formatter={(v: number) => `Rp ${v} M`}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 rounded-md bg-[#fdf3e0] px-2 py-[5px] text-[8px] leading-[1.4] text-[#d98b06]">
+      <p className="mt-1 rounded-md bg-[#fdf3e0] px-2 py-[5px] text-[9px] leading-[1.4] text-[#d98b06]">
         {legalSpendStats.note}
       </p>
     </div>

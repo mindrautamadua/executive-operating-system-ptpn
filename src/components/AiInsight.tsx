@@ -94,7 +94,7 @@ export function AiInsight() {
               </ol>
               <Link
                 href="/executive-guide/pertanyaan-eksekutif"
-                className="mt-1 inline-block text-[8px] font-bold text-[#0e8f7e] hover:underline"
+                className="mt-1 inline-block text-[9px] font-bold text-[#0e8f7e] hover:underline"
               >
                 Buka Question Engine lengkap →
               </Link>
@@ -111,10 +111,10 @@ export function AiInsight() {
 
           {/* Jembatan ekonomi: dari volume sampai laba bersih, baris per baris. */}
           <div className="mt-1.5 border-t border-[#d5ece7] pt-1">
-            <div className="text-[8px] font-extrabold uppercase tracking-[0.05em] text-[#0e8f7e]">
+            <div className="text-[9px] font-extrabold uppercase tracking-[0.05em] text-[#0e8f7e]">
               Jembatan Ekonomi (Basis Disetahunkan)
             </div>
-            <p className="mt-[2px] text-[8px] leading-[1.35] text-ink-400">
+            <p className="mt-[2px] text-[9px] leading-[1.35] text-ink-500">
               Alert Regional 4 memakai basis YTD 5 bulan (Rp 374 M revenue · Rp 104 M EBITDA);
               jembatan ini menyetahunkan gap yang sama.
             </p>
@@ -132,7 +132,7 @@ export function AiInsight() {
 
           {/* Rekomendasi tanpa asumsi & bukti akan ditolak pada pertanyaan kedua. */}
           <div className="mt-1.5 border-t border-[#d5ece7] pt-1">
-            <div className="text-[8px] font-extrabold uppercase tracking-[0.05em] text-[#0e8f7e]">
+            <div className="text-[9px] font-extrabold uppercase tracking-[0.05em] text-[#0e8f7e]">
               Asumsi
             </div>
             <ul className="mt-[3px] space-y-[2px]">
@@ -143,7 +143,7 @@ export function AiInsight() {
                 </li>
               ))}
             </ul>
-            <div className="mt-1 text-[8px] font-extrabold uppercase tracking-[0.05em] text-[#0e8f7e]">
+            <div className="mt-1 text-[9px] font-extrabold uppercase tracking-[0.05em] text-[#0e8f7e]">
               Bukti
             </div>
             <ul className="mt-[3px] space-y-[2px]">
@@ -158,7 +158,7 @@ export function AiInsight() {
 
           {/* Skenario hasil: eksekusi penuh / sebagian / tanpa intervensi. */}
           <div className="mt-1.5 border-t border-[#d5ece7] pt-1">
-            <div className="text-[8px] font-extrabold uppercase tracking-[0.05em] text-[#0e8f7e]">
+            <div className="text-[9px] font-extrabold uppercase tracking-[0.05em] text-[#0e8f7e]">
               Skenario
             </div>
             <div className="mt-[3px] space-y-[2px]">
@@ -176,7 +176,7 @@ export function AiInsight() {
 
           {/* Sensitivitas, alternatif, reversibility — rekomendasi harus bisa diadu. */}
           <div className="mt-1.5 border-t border-[#d5ece7] pt-1">
-            <div className="text-[8px] font-extrabold uppercase tracking-[0.05em] text-[#0e8f7e]">
+            <div className="text-[9px] font-extrabold uppercase tracking-[0.05em] text-[#0e8f7e]">
               Sensitivitas &amp; Alternatif
             </div>
             <p className="mt-[3px] text-[8.5px] leading-[1.35] text-ink-500">
@@ -191,7 +191,7 @@ export function AiInsight() {
           </div>
 
           {/* Rekomendasi masuk siklus aksi: pemilik, tenggat, status. */}
-          <div className="mt-1.5 flex flex-wrap items-center gap-1.5 border-t border-[#d5ece7] pt-1.5 text-[8px]">
+          <div className="mt-1.5 flex flex-wrap items-center gap-1.5 border-t border-[#d5ece7] pt-1.5 text-[9px]">
             <span className="rounded bg-white/70 px-1.5 py-[2px] font-bold text-ink-700">
               Owner: {aiCopilot.owner}
             </span>
@@ -224,7 +224,7 @@ export function AiInsight() {
         {/* Confidence dipecah: data ≠ model ≠ kausal ≠ rekomendasi — angka
             gabungan menyembunyikan mata rantai terlemah. */}
         <div className="mt-1 flex flex-wrap items-center gap-1">
-          <span className="text-[8px] font-bold uppercase tracking-[0.04em] text-ink-400">
+          <span className="text-[9px] font-bold uppercase tracking-[0.04em] text-ink-500">
             Keyakinan
           </span>
           {aiCopilot.confidenceBreakdown.map((c) => (
@@ -242,7 +242,7 @@ export function AiInsight() {
             </span>
           ))}
         </div>
-        <p className="mt-[3px] text-[9px] text-ink-400">
+        <p className="mt-[3px] text-[9px] text-ink-500">
           Gabungan: {aiCopilot.confidencePct}% · {aiInsight.keyakinan}
         </p>
 
@@ -290,13 +290,13 @@ export function AiInsight() {
             keyakinan terbaca sebagai fakta.
           */}
           <div className="mt-[4px] flex flex-wrap items-center gap-1">
-            <span className="rounded bg-[#0e8f7e]/10 px-1.5 py-[2px] text-[8px] font-bold text-[#0e8f7e]">
+            <span className="rounded bg-[#0e8f7e]/10 px-1.5 py-[2px] text-[9px] font-bold text-[#0e8f7e]">
               Confidence {aiCopilot.confidencePct}%
             </span>
-            <span className="rounded bg-white/70 px-1.5 py-[2px] text-[8px] font-bold text-ink-500">
+            <span className="rounded bg-white/70 px-1.5 py-[2px] text-[9px] font-bold text-ink-500">
               Bukti {aiCopilot.evidence.length}
             </span>
-            <span className="rounded bg-white/70 px-1.5 py-[2px] text-[8px] font-bold text-ink-500">
+            <span className="rounded bg-white/70 px-1.5 py-[2px] text-[9px] font-bold text-ink-500">
               Asumsi {aiCopilot.assumptions.length}
             </span>
           </div>

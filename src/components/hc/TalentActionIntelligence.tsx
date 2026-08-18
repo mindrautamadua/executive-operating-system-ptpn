@@ -26,7 +26,7 @@ export function TalentActionIntelligence() {
                 {talentActions.headline.label}
               </span>
             </div>
-            <div className="mt-[3px] text-[8px] text-ink-400">{talentActions.headline.sub}</div>
+            <div className="mt-[3px] text-[9px] text-ink-500">{talentActions.headline.sub}</div>
           </div>
         </div>
         <div className="mt-2 flex items-center justify-between border-t border-[#f6d5d5] pt-2">

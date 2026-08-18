@@ -33,7 +33,7 @@ function ConfidenceGauge() {
         <span className="text-[18px] font-extrabold tracking-[-0.01em] text-ink-900">
           {modelConfidence.value}%
         </span>
-        <span className="mt-[2px] text-[8px] font-bold text-ink-500">
+        <span className="mt-[2px] text-[9px] font-bold text-ink-500">
           {modelConfidence.caption}
         </span>
       </div>
@@ -94,7 +94,7 @@ export function ModelConfidenceRisk() {
               <li key={f.name} className="flex items-center justify-between gap-1.5">
                 <span className="flex min-w-0 items-center gap-1.5">
                   <span
-                    className={`inline-flex w-[42px] shrink-0 items-center justify-center rounded-full px-1 py-[2px] text-[7px] font-bold ${IMPACT_CLS[f.impact]}`}
+                    className={`inline-flex w-[42px] shrink-0 items-center justify-center rounded-full px-1 py-[2px] text-[9px] font-bold ${IMPACT_CLS[f.impact]}`}
                   >
                     {f.impact}
                   </span>

@@ -16,7 +16,7 @@ export function EquityOfOpportunity() {
       <div className="flex items-start justify-between gap-2">
         <div>
           <h3 className="card-title-navy">Equity of Opportunity (Perempuan : Laki-laki)</h3>
-          <p className="mt-[3px] text-[9px] text-ink-400">
+          <p className="mt-[3px] text-[9px] text-ink-500">
             8 rasio kesempatan lintas modul — 1,00 = paritas penuh
           </p>
         </div>
@@ -62,7 +62,7 @@ export function EquityOfOpportunity() {
               <span className="w-[28px] shrink-0 text-right text-[9.5px] font-bold tabular-nums text-ink-900">
                 {r.labelNilai}
               </span>
-              <span className="w-[92px] shrink-0 truncate text-right text-[8px] text-ink-400">
+              <span className="w-[92px] shrink-0 truncate text-right text-[9px] text-ink-500">
                 {r.sumber}
               </span>
             </div>
@@ -70,7 +70,7 @@ export function EquityOfOpportunity() {
         })}
       </div>
 
-      <p className="mt-1 border-t border-[#eef2f6] pt-1 text-[8px] leading-[1.35] text-ink-400">
+      <p className="mt-1 border-t border-[#eef2f6] pt-1 text-[9px] leading-[1.35] text-ink-500">
         Constraint utama: <strong className="font-bold text-ink-700">Suksesi VP+ (0,74)</strong> dan
         Mobilitas Internal (0,88) — kesempatan harian setara, akses ke jenjang senior belum.
       </p>

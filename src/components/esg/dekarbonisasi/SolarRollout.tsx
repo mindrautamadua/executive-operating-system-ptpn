@@ -80,7 +80,7 @@ export function SolarRollout() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Aktual 12,4 MWp vs jalur 14,0 MWp 2026 — perlu tambahan ±1,6 MWp untuk kembali on-track.
       </p>
     </div>

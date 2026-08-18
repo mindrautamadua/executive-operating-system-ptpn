@@ -67,12 +67,12 @@ export default function PerbandinganTalentaPage() {
                                   {k.nama}
                                 </span>
                                 {k.utama && (
-                                  <span className="shrink-0 rounded bg-ptpn-green px-1.5 py-[1px] text-[7px] font-extrabold uppercase text-white">
+                                  <span className="shrink-0 rounded bg-ptpn-green px-1.5 py-[1px] text-[9px] font-extrabold uppercase text-white">
                                     Profil ini
                                   </span>
                                 )}
                               </div>
-                              <div className="truncate text-[8px] font-medium text-ink-500">
+                              <div className="truncate text-[9px] font-medium text-ink-500">
                                 {k.jabatan}
                               </div>
                             </div>
@@ -104,7 +104,7 @@ export default function PerbandinganTalentaPage() {
                   </tbody>
                 </table>
               </div>
-              <p className="mt-2 border-t border-[#eef2f6] pt-1.5 text-[8px] leading-[1.4] text-ink-400">
+              <p className="mt-2 border-t border-[#eef2f6] pt-1.5 text-[9px] leading-[1.4] text-ink-500">
                 Kolom hijau = subjek profil ini. Data dari siklus penilaian & asesmen yang sama
                 (FY 2025) supaya apple-to-apple; keputusan final tetap pada komite suksesi.
               </p>

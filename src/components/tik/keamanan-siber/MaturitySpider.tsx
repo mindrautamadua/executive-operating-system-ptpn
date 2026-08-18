@@ -36,7 +36,7 @@ export function MaturitySpider() {
             <PolarRadiusAxis
               domain={[0, 5]}
               tickCount={6}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               axisLine={false}
             />
             <Tooltip
@@ -64,7 +64,7 @@ export function MaturitySpider() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Recover (2,8) terendah dan konsisten dengan RTO ERP aktual 6,5 jam vs target 4 jam serta
         sistem OT yang belum pernah diuji.
       </p>

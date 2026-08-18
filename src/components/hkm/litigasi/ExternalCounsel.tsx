@@ -79,7 +79,7 @@ export function ExternalCounsel() {
         </table>
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">{externalCounselStats.note}</p>
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">{externalCounselStats.note}</p>
     </div>
   );
 }

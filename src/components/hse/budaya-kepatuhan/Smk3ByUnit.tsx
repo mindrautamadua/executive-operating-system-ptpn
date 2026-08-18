@@ -77,7 +77,7 @@ export function Smk3ByUnit() {
               dataKey="jenisUnit"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 6.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -128,7 +128,7 @@ export function Smk3ByUnit() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">{smk3Footnote}</p>
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">{smk3Footnote}</p>
     </div>
   );
 }

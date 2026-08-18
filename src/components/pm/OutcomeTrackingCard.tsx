@@ -14,7 +14,7 @@ export function OutcomeTrackingCard() {
         <div className="flex shrink-0 items-center gap-1">
           {outcomeLoop.stages.map((s, i) => (
             <span key={s} className="flex items-center gap-1">
-              <span className="rounded-md bg-[#e8f1fd] px-1.5 py-[2px] text-[8px] font-bold text-[#2f6fe4]">
+              <span className="rounded-md bg-[#e8f1fd] px-1.5 py-[2px] text-[9px] font-bold text-[#2f6fe4]">
                 {s}
               </span>
               {i < outcomeLoop.stages.length - 1 && (
@@ -34,13 +34,13 @@ export function OutcomeTrackingCard() {
         {outcomeLoop.steps.map((s, i) => (
           <div key={s.tahap} className="flex min-w-0 flex-1 items-center gap-1.5">
             <div className="min-w-0 flex-1 rounded-xl border border-[#eef2f6] bg-[#f8fafb] px-2.5 py-2">
-              <div className="truncate text-[8px] font-bold uppercase tracking-[0.04em] text-ink-400">
+              <div className="truncate text-[9px] font-bold uppercase tracking-[0.04em] text-ink-500">
                 {s.tahap}
               </div>
               <div className="mt-1 truncate text-[10.5px] font-extrabold text-ink-900" title={s.nilai}>
                 {s.nilai}
               </div>
-              <div className="mt-[3px] truncate text-[8px] leading-snug text-ink-500" title={s.detail}>
+              <div className="mt-[3px] truncate text-[9px] leading-snug text-ink-500" title={s.detail}>
                 {s.detail}
               </div>
             </div>

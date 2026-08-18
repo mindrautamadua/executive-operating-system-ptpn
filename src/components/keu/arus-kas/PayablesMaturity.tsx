@@ -36,7 +36,7 @@ export function PayablesMaturity() {
               dataKey="bucket"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -62,7 +62,7 @@ export function PayablesMaturity() {
                 position="top"
                 offset={4}
                 formatter={(v: number) => fmtId(v, 1)}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>

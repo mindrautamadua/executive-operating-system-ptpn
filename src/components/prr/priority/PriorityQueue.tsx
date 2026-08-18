@@ -271,7 +271,7 @@ export function PriorityQueue() {
                     <span className="block truncate text-[9.5px] font-semibold text-ink-900" title={r.name}>
                       {r.name}
                     </span>
-                    <span className="block truncate text-[8px] text-ink-400" title={r.desc}>
+                    <span className="block truncate text-[9px] text-ink-500" title={r.desc}>
                       {r.id} · {r.desc}
                     </span>
                   </td>
@@ -288,7 +288,7 @@ export function PriorityQueue() {
                   <td className="px-2 py-[7px] text-center">
                     <span className="text-[10px] font-extrabold text-ink-900">{r.score}</span>
                     <span
-                      className={`ml-1 text-[8px] font-bold ${
+                      className={`ml-1 text-[9px] font-bold ${
                         r.deltaScore > 0
                           ? "text-[#ef4444]"
                           : r.deltaScore < 0
@@ -310,11 +310,11 @@ export function PriorityQueue() {
                   </td>
                   <td className="whitespace-nowrap px-2 py-[7px] text-right text-[9px] text-ink-700">
                     {r.impacted === 0 ? "—" : r.impacted.toLocaleString("id-ID")}
-                    <span className="block text-[8px] text-ink-400">{r.unitCount} unit</span>
+                    <span className="block text-[9px] text-ink-500">{r.unitCount} unit</span>
                   </td>
                   <td className={`whitespace-nowrap px-2 py-[7px] text-[9px] font-semibold ${VELOCITY_TONE[r.velocity]}`}>
                     {r.velocity}
-                    <span className="block text-[8px] font-normal text-ink-400">
+                    <span className="block text-[9px] font-normal text-ink-500">
                       ~{r.weeksToImpact} mg
                     </span>
                   </td>
@@ -335,11 +335,11 @@ export function PriorityQueue() {
                   </td>
                   <td className="whitespace-nowrap px-2 py-[7px] text-[9px] text-ink-700">
                     {r.owner}
-                    <span className="block text-[8px] text-ink-400">{r.pic}</span>
+                    <span className="block text-[9px] text-ink-500">{r.pic}</span>
                   </td>
                   <td className="whitespace-nowrap px-2 py-[7px] text-[9px] text-ink-700">
                     {r.due}
-                    <span className="block text-[8px] text-ink-400">upd {r.lastUpdate}</span>
+                    <span className="block text-[9px] text-ink-500">upd {r.lastUpdate}</span>
                   </td>
                   <td className="px-2 py-[7px]">
                     <span
@@ -542,7 +542,7 @@ export function PriorityQueue() {
                   {d.title}
                 </div>
                 <p className="mt-[2px] text-[8.5px] leading-[1.35] text-ink-600">{d.detail}</p>
-                <div className="mt-1 flex items-center justify-between text-[8px] text-ink-400">
+                <div className="mt-1 flex items-center justify-between text-[9px] text-ink-500">
                   <span>{d.risk}</span>
                   <span className="font-bold text-[#ef4444]">
                     {d.forum} · {d.due}

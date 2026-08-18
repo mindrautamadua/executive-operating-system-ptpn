@@ -37,7 +37,7 @@ export function SpendTrend() {
               dataKey="month"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <YAxis
               domain={[0, 3.4]}
@@ -75,7 +75,7 @@ export function SpendTrend() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Sejak Mar&apos;26 realisasi bulanan konsisten di atas prorata Rp 2,48 T — laju belanja +8,4%
         YoY perlu diimbangi penghematan sourcing.
       </p>

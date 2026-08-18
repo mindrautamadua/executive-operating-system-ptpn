@@ -57,18 +57,18 @@ export function InterestRateExposure() {
             </div>
           ))}
           <div className="mt-1.5 rounded-lg bg-[#f8fafc] px-2.5 py-2">
-            <div className="text-[8px] text-ink-400">Saldo bunga mengambang</div>
+            <div className="text-[9px] text-ink-500">Saldo bunga mengambang</div>
             <div className="mt-[2px] text-[12px] font-extrabold text-ink-900">
               Rp {fmtId(interestSplit.floatingRpT, 1)} T
             </div>
-            <div className="mt-[2px] text-[8px] text-ink-500">
+            <div className="mt-[2px] text-[9px] text-ink-500">
               +100 bps ≈ Rp {interestSplit.dampak100BpsRpM} M beban bunga/thn
             </div>
           </div>
         </div>
       </div>
 
-      <p className="flex items-start gap-1.5 pb-0.5 text-[8px] leading-snug text-ink-400">
+      <p className="flex items-start gap-1.5 pb-0.5 text-[9px] leading-snug text-ink-500">
         <Info size={9} className="mt-[1px] shrink-0" />
         {interestSplit.note}
       </p>

@@ -58,7 +58,7 @@ export function CycleTimeByStage() {
               dataKey="short"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               width={124}
             />
             <Tooltip
@@ -80,7 +80,7 @@ export function CycleTimeByStage() {
               <LabelList
                 dataKey="aktualHari"
                 position="right"
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
             <Bar
@@ -94,7 +94,7 @@ export function CycleTimeByStage() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 rounded-md bg-[#fdecec] px-2 py-[5px] text-[8px] leading-[1.4] text-[#b91c1c]">
+      <p className="mt-1 rounded-md bg-[#fdecec] px-2 py-[5px] text-[9px] leading-[1.4] text-[#b91c1c]">
         Bottleneck evaluasi 11 hari (target 7) menyumbang 4 dari 7 hari kelebihan siklus; penyusunan
         HPS menambah 2 hari.
       </p>

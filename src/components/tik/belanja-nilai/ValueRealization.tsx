@@ -88,7 +88,7 @@ export function ValueRealization() {
         </table>
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         Benefit ERP baru Rp 0,13 T dari potensi Rp 1,3 T (ROI potensi 2,8×); optimasi lisensi
         justru ROI tertinggi 9,0× dengan belanja terkecil.
       </p>

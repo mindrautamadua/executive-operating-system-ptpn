@@ -47,9 +47,9 @@ export function AktivitasTerbaru() {
                   )}
                 </div>
                 {a.detail && <div className="text-[9px] text-ink-500">{a.detail}</div>}
-                {a.oleh && <div className="text-[9px] text-ink-400">{a.oleh}</div>}
+                {a.oleh && <div className="text-[9px] text-ink-500">{a.oleh}</div>}
               </div>
-              <span className="shrink-0 text-[9px] tabular-nums text-ink-400">{a.jam}</span>
+              <span className="shrink-0 text-[9px] tabular-nums text-ink-500">{a.jam}</span>
             </div>
           );
         })}

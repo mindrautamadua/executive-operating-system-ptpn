@@ -19,7 +19,7 @@ export function JabatanKosongKritis() {
               i !== 0 ? "border-t border-[#f4f7fa]" : ""
             }`}
           >
-            <span className="w-[13px] shrink-0 text-[9px] tabular-nums text-ink-400">{i + 1}.</span>
+            <span className="w-[13px] shrink-0 text-[9px] tabular-nums text-ink-500">{i + 1}.</span>
             <span className="min-w-0 flex-1 truncate text-[9.5px] font-medium text-ink-900">
               {r.jabatan}
             </span>

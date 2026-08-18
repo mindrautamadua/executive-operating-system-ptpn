@@ -51,7 +51,7 @@ export function PartisipasiSurvey() {
             <span
               className={`${
                 u.bar >= 80 ? "tone-green" : u.bar >= 70 ? "tone-amber" : "tone-red"
-              } w-[42px] shrink-0 rounded px-1 py-[1px] text-center text-[7px] font-bold leading-none`}
+              } w-[42px] shrink-0 rounded px-1 py-[1px] text-center text-[9px] font-bold leading-none`}
             >
               {u.bar >= 80 ? "High" : u.bar >= 70 ? "Medium" : "Low"}
             </span>

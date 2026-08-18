@@ -26,7 +26,7 @@ export function EngagementWellbeingCard() {
             <span className="flex min-w-0 items-center gap-1.5">
               <span className="truncate text-[9px] font-semibold text-ink-700">{it.value}</span>
               <span
-                className={`shrink-0 rounded-full px-2 py-[2px] text-[8px] font-extrabold ${TONE[it.tone]}`}
+                className={`shrink-0 rounded-full px-2 py-[2px] text-[9px] font-extrabold ${TONE[it.tone]}`}
               >
                 {it.level}
               </span>
@@ -35,8 +35,8 @@ export function EngagementWellbeingCard() {
         ))}
       </div>
 
-      <p className="mt-2 text-[8px] text-ink-400">Sumber: {engagementWellbeing.sumber}</p>
-      <p className="mt-1 flex items-start gap-1.5 rounded-lg bg-[#f5f8fa] px-2.5 py-[6px] text-[8px] leading-snug text-ink-500">
+      <p className="mt-2 text-[9px] text-ink-500">Sumber: {engagementWellbeing.sumber}</p>
+      <p className="mt-1 flex items-start gap-1.5 rounded-lg bg-[#f5f8fa] px-2.5 py-[6px] text-[9px] leading-snug text-ink-500">
         <Lock size={10} className="mt-[1px] shrink-0" />
         {engagementWellbeing.privasi}
       </p>

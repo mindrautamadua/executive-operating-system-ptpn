@@ -36,7 +36,7 @@ export function PerbandinganUnit() {
     >
       <div className="flex items-start justify-between gap-2">
         <h3 className="card-title-navy">Perbandingan Kualitas Data per Unit Organisasi</h3>
-        <span className="whitespace-nowrap text-[9px] text-ink-400">
+        <span className="whitespace-nowrap text-[9px] text-ink-500">
           Ambang: {AMBANG_KUALITAS.toFixed(1).replace(".", ",")}
         </span>
       </div>

@@ -82,10 +82,10 @@ export function BuyerConcentrationGauge() {
               strokeLinecap="round"
             />
             <circle cx={CX} cy={CY} r={4} fill={PALETTE.navy} />
-            <text x={CX - R} y={80} textAnchor="middle" style={{ fontSize: 6.5, fill: "#94a3b8" }}>
+            <text x={CX - R} y={80} textAnchor="middle" style={{ fontSize: 8.5, fill: "#94a3b8" }}>
               0
             </text>
-            <text x={CX + R} y={80} textAnchor="middle" style={{ fontSize: 6.5, fill: "#94a3b8" }}>
+            <text x={CX + R} y={80} textAnchor="middle" style={{ fontSize: 8.5, fill: "#94a3b8" }}>
               3.000
             </text>
           </svg>
@@ -102,7 +102,7 @@ export function BuyerConcentrationGauge() {
 
         {/* Kanan: ambang kebijakan */}
         <div className="flex min-w-0 flex-col">
-          <span className="text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+          <span className="text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
             Ambang Kebijakan
           </span>
           <ul className="mt-1.5 flex flex-col gap-1">
@@ -120,19 +120,19 @@ export function BuyerConcentrationGauge() {
                     {a.label}
                   </span>
                 </span>
-                <span className="shrink-0 text-[8px] font-semibold text-ink-500">{a.batas}</span>
+                <span className="shrink-0 text-[9px] font-semibold text-ink-500">{a.batas}</span>
               </li>
             ))}
           </ul>
 
           <div className="mt-1.5 rounded-lg border border-[#e3e9ef] bg-white px-2 py-[4px]">
-            <span className="text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+            <span className="text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
               Target
             </span>
             <div className="text-[9px] font-extrabold text-ink-900">{hhi.target}</div>
           </div>
 
-          <p className="mt-1.5 line-clamp-3 text-[8px] leading-snug text-ink-400" title={hhi.catatan}>
+          <p className="mt-1.5 line-clamp-3 text-[9px] leading-snug text-ink-500" title={hhi.catatan}>
             {hhi.catatan}
           </p>
         </div>

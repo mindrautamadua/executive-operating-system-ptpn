@@ -63,7 +63,7 @@ export function RegionIrIndex() {
         </div>
 
         <div className="flex min-w-0 flex-1 flex-col self-stretch">
-          <div className="grid grid-cols-[minmax(0,1fr)_36px_52px_40px_18px] items-center gap-x-1.5 border-b border-[#eef2f6] pb-1 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+          <div className="grid grid-cols-[minmax(0,1fr)_36px_52px_40px_18px] items-center gap-x-1.5 border-b border-[#eef2f6] pb-1 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
             <span>Region</span>
             <span className="text-right">Indeks</span>
             <span className="text-center">Strike</span>
@@ -110,12 +110,12 @@ export function RegionIrIndex() {
 
       <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1">
         {regionLegend.map((l) => (
-          <span key={l.label} className="flex items-center gap-1 text-[8px] text-ink-500">
+          <span key={l.label} className="flex items-center gap-1 text-[9px] text-ink-500">
             <span className="h-[7px] w-[7px] rounded-full" style={{ background: l.color }} />
             {l.label}
           </span>
         ))}
-        <span className="flex items-center gap-1 text-[8px] text-ink-500">
+        <span className="flex items-center gap-1 text-[9px] text-ink-500">
           <span className="rounded bg-[#fdf9e0] px-1 py-[1px] text-[7.5px] font-extrabold uppercase text-[#a8891b]">
             Watch
           </span>

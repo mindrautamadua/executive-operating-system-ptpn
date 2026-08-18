@@ -138,11 +138,11 @@ export function InsightExplorer() {
                 <span className="text-[8.5px] font-bold text-ink-400">{r.id}</span>
                 <span className="text-[10px] font-extrabold text-ink-900">{r.title}</span>
                 <span
-                  className={`rounded-md border px-1.5 py-[1px] text-[8px] font-bold ${URGENCY_BADGE[r.urgency]}`}
+                  className={`rounded-md border px-1.5 py-[1px] text-[9px] font-bold ${URGENCY_BADGE[r.urgency]}`}
                 >
                   Urgensi {r.urgency}
                 </span>
-                <span className="rounded-md bg-[#eef2f6] px-1.5 py-[1px] text-[8px] font-bold text-ink-500">
+                <span className="rounded-md bg-[#eef2f6] px-1.5 py-[1px] text-[9px] font-bold text-ink-500">
                   {r.category}
                 </span>
               </div>
@@ -155,7 +155,7 @@ export function InsightExplorer() {
 
             <div className="flex flex-col justify-between gap-1.5 border-l border-[#eef2f6] pl-3">
               <div>
-                <div className="text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+                <div className="text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
                   Eksposur
                 </div>
                 <div className="text-[13px] font-extrabold leading-none text-[#ef4444]">

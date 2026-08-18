@@ -52,7 +52,7 @@ export function ApprovalByCategory() {
               <span className="shrink-0 text-[9.5px] font-bold tabular-nums text-ink-900">
                 {d.jumlah}
               </span>
-              <span className="w-[38px] shrink-0 text-right text-[9px] tabular-nums text-ink-400">
+              <span className="w-[38px] shrink-0 text-right text-[9px] tabular-nums text-ink-500">
                 {d.porsi}
               </span>
               <span className="w-[52px] shrink-0 text-right text-[8.5px] tabular-nums text-ink-500">

@@ -8,7 +8,7 @@ function ChipList({ items, tone }: { items: { label: string; value: string }[]; 
       {items.map((t) => (
         <span
           key={t.label}
-          className={`inline-flex items-center gap-1 rounded-md px-1.5 py-[3px] text-[8px] font-bold leading-none ${tone}`}
+          className={`inline-flex items-center gap-1 rounded-md px-1.5 py-[3px] text-[9px] font-bold leading-none ${tone}`}
         >
           <span className="opacity-70">{t.label}</span>
           {t.value}
@@ -33,7 +33,7 @@ export function GoalSeekPanel() {
 
       <div className="scroll-thin mt-2 flex min-h-0 flex-1 flex-col gap-1.5 overflow-y-auto">
         <div className="rounded-lg border border-[#eef2f6] bg-[#fbfcfd] px-2.5 py-1.5">
-          <p className="flex items-center gap-1 text-[8px] font-extrabold uppercase tracking-wide text-ink-500">
+          <p className="flex items-center gap-1 text-[9px] font-extrabold uppercase tracking-wide text-ink-500">
             <Crosshair size={10} className="text-[#2f6fe4]" /> Target BOD
           </p>
           <div className="mt-1">
@@ -46,7 +46,7 @@ export function GoalSeekPanel() {
         </div>
 
         <div className="rounded-lg border border-[#eef2f6] bg-[#fbfcfd] px-2.5 py-1.5">
-          <p className="flex items-center gap-1 text-[8px] font-extrabold uppercase tracking-wide text-ink-500">
+          <p className="flex items-center gap-1 text-[9px] font-extrabold uppercase tracking-wide text-ink-500">
             <Sparkles size={10} className="text-[#8b5cf6]" /> Konfigurasi Rekomendasi
           </p>
           <div className="mt-1">
@@ -59,7 +59,7 @@ export function GoalSeekPanel() {
         </div>
 
         <div className="rounded-lg border border-[#d7ecdf] bg-[#f2faf5] px-2.5 py-1.5">
-          <p className="text-[8px] font-extrabold uppercase tracking-wide text-ptpn-greenDark">
+          <p className="text-[9px] font-extrabold uppercase tracking-wide text-ptpn-greenDark">
             Expected Outcome
           </p>
           <div className="mt-1">

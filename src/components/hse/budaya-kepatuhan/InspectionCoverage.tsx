@@ -57,7 +57,7 @@ export function InspectionCoverage() {
               dataKey="regional"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 6.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -105,7 +105,7 @@ export function InspectionCoverage() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Regional 3 (74) dan Regional 6 (71) menghasilkan temuan per 100 inspeksi tertinggi — porsi
         sidak di sana layak dinaikkan dari sekitar 26% menjadi 35% total inspeksi.
       </p>

@@ -64,7 +64,7 @@ export function BenchmarkingEksternal() {
         </div>
       </div>
 
-      <p className="mt-1.5 border-t border-[var(--border-line)] pt-1.5 text-[8px] leading-[1.4] text-ink-400">
+      <p className="mt-1.5 border-t border-[var(--border-line)] pt-1.5 text-[9px] leading-[1.4] text-ink-500">
         {benchmarkMeta.definisi} {benchmarkMeta.sumber}
       </p>
     </div>

@@ -17,7 +17,7 @@ export function EngagementActionEngine() {
           <Workflow size={13} className="text-[#1b3a6b]" />
           Engagement Action Engine
         </h3>
-        <span className="shrink-0 text-[9px] font-semibold text-ink-400">
+        <span className="shrink-0 text-[9px] font-semibold text-ink-500">
           Expected impact: {actionExpectedImpact}
         </span>
       </div>
@@ -82,7 +82,7 @@ export function EngagementActionEngine() {
                 {a.action}
               </span>
               <span
-                className={`tone-${a.statusTone} shrink-0 rounded px-1.5 py-[2px] text-[7px] font-bold leading-none`}
+                className={`tone-${a.statusTone} shrink-0 rounded px-1.5 py-[2px] text-[9px] font-bold leading-none`}
               >
                 {a.status}
               </span>

@@ -63,7 +63,7 @@ export function KnowledgeTransfer() {
         ))}
       </div>
 
-      <div className="mt-1.5 flex items-center justify-between text-[8px] font-medium text-ink-400">
+      <div className="mt-1.5 flex items-center justify-between text-[9px] font-medium text-ink-500">
         {KT_DIMENSI.map((d) => (
           <span key={d}>{d}</span>
         ))}

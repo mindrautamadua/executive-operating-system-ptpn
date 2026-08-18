@@ -30,7 +30,7 @@ export function EmergencyDrills() {
               <span className="flex shrink-0 items-center gap-1.5">
                 <span className="text-[11px] font-extrabold tabular-nums text-ink-900">
                   {d.jumlah}
-                  <span className="text-[8px] font-bold text-ink-400"> simulasi</span>
+                  <span className="text-[9px] font-bold text-ink-500"> simulasi</span>
                 </span>
                 <ToneBadge label={`${d.unitTercakup}/76 unit`} tone={STATUS_TONE[d.status]} />
               </span>

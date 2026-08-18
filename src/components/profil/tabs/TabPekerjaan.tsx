@@ -260,7 +260,7 @@ function RingkasanMasaKerja() {
             <span className="mt-[2px] text-[11px] font-bold leading-none text-ink-900">
               {d.totalSub}
             </span>
-            <span className="mt-[3px] text-[7px] text-ink-500">Total Masa Kerja</span>
+            <span className="mt-[3px] text-[9px] text-ink-500">Total Masa Kerja</span>
           </div>
         </div>
 

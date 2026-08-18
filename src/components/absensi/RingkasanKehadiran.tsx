@@ -67,7 +67,7 @@ export function RingkasanKehadiran() {
             <span className="ml-auto text-[9.5px] font-bold tabular-nums text-ink-900">
               {s.label}
             </span>
-            <span className="text-[9px] tabular-nums text-ink-400">{s.pct}</span>
+            <span className="text-[9px] tabular-nums text-ink-500">{s.pct}</span>
           </div>
         ))}
       </div>

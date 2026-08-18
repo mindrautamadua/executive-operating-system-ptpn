@@ -69,17 +69,17 @@ export function RoleTalentMatch() {
                   style={{ width: `${r.match}%`, background: matchColor(r.match) }}
                 />
               </div>
-              <div className="mt-1 text-[8px] font-semibold text-[#b53d3d]">Gap: {r.gap}</div>
+              <div className="mt-1 text-[9px] font-semibold text-[#b53d3d]">Gap: {r.gap}</div>
             </div>
 
             {/* readiness + flight risk */}
             <div className="flex min-w-0 flex-col items-start gap-1">
               <span
-                className={`inline-block whitespace-nowrap rounded-full px-2 py-[2px] text-[8px] font-bold ${READINESS_TONES[r.readiness]}`}
+                className={`inline-block whitespace-nowrap rounded-full px-2 py-[2px] text-[9px] font-bold ${READINESS_TONES[r.readiness]}`}
               >
                 {r.readiness}
               </span>
-              <span className="text-[8px] font-semibold text-ink-400">
+              <span className="text-[9px] font-semibold text-ink-500">
                 Flight Risk: <span className={`font-bold ${RISK_TONES[r.flightRisk]}`}>{r.flightRisk}</span>
               </span>
             </div>

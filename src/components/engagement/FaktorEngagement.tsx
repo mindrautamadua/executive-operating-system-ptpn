@@ -45,7 +45,7 @@ function Panel({
                       : r.impact === "High"
                         ? "tone-amber"
                         : "tone-slate"
-                  } shrink-0 rounded px-1 py-[1px] text-[7px] font-bold leading-none`}
+                  } shrink-0 rounded px-1 py-[1px] text-[9px] font-bold leading-none`}
                 >
                   Impact: {r.impact}
                 </span>

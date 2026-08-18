@@ -43,7 +43,7 @@ export function AgePyramidChart() {
               ticks={[-12000, -8000, -4000, 0, 4000]}
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => `${Math.abs(v) / 1000}K`}
             />
             <YAxis
@@ -52,7 +52,7 @@ export function AgePyramidChart() {
               tickLine={false}
               axisLine={false}
               width={40}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <Tooltip
               contentStyle={CHART_TOOLTIP_STYLE}

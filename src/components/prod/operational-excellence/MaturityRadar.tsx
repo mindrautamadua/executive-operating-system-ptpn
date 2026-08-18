@@ -43,7 +43,7 @@ export function MaturityRadar() {
             <PolarRadiusAxis
               domain={[0, 5]}
               tickCount={6}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               axisLine={false}
             />
             <Tooltip
@@ -71,7 +71,7 @@ export function MaturityRadar() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Regional 1–2 sudah di atas target (3,5–3,6); Regional 6–7 masih 2,5–2,6 — replikasi
         playbook regional matang.
       </p>

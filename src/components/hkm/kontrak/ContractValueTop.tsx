@@ -66,7 +66,7 @@ export function ContractValueTop() {
               dataKey="label"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               width={150}
             />
             <Tooltip
@@ -85,14 +85,14 @@ export function ContractValueTop() {
                 dataKey="nilaiRpT"
                 position="right"
                 formatter={(v: number) => angka(v)}
-                style={{ fontSize: 7.5, fill: CHART_AXIS.tick, fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: CHART_AXIS.tick, fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Dua kontrak berstatus perlu keputusan (pupuk majemuk Rp 2,86 T dan angkutan CPO Rp 1,64 T)
         sama-sama berakhir 31 Juli 2026.
       </p>

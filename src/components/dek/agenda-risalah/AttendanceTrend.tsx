@@ -37,7 +37,7 @@ export function AttendanceTrend() {
               dataKey="bulan"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -82,7 +82,7 @@ export function AttendanceTrend() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Kehadiran rapat Dekom Mei turun ke 89%, titik terendah enam bulan, bertepatan dengan tiga
         rapat yang berimpit dengan jadwal komite.
       </p>

@@ -22,7 +22,7 @@ export function DecisionOutcomeCard() {
       <div className="flex items-center justify-between gap-2">
         <SectionHead title="Decision Outcome" />
         {/* Cakupan diukur eksplisit: gap pengukuran adalah kerja governance. */}
-        <span className="shrink-0 rounded bg-[#eef2f6] px-1.5 py-[2px] text-[8px] font-bold text-ink-500">
+        <span className="shrink-0 rounded bg-[#eef2f6] px-1.5 py-[2px] text-[9px] font-bold text-ink-500">
           {outcomeCoverage.measured} dari {outcomeCoverage.totalDone} keputusan selesai terukur
         </span>
       </div>
@@ -41,14 +41,14 @@ export function DecisionOutcomeCard() {
                 <div className="flex min-w-0 items-center gap-1.5">
                   <Icon size={13} className={`shrink-0 ${t.iconCls}`} />
                   {/* ID ledger: keputusan sebagai objek permanen ber-ID. */}
-                  <span className="shrink-0 rounded bg-[#eef2f6] px-1 py-[1px] text-[7px] font-bold text-ink-400">
+                  <span className="shrink-0 rounded bg-[#eef2f6] px-1 py-[1px] text-[9px] font-bold text-ink-500">
                     {d.id}
                   </span>
                   <span className="truncate text-[10px] font-bold text-ink-900" title={d.title}>
                     {d.title}
                   </span>
                 </div>
-                <span className={`shrink-0 rounded px-1.5 py-[2px] text-[8px] font-bold ${t.pill}`}>
+                <span className={`shrink-0 rounded px-1.5 py-[2px] text-[9px] font-bold ${t.pill}`}>
                   {d.variance}
                 </span>
               </div>
@@ -64,14 +64,14 @@ export function DecisionOutcomeCard() {
                 <span className="text-ink-400">Actual</span>
                 <span className="font-semibold text-ink-900">{d.actual}</span>
               </div>
-              <p className="mt-1 flex items-start gap-1 text-[8px] leading-[1.4] text-ink-500">
+              <p className="mt-1 flex items-start gap-1 text-[9px] leading-[1.4] text-ink-500">
                 <HelpCircle size={10} className="mt-[1px] shrink-0 text-[#2f7de1]" />
                 <span>
                   <span className="font-bold text-ink-700">Why: </span>
                   {d.why}
                 </span>
               </p>
-              <p className="mt-[3px] flex items-start gap-1 text-[8px] leading-[1.4] text-ink-500">
+              <p className="mt-[3px] flex items-start gap-1 text-[9px] leading-[1.4] text-ink-500">
                 <GraduationCap size={10} className="mt-[1px] shrink-0 text-ptpn-green" />
                 <span>
                   <span className="font-bold text-ink-700">Lesson: </span>

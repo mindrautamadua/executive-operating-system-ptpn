@@ -39,7 +39,7 @@ export function HealthSurveillance() {
             <div className="mt-1.5 whitespace-nowrap text-[17px] font-extrabold leading-none tracking-[-0.01em] text-ink-900">
               {h.nilai}
             </div>
-            <p className="mt-1 flex-1 text-[8px] leading-[1.4] text-ink-500">{h.sub}</p>
+            <p className="mt-1 flex-1 text-[9px] leading-[1.4] text-ink-500">{h.sub}</p>
             <div className="mt-1.5">
               <ToneBadge label={h.status} tone={RAG_TONE[h.status]} />
             </div>
@@ -47,7 +47,7 @@ export function HealthSurveillance() {
         ))}
       </div>
 
-      <p className="pt-2 text-[8px] leading-snug text-ink-400">
+      <p className="pt-2 text-[9px] leading-snug text-ink-500">
         Deteksi dini PAK masih parsial: MCU berkala baru 78,4% terhadap target 90% dan pemantauan
         lingkungan kerja baru berjalan di 64 dari 76 unit.
       </p>

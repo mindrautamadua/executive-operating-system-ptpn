@@ -40,7 +40,7 @@ export function GrowthContribution() {
         ))}
       </div>
 
-      <p className="mt-2 border-t border-[#eef2f6] pt-1.5 text-[8px] leading-[1.4] text-ink-400">
+      <p className="mt-2 border-t border-[#eef2f6] pt-1.5 text-[9px] leading-[1.4] text-ink-500">
         PTPN IV &amp; III menyumbang 61% pertumbuhan — sejalan dengan perluasan area tanam dan
         pembukaan 2 pabrik baru.
       </p>

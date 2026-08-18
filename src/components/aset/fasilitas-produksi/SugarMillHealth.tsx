@@ -35,7 +35,7 @@ export function SugarMillHealth() {
       </p>
 
       <div
-        className={`mt-2 grid ${COLS} items-center gap-x-2 pr-2 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400`}
+        className={`mt-2 grid ${COLS} items-center gap-x-2 pr-2 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500`}
       >
         <span>Pabrik Gula</span>
         <span className="text-right">TCD</span>
@@ -90,7 +90,7 @@ export function SugarMillHealth() {
         ))}
       </ul>
 
-      <p className="mt-1.5 line-clamp-2 text-[8px] leading-snug text-ink-400">{sugarMillNote}</p>
+      <p className="mt-1.5 line-clamp-2 text-[9px] leading-snug text-ink-500">{sugarMillNote}</p>
     </div>
   );
 }

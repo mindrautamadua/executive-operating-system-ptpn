@@ -47,7 +47,7 @@ export function CarbonPricePotential() {
         ))}
       </div>
 
-      <p className="mt-auto pt-2 text-[8px] leading-snug text-ink-400">{carbonPotential.desc}</p>
+      <p className="mt-auto pt-2 text-[9px] leading-snug text-ink-500">{carbonPotential.desc}</p>
     </div>
   );
 }

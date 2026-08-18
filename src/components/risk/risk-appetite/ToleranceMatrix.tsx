@@ -21,7 +21,7 @@ export function ToleranceMatrix() {
         Pernyataan Risk Appetite per Kategori — Disetujui Dekom Feb 2026
       </p>
 
-      <div className="mt-2 grid grid-cols-[92px_62px_minmax(0,1fr)_38px] items-center gap-x-2 border-b border-[#eef2f6] pb-1.5 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[92px_62px_minmax(0,1fr)_38px] items-center gap-x-2 border-b border-[#eef2f6] pb-1.5 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Kategori</span>
         <span>Appetite</span>
         <span>Pernyataan</span>

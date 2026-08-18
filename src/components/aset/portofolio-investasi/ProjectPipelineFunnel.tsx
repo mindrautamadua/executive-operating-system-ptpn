@@ -43,11 +43,11 @@ export function ProjectPipelineFunnel() {
               <span className="w-[52px] shrink-0 text-right text-[9.5px] font-extrabold text-ink-900">
                 Rp {num(s.nilaiRpT)} T
               </span>
-              <span className="w-[46px] shrink-0 text-right text-[8px] font-semibold text-ink-400">
+              <span className="w-[46px] shrink-0 text-right text-[9px] font-semibold text-ink-500">
                 {s.jumlahProyek} proyek
               </span>
             </div>
-            <div className="mt-[2px] pl-[120px] text-[8px] text-ink-400">
+            <div className="mt-[2px] pl-[120px] text-[9px] text-ink-500">
               Lead time {s.leadTime}
               {s.note ? ` · ${s.note}` : ""}
             </div>
@@ -55,7 +55,7 @@ export function ProjectPipelineFunnel() {
         ))}
       </ul>
 
-      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         {pipelineFunnelNote}
       </p>
     </div>

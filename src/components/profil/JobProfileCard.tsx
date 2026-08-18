@@ -40,7 +40,7 @@ export function JobProfileCard() {
                   {a.label}
                 </span>
                 <span
-                  className={`shrink-0 text-[8px] font-bold ${
+                  className={`shrink-0 text-[9px] font-bold ${
                     a.status === "Dikuasai" ? "text-ptpn-greenDark" : "text-[#c07c05]"
                   }`}
                 >

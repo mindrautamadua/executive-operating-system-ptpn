@@ -39,20 +39,20 @@ export function HedgingPolicyCard() {
               />
               <div className="absolute inset-y-0 right-0 w-[2px] bg-[#ef4444]" />
             </div>
-            <div className="mt-1 flex justify-between text-[8px] text-ink-400">
+            <div className="mt-1 flex justify-between text-[9px] text-ink-500">
               <span>0%</span>
               <span className="font-bold text-[#ef4444]">Batas {batasForwardPct}%</span>
             </div>
           </div>
 
-          <p className="line-clamp-3 text-[8px] leading-snug text-ink-400" title={catatan}>
+          <p className="line-clamp-3 text-[9px] leading-snug text-ink-500" title={catatan}>
             {catatan}
           </p>
         </div>
 
         {/* Kanan: instrumen diizinkan */}
         <div className="flex min-w-0 flex-col">
-          <span className="text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+          <span className="text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
             Instrumen Diizinkan
           </span>
           <ul className="mt-1.5 flex min-h-0 flex-1 flex-col justify-between gap-1">

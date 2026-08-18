@@ -27,7 +27,7 @@ function NodeCard({ node, accent }: { node: MapNode; accent?: boolean }) {
         />
       </div>
       <div className="mt-[3px] text-[9.5px] font-bold tabular-nums text-ink-900">{node.metric}</div>
-      <p className="mt-[2px] text-[8px] leading-[1.35] text-ink-500">{node.role}</p>
+      <p className="mt-[2px] text-[9px] leading-[1.35] text-ink-500">{node.role}</p>
     </Link>
   );
 }
@@ -74,7 +74,7 @@ export function EnterpriseMapCanvas() {
           <span className="text-[8.5px] font-extrabold uppercase tracking-[0.05em]">
             Lingkungan Eksternal
           </span>
-          <span className="text-[8px] italic text-ink-400">
+          <span className="text-[9px] italic text-ink-500">
             — kekuatan yang tidak dikendalikan PTPN, tetapi menggerakkan seluruh rantai.
           </span>
         </div>

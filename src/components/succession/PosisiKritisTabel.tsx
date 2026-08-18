@@ -95,7 +95,7 @@ function FitModal({ posisi, onClose }: { posisi: PosisiKritis; onClose: () => vo
                   ] as const
                 ).map(([label, val]) => (
                   <div key={label} className="leading-tight">
-                    <div className="text-[8px] font-semibold uppercase tracking-[0.03em] text-ink-400">
+                    <div className="text-[9px] font-semibold uppercase tracking-[0.03em] text-ink-500">
                       {label}
                     </div>
                     <div className="mt-0.5 text-[10px] font-bold tabular-nums text-ink-900">
@@ -104,7 +104,7 @@ function FitModal({ posisi, onClose }: { posisi: PosisiKritis; onClose: () => vo
                   </div>
                 ))}
                 <div className="leading-tight">
-                  <div className="text-[8px] font-semibold uppercase tracking-[0.03em] text-ink-400">
+                  <div className="text-[9px] font-semibold uppercase tracking-[0.03em] text-ink-500">
                     Flight Risk
                   </div>
                   <span

@@ -65,7 +65,7 @@ export function CaseByType() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 rounded-md bg-[#fdecec] px-2 py-[5px] text-[8px] leading-[1.4] text-[#b91c1c]">
+      <p className="mt-1 rounded-md bg-[#fdecec] px-2 py-[5px] text-[9px] leading-[1.4] text-[#b91c1c]">
         Fraud pengadaan (14) selaras dengan 61 temuan audit pengadaan — dua sinyal independen.
       </p>
     </div>

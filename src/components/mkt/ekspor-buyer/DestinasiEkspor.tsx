@@ -53,14 +53,14 @@ export function DestinasiEkspor() {
               ticks={[0, 20, 40, 60, 80]}
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <YAxis
               type="category"
               dataKey="negara"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               width={96}
             />
             <Tooltip
@@ -80,14 +80,14 @@ export function DestinasiEkspor() {
                 position="right"
                 offset={5}
                 formatter={(v: number) => `${v}%`}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 truncate text-[8px] text-ink-400">
+      <p className="mt-1 truncate text-[9px] text-ink-500">
         India &amp; Tiongkok menyerap 56% ekspor · Belanda (11%) terpapar EUDR Des 2026.
       </p>
     </div>

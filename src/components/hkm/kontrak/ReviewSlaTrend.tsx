@@ -37,7 +37,7 @@ export function ReviewSlaTrend() {
               dataKey="bulan"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <YAxis
               domain={[4, 7]}
@@ -70,7 +70,7 @@ export function ReviewSlaTrend() {
               label={{
                 value: "SLA 5 hari",
                 position: "insideTopLeft",
-                fontSize: 7.5,
+                fontSize: 8.5,
                 fill: CHART_AXIS.tick,
               }}
             />
@@ -87,7 +87,7 @@ export function ReviewSlaTrend() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Waktu review melewati SLA sejak Des 2025 dan memuncak 6,5 hari pada April; on-time turun dari
         89% ke 82% seiring volume naik ke 55–58 dokumen/bulan.
       </p>

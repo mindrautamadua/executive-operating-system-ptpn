@@ -56,13 +56,13 @@ export function LandUtilization() {
                 {d.name}
               </span>
               <span className="shrink-0 text-[9.5px] font-bold text-ink-900">{num(d.value)}</span>
-              <span className="w-[34px] shrink-0 text-right text-[9px] text-ink-400">({d.pct})</span>
+              <span className="w-[34px] shrink-0 text-right text-[9px] text-ink-500">({d.pct})</span>
             </div>
           ))}
         </div>
       </div>
 
-      <p className="mt-1 text-[8px] leading-snug text-ink-400">
+      <p className="mt-1 text-[9px] leading-snug text-ink-500">
         Okupasi &amp; idle 75,7 rb ha (7%) menjadi target utama program optimalisasi aset.
       </p>
     </div>

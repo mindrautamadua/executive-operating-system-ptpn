@@ -37,7 +37,7 @@ export function HcCopilot() {
       <div className="flex items-center justify-between gap-2">
         <h3 className="flex items-center gap-1.5 text-[10px] font-extrabold uppercase tracking-[0.05em] text-ink-900">
           HC Intelligence Copilot
-          <span className="rounded bg-ptpn-greenLight px-1 py-[1px] text-[8px] font-bold normal-case tracking-normal text-ptpn-green">
+          <span className="rounded bg-ptpn-greenLight px-1 py-[1px] text-[9px] font-bold normal-case tracking-normal text-ptpn-green">
             AI
           </span>
         </h3>

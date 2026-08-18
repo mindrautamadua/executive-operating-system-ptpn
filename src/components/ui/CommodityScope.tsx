@@ -62,7 +62,7 @@ export function inScope(active: SubholdingId, text?: string | null): boolean {
  */
 export function ScopeEmpty({ label = "subholding ini" }: { label?: string }) {
   return (
-    <div className="mt-3 flex flex-1 items-center justify-center rounded-lg border border-dashed border-[#e3e9ef] px-3 py-6 text-center text-[9px] leading-[1.5] text-ink-400">
+    <div className="mt-3 flex flex-1 items-center justify-center rounded-lg border border-dashed border-[#e3e9ef] px-3 py-6 text-center text-[9px] leading-[1.5] text-ink-500">
       Tidak ada data pada cakupan {label}. Kembali ke tampilan konsolidasi untuk
       melihat angka grup.
     </div>

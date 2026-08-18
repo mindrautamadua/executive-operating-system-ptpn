@@ -42,7 +42,7 @@ export function RegulatoryChangeRadar() {
         <span className="h-full" style={{ width: `${(o.partial / o.total) * 100}%`, background: "#f5a524" }} />
         <span className="h-full" style={{ width: `${(o.nonCompliant / o.total) * 100}%`, background: "#ef4444" }} />
       </div>
-      <div className="mt-1.5 flex items-center justify-between text-[8px] font-semibold text-ink-500">
+      <div className="mt-1.5 flex items-center justify-between text-[9px] font-semibold text-ink-500">
         <span>
           <span className="text-ptpn-green">{o.compliant} Patuh</span> ·{" "}
           <span className="text-[#d98b06]">{o.partial} Parsial</span> ·{" "}
@@ -71,7 +71,7 @@ export function RegulatoryChangeRadar() {
                   {r.severity}
                 </span>
               </span>
-              <span className="mt-[1px] block truncate text-[8px] text-ink-500">
+              <span className="mt-[1px] block truncate text-[9px] text-ink-500">
                 {r.impact} · {r.affected} · {r.action}
               </span>
             </span>

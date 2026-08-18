@@ -52,7 +52,7 @@ export function UpcomingBoardAgenda() {
                 <span className="text-[8.5px] font-extrabold text-ink-900">{a.tanggal}</span>
               </span>
               <span
-                className={`shrink-0 rounded-md px-1.5 py-[2px] text-[8px] font-extrabold ${FORUM_TONE[a.forum]}`}
+                className={`shrink-0 rounded-md px-1.5 py-[2px] text-[9px] font-extrabold ${FORUM_TONE[a.forum]}`}
               >
                 {a.forum}
               </span>

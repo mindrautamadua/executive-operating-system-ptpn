@@ -38,7 +38,7 @@ export function TheftTrend() {
               dataKey="bulan"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -47,7 +47,7 @@ export function TheftTrend() {
               ticks={[0, 10, 20, 30, 40]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <YAxis
               yAxisId="rugi"
@@ -56,7 +56,7 @@ export function TheftTrend() {
               ticks={[0, 0.25, 0.5, 0.75, 1]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => v.toLocaleString("id-ID")}
             />
             <Tooltip
@@ -77,7 +77,7 @@ export function TheftTrend() {
                 dataKey="kasus"
                 position="top"
                 offset={4}
-                style={{ fontSize: 7, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Bar>
             <Line
@@ -93,7 +93,7 @@ export function TheftTrend() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 truncate text-[8px] text-ink-400">
+      <p className="mt-1 truncate text-[9px] text-ink-500">
         Batang = kasus · garis = kerugian (Rp miliar) · kasus naik seiring harga TBS Rp 3.120/kg
       </p>
     </div>

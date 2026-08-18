@@ -64,7 +64,7 @@ export function RiskClauseWatch() {
         </table>
       </div>
 
-      <p className="mt-1 border-t border-[#f5f8fa] pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="mt-1 border-t border-[#f5f8fa] pt-1.5 text-[9px] leading-snug text-ink-500">
         Dua klausul berseverity tinggi (jaminan pelaksanaan dan pilihan forum) menyentuh 154
         kontrak senilai Rp 8,2 T dan dapat diremediasi lewat addendum standar.
       </p>

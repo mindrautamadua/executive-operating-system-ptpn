@@ -50,7 +50,7 @@ export function CeoValueCreation() {
               dataKey="month"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={1}
             />
             <Tooltip contentStyle={CHART_TOOLTIP_STYLE} formatter={(v: number) => rp(v)} />
@@ -129,7 +129,7 @@ export function CeoValueCreation() {
       </div>
 
       {/* Caption dihitung dari daftar driver — tidak mungkin beda dengan barnya. */}
-      <p className="mt-1.5 truncate text-[8px] text-ink-400">
+      <p className="mt-1.5 truncate text-[9px] text-ink-500">
         Bruto Rp {ceoValueBrutoRpT.toLocaleString("id-ID", { minimumFractionDigits: 2 })} T −
         leakage Rp {Math.abs(ceoValueLeakageRpT).toLocaleString("id-ID", { minimumFractionDigits: 2 })} T
         = netto Rp {ceoValueSummary.ytdRpT.toLocaleString("id-ID", { minimumFractionDigits: 2 })} T;

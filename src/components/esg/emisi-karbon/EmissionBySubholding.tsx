@@ -69,7 +69,7 @@ export function EmissionBySubholding() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         {isFiltered
           ? `Porsi ${def.label} disorot dalam konteks Scope 1+2 grup; subholding lain diredupkan.`
           : "PalmCo menyumbang 78% jejak grup — prioritas program abatement tetap di sisi sawit."}

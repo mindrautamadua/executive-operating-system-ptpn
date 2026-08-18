@@ -51,7 +51,7 @@ export function InvestmentBySector() {
               <span className="shrink-0 text-[9.5px] font-bold tabular-nums text-ink-900">
                 {num(r.nilaiRpT)} T
               </span>
-              <span className="w-[28px] shrink-0 text-right text-[9px] tabular-nums text-ink-400">
+              <span className="w-[28px] shrink-0 text-right text-[9px] tabular-nums text-ink-500">
                 {r.pct}%
               </span>
             </div>
@@ -59,7 +59,7 @@ export function InvestmentBySector() {
         </div>
       </div>
 
-      <p className="pt-1 text-[8px] leading-snug text-ink-400">{investmentBySectorNote}</p>
+      <p className="pt-1 text-[9px] leading-snug text-ink-500">{investmentBySectorNote}</p>
     </div>
   );
 }

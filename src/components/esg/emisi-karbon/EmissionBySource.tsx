@@ -63,7 +63,7 @@ export function EmissionBySource() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         POME 2,01 jt tCO2e (38%) adalah sumber tunggal terbesar — target utama metana capture.
       </p>
     </div>

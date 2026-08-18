@@ -43,7 +43,7 @@ export function CompetitionLevel() {
               dataKey="bucket"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <YAxis
               tickLine={false}
@@ -70,7 +70,7 @@ export function CompetitionLevel() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 rounded-md bg-[#fdecec] px-2 py-[5px] text-[8px] leading-[1.4] text-[#b91c1c]">
+      <p className="mt-1 rounded-md bg-[#fdecec] px-2 py-[5px] text-[9px] leading-[1.4] text-[#b91c1c]">
         Bendera merah: {TUNGGAL.paket} paket berpeserta tunggal ({TUNGGAL.pct}% · Rp{" "}
         {TUNGGAL.valueRpT.toLocaleString("id-ID", { minimumFractionDigits: 2 })} T) hanya hemat
         {" "}{TUNGGAL.hematVsHpsPct}% vs HPS — versus 9,4% pada paket ≥ 5 peserta.

@@ -55,7 +55,7 @@ function GapChip({ score, tolerance }: { score: number; tolerance: number }) {
         : "bg-ptpn-greenLight text-ptpn-green";
   return (
     <span
-      className={`mx-auto flex h-[17px] w-[30px] items-center justify-center rounded text-[8px] font-extrabold ${cls}`}
+      className={`mx-auto flex h-[17px] w-[30px] items-center justify-center rounded text-[9px] font-extrabold ${cls}`}
       title={`Minimum acceptable ${tolerance} · gap ${gap > 0 ? "+" : ""}${gap} pts${gap < 0 ? " — outside tolerance" : ""}`}
     >
       {gap > 0 ? "+" : ""}
@@ -72,7 +72,7 @@ export function ComplianceSummary() {
     >
       <SectionHead title="Ringkasan Kepatuhan" />
 
-      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_44px_30px_34px_30px_40px] items-center gap-x-1 border-b border-[#eef2f6] pb-1.5 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_44px_30px_34px_30px_40px] items-center gap-x-1 border-b border-[#eef2f6] pb-1.5 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Area Kepatuhan</span>
         <span className="text-center">Status</span>
         <span className="text-center">Skor</span>

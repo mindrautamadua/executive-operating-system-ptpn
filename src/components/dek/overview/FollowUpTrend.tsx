@@ -36,7 +36,7 @@ export function FollowUpTrend() {
               dataKey="bulan"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -76,7 +76,7 @@ export function FollowUpTrend() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Sejak Januari 2026 laju penerbitan (13,6/bulan) melampaui laju penutupan (10,2/bulan);
         selisih kumulatif kini 17 butir terbuka.
       </p>

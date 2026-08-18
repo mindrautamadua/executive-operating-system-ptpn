@@ -75,7 +75,7 @@ export function TalentImpactSummary() {
             />
             <ul className="flex flex-col gap-[5px]">
               {talentReadiness.map((r) => (
-                <li key={r.name} className="flex items-center gap-1.5 text-[8px] text-ink-600">
+                <li key={r.name} className="flex items-center gap-1.5 text-[9px] text-ink-600">
                   <span
                     className="h-[7px] w-[7px] shrink-0 rounded-[2px]"
                     style={{ background: r.color }}

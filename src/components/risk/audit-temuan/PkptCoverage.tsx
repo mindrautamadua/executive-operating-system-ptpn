@@ -29,7 +29,7 @@ export function PkptCoverage() {
         <span className="text-[26px] font-extrabold leading-none tracking-[-0.01em] text-ink-900">
           {pkptCoverage.pct}%
         </span>
-        <span className="text-[9px] font-semibold text-ink-400">dari 176 auditable unit</span>
+        <span className="text-[9px] font-semibold text-ink-500">dari 176 auditable unit</span>
       </div>
 
       <span className="mt-2 h-[10px] w-full overflow-hidden rounded-full bg-[#eef2f6]">
@@ -44,7 +44,7 @@ export function PkptCoverage() {
         <Tile label="Sisa H2" value={`${SISA}`} />
       </div>
 
-      <p className="mt-auto rounded-md bg-[#fdf3e0] px-2 py-[5px] text-[8px] leading-[1.4] text-[#a26a05]">
+      <p className="mt-auto rounded-md bg-[#fdf3e0] px-2 py-[5px] text-[9px] leading-[1.4] text-[#a26a05]">
         {SISA} unit tersisa menumpuk di H2 bersamaan musim giling — prioritaskan unit risiko
         Ekstrem/Tinggi.
       </p>

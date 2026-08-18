@@ -28,7 +28,7 @@ export function CpoMarketCard() {
     <div className="card flex h-full flex-col px-4 pb-2.5 pt-2">
       <div className="flex items-center justify-between gap-2">
         <h3 className="card-title whitespace-nowrap">POSISI PASAR CPO</h3>
-        <span className="flex shrink-0 items-center gap-1 rounded bg-ptpn-greenLight px-1.5 py-[2px] text-[8px] font-bold text-ptpn-green">
+        <span className="flex shrink-0 items-center gap-1 rounded bg-ptpn-greenLight px-1.5 py-[2px] text-[9px] font-bold text-ptpn-green">
           <TrendingUp size={9} /> Premium {m.premium}
         </span>
       </div>
@@ -40,7 +40,7 @@ export function CpoMarketCard() {
         <Row label="Eksposur ±5% harga" value={m.exposure} />
       </div>
 
-      <p className="mt-1 border-t border-[#eef2f6] pt-1 text-[8px] leading-[1.35] text-ink-500">
+      <p className="mt-1 border-t border-[#eef2f6] pt-1 text-[9px] leading-[1.35] text-ink-500">
         <span className="font-bold text-ink-700">Keputusan: </span>
         {m.decision} · <span className="font-semibold">{m.owner}</span>
       </p>

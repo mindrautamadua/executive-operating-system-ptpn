@@ -66,14 +66,14 @@ export function DebtMaturityProfile() {
                 position="top"
                 offset={4}
                 formatter={(v: number) => fmtId(v, 1)}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 truncate text-[8px] leading-snug text-ink-500" title={debtMaturityNote}>
+      <p className="mt-1 truncate text-[9px] leading-snug text-ink-500" title={debtMaturityNote}>
         {debtMaturityNote}
       </p>
     </div>

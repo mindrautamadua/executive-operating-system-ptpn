@@ -19,7 +19,7 @@ export function TopRisks() {
             Risiko Prioritas yang Memerlukan Tindakan
           </p>
         </div>
-        <span className="mt-[2px] shrink-0 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+        <span className="mt-[2px] shrink-0 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
           Potential Impact
         </span>
       </div>
@@ -42,7 +42,7 @@ export function TopRisks() {
                 <LevelBadge level={r.level} />
               </span>
               <span className="mt-[1px] block truncate text-[8.5px] text-ink-500">{r.desc}</span>
-              <span className="block truncate text-[8px] text-ink-400">{r.units}</span>
+              <span className="block truncate text-[9px] text-ink-500">{r.units}</span>
             </span>
             <span className="shrink-0 text-right leading-[1.35]">
               <span className="block text-[10px] font-extrabold text-[#ef4444]">{r.impact}</span>

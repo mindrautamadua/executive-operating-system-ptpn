@@ -15,7 +15,7 @@ export function DqIncidents() {
     >
       <div className="flex items-start justify-between gap-2">
         <h3 className="card-title-navy">DQ Incident Management</h3>
-        <span className="text-[9px] text-ink-400">{totalAnomali} terdeteksi</span>
+        <span className="text-[9px] text-ink-500">{totalAnomali} terdeteksi</span>
       </div>
 
       <div className="mt-1.5 flex gap-1.5">
@@ -37,10 +37,10 @@ export function DqIncidents() {
               <span className="w-[92px] shrink-0 truncate text-[9.5px] text-ink-700">
                 {r.jenis}
               </span>
-              <span className="w-[74px] shrink-0 truncate text-[9px] text-ink-400" title="Owner">
+              <span className="w-[74px] shrink-0 truncate text-[9px] text-ink-500" title="Owner">
                 {r.owner}
               </span>
-              <span className="w-[36px] shrink-0 text-[9px] tabular-nums text-ink-400" title="SLA remediasi">
+              <span className="w-[36px] shrink-0 text-[9px] tabular-nums text-ink-500" title="SLA remediasi">
                 {r.sla}
               </span>
               <div className="relative h-[7px] min-w-0 flex-1 rounded-full bg-[#eef2f6]">
@@ -60,7 +60,7 @@ export function DqIncidents() {
         })}
       </div>
 
-      <div className="mt-1 border-t border-[#f0f3f6] pt-1.5 text-[9px] text-ink-400">
+      <div className="mt-1 border-t border-[#f0f3f6] pt-1.5 text-[9px] text-ink-500">
         Tertua belum selesai: {insidenMeta.tertuaHari} hari · SLA breach: {insidenMeta.slaBreach}{" "}
         kasus
       </div>

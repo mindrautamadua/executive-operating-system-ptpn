@@ -47,7 +47,7 @@ export function VendorConcentrationCompact() {
         ))}
       </div>
 
-      <p className="mt-2.5 text-[8px] leading-snug text-ink-400">
+      <p className="mt-2.5 text-[9px] leading-snug text-ink-500">
         Top-20 vendor = 0,6% populasi (3.482 vendor) namun 43% nilai belanja, naik 2,4 pts vs FY
         2025 — dual sourcing wajib untuk seluruh kategori bottleneck.
       </p>

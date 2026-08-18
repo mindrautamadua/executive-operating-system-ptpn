@@ -38,7 +38,7 @@ export function OutlookKonsensus() {
         <span className="font-semibold text-ptpn-green">Bull</span> per komoditas
       </p>
 
-      <div className="mt-2 grid grid-cols-[minmax(0,1.1fr)_150px_150px] items-center gap-x-2 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1.1fr)_150px_150px] items-center gap-x-2 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Komoditas</span>
         <span className="text-right">Q3 2026</span>
         <span className="text-right">Q4 2026</span>
@@ -57,7 +57,7 @@ export function OutlookKonsensus() {
               <span className="block truncate text-[9.5px] font-extrabold text-ink-900">
                 {r.komoditas}
               </span>
-              <span className="block text-[8px] text-ink-400">{r.unit}</span>
+              <span className="block text-[9px] text-ink-500">{r.unit}</span>
             </span>
             <ScenarioCell s={r.q3} />
             <ScenarioCell s={r.q4} />
@@ -65,7 +65,7 @@ export function OutlookKonsensus() {
         ))}
       </ul>
 
-      <p className="mt-1.5 truncate text-[8px] text-ink-400">
+      <p className="mt-1.5 truncate text-[9px] text-ink-500">
         Base case KPBN Q4 Rp 13.900/kg ditopang B40 &amp; produksi Malaysia lemah.
       </p>
     </div>

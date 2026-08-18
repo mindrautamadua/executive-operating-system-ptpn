@@ -32,7 +32,7 @@ function MultilineTick({
 }) {
   const lines = String(payload?.value).split("\n");
   return (
-    <text x={x} y={y + 8} textAnchor="middle" fontSize={7} fill="var(--chart-tick)">
+    <text x={x} y={y + 8} textAnchor="middle" fontSize={8} fill="var(--chart-tick)">
       {lines.map((line: string, i: number) => (
         <tspan key={line} x={x} dy={i === 0 ? 0 : 8}>
           {line}
@@ -103,7 +103,7 @@ export function WorkforceWaterfall() {
                 dataKey="label"
                 position="top"
                 offset={5}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>

@@ -22,7 +22,7 @@ export function PipelineKepemimpinan() {
       <div className="flex items-start justify-between gap-2">
         <div>
           <h3 className="card-title-navy">Pipeline Kepemimpinan per Level</h3>
-          <p className="mt-[3px] text-[9px] text-ink-400">
+          <p className="mt-[3px] text-[9px] text-ink-500">
             Jumlah Kandidat Berdasarkan Kesiapan
           </p>
         </div>

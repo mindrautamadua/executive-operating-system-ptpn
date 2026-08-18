@@ -49,7 +49,7 @@ export function Top10Risks() {
         Skor Inherent → Residual, Arah Tren QoQ, dan Pemilik Risiko
       </p>
 
-      <div className="mt-2 grid grid-cols-[16px_minmax(0,1fr)_24px_14px_24px_18px_150px] items-center gap-x-1.5 border-b border-[#eef2f6] pb-1.5 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[16px_minmax(0,1fr)_24px_14px_24px_18px_150px] items-center gap-x-1.5 border-b border-[#eef2f6] pb-1.5 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>#</span>
         <span>Risiko</span>
         <span className="text-center">Inh</span>

@@ -34,7 +34,7 @@ export function TkdnTrend() {
               dataKey="kuartal"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: string) => v.replace(" 20", " '")}
             />
             <YAxis
@@ -79,7 +79,7 @@ export function TkdnTrend() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 rounded-md bg-ptpn-greenLight px-2 py-[5px] text-[8px] leading-[1.4] text-ptpn-greenDark">
+      <p className="mt-1 rounded-md bg-ptpn-greenLight px-2 py-[5px] text-[9px] leading-[1.4] text-ptpn-greenDark">
         TKDN naik 62,1% → 68,4% dalam 8 kuartal dan melampaui target sejak Q2 2025; surplus kini 3,4
         pts.
       </p>

@@ -58,7 +58,7 @@ export function TopRiskDetail() {
                     </span>
                     <ToneBadge label={r.level} tone={LEVEL_TONE[r.level]} />
                   </span>
-                  <span className="block truncate text-[8px] text-ink-500">
+                  <span className="block truncate text-[9px] text-ink-500">
                     {r.category} · {r.owner}
                   </span>
                 </span>

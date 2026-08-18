@@ -37,12 +37,12 @@ export function RisalahStatus() {
                 style={{ width: `${(r.jumlah / total) * 100}%`, backgroundColor: r.color }}
               />
             </div>
-            <p className="mt-1 text-[8px] leading-snug text-ink-500">{r.catatanSla}</p>
+            <p className="mt-1 text-[9px] leading-snug text-ink-500">{r.catatanSla}</p>
           </div>
         ))}
       </div>
 
-      <p className="pb-1 pt-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 pt-1 text-[9px] leading-snug text-ink-500">
         Risalah tertunda menahan mulainya penghitungan tenggat tindak lanjut Direksi — keterlambatan
         administratif ikut memperlambat siklus pengawasan.
       </p>

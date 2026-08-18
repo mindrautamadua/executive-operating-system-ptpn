@@ -53,7 +53,7 @@ export function DekomposisiScore() {
       </div>
 
       <div className="mt-1.5 border-t border-[#f0f3f6] pt-1.5">
-        <span className="text-[8px] font-bold uppercase tracking-[0.04em] text-ink-400">
+        <span className="text-[9px] font-bold uppercase tracking-[0.04em] text-ink-500">
           Penyusun kenaikan +4,8 pts vs Q1 2026
         </span>
         <div className="mt-1 flex items-center gap-1.5">

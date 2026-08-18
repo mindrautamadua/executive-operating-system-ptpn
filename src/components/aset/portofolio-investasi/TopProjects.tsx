@@ -92,7 +92,7 @@ export function TopProjects() {
                     </span>
                     {p.isPsn && <ToneBadge label="PSN" tone="info" />}
                   </div>
-                  <span className="text-[8px] text-ink-400">{p.sektor}</span>
+                  <span className="text-[9px] text-ink-500">{p.sektor}</span>
                 </td>
                 <td className="py-[7px] pr-2 text-[9px] text-ink-700">{p.tahap}</td>
                 <td className="whitespace-nowrap py-[7px] pr-2 text-right text-[9px] font-semibold text-ink-700">
@@ -130,7 +130,7 @@ export function TopProjects() {
         </table>
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         {isFiltered
           ? `Termasuk proyek lintas subholding yang juga menyentuh ${def.label}; nilai grup penuh Rp ${num(TOP_PROJECTS_NILAI_RP_T)} T.`
           : "Lima dari enam proyek strategis nasional berada di daftar ini; hanya Kawasan Industri PTPN I yang ber-IRR di bawah hurdle rate sekaligus berstatus terlambat."}

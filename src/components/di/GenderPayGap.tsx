@@ -21,7 +21,7 @@ export function GenderPayGap() {
   return (
     <div className="card anim-rise flex h-full flex-col px-4 pb-2.5 pt-3">
       <h3 className="card-title-navy">Perbandingan Rata-rata Gaji (Gender Pay Gap)</h3>
-      <p className="mt-[3px] text-[9px] text-ink-400">(Per 30 Jun 2026)</p>
+      <p className="mt-[3px] text-[9px] text-ink-500">(Per 30 Jun 2026)</p>
 
       {/* dumbbell gap */}
       <div className="relative mx-2 mt-2 h-[86px] min-h-0">

@@ -105,7 +105,7 @@ export function RolloutTimeline() {
               ticks={[0, 1, 2, 3, 4]}
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => KUARTAL[v] ?? ""}
               orientation="top"
             />
@@ -114,7 +114,7 @@ export function RolloutTimeline() {
               dataKey="label"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               width={128}
               interval={0}
             />
@@ -141,7 +141,7 @@ export function RolloutTimeline() {
         </ResponsiveContainer>
       </div>
 
-      <div className="mt-1 flex items-center justify-center gap-3 text-[8px] text-ink-500">
+      <div className="mt-1 flex items-center justify-center gap-3 text-[9px] text-ink-500">
         {LEGEND.map((s) => (
           <span key={s} className="flex items-center gap-1">
             <span

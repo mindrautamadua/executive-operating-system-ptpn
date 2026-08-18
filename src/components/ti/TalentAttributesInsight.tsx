@@ -30,7 +30,7 @@ export function TalentAttributesInsight() {
       <p className="mt-[3px] text-[9px] text-ink-500">Analisis Atribut Talenta Kritis</p>
 
       <div className="mt-2 flex-1">
-        <div className="grid grid-cols-[minmax(0,1fr)_86px_64px_44px] items-center border-b border-[#eef2f6] pb-1.5 text-[8px] font-bold uppercase tracking-[0.04em] text-ink-400">
+        <div className="grid grid-cols-[minmax(0,1fr)_86px_64px_44px] items-center border-b border-[#eef2f6] pb-1.5 text-[9px] font-bold uppercase tracking-[0.04em] text-ink-500">
           <span>Atribut</span>
           <span className="text-right">Rata-rata Skor</span>
           <span className="text-right">Benchmark</span>

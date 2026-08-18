@@ -21,7 +21,7 @@ export function TopTalentPotential() {
       <div className="mt-2 min-h-0 flex-1 overflow-hidden">
         <table className="w-full border-collapse">
           <thead>
-            <tr className="border-b border-[#eef2f6] text-left text-[8px] font-bold uppercase tracking-[0.04em] text-ink-400">
+            <tr className="border-b border-[#eef2f6] text-left text-[9px] font-bold uppercase tracking-[0.04em] text-ink-500">
               <th className="pb-1.5 pr-1 font-bold">Nama</th>
               <th className="pb-1.5 pr-1 font-bold">Jabatan</th>
               <th className="pb-1.5 pr-1 font-bold">Unit Kerja</th>
@@ -52,7 +52,7 @@ export function TopTalentPotential() {
                 </td>
                 <td className="py-[5px] text-right">
                   <span
-                    className={`inline-block whitespace-nowrap rounded-full px-2 py-[2px] text-[8px] font-bold ${READINESS_TONES[t.readiness]}`}
+                    className={`inline-block whitespace-nowrap rounded-full px-2 py-[2px] text-[9px] font-bold ${READINESS_TONES[t.readiness]}`}
                   >
                     {t.readiness}
                   </span>

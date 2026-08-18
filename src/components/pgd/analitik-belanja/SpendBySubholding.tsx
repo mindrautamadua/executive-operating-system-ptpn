@@ -109,7 +109,7 @@ export function SpendBySubholding() {
               </span>
             </div>
             <div className="mt-[3px] flex items-center gap-2">
-              <span className="w-[62px] shrink-0 text-[8px] font-semibold text-ink-400">
+              <span className="w-[62px] shrink-0 text-[9px] font-semibold text-ink-500">
                 Intensitas
               </span>
               <div className="h-[7px] min-w-0 flex-1 overflow-hidden rounded-full bg-[#eef2f6]">
@@ -118,7 +118,7 @@ export function SpendBySubholding() {
                   style={{ width: `${s.intensitasPct}%`, backgroundColor: COLORS[s.segment] }}
                 />
               </div>
-              <span className="w-[38px] shrink-0 text-right text-[8px] font-bold text-ink-700">
+              <span className="w-[38px] shrink-0 text-right text-[9px] font-bold text-ink-700">
                 {s.intensitasPct.toLocaleString("id-ID", { minimumFractionDigits: 1 })}%
               </span>
             </div>
@@ -126,7 +126,7 @@ export function SpendBySubholding() {
         ))}
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         PTPN I (60,9%) dan SGN (59,2%) membelanjakan porsi pendapatan jauh lebih besar dari PalmCo
         (46,6%) — prioritas konsolidasi sourcing berikutnya.
       </p>

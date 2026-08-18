@@ -20,8 +20,8 @@ export function PerformanceNarrative() {
       <div className="flex shrink-0 flex-wrap items-center gap-1">
         {performanceNarrative.story.map((s, i) => (
           <span key={s.label} className="flex items-center gap-1">
-            {i > 0 && <span className="text-[8px] text-ink-300">·</span>}
-            <span className="rounded bg-[#eef2f6] px-1.5 py-[2px] text-[8px] font-semibold text-ink-500">
+            {i > 0 && <span className="text-[9px] text-ink-300">·</span>}
+            <span className="rounded bg-[#eef2f6] px-1.5 py-[2px] text-[9px] font-semibold text-ink-500">
               {s.label}{" "}
               <span className={s.good ? "font-bold delta-good" : "font-bold delta-bad"}>
                 {s.value}

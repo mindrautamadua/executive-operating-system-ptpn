@@ -27,7 +27,7 @@ export function SumberDataTerhubung() {
                 <div className="truncate text-[9.5px] font-bold text-ink-900" title={s.nama}>
                   {s.nama}
                 </div>
-                <div className="mt-[2px] truncate text-[9px] text-ink-400">{s.kategori}</div>
+                <div className="mt-[2px] truncate text-[9px] text-ink-500">{s.kategori}</div>
               </div>
               <span
                 className={`${
@@ -45,7 +45,7 @@ export function SumberDataTerhubung() {
                   {tertunda ? "Sinkronisasi tertunda" : "Tersinkron"}
                 </span>
               </span>
-              <div className="mt-1.5 border-t border-[#f2f5f8] pt-1 text-[9px] text-ink-400">
+              <div className="mt-1.5 border-t border-[#f2f5f8] pt-1 text-[9px] text-ink-500">
                 Update: {s.update}
               </div>
             </div>

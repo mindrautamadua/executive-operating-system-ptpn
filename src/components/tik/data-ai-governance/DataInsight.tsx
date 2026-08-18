@@ -66,7 +66,7 @@ export function DataInsight() {
                 <span className="text-[9px] font-bold text-ptpn-green group-hover:underline">
                   {c.label}
                 </span>
-                <span className="mt-[2px] block text-[8px] leading-snug text-ink-400">
+                <span className="mt-[2px] block text-[9px] leading-snug text-ink-500">
                   {c.catatan}
                 </span>
               </span>

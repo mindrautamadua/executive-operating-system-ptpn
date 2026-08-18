@@ -40,7 +40,7 @@ export function MonetizationPipeline() {
                 Rp {rp(s.nilaiRpM)} M
               </span>
             </div>
-            <div className="mt-[2px] pl-[112px] text-[8px] text-ink-400">
+            <div className="mt-[2px] pl-[112px] text-[9px] text-ink-500">
               {s.jumlahPaket} paket · konversi {pct(s.konversiPct)}%
               {s.note ? ` · ${s.note}` : ""}
             </div>
@@ -48,7 +48,7 @@ export function MonetizationPipeline() {
         ))}
       </ul>
 
-      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         {monetizationPipelineNote}
       </p>
     </div>

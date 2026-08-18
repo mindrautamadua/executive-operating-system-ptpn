@@ -35,7 +35,7 @@ export function DistribusiGaji() {
         </button>
       </div>
 
-      <div className="mt-1.5 text-[9px] text-ink-400">% Karyawan</div>
+      <div className="mt-1.5 text-[9px] text-ink-500">% Karyawan</div>
 
       <div className="min-h-0 w-full flex-1">
         <ResponsiveContainer width="100%" height="100%">

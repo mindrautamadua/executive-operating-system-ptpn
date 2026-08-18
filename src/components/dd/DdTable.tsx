@@ -42,7 +42,7 @@ export function DdTable() {
       <div className="scroll-thin mt-2 min-h-0 flex-1 overflow-y-auto">
         <table className="w-full border-collapse">
           <thead className="sticky top-0 bg-[var(--surface,#fff)]">
-            <tr className="border-b border-[#eef2f6] text-left text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+            <tr className="border-b border-[#eef2f6] text-left text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
               <th className="pb-1.5 pr-2 font-semibold">Istilah / Status</th>
               <th className="pb-1.5 pr-2 font-semibold">Definisi</th>
               <th className="pb-1.5 pr-2 font-semibold">Formula</th>

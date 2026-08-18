@@ -63,7 +63,7 @@ export function PolicyWatchCard() {
               </span>
               <ToneBadge label={TONE_LABEL[p.tone]} tone={TONE[p.tone]} />
             </div>
-            <div className="mt-1 text-[8px] font-semibold text-ink-400">{p.status}</div>
+            <div className="mt-1 text-[9px] font-semibold text-ink-500">{p.status}</div>
             <p className="mt-1 text-[8.5px] leading-snug text-ink-500">{p.dampak}</p>
             <p className="mt-auto pt-1.5 text-[8.5px] leading-snug text-ink-700">
               <span className="font-bold text-ptpn-green">Kesiapan:</span> {p.kesiapan}

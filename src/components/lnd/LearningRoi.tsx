@@ -33,7 +33,7 @@ export function LearningRoi() {
               <div className="text-[12px] font-extrabold tabular-nums text-ink-900">
                 {t.metric}
               </div>
-              <div className="whitespace-nowrap text-[8px] text-ink-400">{t.metricLabel}</div>
+              <div className="whitespace-nowrap text-[9px] text-ink-500">{t.metricLabel}</div>
             </div>
           </div>
         ))}
@@ -45,7 +45,7 @@ export function LearningRoi() {
             key={c.label}
             className="rounded-lg border border-[#e3e9ef] bg-[#f8fafc] px-2 py-[5px] leading-[1.2]"
           >
-            <span className="block text-[8px] font-semibold uppercase tracking-[0.03em] text-ink-400">
+            <span className="block text-[9px] font-semibold uppercase tracking-[0.03em] text-ink-500">
               {c.label}
             </span>
             <span className="text-[10.5px] font-extrabold tabular-nums text-ink-900">

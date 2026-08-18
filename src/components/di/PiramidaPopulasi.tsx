@@ -16,7 +16,7 @@ export function PiramidaPopulasi() {
       style={{ "--d": "120ms" } as React.CSSProperties}
     >
       <h3 className="card-title-navy">Piramida Populasi Gender × Generasi</h3>
-      <p className="mt-[3px] text-[9px] text-ink-400">(Per 30 Jun 2026)</p>
+      <p className="mt-[3px] text-[9px] text-ink-500">(Per 30 Jun 2026)</p>
 
       {/* header dua sisi */}
       <div className="mt-1.5 flex items-center text-[9.5px] font-semibold">

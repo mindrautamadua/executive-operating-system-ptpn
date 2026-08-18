@@ -45,7 +45,7 @@ export function Signal360() {
           <span className="font-extrabold tabular-nums text-ptpn-green">{signal360.alignment}</span>
           <span className="text-ink-400"> / 1,00</span>
         </span>
-        <span className="truncate pl-2 text-[8px] text-ink-400">
+        <span className="truncate pl-2 text-[9px] text-ink-500">
           Self gap <span className="font-bold text-[#d98b06]">{signal360.gap}</span> —{" "}
           {signal360.gapNote}
         </span>

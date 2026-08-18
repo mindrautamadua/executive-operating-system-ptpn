@@ -38,14 +38,14 @@ export function CaseBreakdown() {
             <span className="text-[11px] font-extrabold leading-none" style={{ color: s.color }}>
               {s.count}
             </span>
-            <span className="mt-[3px] text-[7px] font-semibold uppercase tracking-[0.03em] text-ink-400">
+            <span className="mt-[3px] text-[9px] font-semibold uppercase tracking-[0.03em] text-ink-500">
               {s.label}
             </span>
           </div>
         ))}
       </div>
 
-      <div className="mt-2 flex items-center justify-between border-b border-[#eef2f6] pb-1.5 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 flex items-center justify-between border-b border-[#eef2f6] pb-1.5 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Kategori</span>
         <span className="flex items-center gap-3">
           <span>Proporsi</span>
@@ -76,7 +76,7 @@ export function CaseBreakdown() {
       </ul>
 
       <p
-        className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[4px] text-[8px] leading-[1.4] text-ink-500"
+        className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[4px] text-[9px] leading-[1.4] text-ink-500"
         title={`Umur rata-rata kasus kritis ${fraudIntel.avgCriticalAgeDays} hari`}
       >
         Fraud: {fraudIntel.activeCases} kasus · potensi {fraudIntel.potentialLoss} · recovered{" "}

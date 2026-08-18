@@ -49,7 +49,7 @@ export function MeetingCalendar() {
           <tbody>
             {meetingCalendar.map((m) => (
               <tr key={`${m.tanggal}-${m.agendaUtama}`} className="align-middle">
-                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[8px] font-semibold text-ink-500">
+                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[9px] font-semibold text-ink-500">
                   {m.tanggal}
                 </td>
                 <td className="border-b border-[#f3f6f9] py-[6px] pr-2">
@@ -58,11 +58,11 @@ export function MeetingCalendar() {
                 <td className="border-b border-[#f3f6f9] py-[6px] pr-2 text-[8.5px] font-bold leading-snug text-ink-900">
                   {m.agendaUtama}
                 </td>
-                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-right text-[8px] tabular-nums text-ink-700">
+                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-right text-[9px] tabular-nums text-ink-700">
                   {m.kehadiran}
                 </td>
                 <td
-                  className={`whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-right text-[8px] font-semibold tabular-nums ${
+                  className={`whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-right text-[9px] font-semibold tabular-nums ${
                     m.hariTerbit === null ? "text-[#ef4444]" : "text-ink-700"
                   }`}
                 >

@@ -64,7 +64,7 @@ export function CapacityVsSupply() {
               ticks={[0, 4.5, 9, 13.5, 18]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               width={34}
             />
             <Tooltip
@@ -131,7 +131,7 @@ export function CapacityVsSupply() {
         {capacityGap.map((g) => (
           <span
             key={g.komoditas}
-            className="flex items-center gap-1.5 text-[8px] text-ink-500 transition-opacity"
+            className="flex items-center gap-1.5 text-[9px] text-ink-500 transition-opacity"
             style={{ opacity: dim(g.komoditas.startsWith("Sawit") ? "sawit" : "tebu") }}
           >
             <span className="font-semibold text-ink-700">{g.komoditas}</span>
@@ -140,7 +140,7 @@ export function CapacityVsSupply() {
         ))}
       </div>
 
-      <p className="line-clamp-2 text-[8px] leading-snug text-ink-400">{capacityGapNote}</p>
+      <p className="line-clamp-2 text-[9px] leading-snug text-ink-500">{capacityGapNote}</p>
     </div>
   );
 }

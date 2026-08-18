@@ -29,7 +29,7 @@ function MultilineTick({
 }) {
   const lines = String(payload?.value).split(" ");
   return (
-    <text x={x} y={y + 8} textAnchor="middle" fontSize={7} fill="var(--chart-tick)">
+    <text x={x} y={y + 8} textAnchor="middle" fontSize={8} fill="var(--chart-tick)">
       {lines.map((line: string, i: number) => (
         <tspan key={line} x={x} dy={i === 0 ? 0 : 8}>
           {line}
@@ -105,14 +105,14 @@ export function SgnMillProfitability() {
                 position="top"
                 offset={4}
                 formatter={(v: number) => `${fmtId(v, 1)}%`}
-                style={{ fontSize: 7, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 truncate text-[8px] leading-snug text-ink-500" title={sgnMillNote}>
+      <p className="mt-1 truncate text-[9px] leading-snug text-ink-500" title={sgnMillNote}>
         {sgnMillNote}
       </p>
     </div>

@@ -40,7 +40,7 @@ export function RegulatoryChangeRadar() {
               </div>
               <p className="mt-1 text-[8.5px] leading-snug text-ink-500">{r.impact}</p>
               <div className="mt-1 grid grid-cols-[64px_minmax(0,1fr)_28px] items-center gap-1.5">
-                <span className="text-[8px] font-semibold text-ink-400">Kesiapan</span>
+                <span className="text-[9px] font-semibold text-ink-500">Kesiapan</span>
                 <span className="h-[6px] overflow-hidden rounded-full bg-[#eef2f6]">
                   <span
                     className={`block h-full rounded-full ${barCls(r.readiness)}`}
@@ -52,8 +52,8 @@ export function RegulatoryChangeRadar() {
                 </span>
               </div>
               <div className="mt-1 flex items-center justify-between gap-2">
-                <span className="min-w-0 truncate text-[8px] text-ink-700">{r.action}</span>
-                <span className="shrink-0 text-[8px] font-semibold text-ink-400">
+                <span className="min-w-0 truncate text-[9px] text-ink-700">{r.action}</span>
+                <span className="shrink-0 text-[9px] font-semibold text-ink-500">
                   Efektif {r.effective}
                 </span>
               </div>

@@ -85,7 +85,7 @@ export function DecisionByCategory() {
                 <span className="shrink-0 text-[9.5px] font-bold tabular-nums text-ink-900">
                   {c.jumlah}
                 </span>
-                <span className="w-[30px] shrink-0 text-right text-[9px] tabular-nums text-ink-400">
+                <span className="w-[30px] shrink-0 text-right text-[9px] tabular-nums text-ink-500">
                   {c.pct}%
                 </span>
               </div>

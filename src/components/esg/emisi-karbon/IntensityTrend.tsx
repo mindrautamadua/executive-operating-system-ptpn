@@ -80,7 +80,7 @@ export function IntensityTrend() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Intensitas 1,82 sudah 13% di bawah benchmark — modal klaim low-carbon CPO ke buyer EU.
       </p>
     </div>

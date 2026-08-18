@@ -37,7 +37,7 @@ export function SpendPareto() {
               dataKey="label"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <YAxis
               yAxisId="left"
@@ -82,7 +82,7 @@ export function SpendPareto() {
               label={{
                 value: "Top-20 43%",
                 position: "insideTopRight",
-                fontSize: 7.5,
+                fontSize: 8.5,
                 fill: PALETTE.red,
               }}
             />
@@ -110,7 +110,7 @@ export function SpendPareto() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         20 vendor (0,6% populasi) menguasai Rp 5,33 T; 100 vendor teratas sudah mencapai 69,8%
         belanja grup — kurva sangat curam di ujung kiri.
       </p>

@@ -46,7 +46,7 @@ function BarSkor({
         <span className="text-[22px] font-extrabold leading-none text-ink-900">
           {skor}
         </span>
-        <span className="text-[9px] text-ink-400">{maks}</span>
+        <span className="text-[9px] text-ink-500">{maks}</span>
       </div>
       <div className="mt-1.5 flex items-center gap-2">
         <div className="h-[5px] min-w-0 flex-1 overflow-hidden rounded-full bg-[#eef2f6]">
@@ -121,13 +121,13 @@ function DonutSkor() {
         />
       </svg>
       <div className="absolute inset-0 flex flex-col items-center justify-center leading-none">
-        <span className="text-[8px] font-semibold tracking-wide text-ink-400">
+        <span className="text-[9px] font-semibold tracking-wide text-ink-500">
           HPI BEM SCORE
         </span>
         <span className="mt-1 text-[30px] font-extrabold text-ptpn-green">
           {hpiBemDiagnostic.skor}
         </span>
-        <span className="mt-1 text-[9px] text-ink-400">/100</span>
+        <span className="mt-1 text-[9px] text-ink-500">/100</span>
       </div>
     </div>
   );
@@ -147,7 +147,7 @@ function DimensiKolom({ d }: { d: (typeof hpiBemDiagnostic.dimensi)[number] }) {
           <div className="truncate text-[10px] font-bold text-ink-900">
             {d.label}
           </div>
-          <div className="truncate text-[8px] text-ink-500">{d.sub}</div>
+          <div className="truncate text-[9px] text-ink-500">{d.sub}</div>
         </div>
       </div>
       <div className="mt-2 flex items-baseline gap-1">
@@ -156,10 +156,10 @@ function DimensiKolom({ d }: { d: (typeof hpiBemDiagnostic.dimensi)[number] }) {
         >
           {d.skor}
         </span>
-        <span className="text-[9px] text-ink-400">/100</span>
+        <span className="text-[9px] text-ink-500">/100</span>
       </div>
       <span
-        className={`mt-1.5 inline-block rounded-md px-2 py-[3px] text-[8px] font-bold ${
+        className={`mt-1.5 inline-block rounded-md px-2 py-[3px] text-[9px] font-bold ${
           d.status === "Good"
             ? "bg-ptpn-greenLight text-ptpn-greenDark"
             : "bg-[#fef4e3] text-[#b45309]"
@@ -207,7 +207,7 @@ function InterpretasiPanel() {
         <div className="mt-1.5 space-y-1.5">
           {hpiBemDiagnostic.fokus.map((f, i) => (
             <div key={f} className="flex items-center gap-2">
-              <span className="flex h-[15px] w-[15px] shrink-0 items-center justify-center rounded-full bg-[#fef4e3] text-[8px] font-bold text-[#b45309]">
+              <span className="flex h-[15px] w-[15px] shrink-0 items-center justify-center rounded-full bg-[#fef4e3] text-[9px] font-bold text-[#b45309]">
                 {i + 1}
               </span>
               <span className="text-[8.5px] font-medium text-ink-700">{f}</span>
@@ -239,11 +239,11 @@ function DiagnosticCard() {
               {hpiBemDiagnostic.status}
             </span>
             <div className="mt-3 text-center leading-tight">
-              <div className="text-[8px] text-ink-400">Tanggal Assessment</div>
+              <div className="text-[9px] text-ink-500">Tanggal Assessment</div>
               <div className="mt-[2px] text-[8.5px] font-bold text-ink-900">
                 {hpiBemDiagnostic.tanggal}
               </div>
-              <div className="mt-1.5 text-[8px] text-ink-400">Assessed By</div>
+              <div className="mt-1.5 text-[9px] text-ink-500">Assessed By</div>
               <div className="mt-[2px] text-[8.5px] font-bold text-ink-900">
                 {hpiBemDiagnostic.assessor}
               </div>
@@ -254,7 +254,7 @@ function DiagnosticCard() {
         <div className="min-w-0 flex-1 space-y-2.5 rounded-xl border border-[#f1f4f8] p-3.5 xl:order-2">
           {KELOMPOK.map((k) => (
             <div key={k}>
-              <div className="text-[8px] font-bold uppercase tracking-[0.05em] text-ink-400">
+              <div className="text-[9px] font-bold uppercase tracking-[0.05em] text-ink-500">
                 {k}
               </div>
               <div className="mt-1.5 grid grid-cols-1 gap-2.5 sm:grid-cols-2 lg:grid-cols-3">
@@ -306,7 +306,7 @@ function RootCauseCard() {
                   </p>
                 </div>
                 <div className="w-[52px] shrink-0 text-right leading-tight">
-                  <div className="text-[8px] text-ink-400">Dampak</div>
+                  <div className="text-[9px] text-ink-500">Dampak</div>
                   <div
                     className={`mt-[2px] text-[8.5px] font-bold ${
                       item.dampak === "High"
@@ -316,7 +316,7 @@ function RootCauseCard() {
                   >
                     {item.dampak}
                   </div>
-                  <div className="mt-1 text-[8px] text-ink-400">
+                  <div className="mt-1 text-[9px] text-ink-500">
                     Est. Impact
                   </div>
                   <div className="mt-[2px] text-[8.5px] font-bold text-ink-900">
@@ -352,7 +352,7 @@ function IntervensiCard() {
         3. INTERVENSI &amp; ACTION PLAN
       </h3>
       <div className="scroll-thin -mx-1 min-w-0 overflow-x-auto px-1">
-        <div className="mt-2.5 grid min-w-[560px] grid-cols-[minmax(0,1fr)_86px_86px_58px_78px] gap-2 border-b border-[#f1f4f8] pb-1.5 text-[8px] font-semibold text-ink-500">
+        <div className="mt-2.5 grid min-w-[560px] grid-cols-[minmax(0,1fr)_86px_86px_58px_78px] gap-2 border-b border-[#f1f4f8] pb-1.5 text-[9px] font-semibold text-ink-500">
           <span>Intervensi yang Direkomendasikan</span>
           <span>Kategori BEM</span>
           <span>Owner</span>
@@ -371,12 +371,12 @@ function IntervensiCard() {
                   <div className="text-[9px] font-bold text-ink-900">
                     {item.judul}
                   </div>
-                  <p className="mt-[2px] text-[8px] leading-snug text-ink-500">
+                  <p className="mt-[2px] text-[9px] leading-snug text-ink-500">
                     {item.deskripsi}
                   </p>
                 </div>
                 <span
-                  className={`justify-self-start rounded-md px-2 py-[3px] text-[8px] font-bold ${tone ?? "tone-slate"}`}
+                  className={`justify-self-start rounded-md px-2 py-[3px] text-[9px] font-bold ${tone ?? "tone-slate"}`}
                 >
                   {item.kategori}
                 </span>
@@ -440,7 +440,7 @@ function ProyeksiChart() {
             x={padL - 5}
             y={y(v) + 2.5}
             textAnchor="end"
-            fontSize={7}
+            fontSize={8}
             fill="#9ca3af"
           >
             {v.toFixed(1)}
@@ -483,7 +483,7 @@ function ProyeksiChart() {
             x={p.x}
             y={H - 4}
             textAnchor="middle"
-            fontSize={7}
+            fontSize={8}
             fill="#6b7280"
           >
             {p.label}
@@ -529,7 +529,7 @@ function TrenChart() {
             x={padL - 5}
             y={y(v) + 2.5}
             textAnchor="end"
-            fontSize={7}
+            fontSize={8}
             fill="#9ca3af"
           >
             {v}
@@ -568,7 +568,7 @@ function TrenChart() {
             x={p.x}
             y={H - 4}
             textAnchor="middle"
-            fontSize={7}
+            fontSize={8}
             fill="#6b7280"
           >
             {p.label}
@@ -589,7 +589,7 @@ function ProyeksiCard() {
         Proyeksi Peningkatan Performance
       </div>
       <ProyeksiChart />
-      <p className="mt-1 text-[8px] leading-snug text-ink-500">
+      <p className="mt-1 text-[9px] leading-snug text-ink-500">
         {hpiBemProyeksi.performanceCatatan}
       </p>
       <div className="mt-3 text-[9px] font-semibold text-ink-500">

@@ -54,7 +54,7 @@ export function LandBySubholding() {
               dataKey="subholding"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -91,7 +91,7 @@ export function LandBySubholding() {
 
       <div className="mb-1 flex flex-wrap items-center justify-center gap-x-3 gap-y-1">
         {SERIES.map((s) => (
-          <span key={s.key} className="flex items-center gap-1.5 text-[8px] text-ink-500">
+          <span key={s.key} className="flex items-center gap-1.5 text-[9px] text-ink-500">
             <span className="h-[7px] w-[7px] rounded-full" style={{ background: s.color }} />
             {s.label}
           </span>

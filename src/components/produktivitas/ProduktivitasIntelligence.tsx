@@ -20,7 +20,7 @@ export function ProduktivitasIntelligence() {
         <h3 className="flex items-center gap-1.5 text-[10px] font-extrabold uppercase tracking-[0.05em] text-ink-900">
           <BrainCircuit size={13} className="text-ptpn-green" />
           Productivity Intelligence
-          <span className="rounded bg-ptpn-greenLight px-1 py-[1px] text-[8px] font-bold normal-case tracking-normal text-ptpn-green">
+          <span className="rounded bg-ptpn-greenLight px-1 py-[1px] text-[9px] font-bold normal-case tracking-normal text-ptpn-green">
             AI
           </span>
           <ScopeNote />
@@ -39,7 +39,7 @@ export function ProduktivitasIntelligence() {
           const tone = TILE_TONE[t.tone];
           return (
             <div key={t.label} className={`rounded-xl border px-3 pb-2.5 pt-2.5 ${tone.wrap}`}>
-              <div className="text-[8px] font-bold uppercase tracking-[0.05em] text-ink-400">
+              <div className="text-[9px] font-bold uppercase tracking-[0.05em] text-ink-500">
                 {t.label}
               </div>
               <div className={`mt-1 text-[10.5px] font-extrabold leading-tight ${tone.value}`}>

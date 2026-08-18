@@ -30,7 +30,7 @@ export function DataQualityOverview() {
             value={dqScore}
             className="block text-[15px] font-extrabold leading-none text-ink-900"
           />
-          <span className="text-[9px] text-ink-400">Indeks Komposit</span>
+          <span className="text-[9px] text-ink-500">Indeks Komposit</span>
         </div>
       </div>
 

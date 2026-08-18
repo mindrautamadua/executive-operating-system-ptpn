@@ -38,7 +38,7 @@ export function CounterpartyExposure() {
 
       {rows.length > 0 && (
         <>
-      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_60px_44px_minmax(0,1.15fr)] items-center gap-x-2 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_60px_44px_minmax(0,1.15fr)] items-center gap-x-2 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Counterparty</span>
         <span className="text-right">Eksposur</span>
         <span className="text-right">Rating</span>
@@ -67,7 +67,7 @@ export function CounterpartyExposure() {
         </>
       )}
 
-      <p className="mt-1.5 truncate text-[8px] text-ink-400">
+      <p className="mt-1.5 truncate text-[9px] text-ink-500">
         Total eksposur Rp 6,22 T · 37 counterparty · limit individual di luar top-5 &lt; Rp 150 M.
       </p>
     </div>

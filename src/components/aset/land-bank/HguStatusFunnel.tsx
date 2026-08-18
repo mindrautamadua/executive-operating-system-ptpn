@@ -47,7 +47,7 @@ export function HguStatusFunnel() {
         })}
       </div>
 
-      <p className="mt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="mt-1.5 text-[9px] leading-snug text-ink-500">
         Penyusutan terbesar terjadi antara pengukuran kadastral dan sidang Panitia B (-53 rb ha).
       </p>
     </div>

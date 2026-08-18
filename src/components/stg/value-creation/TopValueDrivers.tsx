@@ -59,13 +59,13 @@ export function TopValueDrivers() {
               const t = progressTone(pct);
               return (
                 <tr key={d.id} className="align-middle">
-                  <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[8px] font-bold text-ink-500">
+                  <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[9px] font-bold text-ink-500">
                     {d.id}
                   </td>
                   <td className="border-b border-[#f3f6f9] py-[6px] pr-2 text-[8.5px] font-bold leading-snug text-ink-900">
                     {d.name}
                   </td>
-                  <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[8px] text-ink-500">
+                  <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[9px] text-ink-500">
                     {d.owner}
                   </td>
                   <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-right text-[8.5px] tabular-nums text-ink-700">

@@ -87,8 +87,8 @@ function DonutKompetensi() {
       </svg>
       <div className="absolute inset-0 flex flex-col items-center justify-center leading-none">
         <span className="text-[26px] font-extrabold text-ink-900">{ringkasanKompetensi.skor}</span>
-        <span className="mt-1 text-[9px] text-ink-400">{ringkasanKompetensi.maks}</span>
-        <span className="mt-[3px] text-[8px] text-ink-400">Skor Rata-rata</span>
+        <span className="mt-1 text-[9px] text-ink-500">{ringkasanKompetensi.maks}</span>
+        <span className="mt-[3px] text-[9px] text-ink-500">Skor Rata-rata</span>
       </div>
     </div>
   );

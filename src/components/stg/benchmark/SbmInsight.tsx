@@ -62,7 +62,7 @@ export function SbmInsight() {
         })}
       </div>
 
-      <p className="mt-3 border-t border-[#f5f8fa] pt-2 text-[8px] leading-snug text-ink-400">
+      <p className="mt-3 border-t border-[#f5f8fa] pt-2 text-[9px] leading-snug text-ink-500">
         {sbmSources}
       </p>
     </div>

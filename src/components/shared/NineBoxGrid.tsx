@@ -62,13 +62,13 @@ export function NineBoxGrid({
         <div className="flex w-[52px] shrink-0 flex-col">
           <div className="flex flex-1">
             <span className="flex w-[13px] items-center justify-center">
-              <span className="whitespace-nowrap text-[9px] font-semibold tracking-[0.12em] text-ink-400 [writing-mode:vertical-rl] [transform:rotate(180deg)]">
+              <span className="whitespace-nowrap text-[9px] font-semibold tracking-[0.12em] text-ink-500 [writing-mode:vertical-rl] [transform:rotate(180deg)]">
                 POTENSI
               </span>
             </span>
             <div className="flex flex-1 flex-col justify-between py-1 text-right">
               {POTENSI.map((p) => (
-                <span key={p} className="text-[9px] text-ink-400">
+                <span key={p} className="text-[9px] text-ink-500">
                   {p}
                 </span>
               ))}
@@ -118,12 +118,12 @@ export function NineBoxGrid({
           </div>
 
           {/* sumbu kinerja */}
-          <div className="mt-1 grid grid-cols-3 text-center text-[9px] text-ink-400">
+          <div className="mt-1 grid grid-cols-3 text-center text-[9px] text-ink-500">
             {KINERJA.map((k) => (
               <span key={k}>{k}</span>
             ))}
           </div>
-          <div className="mt-[2px] text-center text-[9px] font-semibold tracking-[0.12em] text-ink-400">
+          <div className="mt-[2px] text-center text-[9px] font-semibold tracking-[0.12em] text-ink-500">
             KINERJA
           </div>
         </div>

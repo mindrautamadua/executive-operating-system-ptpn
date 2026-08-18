@@ -17,11 +17,11 @@ export function GenderLeadershipFunnel() {
       <div className="flex items-start justify-between gap-2">
         <div>
           <h3 className="card-title-navy">Gender Leadership Funnel</h3>
-          <p className="mt-[3px] text-[9px] text-ink-400">
+          <p className="mt-[3px] text-[9px] text-ink-500">
             % Perempuan per level karier — Staff → Direksi (Per 30 Jun 2026)
           </p>
         </div>
-        <span className="flex items-center gap-1 whitespace-nowrap text-[9px] text-ink-400">
+        <span className="flex items-center gap-1 whitespace-nowrap text-[9px] text-ink-500">
           <span className="h-[10px] w-[2px] rounded" style={{ background: PALETTE.amber }} />
           Target {targetLevelJabatan}%
         </span>
@@ -81,9 +81,9 @@ export function GenderLeadershipFunnel() {
       <div className="mt-1.5 grid grid-cols-3 gap-1.5 border-t border-[#eef2f6] pt-1.5">
         {promotionVelocity.map((v) => (
           <div key={v.label} className="leading-tight">
-            <div className="text-[8px] text-ink-400">{v.label}</div>
+            <div className="text-[9px] text-ink-500">{v.label}</div>
             <div className="text-[11px] font-extrabold tabular-nums text-ink-900">{v.nilai}</div>
-            <div className="text-[8px] text-ink-500">{v.catatan}</div>
+            <div className="text-[9px] text-ink-500">{v.catatan}</div>
           </div>
         ))}
       </div>

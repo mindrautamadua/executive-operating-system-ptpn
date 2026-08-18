@@ -61,7 +61,7 @@ export function ProdRiskRadar() {
                         <span
                           key={r.name}
                           title={`${r.name} — ${r.level}`}
-                          className={`flex h-[15px] w-[15px] items-center justify-center rounded-full text-[8px] font-extrabold text-white ${LEVEL_DOT[r.level]}`}
+                          className={`flex h-[15px] w-[15px] items-center justify-center rounded-full text-[9px] font-extrabold text-white ${LEVEL_DOT[r.level]}`}
                         >
                           {r.idx + 1}
                         </span>

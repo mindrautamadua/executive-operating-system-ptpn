@@ -19,7 +19,7 @@ export function DeiRiskMatrix() {
       <div className="flex items-start justify-between gap-2">
         <div>
           <h3 className="card-title-navy">DEI Risk Matrix per Unit</h3>
-          <p className="mt-[3px] text-[9px] text-ink-400">
+          <p className="mt-[3px] text-[9px] text-ink-500">
             Diversity (0-100) · Equity (rasio) · Inclusion (survei)
           </p>
         </div>

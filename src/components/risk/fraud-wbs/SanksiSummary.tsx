@@ -55,13 +55,13 @@ export function SanksiSummary() {
                 {it.value}
               </span>
               <span className="mt-1 text-[8.5px] font-bold text-ink-700">{it.label}</span>
-              <span className="mt-[2px] text-[8px] leading-[1.35] text-ink-400">{it.caption}</span>
+              <span className="mt-[2px] text-[9px] leading-[1.35] text-ink-500">{it.caption}</span>
             </div>
           );
         })}
       </div>
 
-      <p className="mt-1.5 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1.5 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         {sanksiSummary.note}
       </p>
     </div>

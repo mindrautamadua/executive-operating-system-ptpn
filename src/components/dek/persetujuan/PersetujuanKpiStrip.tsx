@@ -58,7 +58,7 @@ export function PersetujuanKpiStrip() {
               <div className="mt-2.5 flex items-baseline gap-[3px] whitespace-nowrap text-[19px] font-extrabold leading-none tracking-[-0.01em] text-ink-900">
                 {k.value}
                 {k.valueSuffix && (
-                  <span className="text-[10px] font-bold text-ink-400">{k.valueSuffix}</span>
+                  <span className="text-[10px] font-bold text-ink-500">{k.valueSuffix}</span>
                 )}
               </div>
               <div className="mt-[4px] truncate text-[8.5px] text-ink-500" title={k.sub}>

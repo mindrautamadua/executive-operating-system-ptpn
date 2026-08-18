@@ -40,23 +40,23 @@ export function OverdueDecisions() {
                   <div className="text-[9px] font-extrabold leading-snug text-ink-900">
                     {d.title}
                   </div>
-                  <div className="mt-[2px] text-[8px] font-semibold text-ink-500">{d.forum}</div>
+                  <div className="mt-[2px] text-[9px] font-semibold text-ink-500">{d.forum}</div>
                 </div>
               </div>
 
               <div className="mt-1.5 flex items-center gap-1.5">
                 <ToneBadge label={`Telat ${d.overdueHari} hari`} tone="bad" />
-                <span className="text-[8px] font-semibold text-ink-500">
+                <span className="text-[9px] font-semibold text-ink-500">
                   Jatuh tempo {d.due}
                 </span>
               </div>
 
-              <p className="mt-1.5 text-[8px] leading-snug text-ink-500">
+              <p className="mt-1.5 text-[9px] leading-snug text-ink-500">
                 <span className="font-bold text-ink-700">Hambatan:</span> {d.hambatan}
               </p>
 
               <div className="mt-1.5 flex items-center justify-between gap-2 border-t border-[#f5d9d9] pt-1">
-                <span className="truncate text-[8px] font-semibold text-ink-500">
+                <span className="truncate text-[9px] font-semibold text-ink-500">
                   PIC: {d.pic}
                 </span>
                 <span className="shrink-0 text-[8.5px] font-extrabold text-[#ef4444]">

@@ -16,7 +16,7 @@ export function WpControlTower() {
           <RadioTower size={13} className="text-[#1b3a6b]" />
           Workforce Plan Control Tower — YTD 2026
         </h3>
-        <span className="shrink-0 text-[9px] font-semibold text-ink-400">
+        <span className="shrink-0 text-[9px] font-semibold text-ink-500">
           Plan → Actual → Variance → Reforecast
         </span>
       </div>
@@ -58,10 +58,10 @@ export function WpControlTower() {
                 ))}
               </div>
 
-              <p className="mt-1.5 line-clamp-2 text-[8px] leading-[1.45] text-ink-500">
+              <p className="mt-1.5 line-clamp-2 text-[9px] leading-[1.45] text-ink-500">
                 {r.driver}
               </p>
-              <p className="mt-auto pt-1 text-[8px] leading-[1.45] text-ink-700">
+              <p className="mt-auto pt-1 text-[9px] leading-[1.45] text-ink-700">
                 <span className="font-bold text-ink-900">Aksi: </span>
                 {r.aksi}
               </p>

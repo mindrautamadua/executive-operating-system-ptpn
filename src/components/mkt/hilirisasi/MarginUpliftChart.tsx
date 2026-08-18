@@ -80,7 +80,7 @@ export function MarginUpliftChart() {
                 dataKey="label"
                 position="top"
                 offset={5}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
@@ -88,7 +88,7 @@ export function MarginUpliftChart() {
       </div>
       )}
 
-      <p className="mt-1 truncate text-[8px] text-ink-400">
+      <p className="mt-1 truncate text-[9px] text-ink-500">
         Konversi ke migor kemasan menambah margin +Rp 1.188/kg vs jual CPO curah.
       </p>
     </div>

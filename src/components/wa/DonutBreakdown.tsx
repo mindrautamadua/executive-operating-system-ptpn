@@ -77,7 +77,7 @@ export function DonutBreakdown({
               <span className="shrink-0 text-[9.5px] font-bold text-ink-900">
                 {d.value.toLocaleString("id-ID")}
               </span>
-              <span className="w-[38px] shrink-0 text-right text-[9px] text-ink-400">
+              <span className="w-[38px] shrink-0 text-right text-[9px] text-ink-500">
                 ({d.pct})
               </span>
             </div>

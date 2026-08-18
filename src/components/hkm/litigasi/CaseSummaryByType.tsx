@@ -87,7 +87,7 @@ export function CaseSummaryByType() {
       </div>
 
       <div className="mt-1 rounded-lg border border-[#d9e4f5] bg-[#e8f1fd] px-2.5 py-[7px]">
-        <p className="text-[8px] leading-[1.45] text-ink-700">{caseSummaryNote}</p>
+        <p className="text-[9px] leading-[1.45] text-ink-700">{caseSummaryNote}</p>
         <Link
           href={LEGAL_PORTFOLIO_HREF}
           className="mt-1.5 inline-flex items-center gap-1 rounded-md bg-ptpn-green px-2 py-[4px] text-[8.5px] font-bold text-white transition-opacity hover:opacity-90"

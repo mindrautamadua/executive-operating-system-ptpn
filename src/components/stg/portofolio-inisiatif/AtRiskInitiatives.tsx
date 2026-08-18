@@ -44,7 +44,7 @@ export function AtRiskInitiatives() {
               </span>
               <ToneBadge label={`${r.progress}%`} tone="warn" />
             </div>
-            <div className="mt-[3px] text-[8px] font-semibold text-ink-400">
+            <div className="mt-[3px] text-[9px] font-semibold text-ink-500">
               {r.id} · {r.owner}
             </div>
             <p className="mt-1.5 text-[8.5px] leading-snug text-ink-500">

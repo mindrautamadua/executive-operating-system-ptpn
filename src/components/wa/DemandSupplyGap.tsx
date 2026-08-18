@@ -84,7 +84,7 @@ export function DemandSupplyGap() {
                     dataKey="supply"
                     position="top"
                     formatter={ribuan}
-                    style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                    style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
                   />
                 </Bar>
                 <Bar dataKey="demand" fill={PALETTE.navy} radius={[3, 3, 0, 0]} maxBarSize={26}>
@@ -92,7 +92,7 @@ export function DemandSupplyGap() {
                     dataKey="demand"
                     position="top"
                     formatter={ribuan}
-                    style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                    style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
                   />
                 </Bar>
               </BarChart>
@@ -127,7 +127,7 @@ export function DemandSupplyGap() {
                   <span className="text-[8.5px] font-medium text-ink-500">{step.label}</span>
                   <span className="text-right">
                     <span className="text-[10px] font-extrabold text-ink-900">{step.value}</span>
-                    <span className="ml-1 text-[8px] text-ink-400">{step.sub}</span>
+                    <span className="ml-1 text-[9px] text-ink-500">{step.sub}</span>
                   </span>
                 </div>
               </div>

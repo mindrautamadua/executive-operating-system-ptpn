@@ -39,7 +39,7 @@ export function KinerjaChartCard({
       {subtitle && <p className="mt-[3px] text-[9px] text-ink-500">{subtitle}</p>}
       <div className="mt-1 min-h-0 w-full flex-1">{children}</div>
       {footer && (
-        <p className="mt-1.5 border-t border-[#eef2f6] pt-1.5 text-[8px] leading-[1.4] text-ink-400">
+        <p className="mt-1.5 border-t border-[#eef2f6] pt-1.5 text-[9px] leading-[1.4] text-ink-500">
           {footer}
         </p>
       )}
@@ -164,7 +164,7 @@ export function KategoriStackBars({
       </div>
 
       {footer && (
-        <p className="mt-2 border-t border-[#eef2f6] pt-1.5 text-[8px] leading-[1.4] text-ink-400">
+        <p className="mt-2 border-t border-[#eef2f6] pt-1.5 text-[9px] leading-[1.4] text-ink-500">
           {footer}
         </p>
       )}

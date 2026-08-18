@@ -25,7 +25,7 @@ export function FrameworkAgreements() {
               {["Kategori", "Jml", "Cakupan", "Hemat", "Berlaku s.d."].map((h) => (
                 <th
                   key={h}
-                  className="py-[5px] text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-400"
+                  className="py-[5px] text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500"
                 >
                   {h}
                 </th>
@@ -60,7 +60,7 @@ export function FrameworkAgreements() {
         </table>
       </div>
 
-      <p className="mt-1.5 rounded-md bg-ptpn-greenLight px-2 py-[5px] text-[8px] leading-[1.4] text-ptpn-greenDark">
+      <p className="mt-1.5 rounded-md bg-ptpn-greenLight px-2 py-[5px] text-[9px] leading-[1.4] text-ptpn-greenDark">
         Rp {TOTAL_HEMAT} M dari total penghematan Rp 386 M berasal dari 42 kontrak payung — 43,5%
         hasil dari 3,4% kontrak.
       </p>

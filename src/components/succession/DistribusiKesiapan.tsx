@@ -15,7 +15,7 @@ export function DistribusiKesiapan() {
       <div className="flex items-baseline justify-between gap-2">
         <div>
           <h3 className="card-title-navy">Distribusi Kesiapan Kandidat</h3>
-          <p className="mt-[3px] text-[9px] text-ink-400">Seluruh Level</p>
+          <p className="mt-[3px] text-[9px] text-ink-500">Seluruh Level</p>
         </div>
         <span className="whitespace-nowrap text-[9.5px] text-ink-500">
           Total:{" "}
@@ -46,7 +46,7 @@ export function DistribusiKesiapan() {
               </div>
             ))}
           </div>
-          <div className="mt-1 flex items-center justify-between text-[9px] text-ink-400">
+          <div className="mt-1 flex items-center justify-between text-[9px] text-ink-500">
             <span>Paling siap</span>
             <span className="flex items-center gap-1">
               Butuh waktu <ArrowRight size={10} />

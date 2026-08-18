@@ -23,14 +23,14 @@ export function ErpHealthCard() {
         <div>
           <div className="whitespace-nowrap text-[26px] font-extrabold leading-none tracking-[-0.01em] text-ink-900">
             71
-            <span className="text-[10px] font-bold text-ink-400">/100</span>
+            <span className="text-[10px] font-bold text-ink-500">/100</span>
           </div>
           <div className="mt-1.5 flex items-center gap-1.5">
             <ToneBadge label="Amber" tone="warn" />
             <span className="text-[8.5px] font-semibold text-ink-500">progres 57%</span>
           </div>
         </div>
-        <p className="max-w-[130px] text-right text-[8px] leading-snug text-ink-400">
+        <p className="max-w-[130px] text-right text-[9px] leading-snug text-ink-500">
           Turun 2 poin dari Q1 2026 sepenuhnya karena dimensi jadwal.
         </p>
       </div>
@@ -79,7 +79,7 @@ export function ErpHealthCard() {
               <span className="min-w-0 flex-1 truncate text-[8.5px] font-semibold text-ink-700">
                 {m.modul}
               </span>
-              <span className="shrink-0 text-[8px] font-semibold text-ink-400">{m.goLive}</span>
+              <span className="shrink-0 text-[9px] font-semibold text-ink-500">{m.goLive}</span>
             </div>
           ))}
       </div>

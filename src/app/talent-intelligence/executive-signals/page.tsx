@@ -55,7 +55,7 @@ export default function ExecutiveSignalsPage() {
                 >
                   <div className="flex items-center gap-1.5">
                     <span className={`h-[7px] w-[7px] shrink-0 rounded-full ${t.dot}`} />
-                    <span className="text-[8px] font-bold text-ink-400">{s.no}</span>
+                    <span className="text-[9px] font-bold text-ink-500">{s.no}</span>
                     <span className="min-w-0 flex-1 truncate text-[10px] font-bold text-ink-900" title={s.title}>
                       {s.title}
                     </span>
@@ -79,7 +79,7 @@ export default function ExecutiveSignalsPage() {
                   </dl>
 
                   <div className="mt-2 flex items-center justify-between gap-2 border-t border-white/70 pt-1.5">
-                    <span className="truncate text-[8px] font-semibold text-ink-500">{s.pemilik}</span>
+                    <span className="truncate text-[9px] font-semibold text-ink-500">{s.pemilik}</span>
                     <Pill label={s.status} tone={STATUS_TONE[s.status]} />
                   </div>
                 </div>

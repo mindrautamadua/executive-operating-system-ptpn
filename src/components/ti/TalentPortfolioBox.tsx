@@ -28,7 +28,7 @@ export function TalentPortfolioBox() {
         {/* grid + label sumbu */}
         <div className="flex min-w-0 flex-1 gap-1.5">
           <div
-            className="flex shrink-0 items-center justify-center text-[8px] font-bold uppercase tracking-[0.12em] text-ink-400"
+            className="flex shrink-0 items-center justify-center text-[9px] font-bold uppercase tracking-[0.12em] text-ink-500"
             style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}
           >
             Potential
@@ -41,7 +41,7 @@ export function TalentPortfolioBox() {
                 {POTENTIAL_LABELS.map((l) => (
                   <div
                     key={l}
-                    className="flex h-[62px] items-center justify-end pr-1 text-[8px] font-semibold text-ink-400"
+                    className="flex h-[62px] items-center justify-end pr-1 text-[9px] font-semibold text-ink-500"
                   >
                     {l}
                   </div>
@@ -65,12 +65,12 @@ export function TalentPortfolioBox() {
 
             <div className="ml-[40px] mt-1.5 grid grid-cols-3 gap-1.5">
               {PERFORMANCE_LABELS.map((l) => (
-                <div key={l} className="text-center text-[8px] font-semibold text-ink-400">
+                <div key={l} className="text-center text-[9px] font-semibold text-ink-500">
                   {l}
                 </div>
               ))}
             </div>
-            <div className="ml-[40px] mt-[3px] text-center text-[8px] font-bold uppercase tracking-[0.12em] text-ink-400">
+            <div className="ml-[40px] mt-[3px] text-center text-[9px] font-bold uppercase tracking-[0.12em] text-ink-500">
               Performance
             </div>
           </div>
@@ -84,7 +84,7 @@ export function TalentPortfolioBox() {
                 className="mt-[2px] h-[7px] w-[7px] shrink-0 rounded-[2px]"
                 style={{ background: l.color }}
               />
-              <span className="text-[8px] font-medium leading-[1.3] text-ink-500">{l.label}</span>
+              <span className="text-[9px] font-medium leading-[1.3] text-ink-500">{l.label}</span>
             </li>
           ))}
         </ul>

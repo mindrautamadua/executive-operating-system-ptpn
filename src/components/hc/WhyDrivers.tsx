@@ -5,7 +5,7 @@ export function WhyDrivers({ drivers, tone = "red" }: { drivers: RiskDriver[]; t
   const barColor = tone === "red" ? "#ef4444" : "#f5a524";
   return (
     <div className="flex flex-col gap-[5px] rounded-lg bg-[#f8fafc] px-2.5 py-2">
-      <div className="text-[8px] font-bold uppercase tracking-[0.05em] text-ink-400">
+      <div className="text-[9px] font-bold uppercase tracking-[0.05em] text-ink-500">
         Kenapa skor ini? — Top Drivers
       </div>
       {drivers.map((d) => (

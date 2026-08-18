@@ -171,7 +171,7 @@ export function PeopleRiskRadar() {
                         tone={r.severity === "High" ? "red" : "amber"}
                       />
                       <div className="mt-1 flex items-start gap-1.5 rounded-md bg-ptpn-greenLight px-2 py-[5px]">
-                        <span className="mt-[1px] text-[8px] font-extrabold uppercase tracking-[0.04em] text-ptpn-green">
+                        <span className="mt-[1px] text-[9px] font-extrabold uppercase tracking-[0.04em] text-ptpn-green">
                           Aksi
                         </span>
                         <span className="text-[8.5px] leading-[1.4] text-ink-700">

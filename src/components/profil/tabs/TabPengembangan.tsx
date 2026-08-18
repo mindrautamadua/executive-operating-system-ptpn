@@ -110,7 +110,7 @@ function DonutIndeks() {
           {ringkasanPengembangan.indeks}
           <span className="text-[11px] font-bold text-ink-400">%</span>
         </span>
-        <span className="mt-1.5 max-w-[80px] text-center text-[8px] leading-[1.3] text-ink-400">
+        <span className="mt-1.5 max-w-[80px] text-center text-[9px] leading-[1.3] text-ink-500">
           Indeks Pengembangan
         </span>
       </div>
@@ -179,7 +179,7 @@ function IdpAktifCard() {
                   </span>
                   <span className="shrink-0 text-[9px] font-bold text-ink-900">{p.progress}%</span>
                 </div>
-                <div className="mt-1 text-right text-[8px] text-ink-400">Target: {p.target}</div>
+                <div className="mt-1 text-right text-[9px] text-ink-500">Target: {p.target}</div>
               </div>
             </div>
           );
@@ -318,7 +318,7 @@ function RekomendasiCard() {
                 <div className="truncate text-[9.5px] font-bold text-ink-900">{r.nama}</div>
                 <div className="mt-[2px] text-[8.5px] text-ink-500">{r.penyelenggara}</div>
                 <div className="mt-1 flex items-center gap-2">
-                  <span className="inline-flex items-center gap-1 text-[8px] text-ink-400">
+                  <span className="inline-flex items-center gap-1 text-[9px] text-ink-500">
                     <Clock3 size={9} /> {r.jam}
                   </span>
                   <span className={`rounded-md px-1.5 py-[2px] text-[7.5px] font-semibold ${lv}`}>
@@ -410,7 +410,7 @@ function JalurKarierCard() {
                 <div className="mt-2 text-[10px] font-bold text-ink-900">{c.jabatan}</div>
                 <div className="text-[8.5px] font-semibold text-ink-700">{c.tag}</div>
                 <div className="mt-1.5 text-[8.5px] text-ink-500">{c.unit}</div>
-                <div className={`mt-[2px] text-[8px] font-semibold ${tone.text}`}>{c.waktu}</div>
+                <div className={`mt-[2px] text-[9px] font-semibold ${tone.text}`}>{c.waktu}</div>
               </div>
               {i < jalurKarier.length - 1 && (
                 <ArrowRight size={15} className="shrink-0 text-ink-300" />

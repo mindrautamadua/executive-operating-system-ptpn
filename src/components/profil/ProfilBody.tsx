@@ -42,7 +42,7 @@ import { TabDokumen } from "./tabs/TabDokumen";
 /** Label seksi di dalam domain gabungan (evidence layer). */
 function DomainSection({ children }: { children: React.ReactNode }) {
   return (
-    <h2 className="mb-2 mt-4 text-[10px] font-extrabold uppercase tracking-[0.06em] text-ink-400 first:mt-0">
+    <h2 className="mb-2 mt-4 text-[10px] font-extrabold uppercase tracking-[0.06em] text-ink-500 first:mt-0">
       {children}
     </h2>
   );

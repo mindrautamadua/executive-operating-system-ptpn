@@ -20,7 +20,7 @@ export function StressScenario() {
         <span className="truncate text-[9.5px] font-extrabold text-[#b91c1c]">
           {stressScenario.title}
         </span>
-        <span className="ml-auto shrink-0 truncate text-[8px] font-semibold text-[#dc2626]">
+        <span className="ml-auto shrink-0 truncate text-[9px] font-semibold text-[#dc2626]">
           {stressScenario.assumptions.join(" · ")}
         </span>
       </div>

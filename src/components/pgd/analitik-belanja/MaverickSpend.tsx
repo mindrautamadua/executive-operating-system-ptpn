@@ -49,7 +49,7 @@ export function MaverickSpend() {
               dataKey="unit"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               tickFormatter={(v: string) => v.replace("PalmCo Regional ", "Reg ")}
             />
             <YAxis
@@ -76,7 +76,7 @@ export function MaverickSpend() {
               label={{
                 value: "Rata-rata 8,4%",
                 position: "insideTopLeft",
-                fontSize: 7.5,
+                fontSize: 8.5,
                 fill: CHART_AXIS.tick,
               }}
             />
@@ -96,7 +96,7 @@ export function MaverickSpend() {
             className="flex items-center gap-1 transition-opacity"
             style={{ opacity: dim(m.unit) }}
           >
-            <span className="text-[8px] font-semibold text-ink-500">
+            <span className="text-[9px] font-semibold text-ink-500">
               {m.unit.replace("PalmCo Regional ", "Reg ")} · Rp {m.maverickRpM} M
             </span>
             <ToneBadge label={m.status} tone={STATUS_TONE[m.status]} />

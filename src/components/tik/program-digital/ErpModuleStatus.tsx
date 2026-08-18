@@ -81,7 +81,7 @@ export function ErpModuleStatus() {
         </table>
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         Modul Plantation (3 sub-modul, adopsi 0%) satu-satunya berstatus merah — mundur dari Q1 ke Q3
         2026 dan menahan sebagian besar potensi benefit.
       </p>

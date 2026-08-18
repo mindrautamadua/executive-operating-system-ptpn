@@ -74,7 +74,7 @@ export function ProductivityGapValue() {
         </table>
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">{productivityGapNote}</p>
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">{productivityGapNote}</p>
     </div>
   );
 }

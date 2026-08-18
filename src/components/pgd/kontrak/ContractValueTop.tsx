@@ -61,7 +61,7 @@ export function ContractValueTop() {
               dataKey="short"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               width={152}
             />
             <Tooltip
@@ -77,7 +77,7 @@ export function ContractValueTop() {
                 dataKey="nilaiRpT"
                 position="right"
                 formatter={(v: number) => v.toLocaleString("id-ID", { minimumFractionDigits: 2 })}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>

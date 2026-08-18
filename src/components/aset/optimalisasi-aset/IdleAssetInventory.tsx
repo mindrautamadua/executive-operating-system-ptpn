@@ -87,7 +87,7 @@ export function IdleAssetInventory() {
                 <td className="whitespace-nowrap py-[7px] pr-2 text-right text-[9px] text-ink-700">
                   {rp(a.luasHa)} ha
                   {a.unitBangunan > 0 && (
-                    <span className="block text-[8px] text-ink-400">{a.unitBangunan} unit</span>
+                    <span className="block text-[9px] text-ink-500">{a.unitBangunan} unit</span>
                   )}
                 </td>
                 <td className="whitespace-nowrap py-[7px] pr-2 text-right text-[9px] font-bold text-ink-900">
@@ -102,7 +102,7 @@ export function IdleAssetInventory() {
         </table>
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">{idleAssetNote}</p>
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">{idleAssetNote}</p>
     </div>
   );
 }

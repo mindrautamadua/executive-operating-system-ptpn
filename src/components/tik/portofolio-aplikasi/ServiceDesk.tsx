@@ -10,7 +10,7 @@ const maxTiket = Math.max(...serviceDesk.map((s) => s.tiketPerBulan));
 function Stat({ label, value }: { label: string; value: string }) {
   return (
     <div className="rounded-lg bg-[#eef2f6] px-2 py-[5px]">
-      <div className="text-[8px] font-semibold text-ink-500">{label}</div>
+      <div className="text-[9px] font-semibold text-ink-500">{label}</div>
       <div className="mt-[2px] text-[11px] font-extrabold leading-none text-ink-900">{value}</div>
     </div>
   );
@@ -53,7 +53,7 @@ export function ServiceDesk() {
                   }}
                 />
               </div>
-              <span className="shrink-0 text-[8px] font-semibold text-ink-400">
+              <span className="shrink-0 text-[9px] font-semibold text-ink-500">
                 SLA {desimal(s.slaPct)}% · {desimal(s.rataPenyelesaianJam)} jam
               </span>
             </div>
@@ -61,7 +61,7 @@ export function ServiceDesk() {
         ))}
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         {serviceDeskSummary.agen} agen menangani {angka(serviceDeskSummary.tiketPerBulan)} tiket per
         bulan; kategori jaringan adalah SLA terendah (78,4%).
       </p>

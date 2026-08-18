@@ -37,7 +37,7 @@ export function SanctionLog() {
               </span>
             </div>
             <div className="mt-[3px] flex items-center justify-between gap-2">
-              <span className="truncate text-[8px] text-ink-400" title={`${s.instansi} · ${s.unit}`}>
+              <span className="truncate text-[9px] text-ink-500" title={`${s.instansi} · ${s.unit}`}>
                 {s.tanggal} · {s.unit}
               </span>
               <ToneBadge label={s.status} tone={STATUS_TONE[s.status]} />
@@ -46,7 +46,7 @@ export function SanctionLog() {
         ))}
       </div>
 
-      <p className="mt-1 border-t border-[#f5f8fa] pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="mt-1 border-t border-[#f5f8fa] pt-1.5 text-[9px] leading-snug text-ink-500">
         Seluruh sanksi berasal dari domain lingkungan dan air; 2 masih dalam remediasi dan 1 sedang
         diajukan banding.
       </p>

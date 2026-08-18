@@ -38,7 +38,7 @@ export function EngagementDriverModel() {
         Skor driver vs kontribusi terhadap engagement — skor rendah × impact tinggi = prioritas
       </p>
 
-      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_54px_92px_60px_54px] items-center gap-x-2 gap-y-0 text-[8px] font-bold text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_54px_92px_60px_54px] items-center gap-x-2 gap-y-0 text-[9px] font-bold text-ink-500">
         <span>Driver</span>
         <span className="text-right">Skor</span>
         <span>Impact</span>

@@ -34,7 +34,7 @@ function endLabel(color: string) {
         x={Number(x) - 2}
         y={Number(y) - 6}
         textAnchor="end"
-        style={{ fontSize: 7.5, fontWeight: 700, fill: color }}
+        style={{ fontSize: 8.5, fontWeight: 700, fill: color }}
       >
         {ribuan(Number(value))}
       </text>
@@ -52,7 +52,7 @@ export function HeadcountProjection() {
 
       <div className="mt-1.5 grid grid-cols-2 gap-x-3 gap-y-[3px]">
         {projectionSeries.map((s) => (
-          <span key={s.key} className="flex items-center gap-1.5 text-[8px] font-semibold text-ink-500">
+          <span key={s.key} className="flex items-center gap-1.5 text-[9px] font-semibold text-ink-500">
             <span className="h-[2px] w-[14px] shrink-0 rounded-full" style={{ background: s.color }} />
             <span className="truncate">{s.label}</span>
           </span>

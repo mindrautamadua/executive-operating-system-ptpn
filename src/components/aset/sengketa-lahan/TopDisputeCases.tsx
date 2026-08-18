@@ -39,7 +39,7 @@ export function TopDisputeCases() {
       </p>
 
       <div
-        className={`mt-2 grid ${COLS} items-center gap-x-2 pr-2 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400`}
+        className={`mt-2 grid ${COLS} items-center gap-x-2 pr-2 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500`}
       >
         <span>Lokasi</span>
         <span className="text-right">Luas</span>
@@ -72,7 +72,7 @@ export function TopDisputeCases() {
         ))}
       </ul>
 
-      <p className="mt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="mt-1.5 text-[9px] leading-snug text-ink-500">
         {isFiltered ? (
           <>
             {rows.length} kasus prioritas {def.label} mencakup {num(luasRows)} rb ha dari 82,4 rb ha

@@ -51,7 +51,7 @@ export function TalentRiskOverview() {
         <div className="min-w-0 flex-1 border-l border-[#eef2f6] pl-3">
           <div className="flex items-center justify-between">
             <span className="text-[8.5px] font-bold text-ink-700">Top 5 Flight Risk (High)</span>
-            <span className="text-[8px] font-semibold text-ink-400">Risk Score</span>
+            <span className="text-[9px] font-semibold text-ink-500">Risk Score</span>
           </div>
           <ul className="mt-1.5 flex flex-col gap-[5px]">
             {tiTopFlightRisk.map((r, i) => {
@@ -71,7 +71,7 @@ export function TalentRiskOverview() {
                       <span className="block truncate text-[9px] font-bold text-ink-900">
                         {r.nama}
                       </span>
-                      <span className="block truncate text-[8px] text-ink-400">{r.jabatan}</span>
+                      <span className="block truncate text-[9px] text-ink-500">{r.jabatan}</span>
                     </span>
                     <span className="shrink-0 rounded-md bg-[#fdecec] px-1.5 py-[2px] text-[9px] font-extrabold text-[#ef4444]">
                       {r.score}
@@ -104,7 +104,7 @@ export function TalentRiskOverview() {
                           </span>
                         ))}
                       </div>
-                      <div className="mt-1.5 text-[8px] leading-[1.45] text-ink-500">
+                      <div className="mt-1.5 text-[9px] leading-[1.45] text-ink-500">
                         <span className="font-bold text-ink-700">Business exposure:</span>{" "}
                         {r.exposure.critical ? "Posisi kritikal" : "Posisi non-kritikal"} · lead time
                         pengganti {r.exposure.leadTime} · dampak{" "}
@@ -116,7 +116,7 @@ export function TalentRiskOverview() {
                           {r.exposure.impact}
                         </span>
                       </div>
-                      <div className="mt-1 text-[8px] leading-[1.45] text-ink-700">
+                      <div className="mt-1 text-[9px] leading-[1.45] text-ink-700">
                         <span className="font-bold text-ptpn-green">Rekomendasi:</span> {r.action}
                       </div>
                     </div>

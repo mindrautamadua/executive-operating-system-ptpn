@@ -49,7 +49,7 @@ export function FireByRegional() {
               dataKey="label"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -57,7 +57,7 @@ export function FireByRegional() {
               ticks={[0, 15, 30, 45, 60]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <Tooltip
               cursor={{ fill: "rgba(148,163,184,0.08)" }}
@@ -79,7 +79,7 @@ export function FireByRegional() {
                 dataKey="hotspot"
                 position="top"
                 offset={4}
-                style={{ fontSize: 7.5, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
@@ -88,7 +88,7 @@ export function FireByRegional() {
 
       <div className="mt-1 flex items-center gap-2.5">
         {LEGENDA.map((l) => (
-          <span key={l} className="flex items-center gap-1 text-[8px] text-ink-500">
+          <span key={l} className="flex items-center gap-1 text-[9px] text-ink-500">
             <span
               className="h-[7px] w-[7px] shrink-0 rounded-full"
               style={{ backgroundColor: HSE_RISK_COLOR[l] }}

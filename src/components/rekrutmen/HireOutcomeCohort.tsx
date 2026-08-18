@@ -35,7 +35,7 @@ export function HireOutcomeCohort() {
               <span className="mt-[3px] text-[8.5px] font-semibold leading-[1.3] text-ink-900">
                 {c.label}
               </span>
-              <span className="mt-[1px] text-[8px] leading-[1.3] text-ink-500">{c.sub}</span>
+              <span className="mt-[1px] text-[9px] leading-[1.3] text-ink-500">{c.sub}</span>
             </div>
           </div>
         ))}
@@ -48,7 +48,7 @@ export function HireOutcomeCohort() {
         </span>
         <span className="shrink-0 text-right">
           <span className="block text-[12px] font-extrabold text-[#d98b06]">{badHire.biaya}</span>
-          <span className="block text-[8px] text-ink-500">cost of bad hire</span>
+          <span className="block text-[9px] text-ink-500">cost of bad hire</span>
         </span>
       </div>
     </div>

@@ -61,7 +61,7 @@ export function FacilityAgeCondition() {
               ticks={[0, 14, 28, 42, 56, 70]}
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => `${v} th`}
             />
             <YAxis
@@ -71,7 +71,7 @@ export function FacilityAgeCondition() {
               ticks={[40, 55, 70, 85, 100]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <ReferenceLine
               y={KONDISI_AMBANG_KRITIS}
@@ -107,7 +107,7 @@ export function FacilityAgeCondition() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 line-clamp-2 text-[8px] leading-snug text-ink-400">{ageConditionNote}</p>
+      <p className="mt-1 line-clamp-2 text-[9px] leading-snug text-ink-500">{ageConditionNote}</p>
     </div>
   );
 }

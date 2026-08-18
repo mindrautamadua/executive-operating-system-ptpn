@@ -41,7 +41,7 @@ export function VarianceHeatmap() {
           {LINI.map((l) => (
             <span
               key={l}
-              className="truncate text-center text-[8px] font-bold uppercase tracking-[0.03em] text-ink-400"
+              className="truncate text-center text-[9px] font-bold uppercase tracking-[0.03em] text-ink-500"
               title={l}
             >
               {l}

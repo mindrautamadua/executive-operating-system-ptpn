@@ -38,7 +38,7 @@ export function TargetVsRealisasiMatrix() {
         Capaian 5 Komoditas terhadap Target YTD Mei 2026
       </p>
 
-      <div className="mt-2 grid grid-cols-[minmax(0,1.15fr)_56px_56px_minmax(0,1.3fr)_70px] items-center gap-x-2 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1.15fr)_56px_56px_minmax(0,1.3fr)_70px] items-center gap-x-2 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Komoditas</span>
         <span className="text-right">Target</span>
         <span className="text-right">Realisasi</span>
@@ -58,7 +58,7 @@ export function TargetVsRealisasiMatrix() {
               <span className="block truncate text-[9.5px] font-extrabold text-ink-900">
                 {k.komoditas}
               </span>
-              <span className="block text-[8px] text-ink-400">{k.satuan} · FY {k.targetFy}</span>
+              <span className="block text-[9px] text-ink-500">{k.satuan} · FY {k.targetFy}</span>
             </span>
             <span className="text-right text-[9.5px] font-semibold text-ink-500">{k.targetYtd}</span>
             <span className="text-right text-[9.5px] font-extrabold text-ink-900">
@@ -82,7 +82,7 @@ export function TargetVsRealisasiMatrix() {
         ))}
       </ul>
 
-      <p className="mt-1.5 truncate text-[8px] text-ink-400">
+      <p className="mt-1.5 truncate text-[9px] text-ink-500">
         Gula: musim giling baru mulai Mei — YTD kecil sesuai kurva ramp-up giling.
       </p>
     </div>

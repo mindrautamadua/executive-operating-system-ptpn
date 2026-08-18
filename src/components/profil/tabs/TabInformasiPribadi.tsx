@@ -112,7 +112,7 @@ function KontakAlamat() {
             <span className="min-w-0 text-right text-[10px] font-bold leading-[1.4] text-ink-900">
               {k.value}
               {k.badge && (
-                <span className="ml-1.5 inline-block rounded-md bg-ptpn-greenLight px-1.5 py-[2px] text-[8px] font-semibold text-ptpn-greenDark">
+                <span className="ml-1.5 inline-block rounded-md bg-ptpn-greenLight px-1.5 py-[2px] text-[9px] font-semibold text-ptpn-greenDark">
                   {k.badge}
                 </span>
               )}
@@ -195,7 +195,7 @@ export function TabInformasiPribadi() {
         </div>
         <Catatan />
       </div>
-      <p className="text-[9px] text-ink-400">Data terakhir diperbarui: {terakhirDiperbarui}</p>
+      <p className="text-[9px] text-ink-500">Data terakhir diperbarui: {terakhirDiperbarui}</p>
     </div>
   );
 }

@@ -23,7 +23,7 @@ export function EudrReadinessGauge() {
           <div key={p.pilar}>
             <div className="flex items-baseline justify-between gap-2">
               <span className="truncate text-[9.5px] font-bold text-ink-900">{p.pilar}</span>
-              <span className="shrink-0 text-[9px] tabular-nums text-ink-400">
+              <span className="shrink-0 text-[9px] tabular-nums text-ink-500">
                 <span className="text-[10px] font-extrabold text-ink-900">{p.skor}</span> / target{" "}
                 {p.target}
               </span>

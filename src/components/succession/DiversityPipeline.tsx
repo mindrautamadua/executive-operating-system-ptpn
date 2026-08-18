@@ -20,7 +20,7 @@ export function DiversityPipeline() {
           <Users size={13} className="text-[#1b3a6b]" />
           Diversitas Pipeline Suksesi
         </h3>
-        <span className="flex shrink-0 items-center gap-2 text-[8px] font-medium text-ink-400">
+        <span className="flex shrink-0 items-center gap-2 text-[9px] font-medium text-ink-500">
           {diversityTahap.map((t, i) => (
             <span key={t} className="flex items-center gap-1">
               <span
@@ -40,7 +40,7 @@ export function DiversityPipeline() {
               <span className="truncate text-[9px] font-semibold text-ink-900">
                 {d.dimensi}
               </span>
-              <span className="text-[8px] text-ink-400">target {d.target}%</span>
+              <span className="text-[9px] text-ink-500">target {d.target}%</span>
               <span
                 className="ml-auto shrink-0 text-[8.5px] font-bold"
                 style={{

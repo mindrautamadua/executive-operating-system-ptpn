@@ -119,7 +119,7 @@ export function HseRegionalStrip() {
         </table>
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         Regional 3, 5, dan 6 memikul 13 dari 18 titik api dan 204 dari 312 kasus pencurian — tiga
         regional yang sama menjadi sasaran prioritas satgas pengamanan dan kesiapan karhutla.
       </p>

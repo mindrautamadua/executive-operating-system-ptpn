@@ -108,7 +108,7 @@ export function AuditFindings() {
         </table>
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         APD adalah kategori terbesar sekaligus terburuk kepatuhannya — 52 temuan terbuka dengan 14
         melewati SLA, sejalan dengan 13 kecelakaan yang berakar pada APD.
       </p>

@@ -113,7 +113,7 @@ export function RunVsGrow() {
                 Rp {rupiah(r.nilaiRpT)} T
               </span>
             </div>
-            <p className="mt-[2px] text-[8px] leading-snug text-ink-400">{r.isi}</p>
+            <p className="mt-[2px] text-[9px] leading-snug text-ink-500">{r.isi}</p>
           </div>
         ))}
       </div>

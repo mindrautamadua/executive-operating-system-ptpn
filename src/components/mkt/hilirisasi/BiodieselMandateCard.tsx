@@ -30,7 +30,7 @@ export function BiodieselMandateCard() {
     >
       <div className="flex items-center justify-between gap-2">
         <SectionHead title="Mandat Biodiesel B40" className="min-w-0 flex-1" />
-        <span className="shrink-0 rounded-md bg-[#fdf3e0] px-1.5 py-[2px] text-[8px] font-extrabold text-[#d98b06]">
+        <span className="shrink-0 rounded-md bg-[#fdf3e0] px-1.5 py-[2px] text-[9px] font-extrabold text-[#d98b06]">
           Serapan {num(biodieselSummary.serapanPct)}%
         </span>
       </div>
@@ -75,15 +75,15 @@ export function BiodieselMandateCard() {
       )}
 
       <div className="mt-1 flex items-center gap-3">
-        <span className="flex items-center gap-1.5 text-[8px] font-semibold text-ink-500">
+        <span className="flex items-center gap-1.5 text-[9px] font-semibold text-ink-500">
           <span className="h-[7px] w-[7px] rounded-sm" style={{ background: PALETTE.slate }} />
           Alokasi
         </span>
-        <span className="flex items-center gap-1.5 text-[8px] font-semibold text-ink-500">
+        <span className="flex items-center gap-1.5 text-[9px] font-semibold text-ink-500">
           <span className="h-[7px] w-[7px] rounded-sm" style={{ background: PALETTE.green }} />
           Realisasi
         </span>
-        <span className="min-w-0 truncate text-[8px] text-ink-400" title={biodieselSummary.catatan}>
+        <span className="min-w-0 truncate text-[9px] text-ink-500" title={biodieselSummary.catatan}>
           {biodieselSummary.catatan}
         </span>
       </div>

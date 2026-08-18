@@ -60,7 +60,7 @@ export function ContinuousPerformance() {
           </span>{" "}
           <span className="text-ink-400">{feedbackFrequency.sub}</span>
         </span>
-        <span className="text-[8px] text-ink-400">4.321 karyawan tanpa check-in 90 hari</span>
+        <span className="text-[9px] text-ink-500">4.321 karyawan tanpa check-in 90 hari</span>
       </div>
     </div>
   );

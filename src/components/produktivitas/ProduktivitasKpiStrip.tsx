@@ -55,10 +55,10 @@ export function ProduktivitasKpiStrip() {
               value={k.value}
               className="mt-2 text-[18px] font-bold leading-none text-ink-900"
             />
-            <span className="mt-1.5 text-[9px] font-medium text-ink-400">{k.periode}</span>
+            <span className="mt-1.5 text-[9px] font-medium text-ink-500">{k.periode}</span>
             <div className="mt-1 flex items-center gap-1">
               <Delta value={k.delta} trend={k.trend} tone={k.deltaTone} size={9.5} />
-              <span className="text-[9px] font-medium text-ink-400">{k.compare}</span>
+              <span className="text-[9px] font-medium text-ink-500">{k.compare}</span>
             </div>
           </div>
         );

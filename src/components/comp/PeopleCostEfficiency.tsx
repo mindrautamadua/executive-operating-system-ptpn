@@ -22,7 +22,7 @@ export function PeopleCostEfficiency() {
           People Cost Efficiency
           <ScopeNote />
         </h3>
-        <span className="shrink-0 rounded px-1.5 py-[2px] text-[8px] font-bold leading-none tone-green">
+        <span className="shrink-0 rounded px-1.5 py-[2px] text-[9px] font-bold leading-none tone-green">
           Affordable
         </span>
       </div>
@@ -32,14 +32,14 @@ export function PeopleCostEfficiency() {
           <div key={c.label} className="rounded-xl border border-[#eef2f6] px-2.5 py-2">
             <div className="flex items-center justify-between gap-1">
               <span className="text-[12px] font-extrabold leading-none text-ink-900">{c.value}</span>
-              <span className={`rounded px-1 py-[1px] text-[7px] font-bold leading-none tone-${c.tone}`}>
+              <span className={`rounded px-1 py-[1px] text-[9px] font-bold leading-none tone-${c.tone}`}>
                 KPI
               </span>
             </div>
             <div className="mt-[3px] truncate text-[7.5px] font-semibold leading-tight text-ink-600">
               {c.label}
             </div>
-            <div className="text-[7px] leading-tight text-ink-400">{c.note}</div>
+            <div className="text-[9px] leading-tight text-ink-500">{c.note}</div>
           </div>
         ))}
       </div>
@@ -47,7 +47,7 @@ export function PeopleCostEfficiency() {
       <ul className="mt-2.5 flex min-h-0 flex-1 flex-col justify-center gap-[5px]">
         {affordability.bars.map((b) => (
           <li key={b.label} className="flex items-center gap-2">
-            <span className="w-[112px] shrink-0 truncate text-[8px] font-semibold text-ink-600">
+            <span className="w-[112px] shrink-0 truncate text-[9px] font-semibold text-ink-600">
               {b.label}
             </span>
             <div className="h-[7px] min-w-0 flex-1 overflow-hidden rounded-full bg-[var(--chart-grid)]">
@@ -63,7 +63,7 @@ export function PeopleCostEfficiency() {
         ))}
       </ul>
 
-      <p className="border-t border-[#eef2f6] pt-1.5 text-[8px] leading-snug text-ink-500">
+      <p className="border-t border-[#eef2f6] pt-1.5 text-[9px] leading-snug text-ink-500">
         {affordability.narasi}
       </p>
     </div>

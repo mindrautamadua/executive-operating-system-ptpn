@@ -86,7 +86,7 @@ export function ArmadaLogistik() {
         </div>
       </div>
 
-      <p className="mt-auto pt-2 text-[8px] leading-snug text-ink-400">{armada.note}</p>
+      <p className="mt-auto pt-2 text-[9px] leading-snug text-ink-500">{armada.note}</p>
       </>
       )}
     </div>

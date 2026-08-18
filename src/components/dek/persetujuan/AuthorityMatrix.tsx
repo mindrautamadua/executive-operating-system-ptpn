@@ -31,13 +31,13 @@ export function AuthorityMatrix() {
                 <td className="border-b border-[#f3f6f9] py-[5px] pr-2 text-[8.5px] font-bold leading-snug text-ink-900">
                   {a.jenisAksi}
                 </td>
-                <td className="border-b border-[#f3f6f9] py-[5px] pr-2 text-[8px] leading-snug text-ink-500">
+                <td className="border-b border-[#f3f6f9] py-[5px] pr-2 text-[9px] leading-snug text-ink-500">
                   {a.cukupDireksi}
                 </td>
-                <td className="border-b border-[#f3f6f9] py-[5px] pr-2 text-[8px] font-semibold leading-snug text-ptpn-green">
+                <td className="border-b border-[#f3f6f9] py-[5px] pr-2 text-[9px] font-semibold leading-snug text-ptpn-green">
                   {a.perluDekom}
                 </td>
-                <td className="border-b border-[#f3f6f9] py-[5px] pr-2 text-[8px] leading-snug text-ink-500">
+                <td className="border-b border-[#f3f6f9] py-[5px] pr-2 text-[9px] leading-snug text-ink-500">
                   {a.perluRups}
                 </td>
                 <td className="border-b border-[#f3f6f9] py-[5px] text-[7.5px] leading-snug text-ink-400">

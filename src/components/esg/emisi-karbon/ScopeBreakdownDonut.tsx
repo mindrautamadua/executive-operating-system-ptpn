@@ -56,7 +56,7 @@ export function ScopeBreakdownDonut() {
                 {d.name}
               </span>
               <span className="shrink-0 text-[9.5px] font-bold text-ink-900">{angka(d.value)}</span>
-              <span className="w-[38px] shrink-0 text-right text-[9px] text-ink-400">
+              <span className="w-[38px] shrink-0 text-right text-[9px] text-ink-500">
                 ({Math.round((d.value / total) * 100)}%)
               </span>
             </div>
@@ -64,7 +64,7 @@ export function ScopeBreakdownDonut() {
         </div>
       </div>
 
-      <p className="text-[8px] leading-snug text-ink-400">
+      <p className="text-[9px] leading-snug text-ink-500">
         Scope 1 mendominasi 58% total jejak; Scope 3 masih estimasi kategori 1, 4, dan 10.
       </p>
     </div>

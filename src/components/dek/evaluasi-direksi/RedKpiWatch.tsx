@@ -37,11 +37,11 @@ export function RedKpiWatch() {
             <div className="flex items-start justify-between gap-2">
               <div className="min-w-0">
                 <div className="truncate text-[10px] font-bold text-ink-900">{r.kpi}</div>
-                <div className="mt-[2px] text-[8px] font-semibold text-ink-500">
+                <div className="mt-[2px] text-[9px] font-semibold text-ink-500">
                   {r.direktorat}
                 </div>
               </div>
-              <span className="shrink-0 rounded bg-[#fdecec] px-1.5 py-[2px] text-[8px] font-bold text-[#ef4444]">
+              <span className="shrink-0 rounded bg-[#fdecec] px-1.5 py-[2px] text-[9px] font-bold text-[#ef4444]">
                 Merah {r.triwulanMerah} TW
               </span>
             </div>
@@ -55,7 +55,7 @@ export function RedKpiWatch() {
               </span>
             </p>
 
-            <div className="mt-auto flex items-center gap-1 pt-1.5 text-[8px] font-semibold text-ink-400">
+            <div className="mt-auto flex items-center gap-1 pt-1.5 text-[9px] font-semibold text-ink-500">
               <MapPin size={9} className="shrink-0" />
               Diajukan pada: {r.forum}
             </div>

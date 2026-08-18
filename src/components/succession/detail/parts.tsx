@@ -33,7 +33,7 @@ export function NineBoxDetailGrid({
 
       <div className="mt-3 flex min-h-0 flex-1 gap-2">
         <div
-          className="flex shrink-0 items-center justify-center text-[8px] font-bold uppercase tracking-[0.12em] text-ink-400"
+          className="flex shrink-0 items-center justify-center text-[9px] font-bold uppercase tracking-[0.12em] text-ink-500"
           style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}
         >
           Potensi
@@ -72,7 +72,7 @@ export function NineBoxDetailGrid({
                     </span>
                     <span className="text-[8.5px] font-semibold opacity-75">({cell.pct}%)</span>
                   </div>
-                  <span className="mt-1 truncate text-[8px] font-medium opacity-80" title={cell.action}>
+                  <span className="mt-1 truncate text-[9px] font-medium opacity-80" title={cell.action}>
                     {cell.action}
                   </span>
                 </div>
@@ -87,7 +87,7 @@ export function NineBoxDetailGrid({
               </div>
             ))}
           </div>
-          <div className="ml-[60px] mt-[3px] text-center text-[8px] font-bold uppercase tracking-[0.12em] text-ink-400">
+          <div className="ml-[60px] mt-[3px] text-center text-[9px] font-bold uppercase tracking-[0.12em] text-ink-500">
             Kinerja
           </div>
         </div>
@@ -149,7 +149,7 @@ export function ProgressListCard({
       </div>
 
       {footer && (
-        <p className="mt-2 border-t border-[#eef2f6] pt-1.5 text-[8px] leading-[1.4] text-ink-400">
+        <p className="mt-2 border-t border-[#eef2f6] pt-1.5 text-[9px] leading-[1.4] text-ink-500">
           {footer}
         </p>
       )}

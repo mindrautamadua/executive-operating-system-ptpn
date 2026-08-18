@@ -49,7 +49,7 @@ export function MitigationPortfolio() {
         ))}
       </ul>
 
-      <div className="mt-2 flex items-center gap-3 text-[8px] font-semibold text-ink-500">
+      <div className="mt-2 flex items-center gap-3 text-[9px] font-semibold text-ink-500">
         <span className="flex items-center gap-1">
           <span className="h-[7px] w-[7px] rounded-full bg-ptpn-green" />
           On-Track

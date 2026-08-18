@@ -86,7 +86,7 @@ export function EntityPortfolio() {
         </table>
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">{entityStats.note}</p>
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">{entityStats.note}</p>
     </div>
   );
 }

@@ -39,7 +39,7 @@ export function ExecutiveTalentIntelligence() {
         <h3 className="flex items-center gap-1.5 text-[10px] font-extrabold uppercase tracking-[0.05em] text-ink-900">
           <BrainCircuit size={13} className="text-ptpn-green" />
           Executive Talent Intelligence
-          <span className="rounded bg-ptpn-greenLight px-1 py-[1px] text-[8px] font-bold normal-case tracking-normal text-ptpn-green">
+          <span className="rounded bg-ptpn-greenLight px-1 py-[1px] text-[9px] font-bold normal-case tracking-normal text-ptpn-green">
             AI
           </span>
         </h3>
@@ -68,7 +68,7 @@ export function ExecutiveTalentIntelligence() {
             <div key={s.no} className={`rounded-xl border px-3 pb-2.5 pt-2.5 ${t.wrap}`}>
               <div className="flex items-center gap-1.5">
                 <span className={`h-[7px] w-[7px] shrink-0 rounded-full ${t.dot}`} />
-                <span className="text-[8px] font-bold text-ink-400">{s.no}</span>
+                <span className="text-[9px] font-bold text-ink-500">{s.no}</span>
                 <span className="truncate text-[10px] font-bold text-ink-900" title={s.title}>
                   {s.title}
                 </span>

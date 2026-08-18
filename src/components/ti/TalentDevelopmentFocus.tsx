@@ -75,7 +75,7 @@ export function TalentDevelopmentFocus() {
                 {d.value}{" "}
                 <span className="text-[9px] font-semibold text-ink-500">Talenta</span>
               </span>
-              <span className="mt-[3px] text-[8px] text-ink-400">Program aktif</span>
+              <span className="mt-[3px] text-[9px] text-ink-500">Program aktif</span>
             </div>
           );
         })}
@@ -89,7 +89,7 @@ export function TalentDevelopmentFocus() {
           <MiniTrend data={tiInvestment.trend} />
           <span className="flex items-center gap-1.5">
             <Delta value={tiInvestment.delta} trend="up" tone="good" size={9} />
-            <span className="text-[8px] text-ink-400">{tiInvestment.compare}</span>
+            <span className="text-[9px] text-ink-500">{tiInvestment.compare}</span>
           </span>
         </div>
       </div>
@@ -100,7 +100,7 @@ export function TalentDevelopmentFocus() {
           {tiDevRoi.map((step, i) => (
             <div key={step.label} className="flex min-w-0 flex-1 items-center gap-2">
               <div className="min-w-0 flex-1">
-                <div className="truncate text-[8px] font-bold uppercase tracking-[0.04em] text-ink-400">
+                <div className="truncate text-[9px] font-bold uppercase tracking-[0.04em] text-ink-500">
                   {step.label}
                 </div>
                 <div className="mt-[3px] text-[13px] font-extrabold leading-none text-ink-900">
@@ -114,7 +114,7 @@ export function TalentDevelopmentFocus() {
             </div>
           ))}
         </div>
-        <div className="mt-2 flex items-center gap-1.5 border-t border-[#eef2f6] pt-1.5 text-[8px] text-ink-400">
+        <div className="mt-2 flex items-center gap-1.5 border-t border-[#eef2f6] pt-1.5 text-[9px] text-ink-500">
           <Info size={9} className="shrink-0" />
           {tiDevRoiNote}
         </div>

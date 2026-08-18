@@ -48,14 +48,14 @@ export function InfrastructureFootprint() {
                   }}
                 />
               </div>
-              <span className="shrink-0 text-[8px] font-bold text-ink-700">
+              <span className="shrink-0 text-[9px] font-bold text-ink-700">
                 {r.utilisasiPct}% utilisasi
               </span>
-              <span className="shrink-0 text-[8px] font-semibold text-ink-400">
+              <span className="shrink-0 text-[9px] font-semibold text-ink-500">
                 {r.bebanKerjaPct}% beban
               </span>
             </div>
-            <p className="mt-[3px] text-[8px] leading-snug text-ink-400">{r.catatan}</p>
+            <p className="mt-[3px] text-[9px] leading-snug text-ink-500">{r.catatan}</p>
           </div>
         ))}
       </div>

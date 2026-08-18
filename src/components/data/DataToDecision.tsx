@@ -39,14 +39,14 @@ export function DataToDecision() {
                 <span className="text-[9px] font-bold tabular-nums text-white">{f.value}</span>
               </div>
             </div>
-            <span className="w-[118px] shrink-0 text-right text-[9px] text-ink-400">
+            <span className="w-[118px] shrink-0 text-right text-[9px] text-ink-500">
               {f.caption}
             </span>
           </div>
         ))}
       </div>
 
-      <div className="mt-1 border-t border-[#f0f3f6] pt-1.5 text-[9px] text-ink-400">
+      <div className="mt-1 border-t border-[#f0f3f6] pt-1.5 text-[9px] text-ink-500">
         {funnelFooter}
       </div>
 

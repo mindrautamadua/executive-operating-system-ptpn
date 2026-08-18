@@ -79,7 +79,7 @@ export function TransformationBenefits() {
               dataKey="name"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -87,7 +87,7 @@ export function TransformationBenefits() {
               ticks={[0, 0.5, 1, 1.5, 2]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => v.toLocaleString("id-ID")}
               width={32}
             />
@@ -111,14 +111,14 @@ export function TransformationBenefits() {
                 formatter={(v: number) =>
                   v.toLocaleString("id-ID", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
                 }
-                style={{ fontSize: 7.5, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 truncate text-[8px] text-ink-400">
+      <p className="mt-1 truncate text-[9px] text-ink-500">
         Operational Excellence menyumbang 42% benefit YTD; Dekarbonisasi terkecil (Rp 0,11 T).
       </p>
     </div>

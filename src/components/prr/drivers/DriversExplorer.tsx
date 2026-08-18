@@ -255,7 +255,7 @@ export function DriversExplorer() {
                     <span className="block truncate text-[9.5px] text-ink-700" title={d.name}>
                       {d.name}
                     </span>
-                    <span className="block truncate text-[8px] text-ink-400" title={d.signal}>
+                    <span className="block truncate text-[9px] text-ink-500" title={d.signal}>
                       {d.signal}
                     </span>
                   </td>
@@ -302,7 +302,7 @@ export function DriversExplorer() {
                   <td className="whitespace-nowrap px-2 py-[7px] text-[9px] text-ink-700">
                     {d.linkedRisks} risiko
                     {d.criticalLinked > 0 && (
-                      <span className="ml-1 rounded bg-[#fdecec] px-1 py-[1px] text-[8px] font-bold text-[#ef4444]">
+                      <span className="ml-1 rounded bg-[#fdecec] px-1 py-[1px] text-[9px] font-bold text-[#ef4444]">
                         {d.criticalLinked} critical
                       </span>
                     )}
@@ -540,7 +540,7 @@ export function DriversExplorer() {
                   {a.driver}
                 </div>
                 <p className="mt-[2px] text-[8.5px] leading-[1.35] text-ink-600">{a.action}</p>
-                <div className="mt-1 flex items-center justify-between text-[8px] text-ink-400">
+                <div className="mt-1 flex items-center justify-between text-[9px] text-ink-500">
                   <span>
                     {a.owner} · {a.due}
                   </span>

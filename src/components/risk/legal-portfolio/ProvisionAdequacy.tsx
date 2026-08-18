@@ -45,7 +45,7 @@ export function ProvisionAdequacy() {
                 (h) => (
                   <th
                     key={h}
-                    className="py-[5px] text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-400"
+                    className="py-[5px] text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500"
                   >
                     {h}
                   </th>
@@ -91,7 +91,7 @@ export function ProvisionAdequacy() {
         </table>
       </div>
 
-      <p className="mt-1.5 rounded-md bg-[#fdf3e0] px-2 py-[5px] text-[8px] leading-[1.4] text-[#a26a05]">
+      <p className="mt-1.5 rounded-md bg-[#fdf3e0] px-2 py-[5px] text-[9px] leading-[1.4] text-[#a26a05]">
         {provisionStats.note}
       </p>
     </div>

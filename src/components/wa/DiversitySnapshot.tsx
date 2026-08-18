@@ -50,7 +50,7 @@ export function DiversitySnapshot() {
               <div className={`mt-1.5 text-[17px] font-extrabold leading-none ${tone.value}`}>
                 {t.value}
               </div>
-              <div className="mt-[3px] text-[8px] text-ink-500">{t.sub}</div>
+              <div className="mt-[3px] text-[9px] text-ink-500">{t.sub}</div>
               <div className="mt-1.5 flex items-center gap-1">
                 <Delta value={t.delta} trend="up" tone="good" size={8.5} />
                 <span className="truncate text-[7.5px] text-ink-400">{t.compare}</span>

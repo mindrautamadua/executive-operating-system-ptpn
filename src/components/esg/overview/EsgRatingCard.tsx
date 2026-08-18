@@ -24,7 +24,7 @@ export function EsgRatingCard() {
             {angka(esgRating.score)}
           </div>
           <div className="mt-1.5 flex items-center gap-1.5">
-            <span className="rounded bg-[#fdf3e0] px-1.5 py-[2px] text-[8px] font-extrabold text-[#d98b06]">
+            <span className="rounded bg-[#fdf3e0] px-1.5 py-[2px] text-[9px] font-extrabold text-[#d98b06]">
               {esgRating.band}
             </span>
             <Delta
@@ -35,7 +35,7 @@ export function EsgRatingCard() {
             />
           </div>
         </div>
-        <p className="max-w-[135px] text-right text-[8px] leading-snug text-ink-400">
+        <p className="max-w-[135px] text-right text-[9px] leading-snug text-ink-500">
           Skor risiko — makin rendah makin baik. Ambang Low Risk: 20,0.
         </p>
       </div>
@@ -73,7 +73,7 @@ export function EsgRatingCard() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="mt-1.5 text-[9px] leading-snug text-ink-500">
         Membaik 4,8 poin sejak 2023; pilar sosial (cakupan HRDD 84,6%) menjadi penahan utama menuju
         band Low Risk.
       </p>

@@ -70,7 +70,7 @@ export function SalesBySubholding() {
                 tone={s.rkapPct >= 100 ? "good" : s.rkapPct >= 95 ? "warn" : "bad"}
               />
             </div>
-            <p className="mt-1 truncate text-[8px] text-ink-400" title={s.komoditasUtama}>
+            <p className="mt-1 truncate text-[9px] text-ink-500" title={s.komoditasUtama}>
               {s.komoditasUtama}
             </p>
           </div>

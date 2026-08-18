@@ -26,7 +26,7 @@ export function EskalasiStatus() {
         {eskalasiPath.map((e, i) => (
           <li key={e.level} className={`shrink-0 rounded-lg border px-2.5 py-1.5 ${LEVEL_CLS[i]}`}>
             <div className="flex items-center gap-1.5">
-              <span className="shrink-0 text-[8px] font-extrabold uppercase tracking-[0.05em]">
+              <span className="shrink-0 text-[9px] font-extrabold uppercase tracking-[0.05em]">
                 Level {e.level}
               </span>
               <ChevronRight size={10} className="shrink-0 opacity-60" />
@@ -42,7 +42,7 @@ export function EskalasiStatus() {
         ))}
       </ul>
 
-      <p className="mt-2 text-[8px] leading-snug text-ink-400">
+      <p className="mt-2 text-[9px] leading-snug text-ink-500">
         Status saat ini: 2 breach (HPP CPO &amp; piutang plasma) berada pada Level 3 — wajib
         diagendakan pada Rapat Direksi Juli 2026.
       </p>

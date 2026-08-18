@@ -59,7 +59,7 @@ export function TechnicalDebt() {
               dataKey="singkat"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               width={78}
             />
             <Tooltip
@@ -82,14 +82,14 @@ export function TechnicalDebt() {
                 position="right"
                 offset={5}
                 formatter={(v: React.ReactNode) => desimal(Number(v))}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Total remediasi Rp 287 M; aplikasi legacy (4,2) dan patch tertunda (3,6) adalah dua beban
         terberat.
       </p>

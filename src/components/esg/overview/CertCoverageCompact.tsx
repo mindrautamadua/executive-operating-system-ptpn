@@ -36,7 +36,7 @@ export function CertCoverageCompact() {
             </div>
 
             <div className="mt-1.5 flex items-center gap-2">
-              <span className="w-[46px] shrink-0 text-[8px] font-semibold text-ink-400">ISPO</span>
+              <span className="w-[46px] shrink-0 text-[9px] font-semibold text-ink-500">ISPO</span>
               <div className="h-[9px] min-w-0 flex-1 overflow-hidden rounded-full bg-[#eef2f6]">
                 <div
                   className="h-full rounded-full bg-ptpn-green"
@@ -46,7 +46,7 @@ export function CertCoverageCompact() {
             </div>
 
             <div className="mt-1.5 flex items-center gap-2">
-              <span className="w-[46px] shrink-0 text-[8px] font-semibold text-ink-400">RSPO</span>
+              <span className="w-[46px] shrink-0 text-[9px] font-semibold text-ink-500">RSPO</span>
               <div className="h-[9px] min-w-0 flex-1 overflow-hidden rounded-full bg-[#eef2f6]">
                 <div
                   className="h-full rounded-full bg-[#3b7ded]"
@@ -58,7 +58,7 @@ export function CertCoverageCompact() {
         ))}
       </div>
 
-      <p className="mt-auto pt-2 text-[8px] leading-snug text-ink-400">
+      <p className="mt-auto pt-2 text-[9px] leading-snug text-ink-500">
         {rows.length === 0
           ? "ISPO & RSPO adalah skema sertifikasi sawit; unit gula memakai ISO 14001 (lihat Matriks Sertifikasi)."
           : isFiltered

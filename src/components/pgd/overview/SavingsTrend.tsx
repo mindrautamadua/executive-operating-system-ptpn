@@ -84,7 +84,7 @@ export function SavingsTrend() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Realisasi melampaui jalur prorata sejak Apr&apos;26 (+Rp 32 M) — namun 43,5% penghematan
         masih bergantung pada 42 kontrak payung yang belum menutup seluruh kategori strategis.
       </p>

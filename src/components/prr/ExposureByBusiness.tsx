@@ -27,7 +27,7 @@ export function ExposureByBusiness() {
         Ancaman People Risk Terhadap Lini Bisnis · Total Rp 128,6 M
       </p>
 
-      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_32px_58px_54px] items-center gap-x-1 border-b border-[#eef2f6] pb-1.5 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_32px_58px_54px] items-center gap-x-1 border-b border-[#eef2f6] pb-1.5 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Lini Bisnis</span>
         <span className="text-center">Skor</span>
         <span className="text-right">Exposure</span>
@@ -62,7 +62,7 @@ export function ExposureByBusiness() {
         ))}
       </ul>
 
-      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         Palm Oil menyerap 53% total exposure — prioritas mitigasi mengikuti bobot bisnis, bukan
         sekadar skor risiko tertinggi.
       </p>

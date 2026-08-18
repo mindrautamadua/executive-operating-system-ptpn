@@ -46,7 +46,7 @@ export function CommunityFirePartnership() {
             >
               {r.value}
             </div>
-            <div className="mt-[3px] truncate text-[8px] font-semibold text-ink-500">{r.label}</div>
+            <div className="mt-[3px] truncate text-[9px] font-semibold text-ink-500">{r.label}</div>
           </div>
         ))}
       </div>

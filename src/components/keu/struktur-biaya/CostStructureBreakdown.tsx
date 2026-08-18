@@ -45,7 +45,7 @@ export function CostStructureBreakdown() {
             <span className="w-[48px] shrink-0 text-right text-[9.5px] font-bold tabular-nums text-ink-900">
               {fmtId(c.valueRpT, 2)} T
             </span>
-            <span className="w-[30px] shrink-0 text-right text-[9px] tabular-nums text-ink-400">
+            <span className="w-[30px] shrink-0 text-right text-[9px] tabular-nums text-ink-500">
               {c.pct}%
             </span>
           </div>

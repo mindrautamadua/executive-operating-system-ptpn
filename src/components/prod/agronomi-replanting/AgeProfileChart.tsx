@@ -95,7 +95,7 @@ export function AgeProfileChart() {
                 dataKey="pct"
                 position="top"
                 formatter={(v: number) => `${v}%`}
-                style={{ fontSize: 7.5, fill: "#64748b", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#64748b", fontWeight: 700 }}
               />
             </Bar>
             <Line
@@ -111,7 +111,7 @@ export function AgeProfileChart() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Tua + renta 27% (137,4 rb ha) — yield jatuh dari 26,0 (prima) ke 13,2 t/ha (renta);
         driver 40% gap yield vs benchmark swasta.
       </p>

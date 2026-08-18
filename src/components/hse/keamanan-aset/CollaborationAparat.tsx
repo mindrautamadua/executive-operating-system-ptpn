@@ -47,7 +47,7 @@ export function CollaborationAparat() {
                   {c.kasusDitangani}
                 </span>
               </span>
-              <span className="min-w-0 flex-1 truncate text-[8px] text-ink-400" title={c.cakupan}>
+              <span className="min-w-0 flex-1 truncate text-[9px] text-ink-500" title={c.cakupan}>
                 {c.cakupan}
               </span>
             </div>

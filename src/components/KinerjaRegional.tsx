@@ -17,12 +17,12 @@ export function KinerjaRegional() {
     <div className="card flex h-full min-h-[300px] flex-col px-4 pb-3 pt-3">
       <div className="flex items-baseline gap-1.5">
         <h3 className="card-title">KINERJA REGIONAL</h3>
-        <span className="text-[9px] text-ink-400">(YTD 2026)</span>
+        <span className="text-[9px] text-ink-500">(YTD 2026)</span>
       </div>
 
       <div className="mt-1 flex items-center justify-between">
         <span className="muted-label">REGIONAL</span>
-        <span className="text-[9px] text-ink-400">Pendapatan · vs 2025</span>
+        <span className="text-[9px] text-ink-500">Pendapatan · vs 2025</span>
       </div>
 
       <div className="mt-2 flex flex-1 flex-col justify-between gap-2">
@@ -32,7 +32,7 @@ export function KinerjaRegional() {
               <div className="flex items-baseline gap-2">
                 <span className="shrink-0 text-[10.5px] font-medium text-ink-700">{r.name}</span>
                 {r.diagnosis && (
-                  <span className="flex min-w-0 items-center gap-[1px] truncate rounded bg-[#fee2e2] px-1 py-[1px] text-[8px] font-bold leading-[1.5] text-[#dc2626]">
+                  <span className="flex min-w-0 items-center gap-[1px] truncate rounded bg-[#fee2e2] px-1 py-[1px] text-[9px] font-bold leading-[1.5] text-[#dc2626]">
                     PERHATIAN
                     <ChevronRight size={12} aria-hidden />
                   </span>

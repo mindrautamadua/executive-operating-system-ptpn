@@ -45,7 +45,7 @@ export function TurnoverTrend() {
               dataKey="name"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={2}
               tickFormatter={(v: string) => v.replace(" 20", " ")}
             />
@@ -87,7 +87,7 @@ export function TurnoverTrend() {
                       x={x}
                       y={y - 7}
                       textAnchor="end"
-                      style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                      style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
                     >
                       {persen(value ?? 0)}
                     </text>

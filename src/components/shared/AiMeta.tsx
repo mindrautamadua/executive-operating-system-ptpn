@@ -31,12 +31,12 @@ export function AiMeta({ jenis, confidencePct, evidence }: AiMetaInfo) {
         {jenis}
       </span>
       {confidencePct !== undefined && (
-        <span className="text-[8px] font-semibold text-ink-400">
+        <span className="text-[9px] font-semibold text-ink-500">
           Keyakinan {confidencePct}%
         </span>
       )}
       {evidence && (
-        <span className="min-w-0 truncate text-[8px] text-ink-400" title={evidence}>
+        <span className="min-w-0 truncate text-[9px] text-ink-500" title={evidence}>
           Bukti: {evidence}
         </span>
       )}

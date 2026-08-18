@@ -35,7 +35,7 @@ export function GapAnalysisCard() {
               <span className="truncate text-[9px] font-bold text-ink-900">{g.faktor}</span>
               <span className="shrink-0 text-[9px] font-extrabold text-ink-900">
                 {num(g.gapTonHa)} t/ha
-                <span className="ml-1 text-[8px] font-semibold text-ink-400">
+                <span className="ml-1 text-[9px] font-semibold text-ink-500">
                   ({g.kontribusiPct}%)
                 </span>
               </span>

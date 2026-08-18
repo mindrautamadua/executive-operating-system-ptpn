@@ -66,7 +66,7 @@ export function ComplianceHeatmapOrg() {
       <SectionHead title="Compliance Exposure Map" />
       <p className="mt-[3px] text-[9px] text-ink-500">Skor + Eksposur Finansial per Sub Holding</p>
 
-      <div className="mt-2.5 grid grid-cols-[minmax(0,1fr)_30px_30px_38px_30px_40px] items-center gap-x-1 border-b border-[#eef2f6] pb-1.5 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2.5 grid grid-cols-[minmax(0,1fr)_30px_30px_38px_30px_40px] items-center gap-x-1 border-b border-[#eef2f6] pb-1.5 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Organisasi</span>
         <span className="text-center">Tmn</span>
         <span className="text-center">Kss</span>
@@ -101,7 +101,7 @@ export function ComplianceHeatmapOrg() {
         ))}
       </ul>
 
-      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[4px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[4px] text-[9px] leading-[1.4] text-ink-500">
         ● prioritas · total eksposur Rp 12,4 M — PTPN IV &amp; V menyumbang 60%.
       </p>
 

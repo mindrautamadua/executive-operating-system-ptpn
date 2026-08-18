@@ -83,14 +83,14 @@ export function RainfallAnomalyChart() {
               label={{
                 value: "Ambang -15%",
                 position: "insideBottomRight",
-                style: { fontSize: 7.5, fill: PALETTE.red, fontWeight: 700 },
+                style: { fontSize: 8.5, fill: PALETTE.red, fontWeight: 700 },
               }}
             />
             <XAxis
               dataKey="regional"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: string) => v.replace("Regional ", "R")}
             />
             <YAxis

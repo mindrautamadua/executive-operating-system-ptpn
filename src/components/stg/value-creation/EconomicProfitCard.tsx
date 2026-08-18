@@ -37,19 +37,19 @@ export function EconomicProfitCard() {
         <div className="flex w-[236px] shrink-0 flex-col gap-2">
           <div className="grid grid-cols-3 gap-2">
             <div className="rounded-lg border border-[#eef2f6] bg-[#f5f8fa] px-2 py-1.5">
-              <div className="text-[8px] font-semibold text-ink-500">ROIC</div>
+              <div className="text-[9px] font-semibold text-ink-500">ROIC</div>
               <div className="mt-[3px] text-[14px] font-extrabold leading-none text-ink-900">
                 {fmt1(roicPct)}%
               </div>
             </div>
             <div className="rounded-lg border border-[#eef2f6] bg-[#f5f8fa] px-2 py-1.5">
-              <div className="text-[8px] font-semibold text-ink-500">WACC</div>
+              <div className="text-[9px] font-semibold text-ink-500">WACC</div>
               <div className="mt-[3px] text-[14px] font-extrabold leading-none text-ink-900">
                 {fmt1(waccPct)}%
               </div>
             </div>
             <div className="rounded-lg border border-[#f5d9d9] bg-[#fdecec] px-2 py-1.5">
-              <div className="text-[8px] font-semibold text-[#ef4444]">Spread</div>
+              <div className="text-[9px] font-semibold text-[#ef4444]">Spread</div>
               <div className="mt-[3px] text-[14px] font-extrabold leading-none text-[#ef4444]">
                 {signed(spreadPts, fmt1)}
               </div>
@@ -61,7 +61,7 @@ export function EconomicProfitCard() {
         <div className="min-w-0 flex-1">
           <table className="w-full border-collapse">
             <thead>
-              <tr className="border-b border-[#eef2f6] text-[8px] font-extrabold uppercase tracking-[0.05em] text-ink-400">
+              <tr className="border-b border-[#eef2f6] text-[9px] font-extrabold uppercase tracking-[0.05em] text-ink-500">
                 <th className="pb-[6px] text-left font-extrabold">Entitas</th>
                 <th className="pb-[6px] text-right font-extrabold">ROIC</th>
                 <th className="pb-[6px] text-right font-extrabold">Spread vs WACC</th>

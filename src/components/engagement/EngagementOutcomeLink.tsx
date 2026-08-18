@@ -33,22 +33,22 @@ export function EngagementOutcomeLink() {
             <div className="flex items-center justify-between gap-1">
               <span className="truncate text-[9px] font-extrabold text-ink-900">{c.cluster}</span>
               <span
-                className={`tone-${c.tone} shrink-0 rounded px-1.5 py-[2px] text-[7px] font-bold leading-none`}
+                className={`tone-${c.tone} shrink-0 rounded px-1.5 py-[2px] text-[9px] font-bold leading-none`}
               >
                 {c.populasi}
               </span>
             </div>
             <span className="mt-[2px] text-[7.5px] text-ink-400">{c.range} · porsi populasi</span>
             <ul className="mt-auto flex flex-col gap-[3px] pt-1.5">
-              <li className="flex justify-between text-[8px]">
+              <li className="flex justify-between text-[9px]">
                 <span className="font-semibold text-ink-500">Turnover</span>
                 <span className="font-extrabold tabular-nums text-ink-900">{c.turnover}</span>
               </li>
-              <li className="flex justify-between text-[8px]">
+              <li className="flex justify-between text-[9px]">
                 <span className="font-semibold text-ink-500">Avg performa</span>
                 <span className="font-extrabold tabular-nums text-ink-900">{c.performa}</span>
               </li>
-              <li className="flex justify-between text-[8px]">
+              <li className="flex justify-between text-[9px]">
                 <span className="font-semibold text-ink-500">Produktivitas</span>
                 <span className="font-extrabold tabular-nums text-ink-900">{c.produktivitas}</span>
               </li>

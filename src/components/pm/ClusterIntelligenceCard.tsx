@@ -48,7 +48,7 @@ export function ClusterIntelligenceCard() {
                 {c.bestFit.map((f) => (
                   <span
                     key={f}
-                    className="rounded bg-[#eef2f6] px-1.5 py-[2px] text-[8px] font-semibold text-ink-700"
+                    className="rounded bg-[#eef2f6] px-1.5 py-[2px] text-[9px] font-semibold text-ink-700"
                   >
                     {f}
                   </span>
@@ -56,11 +56,11 @@ export function ClusterIntelligenceCard() {
               </span>
               <span className="text-right text-[9.5px] font-extrabold text-ink-900">
                 {c.produktivitas}
-                <span className="ml-[2px] text-[8px] font-medium text-ink-400">idx</span>
+                <span className="ml-[2px] text-[9px] font-medium text-ink-500">idx</span>
               </span>
               <span className="text-right text-[9.5px] font-bold text-ink-900">
                 {c.performance}
-                <span className="ml-[2px] text-[8px] font-medium text-ink-400">/5</span>
+                <span className="ml-[2px] text-[9px] font-medium text-ink-500">/5</span>
               </span>
               <span className="flex justify-center">
                 <span

@@ -75,11 +75,11 @@ export function IncidentBySeverity() {
       </div>
 
       <div className="flex items-center justify-between gap-2 border-t border-[#f4f7fa] pt-1.5">
-        <p className="text-[8px] leading-snug text-ink-400">
+        <p className="text-[9px] leading-snug text-ink-500">
           Rata-rata hari kerja hilang menanjak tajam: 3 hari (ringan) → 24 hari (sedang) → 312 hari
           (berat).
         </p>
-        <span className="shrink-0 whitespace-nowrap text-[8px] font-extrabold text-[#ef4444]">
+        <span className="shrink-0 whitespace-nowrap text-[9px] font-extrabold text-[#ef4444]">
           2 insiden fatal
         </span>
       </div>

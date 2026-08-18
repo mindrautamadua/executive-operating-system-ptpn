@@ -59,7 +59,7 @@ export function MarginBySubholding() {
                 {pctLabel(s.marginPct)}
               </span>
             </div>
-            <p className="mt-1 truncate text-[8px] text-ink-400" title={s.catatan}>
+            <p className="mt-1 truncate text-[9px] text-ink-500" title={s.catatan}>
               {s.catatan}
             </p>
           </li>

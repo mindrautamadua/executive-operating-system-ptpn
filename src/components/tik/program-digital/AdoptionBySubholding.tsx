@@ -103,7 +103,7 @@ export function AdoptionBySubholding() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Selisih 21 poin antara Holding (79%) dan SGN (58%) — rata-rata grup menutupi sebaran nyata
         antar-entitas.
       </p>

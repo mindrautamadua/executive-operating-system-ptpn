@@ -31,25 +31,25 @@ export function VendorConcentration() {
         <table className="w-full border-collapse">
           <thead>
             <tr className="border-b border-[#eef2f6]">
-              <th className="pb-1.5 text-left text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-400">
+              <th className="pb-1.5 text-left text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500">
                 #
               </th>
-              <th className="pb-1.5 text-left text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-400">
+              <th className="pb-1.5 text-left text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500">
                 Vendor
               </th>
-              <th className="pb-1.5 text-left text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-400">
+              <th className="pb-1.5 text-left text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500">
                 Kategori
               </th>
-              <th className="pb-1.5 text-right text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-400">
+              <th className="pb-1.5 text-right text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500">
                 Belanja
               </th>
-              <th className="pb-1.5 text-right text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-400">
+              <th className="pb-1.5 text-right text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500">
                 Share
               </th>
-              <th className="pb-1.5 text-right text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-400">
+              <th className="pb-1.5 text-right text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500">
                 Risiko
               </th>
-              <th className="pb-1.5 text-right text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-400">
+              <th className="pb-1.5 text-right text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500">
                 Substitusi
               </th>
             </tr>
@@ -61,7 +61,7 @@ export function VendorConcentration() {
                 <td className="py-[5px] pr-2 text-[8.5px] font-semibold text-ink-900">
                   {r.vendor}
                 </td>
-                <td className="py-[5px] pr-2 text-[8px] text-ink-500">{r.kategori}</td>
+                <td className="py-[5px] pr-2 text-[9px] text-ink-500">{r.kategori}</td>
                 <td className="py-[5px] text-right text-[8.5px] text-ink-700">
                   Rp {r.valueRpT.toLocaleString("id-ID", { minimumFractionDigits: 2 })} T
                 </td>
@@ -80,7 +80,7 @@ export function VendorConcentration() {
         </table>
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         PT Energi Solar Andalan (4,2% belanja) tanpa vendor pengganti terkualifikasi — titik
         ketergantungan tunggal paling kritis.
       </p>

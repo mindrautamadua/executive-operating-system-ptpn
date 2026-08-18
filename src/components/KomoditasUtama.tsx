@@ -17,7 +17,7 @@ export function KomoditasUtama() {
               (rata-rata tertimbang 5 regional) — tanpa label ini keduanya
               terbaca bertentangan (mis. R1 Rp 12.744 vs ASP Rp 12.482). */}
           <span
-            className="cursor-help text-[9px] text-ink-400 underline decoration-dotted decoration-[#c6cfd8] underline-offset-2"
+            className="cursor-help text-[9px] text-ink-500 underline decoration-dotted decoration-[#c6cfd8] underline-offset-2"
             title="Harga referensi per regional, bukan ASP grup. ASP CPO di Key Strategic KPI adalah rata-rata tertimbang 5 regional — kedua angka tidak bertentangan."
           >
             (Referensi regional · YTD 2026)
@@ -55,7 +55,7 @@ export function KomoditasUtama() {
               <span className="text-[11px] font-bold text-ink-900">
                 {rupiahPerKg(r.price)}
               </span>
-              <span className="text-[9px] text-ink-400">/kg</span>
+              <span className="text-[9px] text-ink-500">/kg</span>
             </div>
             <div className="mt-[3px] h-[3px] w-full overflow-hidden rounded-full bg-[#eef2f6]">
               <div

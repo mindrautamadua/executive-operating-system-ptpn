@@ -39,7 +39,7 @@ export function DrTest() {
 
               <div className="mt-2 grid grid-cols-2 gap-2">
                 <div>
-                  <div className="text-[8px] font-bold uppercase tracking-[0.04em] text-ink-400">
+                  <div className="text-[9px] font-bold uppercase tracking-[0.04em] text-ink-500">
                     RTO
                   </div>
                   <div
@@ -47,10 +47,10 @@ export function DrTest() {
                   >
                     {belum ? "—" : jam(d.rtoAktualJam)}
                   </div>
-                  <div className="mt-[3px] text-[8px] text-ink-400">target {jam(d.rtoTargetJam)}</div>
+                  <div className="mt-[3px] text-[9px] text-ink-500">target {jam(d.rtoTargetJam)}</div>
                 </div>
                 <div>
-                  <div className="text-[8px] font-bold uppercase tracking-[0.04em] text-ink-400">
+                  <div className="text-[9px] font-bold uppercase tracking-[0.04em] text-ink-500">
                     RPO
                   </div>
                   <div
@@ -58,11 +58,11 @@ export function DrTest() {
                   >
                     {belum ? "—" : jam(d.rpoAktualJam)}
                   </div>
-                  <div className="mt-[3px] text-[8px] text-ink-400">target {jam(d.rpoTargetJam)}</div>
+                  <div className="mt-[3px] text-[9px] text-ink-500">target {jam(d.rpoTargetJam)}</div>
                 </div>
               </div>
 
-              <div className="mt-1.5 text-[8px] font-semibold text-ink-400">
+              <div className="mt-1.5 text-[9px] font-semibold text-ink-500">
                 Uji terakhir: {d.ujiTerakhir}
               </div>
             </div>

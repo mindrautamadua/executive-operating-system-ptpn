@@ -43,7 +43,7 @@ export function CommodityPriceExposure() {
               dataKey="month"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={2}
             />
             <YAxis
@@ -69,7 +69,7 @@ export function CommodityPriceExposure() {
               label={{
                 value: "Asumsi RKAP 13.500",
                 position: "insideBottomRight",
-                fontSize: 7.5,
+                fontSize: 8.5,
                 fill: PALETTE.red,
               }}
             />
@@ -94,7 +94,7 @@ export function CommodityPriceExposure() {
       </div>
 
       <div className="flex items-start justify-between gap-4 pb-1">
-        <p className="min-w-0 text-[8px] leading-snug text-ink-400">{commodityNote}</p>
+        <p className="min-w-0 text-[9px] leading-snug text-ink-500">{commodityNote}</p>
         <div className="flex shrink-0 items-center gap-3.5">
           <span className="flex items-center gap-1.5 text-[8.5px] text-ink-500">
             <span className="h-[2px] w-[14px] rounded" style={{ background: PALETTE.green }} />

@@ -61,7 +61,7 @@ export function NonConformityBreakdown() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">{ncFootnote}</p>
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">{ncFootnote}</p>
     </div>
   );
 }

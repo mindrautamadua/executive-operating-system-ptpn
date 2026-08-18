@@ -21,7 +21,7 @@ export function CommunityGrievance() {
           <div key={g.kategori}>
             <div className="flex items-baseline justify-between gap-2">
               <span className="truncate text-[9.5px] font-bold text-ink-900">{g.kategori}</span>
-              <span className="shrink-0 text-[9px] tabular-nums text-ink-400">
+              <span className="shrink-0 text-[9px] tabular-nums text-ink-500">
                 <span className="text-[10px] font-extrabold text-ink-900">{g.selesai}</span> /{" "}
                 {g.jumlah} selesai
               </span>
@@ -43,7 +43,7 @@ export function CommunityGrievance() {
         <span className="text-[8.5px] font-semibold text-ink-500">
           SLA rata-rata penyelesaian
         </span>
-        <span className="text-[9px] tabular-nums text-ink-400">
+        <span className="text-[9px] tabular-nums text-ink-500">
           <span className="text-[12px] font-extrabold text-ptpn-green">
             {grievanceSummary.avgSlaHari} hari
           </span>{" "}

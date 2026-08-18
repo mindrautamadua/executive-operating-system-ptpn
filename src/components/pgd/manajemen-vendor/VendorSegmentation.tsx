@@ -74,11 +74,11 @@ export function VendorSegmentation() {
                 className="h-[7px] w-[7px] shrink-0 rounded-full"
                 style={{ backgroundColor: s.color }}
               />
-              <span className="truncate text-[8px] text-ink-500">
+              <span className="truncate text-[9px] text-ink-500">
                 <span className="font-bold text-ink-900">{s.segmen}</span> — {s.pendekatan}
               </span>
             </span>
-            <span className="shrink-0 text-[8px] font-bold text-ink-700">
+            <span className="shrink-0 text-[9px] font-bold text-ink-700">
               Rp {s.valueRpT.toLocaleString("id-ID", { minimumFractionDigits: 2 })} T ·{" "}
               {s.pct.toLocaleString("id-ID", { minimumFractionDigits: 1 })}%
             </span>

@@ -14,7 +14,7 @@ export function ScopeNote({ className = "" }: { className?: string }) {
 
   return (
     <span
-      className={`inline-flex shrink-0 items-center gap-1 rounded bg-[#eef2f6] px-1.5 py-[2px] text-[8px] font-semibold text-ink-500 ${className}`}
+      className={`inline-flex shrink-0 items-center gap-1 rounded bg-[#eef2f6] px-1.5 py-[2px] text-[9px] font-semibold text-ink-500 ${className}`}
       title="Kartu ini menampilkan angka konsolidasi grup; pecahan per subholding belum tersedia."
     >
       <Info size={9} strokeWidth={2} />

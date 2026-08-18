@@ -10,7 +10,7 @@ const STYLES: Record<ComplianceStatus, string> = {
 export function StatusBadge({ status }: { status: ComplianceStatus }) {
   return (
     <span
-      className={`inline-flex shrink-0 items-center rounded-md px-1.5 py-[2px] text-[8px] font-extrabold ${STYLES[status]}`}
+      className={`inline-flex shrink-0 items-center rounded-md px-1.5 py-[2px] text-[9px] font-extrabold ${STYLES[status]}`}
     >
       {status}
     </span>

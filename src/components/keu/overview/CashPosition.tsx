@@ -44,7 +44,7 @@ export function CashPosition() {
               dataKey="week"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -68,7 +68,7 @@ export function CashPosition() {
               label={{
                 value: "Minimum Cash Rp 3,5 T",
                 position: "insideBottomRight",
-                style: { fontSize: 7.5, fill: PALETTE.red, fontWeight: 700 },
+                style: { fontSize: 8.5, fill: PALETTE.red, fontWeight: 700 },
               }}
             />
             <Area
@@ -96,7 +96,7 @@ export function CashPosition() {
                       x={x}
                       y={y - 8}
                       textAnchor="end"
-                      style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                      style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
                     >
                       {fmtRpT(value ?? 0, 1)}
                     </text>

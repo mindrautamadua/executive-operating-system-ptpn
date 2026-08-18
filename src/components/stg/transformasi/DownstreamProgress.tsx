@@ -39,7 +39,7 @@ export function DownstreamProgress() {
                 {d.onstreamPct}%
               </span>
             </div>
-            <p className="mt-1 truncate text-[8px] text-ink-400">
+            <p className="mt-1 truncate text-[9px] text-ink-500">
               Target onstream penuh: {d.targetOnstream}
             </p>
           </li>

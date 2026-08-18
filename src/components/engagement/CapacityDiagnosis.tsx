@@ -26,7 +26,7 @@ export function CapacityDiagnosis() {
         Root-cause check: engagement rendah vs indikator tekanan kapasitas
       </p>
 
-      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_66px_70px_62px_54px] gap-x-2 text-[8px] font-bold text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_66px_70px_62px_54px] gap-x-2 text-[9px] font-bold text-ink-500">
         <span>Unit</span>
         <span className="text-right">Engagement</span>
         <span className="text-right">Adequacy</span>

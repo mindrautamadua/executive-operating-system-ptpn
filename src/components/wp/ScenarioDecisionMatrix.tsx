@@ -39,7 +39,7 @@ export function ScenarioDecisionMatrix() {
       <div className="scroll-thin mt-2 min-h-0 flex-1 overflow-x-auto xl:overflow-hidden">
         <table className="w-full min-w-[720px] table-fixed">
           <thead>
-            <tr className="text-[8px] font-semibold uppercase tracking-[0.03em] text-ink-400">
+            <tr className="text-[9px] font-semibold uppercase tracking-[0.03em] text-ink-500">
               <th className="w-[13%] pb-1 text-left font-semibold">Skenario</th>
               <th className="w-[27%] pb-1 text-left font-semibold">Asumsi Driver</th>
               {DIMS.map((d) => (
@@ -90,7 +90,7 @@ export function ScenarioDecisionMatrix() {
         </table>
       </div>
 
-      <p className="mt-1.5 shrink-0 text-[8px] leading-[1.5] text-ink-500">{scenarioMatrixNote}</p>
+      <p className="mt-1.5 shrink-0 text-[9px] leading-[1.5] text-ink-500">{scenarioMatrixNote}</p>
     </div>
   );
 }

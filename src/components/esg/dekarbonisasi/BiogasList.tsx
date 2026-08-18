@@ -46,7 +46,7 @@ export function BiogasList() {
                   style={{ width: `${(r.kapasitasMw / maxMw) * 100}%` }}
                 />
               </div>
-              <span className="shrink-0 text-[8px] font-semibold text-ink-400">
+              <span className="shrink-0 text-[9px] font-semibold text-ink-500">
                 {r.beroperasi} operasi · {r.konstruksi} konstruksi
               </span>
             </div>
@@ -54,7 +54,7 @@ export function BiogasList() {
         ))}
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         {outOfScope
           ? "Regional 1–7 adalah pecahan internal PalmCo; program biogas belum berjalan di subholding ini."
           : "Regional 3 (Riau) memiliki 3 unit konstruksi terbanyak — fokus pengawasan COD."}

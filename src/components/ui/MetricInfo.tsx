@@ -15,7 +15,7 @@ const trustColor = (v: number) =>
 function Row({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex items-baseline gap-1.5">
-      <span className="w-[52px] shrink-0 text-[8px] uppercase tracking-[0.04em] text-ink-400">
+      <span className="w-[52px] shrink-0 text-[9px] uppercase tracking-[0.04em] text-ink-500">
         {label}
       </span>
       <span className="min-w-0 text-[8.5px] font-semibold leading-[1.35] text-ink-700">
@@ -93,20 +93,20 @@ export function MetricInfo({
         </span>
 
         {e.validation && (
-          <span className="mt-1.5 block rounded-lg bg-ptpn-greenLight px-2 py-1.5 text-[8px] leading-[1.4] text-ptpn-greenDark">
+          <span className="mt-1.5 block rounded-lg bg-ptpn-greenLight px-2 py-1.5 text-[9px] leading-[1.4] text-ptpn-greenDark">
             Validasi: {e.validation}
           </span>
         )}
 
         <span className="mt-2 flex items-center justify-between border-t border-[#eef2f6] pt-2">
           <span className="flex items-baseline gap-1">
-            <span className="text-[8px] uppercase tracking-[0.04em] text-ink-400">
+            <span className="text-[9px] uppercase tracking-[0.04em] text-ink-500">
               Trust
             </span>
             <span className={`text-[11px] font-extrabold tabular-nums ${trustColor(e.trust)}`}>
               {e.trust}
             </span>
-            <span className="text-[8px] text-ink-400">/100</span>
+            <span className="text-[9px] text-ink-500">/100</span>
           </span>
           <Link
             href="/data-dictionary"

@@ -91,7 +91,7 @@ export function GulaGilingTrend() {
                   label={{
                     value: "Giling mulai Mei",
                     position: "insideTopLeft",
-                    fontSize: 7.5,
+                    fontSize: 8.5,
                     fontWeight: 700,
                     fill: PALETTE.amber,
                   }}
@@ -136,7 +136,7 @@ export function GulaGilingTrend() {
           <div className="mt-2 grid grid-cols-4 gap-2 border-t border-[var(--border-hair)] pt-2">
             {STATS.map((s) => (
               <div key={s.label} className="text-center">
-                <div className="text-[8px] uppercase tracking-wide text-ink-400">{s.label}</div>
+                <div className="text-[9px] uppercase tracking-wide text-ink-500">{s.label}</div>
                 <div className="mt-0.5 text-[11px] font-bold text-ink-700">{s.value}</div>
               </div>
             ))}

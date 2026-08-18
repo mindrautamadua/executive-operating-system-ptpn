@@ -46,7 +46,7 @@ export function ByDirektorat() {
               dataKey="direktorat"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               width={104}
             />
             <Tooltip
@@ -86,7 +86,7 @@ export function ByDirektorat() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Direktorat Operasi memikul 18 rekomendasi dengan penyelesaian terendah (66,7%) dan 4 dari 9
         butir overdue.
       </p>

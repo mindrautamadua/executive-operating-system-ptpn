@@ -43,7 +43,7 @@ export function KinerjaProduksi() {
             <div className="mt-[2px] text-[14px] font-extrabold leading-none text-ink-900">
               {k.value}
             </div>
-            <div className="mt-[2px] text-[8px] text-ink-400">{k.unit}</div>
+            <div className="mt-[2px] text-[9px] text-ink-500">{k.unit}</div>
             <Delta value={k.delta} trend={k.trend} size={9} className="mt-[3px]" />
           </div>
         ))}
@@ -66,7 +66,7 @@ export function KinerjaProduksi() {
               dataKey="name"
               tickLine={false}
               axisLine={{ stroke: "#e8edf2" }}
-              tick={{ fontSize: 7.5, fill: "#98a4b2" }}
+              tick={{ fontSize: 8.5, fill: "#98a4b2" }}
               interval={0}
             />
             <YAxis
@@ -74,7 +74,7 @@ export function KinerjaProduksi() {
               ticks={[0, 0.5, 1, 1.5, 2, 2.5, 3]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7, fill: "#98a4b2" }}
+              tick={{ fontSize: 8, fill: "#98a4b2" }}
               tickFormatter={(v: number) => v.toFixed(1).replace(".", ",")}
               width={40}
             />

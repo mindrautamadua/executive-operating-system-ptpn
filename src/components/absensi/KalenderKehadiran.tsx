@@ -36,7 +36,7 @@ export function KalenderKehadiran() {
           {HARI.map((h, i) => (
             <span
               key={h}
-              className="flex h-[11px] items-center text-[9px] leading-none text-ink-400"
+              className="flex h-[11px] items-center text-[9px] leading-none text-ink-500"
             >
               {i % 2 === 0 ? h : ""}
             </span>
@@ -73,12 +73,12 @@ export function KalenderKehadiran() {
 
       {/* legend ramp */}
       <div className="mt-1.5 flex items-center gap-1">
-        <span className="text-[9px] text-ink-400">Rendah</span>
+        <span className="text-[9px] text-ink-500">Rendah</span>
         {SEQ_GREEN.map((c) => (
           <span key={c} className="h-[8px] w-[8px] rounded-[2px]" style={{ background: c }} />
         ))}
-        <span className="text-[9px] text-ink-400">Tinggi</span>
-        <span className="ml-auto flex items-center gap-1 text-[9px] text-ink-400">
+        <span className="text-[9px] text-ink-500">Tinggi</span>
+        <span className="ml-auto flex items-center gap-1 text-[9px] text-ink-500">
           <span
             className="h-[8px] w-[8px] rounded-[2px]"
             style={{ background: PALETTE.slate, opacity: 0.35 }}

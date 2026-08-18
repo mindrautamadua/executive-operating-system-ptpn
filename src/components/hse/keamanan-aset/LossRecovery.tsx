@@ -43,7 +43,7 @@ export function LossRecovery() {
               dataKey="label"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -51,7 +51,7 @@ export function LossRecovery() {
               ticks={[0, 3, 6, 9]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <Tooltip
               cursor={{ fill: "rgba(148,163,184,0.08)" }}
@@ -67,7 +67,7 @@ export function LossRecovery() {
                 position="top"
                 offset={4}
                 formatter={(v: number) => desimal(v)}
-                style={{ fontSize: 7, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Bar>
             <Bar
@@ -81,21 +81,21 @@ export function LossRecovery() {
       </div>
 
       <div className="mt-1 flex items-center gap-2.5">
-        <span className="flex items-center gap-1 text-[8px] text-ink-500">
+        <span className="flex items-center gap-1 text-[9px] text-ink-500">
           <span
             className="h-[7px] w-[7px] shrink-0 rounded-full"
             style={{ backgroundColor: PALETTE.red }}
           />
           Kerugian
         </span>
-        <span className="flex items-center gap-1 text-[8px] text-ink-500">
+        <span className="flex items-center gap-1 text-[9px] text-ink-500">
           <span
             className="h-[7px] w-[7px] shrink-0 rounded-full"
             style={{ backgroundColor: PALETTE.green }}
           />
           Pemulihan
         </span>
-        <span className="min-w-0 flex-1 truncate text-[8px] text-ink-400" title={lossRecoveryMeta.catatan}>
+        <span className="min-w-0 flex-1 truncate text-[9px] text-ink-500" title={lossRecoveryMeta.catatan}>
           {lossRecoveryMeta.catatan}
         </span>
       </div>

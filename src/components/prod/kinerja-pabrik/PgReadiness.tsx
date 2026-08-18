@@ -33,7 +33,7 @@ export function PgReadiness() {
         <ScopeEmpty label={def.fullLabel} />
       ) : (
         <>
-      <div className="mt-2 grid grid-cols-[minmax(0,1.4fr)_58px_58px_56px] items-center gap-x-2 pr-2 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1.4fr)_58px_58px_56px] items-center gap-x-2 pr-2 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Pabrik Gula</span>
         <span className="text-right">Berhenti</span>
         <span className="text-right">Recovery</span>
@@ -84,7 +84,7 @@ export function PgReadiness() {
         })}
       </ul>
 
-      <p className="mt-1.5 line-clamp-2 text-[8px] leading-snug text-ink-400">{pgReadinessNote}</p>
+      <p className="mt-1.5 line-clamp-2 text-[9px] leading-snug text-ink-500">{pgReadinessNote}</p>
         </>
       )}
     </div>

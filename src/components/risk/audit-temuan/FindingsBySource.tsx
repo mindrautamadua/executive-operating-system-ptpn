@@ -58,7 +58,7 @@ export function FindingsBySource() {
                 </span>
                 <span className="shrink-0 text-[10px] font-extrabold text-ink-900">{r.total}</span>
               </div>
-              <div className="mt-[2px] pl-[14px] text-[8px] text-ink-400">
+              <div className="mt-[2px] pl-[14px] text-[9px] text-ink-500">
                 Closed {r.closed} · Terbuka{" "}
                 <span className="font-bold text-[#ef4444]">{r.open}</span>
               </div>
@@ -67,7 +67,7 @@ export function FindingsBySource() {
         </ul>
       </div>
 
-      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         Opini audit LK 2025 WTP; 6 temuan KAP seluruhnya bersifat rekomendasi pengendalian internal.
       </p>
     </div>

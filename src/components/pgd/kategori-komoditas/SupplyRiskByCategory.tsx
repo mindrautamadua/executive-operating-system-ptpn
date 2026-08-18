@@ -26,22 +26,22 @@ export function SupplyRiskByCategory() {
         <table className="w-full border-collapse">
           <thead>
             <tr className="border-b border-[#eef2f6]">
-              <th className="pb-1.5 text-left text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-400">
+              <th className="pb-1.5 text-left text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500">
                 Kategori
               </th>
-              <th className="pb-1.5 text-right text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-400">
+              <th className="pb-1.5 text-right text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500">
                 Impor
               </th>
-              <th className="pb-1.5 text-right text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-400">
+              <th className="pb-1.5 text-right text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500">
                 Vendor
               </th>
-              <th className="pb-1.5 text-right text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-400">
+              <th className="pb-1.5 text-right text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500">
                 Lead Time
               </th>
-              <th className="pb-1.5 text-right text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-400">
+              <th className="pb-1.5 text-right text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500">
                 Top-3
               </th>
-              <th className="pb-1.5 text-right text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-400">
+              <th className="pb-1.5 text-right text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500">
                 Level
               </th>
             </tr>
@@ -73,7 +73,7 @@ export function SupplyRiskByCategory() {
         </table>
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         BBM &amp; energi paling rapuh: hanya 24 vendor dengan konsentrasi Top-3 88,2%; TI &amp;
         lisensi berketergantungan impor tertinggi (72,6%).
       </p>

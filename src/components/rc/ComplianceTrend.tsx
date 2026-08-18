@@ -41,7 +41,7 @@ export function ComplianceTrend() {
               dataKey="name"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -67,7 +67,7 @@ export function ComplianceTrend() {
                 dataKey="value"
                 position="top"
                 offset={7}
-                style={{ fontSize: 7.5, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Line>
           </LineChart>
@@ -78,7 +78,7 @@ export function ComplianceTrend() {
         {BANDS.map((b) => (
           <span
             key={b.label}
-            className={`rounded-md px-2 py-[5px] text-center text-[8px] font-bold ${b.cls}`}
+            className={`rounded-md px-2 py-[5px] text-center text-[9px] font-bold ${b.cls}`}
           >
             {b.label}
           </span>

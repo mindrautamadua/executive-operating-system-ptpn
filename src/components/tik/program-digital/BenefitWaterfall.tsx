@@ -88,7 +88,7 @@ export function BenefitWaterfall() {
               dataKey="label"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -117,7 +117,7 @@ export function BenefitWaterfall() {
               <LabelList
                 dataKey="nilai"
                 position="top"
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
                 formatter={(v: number) => v.toLocaleString("id-ID", { minimumFractionDigits: 2 })}
               />
             </Bar>
@@ -125,7 +125,7 @@ export function BenefitWaterfall() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Rp 0,88 T dari total gap Rp 1,17 T melekat pada efisiensi proses dan akurasi data — dua
         komponen yang bergantung pada modul Plantation dan BI.
       </p>

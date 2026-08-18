@@ -40,14 +40,14 @@ export function ResponseTimeTrend() {
               className="h-[7px] w-[7px] shrink-0 rounded-full"
               style={{ backgroundColor: PALETTE.blue }}
             />
-            <span className="text-[8px] font-semibold text-ink-500">Rata Hari</span>
+            <span className="text-[9px] font-semibold text-ink-500">Rata Hari</span>
           </span>
           <span className="flex items-center gap-1">
             <span
               className="h-[7px] w-[7px] shrink-0 rounded-full"
               style={{ backgroundColor: PALETTE.red }}
             />
-            <span className="text-[8px] font-semibold text-ink-500">SLA 14 Hari</span>
+            <span className="text-[9px] font-semibold text-ink-500">SLA 14 Hari</span>
           </span>
         </div>
       </div>
@@ -60,7 +60,7 @@ export function ResponseTimeTrend() {
               dataKey="bulan"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -96,7 +96,7 @@ export function ResponseTimeTrend() {
                 dataKey="rataHari"
                 position="top"
                 offset={6}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Line>
           </LineChart>

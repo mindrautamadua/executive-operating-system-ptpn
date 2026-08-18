@@ -73,7 +73,7 @@ export function IncidentByActivity() {
               dataKey="aktivitas"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               width={124}
               interval={0}
             />
@@ -97,7 +97,7 @@ export function IncidentByActivity() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Rantai panen–angkut menyumbang 31 kasus sekaligus 5 dari 10 kasus berat/fatal — konsentrasi
         risiko tertinggi grup pada satu rantai aktivitas.
       </p>

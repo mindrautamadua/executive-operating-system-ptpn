@@ -55,7 +55,7 @@ export function SengketaRiskMatrix() {
               ticks={[1, 2, 3, 4, 5]}
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <YAxis
               type="number"
@@ -64,7 +64,7 @@ export function SengketaRiskMatrix() {
               ticks={[1, 2, 3, 4, 5]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <Tooltip
               cursor={{ strokeDasharray: "3 3" }}
@@ -82,7 +82,7 @@ export function SengketaRiskMatrix() {
                 dataKey="no"
                 position="top"
                 offset={5}
-                style={{ fontSize: 7, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Scatter>
           </ScatterChart>

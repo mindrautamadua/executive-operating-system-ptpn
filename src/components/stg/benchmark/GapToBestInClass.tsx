@@ -62,7 +62,7 @@ export function GapToBestInClass() {
                         style={{ width: `${(g.potensiRpT / MAX) * 100}%` }}
                       />
                     </div>
-                    <span className="w-[46px] shrink-0 whitespace-nowrap text-right text-[8px] font-bold text-ink-900">
+                    <span className="w-[46px] shrink-0 whitespace-nowrap text-right text-[9px] font-bold text-ink-900">
                       Rp {fmt1(g.potensiRpT)} T
                     </span>
                   </div>

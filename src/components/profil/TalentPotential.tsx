@@ -23,7 +23,7 @@ export function TalentPotential() {
               <div className="flex flex-col gap-[6px]">
                 {ROWS.map((r) => (
                   <div key={r} className="flex h-[42px] items-center justify-end">
-                    <span className="text-[8px] text-ink-500">{r}</span>
+                    <span className="text-[9px] text-ink-500">{r}</span>
                   </div>
                 ))}
               </div>
@@ -47,7 +47,7 @@ export function TalentPotential() {
             </div>
             <div className="ml-[52px] mt-1 flex gap-[6px]">
               {COLS.map((c) => (
-                <span key={c} className="w-[42px] text-center text-[8px] text-ink-500">
+                <span key={c} className="w-[42px] text-center text-[9px] text-ink-500">
                   {c}
                 </span>
               ))}

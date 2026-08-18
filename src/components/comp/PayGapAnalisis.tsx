@@ -82,7 +82,7 @@ export function PayGapAnalisis() {
               Adjusted (full controls):{" "}
               <span className="font-bold text-ink-900">{payGapRingkas.gapAdjusted}</span>
             </div>
-            <div className="mt-[2px] text-[9px] text-ink-400">{payGapRingkas.gapCompare}</div>
+            <div className="mt-[2px] text-[9px] text-ink-500">{payGapRingkas.gapCompare}</div>
           </div>
         </div>
 
@@ -102,7 +102,7 @@ export function PayGapAnalisis() {
               />
               Perempuan
             </span>
-            <span className="text-[9px] text-ink-400">(Rp Juta)</span>
+            <span className="text-[9px] text-ink-500">(Rp Juta)</span>
           </div>
 
           {/* header kolom nilai: dot warna mengikuti legend, angka dalam Rp juta */}

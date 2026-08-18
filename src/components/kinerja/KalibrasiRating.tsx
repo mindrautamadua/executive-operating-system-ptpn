@@ -58,7 +58,7 @@ export function KalibrasiRating() {
         {kalibrasiStatus.map((s) => (
           <div key={s.label} className="leading-tight">
             <div className="text-[10.5px] font-extrabold tabular-nums text-ink-900">{s.value}</div>
-            <div className="text-[8px] text-ink-500">{s.label}</div>
+            <div className="text-[9px] text-ink-500">{s.label}</div>
           </div>
         ))}
       </div>

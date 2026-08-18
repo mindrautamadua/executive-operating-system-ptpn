@@ -29,7 +29,7 @@ export function SkillGap4B() {
         </div>
         <div className="flex shrink-0 items-center gap-2.5">
           {B4.map((b) => (
-            <span key={b.key} className="flex items-center gap-1 text-[8px] font-semibold text-ink-500">
+            <span key={b.key} className="flex items-center gap-1 text-[9px] font-semibold text-ink-500">
               <span className="h-[7px] w-[7px] rounded-[2px]" style={{ background: b.color }} />
               {b.label}
             </span>
@@ -71,7 +71,7 @@ export function SkillGap4B() {
         ))}
       </div>
 
-      <p className="mt-2 shrink-0 text-[8px] leading-[1.5] text-ink-500">{gap4BNote}</p>
+      <p className="mt-2 shrink-0 text-[9px] leading-[1.5] text-ink-500">{gap4BNote}</p>
     </div>
   );
 }

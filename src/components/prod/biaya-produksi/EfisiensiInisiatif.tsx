@@ -55,7 +55,7 @@ export function EfisiensiInisiatif() {
       </ul>
       )}
 
-      <p className="mt-1.5 truncate text-[8px] text-ink-400">
+      <p className="mt-1.5 truncate text-[9px] text-ink-500">
         Run-rate FY ± Rp 1,0 T — bagian dampak OPEX Rp 680 M EBITDA plus uplift volume.
       </p>
     </div>

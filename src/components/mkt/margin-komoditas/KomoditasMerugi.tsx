@@ -80,7 +80,7 @@ export function KomoditasMerugi() {
                   <span className="truncate text-[8.5px] text-ink-500" title={o.dampak}>
                     {o.dampak}
                   </span>
-                  <span className="text-right text-[8px] font-semibold text-ink-400">
+                  <span className="text-right text-[9px] font-semibold text-ink-500">
                     {o.horizon}
                   </span>
                 </li>

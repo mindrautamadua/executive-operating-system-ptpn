@@ -87,7 +87,7 @@ export function AiUseCases() {
         </table>
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         3 use case produksi bernilai Rp 154 M/tahun; AI HR Assistant dikelola modul SDM namun tetap
         tercatat di portofolio AI grup.
       </p>

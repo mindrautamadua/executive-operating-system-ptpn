@@ -42,7 +42,7 @@ export function BreachLog() {
               <ArrowUpRight size={9} className="mt-[1px] shrink-0 text-ink-400" />
               {b.tindakLanjut}
             </p>
-            <div className="mt-auto pt-1 text-[8px] font-semibold text-ink-400">
+            <div className="mt-auto pt-1 text-[9px] font-semibold text-ink-500">
               {b.kategori} · Breach sejak {b.sejak}
             </div>
           </div>

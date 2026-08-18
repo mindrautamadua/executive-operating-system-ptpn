@@ -32,7 +32,7 @@ export function OkupasiLahan() {
         <span className="text-[24px] font-extrabold leading-none tracking-[-0.01em] text-ink-900">
           {rb(okupasiCompact.okupasiBerperkaraRbHa)}
         </span>
-        <span className="text-[10px] font-bold text-ink-400">rb ha</span>
+        <span className="text-[10px] font-bold text-ink-500">rb ha</span>
         <span className="ml-1 text-[8.5px] font-semibold text-ink-500">
           ({PCT}% dari {rb(okupasiCompact.totalSengketaRbHa)} rb ha sengketa)
         </span>
@@ -41,7 +41,7 @@ export function OkupasiLahan() {
       <ul className="mt-2.5 flex min-h-0 flex-1 flex-col justify-center gap-1.5">
         {TREN.map((t) => (
           <li key={t.periode} className="flex shrink-0 items-center gap-2">
-            <span className="w-[54px] shrink-0 text-[8px] font-semibold text-ink-500">
+            <span className="w-[54px] shrink-0 text-[9px] font-semibold text-ink-500">
               {t.periode}
             </span>
             <span className="h-[9px] min-w-0 flex-1 overflow-hidden rounded-full bg-[#eef2f6]">
@@ -57,7 +57,7 @@ export function OkupasiLahan() {
         ))}
       </ul>
 
-      <p className="mt-1.5 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1.5 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         Subset dari {okupasiCompact.totalSengketaKasus} kasus / {rb(okupasiCompact.totalSengketaRbHa)}{" "}
         rb ha sengketa lahan pada dimensi Aset; sisanya ditangani non-litigasi.{" "}
         {okupasiCompact.note}

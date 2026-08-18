@@ -34,7 +34,7 @@ export function AssetRiskRadar() {
             <PolarRadiusAxis
               domain={[0, 100]}
               tickCount={5}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               axisLine={false}
             />
             <Tooltip
@@ -62,7 +62,7 @@ export function AssetRiskRadar() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Legal Lahan (76) dan Umur Tanaman (68) melampaui toleransi terjauh; hanya Lingkungan &amp;
         Perizinan yang masih di dalam ambang.
       </p>

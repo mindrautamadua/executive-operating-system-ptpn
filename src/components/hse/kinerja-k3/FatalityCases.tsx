@@ -27,7 +27,7 @@ export function FatalityCases() {
           >
             <div className="flex items-center justify-between gap-2">
               <div className="flex min-w-0 items-center gap-1.5">
-                <span className="shrink-0 text-[9px] font-extrabold text-ink-400">{c.kode}</span>
+                <span className="shrink-0 text-[9px] font-extrabold text-ink-500">{c.kode}</span>
                 <span className="truncate text-[9.5px] font-bold text-ink-900">
                   {c.aktivitas} · {c.regional}
                 </span>
@@ -54,14 +54,14 @@ export function FatalityCases() {
             </div>
 
             <div className="mt-2">
-              <div className="text-[8px] font-bold uppercase tracking-[0.04em] text-ink-400">
+              <div className="text-[9px] font-bold uppercase tracking-[0.04em] text-ink-500">
                 Kronologi Ringkas
               </div>
               <p className="mt-[3px] text-[8.5px] leading-[1.45] text-ink-700">{c.kronologi}</p>
             </div>
 
             <div className="mt-2 min-h-0 flex-1">
-              <div className="text-[8px] font-bold uppercase tracking-[0.04em] text-ink-400">
+              <div className="text-[9px] font-bold uppercase tracking-[0.04em] text-ink-500">
                 Akar Masalah
               </div>
               <ul className="mt-[3px] flex flex-col gap-[3px]">
@@ -77,7 +77,7 @@ export function FatalityCases() {
         ))}
       </div>
 
-      <p className="pt-2 text-[8px] leading-snug text-ink-400">{fatalityFootnote}</p>
+      <p className="pt-2 text-[9px] leading-snug text-ink-500">{fatalityFootnote}</p>
     </div>
   );
 }

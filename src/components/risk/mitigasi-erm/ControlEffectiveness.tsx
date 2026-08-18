@@ -44,7 +44,7 @@ export function ControlEffectiveness() {
               dataKey="periode"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <YAxis
               domain={[50, 85]}
@@ -72,7 +72,7 @@ export function ControlEffectiveness() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 rounded-md bg-ptpn-greenLight px-2 py-[5px] text-[8px] leading-[1.4] text-ptpn-greenDark">
+      <p className="mt-1 rounded-md bg-ptpn-greenLight px-2 py-[5px] text-[9px] leading-[1.4] text-ptpn-greenDark">
         Naik 14 poin sejak S1 2024; percepatan lanjutan bergantung pada otomasi kontrol berbasis TI.
       </p>
     </div>

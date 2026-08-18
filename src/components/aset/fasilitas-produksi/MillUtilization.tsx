@@ -53,7 +53,7 @@ export function MillUtilization() {
               dataKey="short"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -62,7 +62,7 @@ export function MillUtilization() {
               ticks={[0, 100, 200, 300, 400]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <YAxis
               yAxisId="util"
@@ -71,7 +71,7 @@ export function MillUtilization() {
               ticks={[50, 62.5, 75, 87.5, 100]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => `${v}%`}
             />
             <Tooltip
@@ -125,7 +125,7 @@ export function MillUtilization() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 line-clamp-2 text-[8px] leading-snug text-ink-400">{millUtilizationNote}</p>
+      <p className="mt-1 line-clamp-2 text-[9px] leading-snug text-ink-500">{millUtilizationNote}</p>
     </div>
   );
 }

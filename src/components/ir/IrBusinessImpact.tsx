@@ -17,7 +17,7 @@ export function IrBusinessImpact() {
         <span className="shrink-0 text-[8.5px] text-ink-400">(Lokasi Terpapar)</span>
       </div>
 
-      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_48px_50px_84px_58px] items-center gap-x-2 border-b border-[#eef2f6] pb-1.5 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_48px_50px_84px_58px] items-center gap-x-2 border-b border-[#eef2f6] pb-1.5 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Lokasi</span>
         <span className="text-right">Karyawan</span>
         <span className="text-center">Disrupsi</span>
@@ -53,7 +53,7 @@ export function IrBusinessImpact() {
 
       <div className="mt-1.5 flex items-center gap-2 rounded-lg border border-[#f3e3c3] bg-[#fdf9f0] px-2.5 py-1.5">
         <Factory size={11} className="shrink-0 text-[#d98b06]" />
-        <span className="min-w-0 flex-1 truncate text-[8px] text-ink-700">
+        <span className="min-w-0 flex-1 truncate text-[9px] text-ink-700">
           {businessImpactTotal.note}
         </span>
         <span className="shrink-0 text-[8.5px] font-extrabold text-ink-900">

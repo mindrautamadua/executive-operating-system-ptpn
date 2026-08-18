@@ -50,12 +50,12 @@ export function TalentDecisions() {
                 <div className="flex min-w-0 items-center gap-1.5">
                   <Icon size={13} className={`shrink-0 ${t.iconCls}`} />
                   <span
-                    className={`shrink-0 text-[8px] font-extrabold uppercase tracking-[0.05em] ${t.kicker}`}
+                    className={`shrink-0 text-[9px] font-extrabold uppercase tracking-[0.05em] ${t.kicker}`}
                   >
                     {d.kicker}
                   </span>
                 </div>
-                <span className={`shrink-0 rounded px-1.5 py-[2px] text-[8px] font-bold ${t.pill}`}>
+                <span className={`shrink-0 rounded px-1.5 py-[2px] text-[9px] font-bold ${t.pill}`}>
                   {d.pill}
                 </span>
               </div>

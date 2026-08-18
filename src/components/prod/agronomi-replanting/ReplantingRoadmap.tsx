@@ -92,7 +92,7 @@ export function ReplantingRoadmap() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">{replantingNote}</p>
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">{replantingNote}</p>
       </>
       )}
     </div>

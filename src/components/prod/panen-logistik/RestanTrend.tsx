@@ -105,7 +105,7 @@ export function RestanTrend() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Regional 5–7 (titik merah) melampaui norma 2% — akar FFA tinggi &amp; gap OER di PKS
         wilayah timur.
       </p>

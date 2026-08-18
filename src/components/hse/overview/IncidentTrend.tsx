@@ -39,7 +39,7 @@ export function IncidentTrend() {
               dataKey="bulan"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -116,7 +116,7 @@ export function IncidentTrend() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         LTIFR ditampilkan sebagai rolling 12 bulan sehingga tidak sensitif terhadap fluktuasi bulanan;
         tren menurun sejak Agu 2025 (1,61 → 1,42) namun jumlah kasus berat/fatal bertahan 2 per bulan.
       </p>

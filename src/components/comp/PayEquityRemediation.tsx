@@ -22,7 +22,7 @@ export function PayEquityRemediation() {
           Pay Equity → Remediation
           <ScopeNote />
         </h3>
-        <span className="shrink-0 rounded px-1.5 py-[2px] text-[8px] font-bold leading-none tone-amber">
+        <span className="shrink-0 rounded px-1.5 py-[2px] text-[9px] font-bold leading-none tone-amber">
           Targeted review required
         </span>
       </div>
@@ -37,7 +37,7 @@ export function PayEquityRemediation() {
               return (
                 <li key={b.label} className="flex shrink-0 items-center gap-2">
                   <span
-                    className={`w-[128px] shrink-0 truncate text-[8px] leading-snug ${kunci ? "font-extrabold text-ink-900" : "font-semibold text-ink-600"}`}
+                    className={`w-[128px] shrink-0 truncate text-[9px] leading-snug ${kunci ? "font-extrabold text-ink-900" : "font-semibold text-ink-600"}`}
                     title={b.note}
                   >
                     {b.label}
@@ -61,7 +61,7 @@ export function PayEquityRemediation() {
               );
             })}
           </ul>
-          <p className="mt-1.5 border-t border-[#eef2f6] pt-1.5 text-[8px] leading-snug text-ink-500">
+          <p className="mt-1.5 border-t border-[#eef2f6] pt-1.5 text-[9px] leading-snug text-ink-500">
             {equityRemediasi.konsentrasi}
           </p>
         </div>
@@ -88,7 +88,7 @@ export function PayEquityRemediation() {
           </div>
 
           <div className="flex items-center gap-1.5">
-            <span className="text-[8px] font-bold text-ink-500">Prioritas:</span>
+            <span className="text-[9px] font-bold text-ink-500">Prioritas:</span>
             {equityRemediasi.prioritas.map((p) => (
               <span key={p} className="rounded px-1.5 py-[2px] text-[7.5px] font-bold leading-none tone-red">
                 {p}
@@ -99,7 +99,7 @@ export function PayEquityRemediation() {
           <ul className="mt-auto flex flex-col gap-[3px]">
             {equityRemediasi.confidence.map((c) => (
               <li key={c.label} className="flex items-center gap-2">
-                <span className="w-[112px] shrink-0 truncate text-[8px] font-semibold text-ink-600">
+                <span className="w-[112px] shrink-0 truncate text-[9px] font-semibold text-ink-600">
                   {c.label}
                 </span>
                 <div className="h-[5px] min-w-0 flex-1 overflow-hidden rounded-full bg-[var(--chart-grid)]">

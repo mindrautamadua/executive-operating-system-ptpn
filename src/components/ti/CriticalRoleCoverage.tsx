@@ -27,14 +27,14 @@ export function CriticalRoleCoverage() {
             centerCaption="Coverage"
             valueFormatter={(v) => `${v}%`}
           />
-          <span className="mt-1 text-center text-[8px] leading-[1.3] text-ink-400">
+          <span className="mt-1 text-center text-[9px] leading-[1.3] text-ink-500">
             (Ready Now &<br />
             1-2 Years)
           </span>
         </div>
 
         <div className="min-w-0 flex-1">
-          <div className="grid grid-cols-[minmax(0,1fr)_52px_86px] items-center pb-1 text-[8px] font-bold uppercase tracking-[0.04em] text-ink-400">
+          <div className="grid grid-cols-[minmax(0,1fr)_52px_86px] items-center pb-1 text-[9px] font-bold uppercase tracking-[0.04em] text-ink-500">
             <span>Posisi Kritis</span>
             <span className="text-right">Total Posisi</span>
             <span className="text-right">Coverage</span>
@@ -71,7 +71,7 @@ export function CriticalRoleCoverage() {
         {tiCoverageLegend.map((l) => (
           <span key={l.label} className="flex items-center gap-1.5">
             <span className="h-[7px] w-[7px] rounded-[2px]" style={{ background: l.color }} />
-            <span className="text-[8px] font-semibold text-ink-500">{l.label}</span>
+            <span className="text-[9px] font-semibold text-ink-500">{l.label}</span>
           </span>
         ))}
       </div>

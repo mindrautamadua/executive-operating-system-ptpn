@@ -45,7 +45,7 @@ export function LitigasiKpiStrip() {
                 {k.value}
               </span>
               {k.valueSuffix && (
-                <span className="text-[10px] font-bold text-ink-400">{k.valueSuffix}</span>
+                <span className="text-[10px] font-bold text-ink-500">{k.valueSuffix}</span>
               )}
             </div>
             <div
@@ -63,7 +63,7 @@ export function LitigasiKpiStrip() {
             {k.href && k.hrefLabel && (
               <Link
                 href={k.href}
-                className="mt-1.5 block truncate text-[8px] font-semibold text-ptpn-green hover:underline"
+                className="mt-1.5 block truncate text-[9px] font-semibold text-ptpn-green hover:underline"
                 title={k.hrefLabel}
               >
                 {k.hrefLabel}

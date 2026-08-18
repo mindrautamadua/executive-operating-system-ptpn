@@ -61,7 +61,7 @@ export function RevenueByKomoditas() {
                 {c.name}
               </span>
               <span className="shrink-0 text-[9.5px] font-bold text-ink-900">{fmtRpT(c.value)}</span>
-              <span className="w-[40px] shrink-0 text-right text-[9px] text-ink-400">
+              <span className="w-[40px] shrink-0 text-right text-[9px] text-ink-500">
                 (
                 {((c.value / total) * 100).toLocaleString("id-ID", {
                   minimumFractionDigits: 1,

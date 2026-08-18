@@ -29,7 +29,7 @@ export function DistribusiUnit() {
             className="flex items-center gap-2"
             title={`${d.unit}: ${fmt(d.value)} karyawan`}
           >
-            <span className="w-[14px] shrink-0 text-right text-[9px] tabular-nums text-ink-400">
+            <span className="w-[14px] shrink-0 text-right text-[9px] tabular-nums text-ink-500">
               {i + 1}.
             </span>
             <span className="w-[112px] shrink-0 truncate text-[9.5px] text-ink-700">{d.unit}</span>

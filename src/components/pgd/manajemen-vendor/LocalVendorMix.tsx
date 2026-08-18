@@ -51,7 +51,7 @@ export function LocalVendorMix() {
               />
               <span className="truncate">{r.kelompok}</span>
             </span>
-            <span className="shrink-0 text-[8px] font-semibold text-ink-500">
+            <span className="shrink-0 text-[9px] font-semibold text-ink-500">
               {r.jumlahPct.toLocaleString("id-ID", { minimumFractionDigits: 1 })}% jumlah ·{" "}
               {r.valuePct.toLocaleString("id-ID", { minimumFractionDigits: 1 })}% nilai
             </span>

@@ -37,7 +37,7 @@ export function DisclosureCalendar() {
               <div className="truncate text-[9.5px] font-bold text-ink-900">{d.dokumen}</div>
               <div className="truncate text-[8.5px] text-ink-500">{d.standar}</div>
             </div>
-            <span className="shrink-0 text-[9px] font-semibold text-ink-400">{d.due}</span>
+            <span className="shrink-0 text-[9px] font-semibold text-ink-500">{d.due}</span>
             <ToneBadge label={d.status} tone={STATUS_TONE[d.status]} />
           </div>
         ))}

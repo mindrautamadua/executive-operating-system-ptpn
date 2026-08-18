@@ -60,11 +60,11 @@ export default function DecisionCenterPage() {
                 >
                   <div className="flex items-center gap-1.5">
                     <Icon size={13} className={`shrink-0 ${t.iconCls}`} />
-                    <span className={`text-[8px] font-extrabold uppercase tracking-[0.05em] ${t.kicker}`}>
+                    <span className={`text-[9px] font-extrabold uppercase tracking-[0.05em] ${t.kicker}`}>
                       {d.impact}
                     </span>
                     {d.overdue && (
-                      <span className="ml-auto rounded bg-[#ef4444] px-1.5 py-[1px] text-[8px] font-bold text-white">
+                      <span className="ml-auto rounded bg-[#ef4444] px-1.5 py-[1px] text-[9px] font-bold text-white">
                         OVERDUE
                       </span>
                     )}

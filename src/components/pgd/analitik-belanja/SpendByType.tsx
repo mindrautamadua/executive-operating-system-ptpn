@@ -53,7 +53,7 @@ export function SpendByType() {
               />
               {t.jenis}
             </span>
-            <span className="shrink-0 text-[8px] font-semibold text-ink-500">
+            <span className="shrink-0 text-[9px] font-semibold text-ink-500">
               {t.pct.toLocaleString("id-ID", { minimumFractionDigits: 1 })}% ·{" "}
               {t.paket.toLocaleString("id-ID")} paket
             </span>
@@ -61,7 +61,7 @@ export function SpendByType() {
         ))}
       </div>
 
-      <p className="mt-1 pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="mt-1 pb-1 text-[9px] leading-snug text-ink-500">
         Konstruksi hanya 2.100 paket namun Rp 1,64 T — nilai per paket tertinggi dan paling terpapar
         siklus tender 42 hari.
       </p>

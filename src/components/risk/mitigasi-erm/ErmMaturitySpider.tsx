@@ -29,7 +29,7 @@ export function ErmMaturitySpider() {
         <ResponsiveContainer width="100%" height="100%">
           <RadarChart data={ermSpider} outerRadius="72%">
             <PolarGrid stroke={CHART_AXIS.grid} />
-            <PolarAngleAxis dataKey="dimensi" tick={{ fontSize: 7, fill: CHART_AXIS.tick }} />
+            <PolarAngleAxis dataKey="dimensi" tick={{ fontSize: 8, fill: CHART_AXIS.tick }} />
             <PolarRadiusAxis domain={[0, 5]} tick={false} axisLine={false} />
             <Tooltip
               formatter={(v: number, n: string) => [String(v).replace(".", ","), n]}
@@ -56,7 +56,7 @@ export function ErmMaturitySpider() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 rounded-md bg-[#fdf3e0] px-2 py-[5px] text-[8px] leading-[1.4] text-[#a26a05]">
+      <p className="mt-1 rounded-md bg-[#fdf3e0] px-2 py-[5px] text-[9px] leading-[1.4] text-[#a26a05]">
         Dimensi terlemah: Kuantifikasi Risiko 2,9 &amp; Budaya Risiko 3,0 — penahan utama menuju
         target 4,0.
       </p>

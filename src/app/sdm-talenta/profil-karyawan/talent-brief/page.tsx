@@ -20,7 +20,7 @@ export const metadata = {
 
 function SectionTitle({ children }: { children: React.ReactNode }) {
   return (
-    <h2 className="text-[9px] font-extrabold uppercase tracking-[0.08em] text-ink-400">
+    <h2 className="text-[9px] font-extrabold uppercase tracking-[0.08em] text-ink-500">
       {children}
     </h2>
   );
@@ -54,12 +54,12 @@ export default function TalentBriefPage() {
                 <div className="text-[11px] font-extrabold text-[#1b3a6b]">
                   PTPN GROUP — Executive Operating System
                 </div>
-                <div className="mt-[3px] text-[8px] font-semibold text-ink-500">
+                <div className="mt-[3px] text-[9px] font-semibold text-ink-500">
                   EXECUTIVE TALENT BRIEF · Rahasia — untuk Talent Committee
                 </div>
               </div>
             </div>
-            <span className="text-[8px] text-ink-400">Data per 31 Mei 2026</span>
+            <span className="text-[9px] text-ink-500">Data per 31 Mei 2026</span>
           </div>
 
           {/* identitas */}

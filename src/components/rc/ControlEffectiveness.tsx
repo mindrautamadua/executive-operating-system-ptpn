@@ -38,7 +38,7 @@ export function ControlEffectiveness() {
         </span>
       </div>
 
-      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_36px_64px_54px_44px] items-center gap-x-1.5 border-b border-[#eef2f6] pb-1.5 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_36px_64px_54px_44px] items-center gap-x-1.5 border-b border-[#eef2f6] pb-1.5 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Area</span>
         <span className="text-center">Kontrol</span>
         <span className="text-center">E / P / G</span>
@@ -80,7 +80,7 @@ export function ControlEffectiveness() {
               {c.effectiveness}%
             </span>
             <span
-              className={`mx-auto flex h-[17px] w-full items-center justify-center rounded px-1 text-[8px] font-bold ${RESIDUAL_CLS[c.residual]}`}
+              className={`mx-auto flex h-[17px] w-full items-center justify-center rounded px-1 text-[9px] font-bold ${RESIDUAL_CLS[c.residual]}`}
             >
               {c.residual}
             </span>
@@ -88,7 +88,7 @@ export function ControlEffectiveness() {
         ))}
       </ul>
 
-      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         Efektivitas = (efektif + 0,5×parsial) / total kontrol. Kontrol gagal pada PDP &amp;
         K3 adalah sumber utama residual risk tinggi.
       </p>

@@ -32,7 +32,7 @@ function ScoreList({
               <div className="h-[7px] min-w-0 flex-1 overflow-hidden rounded-full bg-[#eef2f6]">
                 <div className={`h-full rounded-full ${barCls}`} style={{ width: `${v.skorTotal}%` }} />
               </div>
-              <span className="w-[92px] shrink-0 truncate text-right text-[8px] text-ink-400">
+              <span className="w-[92px] shrink-0 truncate text-right text-[9px] text-ink-500">
                 {v.kategori}
               </span>
             </div>
@@ -63,7 +63,7 @@ export function VendorPerformance() {
         />
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         Gap 33,8 poin antara vendor terbaik (94,6) dan terendah (60,8) — seluruh peringkat terbawah
         tersandung pada dimensi ketepatan waktu.
       </p>

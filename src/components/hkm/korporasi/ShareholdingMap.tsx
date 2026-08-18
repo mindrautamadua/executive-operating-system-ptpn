@@ -38,7 +38,7 @@ export function ShareholdingMap() {
         {/* Level 1 — Holding */}
         <div className="rounded-xl border border-[#d9e4f5] bg-[#e8f1fd] px-3 py-2">
           <div className="text-[9.5px] font-extrabold text-[#1b3a6b]">{holding?.nama}</div>
-          <div className="mt-[3px] text-[8px] leading-snug text-ink-500">
+          <div className="mt-[3px] text-[9px] leading-snug text-ink-500">
             {holding?.keterangan}
           </div>
         </div>
@@ -61,10 +61,10 @@ export function ShareholdingMap() {
                   <div className="truncate text-[9px] font-bold text-ink-900" title={s.nama}>
                     {s.nama}
                   </div>
-                  <div className="mt-[2px] text-[8px] font-semibold tabular-nums text-ptpn-green">
+                  <div className="mt-[2px] text-[9px] font-semibold tabular-nums text-ptpn-green">
                     {pct(s.kepemilikanPct)}
                   </div>
-                  <div className="mt-[3px] text-[8px] leading-snug text-ink-500">
+                  <div className="mt-[3px] text-[9px] leading-snug text-ink-500">
                     {s.keterangan}
                   </div>
                 </div>
@@ -77,7 +77,7 @@ export function ShareholdingMap() {
                     className="rounded-lg border border-dashed border-[#e3e9ef] bg-[#f8fafc] px-2 py-[6px]"
                   >
                     <div className="text-[8.5px] font-bold text-ink-700">{a.nama}</div>
-                    <div className="mt-[2px] text-[8px] leading-snug text-ink-500">
+                    <div className="mt-[2px] text-[9px] leading-snug text-ink-500">
                       {a.keterangan}
                     </div>
                   </div>
@@ -88,7 +88,7 @@ export function ShareholdingMap() {
         </div>
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         Pemegang saham puncak: Negara RI melalui Danantara. Persentase menunjukkan kepemilikan
         holding atas masing-masing subholding.
       </p>

@@ -51,7 +51,7 @@ export function HeadcountByGeneration() {
 
         <div className="mt-1 flex items-center gap-2">
           <span className="w-[128px] shrink-0" />
-          <div className="flex flex-1 justify-between text-[8px] text-ink-400">
+          <div className="flex flex-1 justify-between text-[9px] text-ink-500">
             {AXIS_TICKS.map((t) => (
               <span key={t}>{t === 0 ? "0" : `${t / 1000}K`}</span>
             ))}

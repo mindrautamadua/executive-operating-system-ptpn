@@ -73,7 +73,7 @@ function DonutOverall() {
       </svg>
       <div className="absolute inset-0 flex flex-col items-center justify-center leading-none">
         <span className="text-[30px] font-extrabold text-ink-900">{peopleMathOverall.skor}</span>
-        <span className="mt-1 text-[9px] text-ink-400">{peopleMathOverall.maks}</span>
+        <span className="mt-1 text-[9px] text-ink-500">{peopleMathOverall.maks}</span>
       </div>
     </div>
   );
@@ -135,19 +135,19 @@ function PositioningChart() {
       />
       <line x1={midX} y1={padT} x2={midX} y2={H - padB} stroke="#d7dee6" strokeDasharray="3 3" />
       <line x1={padL} y1={midY} x2={W - padR} y2={midY} stroke="#d7dee6" strokeDasharray="3 3" />
-      <text x={padL + 6} y={padT + 12} fontSize={6.5} fill="#6b7280">
+      <text x={padL + 6} y={padT + 12} fontSize={8} fill="#6b7280">
         <tspan x={padL + 6}>High Performer</tspan>
         <tspan x={padL + 6} dy={8}>Low Capability</tspan>
       </text>
-      <text x={W - padR - 6} y={padT + 12} fontSize={6.5} fontWeight={700} fill="#16a34a" textAnchor="end">
+      <text x={W - padR - 6} y={padT + 12} fontSize={8} fontWeight={700} fill="#16a34a" textAnchor="end">
         <tspan x={W - padR - 6}>High Performer</tspan>
         <tspan x={W - padR - 6} dy={8}>High Capability</tspan>
       </text>
-      <text x={padL + 6} y={H - padB - 14} fontSize={6.5} fontWeight={700} fill="#dc2626">
+      <text x={padL + 6} y={H - padB - 14} fontSize={8} fontWeight={700} fill="#dc2626">
         <tspan x={padL + 6}>Low Performer</tspan>
         <tspan x={padL + 6} dy={8}>Low Capability</tspan>
       </text>
-      <text x={W - padR - 6} y={H - padB - 14} fontSize={6.5} fill="#6b7280" textAnchor="end">
+      <text x={W - padR - 6} y={H - padB - 14} fontSize={8} fill="#6b7280" textAnchor="end">
         <tspan x={W - padR - 6}>Low Performer</tspan>
         <tspan x={W - padR - 6} dy={8}>High Capability</tspan>
       </text>
@@ -158,14 +158,14 @@ function PositioningChart() {
           fill="#1a9c5b"
         />
         {/* Titik dekat sudut kanan-atas — label ditaruh di kiri agar tidak terpotong. */}
-        <text x={-4} y={16} fontSize={7.5} fontWeight={700} fill="#1a9c5b" textAnchor="end">
+        <text x={-4} y={16} fontSize={8} fontWeight={700} fill="#1a9c5b" textAnchor="end">
           {peopleMathPosisi.nama}
         </text>
       </g>
       <text
         x={12}
         y={(padT + H - padB) / 2}
-        fontSize={7}
+        fontSize={8}
         fill="#9ca3af"
         textAnchor="middle"
         transform={`rotate(-90 12 ${(padT + H - padB) / 2})`}
@@ -173,13 +173,13 @@ function PositioningChart() {
       >
         PERFORMANCE
       </text>
-      <text x={(padL + W - padR) / 2} y={H - 4} fontSize={7} fill="#9ca3af" textAnchor="middle" letterSpacing="0.08em">
+      <text x={(padL + W - padR) / 2} y={H - 4} fontSize={8} fill="#9ca3af" textAnchor="middle" letterSpacing="0.08em">
         CAPABILITY
       </text>
-      <text x={padL - 4} y={padT + 4} fontSize={6.5} fill="#6b7280" textAnchor="end">High</text>
-      <text x={padL - 4} y={H - padB + 2} fontSize={6.5} fill="#6b7280" textAnchor="end">Low</text>
-      <text x={padL} y={H - padB + 10} fontSize={6.5} fill="#6b7280">Low</text>
-      <text x={W - padR} y={H - padB + 10} fontSize={6.5} fill="#6b7280" textAnchor="end">High</text>
+      <text x={padL - 4} y={padT + 4} fontSize={8} fill="#6b7280" textAnchor="end">High</text>
+      <text x={padL - 4} y={H - padB + 2} fontSize={8} fill="#6b7280" textAnchor="end">Low</text>
+      <text x={padL} y={H - padB + 10} fontSize={8} fill="#6b7280">Low</text>
+      <text x={W - padR} y={H - padB + 10} fontSize={8} fill="#6b7280" textAnchor="end">High</text>
     </svg>
   );
 }
@@ -272,7 +272,7 @@ function RadarChart() {
       <text x={cx} y={cy - 1} textAnchor="middle" fontSize={22} fontWeight={800} fill="#0f7a44">
         {peopleMathOverall.skor}
       </text>
-      <text x={cx} y={cy + 12} textAnchor="middle" fontSize={7.5} fill="#6b7280">
+      <text x={cx} y={cy + 12} textAnchor="middle" fontSize={8} fill="#6b7280">
         /100
       </text>
     </svg>
@@ -438,7 +438,7 @@ function TrendChart() {
       {[0, 25, 50, 75, 100].map((v) => (
         <g key={v}>
           <line x1={padL} y1={y(v)} x2={W - padR} y2={y(v)} stroke="#eef2f6" strokeWidth={1} />
-          <text x={padL - 5} y={y(v) + 2.5} textAnchor="end" fontSize={7} fill="#9ca3af">
+          <text x={padL - 5} y={y(v) + 2.5} textAnchor="end" fontSize={8} fill="#9ca3af">
             {v}
           </text>
         </g>
@@ -451,7 +451,7 @@ function TrendChart() {
           <text x={p.x} y={p.y - 7} textAnchor="middle" fontSize={8} fontWeight={700} fill="#374151">
             {p.skor}
           </text>
-          <text x={p.x} y={H - 4} textAnchor="middle" fontSize={7.5} fill="#6b7280">
+          <text x={p.x} y={H - 4} textAnchor="middle" fontSize={8} fill="#6b7280">
             {p.tahun}
           </text>
         </g>
@@ -548,14 +548,14 @@ function TalentDecisionCard() {
         <div className="flex flex-col">
           <div className="flex items-center justify-between">
             <span className="text-[10px] font-bold text-ink-900">People Math Trend</span>
-            <span className="rounded-lg border border-[#e3e9ef] px-2 py-[3px] text-[8px] font-semibold text-ink-500">
+            <span className="rounded-lg border border-[#e3e9ef] px-2 py-[3px] text-[9px] font-semibold text-ink-500">
               5 Tahun Terakhir
             </span>
           </div>
           <div className="mt-1 min-h-0 flex-1">
             <TrendChart />
           </div>
-          <p className="mt-1 text-[8px] leading-snug text-ink-500">
+          <p className="mt-1 text-[9px] leading-snug text-ink-500">
             {peopleMathTalent.trenCatatan}
           </p>
         </div>

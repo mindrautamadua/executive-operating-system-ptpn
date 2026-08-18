@@ -32,7 +32,7 @@ export function TopFindingsTable() {
               {["Temuan", "Sumber", "Unit", "Nilai", "Status", "Target TL"].map((h) => (
                 <th
                   key={h}
-                  className="py-[5px] text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-400"
+                  className="py-[5px] text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500"
                 >
                   {h}
                 </th>
@@ -58,7 +58,7 @@ export function TopFindingsTable() {
         </table>
       </div>
 
-      <p className="mt-1.5 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1.5 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         {topFindingStats.note}
       </p>
     </div>

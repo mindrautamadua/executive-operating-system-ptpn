@@ -105,7 +105,7 @@ export function SupplyDemandBalance() {
                 position="top"
                 offset={5}
                 formatter={ribuan}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
             <Bar dataKey="demand" fill={PALETTE.green} radius={[3, 3, 0, 0]} maxBarSize={34}>
@@ -114,7 +114,7 @@ export function SupplyDemandBalance() {
                 position="top"
                 offset={5}
                 formatter={ribuan}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
               <LabelList dataKey="gap" content={GapLabel} />
             </Bar>

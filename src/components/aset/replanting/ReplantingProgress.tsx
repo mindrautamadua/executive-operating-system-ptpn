@@ -101,14 +101,14 @@ export function ReplantingProgress() {
                 position="top"
                 offset={5}
                 formatter={(v: React.ReactNode) => `${String(v).replace(".", ",")}%`}
-                style={{ fontSize: 7, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">{progressNote}</p>
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">{progressNote}</p>
     </div>
   );
 }

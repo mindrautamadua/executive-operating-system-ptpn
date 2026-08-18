@@ -40,7 +40,7 @@ export function PreparednessLevel() {
               {p.regional}
             </span>
             <span
-              className="shrink-0 rounded-md px-1.5 py-[2px] text-[8px] font-extrabold text-white"
+              className="shrink-0 rounded-md px-1.5 py-[2px] text-[9px] font-extrabold text-white"
               style={{ backgroundColor: SIAGA_COLOR[p.status] }}
             >
               {p.status}

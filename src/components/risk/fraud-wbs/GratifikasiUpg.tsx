@@ -34,7 +34,7 @@ export function GratifikasiUpg() {
         <span className="text-[24px] font-extrabold leading-none tracking-[-0.01em] text-ink-900">
           {String(g.lhkpnPct).replace(".", ",")}%
         </span>
-        <span className="text-[9px] font-semibold text-ink-400">
+        <span className="text-[9px] font-semibold text-ink-500">
           kepatuhan LHKPN ({g.lhkpnLapor.toLocaleString("id-ID")} dari{" "}
           {g.lhkpnWajib.toLocaleString("id-ID")} wajib lapor)
         </span>
@@ -53,7 +53,7 @@ export function GratifikasiUpg() {
         <Tile label="Belum Lapor LHKPN" value={`${g.lhkpnWajib - g.lhkpnLapor}`} tone="bad" />
       </div>
 
-      <p className="mt-1.5 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1.5 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         {g.note}
       </p>
     </div>

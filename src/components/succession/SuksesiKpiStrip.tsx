@@ -60,7 +60,7 @@ function BenchGauge() {
           1,6
         </text>
       </svg>
-      <span className="text-[9px] leading-[1.3] text-ink-400">
+      <span className="text-[9px] leading-[1.3] text-ink-500">
         Target
         <br />
         <span className="font-semibold text-ink-500">≥ 1,0</span>

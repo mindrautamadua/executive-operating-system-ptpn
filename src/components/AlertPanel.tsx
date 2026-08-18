@@ -40,7 +40,7 @@ export function AlertPanel() {
                   >
                     {a.level}
                   </span>
-                  <span className="shrink-0 text-[9px] text-ink-400">{a.time}</span>
+                  <span className="shrink-0 text-[9px] text-ink-500">{a.time}</span>
                 </div>
                 <p className="mt-[2px] text-[10.5px] font-semibold leading-[1.3] text-ink-900">
                   {a.title}
@@ -61,14 +61,14 @@ export function AlertPanel() {
                     {a.dampak.value}
                   </span>
                 </div>
-                <p className="mt-[1px] truncate text-[9px] leading-[1.3] text-ink-400">
+                <p className="mt-[1px] truncate text-[9px] leading-[1.3] text-ink-500">
                   {a.dampak.basis}
                 </p>
 
                 <p className="mt-[3px] text-[9.5px] leading-[1.35] text-ink-700">
                   Aksi: {a.aksi}
                 </p>
-                <p className="mt-[1px] text-[9px] leading-[1.3] text-ink-400">
+                <p className="mt-[1px] text-[9px] leading-[1.3] text-ink-500">
                   {a.owner} · tenggat {a.tenggat}
                 </p>
               </div>

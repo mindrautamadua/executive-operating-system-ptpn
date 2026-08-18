@@ -22,7 +22,7 @@ export function CompDecisionCenter() {
           Total Rewards Decision Center
           <ScopeNote />
         </h3>
-        <span className="shrink-0 text-[9px] font-semibold text-ink-400">
+        <span className="shrink-0 text-[9px] font-semibold text-ink-500">
           Rekomendasi: {compDecision.rekomendasi}
         </span>
       </div>
@@ -39,7 +39,7 @@ export function CompDecisionCenter() {
               <div className="flex items-center justify-between gap-1">
                 <span className="truncate text-[9px] font-extrabold text-ink-900">{s.nama}</span>
                 {s.rekomendasi && (
-                  <span className="shrink-0 rounded px-1 py-[1px] text-[7px] font-bold leading-none tone-green">
+                  <span className="shrink-0 rounded px-1 py-[1px] text-[9px] font-bold leading-none tone-green">
                     ★
                   </span>
                 )}
@@ -70,15 +70,15 @@ export function CompDecisionCenter() {
           className="flex min-w-0 flex-col rounded-xl border border-[#eef2f6] px-3 py-2.5"
           style={{ borderTop: "3px solid #f59e0b" }}
         >
-          <span className="inline-flex w-fit items-center rounded px-1.5 py-[2px] text-[8px] font-bold leading-none tone-amber">
+          <span className="inline-flex w-fit items-center rounded px-1.5 py-[2px] text-[9px] font-bold leading-none tone-amber">
             Approval Conditions
           </span>
-          <p className="mt-1 text-[8px] leading-snug text-ink-600">{compDecision.alasan}</p>
+          <p className="mt-1 text-[9px] leading-snug text-ink-600">{compDecision.alasan}</p>
           <ul className="mt-1.5 flex min-h-0 flex-1 flex-col justify-end gap-[3px]">
             {compDecision.syarat.map((c, i) => (
               <li key={c} className="flex shrink-0 items-start gap-1.5">
                 <CheckCircle2 size={10} className="mt-[1px] shrink-0 text-[#d98b06]" />
-                <span className="text-[8px] font-semibold leading-snug text-ink-700">
+                <span className="text-[9px] font-semibold leading-snug text-ink-700">
                   {i + 1}. {c}
                 </span>
               </li>
@@ -97,8 +97,8 @@ export function CompDecisionCenter() {
           <ul className="mt-1.5 flex flex-col gap-[4px]">
             {compDecision.log.map((d) => (
               <li key={d.label} className="flex items-center justify-between gap-2">
-                <span className="shrink-0 text-[8px] font-semibold text-ink-500">{d.label}</span>
-                <span className="min-w-0 truncate text-right text-[8px] font-extrabold text-ink-900">
+                <span className="shrink-0 text-[9px] font-semibold text-ink-500">{d.label}</span>
+                <span className="min-w-0 truncate text-right text-[9px] font-extrabold text-ink-900">
                   {d.value}
                 </span>
               </li>

@@ -26,7 +26,7 @@ export function GreenFinancePipeline() {
                 <Leaf size={13} className="shrink-0 text-ptpn-green" />
                 <span className="truncate text-[10px] font-bold text-ink-900">{g.instrumen}</span>
               </div>
-              <span className="shrink-0 rounded bg-ptpn-greenLight px-1.5 py-[2px] text-[8px] font-bold text-ptpn-green">
+              <span className="shrink-0 rounded bg-ptpn-greenLight px-1.5 py-[2px] text-[9px] font-bold text-ptpn-green">
                 {g.nilai}
               </span>
             </div>

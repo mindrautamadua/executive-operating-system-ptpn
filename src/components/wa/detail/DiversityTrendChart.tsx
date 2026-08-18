@@ -42,7 +42,7 @@ export function DiversityTrendChart() {
               dataKey="name"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <YAxis
               domain={[0, 40]}
@@ -63,7 +63,7 @@ export function DiversityTrendChart() {
               verticalAlign="bottom"
               height={18}
               iconSize={7}
-              wrapperStyle={{ fontSize: 7.5 }}
+              wrapperStyle={{ fontSize: 8.5 }}
               formatter={(v: string) => SERIES.find((s) => s.key === v)?.label ?? v}
             />
             <ReferenceLine y={30} stroke={PALETTE.purple} strokeDasharray="3 3" />

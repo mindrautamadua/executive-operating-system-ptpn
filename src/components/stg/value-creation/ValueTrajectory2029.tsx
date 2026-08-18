@@ -46,14 +46,14 @@ export function ValueTrajectory2029() {
               className="h-[7px] w-[7px] rounded-full"
               style={{ backgroundColor: PALETTE.blueSoft }}
             />
-            <span className="text-[8px] font-semibold text-ink-500">Jalur Target</span>
+            <span className="text-[9px] font-semibold text-ink-500">Jalur Target</span>
           </span>
           <span className="flex items-center gap-1">
             <span
               className="h-[7px] w-[7px] rounded-full"
               style={{ backgroundColor: PALETTE.green }}
             />
-            <span className="text-[8px] font-semibold text-ink-500">Realisasi</span>
+            <span className="text-[9px] font-semibold text-ink-500">Realisasi</span>
           </span>
         </div>
       </div>
@@ -106,7 +106,7 @@ export function ValueTrajectory2029() {
                 position="top"
                 offset={6}
                 formatter={(v: number) => fmt(v)}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Area>
             <Area

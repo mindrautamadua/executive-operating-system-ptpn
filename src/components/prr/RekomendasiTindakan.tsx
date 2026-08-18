@@ -81,7 +81,7 @@ export function RekomendasiTindakan() {
                   >
                     {a.status}
                   </span>
-                  <span className="text-[8px] font-semibold text-ink-500">{a.quarter}</span>
+                  <span className="text-[9px] font-semibold text-ink-500">{a.quarter}</span>
                 </span>
               </span>
             </li>

@@ -15,7 +15,7 @@ export function KursSensitivity() {
         Dampak skenario terhadap Pendapatan &amp; EBITDA FY 2026
       </p>
 
-      <div className="mt-2 grid grid-cols-[minmax(0,1.35fr)_78px_78px] items-center gap-x-2 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1.35fr)_78px_78px] items-center gap-x-2 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Skenario</span>
         <span className="text-right">Pendapatan</span>
         <span className="text-right">EBITDA</span>
@@ -46,7 +46,7 @@ export function KursSensitivity() {
         ))}
       </ul>
 
-      <p className="mt-1.5 line-clamp-2 text-[8px] leading-snug text-ink-400" title={kursSensitivityNote}>
+      <p className="mt-1.5 line-clamp-2 text-[9px] leading-snug text-ink-500" title={kursSensitivityNote}>
         {kursSensitivityNote}
       </p>
     </div>

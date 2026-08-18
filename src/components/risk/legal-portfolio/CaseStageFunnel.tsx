@@ -46,7 +46,7 @@ export function CaseStageFunnel() {
         ))}
       </ul>
 
-      <p className="mt-1.5 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1.5 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         7 perkara sudah pada tahap eksekusi putusan — prioritas pengamanan aset dan pemulihan hak.
       </p>
     </div>

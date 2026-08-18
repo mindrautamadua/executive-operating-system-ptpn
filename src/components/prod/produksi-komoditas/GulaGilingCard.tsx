@@ -53,7 +53,7 @@ export function GulaGilingCard() {
               dataKey="bulan"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -84,7 +84,7 @@ export function GulaGilingCard() {
               label={{
                 value: "Musim giling dimulai Mei",
                 position: "insideTopLeft",
-                fontSize: 7.5,
+                fontSize: 8.5,
                 fontWeight: 700,
                 fill: PALETTE.amber,
               }}
@@ -121,7 +121,7 @@ export function GulaGilingCard() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 text-[8px] leading-snug text-ink-400">
+      <p className="mt-1 text-[9px] leading-snug text-ink-500">
         FY: tebu 10,5 jt ton · gula 780 rb ton · rendemen rata-rata 7,45%
       </p>
         </>

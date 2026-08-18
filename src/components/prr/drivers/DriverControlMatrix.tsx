@@ -45,7 +45,7 @@ export function DriverControlMatrix() {
               ticks={[30, 45, 60, 75]}
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               unit="%"
             />
             <YAxis
@@ -55,7 +55,7 @@ export function DriverControlMatrix() {
               ticks={[0, 4, 8, 12]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               unit="%"
             />
             <ZAxis type="number" dataKey="z" range={[24, 130]} />

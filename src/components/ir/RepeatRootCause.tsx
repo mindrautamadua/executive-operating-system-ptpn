@@ -34,9 +34,9 @@ export function RepeatRootCause() {
               <span className="min-w-0 flex-1 truncate text-[9.5px] font-bold text-ink-900">
                 {c.name}
               </span>
-              <span className="shrink-0 text-[8px] text-ink-500">{c.cases} kasus</span>
+              <span className="shrink-0 text-[9px] text-ink-500">{c.cases} kasus</span>
               <span
-                className={`shrink-0 rounded-md px-1.5 py-[2px] text-[8px] font-bold ${RATE_TONE[c.tone]}`}
+                className={`shrink-0 rounded-md px-1.5 py-[2px] text-[9px] font-bold ${RATE_TONE[c.tone]}`}
               >
                 Repeat {c.repeatRate}%
               </span>

@@ -41,7 +41,7 @@ export function DampakIklimSimulasi() {
     >
       <div className="flex items-center justify-between gap-2">
         <SectionHead title="Simulasi Dampak Iklim H2 2026" badge={<ScopeNote />} />
-        <span className="shrink-0 rounded-md bg-[#fdecec] px-2 py-[3px] text-[8px] font-extrabold text-[#ef4444]">
+        <span className="shrink-0 rounded-md bg-[#fdecec] px-2 py-[3px] text-[9px] font-extrabold text-[#ef4444]">
           Probabilitas El Nino {EL_NINO_PROBABILITAS_PCT}%
         </span>
       </div>
@@ -66,7 +66,7 @@ export function DampakIklimSimulasi() {
                   </span>
                 </div>
                 <span
-                  className={`shrink-0 rounded-md px-1.5 py-[2px] text-[8px] font-extrabold ${st.badge}`}
+                  className={`shrink-0 rounded-md px-1.5 py-[2px] text-[9px] font-extrabold ${st.badge}`}
                 >
                   {s.probabilitasPct}%
                 </span>
@@ -95,7 +95,7 @@ export function DampakIklimSimulasi() {
                 </div>
               </div>
 
-              <p className="mt-2 text-[8px] leading-snug text-ink-500">{s.note}</p>
+              <p className="mt-2 text-[9px] leading-snug text-ink-500">{s.note}</p>
             </div>
           );
         })}

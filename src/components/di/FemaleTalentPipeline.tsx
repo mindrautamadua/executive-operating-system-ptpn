@@ -15,7 +15,7 @@ export function FemaleTalentPipeline() {
       style={{ "--d": "180ms" } as React.CSSProperties}
     >
       <h3 className="card-title-navy">Female Talent Pipeline</h3>
-      <p className="mt-[3px] text-[9px] text-ink-400">
+      <p className="mt-[3px] text-[9px] text-ink-500">
         Koneksi ke Talent Intelligence & Succession Planning
       </p>
 

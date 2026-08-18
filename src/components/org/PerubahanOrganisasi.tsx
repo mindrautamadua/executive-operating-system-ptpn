@@ -29,7 +29,7 @@ function Tile({ t, delay }: { t: PerubahanTile; delay: number }) {
         {t.delta && t.trend && (
           <Delta value={t.delta} trend={t.trend} size={9} className="mt-[3px]" />
         )}
-        <div className="mt-[3px] truncate text-[9px] text-ink-400">{t.compare}</div>
+        <div className="mt-[3px] truncate text-[9px] text-ink-500">{t.compare}</div>
       </div>
     </div>
   );

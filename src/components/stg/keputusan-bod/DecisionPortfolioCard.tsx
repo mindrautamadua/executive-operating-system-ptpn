@@ -63,7 +63,7 @@ export function DecisionPortfolioCard() {
 
         {/* Realization rate: janji keputusan vs realisasinya. */}
         <div className="mt-[2px]">
-          <div className="flex items-center justify-between text-[8px] text-ink-400">
+          <div className="flex items-center justify-between text-[9px] text-ink-500">
             <span>Realization rate</span>
             <span className="font-bold text-ink-700">{p.realizationPct}%</span>
           </div>
@@ -76,7 +76,7 @@ export function DecisionPortfolioCard() {
         </div>
       </div>
 
-      <p className="mt-1.5 flex items-start gap-1 border-t border-[#eef2f6] pt-1.5 text-[8px] leading-[1.4] text-ink-400">
+      <p className="mt-1.5 flex items-start gap-1 border-t border-[#eef2f6] pt-1.5 text-[9px] leading-[1.4] text-ink-500">
         <BookOpenCheck size={10} className="mt-[1px] shrink-0 text-ptpn-green" />
         Basis: pengadaan (FY Rp 0,85 T · realisasi Rp 0,39 T YTD, run-rate on-track) + divestasi
         tahap 0 (Rp 0,90 T · Rp 0,74 T) + cash pooling (Rp 45 M/thn · Rp 38 M). Keputusan

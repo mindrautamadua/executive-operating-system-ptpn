@@ -44,7 +44,7 @@ export function PriorityMatrix() {
               ticks={[0, 12, 24, 36]}
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               unit=" mg"
             />
             <YAxis
@@ -54,7 +54,7 @@ export function PriorityMatrix() {
               ticks={[0, 15, 30, 45]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
             />
             <ZAxis type="number" dataKey="z" range={[26, 150]} />
             <ReferenceLine x={12} stroke="#94a3b8" strokeDasharray="3 3" />

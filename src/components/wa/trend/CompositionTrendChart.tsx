@@ -35,7 +35,7 @@ export function CompositionTrendChart() {
               dataKey="name"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={1}
             />
             <YAxis
@@ -58,7 +58,7 @@ export function CompositionTrendChart() {
               verticalAlign="bottom"
               height={18}
               iconSize={7}
-              wrapperStyle={{ fontSize: 7.5 }}
+              wrapperStyle={{ fontSize: 8.5 }}
               formatter={(v: string) => COMPOSITION_SERIES.find((s) => s.key === v)?.label ?? v}
             />
             {COMPOSITION_SERIES.map((s) => (

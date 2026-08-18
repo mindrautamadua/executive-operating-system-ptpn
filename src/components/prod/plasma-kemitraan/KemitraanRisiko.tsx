@@ -49,13 +49,13 @@ export function KemitraanRisiko() {
                 <td className="border-b border-[#f3f6f9] py-1.5 pr-2 text-[8.5px] font-bold leading-snug text-ink-900">
                   {r.risk}
                 </td>
-                <td className="border-b border-[#f3f6f9] py-1.5 pr-2 text-[8px] leading-snug text-ink-500">
+                <td className="border-b border-[#f3f6f9] py-1.5 pr-2 text-[9px] leading-snug text-ink-500">
                   {r.desc}
                 </td>
                 <td className="border-b border-[#f3f6f9] py-1.5 pr-2">
                   <ToneBadge label={r.level} tone={LEVEL_TONE[r.level]} />
                 </td>
-                <td className="border-b border-[#f3f6f9] py-1.5 text-[8px] leading-snug text-ink-700">
+                <td className="border-b border-[#f3f6f9] py-1.5 text-[9px] leading-snug text-ink-700">
                   {r.mitigasi}
                 </td>
               </tr>

@@ -87,7 +87,7 @@ export function SpendSnapshot() {
             />
           </div>
 
-          <div className="mt-1.5 flex items-center justify-between text-[8px] font-semibold text-ink-400">
+          <div className="mt-1.5 flex items-center justify-between text-[9px] font-semibold text-ink-500">
             <span>0%</span>
             <span className="text-ptpn-green">
               Band {pct(s.benchmarkBawahPct)}–{pct(s.benchmarkAtasPct)}
@@ -106,7 +106,7 @@ export function SpendSnapshot() {
         </div>
       </div>
 
-      <p className="mt-auto pt-2 text-[8px] leading-snug text-ink-400">{s.catatan}</p>
+      <p className="mt-auto pt-2 text-[9px] leading-snug text-ink-500">{s.catatan}</p>
     </div>
   );
 }

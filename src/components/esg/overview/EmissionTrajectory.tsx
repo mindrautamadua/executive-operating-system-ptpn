@@ -92,7 +92,7 @@ export function EmissionTrajectory() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Aktual 1,82 vs jalur 1,71 pada 2026 — gap 0,11 tCO2e/ton yang setara dampak penuh biogas
         batch-3.
       </p>

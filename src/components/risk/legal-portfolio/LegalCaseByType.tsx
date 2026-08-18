@@ -83,7 +83,7 @@ export function LegalCaseByType() {
         </ul>
       </div>
 
-      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         9 perkara PHI ditangani di modul Industrial Relations (scope SDM) — angka di sini adalah
         agregat enterprise.
       </p>

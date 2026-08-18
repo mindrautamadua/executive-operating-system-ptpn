@@ -38,7 +38,7 @@ export function StrategicAlignment() {
                 >
                   <Icon size={16} strokeWidth={1.8} />
                 </span>
-                <div className="mt-1.5 text-[8px] font-semibold leading-[1.3] text-ink-700">
+                <div className="mt-1.5 text-[9px] font-semibold leading-[1.3] text-ink-700">
                   {step.label}
                 </div>
                 <div className="mt-1 text-[11px] font-extrabold leading-none text-ink-900">

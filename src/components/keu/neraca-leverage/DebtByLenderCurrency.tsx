@@ -90,7 +90,7 @@ export function DebtByLenderCurrency() {
         </div>
       </div>
 
-      <p className="mt-1 truncate text-[8px] leading-snug text-ink-500" title={currencyNote}>
+      <p className="mt-1 truncate text-[9px] leading-snug text-ink-500" title={currencyNote}>
         {currencyNote}
       </p>
     </div>

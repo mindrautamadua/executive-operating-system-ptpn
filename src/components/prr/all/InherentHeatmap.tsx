@@ -32,7 +32,7 @@ export function InherentHeatmap({
 
       <div className="mt-2 flex min-h-0 flex-1 gap-1.5">
         <div className="flex shrink-0 items-center">
-          <span className="rotate-180 text-[8px] font-bold uppercase tracking-[0.06em] text-ink-400 [writing-mode:vertical-rl]">
+          <span className="rotate-180 text-[9px] font-bold uppercase tracking-[0.06em] text-ink-500 [writing-mode:vertical-rl]">
             Likelihood
           </span>
         </div>
@@ -41,7 +41,7 @@ export function InherentHeatmap({
           <div className="flex min-h-0 flex-1 flex-col gap-[3px]">
             {riskHeatmap.map((row, r) => (
               <div key={HEATMAP_LIKELIHOOD[r]} className="flex min-h-0 flex-1 items-stretch gap-[3px]">
-                <span className="flex w-[46px] shrink-0 items-center justify-end pr-1 text-[8px] font-semibold text-ink-500">
+                <span className="flex w-[46px] shrink-0 items-center justify-end pr-1 text-[9px] font-semibold text-ink-500">
                   {HEATMAP_LIKELIHOOD[r]}
                 </span>
                 {row.map((cell) => (
@@ -70,7 +70,7 @@ export function InherentHeatmap({
               </span>
             ))}
           </div>
-          <div className="mt-[2px] text-center text-[8px] font-bold uppercase tracking-[0.06em] text-ink-400">
+          <div className="mt-[2px] text-center text-[9px] font-bold uppercase tracking-[0.06em] text-ink-500">
             Impact
           </div>
         </div>

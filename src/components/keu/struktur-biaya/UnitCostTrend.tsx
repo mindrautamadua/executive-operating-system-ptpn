@@ -40,7 +40,7 @@ export function UnitCostTrend() {
         </p>
         <div className="flex shrink-0 items-center gap-2.5">
           {SERIES.map((s) => (
-            <span key={s.key} className="flex items-center gap-1 text-[8px] font-semibold text-ink-500">
+            <span key={s.key} className="flex items-center gap-1 text-[9px] font-semibold text-ink-500">
               <span className="h-[7px] w-[7px] rounded-full" style={{ backgroundColor: s.color }} />
               {s.label}
             </span>
@@ -56,7 +56,7 @@ export function UnitCostTrend() {
               dataKey="month"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={3}
             />
             <YAxis

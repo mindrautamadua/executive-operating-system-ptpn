@@ -28,7 +28,7 @@ export function ManagerIntelligence() {
             key={s.label}
             className="flex min-w-0 flex-col rounded-xl border border-[#eef2f6] px-2.5 py-1.5"
           >
-            <span className="truncate text-[8px] font-semibold text-ink-500">{s.label}</span>
+            <span className="truncate text-[9px] font-semibold text-ink-500">{s.label}</span>
             <span className="mt-[2px] text-[15px] font-extrabold leading-none tabular-nums text-ink-900">
               {s.value}
             </span>
@@ -37,7 +37,7 @@ export function ManagerIntelligence() {
         ))}
       </div>
 
-      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_88px_92px_72px] gap-x-2 text-[8px] font-bold text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_88px_92px_72px] gap-x-2 text-[9px] font-bold text-ink-500">
         <span>Cluster Manajer</span>
         <span className="text-right">Team Engmt</span>
         <span className="text-right">Effectiveness</span>

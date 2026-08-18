@@ -38,7 +38,7 @@ export function ExecutionRiskRadar() {
             <PolarRadiusAxis
               domain={[0, 100]}
               tickCount={5}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               axisLine={false}
             />
             <Tooltip
@@ -66,7 +66,7 @@ export function ExecutionRiskRadar() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Perizinan &amp; lahan (71) dan regulasi (66) melewati ambang — dominan pada tema Swasembada
         Gula dan EBT.
       </p>

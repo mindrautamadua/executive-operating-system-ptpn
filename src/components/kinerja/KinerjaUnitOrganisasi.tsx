@@ -33,7 +33,7 @@ export function KinerjaUnitOrganisasi() {
             style={{ opacity: orgDim(active, u.nama) }}
             title={`${u.nama}: ${u.score}`}
           >
-            <span className="w-[16px] shrink-0 text-right text-[9px] text-ink-400">
+            <span className="w-[16px] shrink-0 text-right text-[9px] text-ink-500">
               {i + 1}.
             </span>
             <span className="w-[104px] shrink-0 whitespace-nowrap text-[9.5px] text-ink-700">

@@ -56,7 +56,7 @@ export function RootCauseCard() {
         <span className="text-[9px] font-medium text-ink-700">
           {rootCause.catatan}{" "}
           <span className="font-bold text-ptpn-greenDark">{rootCause.catatanHighlight}</span>
-          <span className="ml-1 text-[8px] text-ink-400">(estimasi model — belum tervalidasi)</span>
+          <span className="ml-1 text-[9px] text-ink-500">(estimasi model — belum tervalidasi)</span>
         </span>
       </div>
     </div>

@@ -62,7 +62,7 @@ export function WaSkillsGap() {
                     }}
                   />
                 </div>
-                <span className="shrink-0 text-[8px] text-ink-400">
+                <span className="shrink-0 text-[9px] text-ink-500">
                   {fmt(s.supply)} / {fmt(s.demand)}
                 </span>
               </div>

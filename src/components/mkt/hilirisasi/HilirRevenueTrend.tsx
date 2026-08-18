@@ -68,7 +68,7 @@ export function HilirRevenueTrend() {
               dataKey="periode"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -101,7 +101,7 @@ export function HilirRevenueTrend() {
                 position="top"
                 offset={6}
                 formatter={(v: unknown) => (v == null ? "" : pct(v as number))}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Area>
             <Line
@@ -119,11 +119,11 @@ export function HilirRevenueTrend() {
       </div>
 
       <div className="mt-1 flex items-center gap-3">
-        <span className="flex items-center gap-1.5 text-[8px] font-semibold text-ink-500">
+        <span className="flex items-center gap-1.5 text-[9px] font-semibold text-ink-500">
           <span className="h-[3px] w-[14px] rounded-full" style={{ background: PALETTE.green }} />
           Realisasi Porsi Hilir
         </span>
-        <span className="flex items-center gap-1.5 text-[8px] font-semibold text-ink-500">
+        <span className="flex items-center gap-1.5 text-[9px] font-semibold text-ink-500">
           <span className="h-[3px] w-[14px] rounded-full" style={{ background: PALETTE.navy }} />
           Jalur Target (T) → 25% pada 2030
         </span>

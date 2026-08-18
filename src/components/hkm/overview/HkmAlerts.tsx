@@ -49,7 +49,7 @@ export function HkmAlerts() {
                 </span>
               </div>
               <p className="mt-1.5 flex-1 text-[8.5px] leading-[1.45] text-ink-500">{a.text}</p>
-              <div className="mt-1.5 text-[8px] text-ink-400">{a.time}</div>
+              <div className="mt-1.5 text-[9px] text-ink-500">{a.time}</div>
             </>
           );
           const cls = `flex flex-col rounded-xl border px-3 pb-2.5 pt-2.5 ${t.wrap}`;

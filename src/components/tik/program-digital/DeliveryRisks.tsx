@@ -36,14 +36,14 @@ export function DeliveryRisks() {
             </div>
 
             <div className="mt-1.5 flex items-center gap-1.5">
-              <span className="text-[8px] font-semibold text-ink-400">Dampak</span>
+              <span className="text-[9px] font-semibold text-ink-500">Dampak</span>
               <ToneBadge label={r.dampak} tone={SKALA_TONE[r.dampak]} />
-              <span className="text-[8px] font-semibold text-ink-400">Probabilitas</span>
+              <span className="text-[9px] font-semibold text-ink-500">Probabilitas</span>
               <ToneBadge label={r.probabilitas} tone={SKALA_TONE[r.probabilitas]} />
             </div>
 
             <p className="mt-1.5 text-[8.5px] leading-snug text-ink-500">{r.mitigasi}</p>
-            <div className="mt-1 text-[8px] font-semibold text-ink-400">Owner: {r.owner}</div>
+            <div className="mt-1 text-[9px] font-semibold text-ink-500">Owner: {r.owner}</div>
           </div>
         ))}
       </div>

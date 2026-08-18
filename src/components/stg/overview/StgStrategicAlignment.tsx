@@ -32,7 +32,7 @@ export function StgStrategicAlignment() {
               </span>
               <ToneBadge label={g.status} tone={STATUS_TONE[g.status]} />
             </div>
-            <p className="mt-[3px] truncate text-[8px] text-ink-400" title={g.measure}>
+            <p className="mt-[3px] truncate text-[9px] text-ink-500" title={g.measure}>
               {g.measure}
             </p>
             <div className="mt-1.5 flex items-center gap-1.5">

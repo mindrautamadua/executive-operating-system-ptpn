@@ -14,7 +14,7 @@ export function CommodityScenarioTable() {
         Dampak Tahunan per Pergerakan Variabel Utama
       </p>
 
-      <div className="mt-2 grid grid-cols-[minmax(0,30fr)_74px_minmax(0,26fr)_minmax(0,44fr)] items-center gap-x-2 border-b border-[#eef2f6] pb-1.5 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,30fr)_74px_minmax(0,26fr)_minmax(0,44fr)] items-center gap-x-2 border-b border-[#eef2f6] pb-1.5 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Variabel</span>
         <span className="text-center">Pergerakan</span>
         <span>Dampak</span>

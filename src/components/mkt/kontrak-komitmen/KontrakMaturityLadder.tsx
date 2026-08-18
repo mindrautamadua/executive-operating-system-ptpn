@@ -34,14 +34,14 @@ export function KontrakMaturityLadder() {
                 className="flex h-full items-center justify-end rounded-full bg-ptpn-green pr-1.5"
                 style={{ width: `${(m.kontrak / MAX_KONTRAK) * 100}%` }}
               >
-                <span className="text-[7px] font-bold text-white">{m.kontrak}</span>
+                <span className="text-[9px] font-bold text-white">{m.kontrak}</span>
               </div>
             </div>
           </li>
         ))}
       </ul>
 
-      <p className="mt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="mt-1.5 text-[9px] leading-snug text-ink-500">
         43% kontrak (Rp 5,8 T) jatuh delivery Q3 2026 — puncak produksi &amp; logistik.
       </p>
     </div>

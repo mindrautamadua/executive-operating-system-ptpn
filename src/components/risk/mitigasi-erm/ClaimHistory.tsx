@@ -59,14 +59,14 @@ export function ClaimHistory() {
                 dataKey="lossRatioPct"
                 position="top"
                 formatter={(v: React.ReactNode) => `LR ${String(v)}%`}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         Loss ratio turun 48% → 41% lalu stabil 42% YTD — posisi tawar sehat menghadapi hard market.
       </p>
     </div>

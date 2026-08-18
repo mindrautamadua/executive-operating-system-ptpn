@@ -47,7 +47,7 @@ export function CrossModuleSignals() {
                   </span>
                 ))}
               </div>
-              <p className="mt-1 text-[8px] leading-[1.35] text-ink-600">{s.hypothesis}</p>
+              <p className="mt-1 text-[9px] leading-[1.35] text-ink-600">{s.hypothesis}</p>
             </li>
           );
         })}

@@ -34,7 +34,7 @@ export function ClimateAdaptasi() {
                 <span className="truncate text-[9.5px] font-bold text-ink-900">{p.program}</span>
                 <ToneBadge label={p.status} tone={STATUS_TONE[p.status]} />
               </span>
-              <span className="block truncate text-[8px] text-ink-500">{p.cakupan}</span>
+              <span className="block truncate text-[9px] text-ink-500">{p.cakupan}</span>
             </span>
             <span className="shrink-0 text-right text-[8.5px] font-extrabold text-ink-900">
               {p.investasi}

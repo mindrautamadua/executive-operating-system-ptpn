@@ -54,7 +54,7 @@ export function BusinessDemandDrivers() {
                   </span>
                 </div>
                 <div className="mt-[2px] flex items-center gap-2">
-                  <span className="truncate text-[8px] text-ink-500">{d.asumsi}</span>
+                  <span className="truncate text-[9px] text-ink-500">{d.asumsi}</span>
                   <span className="ml-auto h-[4px] w-[88px] shrink-0 overflow-hidden rounded-full bg-[#eef2f6]">
                     <span
                       className={`block h-full rounded-full ${up ? "bg-ptpn-green" : "bg-[#0d9488]"}`}

@@ -12,7 +12,7 @@ export function DdHeader() {
       controls={
         <div className="flex w-[240px] items-center gap-2 rounded-lg border border-[#e3e9ef] bg-white px-3 py-2 shadow-card">
           <Search size={13} className="shrink-0 text-ink-400" />
-          <span className="text-[10px] text-ink-400">Cari istilah atau metrik…</span>
+          <span className="text-[10px] text-ink-500">Cari istilah atau metrik…</span>
         </div>
       }
       dataAsOf="Versi katalog: review triwulanan, pembaruan terakhir 31 Mei 2026"

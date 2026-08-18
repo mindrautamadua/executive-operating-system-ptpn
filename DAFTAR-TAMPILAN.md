@@ -35,7 +35,7 @@ Urutan seksi mode Fungsional (tiga layer kognitif via pita **LayerBand** — bad
 - **Posisi Pasar CPO** — kartu decision-grade: ASP YTD vs Spot KPBN, badge premium %, volume belum terjual, eksposur ±5% harga, dan baris keputusan (hedge Q4 · owner); menyatukan Market Pulse + External Signals + Risk-to-Value sampai keputusan.
 - **Sebaran Operasi Grup** — peta Indonesia interaktif dengan pewarnaan choropleth Pendapatan YTD per regional.
 - **Kinerja Regional** — tabel/bar list peringkat kinerja per regional.
-- **Operasional Grup** — kartu metrik operasional grup (produksi, utilisasi, dll.).
+- **Operasional Grup** — daftar 4 metrik snapshot per 31 Mei 2026 (Afdeling Aktif 1.243, Pabrik Aktif 64, Karyawan Aktif 70.142, Kebun Plasma 338) dengan ikon berwarna per baris; tautan detail ke `/produksi-operasi`.
 - **Komoditas Utama** — breakdown kinerja per komoditas (sawit, gula, karet, teh); caption "(Referensi regional · YTD 2026)" dengan tooltip pembeda vs ASP grup di KPI (rata-rata tertimbang 5 regional) agar dua harga CPO tidak terbaca bertentangan.
 - **Kinerja SDM** — ringkasan metrik people (headcount, produktivitas, turnover) sebagai jembatan ke modul SDM; ditambah blok "Risiko Suksesi Posisi Kritikal" (3 posisi dengan tone merah/amber).
 - **Trend Kinerja Keuangan** — line/composed chart tren pendapatan & laba bulanan.
@@ -695,194 +695,203 @@ Semua halaman detail memakai KPI Strip + panel **Catatan Analitik** dan **Defini
 
 ## `/rekrutmen`
 
-- **Header Rekrutmen** + **Rekrutmen KPI Strip** — requisition, time-to-fill, offer acceptance, cost per hire.
-- **Workforce Plan → Recruitment** — rantai fulfillment kebutuhan 2026 → offer accepted → onboard, dengan progress bar Committed/Onboard.
-- **Critical Role Hiring** — status pengisian posisi kritikal.
-- **Requisition by Status** — donut/bar distribusi requisition per status.
-- **Rekrutmen Pipeline** — funnel tahapan kandidat.
-- **Bottleneck & SLA per Tahap** — analisis hambatan dan SLA tiap tahap funnel.
-- **Tren Rekrutmen** — line chart tren hire bulanan.
-- **Source Quality** — perbandingan kualitas sumber kandidat.
-- **Rekrutmen by Unit Organisasi** — bar list hire per unit.
-- **Time to Fill Trend** — tren waktu pengisian posisi.
-- **Aktivitas Terbaru** — feed aktivitas rekrutmen terkini.
-- **Requisition by Job Family** — distribusi requisition per job family.
-- **Kualitas Hire (New Hire Performance)** — metrik performa karyawan baru.
-- **Recruitment → Performance** — analisis kohort outcome hire terhadap kinerja.
-- **Recruitment Intelligence & BOD Decision Center** — insight AI + item keputusan rekrutmen.
+Periode kanonik Semester I 2026 (Jan–Jun).
+
+- **Header Rekrutmen** + **Rekrutmen KPI Strip (8 kartu)** — Workforce Plan Fulfillment (33,6%), Critical Role Fulfillment (7,1%), Quality of Hire (4,15/5), Retensi Hire 12 Bulan (91,4%), Time to Fill (28,6 hari), Offer Acceptance Rate (78,4%), Cost per Hire (Rp 4,21 Jt), Hiring Risk Index (62/100); campuran gauge cincin dan sparkline + delta.
+- **Workforce Plan → Recruitment** — rantai step vertikal Kebutuhan Eksternal 2026 (928) → Requisition Aktif (156) → Offer Accepted (312) → Onboard (240) + progress bar Committed 33,6% / Onboard 25,9%; footnote gap 616 posisi & kebutuhan akselerasi Sem II.
+- **Critical Role Hiring** — funnel 5 tahap 42 critical role open → 3 onboard (7,1%); catatan subset 212 posisi kritis Succession Planning, eksposur Rp 48,2 M.
+- **Requisition by Status** — donut 156 requisition: Open 72, In Progress 48, On Hold 18, Closed 18.
+- **Rekrutmen Pipeline** — funnel 6 tahap Applied 4.789 → Offer Accepted 312 (conversion 6,5%).
+- **Bottleneck & SLA per Tahap** — bar median hari aktual vs target per tahap; bottleneck Hiring Manager Review 6,7 vs 3 hari; ringkasan Time to Hire 22,4 hari, 18 breach SLA.
+- **Tren Rekrutmen** — line chart 2 seri requisition & hire per bulan Jan–Jun 2026.
+- **Source Quality** — tabel per sumber (Employee Referral, Job Portal, dll): kandidat, onboard, hire rate, QoH; referral terbaik (hire rate 6,9%, QoH 4,5).
+- **Rekrutmen by Unit Organisasi** — tabel 7 unit: requisition, onboard, time to fill.
+- **Time to Fill Trend** — line chart bulanan 32,8 → 28,6 hari vs benchmark industri 30 hari.
+- **Aktivitas Terbaru** — feed 5 aktivitas rekrutmen berikon + jam, item teratas berpenanda live.
+- **Requisition by Job Family** — tabel 7 job family: requisition, onboard, open position + mini bar.
+- **Kualitas Hire (New Hire Performance)** — gauge skor 4,15/5 (cohort 2025) + bar distribusi Meets/Exceeds/Below/Poor.
+- **Recruitment → Performance** — 4 kartu kohort hire 2025 (n=486): performa 6 & 12 bulan, retensi 91,4%, produktivitas +8,2%; banner cost of bad hire Rp 14,8 M.
+- **Recruitment Intelligence & BOD Decision Center** — 4 butir intelligence + 3 kartu keputusan (Critical Role Gap Rp 48,2 M, Workforce Plan Shortfall 616 posisi, Bottleneck Review) dengan situasi, keputusan diminta, dampak, due.
 
 ## `/absensi-kehadiran`
 
-- **Header** + **Absensi KPI Strip** — attendance rate, absensi, lembur.
-- **Ringkasan Kehadiran** — metrik presence rate dengan tooltip definisi.
-- **Tren Tingkat Kehadiran (%)** — line chart tren kehadiran.
-- **Kehadiran Berdasarkan Unit Organisasi** — bar list per unit.
-- **Kehadiran Berdasarkan Lokasi** — kehadiran per lokasi kerja.
-- **Pola Kehadiran per Hari** — pola menurut hari dalam minggu.
-- **Keterlambatan (Terlambat Masuk)** — metrik & distribusi keterlambatan.
-- **Status Kehadiran Hari Ini** — snapshot status hari berjalan.
-- **Ekonomi Absensi & Lembur** — dampak biaya absensi dan lembur.
-- **Early Warning Kehadiran** — sinyal peringatan dini unit berisiko.
-- **Kapasitas Workforce Efektif** — perhitungan kapasitas tenaga kerja efektif.
-- **Matriks Risiko Kehadiran per Unit** — matriks kehadiran × lembur untuk deteksi understaffed.
-- **Insight & Rekomendasi AI** — narasi insight AI kehadiran.
-- **Kalender Kehadiran** — kalender heatmap kehadiran.
+- **Header** + **Absensi KPI Strip (6 kartu)** — Attendance Health (84/100, komposit 7 sinyal), Tingkat Kehadiran (96,2%), Absenteeism Unplanned (4,8%), Tepat Waktu (87,5%), Lembur (12,4% vs target <8%), Rata-rata Jam Kerja (8j 12m); semua kartu sparkline + tooltip definisi.
+- **Ringkasan Kehadiran** — donut 18.642 karyawan: Hadir 92,1% / Izin / Sakit / Alpha + sub-statistik Terlambat & WFH.
+- **Tren Tingkat Kehadiran (%)** — area chart 6 bulan Des 2025–Mei 2026 (92,1 → 96,2).
+- **Kehadiran Berdasarkan Unit Organisasi** — bar list 10 unit (PTPN IV 97,8% s/d Regional 3 92,8%).
+- **Kehadiran Berdasarkan Lokasi** — peta pin geografis 6 wilayah dengan ramp warna kehadiran.
+- **Pola Kehadiran per Hari** — bar chart Senin–Minggu (weekday ±96%, Sabtu 78,2%, Minggu 42,7%).
+- **Keterlambatan (Terlambat Masuk)** — donut severity 1.234 keterlambatan per bucket menit (1–15 s/d >60).
+- **Status Kehadiran Hari Ini** — daftar live berdot warna (Hadir/Terlambat/Izin/Sakit/Alpha/WFH) + stempel realtime.
+- **Ekonomi Absensi & Lembur** — 3 tile biaya (absensi Rp 7,2 M, lembur Rp 21,4 M, produktivitas loss Rp 6,2 M; total Rp 34,8 M) + skenario status quo vs rekrut 120 FTE (hemat ±Rp 3,3 M/bln); konsentrasi top 10% karyawan = 41% jam lembur.
+- **Early Warning Kehadiran** — 5 sinyal dini (absensi kronis/berat, terlambat kronis, lembur tinggi, sinyal gabungan) dengan populasi & tone; catatan pareto 1,1% karyawan = 18% hari absen.
+- **Kapasitas Workforce Efektif** — 3 tile kebutuhan vs tersedia efektif vs gap (−722 FTE / 3,9%) + spotlight unit understaffed (Regional 3 gap −218 FTE, lembur 16,2%).
+- **Matriks Risiko Kehadiran per Unit** — tabel 8 unit: kehadiran, tepat waktu, lembur, izin, sakit, alpha + chip risiko Rendah/Waspada/Tinggi.
+- **Insight & Rekomendasi AI** — 4 insight bertone (kenaikan MoM, unit berisiko, konsentrasi lembur, input manual 4,8%).
+- **Kalender Kehadiran** — heatmap 13 minggu × 7 hari + bar metode pencatatan (Face Recognition 68,9%, Mobile, Web, Manual).
 
 ## `/compensation-benefits`
 
-- **Header** + **Comp KPI Strip**.
-- **Komposisi Total Rewards** — donut komposisi total rewards.
-- **Tren Biaya Kompensasi** — line/area tren biaya kompensasi.
-- **Perbandingan Benchmark Gaji** — benchmark gaji internal vs pasar.
-- **Analisis Kesenjangan Gaji (Pay Gap)** — analisis pay gap.
-- **Distribusi Gaji (Posisi di Rentang Gaji)** — distribusi posisi gaji dalam range.
-- **Realisasi Kenaikan Gaji** — realisasi merit increase.
-- **Komposisi Employee Benefits** — breakdown benefit.
-- **Compa-Ratio & Range Positioning** — panel compa-ratio & posisi dalam range.
-- **Pay Equity → Remediation** — gap ekuitas gaji dan rencana remediasi.
-- **Pay-for-Performance Effectiveness** — matriks efektivitas bayaran vs kinerja.
-- **People Cost Efficiency** — metrik efisiensi biaya SDM.
-- **Critical Talent Compensation Risk** — risiko kompensasi talenta kritikal.
-- **Total Rewards Decision Center** — panel keputusan total rewards untuk BOD.
-- **Ringkasan Kompensasi per Unit Organisasi** — tabel kompensasi per unit.
-- **Rasio Kompensasi terhadap Kinerja** — rasio comp vs kinerja.
-- **Insight & Rekomendasi AI** + strip catatan metodologi.
+Data pay equity dari sumber tunggal `pay-equity-data.ts` (dipakai bersama halaman D&I).
+
+- **Header** + **Comp KPI Strip (6 kartu)** — Total Biaya Kompensasi (Rp 2,48 T), Rata-rata Gaji Bulanan (Rp 12,45 Jt), Rasio Total Rewards (68,4%), Kenaikan Gaji Rata-rata (5,8%), Employee Benefits Cost (Rp 356 M), Pay Equity Index (0,97); delta vs Q1 2026.
+- **Komposisi Total Rewards** — donut 5 komponen: Gaji Pokok 59,3%, Tunjangan Tetap, Tunjangan Tidak Tetap, Insentif/Bonus, Benefit Lainnya.
+- **Tren Biaya Kompensasi** — line chart bulanan Jan–Jun 2026 (Rp 2,02 T → 2,48 T).
+- **Perbandingan Benchmark Gaji** — dumbbell/range per level (Direksi s/d Staff): band rentang market, rata-rata market, rata-rata perusahaan.
+- **Analisis Kesenjangan Gaji (Pay Gap)** — panel unadjusted vs adjusted gap (1,2%) + dumbbell gaji L vs P per level jabatan dengan headcount & % gap.
+- **Distribusi Gaji (Posisi di Rentang Gaji)** — bar chart % karyawan per persentil P10–P90.
+- **Realisasi Kenaikan Gaji** — gauge status kenaikan tahunan 2026 (Sudah 78,4% / Proses / Belum) dari 18.642 eligible.
+- **Komposisi Employee Benefits** — donut 5 komponen (Kesehatan 45,2%, Pensiun, Asuransi Jiwa, Cuti, Program Karyawan).
+- **Compa-Ratio & Range Positioning** — 3 blok: market positioning per level (compa-ratio vs P50/P75), distribusi compa-ratio (stacked bar), pay range penetration; plus daftar risiko struktur (pay compression 1.240, salary inversion 74).
+- **Pay Equity → Remediation** — waterfall unadjusted → within-level → unexplained gap + stat remediasi (812 karyawan, Rp 14 M/tahun) dan 4 bar confidence model.
+- **Pay-for-Performance Effectiveness** — bar reward & merit per rating kinerja (Outstanding s/d Poor); korelasi r = 0,87; misalignment High Performer/Underpaid 482 vs Low Performer/Overpaid 731.
+- **People Cost Efficiency** — 4 tile rasio (Comp/Revenue 38,2%, Comp/Opex, Revenue/Comp 2,62×, EBITDA/Comp) + bar affordability comp growth vs revenue & EBITDA growth.
+- **Critical Talent Compensation Risk** — funnel 2.842 critical talent → 82 HiPo compa <90% + blok ekonomi retention (adjustment Rp 11 M/thn vs replacement cost Rp 34,6 M); badge level HIGH.
+- **Total Rewards Decision Center** — perbandingan 3 skenario kenaikan (Broad / Targeted Equity [direkomendasikan] / Market Correction) dengan dampak payroll, equity, retention + decision log & tombol kirim ke Scenario Simulation.
+- **Ringkasan Kompensasi per Unit Organisasi** — tabel 6 unit: total biaya, rata-rata gaji, kenaikan, rasio total rewards, pay equity index.
+- **Rasio Kompensasi terhadap Kinerja** — scatter 24 titik performance score × total rewards ratio + garis tren.
+- **Insight & Rekomendasi AI** — 4 insight bertone (affordability, pola gap struktural, talenta under-market, rekomendasi targeted adjustment) + strip metodologi (sumber benchmark Mercer TRS + Korn Ferry, cut Indonesia Plantation/BUMN, Data Trust 96,4%).
 
 ## `/learning-development`
 
-- **Header** + **L&D KPI Strip**.
-- **Distribusi Jam Pelatihan vs Demand Kompetensi** — perbandingan jam pelatihan dengan kebutuhan kompetensi.
-- **Tren Jam Pelatihan Bulanan** — line chart jam pelatihan.
-- **Learning Value Chain** — rantai nilai pembelajaran (input → output → outcome).
-- **Skill Gap Closure — Learning-to-Skill Alignment** — progres penutupan gap skill.
-- **Learning ROI & Efisiensi per Tier** — ROI pembelajaran per tier program.
-- **Outcome per Modalitas Program** — perbandingan outcome per jenis program.
-- **Top 5 Program Berdasarkan Business Impact** — peringkat program berdampak.
-- **Personalized Learning — Populasi Skill Gap** — segmentasi populasi dengan gap skill.
-- **Learning Effectiveness per Unit Organisasi** — efektivitas per unit.
-- **Top 5 Instruktur — Effectiveness** — peringkat instruktur.
-- **Insight & Rekomendasi AI** — narasi insight.
-- **BOD Learning & Capability Decision Center** — panel keputusan kapabilitas untuk BOD.
+Skill gap mengacu `wp-data.skillGaps` (satu sumber dengan Workforce Planning).
+
+- **Header** + **L&D KPI Strip (6 kartu)** — Critical Skill Gap Closure (38,4%; 442 dari 1.150), Learning Transfer L3 (76%), Business Results L4 (62%), Est. Learning ROI (1,7x; value Rp 42,1 M vs investasi Rp 24,8 M), Jam Pelatihan Q2 (344.110), Training Investment (Rp 24,8 M); sparkline + tooltip definisi Kirkpatrick.
+- **Distribusi Jam Pelatihan vs Demand Kompetensi** — donut jam Q2 per kategori (Leadership/Technical/Operational/Soft Skill/Compliance) + flag alignment over/match/under vs demand; Technical under-invested.
+- **Tren Jam Pelatihan Bulanan** — area chart Jan–Jun 2026 (78.540 → 125.430 jam).
+- **Learning Value Chain** — funnel Kirkpatrick: Enrollment 29.842 → Completion 92,1% → Learning L2 89% → Behavior L3 76% → Results L4 62%, dengan delta drop per tahap + estimasi business value Rp 42,1 M.
+- **Skill Gap Closure — Learning-to-Skill Alignment** — tabel 6 skill kritis × academy: gap awal, closure YTD, sisa, coverage, demand, alignment (Mill Engineering coverage 61% under).
+- **Learning ROI & Efisiensi per Tier** — 4 tier program (Strategic ROI 2,3x, Capability, Compliance, Mandatory) + tile cost/peserta Rp 831 rb & cost/jam Rp 72 rb; catatan skor peserta vs non-peserta +12,4% (asosiasi).
+- **Outcome per Modalitas Program** — stacked bar + tabel modalitas (Classroom/E-Learning/Blended/Webinar): jumlah program, Behavior L3, Result L4; Blended terbaik (81%/69%), rekomendasi porsi 21% → 30%.
+- **Top 5 Program Berdasarkan Business Impact** — bar horizontal value program (Digital Transformation Academy Rp 12,4 M teratas) + tooltip peserta, skill gain, behavior.
+- **Personalized Learning — Populasi Skill Gap** — funnel 12.842 karyawan bergap → punya learning path 65,6% → aktif 48,4%.
+- **Learning Effectiveness per Unit Organisasi** — heatmap tabel 6 unit: partisipasi, skill gain, transfer, impact, index komposit.
+- **Top 5 Instruktur — Effectiveness** — daftar instruktur beravatar: bidang, rating, skill gain, transfer rate.
+- **Insight & Rekomendasi AI** — 4 insight (constraint transfer-to-job, gap Mill Engineering, unit terendah, realokasi investasi Leadership → Technical).
+- **BOD Learning & Capability Decision Center** — 3 kartu keputusan (Mill Engineering Capability Risk Rp 38,4 M, Succession Development Gap Rp 21,6 M, Transfer-to-Job Constraint) + total eksposur terkait Rp 69,3 M.
 
 ## `/employee-engagement`
 
-- **Header** + **Engagement KPI Strip**.
-- **Engagement Score Overview** — gauge/ringkasan skor engagement.
-- **Tren Engagement Score** — line chart tren skor.
-- **eNPS Trend** — tren employee Net Promoter Score.
-- **Engagement Score per Unit Organisasi** — bar list per unit.
-- **Engagement Score berdasarkan Demografi** — breakdown demografi.
-- **Faktor Engagement Tertinggi & Terendah** — faktor pendorong/penghambat.
-- **Engagement Driver Model** — model driver engagement berbobot.
-- **Manager Engagement Intelligence** — analisis engagement per manajer.
-- **Engagement → Retention · Performa · Produktivitas** — keterkaitan engagement dengan outcome bisnis.
-- **Engagement Risk Matrix** — matriks risiko engagement per unit.
-- **Voice of Employee Intelligence** — analisis suara karyawan.
-- **Engagement × Workforce Capacity** — diagnosis engagement terhadap kapasitas tenaga kerja.
-- **Komentar Karyawan (Sentimen Analysis)** — analisis sentimen komentar survei.
-- **Partisipasi & Data Confidence** — tingkat partisipasi survei & confidence data.
-- **Insight & Rekomendasi AI** — narasi insight.
-- **Engagement Action Engine** — daftar aksi perbaikan engagement + strip catatan metodologi.
+- **Header** + **Engagement KPI Strip (6 kartu)** — Overall Engagement Score (82,4), eNPS (+46), Response Rate (78,3%), Highly Engaged Employees (34,6%), Engagement Trend (Positif), Satisfaction Index (81,1%, donut ring); tiap kartu delta vs Q1 2026 + sparkline.
+- **Engagement Score Overview** — radar chart skor 6 dimensi Q2 vs Q1 2026 (Purpose, People & Teamwork, Growth, Recognition, Workplace, Leadership) + badge tengah 82,4 Overall.
+- **Tren Engagement Score** — area chart 6 bulan (Jan 73,2 → Jun 82,4) dengan garis target 80.
+- **eNPS Trend** — composed chart diverging: stacked bar Promoters/Passives/Detractors (%) + garis eNPS Jan–Jun 2026 (28 → 46).
+- **Engagement Score per Unit Organisasi** — bar list Top 10 unit (PTPN IV 88,3 s/d Regional 3 74,1) dengan marker target 80.
+- **Engagement Score berdasarkan Demografi** — bar list 4 tab (Generasi/Jabatan/Masa Kerja/Lokasi); tooltip skor + porsi responden.
+- **Faktor Engagement Tertinggi & Terendah** — dua panel bar + chip impact: kekuatan Top 3 vs area perbaikan Bottom 3 (Work-life Balance 68%, impact Very High).
+- **Engagement Driver Model** — tabel 6 driver: skor, bar impact, bobot relative weight (+8% s/d +18%), chip aksi Prioritas/Jaga/Pantau.
+- **Manager Engagement Intelligence** — 4 tile (Manager Effectiveness Index 79, 42 tim berisiko, 68 manajer perlu intervensi, gap top-bottom +27) + tabel cluster manajer Top 10% s/d Bottom 10%.
+- **Engagement → Retention · Performa · Produktivitas** — 3 kartu cluster High/Moderate/Low engagement (turnover 4,1% vs 12,8%, produktivitas 108 vs 91) + highlight avoidable turnover ±410 karyawan; chip "asosiasi, bukan kausalitas".
+- **Engagement Risk Matrix** — scatter kuadran engagement score × response rate 10 unit (threshold 80/80) dengan zona Hidden Risk (4 unit) vs Reliable Strength (5 unit).
+- **Voice of Employee Intelligence** — bar list 6 topik komentar + delta mention vs Q1 (Workload & Overtime 28%, +24%).
+- **Engagement × Workforce Capacity** — tabel cross-module unit tertekan: engagement, adequacy, overtime, absensi (Regional 3 74,1 / 82% / +18% / 6,2%) + link Workforce Planning.
+- **Komentar Karyawan (Sentimen Analysis)** — bar proporsi 68/22/10 + 3 tile sentimen (delta vs Q1) dengan kutipan karyawan berotasi.
+- **Partisipasi & Data Confidence** — bar list response rate per unit vs target 80% + chip confidence High/Medium/Low.
+- **Insight & Rekomendasi AI (Beta)** — 4 insight berikon (kenaikan tidak merata, driver Work-life Balance, 42 tim low, korelasi turnover) + maskot CoachRobot.
+- **Engagement Action Engine** — 3 kartu aksi (issue, skor, evidence, terdampak, akar masalah, owner, target, status) + expected impact +3–5 pts dalam 2 kuartal; strip metodologi (indeks tertimbang 6 dimensi, survey Q2 2026, n = 78,3% populasi).
 
 ## `/diversity-inclusion`
 
-- **Header Diversity, Equity & Inclusion** + **DEI KPI Strip**.
-- **Komposisi Karyawan berdasarkan Gender** — donut komposisi gender.
-- **Tren Representasi Perempuan di Manajemen** — line tren representasi.
-- **Piramida Populasi Gender × Generasi** — piramida populasi.
-- **Gender Leadership Funnel** — funnel kebocoran perempuan di jenjang kepemimpinan.
-- **Trajectory Target: Perempuan di Manajemen** — proyeksi pencapaian target.
-- **Karyawan Disabilitas berdasarkan Jenis** — distribusi karyawan disabilitas.
-- **Equity of Opportunity (Perempuan : Laki-laki)** — rasio kesempatan (promosi, pelatihan, dsb.).
-- **Perbandingan Rata-rata Gaji (Gender Pay Gap)** — perbandingan gaji gender.
-- **Female Talent Pipeline** — pipeline talenta perempuan.
-- **DEI Risk Matrix per Unit** — matriks risiko DEI per unit.
-- **DEI Action Tracker** — pelacak aksi DEI.
-- **Insight & Rekomendasi AI** + strip catatan metodologi.
+- **Header Diversity, Equity & Inclusion** + **DEI KPI Strip (6 kartu)** — Diversity Index (78,6/100), Equity of Opportunity (0,92), Inclusion Index (74,8/100), Perempuan di Manajemen (22,4%; target BUMN 30% 2028), Perempuan di Organisasi (30,8%), Equal Pay Ratio Unadjusted (0,97; adjusted 0,99); sparkline + tooltip metodologi.
+- **Komposisi Karyawan berdasarkan Gender** — bar split Laki-laki 48.538 (69,2%) vs Perempuan 21.604 (30,8%) dari total 70.142.
+- **Tren Representasi Perempuan di Manajemen** — area chart 6 bulan (16,1% → 22,4%) vs garis Target BUMN 30%.
+- **Piramida Populasi Gender × Generasi** — bar back-to-back L/P per generasi (Gen Z s/d Baby Boomer).
+- **Gender Leadership Funnel** — bar % perempuan per level Staff → Direksi dengan delta antar level (leakage total −9,5 pts) + footer promotion velocity (rasio promosi P:L 1,01, time-to-promotion).
+- **Trajectory Target: Perempuan di Manajemen** — area chart aktual + proyeksi 2025–2028 vs target 30%; chip status At Risk, proyeksi 2028 28,4%, probabilitas tercapai 64%.
+- **Karyawan Disabilitas berdasarkan Jenis** — donut 915 karyawan per jenis disabilitas + footer rasio outcome (promosi/pelatihan/retensi) vs organisasi.
+- **Equity of Opportunity (Perempuan : Laki-laki)** — 8 bar rasio vs garis paritas 1,00 dengan label modul sumber (Hiring 0,89 s/d Suksesi VP+ 0,74); indeks komposit 0,92.
+- **Perbandingan Rata-rata Gaji (Gender Pay Gap)** — dumbbell rata-rata gaji L vs P (dari `payEquityCanon`) + blok unadjusted vs adjusted (0,99 / gap 1,2%) dengan catatan kontrol metodologi.
+- **Female Talent Pipeline** — 4 statistik + bar: HiPo perempuan 316 (29,6%), suksesor perempuan posisi kritis 17,9%, Ready Now 14, VP+ 12% vs target 25%; banner Future Leadership Diversity Risk.
+- **DEI Risk Matrix per Unit** — tabel 5 unit + rata-rata grup: skor Diversity/Equity/Inclusion, tren, level risiko.
+- **DEI Action Tracker** — tabel 5 inisiatif: owner, target, aktual, progress bar, status On/At Risk/Off Track.
+- **Insight & Rekomendasi AI** — 4 insight (promosi seimbang, leakage jenjang atas, proyeksi target, gap Inclusion vs Diversity) + strip privasi (minimum cell size <10 disembunyikan; survei inklusi 41.238 responden; Data Trust 96,1%).
 
 ## `/industrial-relations`
 
-- **Header** + **IR KPI Strip**.
-- **IR Health — Dekomposisi Indeks** — dekomposisi 4 dimensi berbobot skor IR Health 82,6 plus KPI Disruption Risk (lokasi risiko naik, karyawan terpapar, eksposur pendapatan).
-- **Sebaran Kasus Berdasarkan Kategori** — distribusi kasus per kategori.
-- **Trend Kasus Industrial Relations** — line chart tren kasus.
-- **IR Early Warning** — sinyal peringatan dini gangguan hubungan industrial.
-- **Case Severity (24 Kasus Aktif)** — bar tingkat keparahan kasus.
-- **Case Aging & Efektivitas** — usia kasus dan efektivitas penyelesaian.
-- **Repeat Issue & Root Cause** — isu berulang dan akar masalah.
-- **Penyelesaian Kasus** — statistik resolusi kasus.
-- **Kepatuhan Hubungan Industrial** — status kepatuhan regulasi ketenagakerjaan.
-- **Union Relations Health** — kesehatan hubungan dengan serikat pekerja.
-- **IR Risk Heatmap per Region** — heatmap risiko IR per regional.
-- **Top Isu Industrial Relations** — daftar isu teratas.
-- **AI Industrial Relations Intelligence** — insight AI IR.
-- **Business Impact Eksposur IR** — dampak bisnis dari eksposur IR.
-- **IR Cost & Legal Exposure** — eksposur biaya dan legal.
-- **Cross-Module Intelligence** — sinyal lintas modul terkait IR + strip metodologi 3 kolom.
+- **Header** + **IR KPI Strip (6 kartu)** — Industrial Relations Index (82,6/100, kategori Baik), Kasus Aktif (24; 2 kritis), Kasus Baru YTD (36; 0,51/1.000 karyawan), Potensi Aksi Mogok (2 lokasi), Tingkat Penyelesaian (91%; first-time resolution 76%), Hari Tanpa Aksi Mogok (128); sub-teks + delta + sparkline.
+- **IR Health — Dekomposisi Indeks** — 4 tile berbobot (Stability 30% · Case Management 20% · Compliance 20% · Conflict Risk 30%) membentuk 82,6/100; berdampingan dengan **IR Disruption Risk** (skor 18/100 Rendah): 2 lokasi risiko naik, 4.218 karyawan terpapar, 5 titik operasi, eksposur pendapatan Rp 48,2 M + chip driver utama.
+- **Sebaran Kasus Berdasarkan Kategori** — donut 24 kasus aktif per jenis perselisihan (Hak 37,5%, Kepentingan, PHK, Antar Pekerja, Lainnya).
+- **Trend Kasus Industrial Relations** — line chart 2 seri kasus baru vs selesai 12 bulan (Jun 2025–Mei 2026).
+- **IR Early Warning** — skor 71/100 (Waspada), horizon 30–90 hari, chip driver bertone + tabel lokasi berisiko (Bah Jambi 68%, Sei Mangkei 54%, dst) dengan probabilitas & window.
+- **Case Severity (24 Kasus Aktif)** — stacked bar distribusi Kritis/Tinggi/Sedang/Rendah + tabel 5 kasus teratas: kode, lokasi, severity, umur, risiko utama.
+- **Case Aging & Efektivitas** — bar bucket umur kasus (<7 hr s/d >90 hr) + statistik: rata-rata penyelesaian 23 hari, median 17, kasus terlama 104 hari, first-time resolution 76%, repeat rate 21%.
+- **Repeat Issue & Root Cause (12 Bulan)** — kartu per kategori isu (Upah 56 kasus/repeat 39%, Lembur, Kesejahteraan, PKB) dengan chip root cause + link modul penyebab (Compensation, Workforce Planning, Engagement, Risk & Compliance).
+- **Penyelesaian Kasus** — donut basis 170 kasus 12 bulan: Selesai 91% / Proses / Belum + catatan kasus lama di PHI.
+- **Kepatuhan Hubungan Industrial** — bar list 5 area vs target ≥95% dengan gap & status; banner risiko gap PKB −6 pts (eksposur hukum Rp 12,8 M).
+- **Union Relations Health** — tile anggota SP (18.642, 142 SP) + Bipartite Relationship Index 84/100 + tabel per serikat: anggota, kasus, sentimen, risiko.
+- **IR Risk Heatmap per Region** — peta SVG Indonesia + tabel 8 regional: indeks IR, strike risk, compliance, penanda Watch.
+- **Top Isu Industrial Relations** — bar horizontal 7 isu dari 170 kasus 12 bulan (Upah & Tunjangan 33% teratas).
+- **AI Industrial Relations Intelligence** — banner hotspot prioritas (Regional VIII) + intervensi 0–30 hari dan 30–90 hari + estimasi dampak ke skor & eksposur.
+- **Business Impact Eksposur IR** — tabel lokasi terpapar: karyawan, estimasi hari disrupsi, produksi berisiko, eksposur Rp; total 4.218 karyawan · Rp 48,2 M.
+- **IR Cost & Legal Exposure** — bar biaya IR YTD Rp 24,8 M per komponen (settlement 59%, hukum, productivity loss, disrupsi) + blok legal exposure PHK/PHI (potensi liabilitas Rp 9,6 M, probabilitas litigasi 35%).
+- **Cross-Module Intelligence** — 3 kartu hipotesis rantai sinyal lintas modul (Upah→Kompensasi, Lembur→Kapasitas, Engagement→IR) + strip metodologi 3 kolom (IR Index, Early Warning & Disruption, Eksposur Finansial).
 
 ## `/people-productivity`
 
-- **Header** + **Produktivitas KPI Strip**.
-- **Productivity Intelligence (AI)** — panel sintesis: headline delta, 4 tile driver/risiko, rekomendasi.
-- **Produktivitas Utama (Trend)** — line chart tren produktivitas.
-- **Produktivitas per Unit Kerja** — bar list produktivitas per unit.
-- **Produktivitas Berdasarkan Jenis Usaha** — perbandingan per jenis usaha/komoditas.
-- **Productivity Opportunity Map** — peta peluang produktivitas vs biaya.
-- **Breakdown Produktivitas (Drill Down)** — dekomposisi drill-down produktivitas.
-- **Drivers of Productivity (YTD)** — faktor pendorong produktivitas.
-- **Insight & Rekomendasi** — narasi insight.
-- **Benchmarking Eksternal** — perbandingan benchmark industri + strip definisi.
+- **Header** + **Produktivitas KPI Strip (7 kartu)** — Revenue per Employee (Rp 1,18 M), EBITDA per Employee (Rp 326 Jt), Production per Employee (74,8 Ton), Labor Cost per Employee (Rp 176,4 Jt), Labor Cost per Ton TBS (Rp 2.355), Labor Cost to Revenue (9,7%), Productivity Index (112, base 2024 = 100); delta YoY vs Mei 2025.
+- **Productivity Intelligence (AI)** — headline index +5,7% (106 → 112) + 4 tile (primary driver produksi +3,2 pts, cost efficiency −4,2%, risiko terkonsentrasi 3 unit, peluang ekonomi ±Rp 2,9 T/tahun) + rekomendasi cross-unit productivity transfer.
+- **Produktivitas Utama (Trend)** — line chart 12 bulan 4 seri indeks (Revenue/Employee, Production/Employee, Productivity Index, Labor Cost/Ton) rebased Jun 2025 = 100.
+- **Produktivitas per Unit Kerja** — tabel 6 unit + total grup: revenue/employee, production/employee, bar productivity index (118 s/d 92).
+- **Produktivitas Berdasarkan Jenis Usaha** — daftar per lini (Sawit, Karet, Teh, Gula, Supporting) dengan revenue/employee, ton/employee, marker index pada skala gradient.
+- **Productivity Opportunity Map** — scatter bubble labor cost/ton × productivity index (ukuran = headcount) dengan 4 kuadran STAR / COST WATCH / OPPORTUNITY / TURNAROUND; prioritas intervensi kuadran TURNAROUND.
+- **Breakdown Produktivitas (Drill Down)** — tabel drill-down kebun/pabrik PTPN IV: revenue & production per employee, labor cost/ton, bar index; placeholder bila scope bukan PalmCo.
+- **Drivers of Productivity (YTD)** — waterfall 106 → 112: peningkatan produksi +3,2, efisiensi proses +2,4, mix produk +1,7, kenaikan biaya tenaga kerja −1,3.
+- **Insight & Rekomendasi** — 4 tile temuan (index naik, labor cost/ton turun, peluang gap 26 poin ±Rp 2,9 T, fokus perbaikan).
+- **Benchmarking Eksternal** — bar PTPN Group 112 vs rata-rata industri nasional 100 vs top quartile 130 + footnote definisi Productivity Index (komposit tertimbang) & sumber benchmark 24 perusahaan perkebunan; strip definisi People Productivity.
 
 ## `/people-math-hpi`
 
-- **Header** + **PM KPI Strip** + strip cakupan data (Data as-of, Confidence).
-- **People Performance Intelligence (AI)** — sintesis sinyal utama + satu rekomendasi prioritas.
-- **People Math Dimension Score** — radar chart skor dimensi People Math.
-- **PTPN HPI-BEM Score Overview** — ringkasan skor HPI-BEM grup.
-- **Performance Opportunity Gap (Top Level)** — gap peluang kinerja tingkat atas.
-- **People Math Profile Cluster** — pengelompokan profil karyawan.
-- **HPI Root Cause Analysis** — analisis akar masalah gap kinerja.
-- **Intervention Portfolio** — portofolio intervensi yang dijalankan.
-- **Intervention Outcome Tracking (Closed Loop)** — pelacakan hasil intervensi.
-- **Cluster Intelligence — Role Fit & Productivity Linkage** — keterkaitan kecocokan peran dan produktivitas.
-- **Employee HPI Profile (Contoh)** — contoh profil HPI individu + catatan metodologi.
+- **Header** + **PM KPI Strip (7 kartu + kartu Insight Utama)** — People Math Profiled (38.642; 55,1%), HPI Assessed (27.891; 39,7%), Rata-rata People Math Score (78,6), Rata-rata HPI BEM Score (82,1), Performance Opportunity Gap (11,8%), High Improvement Opportunity (6.412 orang), People Math–HPI Alignment (0,72 Strong); kartu ke-8 insight naratif.
+- **Intelligence Coverage** — strip cakupan data: People Math 55,1%, HPI-BEM 39,7%, combined usable 36,4% (25.530), confidence Medium, basis 70.142 karyawan.
+- **People Performance Intelligence (AI)** — 4 kartu sinyal (counter Kritis/Perhatian/Positif) + panel Priority Intervention; sinyal utama Environmental Supports dominan 64% gap.
+- **People Math Dimension Score** — radar chart 6 dimensi (Thinking Style 82 s/d Resilience 74), center 78,6 Kuat + legend band skor.
+- **PTPN HPI-BEM Score Overview** — gauge ring 82,1/100 + 6 progress bar sel BEM dalam 2 grup (Environmental Supports: Data/Instruments/Incentives; Person's Repertory: Knowledge/Capacity/Motives); opportunity terbesar Instruments 73.
+- **Performance Opportunity Gap (Top Level)** — donut interaktif gap per sel BEM (total 11,8%; Instruments Gap 3,4% terbesar) + alert Environmental Supports = 64% total gap.
+- **People Math Profile Cluster** — donut 6 klaster pola individu (The Driver 31%, Inspirer, Analyst, Collaborator, Stabilizer, Pioneer) dari 38.642 orang.
+- **HPI Root Cause Analysis** — banner gap tertinggi + tabel 5 faktor penyebab: impact, populasi terdampak; footer estimated improvement potential +8–12%.
+- **Intervention Portfolio** — tabel 5 intervensi berprioritas: sel BEM, populasi, estimasi biaya, expected impact, confidence, status, value/cost.
+- **Intervention Outcome Tracking (Closed Loop)** — step-flow 7 kartu Assess → Diagnose → Intervene → Adoption → HPI Change (68→76) → Performance → Business Impact (+6,2%) untuk pilot Digitalisasi Reporting Kebun + blok Learning scale-up.
+- **Cluster Intelligence — Role Fit & Productivity Linkage** — tabel 6 klaster: best-fit fungsi, productivity index, performance, flight risk, fokus pengembangan.
+- **Employee HPI Profile (Contoh)** — kartu profil individu 5 kolom: identitas + badge talenta, performance score & gap, 6 sel BEM bernilai, root cause utama, rekomendasi intervensi; ditutup catatan metodologi PTPN HPI-BEM v1.0 (WHO/WHY/HOW).
 
 ## `/workforce-planning`
 
-- **Header** + **WP KPI Strip**.
-- **Proyeksi Headcount 2026–2028** — composed chart proyeksi headcount.
-- **Kebutuhan Talenta Berdasarkan Jenjang** — kebutuhan per jenjang jabatan.
-- **Kebutuhan Talenta Berdasarkan Fungsi Utama** — kebutuhan per fungsi.
-- **Business Demand Drivers** — pendorong permintaan tenaga kerja dari sisi bisnis.
-- **Workforce Capacity** — kapasitas tenaga kerja saat ini.
-- **Workforce Rebalancing** — rencana rebalancing antar unit.
-- **Gap Talenta Kritis (Top 10 Skill)** — 10 skill dengan gap terbesar.
-- **Sumber Pemenuhan Kebutuhan Talenta (2026–2028)** — komposisi build/buy/borrow/bot.
-- **Workforce Supply & Demand Balance** — neraca pasokan vs permintaan.
-- **Strategi Penutupan Gap — 4B** — strategi 4B penutupan gap skill.
-- **Workforce Gap Waterfall 2026–2028** — waterfall chart perubahan gap.
-- **Scenario Planning Overview** — ringkasan skenario perencanaan.
-- **Rekomendasi Strategis** — daftar rekomendasi.
-- **Scenario Decision Matrix** — matriks keputusan antar skenario.
-- **Workforce Continuity Risk** — overlay risiko kontinuitas tenaga kerja.
-- **Workforce Plan Control Tower — YTD 2026** — panel kontrol eksekusi rencana YTD + catatan metodologi & kutipan penutup.
+Horizon plan 2026–2028; data per 31 Mei 2026.
+
+- **Header** + **WP KPI Strip (7 kartu)** — Total Headcount Saat Ini (70.142), Proyeksi Headcount 2028 (73.856), Kebutuhan Tambahan Net (3.714), Critical Role Tanpa Suksesor Ready-Now (148 posisi; 32 segera), Skill Gap (1.245), Rasio Talent Ready (68%), Estimated HC Cost 2028 (Rp 6,82 T).
+- **Proyeksi Headcount 2026–2028** — composed chart area Total Headcount + garis Net Additional per tahun (70.142 → 73.856).
+- **Kebutuhan Talenta Berdasarkan Jenjang** — tabel forecast 2026/2027/2028 + kebutuhan tambahan per jenjang (Direktur & EVP s/d Staff & Non Staff) + baris total 3.714.
+- **Kebutuhan Talenta Berdasarkan Fungsi Utama** — tabel 8 fungsi berikon dengan forecast & tambahan (Operasional Kebun +1.660 terbesar; Lainnya −1.024).
+- **Business Demand Drivers** — 5 driver bisnis dengan mini bar + asumsi (Ekspansi Produksi +2.480, Kapasitas Mill +1.415, Digital +510, Otomasi −395, Produktivitas per FTE −296); badge Net Demand +3.714.
+- **Workforce Capacity** — daftar stat headcount → available capacity 92,4% → productive capacity 64.811 FTE → required 2028 68.230 FTE; blok Capacity Gap 2028 = −3.419.
+- **Workforce Rebalancing** — 4 bar sumber realokasi 1.024 posisi (redeployment 612, attrition alami, otomasi, outsourcing).
+- **Gap Talenta Kritis (Top 10 Skill)** — tabel supply, demand, gap, gap % per skill (Mill & Process Engineering −200, Data Analytics −180 dst).
+- **Sumber Pemenuhan Kebutuhan Talenta (2026–2028)** — donut: talent internal 45%, rekrutmen eksternal 25%, reskilling 20%, outsourcing 10%.
+- **Workforce Supply & Demand Balance** — grouped bar supply vs demand 2026–2028 dengan label gap (−844 → −1.571).
+- **Strategi Penutupan Gap — 4B** — stacked bar Build/Buy/Borrow/Bot per skill kritis + chip criticality + target time-to-close (9–18 bulan).
+- **Workforce Gap Waterfall 2026–2028** — waterfall kebutuhan bruto 7.834 dikurangi mobilitas internal, reskilling, outsourcing, rekrutmen eksternal, replacement hiring.
+- **Scenario Planning Overview** — 4 kartu skenario (BAU, High Growth, Efficiency & Automation, Reskill & Redeploy): headcount, cost, productivity index, dampak biaya.
+- **Rekomendasi Strategis** — 4 rekomendasi bertajuk (Build+Move sebelum Buy, amankan kapabilitas kritis, tutup gap suksesi, adopsi skenario Reskill & Redeploy).
+- **Scenario Decision Matrix** — tabel skor 4 skenario pada 5 kriteria berbobot (Cost/Prod/Capability/Risk/Feasibility) + overall; rekomendasi Reskill & Redeploy (88).
+- **Workforce Continuity Risk** — 4 item risiko berbadge HIGH: skill gap 1.245, 148 posisi tanpa suksesor, attrition teknis 8,4%, single-person dependency 12 orang.
+- **Workforce Plan Control Tower — YTD 2026** — 4 kartu Plan/Actual/Variance + status (headcount, rekrutmen eksternal, reskilling Off Track, mobilitas internal) + reforecast Q3 2026; catatan metodologi & kutipan penutup.
 
 ## `/organisasi-jabatan`
 
-- **Header** + **Ringkasan Organisasi** — strip metrik ringkas organisasi.
-- **Struktur Organisasi** — visualisasi/tree struktur organisasi.
-- **Distribusi Karyawan Berdasarkan Unit** — distribusi headcount per unit.
-- **Analisis Jabatan** — metrik analisis jabatan.
-- **Jabatan Kosong Kritis** — daftar posisi kritis yang kosong.
-- **Span of Control** — metrik rentang kendali.
-- **Tingkat Organisasi** — jumlah dan sebaran level organisasi.
-- **Status Pengisian Jabatan** — status terisi/kosong jabatan.
-- **Perubahan Organisasi (YOY)** — perubahan struktur tahun-ke-tahun.
-- **Kesehatan Organisasi** — org health score.
-- **Layer Manajemen & Densitas** — analisis layer dan densitas manajerial.
-- **Efisiensi Biaya Organisasi** — metrik efisiensi biaya struktur.
-- **Mapping Jabatan Kritis & Suksesi** — tabel pemetaan jabatan kritis dan kesiapan suksesor.
-- **Insight AI** — narasi insight AI organisasi.
+- **Header** + **Ringkasan Organisasi (7 kartu)** — Total Karyawan (70.142), Total Unit Organisasi (532), Total Jabatan (1.256), Jabatan Terisi (1.024; ring 81,5%), Jabatan Kosong (232; 13 kritis), Rasio Span of Control (7,5; badge Optimal), Total People Cost YOY (Rp 8,43 T); delta vs periode sebelumnya + tombol Ekspor.
+- **Struktur Organisasi** — diagram tree 4 level dengan zoom & expand: Holding PTPN III → 5 divisi → 3 subholding (PalmCo/SugarCo/SupportingCo) → anak perusahaan berikut jumlah karyawan.
+- **Distribusi Karyawan Berdasarkan Unit** — bar horizontal ranking 10 unit (SugarCo 25.842 teratas) + dropdown filter unit.
+- **Analisis Jabatan** — donut 1.256 jabatan per level: Direktur 1,4%, GM 6,8%, Manager 9,9%, Supervisor 24,8%, Staff 57%.
+- **Jabatan Kosong Kritis** — daftar 5 posisi: jabatan, unit, jumlah, chip severity (Senior Agronomist PTPN IV 8 posisi Kritis, dst).
+- **Span of Control** — tabel rasio aktual vs benchmark kontekstual per level (Supervisor 8,7 di atas rentang 6–8); catatan 43 atasan melebihi benchmark.
+- **Tingkat Organisasi** — piramida SVG 5 pita distribusi jabatan per level.
+- **Status Pengisian Jabatan** — tabel + progress bar keterisian per level (Direktur 100% s/d Staff 76,3%) dari 1.256 posisi.
+- **Perubahan Organisasi (YOY)** — grid 4 tile: unit +8,2%, jabatan +7,6%, jabatan baru 156, jabatan dihapus 68.
+- **Kesehatan Organisasi** — ring gauge skor 79/100 + 6 bar dimensi (span, layer, efisiensi posisi & biaya, cakupan posisi kritis, kompleksitas).
+- **Layer Manajemen & Densitas** — bar kedalaman struktur per tingkat entitas vs benchmark ≤8 layer (17 unit melebihi) + densitas manajerial 18,2% (benchmark 15–20%, Sehat).
+- **Efisiensi Biaya Organisasi** — grid 4 stat: People Cost Rp 8,43 T (+4,12% YOY), cost/karyawan Rp 120,2 jt, cost/pendapatan 15,4%, pendapatan/karyawan Rp 778 jt; catatan cost growth < revenue growth.
+- **Mapping Jabatan Kritis & Suksesi** — tabel 5 jabatan kritis (+ badge SPOF): pemangku, risiko kehilangan, skor risiko posisi, bar readiness suksesor (Now/1-2/3+ thn), progres rencana suksesi.
+- **Insight AI (Beta)** — 3 temuan naratif (span supervisor, 18,5% jabatan kosong, pertumbuhan unit vs pendapatan) + maskot robot.
 
 ## `/ai-hr-assistant`
 
@@ -895,19 +904,19 @@ Semua halaman detail memakai KPI Strip + panel **Catatan Analitik** dan **Defini
 
 ## `/risk-compliance` (Risk & Compliance SDM)
 
-- **Header** + **RC KPI Strip**.
-- **Compliance Radar** — radar chart skor area kepatuhan.
-- **Ringkasan Kepatuhan** — status kepatuhan per area.
-- **Top 5 Compliance Issues** — isu kepatuhan teratas.
-- **Compliance Trend (12 Bulan Terakhir)** — line chart tren kepatuhan.
-- **Compliance Exposure Map** — heatmap eksposur kepatuhan per unit organisasi.
-- **Breakdown Kasus Pelanggaran** — distribusi kasus pelanggaran.
-- **Rekomendasi Tindakan Kepatuhan** — daftar rekomendasi tindakan.
-- **Control Effectiveness** — efektivitas kontrol.
-- **Audit Finding Aging** — usia temuan audit.
-- **Speak-Up Intelligence** — analisis laporan whistleblowing/speak-up.
-- **Regulatory Change Radar** — radar perubahan regulasi.
-- **BOD Compliance Decision Center** — item keputusan kepatuhan untuk BOD + strip catatan.
+- **Header** (badge Compliance Posture 87/100 · Residual Risk Medium-High) + **RC KPI Strip (7 kartu)** — Overall Compliance Score (87/100), Kepatuhan Regulasi (92,4%; 214 kewajiban), Temuan Audit Terbuka (18; 7 overdue), Kasus Pelanggaran Aktif (24), Laporan Whistleblowing (31; 42% substantiated), Training Compliance (84,6%), Potensi Denda & Sanksi (Rp 12,4 M gross; residual Rp 3,6 M).
+- **Compliance Radar** — radar chart 8 area kepatuhan (Ketenagakerjaan 94 s/d Data Privasi 68) + legend band Patuh/Parsial/Kritis.
+- **Ringkasan Kepatuhan** — tabel 8 area: status, skor, gap terhadap tolerance, trend, jumlah temuan terbuka.
+- **Top 5 Compliance Issues** — daftar berprioritas dengan eksposur Rp, due date, bar remediasi & kontrol, residual risk, owner (UU PDP Kritis Rp 4,8 M teratas).
+- **Compliance Trend (12 Bulan Terakhir)** — line chart skor Jun 2025 (79) → Mei 2026 (87) dengan reference band merah/amber/hijau.
+- **Compliance Exposure Map** — heat-table 6 subholding: temuan, kasus, training, skor, eksposur Rp M + penanda prioritas (PTPN IV tertinggi Rp 4,3 M).
+- **Breakdown Kasus Pelanggaran** — 4 tile severity (Kritis 3 s/d Rendah 4) + bar proporsi kategori (Disiplin 38%, Kode Etik, Fraud, K3, Pelecehan) + footer fraud intel (recovered 35%).
+- **Rekomendasi Tindakan Kepatuhan** — 5 aksi dengan risk before → after, progress bar, target kuartal (Remediasi UU PDP 88→61 dst).
+- **Control Effectiveness** — tabel 6 area: jumlah kontrol, split Efektif/Parsial/Gagal, efektivitas %, residual risk; overall 75%.
+- **Audit Finding Aging** — bar bucket umur 18 temuan terbuka + tile Overdue 7, rata-rata 74 hari, closure rate 81%.
+- **Speak-Up Intelligence** — stacked bar 31 laporan WBS (substantiated/investigasi/unsubstantiated) + tile waktu investigasi, overdue, retaliasi 0, repeat offense.
+- **Regulatory Change Radar** — stacked bar register 214 kewajiban (198 patuh / 11 parsial / 5 non) + 3 perubahan regulasi mendatang (RPP UU PDP, Permenaker K3, PP Pengupahan) dengan readiness bar & tingkat dampak.
+- **BOD Compliance Decision Center** — waterfall eksposur Gross Rp 12,4 M → Expected → Mitigation Cost → Residual Rp 3,6 M + 3 kartu keputusan dengan eskalasi eksposur bila ditunda 3/6 bulan; strip catatan beda Compliance Score vs Kepatuhan Regulasi.
 
 ---
 
@@ -1916,7 +1925,7 @@ Menu di sidebar utama, kedua mode navigasi (grup atas, di bawah Executive Guide)
 # 22. Halaman Pendukung
 
 ## `/data-analytics`
-- **Header** + **Data KPI Strip**.
+- **Header** + **Data KPI Strip (6 kartu)** — Total Data Employee (70.142), Kelengkapan Data (95,6%), Data Trust Index (94,1), Data Update Tepat Waktu (98,3%), Sumber Data Terintegrasi (18), Data Anomaly Bulan Ini (156; 121 resolved); tiap kartu nilai + delta vs Q1 2026 + sparkline.
 - **Data Trust Index** — gauge/ringkasan indeks kepercayaan data.
 - **Tren Data Trust Index** — line chart tren indeks.
 - **Kelengkapan Data Berdasarkan Domain** — kelengkapan per domain data.
@@ -1938,7 +1947,7 @@ Menu di sidebar utama, kedua mode navigasi (grup atas, di bawah Executive Guide)
 - **Kategori Metrik** — daftar kategori metrik di rail kanan + strip catatan.
 
 ## `/scenario-simulation`
-- **Header Strategic Scenario Simulator** + **SS KPI Strip**.
+- **Header Strategic Scenario Simulator** + **SS KPI Strip (6 kartu)** — Total Skenario (6 aktif), Skenario Rekomendasi (Skenario C; Strategic Score 88 · ROI 22,4%), Potensi Penghematan Biaya (Rp 185,7 M), Potensi Tambahan Produktivitas (+8,6%), Dampak Headcount 2028 (−1.024 vs Baseline), Confidence Level (87%).
 - **Pilih & Kelola Skenario** — daftar skenario dengan badge Aktif/Draft dan tombol tambah.
 - **Perbandingan Dampak Utama** — perbandingan dampak antar skenario.
 - **Proyeksi Headcount (2026–2028)** — chart proyeksi headcount per skenario.

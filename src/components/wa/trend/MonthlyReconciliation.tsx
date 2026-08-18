@@ -161,7 +161,7 @@ export function MonthlyReconciliation() {
                   (h, i) => (
                     <th
                       key={h}
-                      className={`px-1 pb-1.5 text-right text-[8px] font-semibold ${
+                      className={`px-1 pb-1.5 text-right text-[9px] font-semibold ${
                         i === 0 ? "border-l border-[#eef2f6]" : ""
                       } ${i === 2 || i === 5 ? "border-r border-[#eef2f6]" : ""}`}
                     >

@@ -60,7 +60,7 @@ export function CeoMorningBrief() {
                   {/* Materialitas relatif: seberapa besar vs enterprise, bukan
                       hanya angka absolut. */}
                   <span
-                    className={`ml-0.5 inline-flex items-center gap-1 whitespace-nowrap rounded px-1 py-[1px] text-[7px] font-bold uppercase tracking-[0.03em] ${
+                    className={`ml-0.5 inline-flex items-center gap-1 whitespace-nowrap rounded px-1 py-[1px] text-[9px] font-bold uppercase tracking-[0.03em] ${
                       c.materiality.level === "High"
                         ? "bg-[#fdecec] text-[#ef4444]"
                         : "bg-[#fdf3e0] text-[#d98b06]"

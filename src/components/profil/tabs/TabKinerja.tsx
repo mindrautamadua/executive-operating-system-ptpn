@@ -61,7 +61,7 @@ function DonutSkor() {
       </svg>
       <div className="absolute inset-0 flex flex-col items-center justify-center leading-none">
         <span className="text-[26px] font-extrabold text-ink-900">{kinerja.skor}</span>
-        <span className="mt-1 text-[9px] text-ink-400">{kinerja.maks}</span>
+        <span className="mt-1 text-[9px] text-ink-500">{kinerja.maks}</span>
       </div>
     </div>
   );
@@ -151,7 +151,7 @@ function TrenKinerjaCard() {
           {[1, 2, 3, 4, 5].map((v) => (
             <g key={v}>
               <line x1={padL} y1={y(v)} x2={W - padR} y2={y(v)} stroke="#eef2f6" strokeWidth={1} />
-              <text x={padL - 5} y={y(v) + 2.5} textAnchor="end" fontSize={7.5} fill="#9ca3af">
+              <text x={padL - 5} y={y(v) + 2.5} textAnchor="end" fontSize={8} fill="#9ca3af">
                 {v.toFixed(1)}
               </text>
             </g>
@@ -164,7 +164,7 @@ function TrenKinerjaCard() {
               <text x={p.x} y={p.y - 7} textAnchor="middle" fontSize={8} fontWeight={700} fill="#374151">
                 {p.skor.toFixed(1)}
               </text>
-              <text x={p.x} y={H - 6} textAnchor="middle" fontSize={7.5} fill="#6b7280">
+              <text x={p.x} y={H - 6} textAnchor="middle" fontSize={8} fill="#6b7280">
                 {p.tahun}
               </text>
             </g>

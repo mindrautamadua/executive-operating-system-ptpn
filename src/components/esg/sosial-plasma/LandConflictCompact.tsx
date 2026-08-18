@@ -56,7 +56,7 @@ export function LandConflictCompact() {
         ))}
       </div>
 
-      <p className="mt-1 border-t border-[#f5f8fa] pt-1.5 text-[8px] leading-snug text-ink-500">
+      <p className="mt-1 border-t border-[#f5f8fa] pt-1.5 text-[9px] leading-snug text-ink-500">
         {landConflictNote}
       </p>
     </div>

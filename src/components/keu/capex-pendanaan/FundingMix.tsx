@@ -47,12 +47,12 @@ export function FundingMix() {
               <span className="shrink-0 text-[9.5px] font-bold text-ink-900">
                 {fmtRpT(f.valueRpT, 1)}
               </span>
-              <span className="w-[30px] shrink-0 text-right text-[9px] text-ink-400">
+              <span className="w-[30px] shrink-0 text-right text-[9px] text-ink-500">
                 {fmtId(f.pct, 0)}%
               </span>
             </div>
           ))}
-          <p className="mt-1.5 text-[8px] leading-snug text-ink-400">
+          <p className="mt-1.5 text-[9px] leading-snug text-ink-500">
             Penarikan pinjaman capex baru 40% dari plafon; kas internal menopang 58% kebutuhan.
           </p>
         </div>

@@ -30,7 +30,7 @@ export function TopRiskDrivers() {
       <SectionHead title="Top Risk Drivers" />
       <p className="mt-[3px] text-[9px] text-ink-500">Faktor Utama yang Mendorong Risiko</p>
 
-      <div className="mt-2.5 flex items-center justify-between border-b border-[#eef2f6] pb-1.5 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2.5 flex items-center justify-between border-b border-[#eef2f6] pb-1.5 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Driver</span>
         <span className="flex items-center gap-3">
           <span>Pengaruh</span>

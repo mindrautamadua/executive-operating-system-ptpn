@@ -41,7 +41,7 @@ export function KomposisiPenjualan() {
     <div className="card flex h-full flex-col px-3.5 pb-2.5 pt-3">
       <div className="flex items-baseline gap-1.5">
         <h3 className="card-title whitespace-nowrap">KOMPOSISI</h3>
-        <span className="text-[9px] text-ink-400">(YTD 2026)</span>
+        <span className="text-[9px] text-ink-500">(YTD 2026)</span>
         <span className="ml-auto">
           <DetailLink href="/pemasaran-penjualan" />
         </span>
@@ -140,7 +140,7 @@ export function KomposisiPenjualan() {
 
       {mode === "pendapatan" && (
         <p
-          className="truncate text-[8px] text-ink-400"
+          className="truncate text-[9px] text-ink-500"
           title="Penjualan komoditas Rp 19,90 T + pendapatan hilir/jasa & lain-lain Rp 4,70 T = pendapatan konsolidasi Rp 24,60 T"
         >
           + hilir/jasa &amp; lain-lain Rp 4,70 T = konsolidasi Rp 24,60 T

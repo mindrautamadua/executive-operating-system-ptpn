@@ -34,7 +34,7 @@ export function LitigationCompact() {
             {totalPerkara} perkara aktif · seluruh forum
           </div>
         </div>
-        <span className="shrink-0 rounded bg-[#fdecec] px-1.5 py-[2px] text-[8px] font-extrabold text-[#ef4444]">
+        <span className="shrink-0 rounded bg-[#fdecec] px-1.5 py-[2px] text-[9px] font-extrabold text-[#ef4444]">
           ±70% Lahan/HGU
         </span>
       </div>
@@ -73,7 +73,7 @@ export function LitigationCompact() {
         ))}
       </div>
 
-      <p className="mt-2 border-t border-[#f5f8fa] pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="mt-2 border-t border-[#f5f8fa] pt-1.5 text-[9px] leading-snug text-ink-500">
         {caseSummaryNote}
       </p>
     </div>

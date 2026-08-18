@@ -46,7 +46,7 @@ export function LevelStructureChart() {
               type="number"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               tickFormatter={(v: number) => `${v / 1000}K`}
             />
             <YAxis
@@ -55,7 +55,7 @@ export function LevelStructureChart() {
               tickLine={false}
               axisLine={false}
               width={74}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
             />
             <Tooltip
               contentStyle={CHART_TOOLTIP_STYLE}

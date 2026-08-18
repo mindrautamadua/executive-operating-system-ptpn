@@ -32,7 +32,7 @@ export function MethodologyInfo() {
               <h3 className="flex items-center gap-1.5 text-[12px] font-extrabold text-ink-900">
                 <ShieldCheck size={14} className="text-ptpn-green" />
                 Methodology — {metodologi.versi}
-                <span className="rounded bg-ptpn-greenLight px-1.5 py-[2px] text-[8px] font-bold text-ptpn-green">
+                <span className="rounded bg-ptpn-greenLight px-1.5 py-[2px] text-[9px] font-bold text-ptpn-green">
                   Governed
                 </span>
               </h3>

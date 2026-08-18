@@ -22,7 +22,7 @@ function LegendDot({ color, label }: { color: string; label: string }) {
   return (
     <span className="flex items-center gap-1">
       <span className="h-[6px] w-[6px] rounded-full" style={{ background: color }} />
-      <span className="text-[8px] text-ink-500">{label}</span>
+      <span className="text-[9px] text-ink-500">{label}</span>
     </span>
   );
 }
@@ -66,7 +66,7 @@ export function CpoPriceChart() {
               dataKey="bulan"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={2}
             />
             <YAxis
@@ -134,7 +134,7 @@ export function CpoPriceChart() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 text-[8px] leading-snug text-ink-400">
+      <p className="mt-1 text-[9px] leading-snug text-ink-500">
         Spread KPBN Mei (Rp 13.635) vs HPP (Rp 8.950) = Rp 4.685/kg — terlebar dalam 24 bulan ·
         spot 31 Mei Rp 13.680/kg
       </p>

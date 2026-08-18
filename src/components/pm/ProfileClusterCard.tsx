@@ -38,7 +38,7 @@ export function ProfileClusterCard() {
                 {c.name}
               </span>
               <span className="shrink-0 text-[9.5px] font-bold text-ink-900">{c.pct}</span>
-              <span className="w-[44px] shrink-0 text-right text-[9px] text-ink-400">
+              <span className="w-[44px] shrink-0 text-right text-[9px] text-ink-500">
                 ({c.jumlah})
               </span>
             </div>

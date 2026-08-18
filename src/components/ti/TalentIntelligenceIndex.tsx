@@ -58,7 +58,7 @@ export function TalentIntelligenceIndex() {
         ))}
       </div>
 
-      <div className="mt-1.5 rounded-md bg-[#f7f9fb] px-2.5 py-[6px] text-[8px] leading-[1.4] text-ink-500">
+      <div className="mt-1.5 rounded-md bg-[#f7f9fb] px-2.5 py-[6px] text-[9px] leading-[1.4] text-ink-500">
         {tiIndexNote}
       </div>
     </div>

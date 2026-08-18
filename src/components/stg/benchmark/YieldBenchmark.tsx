@@ -68,14 +68,14 @@ export function YieldBenchmark() {
               className="h-[7px] w-[7px] rounded-[2px]"
               style={{ backgroundColor: PALETTE.green }}
             />
-            <span className="text-[8px] font-semibold text-ink-500">Yield TBS</span>
+            <span className="text-[9px] font-semibold text-ink-500">Yield TBS</span>
           </span>
           <span className="flex items-center gap-1">
             <span
               className="h-[7px] w-[7px] rounded-[2px]"
               style={{ backgroundColor: PALETTE.blue }}
             />
-            <span className="text-[8px] font-semibold text-ink-500">OER</span>
+            <span className="text-[9px] font-semibold text-ink-500">OER</span>
           </span>
         </div>
       </div>
@@ -88,7 +88,7 @@ export function YieldBenchmark() {
               dataKey="name"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis

@@ -53,7 +53,7 @@ export function KompetensiUtama() {
           </span>
           <span className="shrink-0 text-right text-[9.5px] font-extrabold text-ink-900">
             {capabilityProfile.gapToRole.current}
-            <span className="ml-1 text-[8px] font-semibold text-[#c07c05]">
+            <span className="ml-1 text-[9px] font-semibold text-[#c07c05]">
               {capabilityProfile.gapToRole.gap}
             </span>
           </span>

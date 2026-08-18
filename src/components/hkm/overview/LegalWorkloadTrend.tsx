@@ -67,7 +67,7 @@ export function LegalWorkloadTrend() {
               label={{
                 value: "Kapasitas ±58/bln",
                 position: "insideTopLeft",
-                fontSize: 7.5,
+                fontSize: 8.5,
                 fill: CHART_AXIS.tick,
               }}
             />
@@ -98,7 +98,7 @@ export function LegalWorkloadTrend() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Permintaan masuk melampaui penyelesaian sejak Des 2025; backlog bulanan naik ke 10–12 berkas
         dan menahan on-time SLA di 82%.
       </p>

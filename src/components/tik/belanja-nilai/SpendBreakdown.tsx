@@ -53,7 +53,7 @@ export function SpendBreakdown() {
               dataKey="kategori"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               width={74}
             />
             <Tooltip
@@ -76,14 +76,14 @@ export function SpendBreakdown() {
                 position="right"
                 offset={5}
                 formatter={(v: React.ReactNode) => `${v}%`}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Keamanan siber hanya 11,9% (Rp 0,11 T) — di bawah praktik BUMN sejenis 15–18% padahal satu
         limit breach teknologi ada di domain ini.
       </p>

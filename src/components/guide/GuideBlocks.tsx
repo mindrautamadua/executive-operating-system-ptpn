@@ -55,7 +55,7 @@ export function FlowList({
       {items.map((it, i) => (
         <li key={it.lead + it.title} className="flex flex-col">
           <div className="flex items-start gap-2.5 rounded-lg border border-[#eef2f6] bg-[#f8fafc] px-3 py-2">
-            <span className="mt-[1px] shrink-0 rounded bg-[#e8f1fd] px-1.5 py-[2px] text-[8px] font-extrabold uppercase tracking-[0.04em] text-[#1b3a6b]">
+            <span className="mt-[1px] shrink-0 rounded bg-[#e8f1fd] px-1.5 py-[2px] text-[9px] font-extrabold uppercase tracking-[0.04em] text-[#1b3a6b]">
               {it.lead}
             </span>
             <span className="min-w-0">
@@ -115,7 +115,7 @@ export function TonePill({
 }) {
   return (
     <span
-      className={`inline-flex shrink-0 items-center rounded px-1.5 py-[2px] text-[8px] font-extrabold ${TONE_CLS[tone]}`}
+      className={`inline-flex shrink-0 items-center rounded px-1.5 py-[2px] text-[9px] font-extrabold ${TONE_CLS[tone]}`}
     >
       {children}
     </span>

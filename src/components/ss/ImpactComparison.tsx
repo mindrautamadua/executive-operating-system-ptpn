@@ -13,7 +13,7 @@ export function ImpactComparison() {
         Perbandingan baseline dengan skenario terpilih
       </p>
 
-      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_62px_62px_64px_58px] items-center gap-x-1.5 border-b border-[#eef2f6] pb-1.5 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_62px_62px_64px_58px] items-center gap-x-1.5 border-b border-[#eef2f6] pb-1.5 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Metrik</span>
         <span className="text-center leading-[1.3]">
           Baseline Plan

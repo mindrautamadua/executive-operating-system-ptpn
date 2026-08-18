@@ -36,7 +36,7 @@ export function TopCapexVariance() {
         {isFiltered ? ` — ${def.label} & proyek lintas grup` : ""}
       </p>
 
-      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_100px_76px] gap-x-3 border-b border-[#f0f3f6] pb-1 text-[8px] font-bold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_100px_76px] gap-x-3 border-b border-[#f0f3f6] pb-1 text-[9px] font-bold uppercase tracking-[0.04em] text-ink-500">
         <span>Proyek</span>
         <span>Progress vs RKAP</span>
         <span className="text-right">Status</span>
@@ -54,12 +54,12 @@ export function TopCapexVariance() {
                 <div className="truncate text-[9px] font-bold text-ink-900" title={p.project}>
                   {p.project}
                 </div>
-                <div className="truncate text-[8px] text-ink-400" title={p.keterangan}>
+                <div className="truncate text-[9px] text-ink-500" title={p.keterangan}>
                   {p.kategori} · {p.keterangan}
                 </div>
               </div>
               <div>
-                <div className="flex items-center justify-between text-[8px] text-ink-500">
+                <div className="flex items-center justify-between text-[9px] text-ink-500">
                   <span>
                     Rp {fmtId(p.actualRpT, 2)} / {fmtId(p.planRpT, 1)} T
                   </span>

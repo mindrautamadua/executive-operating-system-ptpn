@@ -71,7 +71,7 @@ export function DataQualityByDomain() {
               <tr key={d.domain} className="border-b border-[#f4f7fa]">
                 <td className="py-[5px] pr-2">
                   <div className="text-[9.5px] font-bold text-ink-900">{d.domain}</div>
-                  <div className="truncate text-[8px] text-ink-400">{d.sistemSumber}</div>
+                  <div className="truncate text-[9px] text-ink-500">{d.sistemSumber}</div>
                 </td>
                 <td className="whitespace-nowrap py-[5px] pr-2 text-right text-[10px] font-extrabold text-ink-900">
                   {persen(d.skor)}
@@ -88,7 +88,7 @@ export function DataQualityByDomain() {
         </table>
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         Aset &amp; Lahan terendah (89,6%) padahal menopang HGU, sengketa lahan, dan kepatuhan EUDR.
       </p>
     </div>

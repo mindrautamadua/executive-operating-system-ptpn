@@ -31,7 +31,7 @@ export function PrecedentLibrary() {
                 <div className="truncate text-[9.5px] font-bold text-ink-900" title={p.putusan}>
                   {p.putusan}
                 </div>
-                <div className="mt-[2px] text-[8px] text-ink-400">
+                <div className="mt-[2px] text-[9px] text-ink-500">
                   {p.forum} · {p.tahun} · dirujuk {p.perkaraTerkait} perkara aktif
                 </div>
               </div>

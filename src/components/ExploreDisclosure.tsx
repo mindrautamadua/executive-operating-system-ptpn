@@ -28,13 +28,13 @@ export function ExploreDisclosure({ children }: { children: React.ReactNode }) {
   return (
     <>
       <div className="mb-2 mt-4 flex items-center gap-2">
-        <span className="rounded bg-[#1b3a6b] px-1.5 py-[2px] text-[8px] font-extrabold tracking-[0.06em] text-white">
+        <span className="rounded bg-[#1b3a6b] px-1.5 py-[2px] text-[9px] font-extrabold tracking-[0.06em] text-white">
           LAYER 3
         </span>
         <h2 className="text-[10px] font-extrabold uppercase tracking-[0.05em] text-ink-900">
           Explore
         </h2>
-        <span className="text-[9px] italic text-ink-400">Intelijen mendalam per domain.</span>
+        <span className="text-[9px] italic text-ink-500">Intelijen mendalam per domain.</span>
         <span className="h-px flex-1 bg-[#e3e9ef]" />
         <button
           onClick={toggle}
@@ -57,7 +57,7 @@ export function ExploreDisclosure({ children }: { children: React.ReactNode }) {
       ) : (
         <button
           onClick={toggle}
-          className="flex w-full items-center justify-center rounded-xl border border-dashed border-[#dbe3ea] py-3 text-[9px] text-ink-400 transition-colors hover:bg-[#f5f8fa]"
+          className="flex w-full items-center justify-center rounded-xl border border-dashed border-[#dbe3ea] py-3 text-[9px] text-ink-500 transition-colors hover:bg-[#f5f8fa]"
         >
           Impact Chain · Operasi · Keuangan · Produksi · Forecast · Posisi Pasar CPO · Alerts ·
           External Signals · AI Insight — tersembunyi. Klik untuk membuka.

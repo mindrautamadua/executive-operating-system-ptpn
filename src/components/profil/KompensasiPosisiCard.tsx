@@ -19,7 +19,7 @@ export function KompensasiPosisiCard() {
           <div className="mt-1 text-[24px] font-extrabold leading-none text-ink-900">
             {kompensasiPosisi.compaRatio}
           </div>
-          <div className="mt-1 text-[8px] text-ink-400">1,00 = titik tengah range</div>
+          <div className="mt-1 text-[9px] text-ink-500">1,00 = titik tengah range</div>
         </div>
         <div className="min-w-0 flex-1 space-y-1.5 text-[9px]">
           <div className="flex items-start justify-between gap-2">
@@ -44,7 +44,7 @@ export function KompensasiPosisiCard() {
         {kompensasiPosisi.implikasi}
       </p>
 
-      <p className="mt-auto flex items-start gap-1.5 pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="mt-auto flex items-start gap-1.5 pt-1.5 text-[9px] leading-snug text-ink-500">
         <Lock size={10} className="mt-[1px] shrink-0" />
         {kompensasiPosisi.privasi}
       </p>

@@ -42,7 +42,7 @@ export function ScenarioAssumptionsPanel() {
                 <span className="text-[9px] font-semibold text-ink-700">{a.label}</span>
                 <span className="text-[9.5px] font-extrabold text-ink-900">
                   {fmtVal(values[i])}{" "}
-                  <span className="text-[8px] font-semibold text-ink-400">{a.unit}</span>
+                  <span className="text-[9px] font-semibold text-ink-500">{a.unit}</span>
                 </span>
               </div>
               <input
@@ -65,7 +65,7 @@ export function ScenarioAssumptionsPanel() {
         })}
       </div>
 
-      <p className="pb-0.5 pt-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-0.5 pt-1 text-[9px] leading-snug text-ink-500">
         Kalkulasi penuh dijalankan engine simulasi; panel ini menampilkan asumsi base case.
       </p>
     </div>

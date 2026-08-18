@@ -31,7 +31,7 @@ export function HumanRightsScorecard() {
           <div key={h.label} className="rounded-lg bg-[#f8fafc] px-2.5 py-[7px]">
             <div className="text-[15px] font-extrabold leading-none text-ink-900">{h.value}</div>
             <div className="mt-[4px] truncate text-[8.5px] font-bold text-ink-700">{h.label}</div>
-            <div className="truncate text-[8px] text-ink-400">{h.sub}</div>
+            <div className="truncate text-[9px] text-ink-500">{h.sub}</div>
           </div>
         ))}
       </div>

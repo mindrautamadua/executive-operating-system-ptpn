@@ -83,11 +83,11 @@ export function KpiStrip() {
 
             <div className="mt-[5px] flex items-center gap-1.5">
               <Delta value={k.delta} trend={k.trend} size={9.5} />
-              <span className="truncate text-[8px] text-ink-400">{k.compare}</span>
+              <span className="truncate text-[9px] text-ink-500">{k.compare}</span>
             </div>
 
             {k.target && (
-              <div className="mt-[3px] flex items-baseline gap-1 whitespace-nowrap text-[8px] leading-tight text-ink-400">
+              <div className="mt-[3px] flex items-baseline gap-1 whitespace-nowrap text-[9px] leading-tight text-ink-500">
                 <span className="truncate">RKAP YTD {k.target.label}</span>
                 <span
                   className={`shrink-0 font-bold ${

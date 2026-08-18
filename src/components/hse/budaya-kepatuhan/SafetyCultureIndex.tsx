@@ -39,7 +39,7 @@ export function SafetyCultureIndex() {
             <PolarRadiusAxis
               domain={[0, 5]}
               tickCount={6}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               axisLine={false}
             />
             <Tooltip
@@ -67,7 +67,7 @@ export function SafetyCultureIndex() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Pelaporan (3,1) adalah dimensi terlemah dan pembelajaran (3,3) menyusul — keduanya menjelaskan
         rasio near-miss 7,6:1 yang masih di bawah praktik terbaik.
       </p>

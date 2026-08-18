@@ -12,7 +12,7 @@ export function InfoRows({
           <span className="min-w-0 flex-1 text-right text-[10px] font-bold leading-[1.4] text-ink-900">
             {it.value}
             {it.status && (
-              <span className="ml-2 inline-block rounded-md bg-ptpn-greenLight px-1.5 py-[2px] text-[8px] font-semibold text-ptpn-greenDark">
+              <span className="ml-2 inline-block rounded-md bg-ptpn-greenLight px-1.5 py-[2px] text-[9px] font-semibold text-ptpn-greenDark">
                 {it.status}
               </span>
             )}

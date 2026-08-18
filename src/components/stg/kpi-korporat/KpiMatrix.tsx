@@ -61,7 +61,7 @@ export function KpiMatrix() {
                 <td className="border-b border-[#f3f6f9] py-[5px] pr-2 text-[8.5px] font-bold leading-snug text-ink-900">
                   {k.name}
                 </td>
-                <td className="border-b border-[#f3f6f9] py-[5px] pr-2 text-[8px] text-ink-500">
+                <td className="border-b border-[#f3f6f9] py-[5px] pr-2 text-[9px] text-ink-500">
                   {k.perspective}
                 </td>
                 <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[5px] pr-2 text-right text-[8.5px] tabular-nums text-ink-500">

@@ -41,7 +41,7 @@ export function FlowChart() {
               dataKey="name"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               interval={1}
             />
             <YAxis
@@ -49,7 +49,7 @@ export function FlowChart() {
               ticks={[-800, -400, 0, 400, 800, 1200]}
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               width={34}
             />
             <Tooltip
@@ -63,7 +63,7 @@ export function FlowChart() {
               verticalAlign="bottom"
               height={18}
               iconSize={7}
-              wrapperStyle={{ fontSize: 7.5 }}
+              wrapperStyle={{ fontSize: 8.5 }}
               formatter={(v: string) => (v === "masuk" ? "Masuk" : v === "keluar" ? "Keluar" : "Net")}
             />
             <ReferenceLine y={0} stroke={CHART_AXIS.axis} />

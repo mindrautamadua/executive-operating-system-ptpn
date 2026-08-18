@@ -38,7 +38,7 @@ function DriverTick({ x = 0, y = 0, payload }: TickProps) {
           key={line}
           x={x}
           dy={i === 0 ? (lines.length > 1 ? -4 : 3) : 9}
-          style={{ fontSize: 7.5, fill: "var(--chart-tick)", fontWeight: 600 }}
+          style={{ fontSize: 8.5, fill: "var(--chart-tick)", fontWeight: 600 }}
         >
           {line}
         </tspan>

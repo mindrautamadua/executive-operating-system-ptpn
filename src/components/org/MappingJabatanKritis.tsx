@@ -98,7 +98,7 @@ export function MappingJabatanKritis() {
                 {r.jabatan}
                 {r.spof && (
                   <span
-                    className="tone-red ml-1.5 inline-block rounded-md px-1.5 py-[1px] text-[8px] font-bold"
+                    className="tone-red ml-1.5 inline-block rounded-md px-1.5 py-[1px] text-[9px] font-bold"
                     title="Single Point of Failure: 1 pemegang jabatan, 0 suksesor siap"
                   >
                     SPOF

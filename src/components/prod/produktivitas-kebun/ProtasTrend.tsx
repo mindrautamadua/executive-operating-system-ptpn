@@ -49,7 +49,7 @@ export function ProtasTrend() {
               dataKey="tahun"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis
@@ -67,7 +67,7 @@ export function ProtasTrend() {
               label={{
                 value: "Benchmark swasta 24,0",
                 position: "insideTopRight",
-                fontSize: 7.5,
+                fontSize: 8.5,
                 fontWeight: 700,
                 fill: PALETTE.amber,
               }}
@@ -89,14 +89,14 @@ export function ProtasTrend() {
                 position="top"
                 offset={7}
                 formatter={(v: number) => num(v)}
-                style={{ fontSize: 7.5, fill: "var(--text-1)", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Line>
           </LineChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 truncate text-[8px] text-ink-400">{protasNote}</p>
+      <p className="mt-1 truncate text-[9px] text-ink-500">{protasNote}</p>
         </>
       )}
     </div>

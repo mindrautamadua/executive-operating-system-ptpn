@@ -15,7 +15,7 @@ export function GapTalentaKritis() {
       <div className="scroll-thin mt-2 min-h-0 flex-1 overflow-y-auto">
       <table className="w-full">
         <thead>
-          <tr className="text-[8px] font-semibold uppercase tracking-[0.03em] text-ink-400">
+          <tr className="text-[9px] font-semibold uppercase tracking-[0.03em] text-ink-500">
             <th className="pb-1 text-left font-semibold">Skill</th>
             <th className="pb-1 text-right font-semibold">Supply (Orang)</th>
             <th className="pb-1 text-right font-semibold">Demand (Orang)</th>

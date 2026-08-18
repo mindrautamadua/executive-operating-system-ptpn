@@ -44,7 +44,7 @@ export function CollectiveScorecard() {
           </div>
           <div className="text-[15px] font-extrabold leading-none tabular-nums text-ptpn-green">
             87,4
-            <span className="ml-[2px] text-[8px] font-bold">/100</span>
+            <span className="ml-[2px] text-[9px] font-bold">/100</span>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@ export function CollectiveScorecard() {
               dataKey="name"
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               interval={0}
             />
             <YAxis

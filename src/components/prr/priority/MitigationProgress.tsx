@@ -42,7 +42,7 @@ export function MitigationProgress() {
               ticks={[0, 25, 50, 75, 100]}
               tickLine={false}
               axisLine={{ stroke: CHART_AXIS.axis }}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               unit="%"
             />
             <YAxis
@@ -51,7 +51,7 @@ export function MitigationProgress() {
               tickLine={false}
               axisLine={false}
               width={62}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
             />
             <Tooltip
               contentStyle={CHART_TOOLTIP_STYLE}

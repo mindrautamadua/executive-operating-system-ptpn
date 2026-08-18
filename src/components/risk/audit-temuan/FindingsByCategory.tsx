@@ -65,7 +65,7 @@ export function FindingsByCategory() {
         </ResponsiveContainer>
       </div>
 
-      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[8px] leading-[1.4] text-ink-500">
+      <p className="mt-1 rounded-md bg-[#f8fafc] px-2 py-[5px] text-[9px] leading-[1.4] text-ink-500">
         Pengadaan (61) &amp; Operasional (64) menyumbang 51% temuan — dua area prioritas audit H2.
       </p>
     </div>

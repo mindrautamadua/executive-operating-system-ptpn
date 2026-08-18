@@ -41,7 +41,7 @@ export function TopFinancialRisks() {
             key={r.name}
             className="flex items-start gap-2.5 border-b border-[#f5f8fa] py-[6px] last:border-0"
           >
-            <span className="mt-[1px] w-[14px] shrink-0 text-[9px] font-extrabold text-ink-400">
+            <span className="mt-[1px] w-[14px] shrink-0 text-[9px] font-extrabold text-ink-500">
               {i + 1}
             </span>
             <div className="min-w-0 flex-1">

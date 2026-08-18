@@ -46,7 +46,7 @@ export function ImpactChainCard() {
           <div key={s.stage} className="flex min-w-0 items-center gap-1">
             {i > 0 && <ArrowRight size={10} className="shrink-0 text-ink-300" />}
             <div className="min-w-0 rounded-lg border border-[#eef2f6] bg-[#fafcfd] px-2 py-1">
-              <div className="text-[7px] font-extrabold uppercase tracking-[0.05em] text-ink-400">
+              <div className="text-[9px] font-extrabold uppercase tracking-[0.05em] text-ink-500">
                 {s.stage}
               </div>
               <div className="max-w-[190px] truncate text-[8.5px] font-semibold text-ink-800" title={s.label}>

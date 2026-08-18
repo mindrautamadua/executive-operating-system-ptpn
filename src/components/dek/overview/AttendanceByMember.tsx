@@ -39,13 +39,13 @@ export function AttendanceByMember() {
                 <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-[8.5px] font-bold text-ink-900">
                   {m.nama}
                 </td>
-                <td className="border-b border-[#f3f6f9] py-[6px] pr-2 text-[8px] leading-snug text-ink-500">
+                <td className="border-b border-[#f3f6f9] py-[6px] pr-2 text-[9px] leading-snug text-ink-500">
                   {m.komite}
                 </td>
-                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-right text-[8px] tabular-nums text-ink-700">
+                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-right text-[9px] tabular-nums text-ink-700">
                   {m.hadirDekom}/{m.totalDekom}
                 </td>
-                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-right text-[8px] tabular-nums text-ink-700">
+                <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-right text-[9px] tabular-nums text-ink-700">
                   {m.hadirKomite}/{m.totalKomite}
                 </td>
                 <td className="whitespace-nowrap border-b border-[#f3f6f9] py-[6px] pr-2 text-right text-[8.5px] font-extrabold tabular-nums text-ink-900">

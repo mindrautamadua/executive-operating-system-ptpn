@@ -51,7 +51,7 @@ export function IncidentByVector() {
               dataKey="vektor"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8, fill: CHART_AXIS.tick }}
               width={132}
               interval={0}
             />
@@ -72,7 +72,7 @@ export function IncidentByVector() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Dua vektor bertren naik — phishing (14) dan akses tidak sah (6); yang kedua beririsan dengan
         temuan audit berulang review akses user ERP.
       </p>

@@ -90,7 +90,7 @@ export function RealisasiKenaikanGaji() {
                 <span className="text-[12px] font-extrabold tabular-nums text-ink-900">
                   {r.value}
                 </span>
-                <span className="ml-1 text-[9px] text-ink-400">{r.unit}</span>
+                <span className="ml-1 text-[9px] text-ink-500">{r.unit}</span>
               </div>
             </div>
           ))}

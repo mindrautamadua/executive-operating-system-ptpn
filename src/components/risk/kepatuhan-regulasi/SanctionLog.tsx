@@ -26,18 +26,18 @@ export function SanctionLog() {
               <span className="min-w-0 flex-1 truncate text-[9.5px] font-extrabold text-ink-900">
                 {s.instansi}
               </span>
-              <span className="shrink-0 text-[8px] font-semibold text-ink-400">
+              <span className="shrink-0 text-[9px] font-semibold text-ink-500">
                 Target {s.target}
               </span>
             </div>
             <p className="mt-1 text-[8.5px] leading-snug text-ink-700">{s.perkara}</p>
             <div className="mt-1 text-[8.5px] font-semibold text-[#ef4444]">{s.nilai}</div>
-            <div className="mt-[2px] text-[8px] text-ink-500">{s.status}</div>
+            <div className="mt-[2px] text-[9px] text-ink-500">{s.status}</div>
           </li>
         ))}
       </ul>
 
-      <p className="mt-auto pt-2 text-[8px] leading-snug text-ink-400">
+      <p className="mt-auto pt-2 text-[9px] leading-snug text-ink-500">
         Tidak ada sanksi pidana korporasi maupun pencabutan izin usaha aktif per 31 Mei 2026.
       </p>
     </div>

@@ -34,7 +34,7 @@ export function ProgramTipe() {
       <div className="mt-1.5 min-h-0 flex-1">
         <table className="w-full">
           <thead>
-            <tr className="text-[8px] font-semibold uppercase tracking-[0.03em] text-ink-400">
+            <tr className="text-[9px] font-semibold uppercase tracking-[0.03em] text-ink-500">
               <th className="pb-[2px] text-left">Modalitas</th>
               <th className="pb-[2px] text-right">Program</th>
               <th className="pb-[2px] text-right">Behavior L3</th>
@@ -54,7 +54,7 @@ export function ProgramTipe() {
                       />
                       <span className="text-[9px] text-ink-700">{d.name}</span>
                       {best && (
-                        <span className="rounded bg-[#eaf7ef] px-1 py-[1px] text-[7px] font-extrabold text-[#0f7a44]">
+                        <span className="rounded bg-[#eaf7ef] px-1 py-[1px] text-[9px] font-extrabold text-[#0f7a44]">
                           BEST
                         </span>
                       )}

@@ -16,7 +16,7 @@ export function RcBodDecisionCenter() {
           <Gavel size={13} className="text-[#1b3a6b]" />
           BOD Compliance Decision Center
         </h3>
-        <span className="shrink-0 text-[9px] font-semibold text-ink-400">
+        <span className="shrink-0 text-[9px] font-semibold text-ink-500">
           2 keputusan • 1 tindakan manajemen
         </span>
       </div>
@@ -52,7 +52,7 @@ export function RcBodDecisionCenter() {
             >
               <div className="flex items-center justify-between gap-1.5">
                 <span
-                  className={`inline-flex w-fit items-center rounded px-1.5 py-[2px] text-[8px] font-bold leading-none ${style.chip}`}
+                  className={`inline-flex w-fit items-center rounded px-1.5 py-[2px] text-[9px] font-bold leading-none ${style.chip}`}
                 >
                   {d.label}
                 </span>
@@ -61,17 +61,17 @@ export function RcBodDecisionCenter() {
               <div className="mt-1.5 truncate text-[10.5px] font-bold leading-tight text-ink-900">
                 {d.title}
               </div>
-              <p className="mt-1 line-clamp-2 text-[8px] leading-[1.4] text-ink-700">
+              <p className="mt-1 line-clamp-2 text-[9px] leading-[1.4] text-ink-700">
                 {d.context}
               </p>
               <p
-                className="mt-1 flex items-center gap-1 text-[8px] font-semibold text-[#b91c1c]"
+                className="mt-1 flex items-center gap-1 text-[9px] font-semibold text-[#b91c1c]"
                 title={`Estimasi eksposur jika ditunda 3 bulan: ${d.ifDelayed[0]}, 6 bulan: ${d.ifDelayed[1]}`}
               >
                 <TrendingUp size={10} className="shrink-0" />
                 Jika ditunda: {d.ifDelayed[0]} (3 bln) · {d.ifDelayed[1]} (6 bln)
               </p>
-              <p className="mt-auto pt-1 text-[8px] leading-[1.4] text-ink-700">
+              <p className="mt-auto pt-1 text-[9px] leading-[1.4] text-ink-700">
                 <span className="font-bold text-ink-900">Rekomendasi: </span>
                 {d.rekomendasi}
               </p>

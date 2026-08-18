@@ -31,7 +31,7 @@ export function DataReconciliation() {
           <span className="block text-[15px] font-extrabold leading-none text-ink-900">
             {konsistensiLintasSistem}
           </span>
-          <span className="text-[9px] text-ink-400">Konsistensi</span>
+          <span className="text-[9px] text-ink-500">Konsistensi</span>
         </div>
       </div>
 
@@ -63,7 +63,7 @@ export function DataReconciliation() {
         ))}
       </div>
 
-      <div className="mt-1 border-t border-[#f0f3f6] pt-1.5 text-[9px] text-ink-400">
+      <div className="mt-1 border-t border-[#f0f3f6] pt-1.5 text-[9px] text-ink-500">
         Basis: headcount aktif per {BASELINE_TRUST.asOf} · {varianTerbuka} varian terbuka
       </div>
 

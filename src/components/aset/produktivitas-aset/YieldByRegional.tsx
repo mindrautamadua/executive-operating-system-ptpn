@@ -79,7 +79,7 @@ export function YieldByRegional() {
               dataKey="short"
               tickLine={false}
               axisLine={false}
-              tick={{ fontSize: 7.5, fill: CHART_AXIS.tick }}
+              tick={{ fontSize: 8.5, fill: CHART_AXIS.tick }}
               width={104}
             />
             <ReferenceLine
@@ -114,14 +114,14 @@ export function YieldByRegional() {
                 position="right"
                 offset={5}
                 formatter={(v: React.ReactNode) => num(Number(v))}
-                style={{ fontSize: 7.5, fill: "#334155", fontWeight: 700 }}
+                style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">{yieldByRegionalNote}</p>
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">{yieldByRegionalNote}</p>
     </div>
   );
 }

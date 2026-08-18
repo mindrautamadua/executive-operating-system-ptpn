@@ -31,7 +31,7 @@ export function TopBuyerTable() {
       </p>
 
       <div
-        className={`mt-2 grid ${COLS} items-center gap-x-2 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400`}
+        className={`mt-2 grid ${COLS} items-center gap-x-2 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500`}
       >
         <span />
         <span>Buyer</span>
@@ -54,7 +54,7 @@ export function TopBuyerTable() {
               }`}
             >
               <span
-                className={`text-[8px] font-extrabold ${top5 ? "text-[#ef4444]" : "text-ink-400"}`}
+                className={`text-[9px] font-extrabold ${top5 ? "text-[#ef4444]" : "text-ink-500"}`}
               >
                 {i + 1}
               </span>
@@ -83,7 +83,7 @@ export function TopBuyerTable() {
         })}
       </ul>
 
-      <p className="mt-1.5 truncate text-[8px] text-ink-400">
+      <p className="mt-1.5 truncate text-[9px] text-ink-500">
         Top-5 = 61% nilai (ambang risiko &gt; 50%) · {topBuyersLainnya.label} {topBuyersLainnya.nilai} (
         {topBuyersLainnya.sharePct}%).
       </p>

@@ -21,10 +21,10 @@ export function BusinessImpactCard() {
             </div>
             <div className="mt-1.5 text-[17px] font-extrabold leading-none text-ink-900">
               {it.value}
-              <span className="ml-1 text-[9px] font-bold text-ink-400">{it.satuan}</span>
+              <span className="ml-1 text-[9px] font-bold text-ink-500">{it.satuan}</span>
             </div>
             <div className="mt-1.5 text-[8.5px] font-bold text-ptpn-greenDark">{it.vsTarget}</div>
-            <div className="text-[8px] text-ink-400">{it.peer}</div>
+            <div className="text-[9px] text-ink-500">{it.peer}</div>
           </div>
         ))}
       </div>
@@ -34,7 +34,7 @@ export function BusinessImpactCard() {
         <p className="text-[9px] leading-snug text-ink-700">{businessImpact.highlight}</p>
       </div>
 
-      <p className="mt-auto pt-1.5 text-[8px] text-ink-400">Sumber: {businessImpact.sumber}</p>
+      <p className="mt-auto pt-1.5 text-[9px] text-ink-500">Sumber: {businessImpact.sumber}</p>
     </div>
   );
 }

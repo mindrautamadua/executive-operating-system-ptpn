@@ -30,7 +30,7 @@ export function PriceTickerBoard() {
 
       {rows.length > 0 && (
         <>
-      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_88px_92px_64px_96px] items-center gap-x-2 border-b border-[#f0f3f6] pb-1.5 text-[8px] font-bold uppercase tracking-[0.05em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,1fr)_88px_92px_64px_96px] items-center gap-x-2 border-b border-[#f0f3f6] pb-1.5 text-[9px] font-bold uppercase tracking-[0.05em] text-ink-500">
         <span>Komoditas</span>
         <span className="text-right">Spot</span>
         <span className="text-right">Avg YTD</span>
@@ -46,7 +46,7 @@ export function PriceTickerBoard() {
           >
             <div className="min-w-0">
               <div className="truncate text-[9.5px] font-bold text-ink-900">{p.komoditas}</div>
-              <div className="text-[8px] text-ink-400">{p.unit}</div>
+              <div className="text-[9px] text-ink-500">{p.unit}</div>
             </div>
             <div className="whitespace-nowrap text-right text-[10.5px] font-extrabold tracking-[-0.01em] text-ink-900">
               {p.spotLabel}

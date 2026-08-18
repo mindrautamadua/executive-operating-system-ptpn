@@ -91,7 +91,7 @@ export function PlasmaYieldGap() {
         </ResponsiveContainer>
       </div>
 
-      <p className="pb-1 text-[8px] leading-snug text-ink-400">
+      <p className="pb-1 text-[9px] leading-snug text-ink-500">
         Gap rata-rata 5,5 t/ha; intensifikasi agronomi plasma berpotensi menambah ±430 rb ton
         TBS/tahun tanpa tambah lahan.
       </p>

@@ -113,7 +113,7 @@ export function MarginMatrix() {
 
       <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1">
         {rows.map((d) => (
-          <span key={d.komoditas} className="flex items-center gap-1.5 text-[8px] font-semibold text-ink-500">
+          <span key={d.komoditas} className="flex items-center gap-1.5 text-[9px] font-semibold text-ink-500">
             <span
               className="h-[7px] w-[7px] rounded-full"
               style={{ background: COLORS[d.komoditas] ?? PALETTE.slate }}

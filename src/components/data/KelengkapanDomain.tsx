@@ -18,7 +18,7 @@ export function KelengkapanDomain() {
       <div className="flex items-start justify-between gap-2">
         <h3 className="card-title-navy">Kelengkapan Data Berdasarkan Domain</h3>
         <div className="flex items-center gap-2">
-          <span className="flex items-center gap-1 whitespace-nowrap text-[9px] text-ink-400">
+          <span className="flex items-center gap-1 whitespace-nowrap text-[9px] text-ink-500">
             <span className="h-[10px] w-[2px] rounded" style={{ background: PALETTE.navy }} />
             Target {targetKelengkapan}%
           </span>

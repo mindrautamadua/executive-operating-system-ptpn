@@ -30,7 +30,7 @@ export function BenchmarkGaji() {
           <h3 className="card-title-navy flex min-w-0 items-center gap-1.5"><span>Perbandingan Benchmark Gaji</span><ScopeNote /></h3>
           <p className="mt-[3px] text-[9.5px] text-ink-500">Rata-rata Gaji per Level vs Market</p>
         </div>
-        <span className="mt-[2px] shrink-0 text-[9px] text-ink-400">(Rp Juta)</span>
+        <span className="mt-[2px] shrink-0 text-[9px] text-ink-500">(Rp Juta)</span>
       </div>
 
       <div className="mt-1.5 flex items-center justify-center gap-4">

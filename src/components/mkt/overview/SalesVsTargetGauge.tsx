@@ -73,7 +73,7 @@ export function SalesVsTargetGauge() {
           <span className="mt-[3px] text-[8.5px] font-medium text-ink-400">dari RKAP YTD</span>
         </div>
       </div>
-      <div className="mt-1 flex items-center justify-between px-2 text-[8px] font-semibold text-ink-400">
+      <div className="mt-1 flex items-center justify-between px-2 text-[9px] font-semibold text-ink-500">
         <span>0%</span>
         <span>100% RKAP</span>
         <span>120%</span>
@@ -81,7 +81,7 @@ export function SalesVsTargetGauge() {
 
       <div className="mt-2.5 grid grid-cols-2 gap-2">
         <div className="rounded-lg bg-[#f5f8fa] px-2.5 py-2">
-          <div className="text-[8px] font-semibold uppercase tracking-[0.05em] text-ink-400">
+          <div className="text-[9px] font-semibold uppercase tracking-[0.05em] text-ink-500">
             Realisasi YTD
           </div>
           <div className="mt-[3px] text-[12px] font-extrabold text-ink-900">
@@ -90,7 +90,7 @@ export function SalesVsTargetGauge() {
           <div className="mt-[2px] text-[8.5px] text-ink-500">RKAP YTD {salesVsTarget.rkapYtd}</div>
         </div>
         <div className="rounded-lg bg-[#f5f8fa] px-2.5 py-2">
-          <div className="text-[8px] font-semibold uppercase tracking-[0.05em] text-ink-400">
+          <div className="text-[9px] font-semibold uppercase tracking-[0.05em] text-ink-500">
             Outlook FY 2026
           </div>
           <div className="mt-[3px] text-[12px] font-extrabold text-ink-900">

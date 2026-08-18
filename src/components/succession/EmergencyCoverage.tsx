@@ -16,7 +16,7 @@ export function EmergencyCoverage() {
           <Siren size={13} className="text-[#ef4444]" />
           Emergency Succession Coverage
         </h3>
-        <span className="shrink-0 text-[9px] font-semibold text-ink-400">
+        <span className="shrink-0 text-[9px] font-semibold text-ink-500">
           212 Posisi Kritis
         </span>
       </div>

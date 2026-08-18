@@ -48,7 +48,7 @@ export function SalesByKomoditasTable() {
         Volume, ASP &amp; nilai vs RKAP YTD Mei 2026
       </p>
 
-      <div className="mt-2 grid grid-cols-[minmax(0,0.95fr)_64px_78px_60px_minmax(0,1fr)_66px] items-center gap-x-2 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2 grid grid-cols-[minmax(0,0.95fr)_64px_78px_60px_minmax(0,1fr)_66px] items-center gap-x-2 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Komoditas</span>
         <span className="text-right">Volume</span>
         <span className="text-right">ASP</span>
@@ -69,7 +69,7 @@ export function SalesByKomoditasTable() {
               className="grid grid-cols-[minmax(0,0.95fr)_64px_78px_60px_minmax(0,1fr)_66px] items-center gap-x-2 rounded-lg border border-[#eef2f6] bg-[#fbfcfd] px-2.5 py-[4px]"
             >
               <span className="flex min-w-0 items-center gap-1">
-                <span className={`shrink-0 text-[7px] ${tren.cls}`}>{tren.glyph}</span>
+                <span className={`shrink-0 text-[9px] ${tren.cls}`}>{tren.glyph}</span>
                 <span className="truncate text-[9.5px] font-extrabold text-ink-900">
                   {r.komoditas}
                 </span>

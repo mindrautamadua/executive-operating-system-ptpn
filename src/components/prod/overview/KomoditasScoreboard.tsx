@@ -39,7 +39,7 @@ export function KomoditasScoreboard() {
       <SectionHead title="Komoditas Scoreboard" action="Lihat Detail" />
       <p className="mt-[3px] text-[9px] text-ink-500">Realisasi vs Target YTD per Komoditas</p>
 
-      <div className="mt-2.5 grid grid-cols-[minmax(0,1fr)_44px_44px_44px_64px] items-center gap-x-2 border-b border-[#eef2f6] pb-1.5 text-[8px] font-semibold uppercase tracking-[0.04em] text-ink-400">
+      <div className="mt-2.5 grid grid-cols-[minmax(0,1fr)_44px_44px_44px_64px] items-center gap-x-2 border-b border-[#eef2f6] pb-1.5 text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
         <span>Komoditas</span>
         <span className="text-right">Tgt FY</span>
         <span className="text-right">Tgt YTD</span>
@@ -86,7 +86,7 @@ export function KomoditasScoreboard() {
         ))}
       </ul>
 
-      <p className="mt-1 text-[8px] leading-[1.4] text-ink-400">
+      <p className="mt-1 text-[9px] leading-[1.4] text-ink-500">
         Capaian = realisasi vs target YTD. Gula mengikuti kurva ramp-up musim giling (mulai Mei).
       </p>
     </div>

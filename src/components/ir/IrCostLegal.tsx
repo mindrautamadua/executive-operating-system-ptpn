@@ -42,10 +42,10 @@ export function IrCostLegal() {
       </ul>
 
       <div className="mt-1.5 flex items-center gap-2">
-        <span className="rounded-md bg-[#f8fafc] px-2 py-[3px] text-[8px] font-bold text-ink-700 ring-1 ring-[#eef2f6]">
+        <span className="rounded-md bg-[#f8fafc] px-2 py-[3px] text-[9px] font-bold text-ink-700 ring-1 ring-[#eef2f6]">
           {irCostTotals.perCase}
         </span>
-        <span className="rounded-md bg-[#f8fafc] px-2 py-[3px] text-[8px] font-bold text-ink-700 ring-1 ring-[#eef2f6]">
+        <span className="rounded-md bg-[#f8fafc] px-2 py-[3px] text-[9px] font-bold text-ink-700 ring-1 ring-[#eef2f6]">
           {irCostTotals.perEmployee}
         </span>
       </div>
@@ -53,7 +53,7 @@ export function IrCostLegal() {
       <div className="mt-2 flex min-h-0 flex-1 flex-col justify-around border-t border-[#eef2f6] pt-1.5">
         <div className="flex items-center gap-1.5">
           <Scale size={11} className="text-[#d98b06]" />
-          <span className="text-[8px] font-extrabold uppercase tracking-[0.04em] text-ink-500">
+          <span className="text-[9px] font-extrabold uppercase tracking-[0.04em] text-ink-500">
             Legal Exposure — Kasus PHK & PHI
           </span>
         </div>

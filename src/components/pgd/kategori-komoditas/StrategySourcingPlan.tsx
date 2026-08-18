@@ -33,11 +33,11 @@ export function StrategySourcingPlan() {
               <ToneBadge label={r.status} tone={STATUS_TONE[r.status]} />
             </div>
             <div className="mt-[3px] flex items-center justify-between gap-2">
-              <span className="truncate text-[8px] font-semibold text-ink-500">
+              <span className="truncate text-[9px] font-semibold text-ink-500">
                 {r.strategi} · cakupan Rp{" "}
                 {r.cakupanRpT.toLocaleString("id-ID", { minimumFractionDigits: 2 })} T
               </span>
-              <span className="shrink-0 text-[8px] font-bold text-ptpn-green">
+              <span className="shrink-0 text-[9px] font-bold text-ptpn-green">
                 Hemat Rp {r.targetHematRpM} M · {r.timeline}
               </span>
             </div>
@@ -45,7 +45,7 @@ export function StrategySourcingPlan() {
         ))}
       </div>
 
-      <p className="pt-1.5 text-[8px] leading-snug text-ink-400">
+      <p className="pt-1.5 text-[9px] leading-snug text-ink-500">
         Dua inisiatif bernilai terbesar — pupuk NPK/urea (Rp 2,1 T) dan konstruksi capex (Rp 1,64 T)
         — berstatus At Risk/Off Track.
       </p>
