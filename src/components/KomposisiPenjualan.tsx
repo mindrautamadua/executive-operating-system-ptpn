@@ -67,7 +67,7 @@ export function KomposisiPenjualan() {
         <div className="relative h-[116px] w-[116px] shrink-0">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
-              <Pie
+              <Pie isAnimationActive={false}
                 data={aktif.data}
                 dataKey="value"
                 innerRadius={41}

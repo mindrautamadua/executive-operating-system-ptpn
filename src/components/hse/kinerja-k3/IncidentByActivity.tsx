@@ -88,7 +88,7 @@ export function IncidentByActivity() {
                 ];
               }}
             />
-            <Bar dataKey="jumlah" radius={[0, 3, 3, 0]} barSize={14}>
+            <Bar isAnimationActive={false} dataKey="jumlah" radius={[0, 3, 3, 0]} barSize={14}>
               {incidentByActivity.map((r) => (
                 <Cell key={r.aktivitas} fill={r.color} fillOpacity={dim(r.aktivitas)} />
               ))}

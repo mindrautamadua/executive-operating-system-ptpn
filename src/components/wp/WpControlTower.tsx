@@ -39,7 +39,7 @@ export function WpControlTower() {
                 </span>
               </div>
 
-              <div className="mt-2 grid grid-cols-3 gap-1 text-center">
+              <div className="mt-2 grid grid-cols-2 md:grid-cols-3 gap-1 text-center">
                 {[
                   { label: "Plan", value: r.plan, cls: "text-ink-500" },
                   { label: "Actual", value: r.actual, cls: "text-ink-900" },

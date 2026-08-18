@@ -37,7 +37,7 @@ export function CommunityFirePartnership() {
           : "Program Pembinaan TJSL di Desa Berbatasan Blok Rawan"}
       </p>
 
-      <div className="mt-2 grid grid-cols-4 gap-2">
+      <div className="mt-2 grid grid-cols-2 md:grid-cols-4 gap-2">
         {RINGKAS.map((r) => (
           <div key={r.label} className="rounded-lg bg-[#f8fafc] px-2 py-[6px]">
             <div

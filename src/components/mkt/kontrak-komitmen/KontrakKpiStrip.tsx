@@ -22,8 +22,8 @@ const ITEMS: MktKpiCardItem[] = kontrakKpi.map((k, i) => ({
 const COLS: Record<number, string> = {
   1: "grid-cols-1",
   2: "grid-cols-2",
-  3: "grid-cols-3",
-  4: "grid-cols-4",
+  3: "grid-cols-2 md:grid-cols-3",
+  4: "grid-cols-2 md:grid-cols-4",
 };
 
 export function KontrakKpiStrip() {
@@ -36,7 +36,7 @@ export function KontrakKpiStrip() {
   return (
     <div className="flex flex-col gap-1.5">
       <ScopeNote className="self-start" />
-      <MktKpiCards items={items} cols={COLS[items.length] ?? "grid-cols-4"} />
+      <MktKpiCards items={items} cols={COLS[items.length] ?? "grid-cols-2 md:grid-cols-4"} />
     </div>
   );
 }

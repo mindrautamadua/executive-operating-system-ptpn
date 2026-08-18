@@ -77,7 +77,7 @@ export function EksporDomestikTrend() {
               formatter={(v: number, name: string) => [`${v.toLocaleString("id-ID")} rb ton`, name]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="linear"
               dataKey="domestik"
               name="Domestik"
@@ -88,7 +88,7 @@ export function EksporDomestikTrend() {
               dot={false}
               activeDot={{ r: 3 }}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="linear"
               dataKey="ekspor"
               name="Ekspor"

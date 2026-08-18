@@ -37,6 +37,7 @@ export function SkillGapClosure() {
       <p className="mt-[3px] text-[9px] text-ink-500">{gapClosureTotal.note}</p>
 
       <div className="mt-1.5 min-h-0 flex-1">
+        <div className="scroll-thin overflow-x-auto">
         <table className="w-full border-separate border-spacing-y-[2px]">
           <thead>
             <tr className="text-[8.5px] font-semibold uppercase tracking-[0.03em] text-ink-500">
@@ -105,6 +106,7 @@ export function SkillGapClosure() {
             })}
           </tbody>
         </table>
+        </div>
       </div>
 
       <div className="mt-1 flex items-center justify-between gap-3">

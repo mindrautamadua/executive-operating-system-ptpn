@@ -21,6 +21,7 @@ export function DeiActionTracker() {
       </div>
 
       <div className="mt-1.5 min-h-0 flex-1">
+        <div className="scroll-thin overflow-x-auto">
         <table className="w-full table-fixed border-collapse leading-none">
           <thead>
             <tr className="border-b border-[#eef2f6] text-[8.5px] font-semibold text-ink-500">
@@ -78,6 +79,7 @@ export function DeiActionTracker() {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
 
       <button className="link-more mt-1 flex items-center gap-0.5">

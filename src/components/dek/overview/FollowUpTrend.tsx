@@ -56,14 +56,14 @@ export function FollowUpTrend() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5 }}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               name="Terbit"
               dataKey="terbit"
               fill={PALETTE.blue}
               radius={[3, 3, 0, 0]}
               barSize={11}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Ditindaklanjuti"
               type="monotone"
               dataKey="ditindaklanjuti"

@@ -60,7 +60,7 @@ export function SavingsTrend() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5 }}
             />
-            <Area
+            <Area isAnimationActive={false}
               name="Realisasi Kumulatif"
               type="monotone"
               dataKey="kumulatif"
@@ -70,7 +70,7 @@ export function SavingsTrend() {
               dot={{ r: 2.4 }}
               activeDot={{ r: 4 }}
             />
-            <Area
+            <Area isAnimationActive={false}
               name="Jalur Target"
               type="monotone"
               dataKey="target"

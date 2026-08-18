@@ -16,7 +16,7 @@ export function BppInsight() {
           <ScopeNote />
         </div>
       )}
-      <ProdInsightGrid items={bppInsights} cols="grid-cols-3" />
+      <ProdInsightGrid items={bppInsights} cols="grid-cols-2 md:grid-cols-3" />
     </div>
   );
 }

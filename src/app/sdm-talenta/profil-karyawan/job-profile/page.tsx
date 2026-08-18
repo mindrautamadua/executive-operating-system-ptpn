@@ -19,7 +19,7 @@ const STATUS_TONE = { Terpenuhi: "green", Proses: "amber", Belum: "red" } as con
 
 export default function JobProfilePage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <SdmSidebar active="Profil Karyawan" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

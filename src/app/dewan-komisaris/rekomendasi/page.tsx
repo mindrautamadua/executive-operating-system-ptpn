@@ -15,7 +15,7 @@ export const metadata = { title: "Rekomendasi & Tindak Lanjut — PTPN Group" };
 
 export default function RekomendasiPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <DekSidebar active="Rekomendasi & Tindak Lanjut" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

@@ -3,7 +3,7 @@ import { aihrFeatures } from "@/lib/aihr-data";
 export function FeatureStrip() {
   return (
     <div
-      className="card anim-rise grid grid-cols-4 gap-4 px-4 pb-3.5 pt-3.5"
+      className="card anim-rise grid grid-cols-2 md:grid-cols-4 gap-4 px-4 pb-3.5 pt-3.5"
       style={{ "--d": "300ms" } as React.CSSProperties}
     >
       {aihrFeatures.map(({ title, desc, icon: Icon }) => (

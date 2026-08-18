@@ -71,21 +71,21 @@ export function LegalWorkloadTrend() {
                 fill: CHART_AXIS.tick,
               }}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               name="Permintaan Masuk"
               dataKey="masuk"
               fill={PALETTE.blueSoft}
               radius={[3, 3, 0, 0]}
               barSize={11}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               name="Selesai"
               dataKey="selesai"
               fill={PALETTE.green}
               radius={[3, 3, 0, 0]}
               barSize={11}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Backlog Bulan Berjalan"
               type="monotone"
               dataKey="backlog"

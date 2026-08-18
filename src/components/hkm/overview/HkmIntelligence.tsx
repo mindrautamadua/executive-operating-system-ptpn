@@ -53,7 +53,7 @@ export function HkmIntelligence() {
         </div>
       </div>
 
-      <div className="mt-2.5 grid grid-cols-3 gap-2">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-3 gap-2">
         {hkmIntelligence.map((s) => {
           const t = SIGNAL_TONE[s.tone];
           return (

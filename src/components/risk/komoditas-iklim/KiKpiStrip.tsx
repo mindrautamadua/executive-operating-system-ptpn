@@ -9,5 +9,5 @@ const ICONS = [TrendingDown, CloudRain, Droplets, ShieldCheck, Wheat];
 const items: RiskKpiCardItem[] = kiKpi.map((k, i) => ({ ...k, icon: ICONS[i] }));
 
 export function KiKpiStrip() {
-  return <RiskKpiCards items={items} cols="grid-cols-5" />;
+  return <RiskKpiCards items={items} cols="grid-cols-2 md:grid-cols-3 xl:grid-cols-5" />;
 }

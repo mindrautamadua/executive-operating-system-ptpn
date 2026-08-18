@@ -50,7 +50,7 @@ export function MaturityRadar() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, name: string) => [v.toLocaleString("id-ID"), name]}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Target 2026"
               dataKey="target"
               stroke={PALETTE.amber}
@@ -59,7 +59,7 @@ export function MaturityRadar() {
               fill={PALETTE.amber}
               fillOpacity={0.05}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Skor Maturity"
               dataKey="skor"
               stroke={PALETTE.green}

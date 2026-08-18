@@ -61,7 +61,7 @@ export function LossRecovery() {
               ]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="kerugianRpM" fill={PALETTE.red} fillOpacity={0.85} radius={[3, 3, 0, 0]}>
+            <Bar isAnimationActive={false} dataKey="kerugianRpM" fill={PALETTE.red} fillOpacity={0.85} radius={[3, 3, 0, 0]}>
               <LabelList
                 dataKey="kerugianRpM"
                 position="top"
@@ -70,7 +70,7 @@ export function LossRecovery() {
                 style={{ fontSize: 8, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Bar>
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="pemulihanRpM"
               fill={PALETTE.green}
               fillOpacity={0.85}

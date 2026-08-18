@@ -73,7 +73,7 @@ export function RiskCategoryRadar() {
               tick={{ fontSize: 8, fill: "var(--chart-tick)" }}
               axisLine={false}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Residual"
               dataKey="residual"
               stroke={PALETTE.red}
@@ -82,7 +82,7 @@ export function RiskCategoryRadar() {
               fillOpacity={0.12}
               animationDuration={900}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Appetite"
               dataKey="appetite"
               stroke={PALETTE.green}

@@ -67,7 +67,7 @@ export function FireByRegional() {
               ]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="hotspot" radius={[3, 3, 0, 0]}>
+            <Bar isAnimationActive={false} dataKey="hotspot" radius={[3, 3, 0, 0]}>
               {data.map((r) => (
                 <Cell
                   key={r.regional}

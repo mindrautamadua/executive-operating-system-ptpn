@@ -35,6 +35,7 @@ export function DecisionRegister() {
         {rows.length === 0 && (
           <p className="text-[9px] text-ink-500">Tidak ada keputusan untuk cakupan ini.</p>
         )}
+        <div className="scroll-thin overflow-x-auto">
         <table className="w-full border-separate border-spacing-0">
           <thead className="sticky top-0 bg-[var(--surface)]">
             <tr className="text-left text-[7.5px] font-extrabold uppercase tracking-[0.05em] text-ink-400">
@@ -75,6 +76,7 @@ export function DecisionRegister() {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
     </div>
   );

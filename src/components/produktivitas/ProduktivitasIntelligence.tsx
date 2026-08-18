@@ -34,7 +34,7 @@ export function ProduktivitasIntelligence() {
         </span>
       </div>
 
-      <div className="mt-2.5 grid grid-cols-4 gap-2">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-4 gap-2">
         {tiles.map((t) => {
           const tone = TILE_TONE[t.tone];
           return (

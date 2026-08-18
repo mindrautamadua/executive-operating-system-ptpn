@@ -14,7 +14,7 @@ export const metadata = { title: "Volume & Nilai Penjualan — PTPN Group" };
 
 export default function PenjualanKomoditasPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <MktSidebar active="Volume & Nilai" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

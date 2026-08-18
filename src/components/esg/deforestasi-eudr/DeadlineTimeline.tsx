@@ -26,7 +26,7 @@ export function DeadlineTimeline() {
         Milestone Regulasi &amp; Target Internal Kesiapan Dosier
       </p>
 
-      <div className="mt-3 grid min-h-0 flex-1 grid-cols-5 gap-3">
+      <div className="mt-3 grid min-h-0 flex-1 grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-3">
         {deadlineTimeline.map((m) => {
           const s = STATUS[m.status];
           const Icon = s.icon;

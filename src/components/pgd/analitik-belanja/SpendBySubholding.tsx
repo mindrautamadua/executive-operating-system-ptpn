@@ -69,7 +69,7 @@ export function SpendBySubholding() {
               wrapperStyle={{ fontSize: 8.5 }}
             />
             {spendBySubholding.map((s, i) => (
-              <Bar
+              <Bar isAnimationActive={false}
                 key={s.segment}
                 dataKey={s.segment}
                 stackId="spend"

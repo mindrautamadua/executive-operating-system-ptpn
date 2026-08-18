@@ -79,14 +79,14 @@ export function RasioKinerja() {
               ]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Scatter
+            <Scatter isAnimationActive={false}
               data={rasioKinerja}
               fill={PALETTE.greenSoft}
               fillOpacity={0.7}
               animationDuration={800}
             />
             {/* garis tren — animasi disamakan dengan titik sebar */}
-            <Scatter
+            <Scatter isAnimationActive={false}
               data={rasioTren}
               line={{ stroke: "#9fb5c6", strokeWidth: 1.2, strokeDasharray: "5 4" }}
               shape={() => <g />}

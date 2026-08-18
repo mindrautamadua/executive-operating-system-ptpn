@@ -71,14 +71,14 @@ export function ForwardCoverageChart() {
               formatter={(v: number, name: string) => [`${v.toLocaleString("id-ID")} rb ton`, name]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="committed"
               name="Committed"
               stackId="cov"
               fill={PALETTE.green}
               radius={[0, 0, 0, 0]}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="uncommitted"
               name="Uncommitted"
               stackId="cov"
@@ -86,7 +86,7 @@ export function ForwardCoverageChart() {
               fillOpacity={0.4}
               radius={[3, 3, 0, 0]}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="linear"
               dataKey="produksi"
               name="Proyeksi Produksi"

@@ -69,7 +69,7 @@ export function ContractValueTop() {
               formatter={(v: number) => [`Rp ${v.toLocaleString("id-ID")} T`, "Nilai Kontrak"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="nilaiRpT" radius={[0, 4, 4, 0]} barSize={11}>
+            <Bar isAnimationActive={false} dataKey="nilaiRpT" radius={[0, 4, 4, 0]} barSize={11}>
               {rows.map((r) => (
                 <Cell key={r.rank} fill={PGD_STATUS_COLOR[r.status]} />
               ))}

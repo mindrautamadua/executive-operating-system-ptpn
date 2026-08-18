@@ -31,7 +31,7 @@ export function TalentPortfolio() {
           </div>
           <div className="flex flex-col items-center gap-1">
             <span className="text-[7.5px] text-ink-400">High</span>
-            <div className="grid grid-cols-3 gap-1">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-1">
               {nineBox.flat().map((cell, i) => (
                 <div
                   key={i}

@@ -15,7 +15,7 @@ export function LegalInsight() {
         </span>
       </h3>
 
-      <div className="mt-2.5 grid grid-cols-3 gap-3">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-3 gap-3">
         {legalInsights.map((ins, i) => (
           <div key={ins.insight} className="flex items-start gap-2.5">
             <span className="flex h-[22px] w-[22px] shrink-0 items-center justify-center rounded-full bg-[#e8f1fd] text-[9.5px] font-extrabold text-[#2f6fe4]">

@@ -54,7 +54,7 @@ export function WbsTrend() {
                 formatter={(v: number) => [`${v} laporan`, "Masuk"]}
                 contentStyle={CHART_TOOLTIP_STYLE}
               />
-              <Line
+              <Line isAnimationActive={false}
                 type="monotone"
                 dataKey="laporan"
                 stroke={PALETTE.blue}
@@ -70,7 +70,7 @@ export function WbsTrend() {
           <div className="h-[112px] w-[104px] shrink-0">
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
-                <Pie
+                <Pie isAnimationActive={false}
                   data={wbsChannels}
                   dataKey="count"
                   nameKey="channel"

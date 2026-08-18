@@ -65,7 +65,7 @@ export function AppetiteGaugeGrid() {
         Aktual vs Limit Risk Appetite — Utilisasi &gt; 100% Berarti Breach
       </p>
 
-      <div className="mt-2 grid grid-cols-4 gap-3">
+      <div className="mt-2 grid grid-cols-2 md:grid-cols-4 gap-3">
         {appetiteGauges.map((g) => (
           <div key={g.metric} className="rounded-xl border border-[#eef2f6] bg-[#fbfcfd] px-2.5 pb-2 pt-2">
             <div className="flex items-start justify-between gap-1.5">

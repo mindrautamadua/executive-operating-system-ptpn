@@ -28,6 +28,7 @@ export function VendorConcentration() {
       </p>
 
       <div className="scroll-thin mt-2 min-h-0 flex-1 overflow-y-auto">
+        <div className="scroll-thin overflow-x-auto">
         <table className="w-full border-collapse">
           <thead>
             <tr className="border-b border-[#eef2f6]">
@@ -78,6 +79,7 @@ export function VendorConcentration() {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
 
       <p className="pt-1.5 text-[9px] leading-snug text-ink-500">

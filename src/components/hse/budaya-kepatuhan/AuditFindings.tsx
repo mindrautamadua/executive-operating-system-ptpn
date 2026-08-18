@@ -32,6 +32,7 @@ export function AuditFindings() {
       </p>
 
       <div className="mt-2 min-h-0 flex-1">
+        <div className="scroll-thin overflow-x-auto">
         <table className="w-full border-collapse">
           <thead>
             <tr className="border-b border-[#eef2f6] text-left">
@@ -106,6 +107,7 @@ export function AuditFindings() {
             })}
           </tbody>
         </table>
+        </div>
       </div>
 
       <p className="pt-1.5 text-[9px] leading-snug text-ink-500">

@@ -39,7 +39,7 @@ export function AlertsNotifications() {
     <div className="card anim-rise px-4 pb-3.5 pt-3" style={{ "--d": "200ms" } as React.CSSProperties}>
       <SectionHead title="Alerts & Notifications" action="Lihat Semua" href="/sdm-talenta/alerts" />
 
-      <div className="mt-2.5 grid grid-cols-5 gap-2.5">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-2.5">
         {alerts.map((a) => {
           const t = TONE[a.tone];
           const Icon = t.Icon;

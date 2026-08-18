@@ -55,6 +55,7 @@ export function RequisitionJobFamily() {
         </button>
       </div>
 
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] bg-[#f7f9fb]">
@@ -112,6 +113,7 @@ export function RequisitionJobFamily() {
           </tr>
         </tfoot>
       </table>
+      </div>
 
       <div className="mt-auto flex items-center justify-between pt-2">
         <span className="flex items-center gap-3 text-[9px] text-ink-500">

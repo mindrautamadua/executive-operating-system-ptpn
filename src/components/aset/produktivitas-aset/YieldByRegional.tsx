@@ -102,7 +102,7 @@ export function YieldByRegional() {
                 "Yield TBS",
               ]}
             />
-            <Bar dataKey="yieldTonHa" radius={[0, 3, 3, 0]} maxBarSize={16}>
+            <Bar isAnimationActive={false} dataKey="yieldTonHa" radius={[0, 3, 3, 0]} maxBarSize={16}>
               {data.map((d) => (
                 <Cell
                   key={d.regional}

@@ -46,7 +46,7 @@ export function GulaPgReadiness() {
 
       {milikScope && (
         <>
-          <div className="mt-2 grid grid-cols-3 gap-2">
+          <div className="mt-2 grid grid-cols-2 md:grid-cols-3 gap-2">
             <div className="rounded-lg bg-[var(--surface-2)] p-2 text-center">
               <div className="text-[9px] uppercase tracking-wide text-ink-500">Jam Berhenti</div>
               <div className="mt-0.5 text-[12px] font-bold text-amber-600">

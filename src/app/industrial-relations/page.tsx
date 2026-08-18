@@ -24,7 +24,7 @@ export const metadata = { title: "Industrial Relations — PTPN Group" };
 
 export default function IndustrialRelationsPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <SdmSidebar active="Industrial Relations" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">
@@ -65,7 +65,7 @@ export default function IndustrialRelationsPage() {
             <CrossModuleSignals />
           </div>
 
-          <div className="anim-rise grid grid-cols-3 gap-3 rounded-xl border border-[#d8e6f7] bg-[#eef5fd] px-3.5 py-2.5">
+          <div className="anim-rise grid grid-cols-2 md:grid-cols-3 gap-3 rounded-xl border border-[#d8e6f7] bg-[#eef5fd] px-3.5 py-2.5">
             {irMethodology.map((m) => (
               <div key={m.title} className="flex items-start gap-2">
                 <Info size={13} className="mt-[1px] shrink-0 text-[#2f6fe4]" />

@@ -79,7 +79,7 @@ export function DemandSupplyGap() {
                   iconSize={8}
                   formatter={(v: string) => (v === "supply" ? "Supply (proyeksi)" : "Demand (business plan)")}
                 />
-                <Bar dataKey="supply" fill={PALETTE.green} radius={[3, 3, 0, 0]} maxBarSize={26}>
+                <Bar isAnimationActive={false} dataKey="supply" fill={PALETTE.green} radius={[3, 3, 0, 0]} maxBarSize={26}>
                   <LabelList
                     dataKey="supply"
                     position="top"
@@ -87,7 +87,7 @@ export function DemandSupplyGap() {
                     style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
                   />
                 </Bar>
-                <Bar dataKey="demand" fill={PALETTE.navy} radius={[3, 3, 0, 0]} maxBarSize={26}>
+                <Bar isAnimationActive={false} dataKey="demand" fill={PALETTE.navy} radius={[3, 3, 0, 0]} maxBarSize={26}>
                   <LabelList
                     dataKey="demand"
                     position="top"

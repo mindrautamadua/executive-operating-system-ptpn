@@ -6,7 +6,7 @@ export const metadata = { title: "Talent Intelligence Profile — PTPN Group" };
 
 export default function ProfilKaryawanPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <SdmSidebar
         spotlightCard
         updatedStamp

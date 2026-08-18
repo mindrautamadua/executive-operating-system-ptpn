@@ -43,7 +43,7 @@ export function PeopleMathHpi() {
     >
       <SectionHead title="People Math & HPI BEM Summary" action="Lihat Detail" href="/people-math-hpi" badge={<ScopeNote />} />
 
-      <div className="mt-3 grid min-h-0 flex-1 grid-cols-3 gap-2.5">
+      <div className="mt-3 grid min-h-0 flex-1 grid-cols-2 md:grid-cols-3 gap-2.5">
         <div className="flex flex-col rounded-xl border border-[#eef2f6] px-3 pb-2 pt-2.5 text-center">
           <div className="text-[8.5px] font-semibold leading-[1.35] text-ink-500">
             People Math Score
@@ -66,7 +66,7 @@ export function PeopleMathHpi() {
                     <stop offset="100%" stopColor={PALETTE.green} stopOpacity="0" />
                   </linearGradient>
                 </defs>
-                <Area
+                <Area isAnimationActive={false}
                   type="monotone"
                   dataKey="v"
                   stroke={PALETTE.green}

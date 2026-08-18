@@ -14,7 +14,7 @@ export const metadata = { title: "Profitabilitas Segmen — PTPN Group" };
 
 export default function ProfitabilitasSegmenPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <KeuSidebar active="Profitabilitas Segmen" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

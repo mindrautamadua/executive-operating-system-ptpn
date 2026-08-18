@@ -24,7 +24,7 @@ const TONES: Record<KeuKpiItem["tone"], string> = {
 
 /** Strip KPI standar dimensi Keuangan — kartu seragam pola WaKpiStrip. */
 export function KeuKpiGrid({ items, cols = 6 }: { items: KeuKpiItem[]; cols?: 4 | 6 }) {
-  const colClass = cols === 4 ? "grid-cols-4" : "grid-cols-6";
+  const colClass = cols === 4 ? "grid-cols-2 md:grid-cols-4" : "grid-cols-2 md:grid-cols-3 xl:grid-cols-6";
   return (
     <div className={`grid ${colClass} gap-3`}>
       {items.map((k, i) => {

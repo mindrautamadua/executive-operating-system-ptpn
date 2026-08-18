@@ -200,6 +200,7 @@ function RiwayatPelatihanCard() {
           Lihat Semua <ArrowRight size={11} />
         </button>
       </div>
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2.5 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] text-left text-[8.5px] font-semibold uppercase tracking-[0.05em] text-ink-400">
@@ -226,6 +227,7 @@ function RiwayatPelatihanCard() {
           ))}
         </tbody>
       </table>
+      </div>
       <div className="mt-auto pt-2">
         <button className="link-more inline-flex items-center gap-1">
           Lihat semua riwayat pelatihan <ArrowRight size={11} />
@@ -255,6 +257,7 @@ function SkillsGapCard() {
           Lihat Detail <ArrowRight size={11} />
         </Link>
       </div>
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2.5 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] text-left text-[8.5px] font-semibold uppercase tracking-[0.05em] text-ink-400">
@@ -283,6 +286,7 @@ function SkillsGapCard() {
           ))}
         </tbody>
       </table>
+      </div>
       <div className="mt-auto pt-2">
         <Link href="/sdm-talenta/profil-karyawan/rekomendasi-pengembangan" className="link-more inline-flex items-center gap-1">
           Lihat rekomendasi pengembangan <ArrowRight size={11} />
@@ -351,6 +355,7 @@ function SertifikasiCard() {
           Lihat Semua <ArrowRight size={11} />
         </button>
       </div>
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2.5 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] text-left text-[8.5px] font-semibold uppercase tracking-[0.05em] text-ink-400">
@@ -380,6 +385,7 @@ function SertifikasiCard() {
           })}
         </tbody>
       </table>
+      </div>
       <div className="mt-auto pt-2">
         <button className="link-more inline-flex items-center gap-1">
           Lihat semua sertifikasi <ArrowRight size={11} />

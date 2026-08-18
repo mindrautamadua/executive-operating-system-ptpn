@@ -72,12 +72,12 @@ export function CapexBySubholding() {
                 name === "actual" ? "Realisasi YTD" : "Sisa RKAP",
               ]}
             />
-            <Bar dataKey="actual" stackId="cx" fill={PALETTE.green} maxBarSize={34}>
+            <Bar isAnimationActive={false} dataKey="actual" stackId="cx" fill={PALETTE.green} maxBarSize={34}>
               {data.map((d) => (
                 <Cell key={d.name} fillOpacity={dim(d.sub)} />
               ))}
             </Bar>
-            <Bar dataKey="sisa" stackId="cx" fill="#d7e3ee" radius={[2, 2, 0, 0]} maxBarSize={34}>
+            <Bar isAnimationActive={false} dataKey="sisa" stackId="cx" fill="#d7e3ee" radius={[2, 2, 0, 0]} maxBarSize={34}>
               {data.map((d) => (
                 <Cell key={d.name} fillOpacity={dim(d.sub)} />
               ))}

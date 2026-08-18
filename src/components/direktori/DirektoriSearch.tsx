@@ -46,6 +46,7 @@ function Select({
     <select
       value={value}
       onChange={(e) => onChange(e.target.value)}
+      aria-label={allLabel.replace(/^Semua /, "Filter ")}
       className="w-full cursor-pointer rounded-lg border border-[#e3e9ef] bg-white px-2.5 py-[7px] text-[9.5px] font-semibold text-ink-700 outline-none focus:border-ptpn-green"
     >
       <option value="">{allLabel}</option>
@@ -134,6 +135,8 @@ export function DirektoriSearch() {
         <label className="flex items-center gap-1.5 rounded-lg border border-[#e3e9ef] bg-white px-2.5 py-[7px] focus-within:border-ptpn-green">
           <Search size={12} className="shrink-0 text-ink-400" />
           <input
+            type="search"
+            aria-label="Cari karyawan"
             value={query}
             onChange={(e) => ubah(setQuery)(e.target.value)}
             placeholder="Cari nama, NIK, jabatan, unit, lokasi, atau email..."
@@ -195,6 +198,7 @@ export function DirektoriSearch() {
         />
         <select
           value={sort}
+          aria-label="Urutkan hasil"
           onChange={(e) => ubah(setSort)(e.target.value as SortKey)}
           className="w-full cursor-pointer rounded-lg border border-[#e3e9ef] bg-white px-2.5 py-[7px] text-[9.5px] font-semibold text-ink-700 outline-none focus:border-ptpn-green"
         >

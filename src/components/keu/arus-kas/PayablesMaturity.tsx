@@ -56,7 +56,7 @@ export function PayablesMaturity() {
                 "Jatuh Tempo",
               ]}
             />
-            <Bar dataKey="valueRpT" fill={PALETTE.blue} radius={[3, 3, 0, 0]} maxBarSize={30}>
+            <Bar isAnimationActive={false} dataKey="valueRpT" fill={PALETTE.blue} radius={[3, 3, 0, 0]} maxBarSize={30}>
               <LabelList
                 dataKey="valueRpT"
                 position="top"

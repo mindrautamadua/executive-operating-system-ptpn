@@ -68,7 +68,7 @@ export function ExposureByCase() {
               ]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="nilai" radius={[0, 4, 4, 0]} barSize={12}>
+            <Bar isAnimationActive={false} dataKey="nilai" radius={[0, 4, 4, 0]} barSize={12}>
               {data.map((c) => (
                 <Cell key={c.perkara} fill={PROGNOSIS_COLOR[c.prognosis]} />
               ))}

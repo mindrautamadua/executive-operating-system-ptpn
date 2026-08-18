@@ -17,7 +17,7 @@ export function OpexKpiStrip() {
           <ScopeNote />
         </div>
       )}
-      <ProdKpiCards items={opexKpi} cols="grid-cols-4" />
+      <ProdKpiCards items={opexKpi} cols="grid-cols-2 md:grid-cols-4" />
     </div>
   );
 }

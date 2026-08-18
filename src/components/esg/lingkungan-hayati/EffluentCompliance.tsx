@@ -81,7 +81,7 @@ export function EffluentCompliance() {
                 fontWeight: 700,
               }}
             />
-            <Bar dataKey="compliancePct" radius={[3, 3, 0, 0]} barSize={22}>
+            <Bar isAnimationActive={false} dataKey="compliancePct" radius={[3, 3, 0, 0]} barSize={22}>
               {data.map((d) => (
                 <Cell
                   key={d.regional}

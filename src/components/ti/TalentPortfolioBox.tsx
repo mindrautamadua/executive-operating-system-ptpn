@@ -48,7 +48,7 @@ export function TalentPortfolioBox() {
                 ))}
               </div>
 
-              <div className="grid min-w-0 flex-1 grid-cols-3 gap-1.5">
+              <div className="grid min-w-0 flex-1 grid-cols-2 md:grid-cols-3 gap-1.5">
                 {tiNineBox.flat().map((cell, i) => (
                   <div
                     key={i}
@@ -63,7 +63,7 @@ export function TalentPortfolioBox() {
               </div>
             </div>
 
-            <div className="ml-[40px] mt-1.5 grid grid-cols-3 gap-1.5">
+            <div className="ml-[40px] mt-1.5 grid grid-cols-2 md:grid-cols-3 gap-1.5">
               {PERFORMANCE_LABELS.map((l) => (
                 <div key={l} className="text-center text-[9px] font-semibold text-ink-500">
                   {l}

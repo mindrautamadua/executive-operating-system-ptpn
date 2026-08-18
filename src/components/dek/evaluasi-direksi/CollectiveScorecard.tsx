@@ -81,7 +81,7 @@ export function CollectiveScorecard() {
               ]}
             />
             <ReferenceLine y={80} stroke={PALETTE.red} strokeDasharray="3 3" strokeWidth={1.2} />
-            <Bar dataKey="skor" radius={[3, 3, 0, 0]} maxBarSize={42}>
+            <Bar isAnimationActive={false} dataKey="skor" radius={[3, 3, 0, 0]} maxBarSize={42}>
               {DATA.map((d) => (
                 <Cell key={d.name} fill={d.color} />
               ))}

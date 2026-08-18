@@ -41,7 +41,7 @@ export function AssetRiskRadar() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, name: string) => [v.toLocaleString("id-ID"), name]}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Ambang Toleransi"
               dataKey="tolerance"
               stroke={PALETTE.slate}
@@ -50,7 +50,7 @@ export function AssetRiskRadar() {
               fill={PALETTE.slate}
               fillOpacity={0.05}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Risiko Saat Ini"
               dataKey="level"
               stroke={PALETTE.red}

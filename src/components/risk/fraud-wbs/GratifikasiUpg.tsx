@@ -47,7 +47,7 @@ export function GratifikasiUpg() {
         />
       </span>
 
-      <div className="mt-2.5 grid min-h-0 flex-1 grid-cols-3 content-center gap-1.5">
+      <div className="mt-2.5 grid min-h-0 flex-1 grid-cols-2 md:grid-cols-3 content-center gap-1.5">
         <Tile label="Laporan Gratifikasi" value={`${g.laporanGratifikasiYtd}`} />
         <Tile label="Diteruskan ke KPK" value={`${g.diteruskanKpk}`} />
         <Tile label="Belum Lapor LHKPN" value={`${g.lhkpnWajib - g.lhkpnLapor}`} tone="bad" />

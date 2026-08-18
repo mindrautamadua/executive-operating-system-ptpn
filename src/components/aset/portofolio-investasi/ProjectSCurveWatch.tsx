@@ -95,7 +95,7 @@ export function ProjectSCurveWatch() {
               wrapperStyle={{ fontSize: 8, color: CHART_AXIS.tick }}
             />
             {sCurveWatch.map((p, i) => (
-              <Line
+              <Line isAnimationActive={false}
                 key={`rencana-${p.proyek}`}
                 type="monotone"
                 dataKey={`rencana${i}`}
@@ -109,7 +109,7 @@ export function ProjectSCurveWatch() {
               />
             ))}
             {sCurveWatch.map((p, i) => (
-              <Line
+              <Line isAnimationActive={false}
                 key={`aktual-${p.proyek}`}
                 type="monotone"
                 dataKey={`aktual${i}`}
@@ -124,7 +124,7 @@ export function ProjectSCurveWatch() {
         </ResponsiveContainer>
       </div>
 
-      <div className="mt-1 grid shrink-0 grid-cols-3 gap-1.5">
+      <div className="mt-1 grid shrink-0 grid-cols-2 md:grid-cols-3 gap-1.5">
         {sCurveWatch.map((p, i) => (
           <div
             key={p.proyek}

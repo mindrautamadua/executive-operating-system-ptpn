@@ -92,7 +92,7 @@ export function ValueTrajectory2029() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, n: string) => [`Rp ${fmt(v)} T`, LABELS[n] ?? n]}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               dataKey="target"
               stroke={PALETTE.blueSoft}
@@ -109,7 +109,7 @@ export function ValueTrajectory2029() {
                 style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Area>
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               dataKey="realisasi"
               stroke={PALETTE.green}

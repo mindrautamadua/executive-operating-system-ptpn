@@ -99,7 +99,7 @@ export function CpoPriceChart() {
               contentStyle={CHART_TOOLTIP_STYLE}
             />
             {/* Band margin: area KPBN (atas) dikontraskan dengan garis HPP (bawah). */}
-            <Area
+            <Area isAnimationActive={false}
               yAxisId="rp"
               type="linear"
               dataKey="kpbnRp"
@@ -110,7 +110,7 @@ export function CpoPriceChart() {
               dot={false}
               activeDot={{ r: 3.5 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="rp"
               type="linear"
               dataKey="hppRp"
@@ -120,7 +120,7 @@ export function CpoPriceChart() {
               strokeDasharray="4 3"
               dot={false}
             />
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="usd"
               type="linear"
               dataKey="rotterdamUsd"

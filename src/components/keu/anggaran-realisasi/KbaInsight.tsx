@@ -25,7 +25,7 @@ export function KbaInsight() {
         </button>
       </div>
 
-      <div className="mt-2.5 grid grid-cols-3 gap-3">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-3 gap-3">
         {kbaInsights.map((ins, i) => {
           const s = STYLES[i % STYLES.length];
           const Icon = s.Icon;

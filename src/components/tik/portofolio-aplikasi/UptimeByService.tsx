@@ -78,7 +78,7 @@ export function UptimeByService() {
                   : label;
               }}
             />
-            <Bar dataKey="uptimePct" radius={[3, 3, 0, 0]} maxBarSize={30}>
+            <Bar isAnimationActive={false} dataKey="uptimePct" radius={[3, 3, 0, 0]} maxBarSize={30}>
               {data.map((d) => (
                 <Cell
                   key={d.layanan}

@@ -74,7 +74,7 @@ export function ReviewSlaTrend() {
                 fill: CHART_AXIS.tick,
               }}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Rata-rata Waktu Review"
               type="monotone"
               dataKey="rataHari"

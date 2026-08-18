@@ -364,7 +364,7 @@ export function AllRisksExplorer() {
               <button
                 key={p}
                 onClick={() => setPage(p)}
-                className={`h-[22px] min-w-[22px] rounded-md border px-1 text-[9px] font-semibold ${
+                className={`h-[24px] min-w-[24px] rounded-md border px-1 text-[9px] font-semibold ${
                   p === current
                     ? "border-ptpn-green bg-ptpn-greenLight text-ptpn-green"
                     : "border-[#e3e9ef] text-ink-500 hover:bg-[#f5f8fa]"

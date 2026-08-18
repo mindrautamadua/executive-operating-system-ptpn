@@ -41,6 +41,7 @@ export function RingkasanUnitKompensasi() {
         <p className="mt-[3px] text-[9px] text-ink-500">Unit {def.label} disorot</p>
       )}
 
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] bg-[#f9fbfc]">
@@ -106,6 +107,7 @@ export function RingkasanUnitKompensasi() {
           ))}
         </tbody>
       </table>
+      </div>
 
       <div className="min-h-0 flex-1" />
 

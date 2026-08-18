@@ -77,7 +77,7 @@ export function IncidentTrend() {
               iconSize={6}
               wrapperStyle={{ fontSize: 8, color: CHART_AXIS.tick }}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               yAxisId="left"
               name="Ringan"
               dataKey="ringan"
@@ -85,7 +85,7 @@ export function IncidentTrend() {
               fill={PALETTE.greenSoft}
               barSize={14}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               yAxisId="left"
               name="Sedang"
               dataKey="sedang"
@@ -93,7 +93,7 @@ export function IncidentTrend() {
               fill={PALETTE.amber}
               barSize={14}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               yAxisId="left"
               name="Berat & Fatal"
               dataKey="berat"
@@ -102,7 +102,7 @@ export function IncidentTrend() {
               barSize={14}
               radius={[3, 3, 0, 0]}
             />
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="right"
               name="LTIFR"
               type="monotone"

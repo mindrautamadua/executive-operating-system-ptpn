@@ -7,7 +7,7 @@ export function PkomInsight() {
   return (
     <div className="flex flex-col gap-1">
       <ScopeNote className="self-end" />
-      <ProdInsightGrid items={prodInsights} cols="grid-cols-4" />
+      <ProdInsightGrid items={prodInsights} cols="grid-cols-2 md:grid-cols-4" />
     </div>
   );
 }

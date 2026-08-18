@@ -9,6 +9,7 @@ import {
   successorFit,
   type PosisiKritis,
 } from "@/lib/succession-data";
+import { ModalShell } from "@/components/ui/ModalShell";
 import { SEMANTIC } from "@/lib/chart-palette";
 import { PersonAvatar } from "../ui/PersonAvatar";
 
@@ -26,14 +27,7 @@ function FitModal({ posisi, onClose }: { posisi: PosisiKritis; onClose: () => vo
   const kandidat = successorFit[posisi.posisi];
 
   return (
-    <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-[#0f1b2d]/40 px-6"
-      onClick={onClose}
-    >
-      <div
-        className="scroll-thin max-h-[82vh] w-[560px] overflow-y-auto rounded-2xl bg-white p-5 shadow-xl"
-        onClick={(e) => e.stopPropagation()}
-      >
+    <ModalShell label={`Role–Successor Fit — ${posisi.posisi}`} onClose={onClose}>
         <div className="flex items-start justify-between gap-3">
           <div className="leading-tight">
             <h3 className="flex items-center gap-1.5 text-[12px] font-extrabold text-ink-900">
@@ -84,7 +78,7 @@ function FitModal({ posisi, onClose }: { posisi: PosisiKritis; onClose: () => vo
                 </span>
               </div>
 
-              <div className="mt-2.5 grid grid-cols-6 gap-2">
+              <div className="mt-2.5 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-2">
                 {(
                   [
                     ["Performance", `${k.performance} / 5`],
@@ -147,8 +141,7 @@ function FitModal({ posisi, onClose }: { posisi: PosisiKritis; onClose: () => vo
             </div>
           ))}
         </div>
-      </div>
-    </div>
+    </ModalShell>
   );
 }
 
@@ -169,6 +162,7 @@ export function PosisiKritisTabel() {
 
       <div className="mt-2 min-h-0 flex-1">
         {/* leading-none: tanpa ini tiap <tr> mewarisi line-height 24px dan baris jadi tinggi */}
+        <div className="scroll-thin overflow-x-auto">
         <table className="w-full table-fixed border-collapse leading-none">
           <thead>
             <tr className="border-b border-[#eef2f6] text-[9px] font-semibold text-ink-500">
@@ -248,6 +242,7 @@ export function PosisiKritisTabel() {
             })}
           </tbody>
         </table>
+        </div>
       </div>
 
       <Link href="/succession-planning/posisi-kritis" className="link-more mt-1.5 flex cursor-pointer items-center gap-0.5">

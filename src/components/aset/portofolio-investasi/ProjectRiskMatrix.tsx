@@ -114,7 +114,7 @@ export function ProjectRiskMatrix() {
                   : [`Rp ${num(v)} T`, "Nilai Investasi"]
               }
             />
-            <Scatter data={data}>
+            <Scatter isAnimationActive={false} data={data}>
               {data.map((d) => (
                 <Cell
                   key={d.proyek}

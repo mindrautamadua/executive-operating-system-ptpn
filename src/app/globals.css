@@ -61,6 +61,17 @@ body {
   font-feature-settings: "tnum" 1;
 }
 
+/* Ring fokus keyboard global — hanya untuk navigasi keyboard (focus-visible),
+   tidak muncul saat klik mouse. Warna brand agar terlihat di kedua tema. */
+:focus-visible {
+  outline: 2px solid #1a9c5b;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+[data-theme="dark"] :focus-visible {
+  outline-color: #3ecf83;
+}
+
 @layer components {
   .card {
     @apply overflow-hidden rounded-xl border border-[#eef2f6] bg-white shadow-card transition-[box-shadow,transform] duration-200 hover:-translate-y-[2px] hover:shadow-cardHover;
@@ -1126,6 +1137,11 @@ html.js-reveal .anim-fade:not([data-in-view]) {
 @media (prefers-reduced-motion: reduce) {
   .anim-rise, .anim-grow-x, .anim-draw, .anim-fade,
   .anim-page, .anim-value-flash, .skeleton {
+    animation: none;
+  }
+  /* Animasi infinite dari tailwind config (marquee, pulseDot, ripple, floaty)
+     juga wajib berhenti — sebelumnya lolos dari blok ini. */
+  .animate-marquee, .animate-pulseDot, .animate-ripple, .animate-floaty {
     animation: none;
   }
   .card {

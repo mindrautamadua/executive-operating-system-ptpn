@@ -14,7 +14,7 @@ export const metadata = { title: "Panen & Logistik — PTPN Group" };
 
 export default function PanenLogistikPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <ProdSidebar active="Panen & Logistik" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

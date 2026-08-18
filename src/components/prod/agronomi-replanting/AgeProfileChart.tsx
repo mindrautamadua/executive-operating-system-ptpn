@@ -87,7 +87,7 @@ export function AgeProfileChart() {
                 return row ? `${row.bucket} (${row.rentang}) · ${row.pct}%` : label;
               }}
             />
-            <Bar yAxisId="luas" dataKey="luasRbHa" name="Luas" barSize={34} radius={[4, 4, 0, 0]}>
+            <Bar isAnimationActive={false} yAxisId="luas" dataKey="luasRbHa" name="Luas" barSize={34} radius={[4, 4, 0, 0]}>
               {ageProfile.map((a) => (
                 <Cell key={a.bucket} fill={BAR_COLORS[a.bucket]} />
               ))}
@@ -98,7 +98,7 @@ export function AgeProfileChart() {
                 style={{ fontSize: 8.5, fill: "#64748b", fontWeight: 700 }}
               />
             </Bar>
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="yield"
               type="monotone"
               dataKey="yieldTonHa"

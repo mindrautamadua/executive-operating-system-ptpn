@@ -57,7 +57,7 @@ export function DonutChart({
     <div className={`relative shrink-0 ${className}`} style={{ width: size, height: size }}>
       <ResponsiveContainer width="100%" height="100%">
         <PieChart>
-          <Pie
+          <Pie isAnimationActive={false}
             data={data}
             dataKey="value"
             nameKey="name"

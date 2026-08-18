@@ -53,10 +53,10 @@ export function CertPipeline() {
               iconSize={8}
               wrapperStyle={{ fontSize: 8.5 }}
             />
-            <Bar name="Audit Stage 1" dataKey="stage1" stackId="p" fill={PALETTE.blueSoft} />
-            <Bar name="Audit Stage 2" dataKey="stage2" stackId="p" fill={PALETTE.blue} />
-            <Bar name="Closing NC" dataKey="closingNc" stackId="p" fill={PALETTE.amber} />
-            <Bar
+            <Bar isAnimationActive={false} name="Audit Stage 1" dataKey="stage1" stackId="p" fill={PALETTE.blueSoft} />
+            <Bar isAnimationActive={false} name="Audit Stage 2" dataKey="stage2" stackId="p" fill={PALETTE.blue} />
+            <Bar isAnimationActive={false} name="Closing NC" dataKey="closingNc" stackId="p" fill={PALETTE.amber} />
+            <Bar isAnimationActive={false}
               name="Sertifikat Terbit"
               dataKey="terbit"
               stackId="p"

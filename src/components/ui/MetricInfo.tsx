@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { Info } from "lucide-react";
 import { ddLookup, type DdStatus } from "@/lib/dd-data";
@@ -54,7 +56,12 @@ export function MetricInfo({
       <button
         type="button"
         aria-label={`Definisi metrik ${e.term}`}
-        className={`z-10 flex items-center text-ink-400 transition-colors hover:text-ink-700 focus-visible:text-ink-700 focus-visible:outline-none ${className}`}
+        aria-haspopup="dialog"
+        onClick={(ev) => ev.currentTarget.focus()}
+        onKeyDown={(ev) => {
+          if (ev.key === "Escape") ev.currentTarget.blur();
+        }}
+        className={`z-10 -m-2 flex items-center p-2 text-ink-400 transition-colors hover:text-ink-700 focus-visible:text-ink-700 ${className}`}
       >
         <Info size={11} strokeWidth={2.2} />
       </button>

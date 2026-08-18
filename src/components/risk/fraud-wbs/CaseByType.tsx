@@ -51,7 +51,7 @@ export function CaseByType() {
               formatter={(v: number) => [`${v} laporan`, "Jumlah"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="count" radius={[0, 4, 4, 0]} barSize={16}>
+            <Bar isAnimationActive={false} dataKey="count" radius={[0, 4, 4, 0]} barSize={16}>
               {caseByType.map((c) => (
                 <Cell key={c.tipe} fill={c.color} />
               ))}

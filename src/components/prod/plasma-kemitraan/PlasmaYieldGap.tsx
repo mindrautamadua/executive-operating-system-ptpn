@@ -73,14 +73,14 @@ export function PlasmaYieldGap() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5, paddingTop: 2 }}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="yieldPlasma"
               name="Yield Plasma"
               fill={PALETTE.amber}
               barSize={11}
               radius={[3, 3, 0, 0]}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="yieldInti"
               name="Yield Inti"
               fill={PALETTE.green}

@@ -17,7 +17,7 @@ export function NextBestAction() {
       <SectionHead title="Next Best Action" />
       <p className="mt-[3px] text-[9px] text-ink-500">Langkah selanjutnya yang direkomendasikan</p>
 
-      <div className="mt-2 grid min-h-0 flex-1 grid-cols-3 gap-2.5">
+      <div className="mt-2 grid min-h-0 flex-1 grid-cols-2 md:grid-cols-3 gap-2.5">
         {nextActions.map((a) => {
           const { Icon, cls } = ICONS[a.icon];
           return (

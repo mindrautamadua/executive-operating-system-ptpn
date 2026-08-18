@@ -54,7 +54,7 @@ export function HguExpiryTimeline() {
               formatter={(v: number) => [`${v.toLocaleString("id-ID")} rb ha`, "HGU Berakhir"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="luasRbHa" barSize={26} radius={[3, 3, 0, 0]}>
+            <Bar isAnimationActive={false} dataKey="luasRbHa" barSize={26} radius={[3, 3, 0, 0]}>
               {hguExpiry.map((d) => (
                 <Cell
                   key={d.tahun}

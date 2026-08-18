@@ -75,6 +75,7 @@ export function MappingJabatanKritis() {
     <div className="card anim-rise flex h-full flex-col px-4 pb-2.5 pt-3">
       <h3 className="card-title-navy">Mapping Jabatan Kritis &amp; Suksesi</h3>
 
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] bg-[#f7f9fb]">
@@ -158,6 +159,7 @@ export function MappingJabatanKritis() {
           ))}
         </tbody>
       </table>
+      </div>
 
       <button className="link-more mt-auto flex items-center gap-1 self-end pt-2">
         Lihat seluruh talent pool &amp; suksesi <ChevronRight size={11} />

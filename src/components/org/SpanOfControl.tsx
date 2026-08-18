@@ -14,6 +14,7 @@ export function SpanOfControl() {
         Rasio Aktual vs Benchmark Kontekstual per Level
       </p>
 
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] bg-[#f7f9fb]">
@@ -68,6 +69,7 @@ export function SpanOfControl() {
           })}
         </tbody>
       </table>
+      </div>
 
       <p className="mt-1.5 flex items-center gap-1.5 text-[9px] font-medium text-ink-700">
         <TriangleAlert size={11} style={{ color: SEMANTIC.warn }} />

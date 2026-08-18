@@ -28,7 +28,7 @@ export function CaseSummaryByType() {
         <div className="h-full w-[118px] shrink-0">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
-              <Pie
+              <Pie isAnimationActive={false}
                 data={caseSummaryByType}
                 dataKey="count"
                 nameKey="tipe"

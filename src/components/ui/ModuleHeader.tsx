@@ -38,24 +38,31 @@ export function SelectBox({
     return <SubholdingFilter width={width} />;
   }
 
+  /* Selain filter subholding, nilai bersifat informasional (belum ada dropdown);
+     render sebagai display statis tanpa chevron agar tidak menjanjikan interaksi. */
   return (
-    <button
+    <div
       className="flex w-full min-w-0 shrink items-center justify-between rounded-lg border border-[#e3e9ef] bg-white px-3 py-1.5 text-left shadow-card"
       style={{ maxWidth: width }}
     >
       <span className="min-w-0 leading-tight">
-        <span className="block truncate text-[8.5px] font-medium text-ink-400">{label}</span>
+        <span className="block truncate text-[8.5px] font-medium text-ink-500">{label}</span>
         <span className="mt-[2px] block truncate text-[11px] font-bold text-ink-900">{value}</span>
       </span>
-      <ChevronDown size={13} className="ml-2 shrink-0 text-ink-400" />
-    </button>
+    </div>
   );
 }
 
 /** Tombol export standar (hijau solid) pada secondary bar. */
 export function ExportButton({ label = "Export" }: { label?: string }) {
+  /* Fitur export belum ada; tampilkan sebagai disabled jujur, bukan tombol hidup. */
   return (
-    <button className="flex items-center gap-1.5 rounded-lg bg-ptpn-green px-3 py-[7px] text-[10px] font-semibold text-white shadow-pill transition-opacity hover:opacity-90">
+    <button
+      disabled
+      aria-disabled="true"
+      title="Segera hadir"
+      className="flex cursor-not-allowed items-center gap-1.5 rounded-lg bg-ptpn-green px-3 py-[7px] text-[10px] font-semibold text-white opacity-60 shadow-pill"
+    >
       <Download size={12} />
       {label}
     </button>
@@ -122,7 +129,10 @@ export function ModuleHeader({
             className="relative shrink-0 text-ink-500 transition-colors hover:text-ptpn-green"
             aria-label="Notifikasi"
           >
-            <Bell size={18} strokeWidth={1.7} />
+            {/* -m/p memperluas area sentuh ke ≥24px tanpa menggeser layout */}
+            <span className="-m-1.5 flex p-1.5">
+              <Bell size={18} strokeWidth={1.7} />
+            </span>
             <span className="absolute -right-[7px] -top-[6px] flex h-[15px] min-w-[15px] items-center justify-center rounded-full bg-[#ef4444] px-[3px] text-[9px] font-bold text-white">
               12
             </span>
@@ -134,6 +144,8 @@ export function ModuleHeader({
             <img
               src="/direktur-utama-avatar.png"
               alt="Denaldy Mulino Mauna"
+              loading="lazy"
+              decoding="async"
               width={36}
               height={36}
               className="shrink-0 rounded-full bg-slate-200 object-cover ring-2 ring-[#e6ecf2]"

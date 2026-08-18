@@ -63,7 +63,7 @@ export function CurahHujanElNino() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, name: string) => [`${v} mm`, name]}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="normalMm"
               name="Normal 30 Thn"
@@ -72,7 +72,7 @@ export function CurahHujanElNino() {
               strokeDasharray="4 3"
               dot={false}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="aktualMm"
               name="Aktual"
@@ -118,7 +118,7 @@ export function CurahHujanElNino() {
                   }}
                 />
                 <ReferenceLine y={1.0} stroke={PALETTE.red} strokeDasharray="4 3" />
-                <Bar dataKey="oni" barSize={12} radius={[2, 2, 0, 0]}>
+                <Bar isAnimationActive={false} dataKey="oni" barSize={12} radius={[2, 2, 0, 0]}>
                   {ensoIndex.map((e) => (
                     <Cell
                       key={e.periode}

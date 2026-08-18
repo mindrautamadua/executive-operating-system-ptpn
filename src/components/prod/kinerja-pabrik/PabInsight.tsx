@@ -16,7 +16,7 @@ export function PabInsight() {
           <ScopeNote />
         </div>
       )}
-      <ProdInsightGrid items={pabInsights} cols="grid-cols-4" />
+      <ProdInsightGrid items={pabInsights} cols="grid-cols-2 md:grid-cols-4" />
     </div>
   );
 }

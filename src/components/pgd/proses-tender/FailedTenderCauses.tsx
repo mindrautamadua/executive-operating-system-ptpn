@@ -69,7 +69,7 @@ export function FailedTenderCauses() {
               formatter={(v: number) => [`${v} tender`, "Gagal / Ulang"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="jumlah" radius={[0, 4, 4, 0]} barSize={13}>
+            <Bar isAnimationActive={false} dataKey="jumlah" radius={[0, 4, 4, 0]} barSize={13}>
               {rows.map((r) => (
                 <Cell key={r.penyebab} fill={TONE_COLOR[r.tone]} />
               ))}

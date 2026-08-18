@@ -26,7 +26,7 @@ export function SpendByType() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, name: string) => [rp(v), name]}
             />
-            <Pie
+            <Pie isAnimationActive={false}
               data={spendByType}
               dataKey="valueRpT"
               nameKey="jenis"

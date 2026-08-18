@@ -15,7 +15,7 @@ export const metadata = { title: "Portofolio Investasi — PTPN Group" };
 
 export default function PortofolioInvestasiPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <AsetSidebar active="Portofolio Investasi" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

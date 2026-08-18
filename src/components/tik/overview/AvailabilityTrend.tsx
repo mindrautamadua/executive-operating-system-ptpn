@@ -61,7 +61,7 @@ export function AvailabilityTrend() {
                 style: { fontSize: 8, fill: PALETTE.amber, fontWeight: 700 },
               }}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Uptime"
               type="monotone"
               dataKey="uptimePct"

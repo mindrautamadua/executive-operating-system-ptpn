@@ -66,7 +66,7 @@ export function TheftTrend() {
               }
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               yAxisId="kasus"
               dataKey="kasus"
               fill={PALETTE.blue}
@@ -80,7 +80,7 @@ export function TheftTrend() {
                 style={{ fontSize: 8, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Bar>
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="rugi"
               type="linear"
               dataKey="kerugianRpM"

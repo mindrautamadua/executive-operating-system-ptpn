@@ -41,7 +41,7 @@ export function TikRiskRadar() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, name: string) => [v.toLocaleString("id-ID"), name]}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Toleransi"
               dataKey="toleransi"
               stroke={PALETTE.amber}
@@ -50,7 +50,7 @@ export function TikRiskRadar() {
               fill={PALETTE.amber}
               fillOpacity={0.05}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Skor Residual"
               dataKey="skor"
               stroke={PALETTE.red}

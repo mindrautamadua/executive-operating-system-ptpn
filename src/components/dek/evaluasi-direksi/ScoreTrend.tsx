@@ -75,7 +75,7 @@ export function ScoreTrend() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, n: string) => [v.toLocaleString("id-ID"), LABELS[n] ?? n]}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="ambangBaik"
               stroke={PALETTE.red}
@@ -84,7 +84,7 @@ export function ScoreTrend() {
               dot={false}
               activeDot={false}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="skor"
               stroke={PALETTE.green}

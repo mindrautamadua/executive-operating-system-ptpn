@@ -54,7 +54,7 @@ export function KalibrasiRating() {
         ))}
       </div>
 
-      <div className="mt-1.5 grid grid-cols-4 gap-1.5 border-t border-[#f0f3f6] pt-2">
+      <div className="mt-1.5 grid grid-cols-2 md:grid-cols-4 gap-1.5 border-t border-[#f0f3f6] pt-2">
         {kalibrasiStatus.map((s) => (
           <div key={s.label} className="leading-tight">
             <div className="text-[10.5px] font-extrabold tabular-nums text-ink-900">{s.value}</div>

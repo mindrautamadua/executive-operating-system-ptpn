@@ -8,7 +8,7 @@ export function AnalitikPrediktif() {
     <div className="card flex h-full flex-col px-4 pb-2 pt-2">
       <h3 className="card-title">ANALITIK PREDIKTIF</h3>
 
-      <div className="mt-1.5 grid min-h-0 flex-1 grid-cols-3 gap-2.5">
+      <div className="mt-1.5 grid min-h-0 flex-1 grid-cols-2 md:grid-cols-3 gap-2.5">
         {analitikPrediktif.map((a) => (
           <div
             key={a.label}

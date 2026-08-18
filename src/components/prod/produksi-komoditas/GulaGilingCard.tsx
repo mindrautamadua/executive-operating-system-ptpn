@@ -97,7 +97,7 @@ export function GulaGilingCard() {
               }
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Area
+            <Area isAnimationActive={false}
               yAxisId="tebu"
               type="linear"
               dataKey="tebuJtTon"
@@ -107,7 +107,7 @@ export function GulaGilingCard() {
               dot={{ r: 2.2, fill: PALETTE.teal, strokeWidth: 0 }}
               activeDot={{ r: 4 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="rendemen"
               type="linear"
               dataKey="rendemenPct"

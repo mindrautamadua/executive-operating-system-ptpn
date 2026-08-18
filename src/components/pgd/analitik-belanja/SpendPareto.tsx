@@ -86,7 +86,7 @@ export function SpendPareto() {
                 fill: PALETTE.red,
               }}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               yAxisId="left"
               name="Belanja Kumulatif"
               dataKey="spendRpT"
@@ -97,7 +97,7 @@ export function SpendPareto() {
                 <Cell key={p.label} fill={p.vendor === 20 ? PALETTE.red : PALETTE.blue} />
               ))}
             </Bar>
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="right"
               name="Porsi Kumulatif"
               type="monotone"

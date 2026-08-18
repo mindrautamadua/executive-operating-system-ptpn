@@ -79,7 +79,7 @@ export function AgeProfileProjection() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8, color: CHART_AXIS.tick }}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               dataKey="tanpaTuaRentaPct"
               name="Tua/Renta — Tanpa Akselerasi"
@@ -88,7 +88,7 @@ export function AgeProfileProjection() {
               fill="url(#arp-tanpa-fill)"
               dot={false}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               dataKey="denganTuaRentaPct"
               name="Tua/Renta — Roadmap Penuh"
@@ -97,7 +97,7 @@ export function AgeProfileProjection() {
               fill="url(#arp-dengan-fill)"
               dot={false}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="denganPrimaPct"
               name="Prima — Roadmap Penuh"

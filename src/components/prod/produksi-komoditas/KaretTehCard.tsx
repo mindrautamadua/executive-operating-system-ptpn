@@ -57,7 +57,7 @@ function Mini({
               formatter={(v: number) => [`${num(v)} rb ton`, label]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="linear"
               dataKey={dataKey}
               stroke={color}

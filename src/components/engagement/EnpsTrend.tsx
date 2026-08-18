@@ -74,7 +74,7 @@ export function EnpsTrend() {
               wrapperStyle={{ fontSize: 9 }}
             />
             <ReferenceLine y={0} stroke={CHART_AXIS.axis} strokeWidth={1} />
-            <Bar
+            <Bar isAnimationActive={false}
               name="Promoters"
               dataKey="promoters"
               stackId="share"
@@ -82,7 +82,7 @@ export function EnpsTrend() {
               barSize={14}
               animationDuration={800}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               name="Passives"
               dataKey="passives"
               stackId="share"
@@ -91,7 +91,7 @@ export function EnpsTrend() {
               radius={[3, 3, 0, 0]}
               animationDuration={800}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               name="Detractors"
               dataKey="detractorsNeg"
               stackId="share"
@@ -100,7 +100,7 @@ export function EnpsTrend() {
               radius={[0, 0, 3, 3]}
               animationDuration={800}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="eNPS Score"
               type="monotone"
               dataKey="enps"

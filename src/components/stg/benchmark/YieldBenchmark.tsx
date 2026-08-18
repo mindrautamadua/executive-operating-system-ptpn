@@ -104,7 +104,7 @@ export function YieldBenchmark() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, n: string) => [fmt1(v), LABELS[n] ?? n]}
             />
-            <Bar dataKey="yieldTbs" radius={[3, 3, 0, 0]} maxBarSize={16}>
+            <Bar isAnimationActive={false} dataKey="yieldTbs" radius={[3, 3, 0, 0]} maxBarSize={16}>
               {DATA.map((d) => (
                 <Cell
                   key={d.full}
@@ -113,7 +113,7 @@ export function YieldBenchmark() {
                 />
               ))}
             </Bar>
-            <Bar dataKey="oerPct" radius={[3, 3, 0, 0]} maxBarSize={16}>
+            <Bar isAnimationActive={false} dataKey="oerPct" radius={[3, 3, 0, 0]} maxBarSize={16}>
               {DATA.map((d) => (
                 <Cell
                   key={d.full}

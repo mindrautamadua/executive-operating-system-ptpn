@@ -61,7 +61,7 @@ export function PaymentTermsProfile() {
                 "Porsi Nilai Belanja",
               ]}
             />
-            <Bar dataKey="pct" radius={[3, 3, 0, 0]} barSize={26}>
+            <Bar isAnimationActive={false} dataKey="pct" radius={[3, 3, 0, 0]} barSize={26}>
               {paymentTermsProfile.map((p) => (
                 <Cell key={p.bucket} fill={BAR_COLOR[p.tone]} />
               ))}

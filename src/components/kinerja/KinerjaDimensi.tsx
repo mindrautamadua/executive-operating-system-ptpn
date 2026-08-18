@@ -52,7 +52,7 @@ export function KinerjaDimensi() {
             />
             {/* domain sempit agar selisih antar-dimensi terlihat */}
             <PolarRadiusAxis domain={[60, 95]} tick={false} axisLine={false} />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Q1 2026"
               dataKey="lalu"
               stroke={PALETTE.slate}
@@ -62,7 +62,7 @@ export function KinerjaDimensi() {
               fillOpacity={0.1}
               animationDuration={900}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Q2 2026"
               dataKey="kini"
               stroke={PALETTE.green}

@@ -84,7 +84,7 @@ export function ComplianceRadarChart() {
               tick={{ fontSize: 8, fill: "var(--chart-tick)" }}
               axisLine={false}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Compliance Score"
               dataKey="score"
               stroke={PALETTE.green}

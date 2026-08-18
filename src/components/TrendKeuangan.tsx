@@ -94,9 +94,9 @@ export function TrendKeuangan() {
                 boxShadow: "0 4px 12px rgba(16,24,40,.08)",
               }}
             />
-            <Bar dataKey="bar1" stackId="a" fill="#159c8e" barSize={13} />
-            <Bar dataKey="bar2" stackId="a" fill="#7ed957" barSize={13} radius={[2, 2, 0, 0]} />
-            <Line
+            <Bar isAnimationActive={false} dataKey="bar1" stackId="a" fill="#159c8e" barSize={13} />
+            <Bar isAnimationActive={false} dataKey="bar2" stackId="a" fill="#7ed957" barSize={13} radius={[2, 2, 0, 0]} />
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="line"
               stroke="#9be36a"

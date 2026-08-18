@@ -35,7 +35,7 @@ export function SvcInsight() {
         </button>
       </div>
 
-      <div className="mt-2.5 grid grid-cols-3 gap-4">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-3 gap-4">
         {svcInsights.map((ins) => {
           const Icon = ICONS[ins.tone];
           const tone = TONES[ins.tone];

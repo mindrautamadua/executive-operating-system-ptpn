@@ -16,7 +16,7 @@ export const metadata = { title: "Korporasi & Anak Usaha — PTPN Group" };
 
 export default function KorporasiPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <HkmSidebar active="Korporasi & Anak Usaha" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

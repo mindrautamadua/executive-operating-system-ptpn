@@ -52,7 +52,7 @@ export function KinerjaDecisionCenter() {
       </div>
 
       {tab === 0 ? (
-        <div className="mt-2.5 grid grid-cols-3 gap-2">
+        <div className="mt-2.5 grid grid-cols-2 md:grid-cols-3 gap-2">
           {kinerjaDecisions.map((d) => {
             const t = TONE[d.tone];
             const Icon = t.icon;

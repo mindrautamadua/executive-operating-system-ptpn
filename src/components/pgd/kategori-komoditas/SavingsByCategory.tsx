@@ -61,7 +61,7 @@ export function SavingsByCategory() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5 }}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               name="Target FY"
               dataKey="targetFyRpM"
               fill={PALETTE.slate}
@@ -69,7 +69,7 @@ export function SavingsByCategory() {
               radius={[3, 3, 0, 0]}
               barSize={16}
             />
-            <Bar name="Realisasi YTD" dataKey="realisasiRpM" radius={[3, 3, 0, 0]} barSize={16}>
+            <Bar isAnimationActive={false} name="Realisasi YTD" dataKey="realisasiRpM" radius={[3, 3, 0, 0]} barSize={16}>
               {savingsByCategory.map((s) => (
                 <Cell key={s.kategori} fill={PGD_STATUS_COLOR[s.status]} />
               ))}

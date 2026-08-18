@@ -64,7 +64,7 @@ export function IrCaseTrend() {
               ]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="linear"
               dataKey="baru"
               stroke={PALETTE.blue}
@@ -73,7 +73,7 @@ export function IrCaseTrend() {
               activeDot={{ r: 4 }}
               label={{ position: "top", fontSize: 8, fill: PALETTE.blue, dy: -2 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="linear"
               dataKey="selesai"
               stroke={PALETTE.green}

@@ -3,5 +3,5 @@ import { StgInsightGrid } from "../StgInsightGrid";
 
 /** Insight & rekomendasi halaman Program Transformasi. */
 export function StfInsight() {
-  return <StgInsightGrid items={stfInsights} cols="grid-cols-3" />;
+  return <StgInsightGrid items={stfInsights} cols="grid-cols-2 md:grid-cols-3" />;
 }

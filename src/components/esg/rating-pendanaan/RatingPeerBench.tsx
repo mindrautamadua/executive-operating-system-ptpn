@@ -61,7 +61,7 @@ export function RatingPeerBench() {
               ]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="skor" radius={[0, 3, 3, 0]} barSize={14}>
+            <Bar isAnimationActive={false} dataKey="skor" radius={[0, 3, 3, 0]} barSize={14}>
               {peerBench.map((p) => (
                 <Cell
                   key={p.perusahaan}

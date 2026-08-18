@@ -87,7 +87,7 @@ export function FfaVsOerChart() {
                 );
               }}
             />
-            <Scatter data={ffaOerPoints}>
+            <Scatter isAnimationActive={false} data={ffaOerPoints}>
               {ffaOerPoints.map((p) => (
                 <Cell key={p.pks} fill={dotColor(p.ffaPct)} fillOpacity={0.85} />
               ))}

@@ -77,7 +77,7 @@ export function RunVsGrow() {
               iconSize={6}
               wrapperStyle={{ fontSize: 8, color: "var(--text-2)" }}
             />
-            <Bar dataKey="run" name="Run" stackId="mix" fill={PALETTE.slate} barSize={54}>
+            <Bar isAnimationActive={false} dataKey="run" name="Run" stackId="mix" fill={PALETTE.slate} barSize={54}>
               <LabelList
                 dataKey="run"
                 position="center"
@@ -85,7 +85,7 @@ export function RunVsGrow() {
                 style={{ fontSize: 9, fill: "#ffffff", fontWeight: 800 }}
               />
             </Bar>
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="grow"
               name="Grow"
               stackId="mix"

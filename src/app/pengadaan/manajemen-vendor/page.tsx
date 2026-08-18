@@ -15,7 +15,7 @@ export const metadata = { title: "Manajemen Vendor — PTPN Group" };
 
 export default function ManajemenVendorPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <PgdSidebar active="Manajemen Vendor" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

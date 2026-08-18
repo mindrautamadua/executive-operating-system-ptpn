@@ -26,7 +26,7 @@ export function ComplianceSnapshot() {
         Kepatuhan Regulasi Enterprise — {total} Kewajiban, 6 Domain
       </p>
 
-      <div className="mt-2 grid grid-cols-3 gap-2">
+      <div className="mt-2 grid grid-cols-2 md:grid-cols-3 gap-2">
         <div className="rounded-lg border border-[#d6ecdf] bg-[#f4faf6] px-2 py-1.5">
           <div className="text-[13px] font-extrabold leading-none text-ptpn-green">91,2%</div>
           <div className="mt-[3px] text-[9px] font-semibold text-ink-500">Patuh</div>

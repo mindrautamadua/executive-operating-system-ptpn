@@ -46,7 +46,7 @@ export function SafetyCultureIndex() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, name: string) => [skor(v), name]}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Target 2027"
               dataKey="target"
               stroke={PALETTE.amber}
@@ -55,7 +55,7 @@ export function SafetyCultureIndex() {
               fill={PALETTE.amber}
               fillOpacity={0.05}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Skor Survei"
               dataKey="skor"
               stroke={PALETTE.blue}

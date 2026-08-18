@@ -84,7 +84,7 @@ export function TargetTrajectory() {
                 fill: PALETTE.amber,
               }}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               dataKey="aktual"
               stroke={PALETTE.purple}
@@ -94,7 +94,7 @@ export function TargetTrajectory() {
               activeDot={{ r: 4.5 }}
             />
             {/* segmen proyeksi: putus-putus, tanpa fill */}
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               dataKey="proyeksi"
               stroke={PALETTE.purple}

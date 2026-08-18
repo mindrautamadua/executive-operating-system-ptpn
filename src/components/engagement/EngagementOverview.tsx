@@ -56,7 +56,7 @@ export function EngagementOverview() {
             <PolarAngleAxis dataKey="dimensi" tick={<AxisTick />} />
             <PolarRadiusAxis domain={[60, 92]} tick={false} axisLine={false} />
             {/* overlay benchmark kuartal sebelumnya */}
-            <Radar
+            <Radar isAnimationActive={false}
               name="Q1 2026"
               dataKey="skorQ1"
               stroke={PALETTE.slate}
@@ -66,7 +66,7 @@ export function EngagementOverview() {
               fillOpacity={0.06}
               animationDuration={900}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Q2 2026"
               dataKey="skor"
               stroke={PALETTE.green}

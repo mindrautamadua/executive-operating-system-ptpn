@@ -64,7 +64,7 @@ export function StokTrendChart() {
             <ReferenceArea y1={15} y2={30} fill={PALETTE.green} fillOpacity={0.06} />
             <ReferenceLine y={30} stroke={PALETTE.amber} strokeDasharray="4 3" strokeWidth={1} />
             <ReferenceLine y={15} stroke={PALETTE.amber} strokeDasharray="4 3" strokeWidth={1} />
-            <Line
+            <Line isAnimationActive={false}
               type="linear"
               dataKey="hariJual"
               stroke={PALETTE.blue}

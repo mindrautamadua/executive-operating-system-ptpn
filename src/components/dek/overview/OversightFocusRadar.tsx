@@ -41,7 +41,7 @@ export function OversightFocusRadar() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, name: string) => [v.toLocaleString("id-ID"), name]}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Perhatian Pengawasan"
               dataKey="perhatian"
               stroke={PALETTE.navy}
@@ -49,7 +49,7 @@ export function OversightFocusRadar() {
               fill={PALETTE.navy}
               fillOpacity={0.16}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Intensitas Pembahasan"
               dataKey="intensitas"
               stroke={PALETTE.amber}

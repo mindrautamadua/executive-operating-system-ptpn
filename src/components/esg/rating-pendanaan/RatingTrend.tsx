@@ -59,7 +59,7 @@ export function RatingTrend() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8, color: CHART_AXIS.tick }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="linear"
               dataKey="gcg"
               name="GCG SK-16 (naik = baik)"
@@ -68,7 +68,7 @@ export function RatingTrend() {
               dot={{ r: 2 }}
               activeDot={{ r: 4 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="linear"
               dataKey="csa"
               name="S&P CSA (naik = baik)"
@@ -77,7 +77,7 @@ export function RatingTrend() {
               dot={{ r: 2 }}
               activeDot={{ r: 4 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="linear"
               dataKey="sustainalytics"
               name="Sustainalytics Risk (turun = baik)"

@@ -15,7 +15,7 @@ export const metadata = { title: "Perizinan & Lisensi — PTPN Group" };
 
 export default function PerizinanPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <HkmSidebar active="Perizinan & Lisensi" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

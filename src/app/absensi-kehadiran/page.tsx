@@ -19,7 +19,7 @@ export const metadata = { title: "Absensi & Kehadiran — PTPN Group" };
 
 export default function AbsensiKehadiranPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <SdmSidebar
         active="Absensi & Kehadiran"
         assistantCard="coach"

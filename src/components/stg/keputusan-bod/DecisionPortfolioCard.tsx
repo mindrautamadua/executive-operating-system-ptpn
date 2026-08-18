@@ -34,7 +34,7 @@ export function DecisionPortfolioCard() {
         Kualitas pengambilan keputusan sebagai portofolio — bukan sekadar antrian
       </p>
 
-      <div className="mt-2 grid grid-cols-4 gap-1.5">
+      <div className="mt-2 grid grid-cols-2 md:grid-cols-4 gap-1.5">
         <Stat label="Total YTD" value={String(p.total)} />
         <Stat label="Selesai" value={String(p.done)} tone="good" />
         <Stat label="Berjalan" value={String(p.running)} />

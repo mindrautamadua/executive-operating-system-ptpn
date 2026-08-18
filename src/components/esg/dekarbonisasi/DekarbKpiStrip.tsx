@@ -9,5 +9,5 @@ const ICONS = [Flame, Sun, Wind, Wallet, LayoutList];
 const items: EsgKpiCardItem[] = dekarbKpi.map((k, i) => ({ ...k, icon: ICONS[i] }));
 
 export function DekarbKpiStrip() {
-  return <EsgKpiCards items={items} cols="grid-cols-5" />;
+  return <EsgKpiCards items={items} cols="grid-cols-2 md:grid-cols-3 xl:grid-cols-5" />;
 }

@@ -59,7 +59,7 @@ export function ControlEffectiveness() {
               formatter={(v: number) => [`${v}%`, "Efektif"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               dataKey="pct"
               stroke={PALETTE.teal}

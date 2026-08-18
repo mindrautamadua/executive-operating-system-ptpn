@@ -81,7 +81,7 @@ export function ReplantingProgress() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5, color: CHART_AXIS.tick }}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="planYtdHa"
               name="Rencana YTD"
               fill={PALETTE.slate}
@@ -89,7 +89,7 @@ export function ReplantingProgress() {
               radius={[3, 3, 0, 0]}
               maxBarSize={22}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="aktualYtdHa"
               name="Realisasi YTD"
               fill={PALETTE.green}

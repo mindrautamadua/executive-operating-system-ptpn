@@ -95,7 +95,7 @@ export function SalesTrendChart() {
               }
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               yAxisId="nilai"
               dataKey="nilai2025"
               name="Nilai 2025"
@@ -103,14 +103,14 @@ export function SalesTrendChart() {
               fillOpacity={0.45}
               radius={[2, 2, 0, 0]}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               yAxisId="nilai"
               dataKey="nilai2026"
               name="Nilai 2026"
               fill={PALETTE.green}
               radius={[2, 2, 0, 0]}
             />
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="vol"
               type="linear"
               dataKey="vol2025"
@@ -121,7 +121,7 @@ export function SalesTrendChart() {
               dot={false}
               opacity={volOpacity}
             />
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="vol"
               type="linear"
               dataKey="vol2026"

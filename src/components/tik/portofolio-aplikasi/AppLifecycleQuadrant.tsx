@@ -88,7 +88,7 @@ export function AppLifecycleQuadrant() {
               }
               labelFormatter={() => ""}
             />
-            <Scatter data={data}>
+            <Scatter isAnimationActive={false} data={data}>
               {data.map((d) => (
                 <Cell key={d.aplikasi} fill={TIME_COLOR[d.status]} fillOpacity={dim(d.aplikasi)} />
               ))}

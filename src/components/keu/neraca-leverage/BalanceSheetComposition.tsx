@@ -66,7 +66,7 @@ export function BalanceSheetComposition() {
                 formatter={(v: number, name: string) => [`Rp ${fmtId(v, 1)} T`, name]}
               />
               {BLOCKS.map((b) => (
-                <Bar key={b.label} dataKey={b.label} stackId="bs" fill={b.color} maxBarSize={54} />
+                <Bar isAnimationActive={false} key={b.label} dataKey={b.label} stackId="bs" fill={b.color} maxBarSize={54} />
               ))}
             </BarChart>
           </ResponsiveContainer>

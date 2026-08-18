@@ -89,7 +89,7 @@ export function CostPerRegional() {
                 "HPP/kg CPO",
               ]}
             />
-            <Bar dataKey="hppRpKg" radius={[0, 3, 3, 0]} maxBarSize={13}>
+            <Bar isAnimationActive={false} dataKey="hppRpKg" radius={[0, 3, 3, 0]} maxBarSize={13}>
               {costPerRegional.map((d) => (
                 <Cell key={d.regional} fill={SEMANTIC[d.tone]} />
               ))}

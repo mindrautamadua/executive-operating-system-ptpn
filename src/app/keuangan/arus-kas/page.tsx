@@ -14,7 +14,7 @@ export const metadata = { title: "Arus Kas & Likuiditas — PTPN Group" };
 
 export default function ArusKasPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <KeuSidebar active="Arus Kas & Likuiditas" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

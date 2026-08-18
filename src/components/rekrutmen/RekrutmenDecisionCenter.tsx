@@ -58,7 +58,7 @@ export function RekrutmenDecisionCenter() {
           ))}
         </div>
 
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
           {rekrutmenDecisions.map((d) => {
             const t = TONE[d.tone];
             return (

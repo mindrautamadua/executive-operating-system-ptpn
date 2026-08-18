@@ -61,7 +61,7 @@ export function AssetValueTrend() {
               formatter={(v: number, name: string) => [`Rp ${num(v)} T`, name]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Area
+            <Area isAnimationActive={false}
               name="Aset Tetap"
               type="linear"
               dataKey="asetTetapRpT"
@@ -79,7 +79,7 @@ export function AssetValueTrend() {
                 style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Area>
-            <Line
+            <Line isAnimationActive={false}
               name="Capex"
               type="linear"
               dataKey="capexRpT"

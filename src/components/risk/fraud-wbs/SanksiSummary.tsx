@@ -38,7 +38,7 @@ export function SanksiSummary() {
         Tindak Lanjut 18 Kasus Terbukti (Substantiated) YTD
       </p>
 
-      <div className="mt-2.5 grid min-h-0 flex-1 grid-cols-3 content-center gap-2">
+      <div className="mt-2.5 grid min-h-0 flex-1 grid-cols-2 md:grid-cols-3 content-center gap-2">
         {ITEMS.map((it) => {
           const Icon = it.icon;
           return (

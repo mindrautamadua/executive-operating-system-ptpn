@@ -49,7 +49,7 @@ export function TindakLanjutTrend() {
               formatter={(v: number) => [`${v}%`, "Closed"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="closedPct"
               stroke={PALETTE.green}

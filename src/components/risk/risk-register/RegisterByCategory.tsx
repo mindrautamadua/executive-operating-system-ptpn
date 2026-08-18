@@ -71,7 +71,7 @@ export function RegisterByCategory() {
               wrapperStyle={{ fontSize: 8.5, color: "var(--chart-tick)" }}
             />
             {SERIES.map((s, i) => (
-              <Bar
+              <Bar isAnimationActive={false}
                 key={s.key}
                 dataKey={s.key}
                 name={s.name}

@@ -19,6 +19,7 @@ export function FrameworkAgreements() {
       </p>
 
       <div className="scroll-thin mt-2 min-h-0 flex-1 overflow-y-auto">
+        <div className="scroll-thin overflow-x-auto">
         <table className="w-full border-collapse">
           <thead>
             <tr className="border-b border-[#eef2f6] text-left">
@@ -58,6 +59,7 @@ export function FrameworkAgreements() {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
 
       <p className="mt-1.5 rounded-md bg-ptpn-greenLight px-2 py-[5px] text-[9px] leading-[1.4] text-ptpn-greenDark">

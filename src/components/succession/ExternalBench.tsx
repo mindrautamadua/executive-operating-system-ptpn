@@ -28,7 +28,7 @@ export function ExternalBench() {
         </span>
       </div>
 
-      <div className="mt-2.5 grid min-h-0 flex-1 grid-cols-4 gap-2.5">
+      <div className="mt-2.5 grid min-h-0 flex-1 grid-cols-2 md:grid-cols-4 gap-2.5">
         {externalBench.map((e) => (
           <div
             key={e.posisi}
@@ -46,7 +46,7 @@ export function ExternalBench() {
               </span>
             </div>
 
-            <div className="mt-2 grid grid-cols-3 gap-1 leading-tight">
+            <div className="mt-2 grid grid-cols-2 md:grid-cols-3 gap-1 leading-tight">
               <div>
                 <div className="text-[7.5px] font-semibold uppercase text-ink-400">
                   Internal

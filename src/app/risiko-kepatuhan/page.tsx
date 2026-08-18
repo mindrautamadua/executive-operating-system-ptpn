@@ -16,7 +16,7 @@ export const metadata = { title: "Risiko & Kepatuhan — PTPN Group" };
 
 export default function RisikoKepatuhanPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <RiskSidebar active="Executive Overview" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

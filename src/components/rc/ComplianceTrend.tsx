@@ -55,7 +55,7 @@ export function ComplianceTrend() {
               formatter={(v: number) => [v, "Compliance Score"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="linear"
               dataKey="value"
               stroke={PALETTE.green}
@@ -74,7 +74,7 @@ export function ComplianceTrend() {
         </ResponsiveContainer>
       </div>
 
-      <div className="mt-1 grid grid-cols-3 gap-1.5">
+      <div className="mt-1 grid grid-cols-2 md:grid-cols-3 gap-1.5">
         {BANDS.map((b) => (
           <span
             key={b.label}

@@ -80,7 +80,7 @@ export function NineBoxDetailGrid({
             </div>
           </div>
 
-          <div className="ml-[60px] mt-1.5 grid grid-cols-3 gap-2">
+          <div className="ml-[60px] mt-1.5 grid grid-cols-2 md:grid-cols-3 gap-2">
             {KINERJA.map((l) => (
               <div key={l} className="text-center text-[8.5px] font-semibold text-ink-400">
                 {l}

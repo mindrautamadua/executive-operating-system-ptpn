@@ -195,6 +195,7 @@ function PencapaianKpiCard() {
   return (
     <div className="card flex flex-col px-4 pb-3.5 pt-3.5">
       <h3 className="text-[11px] font-bold text-ink-900">Pencapaian KPI 2025</h3>
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2.5 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] text-left text-[8.5px] font-semibold uppercase tracking-[0.05em] text-ink-400">
@@ -225,6 +226,7 @@ function PencapaianKpiCard() {
           </tr>
         </tbody>
       </table>
+      </div>
       <div className="mt-auto pt-2.5">
         <button className="link-more inline-flex items-center gap-1">
           Lihat detail KPI <ArrowRight size={11} />
@@ -314,6 +316,7 @@ function RiwayatPenilaianCard() {
   return (
     <div className="card flex flex-col px-4 pb-3.5 pt-3.5">
       <h3 className="text-[11px] font-bold text-ink-900">Riwayat Penilaian Kinerja</h3>
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2.5 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] text-left text-[8.5px] font-semibold uppercase tracking-[0.05em] text-ink-400">
@@ -351,6 +354,7 @@ function RiwayatPenilaianCard() {
           })}
         </tbody>
       </table>
+      </div>
       <div className="mt-auto pt-2.5">
         <button className="link-more inline-flex items-center gap-1">
           Lihat semua riwayat <ArrowRight size={11} />

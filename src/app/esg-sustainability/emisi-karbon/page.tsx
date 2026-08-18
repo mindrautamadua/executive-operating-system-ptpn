@@ -15,7 +15,7 @@ export const metadata = { title: "Emisi & Jejak Karbon — PTPN Group" };
 
 export default function EmisiKarbonPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <EsgSidebar active="Emisi & Jejak Karbon" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

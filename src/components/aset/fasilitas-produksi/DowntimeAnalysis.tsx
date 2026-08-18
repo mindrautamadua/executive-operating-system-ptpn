@@ -84,7 +84,7 @@ export function DowntimeAnalysis() {
               contentStyle={CHART_TOOLTIP_STYLE}
             />
             {SERIES.map((s, i) => (
-              <Bar
+              <Bar isAnimationActive={false}
                 key={s.key}
                 name={s.label}
                 dataKey={s.key}

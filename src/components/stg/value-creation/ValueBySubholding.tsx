@@ -96,7 +96,7 @@ export function ValueBySubholding() {
               formatter={(v: number, n: string) => [`Rp ${fmt(v)} T`, LABELS[n] ?? n]}
             />
             {SERIES.map((s, i) => (
-              <Bar
+              <Bar isAnimationActive={false}
                 key={s.key}
                 dataKey={s.key}
                 stackId="val"

@@ -72,7 +72,7 @@ export function FinanceRiskRadar() {
               tick={{ fontSize: 8, fill: "var(--chart-tick)" }}
               axisLine={false}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Ambang Toleransi"
               dataKey="tolerance"
               stroke={PALETTE.green}
@@ -82,7 +82,7 @@ export function FinanceRiskRadar() {
               dot={false}
               animationDuration={900}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Tingkat Risiko"
               dataKey="level"
               stroke={PALETTE.red}

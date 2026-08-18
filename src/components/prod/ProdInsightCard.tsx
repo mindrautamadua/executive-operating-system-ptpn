@@ -48,7 +48,7 @@ export function ProdInsightCard({
         </button>
       </div>
 
-      <div className={`mt-2.5 grid gap-3 ${cols === 4 ? "grid-cols-4" : "grid-cols-3"}`}>
+      <div className={`mt-2.5 grid gap-3 ${cols === 4 ? "grid-cols-2 md:grid-cols-4" : "grid-cols-2 md:grid-cols-3"}`}>
         {insights.map((ins) => {
           const tone = TONES[ins.tone];
           const Icon = tone.Icon;

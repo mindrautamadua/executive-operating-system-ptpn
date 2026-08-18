@@ -96,7 +96,7 @@ export function IntiVsPlasmaChart() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5, paddingTop: 2 }}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               dataKey="inti"
               name="Kebun Inti"
@@ -105,7 +105,7 @@ export function IntiVsPlasmaChart() {
               strokeWidth={1.5}
               fill="url(#pl-inti-fill)"
             />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               dataKey="plasma"
               name="Plasma"
@@ -114,7 +114,7 @@ export function IntiVsPlasmaChart() {
               strokeWidth={1.5}
               fill="url(#pl-plasma-fill)"
             />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               dataKey="pihakIII"
               name="Pihak III"

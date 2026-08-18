@@ -59,7 +59,7 @@ export function TrenBiayaKompensasi() {
               formatter={(v: number) => [`Rp ${v.toLocaleString("id-ID")} M`, "Biaya Kompensasi"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="value"
               stroke={PALETTE.blue}

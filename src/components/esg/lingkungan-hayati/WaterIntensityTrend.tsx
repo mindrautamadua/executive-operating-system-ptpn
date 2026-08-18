@@ -66,7 +66,7 @@ export function WaterIntensityTrend() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5, color: CHART_AXIS.tick }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="linear"
               dataKey="palmco"
               name="PalmCo (m³/ton TBS)"
@@ -76,7 +76,7 @@ export function WaterIntensityTrend() {
               dot={{ r: 2 }}
               activeDot={{ r: 4 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="linear"
               dataKey="sgn"
               name="SGN (m³/ton tebu)"
@@ -86,7 +86,7 @@ export function WaterIntensityTrend() {
               dot={{ r: 2 }}
               activeDot={{ r: 4 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="linear"
               dataKey="supporting"
               name="SupportingCo"

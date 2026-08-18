@@ -32,7 +32,7 @@ export function HkmAlerts() {
     <div className="card anim-rise px-4 pb-3.5 pt-3" style={{ "--d": "200ms" } as React.CSSProperties}>
       <SectionHead title="Alerts & Notifications" action="Lihat Semua" badge={<ScopeNote />} />
 
-      <div className="mt-2.5 grid grid-cols-4 gap-2.5">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-4 gap-2.5">
         {hkmAlerts.map((a) => {
           const t = TONE[a.tone];
           const Icon = t.Icon;

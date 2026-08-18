@@ -51,7 +51,7 @@ export function VendorSegmentation() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number) => [`${v.toLocaleString("id-ID")} vendor`, "Jumlah Vendor"]}
             />
-            <Bar dataKey="jumlah" radius={[3, 3, 0, 0]} barSize={34}>
+            <Bar isAnimationActive={false} dataKey="jumlah" radius={[3, 3, 0, 0]} barSize={34}>
               {vendorSegmentation.map((s) => (
                 <Cell key={s.segmen} fill={s.color} />
               ))}

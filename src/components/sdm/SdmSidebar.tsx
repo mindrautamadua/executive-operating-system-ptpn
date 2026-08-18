@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ChevronLeft, LayoutGrid, PanelLeftClose, PanelLeftOpen } from "lucide-react";
+import { MobileSidebarFrame } from "@/components/shared/MobileSidebarFrame";
 import { PtpnLogo } from "../PtpnLogo";
 import { SDM_MENU_SECTIONS, type SdmMenuItem } from "@/lib/sdm-menu";
 import { dataTrust } from "@/lib/hc-data";
@@ -49,9 +50,11 @@ function MenuRow({ item, on, collapsed }: { item: SdmMenuItem; on: boolean; coll
     return (
       <button
         type="button"
+        disabled
+        aria-disabled="true"
+        aria-label={`${label} — Segera hadir`}
         className={`${base} cursor-default font-medium text-ink-500 opacity-50`}
         title={collapsed ? `${label} — Segera hadir` : "Segera hadir"}
-        aria-disabled
       >
         {inner}
       </button>
@@ -61,6 +64,8 @@ function MenuRow({ item, on, collapsed }: { item: SdmMenuItem; on: boolean; coll
   return (
     <Link
       href={href}
+      aria-current={on ? "page" : undefined}
+      aria-label={collapsed ? label : undefined}
       title={collapsed ? label : undefined}
       className={`${base} ${
         on
@@ -78,6 +83,7 @@ export function SdmSidebar({ active }: Props) {
   const { collapsed, toggle } = useSidebarCollapsed();
 
   return (
+    <MobileSidebarFrame>
     <aside
       className={`flex h-full shrink-0 flex-col border-r border-[#e9eef3] bg-white transition-[width] duration-200 ${
         collapsed ? "w-[56px]" : "w-[200px]"
@@ -113,6 +119,7 @@ export function SdmSidebar({ active }: Props) {
       <div className="border-b border-[#f0f3f6] px-2.5 py-2">
         <Link
           href="/"
+          aria-label={collapsed ? "Dashboard Utama" : undefined}
           title={collapsed ? "Dashboard Utama" : undefined}
           className={`flex w-full items-center rounded-lg bg-[#f5f8fa] py-[7px] text-[10.5px] font-semibold text-ink-700 transition-colors hover:bg-ptpn-greenLight hover:text-ptpn-green ${
             collapsed ? "justify-center px-0" : "gap-2 px-2.5"
@@ -126,7 +133,7 @@ export function SdmSidebar({ active }: Props) {
         </Link>
       </div>
 
-      <nav className="scroll-thin min-h-0 flex-1 overflow-y-auto px-2.5 pb-2 pt-2">
+      <nav aria-label="Navigasi modul SDM" className="scroll-thin min-h-0 flex-1 overflow-y-auto px-2.5 pb-2 pt-2">
         <ModeNavBlock collapsed={collapsed} />
         {SDM_MENU_SECTIONS.map((section, si) => (
           <div key={section.title ?? si}>
@@ -154,6 +161,8 @@ export function SdmSidebar({ active }: Props) {
         <button
           type="button"
           onClick={toggle}
+          aria-expanded={!collapsed}
+          aria-label={collapsed ? "Perlebar menu" : "Ciutkan menu"}
           title={collapsed ? "Perlebar menu" : "Ciutkan menu"}
           className={`flex w-full items-center rounded-lg py-[7px] text-[10px] font-semibold text-ink-500 transition-colors hover:bg-[#f5f8fa] hover:text-ink-700 ${
             collapsed ? "justify-center px-0" : "gap-2 px-2.5"
@@ -192,5 +201,6 @@ export function SdmSidebar({ active }: Props) {
         </div>
       )}
     </aside>
+    </MobileSidebarFrame>
   );
 }

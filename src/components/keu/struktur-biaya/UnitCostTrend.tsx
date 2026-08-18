@@ -76,7 +76,7 @@ export function UnitCostTrend() {
               ]}
             />
             {SERIES.map((s) => (
-              <Line
+              <Line isAnimationActive={false}
                 key={s.key}
                 type="monotone"
                 dataKey={s.key}

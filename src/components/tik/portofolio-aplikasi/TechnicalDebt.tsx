@@ -73,7 +73,7 @@ export function TechnicalDebt() {
                   : label;
               }}
             />
-            <Bar dataKey="skor" radius={[0, 3, 3, 0]} maxBarSize={16}>
+            <Bar isAnimationActive={false} dataKey="skor" radius={[0, 3, 3, 0]} maxBarSize={16}>
               {data.map((d) => (
                 <Cell key={d.kategori} fill={fill(d.skor, d.target)} />
               ))}

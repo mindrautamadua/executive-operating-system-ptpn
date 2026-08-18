@@ -22,7 +22,7 @@ export function EkonomiAbsensi() {
         </span>
       </div>
 
-      <div className="mt-2 grid grid-cols-3 gap-1.5">
+      <div className="mt-2 grid grid-cols-2 md:grid-cols-3 gap-1.5">
         {STAT.map((s) => (
           <div key={s.label} className="rounded-lg bg-[#f6f9fc] px-2 py-1.5">
             <div className="text-[8.5px] font-semibold uppercase tracking-[0.04em] text-ink-400">

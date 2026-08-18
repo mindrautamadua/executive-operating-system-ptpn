@@ -14,6 +14,7 @@ export function StatusPengisian() {
       <h3 className="card-title-navy">Status Pengisian Jabatan</h3>
       <p className="mt-[3px] text-[9.5px] text-ink-500">Keterisian Jabatan per Level (dari 1.256 posisi)</p>
 
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] bg-[#f7f9fb]">
@@ -62,6 +63,7 @@ export function StatusPengisian() {
           ))}
         </tbody>
       </table>
+      </div>
 
       <button className="link-more mt-auto flex items-center gap-1 self-start pt-2">
         Lihat analisis keterisian <ChevronRight size={11} />

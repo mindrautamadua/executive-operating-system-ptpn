@@ -71,7 +71,7 @@ export function HotspotTrend() {
               }
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               yAxisId="hotspot"
               dataKey="hotspot"
               fill={PALETTE.amber}
@@ -85,7 +85,7 @@ export function HotspotTrend() {
                 style={{ fontSize: 8, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Bar>
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="kejadian"
               type="linear"
               dataKey="kejadian"

@@ -75,7 +75,7 @@ export function NineBoxDetailGrid() {
             </div>
           </div>
 
-          <div className="ml-[52px] mt-1.5 grid grid-cols-3 gap-2">
+          <div className="ml-[52px] mt-1.5 grid grid-cols-2 md:grid-cols-3 gap-2">
             {PERFORMANCE_LABELS.map((l) => (
               <div key={l} className="text-center text-[8.5px] font-semibold text-ink-400">
                 {l}

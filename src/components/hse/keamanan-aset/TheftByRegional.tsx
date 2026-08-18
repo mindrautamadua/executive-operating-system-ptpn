@@ -66,7 +66,7 @@ export function TheftByRegional() {
               ]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="kasus" radius={[3, 3, 0, 0]}>
+            <Bar isAnimationActive={false} dataKey="kasus" radius={[3, 3, 0, 0]}>
               {data.map((r) => (
                 <Cell
                   key={r.regional}

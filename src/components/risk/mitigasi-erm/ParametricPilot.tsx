@@ -29,7 +29,7 @@ export function ParametricPilot() {
               </span>
               <ToneBadge label={p.status} tone={p.status === "Aktif" ? "good" : "warn"} />
             </div>
-            <div className="mt-1 grid grid-cols-3 gap-2">
+            <div className="mt-1 grid grid-cols-2 md:grid-cols-3 gap-2">
               <span className="min-w-0">
                 <span className="block truncate text-[7.5px] font-semibold uppercase tracking-[0.03em] text-ink-400">
                   Indeks

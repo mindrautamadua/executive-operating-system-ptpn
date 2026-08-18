@@ -99,7 +99,7 @@ export function SupplyDemandBalance() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, name: string) => [ribuan(v), SERIES[name] ?? name]}
             />
-            <Bar dataKey="supply" fill={PALETTE.blue} radius={[3, 3, 0, 0]} maxBarSize={34}>
+            <Bar isAnimationActive={false} dataKey="supply" fill={PALETTE.blue} radius={[3, 3, 0, 0]} maxBarSize={34}>
               <LabelList
                 dataKey="supply"
                 position="top"
@@ -108,7 +108,7 @@ export function SupplyDemandBalance() {
                 style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
-            <Bar dataKey="demand" fill={PALETTE.green} radius={[3, 3, 0, 0]} maxBarSize={34}>
+            <Bar isAnimationActive={false} dataKey="demand" fill={PALETTE.green} radius={[3, 3, 0, 0]} maxBarSize={34}>
               <LabelList
                 dataKey="demand"
                 position="top"

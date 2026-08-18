@@ -54,7 +54,7 @@ export function CeoValueCreation() {
               interval={1}
             />
             <Tooltip contentStyle={CHART_TOOLTIP_STYLE} formatter={(v: number) => rp(v)} />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               name="Jalur Target"
               dataKey="target"
@@ -64,7 +64,7 @@ export function CeoValueCreation() {
               fill="none"
               dot={false}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               name="Realisasi"
               dataKey="realisasi"

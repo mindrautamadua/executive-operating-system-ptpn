@@ -29,7 +29,7 @@ export function CompDecisionCenter() {
 
       <div className="mt-2.5 grid min-h-0 flex-1 grid-cols-[minmax(0,44fr)_minmax(0,30fr)_minmax(0,26fr)] gap-2.5">
         {/* Scenario comparison */}
-        <div className="grid min-w-0 grid-cols-3 gap-2">
+        <div className="grid min-w-0 grid-cols-2 md:grid-cols-3 gap-2">
           {compScenarios.map((s) => (
             <div
               key={s.nama}

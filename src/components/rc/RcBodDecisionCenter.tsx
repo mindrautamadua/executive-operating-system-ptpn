@@ -41,7 +41,7 @@ export function RcBodDecisionCenter() {
         ))}
       </div>
 
-      <div className="mt-2 grid min-h-0 flex-1 grid-cols-3 gap-2.5">
+      <div className="mt-2 grid min-h-0 flex-1 grid-cols-2 md:grid-cols-3 gap-2.5">
         {rcDecisions.map((d) => {
           const style = RC_DECISION_STYLE[d.prioritas];
           return (

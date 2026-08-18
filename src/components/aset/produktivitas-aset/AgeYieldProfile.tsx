@@ -95,7 +95,7 @@ export function AgeYieldProfile() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5, color: CHART_AXIS.tick }}
             />
-            <Bar yAxisId="left" dataKey="luasRbHa" name="Luas" radius={[3, 3, 0, 0]} maxBarSize={38}>
+            <Bar isAnimationActive={false} yAxisId="left" dataKey="luasRbHa" name="Luas" radius={[3, 3, 0, 0]} maxBarSize={38}>
               {ageYieldProfile.map((d, i) => (
                 <Cell key={d.bucket} fill={FILLS[i]} fillOpacity={0.85} />
               ))}
@@ -107,7 +107,7 @@ export function AgeYieldProfile() {
                 style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="right"
               type="monotone"
               dataKey="yieldTonHa"

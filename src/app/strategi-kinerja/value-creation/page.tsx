@@ -14,7 +14,7 @@ export const metadata = { title: "Value Creation — PTPN Group" };
 
 export default function ValueCreationPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <StgSidebar active="Value Creation" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

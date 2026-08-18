@@ -41,6 +41,7 @@ export function BreakdownProduktivitas() {
         <ScopeEmpty label={def.label} />
       ) : (
       <div className="mt-1.5 min-h-0 flex-1">
+        <div className="scroll-thin overflow-x-auto">
         <table className="w-full border-collapse">
           <thead>
             <tr className="border-b border-[#eef2f6] text-[8.5px] font-semibold text-ink-500">
@@ -119,6 +120,7 @@ export function BreakdownProduktivitas() {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
       )}
     </div>

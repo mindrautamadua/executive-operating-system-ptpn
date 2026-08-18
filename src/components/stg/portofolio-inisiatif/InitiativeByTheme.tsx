@@ -79,15 +79,15 @@ export function InitiativeByTheme() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5, color: CHART_AXIS.tick }}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="onTrack"
               name="On Track"
               stackId="s"
               fill={STATUS_COLOR["On Track"]}
               barSize={30}
             />
-            <Bar dataKey="atRisk" name="At Risk" stackId="s" fill={STATUS_COLOR["At Risk"]} />
-            <Bar
+            <Bar isAnimationActive={false} dataKey="atRisk" name="At Risk" stackId="s" fill={STATUS_COLOR["At Risk"]} />
+            <Bar isAnimationActive={false}
               dataKey="offTrack"
               name="Off Track"
               stackId="s"

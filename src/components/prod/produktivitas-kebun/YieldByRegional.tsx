@@ -108,7 +108,7 @@ export function YieldByRegional() {
               ]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="yield" radius={[0, 3, 3, 0]}>
+            <Bar isAnimationActive={false} dataKey="yield" radius={[0, 3, 3, 0]}>
               {data.map((d) => (
                 <Cell
                   key={d.name}

@@ -58,7 +58,7 @@ export function PolaKehadiranHari() {
               contentStyle={CHART_TOOLTIP_STYLE}
               cursor={{ fill: "var(--surface-2)" }}
             />
-            <Bar dataKey="value" radius={[3, 3, 0, 0]} maxBarSize={26}>
+            <Bar isAnimationActive={false} dataKey="value" radius={[3, 3, 0, 0]} maxBarSize={26}>
               {polaHarian.map((d) => (
                 <Cell key={d.name} fill={warnaHari(d.name)} />
               ))}

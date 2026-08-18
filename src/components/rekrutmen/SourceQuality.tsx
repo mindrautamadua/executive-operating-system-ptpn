@@ -14,6 +14,7 @@ export function SourceQuality() {
     <div className="card anim-rise flex h-full flex-col px-4 pb-2.5 pt-3">
       <h3 className="card-title-navy">Source Quality</h3>
 
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] bg-[#f7f9fb]">
@@ -73,6 +74,7 @@ export function SourceQuality() {
           ))}
         </tbody>
       </table>
+      </div>
 
       <p className="mt-auto flex items-start gap-1.5 border-t border-[#f2f5f8] pt-1.5 text-[8.5px] leading-[1.45] text-ink-500">
         <Sparkles size={11} className="mt-[1px] shrink-0 text-ptpn-green" />

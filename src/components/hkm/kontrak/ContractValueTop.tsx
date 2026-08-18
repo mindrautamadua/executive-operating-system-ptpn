@@ -77,7 +77,7 @@ export function ContractValueTop() {
                 return row ? `${row.kontrak} · ${row.pihak}` : "";
               }}
             />
-            <Bar dataKey="nilaiRpT" radius={[0, 3, 3, 0]} barSize={11}>
+            <Bar isAnimationActive={false} dataKey="nilaiRpT" radius={[0, 3, 3, 0]} barSize={11}>
               {data.map((r) => (
                 <Cell key={r.kontrak} fill={STATUS_COLOR[r.status]} />
               ))}

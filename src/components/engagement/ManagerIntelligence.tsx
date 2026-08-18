@@ -22,7 +22,7 @@ export function ManagerIntelligence() {
         </span>
       </div>
 
-      <div className="mt-2 grid grid-cols-4 gap-2">
+      <div className="mt-2 grid grid-cols-2 md:grid-cols-4 gap-2">
         {managerSummary.map((s) => (
           <div
             key={s.label}

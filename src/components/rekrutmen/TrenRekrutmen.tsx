@@ -60,7 +60,7 @@ export function TrenRekrutmen() {
               iconSize={12}
               wrapperStyle={{ fontSize: 9, paddingLeft: 26 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Requisition"
               type="linear"
               dataKey="requisition"
@@ -70,7 +70,7 @@ export function TrenRekrutmen() {
               activeDot={{ r: 4.5 }}
               animationDuration={900}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Onboard"
               type="linear"
               dataKey="hire"

@@ -123,6 +123,7 @@ function KompetensiIntiCard() {
   return (
     <div className="card flex flex-col px-4 pb-3.5 pt-3.5">
       <h3 className="text-[11px] font-bold text-ink-900">Kompetensi Inti Perusahaan</h3>
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2.5 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] text-left text-[8.5px] font-semibold uppercase tracking-[0.05em] text-ink-400">
@@ -159,6 +160,7 @@ function KompetensiIntiCard() {
           })}
         </tbody>
       </table>
+      </div>
       <div className="mt-auto pt-2">
         <button className="link-more inline-flex items-center gap-1">
           Lihat semua kompetensi inti <ArrowRight size={11} />
@@ -174,6 +176,7 @@ function KompetensiTeknisCard() {
   return (
     <div className="card flex flex-col px-4 pb-3.5 pt-3.5">
       <h3 className="text-[11px] font-bold text-ink-900">Kompetensi Teknis (Fungsional)</h3>
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2.5 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] text-left text-[8.5px] font-semibold uppercase tracking-[0.05em] text-ink-400">
@@ -198,6 +201,7 @@ function KompetensiTeknisCard() {
           ))}
         </tbody>
       </table>
+      </div>
       <div className="mt-auto pt-2">
         <button className="link-more inline-flex items-center gap-1">
           Lihat semua kompetensi teknis <ArrowRight size={11} />
@@ -330,6 +334,7 @@ function RencanaPengembanganCard() {
   return (
     <div className="card flex flex-col px-4 pb-3.5 pt-3.5">
       <h3 className="text-[11px] font-bold text-ink-900">Rencana Pengembangan Kompetensi</h3>
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2.5 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] text-left text-[8.5px] font-semibold uppercase tracking-[0.05em] text-ink-400">
@@ -363,6 +368,7 @@ function RencanaPengembanganCard() {
           })}
         </tbody>
       </table>
+      </div>
       <div className="mt-auto pt-2.5">
         <button className="link-more inline-flex items-center gap-1">
           Lihat rencana pengembangan lengkap <ArrowRight size={11} />

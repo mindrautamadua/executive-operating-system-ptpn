@@ -53,7 +53,7 @@ export function AuditAging() {
         ))}
       </ul>
 
-      <div className="mt-2 grid grid-cols-3 gap-1.5">
+      <div className="mt-2 grid grid-cols-2 md:grid-cols-3 gap-1.5">
         <Stat label="Overdue" value={`${auditStats.overdue}`} danger />
         <Stat label="Avg Terbuka" value={`${auditStats.avgDaysOpen} hr`} />
         <Stat label="Closure Rate" value={`${auditStats.closureRate}%`} />

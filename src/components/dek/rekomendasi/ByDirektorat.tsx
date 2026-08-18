@@ -60,21 +60,21 @@ export function ByDirektorat() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5 }}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               name="Selesai"
               dataKey="selesai"
               stackId="s"
               fill={DEK_STATUS_COLOR.Selesai}
               barSize={13}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               name="Berjalan"
               dataKey="berjalan"
               stackId="s"
               fill={DEK_STATUS_COLOR.Berjalan}
               barSize={13}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               name="Overdue"
               dataKey="overdue"
               stackId="s"

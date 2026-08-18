@@ -62,7 +62,7 @@ export function TrenKehadiran() {
               formatter={(v: number) => [`${idn(v)}%`, "Tingkat Kehadiran"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="linear"
               dataKey="value"
               stroke={PALETTE.blue}

@@ -20,7 +20,7 @@ export function AiRiskGuardrails() {
         Kebijakan AI, Review Etik &amp; Perlindungan Data Pribadi · 2 Berlaku · 2 Draf · 1 Belum Ada
       </p>
 
-      <div className="scroll-thin mt-2 grid min-h-0 flex-1 grid-cols-5 gap-2 overflow-y-auto">
+      <div className="scroll-thin mt-2 grid min-h-0 flex-1 grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-2 overflow-y-auto">
         {aiRiskGuardrails.map((g) => (
           <div
             key={g.guardrail}

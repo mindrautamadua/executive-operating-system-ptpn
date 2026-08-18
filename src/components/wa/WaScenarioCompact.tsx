@@ -52,7 +52,7 @@ export function WaScenarioCompact() {
                 <Star size={10} className="shrink-0 fill-[#f5a524] text-[#f5a524]" strokeWidth={0} />
               )}
             </div>
-            <div className="mt-1.5 grid grid-cols-3 gap-1">
+            <div className="mt-1.5 grid grid-cols-2 md:grid-cols-3 gap-1">
               <div>
                 <div className="text-[7.5px] text-ink-400">HC</div>
                 <div className="text-[9.5px] font-extrabold text-ink-900">{r.headcount}</div>

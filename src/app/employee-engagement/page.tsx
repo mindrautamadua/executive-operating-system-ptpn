@@ -23,7 +23,7 @@ export const metadata = { title: "Employee Engagement — PTPN Group" };
 
 export default function EmployeeEngagementPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <SdmSidebar
         assistantCard="coach"
         assistantTitle="AI Engagement Assistant"

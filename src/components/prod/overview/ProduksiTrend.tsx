@@ -86,9 +86,9 @@ export function ProduksiTrend() {
               formatter={(v: number, name: string) => [jtTon(v), SERI_LABEL[name] ?? name]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar yAxisId="tbs" dataKey="tbs2025" fill={PALETTE.slate} fillOpacity={0.45} radius={[3, 3, 0, 0]} />
-            <Bar yAxisId="tbs" dataKey="tbs2026" fill={PALETTE.green} radius={[3, 3, 0, 0]} />
-            <Line
+            <Bar isAnimationActive={false} yAxisId="tbs" dataKey="tbs2025" fill={PALETTE.slate} fillOpacity={0.45} radius={[3, 3, 0, 0]} />
+            <Bar isAnimationActive={false} yAxisId="tbs" dataKey="tbs2026" fill={PALETTE.green} radius={[3, 3, 0, 0]} />
+            <Line isAnimationActive={false}
               yAxisId="cpo"
               type="linear"
               dataKey="cpo2025"
@@ -98,7 +98,7 @@ export function ProduksiTrend() {
               dot={{ r: 2, fill: PALETTE.blueSoft, strokeWidth: 0 }}
               activeDot={{ r: 4 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="cpo"
               type="linear"
               dataKey="cpo2026"

@@ -51,7 +51,7 @@ export function FindingsByCategory() {
               formatter={(v: number) => [`${v} temuan`, "Jumlah"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="count" radius={[0, 4, 4, 0]} barSize={16}>
+            <Bar isAnimationActive={false} dataKey="count" radius={[0, 4, 4, 0]} barSize={16}>
               {findingByCategory.map((c) => (
                 <Cell key={c.kategori} fill={c.color} />
               ))}

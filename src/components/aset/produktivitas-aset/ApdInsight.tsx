@@ -30,7 +30,7 @@ export function ApdInsight() {
         </button>
       </div>
 
-      <div className="mt-2.5 grid grid-cols-5 gap-3">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-3">
         {apdInsights.map((ins) => {
           const tone = TONES[ins.tone];
           return (

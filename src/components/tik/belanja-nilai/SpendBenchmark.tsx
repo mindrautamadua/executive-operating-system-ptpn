@@ -84,7 +84,7 @@ export function SpendBenchmark() {
                 return row ? `${row.pembanding} — ${row.keterangan}` : label;
               }}
             />
-            <Bar dataKey="pctPendapatan" radius={[3, 3, 0, 0]} maxBarSize={38}>
+            <Bar isAnimationActive={false} dataKey="pctPendapatan" radius={[3, 3, 0, 0]} maxBarSize={38}>
               {data.map((d) => (
                 <Cell
                   key={d.pembanding}

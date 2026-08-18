@@ -40,6 +40,7 @@ export function SecurityCoverage() {
         className="mt-2 min-h-0 flex-1 overflow-hidden transition-opacity"
         style={luarCakupan ? { opacity: 0.25 } : undefined}
       >
+        <div className="scroll-thin overflow-x-auto">
         <table className="w-full border-collapse">
           <thead>
             <tr className="border-b border-[#eef2f6] text-[8.5px] font-semibold text-ink-500">
@@ -79,6 +80,7 @@ export function SecurityCoverage() {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
 
       <p className="mt-1 border-t border-[#f5f8fa] pt-1.5 text-[8.5px] leading-snug text-ink-500">

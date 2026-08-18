@@ -127,7 +127,7 @@ export function AssetReturnQuadrant() {
                 return [`Rp ${num(v)} T`, "Nilai Buku"];
               }}
             />
-            <Scatter data={data}>
+            <Scatter isAnimationActive={false} data={data}>
               {data.map((d) => (
                 <Cell key={d.unit} fill={QUADRAN_COLOR[d.kuadran]} fillOpacity={0.8} />
               ))}
@@ -142,7 +142,7 @@ export function AssetReturnQuadrant() {
         </ResponsiveContainer>
       </div>
 
-      <div className="mt-1 grid shrink-0 grid-cols-4 gap-1.5">
+      <div className="mt-1 grid shrink-0 grid-cols-2 md:grid-cols-4 gap-1.5">
         {ringkasan.map((r) => (
           <div key={r.kuadran} className="rounded-lg border border-[#eef2f6] px-1.5 py-[5px]">
             <span

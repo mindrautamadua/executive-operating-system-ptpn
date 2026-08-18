@@ -93,7 +93,7 @@ export function YieldQuadrant() {
               labelFormatter={() => ""}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Scatter data={data}>
+            <Scatter isAnimationActive={false} data={data}>
               {data.map((d) => (
                 <Cell
                   key={d.name}

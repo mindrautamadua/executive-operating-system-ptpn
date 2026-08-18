@@ -76,7 +76,7 @@ export function RestanTrend() {
                 fontWeight: 700,
               }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="restanPct"
               stroke={PALETTE.blue}

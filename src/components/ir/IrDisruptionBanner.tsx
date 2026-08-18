@@ -30,7 +30,7 @@ export function IrDisruptionBanner() {
           </span>
         </div>
 
-        <div className="mt-2 grid flex-1 grid-cols-4 gap-2.5">
+        <div className="mt-2 grid flex-1 grid-cols-2 md:grid-cols-4 gap-2.5">
           {irHealthDims.map((d) => (
             <div
               key={d.name}
@@ -80,7 +80,7 @@ export function IrDisruptionBanner() {
           </span>
         </div>
 
-        <div className="mt-2 grid flex-1 grid-cols-4 gap-2">
+        <div className="mt-2 grid flex-1 grid-cols-2 md:grid-cols-4 gap-2">
           {[
             { Icon: MapPin, value: `${irDisruption.locationsElevated}`, label: "Lokasi risiko naik" },
             { Icon: Users, value: irDisruption.employeesExposed, label: "Karyawan terpapar" },

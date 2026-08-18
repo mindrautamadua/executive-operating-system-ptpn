@@ -11,7 +11,7 @@ const TONES = [
 
 export function KskKpiStrip() {
   return (
-    <div className="grid grid-cols-3 gap-3">
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
       {kskBaseline.map((k, i) => {
         const Icon = ICONS[i % ICONS.length];
         return (

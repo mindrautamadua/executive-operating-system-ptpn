@@ -17,6 +17,7 @@ export function EffectivenessUnit() {
       <h3 className="card-title-navy">Learning Effectiveness per Unit Organisasi</h3>
 
       <div className="mt-2 min-h-0 flex-1">
+        <div className="scroll-thin overflow-x-auto">
         <table className="w-full border-separate border-spacing-x-[3px] border-spacing-y-[3px]">
           <thead>
             <tr>
@@ -83,6 +84,7 @@ export function EffectivenessUnit() {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
 
       <div className="mt-1.5 flex items-center justify-between gap-2">

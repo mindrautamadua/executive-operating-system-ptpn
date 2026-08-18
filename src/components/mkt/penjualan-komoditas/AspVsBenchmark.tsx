@@ -94,7 +94,7 @@ export function AspVsBenchmark() {
               }
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               yAxisId="premium"
               dataKey="premium"
               name="Premium"
@@ -102,7 +102,7 @@ export function AspVsBenchmark() {
               fillOpacity={0.7}
               radius={[2, 2, 0, 0]}
             />
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="harga"
               type="linear"
               dataKey="kpbn"
@@ -112,7 +112,7 @@ export function AspVsBenchmark() {
               strokeDasharray="4 3"
               dot={false}
             />
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="harga"
               type="linear"
               dataKey="asp"

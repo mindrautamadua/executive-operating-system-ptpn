@@ -27,7 +27,7 @@ export function KomiteInsight() {
         </button>
       </div>
 
-      <div className="mt-2.5 grid grid-cols-4 gap-4">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-4 gap-4">
         {komiteInsights.map((ins, i) => {
           const s = STYLES[i % STYLES.length];
           const Icon = s.Icon;

@@ -77,7 +77,7 @@ export function FinancialImpact() {
                 ];
               }}
             />
-            <Bar yAxisId="cost" dataKey="baseline" fill={PALETTE.blue} radius={[3, 3, 0, 0]} barSize={16}>
+            <Bar isAnimationActive={false} yAxisId="cost" dataKey="baseline" fill={PALETTE.blue} radius={[3, 3, 0, 0]} barSize={16}>
               <LabelList
                 dataKey="baseline"
                 position="top"
@@ -85,7 +85,7 @@ export function FinancialImpact() {
                 style={{ fontSize: 8, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
-            <Bar yAxisId="cost" dataKey="scenario" fill={PALETTE.green} radius={[3, 3, 0, 0]} barSize={16}>
+            <Bar isAnimationActive={false} yAxisId="cost" dataKey="scenario" fill={PALETTE.green} radius={[3, 3, 0, 0]} barSize={16}>
               <LabelList
                 dataKey="scenario"
                 position="top"
@@ -93,7 +93,7 @@ export function FinancialImpact() {
                 style={{ fontSize: 8, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="roi"
               type="linear"
               dataKey="roi"

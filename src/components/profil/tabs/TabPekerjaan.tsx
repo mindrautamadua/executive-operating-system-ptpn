@@ -311,6 +311,7 @@ function PendidikanRelevan() {
   return (
     <div className="card px-4 pb-3.5 pt-3.5">
       <CardTitle title="Riwayat Pendidikan yang Relevan" action={<LinkAction label="Lihat Semua" />} />
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2.5 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] text-left text-[8.5px] font-semibold uppercase tracking-[0.05em] text-ink-400">
@@ -335,6 +336,7 @@ function PendidikanRelevan() {
           ))}
         </tbody>
       </table>
+      </div>
     </div>
   );
 }

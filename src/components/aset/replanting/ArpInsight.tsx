@@ -36,7 +36,7 @@ export function ArpInsight() {
       </div>
 
       <div
-        className="mt-2.5 grid grid-cols-5 gap-3 transition-opacity"
+        className="mt-2.5 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-3 transition-opacity"
         style={{ opacity: outOfScope ? 0.25 : 1 }}
       >
         {arpInsights.map((ins) => {

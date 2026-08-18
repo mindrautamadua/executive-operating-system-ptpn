@@ -86,7 +86,7 @@ export function HilirRevenueTrend() {
               ]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="linear"
               dataKey="porsi"
               stroke={PALETTE.green}
@@ -104,7 +104,7 @@ export function HilirRevenueTrend() {
                 style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Area>
-            <Line
+            <Line isAnimationActive={false}
               type="linear"
               dataKey="target"
               stroke={PALETTE.navy}

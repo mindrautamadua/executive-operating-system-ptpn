@@ -71,7 +71,7 @@ export function CashPosition() {
                 style: { fontSize: 8.5, fill: PALETTE.red, fontWeight: 700 },
               }}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="linear"
               dataKey="cash"
               stroke={PALETTE.green}

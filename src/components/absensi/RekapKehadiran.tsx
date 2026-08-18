@@ -43,6 +43,7 @@ export function RekapKehadiran() {
         </button>
       </div>
 
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6]">
@@ -122,6 +123,7 @@ export function RekapKehadiran() {
           })}
         </tbody>
       </table>
+      </div>
 
       <button className="link-more mt-auto flex items-center gap-1 pt-2">
         Lihat seluruh data <ArrowRight size={11} />

@@ -67,14 +67,14 @@ export function InitiativeFunding() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5, color: CHART_AXIS.tick }}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="kebutuhanRpT"
               name="Kebutuhan"
               fill={PALETTE.slate}
               radius={[4, 4, 0, 0]}
               barSize={18}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="alokasiRpT"
               name="Alokasi Disetujui"
               fill={PALETTE.green}

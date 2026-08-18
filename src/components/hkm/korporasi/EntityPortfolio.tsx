@@ -44,6 +44,7 @@ export function EntityPortfolio() {
       </p>
 
       <div className="scroll-thin mt-2 min-h-0 flex-1 overflow-y-auto">
+        <div className="scroll-thin overflow-x-auto">
         <table className="w-full border-collapse">
           <thead className="sticky top-0 bg-[var(--surface)]">
             <tr className="border-b border-[#eef2f6] text-left">
@@ -84,6 +85,7 @@ export function EntityPortfolio() {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
 
       <p className="pt-1.5 text-[9px] leading-snug text-ink-500">{entityStats.note}</p>

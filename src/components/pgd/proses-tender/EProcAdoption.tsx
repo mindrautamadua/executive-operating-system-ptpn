@@ -81,7 +81,7 @@ export function EProcAdoption() {
                 fill: PALETTE.navy,
               }}
             />
-            <Bar dataKey="eprocPct" name="Cakupan e-Proc" radius={[4, 4, 0, 0]} barSize={22}>
+            <Bar isAnimationActive={false} dataKey="eprocPct" name="Cakupan e-Proc" radius={[4, 4, 0, 0]} barSize={22}>
               {eProcAdoption.map((r) => (
                 <Cell key={r.unit} fill={PGD_STATUS_COLOR[r.status]} fillOpacity={dim(r.unit)} />
               ))}
@@ -92,7 +92,7 @@ export function EProcAdoption() {
                 style={{ fontSize: 8, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="fullDigitalPct"
               name="Full Digital"
               fill={PALETTE.slate}

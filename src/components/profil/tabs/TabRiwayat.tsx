@@ -167,6 +167,7 @@ function PenilaianKinerjaCard() {
   return (
     <div className="card flex flex-col px-4 pb-3.5 pt-3.5">
       <h3 className="text-[11px] font-bold text-ink-900">Riwayat Penilaian Kinerja</h3>
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2.5 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] text-left text-[8.5px] font-semibold uppercase tracking-[0.05em] text-ink-400">
@@ -198,6 +199,7 @@ function PenilaianKinerjaCard() {
           })}
         </tbody>
       </table>
+      </div>
       <LinkMore label="Lihat semua riwayat kinerja" href="/sdm-talenta/profil-karyawan/kinerja" />
     </div>
   );
@@ -234,6 +236,7 @@ function MutasiPenugasanCard() {
   return (
     <div className="card flex flex-col px-4 pb-3.5 pt-3.5">
       <h3 className="text-[11px] font-bold text-ink-900">Riwayat Mutasi &amp; Penugasan</h3>
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2.5 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] text-left text-[8.5px] font-semibold uppercase tracking-[0.05em] text-ink-400">
@@ -255,6 +258,7 @@ function MutasiPenugasanCard() {
           ))}
         </tbody>
       </table>
+      </div>
       <LinkMore label="Lihat semua mutasi & penugasan" href="/sdm-talenta/profil-karyawan/mutasi-penugasan" />
     </div>
   );
@@ -266,6 +270,7 @@ function PerubahanDataCard() {
   return (
     <div className="card flex flex-col px-4 pb-3.5 pt-3.5">
       <h3 className="text-[11px] font-bold text-ink-900">Riwayat Perubahan Data Kepegawaian</h3>
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2.5 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] text-left text-[8.5px] font-semibold uppercase tracking-[0.05em] text-ink-400">
@@ -290,6 +295,7 @@ function PerubahanDataCard() {
           ))}
         </tbody>
       </table>
+      </div>
       <LinkMore label="Lihat semua perubahan data" href="/sdm-talenta/profil-karyawan/perubahan-data" />
     </div>
   );

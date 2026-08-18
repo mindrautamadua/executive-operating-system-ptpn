@@ -26,7 +26,7 @@ export function HumanRightsScorecard() {
         Indikator HAM Material bagi NDPE &amp; Rating ESG
       </p>
 
-      <div className="mt-2 grid grid-cols-3 gap-2">
+      <div className="mt-2 grid grid-cols-2 md:grid-cols-3 gap-2">
         {HIGHLIGHTS.map((h) => (
           <div key={h.label} className="rounded-lg bg-[#f8fafc] px-2.5 py-[7px]">
             <div className="text-[15px] font-extrabold leading-none text-ink-900">{h.value}</div>

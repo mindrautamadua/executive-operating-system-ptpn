@@ -33,9 +33,10 @@ export function SectionHead({
         </Link>
       )}
       {action && !href && (
-        <button className="flex shrink-0 cursor-pointer items-center gap-1 text-[9.5px] font-semibold text-ptpn-green hover:underline">
-          {action} <ArrowRight size={11} />
-        </button>
+        /* Tanpa href = belum ada tujuan; jangan tampil sebagai kontrol interaktif. */
+        <span className="flex shrink-0 items-center gap-1 text-[9.5px] font-semibold text-ink-400">
+          {action}
+        </span>
       )}
     </div>
   );

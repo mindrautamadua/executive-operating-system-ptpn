@@ -75,7 +75,7 @@ export function ResponseTimeTrend() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, n: string) => [`${v} hari`, LABELS[n] ?? n]}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="sla"
               stroke={PALETTE.red}
@@ -84,7 +84,7 @@ export function ResponseTimeTrend() {
               dot={false}
               activeDot={false}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="rataHari"
               stroke={PALETTE.blue}

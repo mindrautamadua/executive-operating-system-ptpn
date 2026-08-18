@@ -57,7 +57,7 @@ export function SidebarSkeleton() {
 // Kerangka halaman modul lengkap: sidebar + header + data trust + KPI strip + grid chart.
 export function ModuleLoadingSkeleton({ kpis = 6 }: { kpis?: number }) {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <SidebarSkeleton />
 
       <div className="flex-1 space-y-4 overflow-hidden p-5">
@@ -82,7 +82,7 @@ export function ModuleLoadingSkeleton({ kpis = 6 }: { kpis?: number }) {
           <ChartCardSkeleton />
           <ChartCardSkeleton />
         </div>
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
           <ChartCardSkeleton className="h-40" />
           <ChartCardSkeleton className="h-40" />
           <ChartCardSkeleton className="h-40" />

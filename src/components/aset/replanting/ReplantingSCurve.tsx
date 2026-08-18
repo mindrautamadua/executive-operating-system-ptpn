@@ -69,7 +69,7 @@ export function ReplantingSCurve() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5, color: CHART_AXIS.tick }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="kumulatifTargetHa"
               name="Kumulatif Target"
@@ -77,7 +77,7 @@ export function ReplantingSCurve() {
               strokeWidth={1.8}
               dot={{ r: 2.4 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="kumulatifAktualHa"
               name="Kumulatif Realisasi"

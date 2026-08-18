@@ -71,7 +71,7 @@ export function DestinasiEkspor() {
                 "Volume Ekspor",
               ]}
             />
-            <Bar dataKey="volumeRbTon" radius={[0, 3, 3, 0]} maxBarSize={13}>
+            <Bar isAnimationActive={false} dataKey="volumeRbTon" radius={[0, 3, 3, 0]} maxBarSize={13}>
               {destinasiEkspor.map((d, i) => (
                 <Cell key={d.negara} fill={BAR_COLORS[i] ?? PALETTE.slate} />
               ))}

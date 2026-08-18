@@ -117,7 +117,7 @@ export function ProduktivitasBiaya() {
               }
               labelFormatter={() => ""}
             />
-            <Scatter data={biayaVsIndex} fillOpacity={0.85}>
+            <Scatter isAnimationActive={false} data={biayaVsIndex} fillOpacity={0.85}>
               {biayaVsIndex.map((d, i) => (
                 <Cell
                   key={d.unit}

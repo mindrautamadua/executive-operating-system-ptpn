@@ -15,7 +15,7 @@ export const metadata = { title: "Biaya Produksi & Cost Leadership — PTPN Grou
 
 export default function BiayaProduksiPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <ProdSidebar active="Biaya Produksi" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

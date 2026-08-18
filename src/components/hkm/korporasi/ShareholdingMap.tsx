@@ -47,7 +47,7 @@ export function ShareholdingMap() {
         <div className="mx-auto h-3 w-px bg-[#d9e4f5]" />
 
         {/* Level 2 — Subholding + level 3 di bawah masing-masing */}
-        <div className="grid grid-cols-3 gap-2">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
           {subholding.map((s) => {
             const anakSub = anak.filter((a) => a.induk === s.nama);
             return (

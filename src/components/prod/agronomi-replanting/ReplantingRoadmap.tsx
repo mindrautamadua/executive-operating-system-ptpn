@@ -79,7 +79,7 @@ export function ReplantingRoadmap() {
               itemSorter={() => 0}
             />
             {rows.map((r, i) => (
-              <Bar
+              <Bar isAnimationActive={false}
                 key={r.regional}
                 dataKey={r.regional}
                 stackId="roadmap"

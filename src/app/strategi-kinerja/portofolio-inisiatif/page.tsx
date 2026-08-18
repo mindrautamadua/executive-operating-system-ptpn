@@ -14,7 +14,7 @@ export const metadata = { title: "Portofolio Inisiatif — PTPN Group" };
 
 export default function PortofolioInisiatifPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <StgSidebar active="Portofolio Inisiatif" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

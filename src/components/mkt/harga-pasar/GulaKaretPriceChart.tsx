@@ -67,7 +67,7 @@ function MiniLine({
             />
             <Tooltip formatter={(v: number) => rp(v)} contentStyle={CHART_TOOLTIP_STYLE} />
             {series.map((s) => (
-              <Line
+              <Line isAnimationActive={false}
                 key={s.key}
                 type="linear"
                 dataKey={s.key}

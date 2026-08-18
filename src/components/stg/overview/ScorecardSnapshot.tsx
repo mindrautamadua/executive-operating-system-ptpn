@@ -71,7 +71,7 @@ export function ScorecardSnapshot() {
               strokeDasharray="5 4"
               strokeWidth={1.2}
             />
-            <Bar dataKey="score" radius={[4, 4, 0, 0]} barSize={30}>
+            <Bar isAnimationActive={false} dataKey="score" radius={[4, 4, 0, 0]} barSize={30}>
               {scorecardSnapshot.map((s) => (
                 <Cell
                   key={s.entity}

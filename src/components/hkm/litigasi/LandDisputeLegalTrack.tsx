@@ -73,7 +73,7 @@ export function LandDisputeLegalTrack() {
               ]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="jumlahKasus" radius={[0, 4, 4, 0]} barSize={18}>
+            <Bar isAnimationActive={false} dataKey="jumlahKasus" radius={[0, 4, 4, 0]} barSize={18}>
               {data.map((r) => (
                 <Cell key={r.jalur} fill={r.color} />
               ))}
@@ -87,7 +87,7 @@ export function LandDisputeLegalTrack() {
         </ResponsiveContainer>
       </div>
 
-      <div className="mt-1 grid grid-cols-3 gap-2">
+      <div className="mt-1 grid grid-cols-2 md:grid-cols-3 gap-2">
         {landDisputeLegalTrack.map((r) => (
           <div key={r.jalur} className="rounded-md bg-[#f8fafc] px-2 py-[5px]">
             <div className="text-[9px] font-bold text-ink-700">

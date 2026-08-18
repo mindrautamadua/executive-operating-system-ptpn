@@ -73,7 +73,7 @@ export function TrainingProgram() {
                 ];
               }}
             />
-            <Bar dataKey="peserta" radius={[0, 3, 3, 0]} barSize={16}>
+            <Bar isAnimationActive={false} dataKey="peserta" radius={[0, 3, 3, 0]} barSize={16}>
               {trainingProgram.map((r) => (
                 <Cell key={r.program} fill={r.color} fillOpacity={0.85} />
               ))}

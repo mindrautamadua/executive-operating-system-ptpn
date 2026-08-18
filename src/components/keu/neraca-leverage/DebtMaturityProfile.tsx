@@ -57,7 +57,7 @@ export function DebtMaturityProfile() {
                 "Pokok Jatuh Tempo",
               ]}
             />
-            <Bar dataKey="value" radius={[3, 3, 0, 0]} maxBarSize={30}>
+            <Bar isAnimationActive={false} dataKey="value" radius={[3, 3, 0, 0]} maxBarSize={30}>
               {debtMaturity.map((d) => (
                 <Cell key={d.year} fill={d.peak ? PALETTE.red : PALETTE.blue} />
               ))}

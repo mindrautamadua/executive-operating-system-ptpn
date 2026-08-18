@@ -88,7 +88,7 @@ export function PemupukanCard() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number) => [`Rp ${v.toLocaleString("id-ID")}/kg`, "Harga NPK"]}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               dataKey="hargaRpKg"
               stroke={PALETTE.red}

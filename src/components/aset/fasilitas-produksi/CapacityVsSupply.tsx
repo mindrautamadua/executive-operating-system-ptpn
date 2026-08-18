@@ -71,7 +71,7 @@ export function CapacityVsSupply() {
               formatter={(v: number, name: string) => [`${num(v)} jt ton`, name]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Area
+            <Area isAnimationActive={false}
               name="Gap Kapasitas Sawit"
               type="linear"
               dataKey="gapSawitJtTon"
@@ -83,7 +83,7 @@ export function CapacityVsSupply() {
               fillOpacity={dim("sawit")}
               dot={false}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Kapasitas PKS"
               type="linear"
               dataKey="kapasitasSawitJtTon"
@@ -93,7 +93,7 @@ export function CapacityVsSupply() {
               dot={{ r: 2.2, fill: PALETTE.green, strokeWidth: 0, fillOpacity: dim("sawit") }}
               activeDot={{ r: 4 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Pasokan TBS"
               type="linear"
               dataKey="pasokanSawitJtTon"
@@ -103,7 +103,7 @@ export function CapacityVsSupply() {
               strokeOpacity={dim("sawit")}
               dot={{ r: 2, fill: PALETTE.greenSoft, strokeWidth: 0, fillOpacity: dim("sawit") }}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Kapasitas PG"
               type="linear"
               dataKey="kapasitasTebuJtTon"
@@ -113,7 +113,7 @@ export function CapacityVsSupply() {
               dot={{ r: 2.2, fill: PALETTE.blue, strokeWidth: 0, fillOpacity: dim("tebu") }}
               activeDot={{ r: 4 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Pasokan Tebu"
               type="linear"
               dataKey="pasokanTebuJtTon"

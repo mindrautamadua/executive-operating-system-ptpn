@@ -72,7 +72,7 @@ export function LostTimeByRegional() {
                 ];
               }}
             />
-            <Bar dataKey="hariHilang" radius={[3, 3, 0, 0]} barSize={30}>
+            <Bar isAnimationActive={false} dataKey="hariHilang" radius={[3, 3, 0, 0]} barSize={30}>
               {lostTimeByRegional.map((r) => (
                 <Cell
                   key={r.regional}

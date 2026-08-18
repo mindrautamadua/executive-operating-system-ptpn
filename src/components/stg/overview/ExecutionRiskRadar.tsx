@@ -45,7 +45,7 @@ export function ExecutionRiskRadar() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, name: string) => [v.toLocaleString("id-ID"), name]}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Ambang Toleransi"
               dataKey="ambang"
               stroke={PALETTE.slate}
@@ -54,7 +54,7 @@ export function ExecutionRiskRadar() {
               fill={PALETTE.slate}
               fillOpacity={0.05}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Eksposur Risiko"
               dataKey="score"
               stroke={PALETTE.red}

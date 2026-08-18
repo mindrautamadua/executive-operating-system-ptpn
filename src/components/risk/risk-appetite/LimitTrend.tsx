@@ -52,7 +52,7 @@ export function LimitTrend() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5, color: "var(--chart-tick)" }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="breach"
               name="Breach"
@@ -61,7 +61,7 @@ export function LimitTrend() {
               dot={{ r: 2.5 }}
               activeDot={{ r: 4 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="nearLimit"
               name="Near-Limit"

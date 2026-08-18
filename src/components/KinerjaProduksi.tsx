@@ -34,7 +34,7 @@ export function KinerjaProduksi() {
         </div>
       </div>
 
-      <div className="mt-2.5 grid grid-cols-4 gap-1">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-4 gap-1">
         {produksiKpi.map((k) => (
           <div key={k.label}>
             <div className="text-[8.5px] font-semibold tracking-[0.05em] text-ink-500">
@@ -86,7 +86,7 @@ export function KinerjaProduksi() {
               }}
             />
             {SERIES.map((s) => (
-              <Line
+              <Line isAnimationActive={false}
                 key={s.key}
                 type="monotone"
                 dataKey={s.key}

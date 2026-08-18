@@ -71,7 +71,7 @@ export function DigitalMaturity() {
               strokeDasharray="5 4"
               strokeWidth={1.2}
             />
-            <Bar dataKey="adoptionPct" radius={[4, 4, 0, 0]} barSize={28}>
+            <Bar isAnimationActive={false} dataKey="adoptionPct" radius={[4, 4, 0, 0]} barSize={28}>
               {DATA.map((d) => (
                 <Cell
                   key={d.entity}

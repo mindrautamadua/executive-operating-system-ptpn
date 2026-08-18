@@ -19,7 +19,7 @@ const LEVEL_TONE = { Kritikal: "red", Perhatian: "amber", Informasi: "slate" } a
 
 export default function AlertsPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <SdmSidebar active="Executive Overview" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

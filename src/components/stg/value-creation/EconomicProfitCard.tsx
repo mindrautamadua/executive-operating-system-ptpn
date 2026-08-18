@@ -35,7 +35,7 @@ export function EconomicProfitCard() {
 
       <div className="mt-2 flex min-h-0 flex-1 gap-3">
         <div className="flex w-[236px] shrink-0 flex-col gap-2">
-          <div className="grid grid-cols-3 gap-2">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
             <div className="rounded-lg border border-[#eef2f6] bg-[#f5f8fa] px-2 py-1.5">
               <div className="text-[9px] font-semibold text-ink-500">ROIC</div>
               <div className="mt-[3px] text-[14px] font-extrabold leading-none text-ink-900">
@@ -59,6 +59,7 @@ export function EconomicProfitCard() {
         </div>
 
         <div className="min-w-0 flex-1">
+          <div className="scroll-thin overflow-x-auto">
           <table className="w-full border-collapse">
             <thead>
               <tr className="border-b border-[#eef2f6] text-[9px] font-extrabold uppercase tracking-[0.05em] text-ink-500">
@@ -114,6 +115,7 @@ export function EconomicProfitCard() {
               })}
             </tbody>
           </table>
+          </div>
         </div>
       </div>
     </div>

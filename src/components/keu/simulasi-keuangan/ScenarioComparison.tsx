@@ -65,7 +65,7 @@ export function ScenarioComparison() {
                 name === "ebitda" ? "EBITDA FY" : "Laba Bersih FY",
               ]}
             />
-            <Bar dataKey="ebitda" fill={PALETTE.green} radius={[2, 2, 0, 0]} maxBarSize={34}>
+            <Bar isAnimationActive={false} dataKey="ebitda" fill={PALETTE.green} radius={[2, 2, 0, 0]} maxBarSize={34}>
               <LabelList
                 dataKey="ebitda"
                 position="top"
@@ -74,7 +74,7 @@ export function ScenarioComparison() {
                 style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
-            <Bar dataKey="laba" fill={PALETTE.blue} radius={[2, 2, 0, 0]} maxBarSize={34}>
+            <Bar isAnimationActive={false} dataKey="laba" fill={PALETTE.blue} radius={[2, 2, 0, 0]} maxBarSize={34}>
               <LabelList
                 dataKey="laba"
                 position="top"
@@ -87,7 +87,7 @@ export function ScenarioComparison() {
         </ResponsiveContainer>
       </div>
 
-      <div className="grid grid-cols-3 gap-2 pb-1">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-2 pb-1">
         {scenarios.map((s) => (
           <div key={s.name} className="flex items-start gap-1.5">
             <span

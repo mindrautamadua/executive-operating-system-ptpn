@@ -77,7 +77,7 @@ export function ComplianceByRegion() {
               iconSize={8}
               wrapperStyle={{ fontSize: 8.5 }}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               name="Izin Aktif"
               dataKey="izinAktif"
               fill={PALETTE.blueSoft}
@@ -85,7 +85,7 @@ export function ComplianceByRegion() {
               radius={[3, 3, 0, 0]}
               barSize={17}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               name="Berakhir ≤6 Bulan"
               dataKey="berakhir6Bulan"
               fill={PALETTE.amber}

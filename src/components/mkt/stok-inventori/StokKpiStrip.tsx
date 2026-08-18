@@ -28,7 +28,7 @@ export function StokKpiStrip() {
   const { active } = useSubholding();
 
   return (
-    <div className="grid gap-3 grid-cols-4">
+    <div className="grid gap-3 grid-cols-2 md:grid-cols-4">
       {stokKpi.map((k, i) => {
         const Icon = ICONS[i];
         const terikatKomoditas = commodityScope(k.label) !== undefined;

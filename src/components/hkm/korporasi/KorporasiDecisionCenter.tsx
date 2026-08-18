@@ -36,7 +36,7 @@ export function KorporasiDecisionCenter() {
         {korporasiDecisions.length} Keputusan Korporat Menunggu Persetujuan Direksi
       </p>
 
-      <div className="mt-2.5 grid grid-cols-3 gap-3">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-3 gap-3">
         {korporasiDecisions.map((d) => {
           const t = TONE[d.tone];
           const Icon = t.icon;

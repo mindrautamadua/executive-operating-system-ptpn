@@ -85,7 +85,7 @@ export function InitiativePortfolioMap() {
                 return [rp(v), "Investasi"];
               }}
             />
-            <Scatter data={bubbles} shape="circle">
+            <Scatter isAnimationActive={false} data={bubbles} shape="circle">
               {bubbles.map((b) => (
                 <Cell key={b.name} fill={STATUS_COLOR[b.status]} fillOpacity={0.55} />
               ))}

@@ -40,6 +40,7 @@ export function DdTable() {
       </p>
 
       <div className="scroll-thin mt-2 min-h-0 flex-1 overflow-y-auto">
+        <div className="scroll-thin overflow-x-auto">
         <table className="w-full border-collapse">
           <thead className="sticky top-0 bg-[var(--surface,#fff)]">
             <tr className="border-b border-[#eef2f6] text-left text-[9px] font-semibold uppercase tracking-[0.04em] text-ink-500">
@@ -102,6 +103,7 @@ export function DdTable() {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
 
       <button className="mt-2 flex w-full shrink-0 items-center justify-center gap-1 rounded-lg border border-[#e3e9ef] bg-[#f8fafc] py-[7px] text-[9.5px] font-semibold text-ptpn-greenDark transition-colors hover:bg-[#eef4f0]">

@@ -108,7 +108,7 @@ function EvidenceStrip() {
       <div className="flex items-center gap-1.5 text-[9px] font-extrabold uppercase tracking-[0.06em] text-[#1d5bc4]">
         <Database size={9} /> Evidence
       </div>
-      <div className="mt-1.5 grid grid-cols-5 gap-2">
+      <div className="mt-1.5 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-2">
         {cells.map((c) => (
           <div key={c.label} className="min-w-0">
             <div className="text-[7.5px] font-semibold text-ink-400">{c.label}</div>
@@ -291,7 +291,7 @@ export function ChatPanel() {
               </p>
             </div>
           </div>
-          <div className="mt-3 grid grid-cols-4 gap-2">
+          <div className="mt-3 grid grid-cols-2 md:grid-cols-4 gap-2">
             {welcomePrompts.map(({ icon: Icon, text }) => (
               <button
                 key={text}

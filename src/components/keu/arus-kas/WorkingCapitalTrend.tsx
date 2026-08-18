@@ -67,7 +67,7 @@ export function WorkingCapitalTrend() {
               ]}
             />
             {SERIES.map((s) => (
-              <Line
+              <Line isAnimationActive={false}
                 key={s.key}
                 type="monotone"
                 dataKey={s.key}

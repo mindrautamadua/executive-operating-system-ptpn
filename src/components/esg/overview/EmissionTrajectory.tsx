@@ -68,7 +68,7 @@ export function EmissionTrajectory() {
               iconSize={8}
               wrapperStyle={{ fontSize: 8.5 }}
             />
-            <Area
+            <Area isAnimationActive={false}
               name="Aktual"
               type="monotone"
               dataKey="aktual"
@@ -79,7 +79,7 @@ export function EmissionTrajectory() {
               activeDot={{ r: 4 }}
               connectNulls={false}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Jalur Target"
               type="monotone"
               dataKey="target"

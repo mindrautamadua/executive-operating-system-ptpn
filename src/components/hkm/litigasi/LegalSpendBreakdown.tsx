@@ -62,7 +62,7 @@ export function LegalSpendBreakdown() {
               ]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="ytdRpM" radius={[0, 4, 4, 0]} barSize={14}>
+            <Bar isAnimationActive={false} dataKey="ytdRpM" radius={[0, 4, 4, 0]} barSize={14}>
               {data.map((r) => (
                 <Cell key={r.komponen} fill={r.color} />
               ))}

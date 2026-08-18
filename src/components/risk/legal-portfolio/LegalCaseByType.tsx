@@ -25,7 +25,7 @@ export function LegalCaseByType() {
         <div className="h-full w-[128px] shrink-0">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
-              <Pie
+              <Pie isAnimationActive={false}
                 data={legalCaseByType}
                 dataKey="count"
                 nameKey="tipe"

@@ -24,7 +24,7 @@ export function FindingsBySource() {
         <div className="h-full w-[132px] shrink-0">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
-              <Pie
+              <Pie isAnimationActive={false}
                 data={bySource}
                 dataKey="total"
                 nameKey="source"

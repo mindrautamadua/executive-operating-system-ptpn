@@ -96,7 +96,7 @@ export function SgnMillProfitability() {
                 "Margin EBITDA",
               ]}
             />
-            <Bar dataKey="marginPct" radius={[2, 2, 0, 0]} maxBarSize={26}>
+            <Bar isAnimationActive={false} dataKey="marginPct" radius={[2, 2, 0, 0]} maxBarSize={26}>
               {sgnMillClusters.map((d) => (
                 <Cell key={d.cluster} fill={SEMANTIC[d.tone]} />
               ))}

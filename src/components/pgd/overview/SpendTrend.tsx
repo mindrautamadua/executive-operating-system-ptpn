@@ -55,14 +55,14 @@ export function SpendTrend() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5 }}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               name="Realisasi Belanja"
               dataKey="belanja"
               fill={PALETTE.blue}
               radius={[3, 3, 0, 0]}
               barSize={13}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="RKAP Prorata"
               type="monotone"
               dataKey="rkapProrata"

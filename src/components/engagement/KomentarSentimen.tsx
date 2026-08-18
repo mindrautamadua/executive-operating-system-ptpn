@@ -40,7 +40,7 @@ export function KomentarSentimen() {
         ))}
       </div>
 
-      <div className="mt-2 grid min-h-0 flex-1 grid-cols-3 gap-2.5">
+      <div className="mt-2 grid min-h-0 flex-1 grid-cols-2 md:grid-cols-3 gap-2.5">
         {sentimenKomentar.map((s) => {
           const Icon = ICONS[s.icon];
           const kutipan = s.kutipan[quoteIdx % s.kutipan.length];

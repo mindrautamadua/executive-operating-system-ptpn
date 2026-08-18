@@ -81,7 +81,7 @@ export function SugarSelfSufficiency() {
               iconSize={10}
               wrapperStyle={{ fontSize: 8.5, color: CHART_AXIS.tick }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               name="Jalur Target"
               dataKey="targetRbTon"
@@ -90,7 +90,7 @@ export function SugarSelfSufficiency() {
               strokeDasharray="4 3"
               dot={{ r: 2.5 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               name="Produksi Aktual/Proyeksi"
               dataKey="produksiRbTon"

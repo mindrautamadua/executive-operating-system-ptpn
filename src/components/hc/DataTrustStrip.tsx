@@ -1,3 +1,5 @@
+"use client";
+
 import { Activity, Database, Gauge, ShieldCheck } from "lucide-react";
 import { dataTrust } from "@/lib/hc-data";
 import { STEMPEL_DATA } from "@/lib/group-baseline";
@@ -21,6 +23,15 @@ function Metric({
   );
 }
 
+/* Popover dibuka via hover ATAU focus (Tab/tap). Klik memaksa focus karena Safari
+   tidak memfokuskan button saat klik; Escape menutup dengan melepas focus. */
+const popoverTriggerProps = {
+  onClick: (e: React.MouseEvent<HTMLButtonElement>) => e.currentTarget.focus(),
+  onKeyDown: (e: React.KeyboardEvent<HTMLButtonElement>) => {
+    if (e.key === "Escape") e.currentTarget.blur();
+  },
+} as const;
+
 /** Strip Data Trust: kesegaran, cakupan, kualitas, dan sumber data dashboard. */
 export function DataTrustStrip({ data = dataTrust }: { data?: typeof dataTrust }) {
   return (
@@ -34,14 +45,20 @@ export function DataTrustStrip({ data = dataTrust }: { data?: typeof dataTrust }
         pembaca menganggap "refresh Agustus" berarti "data Agustus" — padahal
         angka mewakili periode s.d. tanggal efektif. Hover menjelaskan bedanya.
       */}
-      <div className="asof-badge group relative flex cursor-help items-center gap-1.5 rounded bg-[#1b3a6b] px-2 py-[3px]">
+      <button
+        type="button"
+        aria-haspopup="dialog"
+        aria-label={`Rincian lapisan waktu data — data bisnis per ${data.asOf}`}
+        {...popoverTriggerProps}
+        className="asof-badge group relative flex cursor-help items-center gap-1.5 rounded bg-[#1b3a6b] px-2 py-[3px]"
+      >
         <span className="asof-label text-[9px] font-bold uppercase tracking-[0.05em] text-[#b9c7dd]">
           Data Bisnis Per
         </span>
         <span className="asof-value text-[10px] font-extrabold uppercase tracking-[0.02em] text-white underline decoration-dotted decoration-[#5f7396] underline-offset-2">
           {data.asOf}
         </span>
-        <div className="invisible absolute left-0 top-full z-30 mt-1.5 w-[248px] rounded-xl border border-[#e3e9ef] bg-white p-3 opacity-0 shadow-cardHover transition-opacity duration-150 group-hover:visible group-hover:opacity-100">
+        <div className="invisible absolute left-0 top-full z-30 mt-1.5 w-[248px] rounded-xl border border-[#e3e9ef] bg-white p-3 opacity-0 shadow-cardHover transition-opacity duration-150 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
           {/* Lapisan waktu: historis, sistem, pasar tersinkron, sinyal eksternal, model forecast. */}
           <div className="space-y-1.5 text-[9px]">
             <div className="flex justify-between gap-2">
@@ -75,7 +92,7 @@ export function DataTrustStrip({ data = dataTrust }: { data?: typeof dataTrust }
             periode data kinerja.
           </p>
         </div>
-      </div>
+      </button>
 
       <div className="flex items-center gap-1.5">
         <span className="relative flex h-[7px] w-[7px]">
@@ -89,13 +106,19 @@ export function DataTrustStrip({ data = dataTrust }: { data?: typeof dataTrust }
       <Metric icon={Gauge} label="Coverage" value={data.coverage} />
 
       {/* Quality bisa di-hover untuk rincian dimensi kualitas data. */}
-      <div className="group relative flex cursor-help items-center gap-1.5">
+      <button
+        type="button"
+        aria-haspopup="dialog"
+        aria-label={`Rincian Data Trust Index ${data.quality}`}
+        {...popoverTriggerProps}
+        className="group relative flex cursor-help items-center gap-1.5"
+      >
         <ShieldCheck size={12} strokeWidth={1.9} className="shrink-0 text-ink-400" />
         <span className="text-[8.5px] text-ink-500">Trust</span>
         <span className="text-[9.5px] font-bold text-ink-900 underline decoration-dotted decoration-[#c6cfd8] underline-offset-2">
           {data.quality}
         </span>
-        <div className="invisible absolute left-0 top-full z-30 mt-1.5 w-[190px] rounded-xl border border-[#e3e9ef] bg-white p-3 opacity-0 shadow-cardHover transition-opacity duration-150 group-hover:visible group-hover:opacity-100">
+        <div className="invisible absolute left-0 top-full z-30 mt-1.5 w-[190px] rounded-xl border border-[#e3e9ef] bg-white p-3 opacity-0 shadow-cardHover transition-opacity duration-150 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
           <div className="text-[8.5px] font-extrabold uppercase tracking-[0.05em] text-ink-500">
             Data Trust Index{data.domain ? ` — ${data.domain}` : ""}
           </div>
@@ -109,7 +132,7 @@ export function DataTrustStrip({ data = dataTrust }: { data?: typeof dataTrust }
             ))}
           </div>
         </div>
-      </div>
+      </button>
 
       <div className="flex min-w-0 items-center gap-1.5">
         <Database size={12} strokeWidth={1.9} className="shrink-0 text-ink-400" />

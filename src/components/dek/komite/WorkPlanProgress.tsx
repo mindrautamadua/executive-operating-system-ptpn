@@ -89,8 +89,8 @@ export function WorkPlanProgress() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, n: string) => [`${v} program`, LABELS[n] ?? n]}
             />
-            <Bar dataKey="rencana" fill={PALETTE.slate} radius={[3, 3, 0, 0]} maxBarSize={26} />
-            <Bar dataKey="realisasi" radius={[3, 3, 0, 0]} maxBarSize={26}>
+            <Bar isAnimationActive={false} dataKey="rencana" fill={PALETTE.slate} radius={[3, 3, 0, 0]} maxBarSize={26} />
+            <Bar isAnimationActive={false} dataKey="realisasi" radius={[3, 3, 0, 0]} maxBarSize={26}>
               {DATA.map((d) => (
                 <Cell key={d.name} fill={d.color} />
               ))}

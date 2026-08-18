@@ -112,7 +112,7 @@ export function DecisionPipeline() {
               formatter={(v: number, n: string) => [`${v} keputusan`, LABELS[n] ?? n]}
             />
             {SERIES.map((s, i) => (
-              <Bar
+              <Bar isAnimationActive={false}
                 key={s.key}
                 dataKey={s.key}
                 stackId="dec"

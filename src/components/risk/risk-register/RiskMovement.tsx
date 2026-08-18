@@ -31,7 +31,7 @@ export function RiskMovement() {
       <SectionHead title="Pergerakan Risiko QoQ" badge={<ScopeNote />} />
       <p className="mt-[3px] text-[9px] text-ink-500">{riskMovement.periode}</p>
 
-      <div className="mt-2 grid grid-cols-4 gap-2">
+      <div className="mt-2 grid grid-cols-2 md:grid-cols-4 gap-2">
         {SUMMARY.map((s) => (
           <div key={s.key} className="rounded-lg border border-[#eef2f6] bg-[#fbfcfd] px-2 py-1.5">
             <div className={`text-[14px] font-extrabold leading-none ${s.cls}`}>{s.value}</div>

@@ -66,5 +66,5 @@ export function PanenKpiStrip() {
       </div>
     );
   }
-  return <ProdKpiCards items={panenKpi} cols="grid-cols-4" />;
+  return <ProdKpiCards items={panenKpi} cols="grid-cols-2 md:grid-cols-4" />;
 }

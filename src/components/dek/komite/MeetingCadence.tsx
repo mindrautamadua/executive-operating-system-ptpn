@@ -78,7 +78,7 @@ export function MeetingCadence() {
               formatter={(v: number, n: string) => [`${v} rapat`, LABELS[n] ?? n]}
             />
             {SERIES.map((s) => (
-              <Bar
+              <Bar isAnimationActive={false}
                 key={s.key}
                 dataKey={s.key}
                 stackId="komite"

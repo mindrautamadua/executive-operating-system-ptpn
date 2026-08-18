@@ -60,7 +60,7 @@ export function TenderPipeline() {
               contentStyle={CHART_TOOLTIP_STYLE}
             />
             {tenderPipeline.map((r, i) => (
-              <Bar
+              <Bar isAnimationActive={false}
                 key={r.tahap}
                 dataKey={r.tahap}
                 stackId="pipeline"

@@ -52,7 +52,7 @@ export function DataQualityOverview() {
               formatter={(v: number) => [`${v.toFixed(1).replace(".", ",")}%`, "Skor"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Skor"
               dataKey="share"
               stroke={PALETTE.blue}

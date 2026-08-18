@@ -23,6 +23,7 @@ export function SllKpiTracker() {
       </p>
 
       <div className="mt-2 min-h-0 flex-1 overflow-hidden">
+        <div className="scroll-thin overflow-x-auto">
         <table className="w-full border-collapse">
           <thead>
             <tr className="border-b border-[#eef2f6] text-[8.5px] font-semibold text-ink-500">
@@ -48,6 +49,7 @@ export function SllKpiTracker() {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
 
       <div className="mt-1 flex items-center justify-between gap-2 rounded-lg bg-[#f8fafc] px-2.5 py-[6px]">

@@ -67,7 +67,7 @@ export function SpendBreakdown() {
                   : label;
               }}
             />
-            <Bar dataKey="nilaiRpT" radius={[0, 3, 3, 0]} maxBarSize={20}>
+            <Bar isAnimationActive={false} dataKey="nilaiRpT" radius={[0, 3, 3, 0]} maxBarSize={20}>
               {data.map((d) => (
                 <Cell key={d.kategori} fill={d.color} />
               ))}

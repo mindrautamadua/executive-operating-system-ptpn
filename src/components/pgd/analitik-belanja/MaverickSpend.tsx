@@ -80,7 +80,7 @@ export function MaverickSpend() {
                 fill: CHART_AXIS.tick,
               }}
             />
-            <Bar dataKey="maverickPct" radius={[3, 3, 0, 0]} barSize={22}>
+            <Bar isAnimationActive={false} dataKey="maverickPct" radius={[3, 3, 0, 0]} barSize={22}>
               {maverickSpend.map((m) => (
                 <Cell key={m.unit} fill={PGD_STATUS_COLOR[m.status]} fillOpacity={dim(m.unit)} />
               ))}

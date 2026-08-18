@@ -76,7 +76,7 @@ export function LtifrTrend() {
                 style: { fontSize: 8, fill: PALETTE.slate, fontWeight: 700 },
               }}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="LTIFR"
               type="monotone"
               dataKey="ltifr"

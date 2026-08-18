@@ -40,7 +40,7 @@ export function PgdRiskRadar() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, name: string) => [v.toLocaleString("id-ID"), name]}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Ambang Toleransi"
               dataKey="target"
               stroke={PALETTE.slate}
@@ -49,7 +49,7 @@ export function PgdRiskRadar() {
               fill={PALETTE.slate}
               fillOpacity={0.05}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Skor Risiko 2026"
               dataKey="score"
               stroke={PALETTE.red}

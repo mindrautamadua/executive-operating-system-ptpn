@@ -79,7 +79,7 @@ export function PriceIndexTrend() {
               }}
             />
             {SERIES.map((s) => (
-              <Line
+              <Line isAnimationActive={false}
                 key={s.key}
                 name={s.name}
                 type="monotone"

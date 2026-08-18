@@ -4,6 +4,7 @@ import { useLayoutEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { PanelLeftClose, PanelLeftOpen } from "lucide-react";
+import { MobileSidebarFrame } from "@/components/shared/MobileSidebarFrame";
 import { PtpnLogo } from "./PtpnLogo";
 import { BOARD_NAV_SECTIONS, CEO_NAV_SECTIONS, NAV_SECTIONS } from "@/lib/nav";
 import { dataTrust } from "@/lib/hc-data";
@@ -44,6 +45,7 @@ export function Sidebar() {
   }, [pathname, collapsed, mode]);
 
   return (
+    <MobileSidebarFrame>
     <aside
       className={`flex h-full shrink-0 flex-col border-r border-[#e9eef3] bg-white transition-[width] duration-200 ${
         collapsed ? "w-[56px]" : "w-[196px]"
@@ -72,6 +74,7 @@ export function Sidebar() {
               key={m.id}
               type="button"
               onClick={() => setMode(m.id)}
+              aria-pressed={mode === m.id}
               className={`flex-1 rounded-md py-[5px] text-[9px] font-bold transition-colors ${
                 mode === m.id
                   ? "bg-white text-ptpn-green shadow-card"
@@ -85,7 +88,11 @@ export function Sidebar() {
       )}
 
       {/* nav */}
-      <nav ref={navRef} className="scroll-thin relative flex-1 overflow-y-auto px-3 pb-2">
+      <nav
+        ref={navRef}
+        aria-label="Navigasi utama"
+        className="scroll-thin relative flex-1 overflow-y-auto px-3 pb-2"
+      >
         {pill && (
           <span
             aria-hidden
@@ -124,6 +131,8 @@ export function Sidebar() {
                   key={label}
                   href={href}
                   data-active={on || undefined}
+                  aria-current={on ? "page" : undefined}
+                  aria-label={collapsed ? label : undefined}
                   title={collapsed ? label : undefined}
                   className={cls}
                 >
@@ -133,6 +142,9 @@ export function Sidebar() {
                 <button
                   key={label}
                   type="button"
+                  disabled
+                  aria-disabled="true"
+                  aria-label={`${label} — Segera hadir`}
                   className={`${cls} opacity-50`}
                   title={collapsed ? `${label} — Segera hadir` : "Segera hadir"}
                 >
@@ -149,6 +161,8 @@ export function Sidebar() {
         <button
           type="button"
           onClick={toggle}
+          aria-expanded={!collapsed}
+          aria-label={collapsed ? "Perlebar menu" : "Ciutkan menu"}
           title={collapsed ? "Perlebar menu" : "Ciutkan menu"}
           className={`flex w-full items-center rounded-lg py-[7px] text-[10px] font-semibold text-ink-500 transition-colors hover:bg-[#f5f8fa] hover:text-ink-700 ${
             collapsed ? "justify-center px-0" : "gap-2 px-2.5"
@@ -188,5 +202,6 @@ export function Sidebar() {
         </div>
       )}
     </aside>
+    </MobileSidebarFrame>
   );
 }

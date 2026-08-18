@@ -80,8 +80,8 @@ export function PsrProgress() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5, color: CHART_AXIS.tick }}
             />
-            <Bar dataKey="targetRbHa" name="Target" fill={PALETTE.slate} radius={[3, 3, 0, 0]} />
-            <Bar
+            <Bar isAnimationActive={false} dataKey="targetRbHa" name="Target" fill={PALETTE.slate} radius={[3, 3, 0, 0]} />
+            <Bar isAnimationActive={false}
               dataKey="realisasiRbHa"
               name="Realisasi"
               fill={PALETTE.green}

@@ -39,7 +39,7 @@ export function HguPortfolio() {
         Status Legalitas Lahan &amp; Jatuh Tempo Hak Guna Usaha
       </p>
 
-      <div className="mt-2 grid grid-cols-3 gap-2">
+      <div className="mt-2 grid grid-cols-2 md:grid-cols-3 gap-2">
         {CARDS.map((c) => (
           <div key={c.label} className={`rounded-xl border px-2.5 py-2 ${c.cls}`}>
             <div className={`text-[18px] font-extrabold leading-none ${c.valueCls}`}>{c.value}</div>

@@ -14,7 +14,7 @@ export const metadata = { title: "KPI Korporat & Scorecard — PTPN Group" };
 
 export default function KpiKorporatPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <StgSidebar active="KPI Korporat & Scorecard" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

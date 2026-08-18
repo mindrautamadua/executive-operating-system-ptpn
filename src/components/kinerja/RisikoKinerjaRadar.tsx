@@ -37,7 +37,7 @@ export function RisikoKinerjaRadar() {
         </span>
       </div>
 
-      <div className="mt-2.5 grid grid-cols-5 gap-2">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-2">
         {risikoKinerja.map((r) => {
           const t = TONE[r.tone];
           return (

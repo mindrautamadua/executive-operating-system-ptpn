@@ -93,12 +93,12 @@ export function FacilityAgeCondition() {
               labelFormatter={() => ""}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Scatter name="PKS" data={pks} shape="circle">
+            <Scatter isAnimationActive={false} name="PKS" data={pks} shape="circle">
               {pks.map((d) => (
                 <Cell key={d.pabrik} fill={warna(d.kondisiIndex)} fillOpacity={0.85 * dim("PKS")} />
               ))}
             </Scatter>
-            <Scatter name="PG" data={pg} shape="square">
+            <Scatter isAnimationActive={false} name="PG" data={pg} shape="square">
               {pg.map((d) => (
                 <Cell key={d.pabrik} fill={warna(d.kondisiIndex)} fillOpacity={0.85 * dim("PG")} />
               ))}

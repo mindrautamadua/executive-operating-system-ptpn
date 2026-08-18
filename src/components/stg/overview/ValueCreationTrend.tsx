@@ -68,7 +68,7 @@ export function ValueCreationTrend() {
               iconSize={10}
               wrapperStyle={{ fontSize: 8.5, color: CHART_AXIS.tick }}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               name="Jalur Target"
               dataKey="target"
@@ -78,7 +78,7 @@ export function ValueCreationTrend() {
               fill="url(#stg-vc-target)"
               dot={false}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               name="Realisasi"
               dataKey="realisasi"

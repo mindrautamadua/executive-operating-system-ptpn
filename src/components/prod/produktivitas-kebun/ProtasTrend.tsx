@@ -76,7 +76,7 @@ export function ProtasTrend() {
               formatter={(v: number) => [`${num(v)} t/ha`, "Yield TBS"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="linear"
               dataKey="yieldTonHa"
               stroke={PALETTE.green}

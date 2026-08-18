@@ -70,17 +70,17 @@ export function MilestoneByOwner() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5, color: CHART_AXIS.tick }}
             />
-            <Bar dataKey="done" name="Selesai" stackId="m" fill={PALETTE.green} barSize={30}>
+            <Bar isAnimationActive={false} dataKey="done" name="Selesai" stackId="m" fill={PALETTE.green} barSize={30}>
               {data.map((d) => (
                 <Cell key={d.owner} fillOpacity={dim(d.sub)} />
               ))}
             </Bar>
-            <Bar dataKey="onTrack" name="On Track" stackId="m" fill={PALETTE.blue}>
+            <Bar isAnimationActive={false} dataKey="onTrack" name="On Track" stackId="m" fill={PALETTE.blue}>
               {data.map((d) => (
                 <Cell key={d.owner} fillOpacity={dim(d.sub)} />
               ))}
             </Bar>
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="late"
               name="Terlambat"
               stackId="m"

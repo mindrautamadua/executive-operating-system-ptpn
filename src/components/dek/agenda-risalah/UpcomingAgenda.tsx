@@ -23,7 +23,7 @@ export function UpcomingAgenda() {
       </p>
 
       <div className="scroll-thin mt-1.5 min-h-0 flex-1 overflow-y-auto pr-1">
-        <div className="grid grid-cols-5 gap-2">
+        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-2">
           {upcomingAgenda.map((a) => (
             <div
               key={`${a.tanggal}-${a.forum}`}

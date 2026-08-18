@@ -22,7 +22,7 @@ export function InsightProduktivitas() {
         <ScopeNote />
       </h3>
 
-      <div className="mt-2.5 grid min-h-0 flex-1 grid-cols-4 gap-2.5">
+      <div className="mt-2.5 grid min-h-0 flex-1 grid-cols-2 md:grid-cols-4 gap-2.5">
         {insightProduktivitas.map((it) => {
           const t = TONE[it.tone];
           return (

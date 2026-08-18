@@ -60,7 +60,7 @@ export function IncidentByCause() {
                 return [`${v} kasus · ${pct(r.pct)} · ${r.contoh}`, r.penyebab];
               }}
             />
-            <Bar dataKey="jumlah" radius={[3, 3, 0, 0]} barSize={30}>
+            <Bar isAnimationActive={false} dataKey="jumlah" radius={[3, 3, 0, 0]} barSize={30}>
               {incidentByCause.map((r) => (
                 <Cell key={r.penyebab} fill={r.color} fillOpacity={0.85} />
               ))}

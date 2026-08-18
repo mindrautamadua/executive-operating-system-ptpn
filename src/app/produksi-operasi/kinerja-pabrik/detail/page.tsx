@@ -38,7 +38,7 @@ export default function KinerjaPabrikDetailPage() {
   const totalCapex = revitalisasi.reduce((a, r) => a + r.capexRpM, 0);
 
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <ProdSidebar active="Kinerja Pabrik" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">
@@ -60,6 +60,7 @@ export default function KinerjaPabrikDetailPage() {
             title="Utilisasi per Jenis Pabrik"
             subtitle="Kapasitas terpasang, utilisasi aktual vs target RKAP per jenis pabrik"
           >
+            <div className="scroll-thin overflow-x-auto">
             <table className="w-full min-w-[520px] border-collapse">
               <thead>
                 <tr>
@@ -94,6 +95,7 @@ export default function KinerjaPabrikDetailPage() {
                 })}
               </tbody>
             </table>
+            </div>
           </DetailCard>
 
           {/* 2. register PKS */}
@@ -103,6 +105,7 @@ export default function KinerjaPabrikDetailPage() {
             subtitle="Peringkat OER & utilisasi per PKS · menampilkan 10 dari 36 PKS"
             note="Spread OER 3,4 ppt antara PKS terbaik dan terburuk — menaikkan 5 PKS terbawah ke rata-rata grup setara ± Rp 180 M/bln pada volume puncak."
           >
+            <div className="scroll-thin overflow-x-auto">
             <table className="w-full min-w-[520px] border-collapse">
               <thead>
                 <tr>
@@ -132,6 +135,7 @@ export default function KinerjaPabrikDetailPage() {
                 })}
               </tbody>
             </table>
+            </div>
           </DetailCard>
 
           {/* 3. register 17 PG */}
@@ -141,6 +145,7 @@ export default function KinerjaPabrikDetailPage() {
             subtitle={`Jam berhenti giling (target ≤${PG_JAM_BERHENTI_TARGET_PCT}%) & overall recovery (target ≥${PG_OVERALL_RECOVERY_TARGET_PCT}%) · urut jam berhenti tertinggi`}
             note={pgReadinessNote}
           >
+            <div className="scroll-thin overflow-x-auto">
             <table className="w-full min-w-[520px] border-collapse">
               <thead>
                 <tr>
@@ -177,6 +182,7 @@ export default function KinerjaPabrikDetailPage() {
                 })}
               </tbody>
             </table>
+            </div>
           </DetailCard>
 
           {/* 4. downtime */}
@@ -196,6 +202,7 @@ export default function KinerjaPabrikDetailPage() {
                   <div className="text-[8.5px] font-extrabold uppercase tracking-[0.04em] text-ink-400">
                     {label}
                   </div>
+                  <div className="scroll-thin overflow-x-auto">
                   <table className="mt-1 w-full border-collapse">
                     <thead>
                       <tr>
@@ -216,6 +223,7 @@ export default function KinerjaPabrikDetailPage() {
                       ))}
                     </tbody>
                   </table>
+                  </div>
                 </div>
               ))}
             </div>
@@ -238,6 +246,7 @@ export default function KinerjaPabrikDetailPage() {
                   <div className="text-[8.5px] font-extrabold uppercase tracking-[0.04em] text-ink-400">
                     {label}
                   </div>
+                  <div className="scroll-thin overflow-x-auto">
                   <table className="mt-1 w-full border-collapse">
                     <thead>
                       <tr>
@@ -262,6 +271,7 @@ export default function KinerjaPabrikDetailPage() {
                       ))}
                     </tbody>
                   </table>
+                  </div>
                   <p className="mt-1.5 text-[9px] leading-snug text-ink-500">{catatan}</p>
                 </div>
               ))}
@@ -274,6 +284,7 @@ export default function KinerjaPabrikDetailPage() {
             title="Program Capex Revitalisasi"
             subtitle={`6 pabrik prioritas · total capex Rp ${totalCapex.toLocaleString("id-ID")} M — bagian RKAP capex pabrik`}
           >
+            <div className="scroll-thin overflow-x-auto">
             <table className="w-full min-w-[560px] border-collapse">
               <thead>
                 <tr>
@@ -326,6 +337,7 @@ export default function KinerjaPabrikDetailPage() {
                 ))}
               </tbody>
             </table>
+            </div>
           </DetailCard>
 
           <DetailNotes

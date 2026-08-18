@@ -14,7 +14,7 @@ export function Committees() {
         11 Kursi · 24 Rapat YTD · 5 Kursi Diisi Profesional Independen Non-Dekom
       </p>
 
-      <div className="mt-2 grid min-h-0 flex-1 grid-cols-3 gap-3">
+      <div className="mt-2 grid min-h-0 flex-1 grid-cols-2 md:grid-cols-3 gap-3">
         {committees.map((c) => (
           <div
             key={c.komite}

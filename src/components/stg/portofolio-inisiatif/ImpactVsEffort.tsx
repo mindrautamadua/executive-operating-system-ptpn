@@ -88,7 +88,7 @@ export function ImpactVsEffort() {
                 name === "effortRpT" ? "Investasi" : "Dampak 2029",
               ]}
             />
-            <Scatter data={points} shape="circle">
+            <Scatter isAnimationActive={false} data={points} shape="circle">
               {points.map((p) => (
                 <Cell key={p.name} fill={STATUS_COLOR[p.status]} fillOpacity={0.8} />
               ))}

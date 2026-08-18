@@ -72,7 +72,7 @@ export function MarginUpliftChart() {
               formatter={(v: number) => [`${rp(v)}/kg`, "Margin Terintegrasi"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="marginRpKg" radius={[3, 3, 0, 0]} maxBarSize={44}>
+            <Bar isAnimationActive={false} dataKey="marginRpKg" radius={[3, 3, 0, 0]} maxBarSize={44}>
               {DATA.map((d, i) => (
                 <Cell key={d.tahap} fill={COLORS[i]} />
               ))}

@@ -93,21 +93,21 @@ export function RkapScoreBySubholding() {
                 fill: "var(--chart-tick)",
               }}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="PalmCo"
               fill={SEG_COLOR.PalmCo}
               fillOpacity={dim("PalmCo")}
               radius={[2, 2, 0, 0]}
               maxBarSize={14}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="SGN"
               fill={SEG_COLOR.SGN}
               fillOpacity={dim("SGN")}
               radius={[2, 2, 0, 0]}
               maxBarSize={14}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="PTPN I"
               fill={SEG_COLOR["PTPN I"]}
               fillOpacity={dim("PTPN I")}

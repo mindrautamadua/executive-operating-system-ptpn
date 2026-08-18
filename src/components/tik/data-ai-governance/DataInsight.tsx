@@ -27,7 +27,7 @@ export function DataInsight() {
         </Link>
       </div>
 
-      <div className="mt-2.5 grid grid-cols-4 gap-3">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-4 gap-3">
         {dataInsights.map((ins) => (
           <div key={ins.insight} className="flex items-start gap-2.5">
             <span className="flex h-[30px] w-[30px] shrink-0 items-center justify-center rounded-full bg-[#e8f1fd] text-[#2f6fe4]">

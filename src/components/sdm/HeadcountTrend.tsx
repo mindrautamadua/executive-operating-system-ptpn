@@ -68,7 +68,7 @@ export function HeadcountTrend() {
               formatter={(v: number) => [v.toLocaleString("id-ID"), "Karyawan"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               dataKey="value"
               stroke={PALETTE.greenSoft}

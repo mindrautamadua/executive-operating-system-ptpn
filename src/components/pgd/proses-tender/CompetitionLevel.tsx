@@ -56,7 +56,7 @@ export function CompetitionLevel() {
               formatter={(v: number) => [`${v} paket`, "Jumlah Paket"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="paket" radius={[4, 4, 0, 0]} barSize={32}>
+            <Bar isAnimationActive={false} dataKey="paket" radius={[4, 4, 0, 0]} barSize={32}>
               {competitionLevel.map((r) => (
                 <Cell key={r.bucket} fill={BENDERA_COLOR[r.bendera]} />
               ))}

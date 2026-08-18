@@ -87,7 +87,7 @@ export function MarginBenchmark() {
               strokeDasharray="3 3"
               strokeWidth={1.2}
             />
-            <Bar dataKey="margin" radius={[3, 3, 0, 0]} maxBarSize={30}>
+            <Bar isAnimationActive={false} dataKey="margin" radius={[3, 3, 0, 0]} maxBarSize={30}>
               {DATA.map((d) => (
                 <Cell key={d.company} fill={d.isPtpn ? PALETTE.green : PALETTE.blueSoft} />
               ))}

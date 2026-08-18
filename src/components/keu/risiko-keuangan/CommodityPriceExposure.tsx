@@ -73,7 +73,7 @@ export function CommodityPriceExposure() {
                 fill: PALETTE.red,
               }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="cpo"
               stroke={PALETTE.green}
@@ -81,7 +81,7 @@ export function CommodityPriceExposure() {
               dot={false}
               activeDot={{ r: 4 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="gula"
               stroke={PALETTE.amber}

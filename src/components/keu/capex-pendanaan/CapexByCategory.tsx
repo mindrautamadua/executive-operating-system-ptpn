@@ -79,8 +79,8 @@ export function CapexByCategory() {
                 name === "plan" ? "RKAP FY" : "Realisasi YTD",
               ]}
             />
-            <Bar dataKey="plan" fill={PALETTE.blueSoft} radius={[2, 2, 0, 0]} maxBarSize={18} />
-            <Bar dataKey="actual" fill={PALETTE.green} radius={[2, 2, 0, 0]} maxBarSize={18} />
+            <Bar isAnimationActive={false} dataKey="plan" fill={PALETTE.blueSoft} radius={[2, 2, 0, 0]} maxBarSize={18} />
+            <Bar isAnimationActive={false} dataKey="actual" fill={PALETTE.green} radius={[2, 2, 0, 0]} maxBarSize={18} />
           </BarChart>
         </ResponsiveContainer>
       </div>

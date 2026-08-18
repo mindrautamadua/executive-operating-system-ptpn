@@ -16,7 +16,7 @@ export function ForecastFullYear() {
         Forecast FY berbasis run-rate YTD + phasing musiman H2
       </p>
 
-      <div className="mt-2.5 grid grid-cols-4 gap-3">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-4 gap-3">
         {fyForecast.map((f) => (
           <div key={f.label} className="rounded-xl border border-[#eef2f6] bg-[#f8fafc] px-3 py-2.5">
             <div className="flex items-center justify-between gap-2">

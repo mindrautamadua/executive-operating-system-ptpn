@@ -28,7 +28,7 @@ export function MarginKpiStrip() {
   const { active } = useSubholding();
 
   return (
-    <div className="grid gap-3 grid-cols-6">
+    <div className="grid gap-3 grid-cols-2 md:grid-cols-3 xl:grid-cols-6">
       {marginKpi.map((k, i) => {
         const Icon = ICONS[i];
         const terikatKomoditas = commodityScope(k.label) !== undefined;

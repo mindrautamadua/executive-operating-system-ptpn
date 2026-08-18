@@ -72,7 +72,7 @@ export function RegionalProfitability() {
                 "EBITDA/ha",
               ]}
             />
-            <Bar dataKey="ebitdaPerHaRpJt" radius={[0, 3, 3, 0]} maxBarSize={14}>
+            <Bar isAnimationActive={false} dataKey="ebitdaPerHaRpJt" radius={[0, 3, 3, 0]} maxBarSize={14}>
               {regionalProfitability.map((d) => (
                 <Cell key={d.regional} fill={SEMANTIC[d.tone]} />
               ))}

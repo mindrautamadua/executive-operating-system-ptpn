@@ -50,7 +50,7 @@ export function AgingBuckets() {
               formatter={(v: number) => [`${v} temuan`, "Terbuka"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="count" radius={[4, 4, 0, 0]} barSize={34}>
+            <Bar isAnimationActive={false} dataKey="count" radius={[4, 4, 0, 0]} barSize={34}>
               {agingBuckets.map((b) => (
                 <Cell key={b.label} fill={b.color} />
               ))}

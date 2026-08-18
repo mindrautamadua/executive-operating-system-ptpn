@@ -35,7 +35,7 @@ export function LndDecisionCenter() {
         Keputusan yang Diperlukan Direksi Saat Ini · Total Eksposur Terkait Rp 69,3 M
       </p>
 
-      <div className="mt-2.5 grid grid-cols-3 gap-3">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-3 gap-3">
         {lndDecisions.map((d) => {
           const t = TONE[d.tone];
           return (

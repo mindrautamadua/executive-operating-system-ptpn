@@ -84,7 +84,7 @@ export function YieldTrend() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5, color: CHART_AXIS.tick }}
             />
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="left"
               type="monotone"
               dataKey="yieldTonHa"
@@ -93,7 +93,7 @@ export function YieldTrend() {
               strokeWidth={1.8}
               dot={{ r: 2.4 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="left"
               type="monotone"
               dataKey="cpoPerHaTon"
@@ -102,7 +102,7 @@ export function YieldTrend() {
               strokeWidth={1.8}
               dot={{ r: 2.4 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="right"
               type="monotone"
               dataKey="oerPct"

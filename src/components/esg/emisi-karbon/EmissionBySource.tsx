@@ -48,7 +48,7 @@ export function EmissionBySource() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number) => [`${angka(v)} jt tCO2e`, "Emisi"]}
             />
-            <Bar dataKey="nilaiJtTon" radius={[0, 3, 3, 0]} barSize={13}>
+            <Bar isAnimationActive={false} dataKey="nilaiJtTon" radius={[0, 3, 3, 0]} barSize={13}>
               {emissionBySource.map((d) => (
                 <Cell key={d.sumber} fill={d.color} />
               ))}

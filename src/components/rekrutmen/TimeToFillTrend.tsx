@@ -67,7 +67,7 @@ export function TimeToFillTrend() {
                 fontWeight: 600,
               }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="linear"
               dataKey="value"
               stroke={PALETTE.green}

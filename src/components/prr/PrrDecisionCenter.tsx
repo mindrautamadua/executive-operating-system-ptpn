@@ -35,7 +35,7 @@ export function PrrDecisionCenter() {
         Keputusan yang Diperlukan Direksi Saat Ini · Total Eksposur Terkait Rp 103,9 M
       </p>
 
-      <div className="mt-2.5 grid grid-cols-3 gap-3">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-3 gap-3">
         {prrDecisions.map((d) => {
           const t = TONE[d.tone];
           return (

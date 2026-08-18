@@ -47,7 +47,7 @@ export function SalesBySubholding() {
         ))}
       </div>
 
-      <div className="mt-2.5 grid min-h-0 flex-1 grid-cols-3 gap-3">
+      <div className="mt-2.5 grid min-h-0 flex-1 grid-cols-2 md:grid-cols-3 gap-3">
         {salesBySubholding.map((s, i) => (
           <div
             key={s.name}

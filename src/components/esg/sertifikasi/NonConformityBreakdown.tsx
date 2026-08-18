@@ -46,7 +46,7 @@ export function NonConformityBreakdown() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number) => [`${v} temuan`, "Non-conformity"]}
             />
-            <Bar dataKey="jumlah" radius={[0, 3, 3, 0]} barSize={11}>
+            <Bar isAnimationActive={false} dataKey="jumlah" radius={[0, 3, 3, 0]} barSize={11}>
               {ncBreakdown.map((d) => (
                 <Cell key={d.prinsip} fill={d.color} />
               ))}

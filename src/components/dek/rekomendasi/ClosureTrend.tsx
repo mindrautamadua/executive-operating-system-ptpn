@@ -55,7 +55,7 @@ export function ClosureTrend() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Terbit Kumulatif"
               type="monotone"
               dataKey="terbitKumulatif"
@@ -64,7 +64,7 @@ export function ClosureTrend() {
               dot={{ r: 2.4 }}
               activeDot={{ r: 4 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Selesai Kumulatif"
               type="monotone"
               dataKey="selesaiKumulatif"

@@ -70,7 +70,7 @@ export function UtilisasiByJenis() {
             />
             {/* Grafik pembanding: batang di luar cakupan diredupkan, bukan dihapus,
                 supaya posisi relatif antar jenis pabrik tetap terbaca. */}
-            <Bar dataKey="utilisasi" fill={PALETTE.green} radius={[3, 3, 0, 0]}>
+            <Bar isAnimationActive={false} dataKey="utilisasi" fill={PALETTE.green} radius={[3, 3, 0, 0]}>
               {data.map((d) => (
                 <Cell
                   key={d.name}
@@ -86,7 +86,7 @@ export function UtilisasiByJenis() {
                 style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Bar>
-            <Bar dataKey="target" fill={PALETTE.slate} fillOpacity={0.45} radius={[3, 3, 0, 0]}>
+            <Bar isAnimationActive={false} dataKey="target" fill={PALETTE.slate} fillOpacity={0.45} radius={[3, 3, 0, 0]}>
               {data.map((d) => (
                 <Cell
                   key={d.name}

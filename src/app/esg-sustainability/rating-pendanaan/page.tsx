@@ -15,7 +15,7 @@ export const metadata = { title: "Governance, Rating & Sustainable Finance — P
 
 export default function RatingPendanaanPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <EsgSidebar active="Rating & Sustainable Finance" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

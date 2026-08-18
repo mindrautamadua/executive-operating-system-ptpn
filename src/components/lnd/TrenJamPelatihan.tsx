@@ -67,7 +67,7 @@ export function TrenJamPelatihan() {
               formatter={(v: number) => [`${idn(v)} Jam`, "Jam Pelatihan"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               dataKey="value"
               stroke={PALETTE.blue}

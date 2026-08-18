@@ -51,7 +51,7 @@ export function GeoConcentration() {
               formatter={(v: number) => [`${v} perkara`, "Jumlah"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="count" radius={[0, 4, 4, 0]} barSize={10}>
+            <Bar isAnimationActive={false} dataKey="count" radius={[0, 4, 4, 0]} barSize={10}>
               {geoConcentration.map((r) => (
                 <Cell
                   key={r.provinsi}

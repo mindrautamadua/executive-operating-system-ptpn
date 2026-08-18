@@ -106,7 +106,7 @@ export function SugarProductivity() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5, color: CHART_AXIS.tick }}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="utilisasiPct"
               name="Utilisasi"
               fill={PALETTE.blue}
@@ -114,7 +114,7 @@ export function SugarProductivity() {
               radius={[3, 3, 0, 0]}
               maxBarSize={26}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="rendemenPct"
               name="Rendemen"
               fill={PALETTE.green}

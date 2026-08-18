@@ -27,7 +27,7 @@ export function EudrInsight() {
         </button>
       </div>
 
-      <div className="mt-2.5 grid grid-cols-3 gap-4">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-3 gap-4">
         {eudrInsights.map((ins, i) => {
           const Icon = ICONS[i % ICONS.length];
           const tone = TONES[i % TONES.length];

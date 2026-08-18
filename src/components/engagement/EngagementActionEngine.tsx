@@ -22,7 +22,7 @@ export function EngagementActionEngine() {
         </span>
       </div>
 
-      <div className="mt-2.5 grid min-h-0 flex-1 grid-cols-3 gap-2.5">
+      <div className="mt-2.5 grid min-h-0 flex-1 grid-cols-2 md:grid-cols-3 gap-2.5">
         {actionEngine.map((a) => (
           <div
             key={a.issue}

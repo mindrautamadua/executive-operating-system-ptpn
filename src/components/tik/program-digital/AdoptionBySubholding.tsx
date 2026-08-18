@@ -90,7 +90,7 @@ export function AdoptionBySubholding() {
                 style: { fontSize: 8, fill: PALETTE.amber, fontWeight: 700 },
               }}
             />
-            <Bar name="Adopsi" dataKey="adopsiPct" radius={[3, 3, 0, 0]} barSize={34}>
+            <Bar isAnimationActive={false} name="Adopsi" dataKey="adopsiPct" radius={[3, 3, 0, 0]} barSize={34}>
               {adoptionBySubholding.map((r) => (
                 <Cell
                   key={r.entitas}

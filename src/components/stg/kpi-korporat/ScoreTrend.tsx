@@ -87,7 +87,7 @@ export function ScoreTrend() {
               formatter={(v: number, n: string) => [v.toLocaleString("id-ID"), LABELS[n] ?? n]}
             />
             {SERIES.map((s) => (
-              <Line
+              <Line isAnimationActive={false}
                 key={s.key}
                 type="monotone"
                 dataKey={s.key}

@@ -79,7 +79,7 @@ export function HarvestCycleCard() {
                 fontWeight: 700,
               }}
             />
-            <Bar dataKey="rotasiHari" barSize={24} radius={[4, 4, 0, 0]}>
+            <Bar isAnimationActive={false} dataKey="rotasiHari" barSize={24} radius={[4, 4, 0, 0]}>
               {rows.map((r) => (
                 <Cell key={r.regional} fill={barColor(r.rotasiHari)} />
               ))}

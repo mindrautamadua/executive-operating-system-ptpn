@@ -53,8 +53,8 @@ export function ClaimHistory() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8, color: CHART_AXIS.tick }}
             />
-            <Bar dataKey="premiRpM" name="Premi" fill={PALETTE.blue} radius={[4, 4, 0, 0]} barSize={20} />
-            <Bar dataKey="klaimRpM" name="Klaim" fill={PALETTE.amber} radius={[4, 4, 0, 0]} barSize={20}>
+            <Bar isAnimationActive={false} dataKey="premiRpM" name="Premi" fill={PALETTE.blue} radius={[4, 4, 0, 0]} barSize={20} />
+            <Bar isAnimationActive={false} dataKey="klaimRpM" name="Klaim" fill={PALETTE.amber} radius={[4, 4, 0, 0]} barSize={20}>
               <LabelList
                 dataKey="lossRatioPct"
                 position="top"

@@ -58,7 +58,7 @@ export function IntensityTrend() {
               iconSize={8}
               wrapperStyle={{ fontSize: 8.5 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Benchmark Industri"
               type="monotone"
               dataKey="benchmark"
@@ -67,7 +67,7 @@ export function IntensityTrend() {
               strokeDasharray="4 3"
               dot={false}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Intensitas PTPN"
               type="monotone"
               dataKey="intensitas"

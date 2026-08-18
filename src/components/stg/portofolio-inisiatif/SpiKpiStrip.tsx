@@ -54,5 +54,5 @@ export function SpiKpiStrip() {
     }
   });
 
-  return <StgKpiCards items={items} cols="grid-cols-4" />;
+  return <StgKpiCards items={items} cols="grid-cols-2 md:grid-cols-4" />;
 }

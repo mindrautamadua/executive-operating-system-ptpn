@@ -32,7 +32,7 @@ function SectionTitle({ children }: { children: React.ReactNode }) {
  */
 export default function TalentBriefPage() {
   return (
-    <div className="min-h-screen bg-[var(--bg-app)] print:bg-white">
+    <div className="min-h-dvh bg-[var(--bg-app)] print:bg-white">
       <div className="mx-auto max-w-[820px] px-5 py-4">
         <div className="mb-3 flex items-center justify-between print:hidden">
           <Link
@@ -92,7 +92,7 @@ export default function TalentBriefPage() {
           {/* talent signal */}
           <div className="mt-4">
             <SectionTitle>Talent Signal</SectionTitle>
-            <div className="mt-1.5 grid grid-cols-4 gap-2">
+            <div className="mt-1.5 grid grid-cols-2 md:grid-cols-4 gap-2">
               {talentSignal.map((s) => (
                 <div key={s.label} className="rounded-lg border border-[#eef2f6] px-2.5 py-1.5">
                   <div className="text-[7.5px] text-ink-500">{s.label}</div>

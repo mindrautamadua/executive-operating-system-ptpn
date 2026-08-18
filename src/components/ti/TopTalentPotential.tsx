@@ -19,6 +19,7 @@ export function TopTalentPotential() {
       <p className="mt-[3px] text-[9px] text-ink-500">10 Talenta dengan Potential Tertinggi</p>
 
       <div className="mt-2 min-h-0 flex-1 overflow-hidden">
+        <div className="scroll-thin overflow-x-auto">
         <table className="w-full border-collapse">
           <thead>
             <tr className="border-b border-[#eef2f6] text-left text-[9px] font-bold uppercase tracking-[0.04em] text-ink-500">
@@ -61,6 +62,7 @@ export function TopTalentPotential() {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
     </section>
   );

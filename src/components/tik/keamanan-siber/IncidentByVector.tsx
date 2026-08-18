@@ -63,7 +63,7 @@ export function IncidentByVector() {
                 return [`${v} insiden · ${pct(r.pct)} · tren ${r.tren}`, r.vektor];
               }}
             />
-            <Bar dataKey="jumlah" radius={[0, 3, 3, 0]} barSize={13}>
+            <Bar isAnimationActive={false} dataKey="jumlah" radius={[0, 3, 3, 0]} barSize={13}>
               {incidentByVector.map((r) => (
                 <Cell key={r.vektor} fill={r.color} fillOpacity={0.85} />
               ))}

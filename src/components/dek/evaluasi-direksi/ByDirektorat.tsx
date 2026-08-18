@@ -34,6 +34,7 @@ export function ByDirektorat() {
       </p>
 
       <div className="scroll-thin mt-1.5 min-h-0 flex-1 overflow-y-auto">
+        <div className="scroll-thin overflow-x-auto">
         <table className="w-full border-separate border-spacing-0">
           <thead className="sticky top-0 bg-[var(--surface)]">
             <tr className="text-left text-[7.5px] font-extrabold uppercase tracking-[0.05em] text-ink-400">
@@ -76,6 +77,7 @@ export function ByDirektorat() {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
     </div>
   );

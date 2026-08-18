@@ -23,7 +23,7 @@ export function EngagementOutcomeLink() {
         </span>
       </div>
 
-      <div className="mt-2 grid min-h-0 flex-1 grid-cols-3 gap-2">
+      <div className="mt-2 grid min-h-0 flex-1 grid-cols-2 md:grid-cols-3 gap-2">
         {outcomeClusters.map((c) => (
           <div
             key={c.cluster}
@@ -57,7 +57,7 @@ export function EngagementOutcomeLink() {
         ))}
       </div>
 
-      <div className="mt-2 grid grid-cols-3 gap-2 border-t border-[#eef2f6] pt-1.5">
+      <div className="mt-2 grid grid-cols-2 md:grid-cols-3 gap-2 border-t border-[#eef2f6] pt-1.5">
         {outcomeHighlights.map((h) => (
           <div key={h.label} className="min-w-0">
             <span className="block truncate text-[7.5px] font-semibold text-ink-500">

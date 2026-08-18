@@ -66,5 +66,5 @@ export function AgroKpiStrip() {
       </div>
     );
   }
-  return <ProdKpiCards items={agroKpi} cols="grid-cols-4" />;
+  return <ProdKpiCards items={agroKpi} cols="grid-cols-2 md:grid-cols-4" />;
 }

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Info, ShieldCheck, X } from "lucide-react";
+import { ModalShell } from "@/components/ui/ModalShell";
 import { metodologi } from "@/lib/pm-data";
 
 /** Pill versi metodologi + modal ⓘ berisi definisi, skala, sumber, dan governance skor. */
@@ -20,14 +21,10 @@ export function MethodologyInfo() {
       </button>
 
       {open && (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-[#0f1b2d]/40 px-6"
-          onClick={() => setOpen(false)}
+        <ModalShell
+          label={`Metodologi People Math & HPI-BEM ${metodologi.versi}`}
+          onClose={() => setOpen(false)}
         >
-          <div
-            className="scroll-thin max-h-[82vh] w-[560px] overflow-y-auto rounded-2xl border border-[#eef2f6] bg-white p-5 shadow-xl"
-            onClick={(e) => e.stopPropagation()}
-          >
             <div className="flex items-center justify-between gap-3">
               <h3 className="flex items-center gap-1.5 text-[12px] font-extrabold text-ink-900">
                 <ShieldCheck size={14} className="text-ptpn-green" />
@@ -67,8 +64,7 @@ export function MethodologyInfo() {
               <Info size={12} className="shrink-0 text-[#d98b06]" />
               <span className="text-[8.5px] font-medium text-ink-700">{metodologi.disclaimer}</span>
             </div>
-          </div>
-        </div>
+        </ModalShell>
       )}
     </>
   );

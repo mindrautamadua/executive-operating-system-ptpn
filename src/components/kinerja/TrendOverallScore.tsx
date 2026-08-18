@@ -77,7 +77,7 @@ export function TrendOverallScore() {
                 fontWeight: 600,
               }}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               dataKey="value"
               stroke={PALETTE.green}

@@ -27,7 +27,7 @@ export function ServiceDesk() {
         Volume Tiket per Bulan, Kepatuhan SLA &amp; Kategori Teratas
       </p>
 
-      <div className="mt-2 grid grid-cols-4 gap-1.5">
+      <div className="mt-2 grid grid-cols-2 md:grid-cols-4 gap-1.5">
         <Stat label="Tiket/bln" value={angka(serviceDeskSummary.tiketPerBulan)} />
         <Stat label="SLA On-Time" value={`${desimal(serviceDeskSummary.slaOnTimePct)}%`} />
         <Stat label="FCR" value={`${desimal(serviceDeskSummary.firstCallResolutionPct)}%`} />

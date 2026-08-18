@@ -58,9 +58,9 @@ export function IncidentTrend() {
               iconSize={8}
               wrapperStyle={{ fontSize: 8.5 }}
             />
-            <Bar name="Sedang" dataKey="sedang" stackId="s" fill={PALETTE.amber} barSize={13} />
-            <Bar name="Tinggi" dataKey="tinggi" stackId="s" fill={PALETTE.purple} barSize={13} />
-            <Bar
+            <Bar isAnimationActive={false} name="Sedang" dataKey="sedang" stackId="s" fill={PALETTE.amber} barSize={13} />
+            <Bar isAnimationActive={false} name="Tinggi" dataKey="tinggi" stackId="s" fill={PALETTE.purple} barSize={13} />
+            <Bar isAnimationActive={false}
               name="Kritis"
               dataKey="kritis"
               stackId="s"

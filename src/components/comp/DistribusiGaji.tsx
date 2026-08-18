@@ -62,7 +62,7 @@ export function DistribusiGaji() {
               contentStyle={CHART_TOOLTIP_STYLE}
               cursor={{ fill: "var(--surface-2)" }}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="value"
               fill={PALETTE.blueSoft}
               radius={[3, 3, 0, 0]}

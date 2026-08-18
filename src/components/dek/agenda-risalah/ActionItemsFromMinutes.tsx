@@ -16,7 +16,7 @@ export function ActionItemsFromMinutes() {
       </p>
 
       <div className="scroll-thin mt-2 min-h-0 flex-1 overflow-y-auto pr-1">
-        <div className="grid grid-cols-4 gap-2">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
           {actionItemsFromMinutes.map((a) => (
             <div key={a.periode} className="rounded-lg border border-[#eef2f6] bg-[#f8fafc] p-2">
               <div className="truncate text-[9px] font-extrabold text-ink-900" title={a.periode}>

@@ -57,7 +57,7 @@ export function TkdnTrend() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8, paddingBottom: 2 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="aktual"
               name="TKDN Aktual"
@@ -66,7 +66,7 @@ export function TkdnTrend() {
               dot={{ r: 2 }}
               activeDot={{ r: 4 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="target"
               name="Target 65%"

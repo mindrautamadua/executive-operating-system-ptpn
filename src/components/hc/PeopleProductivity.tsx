@@ -14,6 +14,7 @@ export function PeopleProductivity() {
     >
       <SectionHead title="People Productivity" action="Lihat Detail" href="/people-productivity" badge={<ScopeNote />} />
 
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2 w-full border-collapse">
         <thead>
           <tr className="border-b border-[#f0f3f6] text-left text-[8.5px] font-semibold text-ink-400">
@@ -36,6 +37,7 @@ export function PeopleProductivity() {
           ))}
         </tbody>
       </table>
+      </div>
 
       <div className="mt-auto flex items-center gap-2 rounded-lg bg-ptpn-greenLight px-3 py-[7px]">
         <ClipboardCheck size={12} className="shrink-0 text-ptpn-green" />

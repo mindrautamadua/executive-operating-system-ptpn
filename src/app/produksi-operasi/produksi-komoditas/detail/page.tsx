@@ -29,7 +29,7 @@ export default function ProduksiKomoditasDetailPage() {
   const tehTotal = karetTehSeries.reduce((a, p) => a + p.tehRbTon, 0);
 
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <ProdSidebar active="Produksi Komoditas" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">
@@ -51,6 +51,7 @@ export default function ProduksiKomoditasDetailPage() {
             title="Target vs Realisasi YTD"
             subtitle="Capaian 5 komoditas terhadap target YTD Mei 2026 & target FY RKAP"
           >
+            <div className="scroll-thin overflow-x-auto">
             <table className="w-full min-w-[560px] border-collapse">
               <thead>
                 <tr>
@@ -91,6 +92,7 @@ export default function ProduksiKomoditasDetailPage() {
                 ))}
               </tbody>
             </table>
+            </div>
           </DetailCard>
 
           {/* 2. waterfall sawit */}
@@ -100,6 +102,7 @@ export default function ProduksiKomoditasDetailPage() {
             subtitle="Alur volume YTD: TBS inti + plasma − restan → TBS diolah → CPO & palm kernel"
             note="OER 22,4% dan KER 4,6% dihitung terhadap TBS diolah 4,42 jt ton."
           >
+            <div className="scroll-thin overflow-x-auto">
             <table className="w-full min-w-[520px] border-collapse">
               <thead>
                 <tr>
@@ -126,6 +129,7 @@ export default function ProduksiKomoditasDetailPage() {
                 ))}
               </tbody>
             </table>
+            </div>
           </DetailCard>
 
           {/* 3. gula giling */}
@@ -135,6 +139,7 @@ export default function ProduksiKomoditasDetailPage() {
             subtitle="Tebu digiling, rendemen & produksi gula per bulan giling Mei–Nov 2026"
             note={gulaGilingNote}
           >
+            <div className="scroll-thin overflow-x-auto">
             <table className="w-full min-w-[520px] border-collapse">
               <thead>
                 <tr>
@@ -168,6 +173,7 @@ export default function ProduksiKomoditasDetailPage() {
                 </tr>
               </tbody>
             </table>
+            </div>
           </DetailCard>
 
           {/* 4. seasonality CPO */}
@@ -177,6 +183,7 @@ export default function ProduksiKomoditasDetailPage() {
             subtitle="Produksi CPO bulanan (jt ton) 2024–2026 · puncak musiman Agu–Okt"
             note="2026 terisi Jan–Mei (YTD); Mei 2026 = 0,222 jt ton, +8,3% vs Mei 2025."
           >
+            <div className="scroll-thin overflow-x-auto">
             <table className="w-full min-w-[520px] border-collapse">
               <thead>
                 <tr>
@@ -213,6 +220,7 @@ export default function ProduksiKomoditasDetailPage() {
                 })}
               </tbody>
             </table>
+            </div>
           </DetailCard>
 
           {/* 5. karet & teh */}
@@ -222,6 +230,7 @@ export default function ProduksiKomoditasDetailPage() {
             subtitle="Produksi karet kering & teh kering (rb ton) Jan–Mei 2026"
             note={karetTehNote}
           >
+            <div className="scroll-thin overflow-x-auto">
             <table className="w-full min-w-[420px] border-collapse">
               <thead>
                 <tr>
@@ -245,6 +254,7 @@ export default function ProduksiKomoditasDetailPage() {
                 </tr>
               </tbody>
             </table>
+            </div>
           </DetailCard>
 
           <DetailNotes

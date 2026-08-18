@@ -104,14 +104,14 @@ export function GulaGilingTrend() {
                   }
                   contentStyle={CHART_TOOLTIP_STYLE}
                 />
-                <Bar
+                <Bar isAnimationActive={false}
                   yAxisId="tebu"
                   dataKey="tebuJtTon"
                   fill={PALETTE.teal}
                   fillOpacity={0.75}
                   radius={[3, 3, 0, 0]}
                 />
-                <Line
+                <Line isAnimationActive={false}
                   yAxisId="gula"
                   type="linear"
                   dataKey="gulaRbTon"
@@ -133,7 +133,7 @@ export function GulaGilingTrend() {
             ))}
           </div>
 
-          <div className="mt-2 grid grid-cols-4 gap-2 border-t border-[var(--border-hair)] pt-2">
+          <div className="mt-2 grid grid-cols-2 md:grid-cols-4 gap-2 border-t border-[var(--border-hair)] pt-2">
             {STATS.map((s) => (
               <div key={s.label} className="text-center">
                 <div className="text-[9px] uppercase tracking-wide text-ink-500">{s.label}</div>

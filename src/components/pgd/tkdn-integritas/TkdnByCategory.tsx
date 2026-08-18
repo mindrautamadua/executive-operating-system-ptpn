@@ -72,7 +72,7 @@ export function TkdnByCategory() {
                 fill: PALETTE.navy,
               }}
             />
-            <Bar dataKey="tkdnPct" radius={[4, 4, 0, 0]} barSize={26}>
+            <Bar isAnimationActive={false} dataKey="tkdnPct" radius={[4, 4, 0, 0]} barSize={26}>
               {rows.map((r) => (
                 <Cell key={r.kategori} fill={PGD_STATUS_COLOR[r.status]} />
               ))}

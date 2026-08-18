@@ -74,7 +74,7 @@ export function SengketaRiskMatrix() {
               labelFormatter={() => ""}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Scatter data={data}>
+            <Scatter isAnimationActive={false} data={data}>
               {data.map((d) => (
                 <Cell key={d.no} fill={LEVEL_COLOR[d.level]} fillOpacity={0.85} />
               ))}

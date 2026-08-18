@@ -73,7 +73,7 @@ export function ElNinoScenario() {
               cursor={{ fill: "var(--chart-grid)" }}
               formatter={(v: number) => [`Rp ${String(v).replace(".", ",")} T`, "Dampak EBITDA"]}
             />
-            <Bar dataKey="dampakEbitdaRpT" radius={[3, 3, 0, 0]} maxBarSize={54}>
+            <Bar isAnimationActive={false} dataKey="dampakEbitdaRpT" radius={[3, 3, 0, 0]} maxBarSize={54}>
               {elNinoScenarios.map((s, i) => (
                 <Cell key={s.skenario} fill={BAR_COLOR[i]} />
               ))}
@@ -89,7 +89,7 @@ export function ElNinoScenario() {
       </div>
 
       <ul
-        className="mt-1 grid grid-cols-3 gap-2 transition-opacity"
+        className="mt-1 grid grid-cols-2 md:grid-cols-3 gap-2 transition-opacity"
         style={{ opacity: outOfScope ? 0.25 : 1 }}
       >
         {elNinoScenarios.map((s) => (

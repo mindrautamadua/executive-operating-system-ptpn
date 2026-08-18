@@ -14,7 +14,7 @@ export const metadata = { title: "Harga Pasar & Outlook — PTPN Group" };
 
 export default function HargaPasarPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <MktSidebar active="Harga & Outlook" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

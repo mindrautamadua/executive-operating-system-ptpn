@@ -21,7 +21,7 @@ export function PabKpiStrip() {
           <ScopeNote />
         </div>
       )}
-      <ProdKpiCards items={items} cols="grid-cols-6" />
+      <ProdKpiCards items={items} cols="grid-cols-2 md:grid-cols-3 xl:grid-cols-6" />
     </div>
   );
 }

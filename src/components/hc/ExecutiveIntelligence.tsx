@@ -49,7 +49,7 @@ export function ExecutiveIntelligence() {
         </div>
       </div>
 
-      <div className="mt-2.5 grid grid-cols-3 gap-2">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-3 gap-2">
         {execSignals.map((s) => {
           const t = SIGNAL_TONE[s.tone];
           return (

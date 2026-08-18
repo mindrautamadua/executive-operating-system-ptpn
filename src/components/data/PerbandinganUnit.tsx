@@ -42,6 +42,7 @@ export function PerbandinganUnit() {
       </div>
 
       <div className="mt-1.5 min-h-0 flex-1">
+        <div className="scroll-thin overflow-x-auto">
         <table className="w-full border-collapse">
           <thead>
             <tr className="border-b border-[#eef2f6] text-[9px] font-semibold text-ink-500">
@@ -69,6 +70,7 @@ export function PerbandinganUnit() {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
 
       <button className="link-more mt-1 flex items-center gap-1">

@@ -61,7 +61,7 @@ export function TrenDataQuality() {
               formatter={(v: number) => [koma(v), "Trust Index"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="linear"
               dataKey="value"
               stroke={PALETTE.blue}

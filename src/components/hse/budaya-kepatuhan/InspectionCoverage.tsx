@@ -84,7 +84,7 @@ export function InspectionCoverage() {
               iconSize={6}
               wrapperStyle={{ fontSize: 8, color: CHART_AXIS.tick }}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               name="Terjadwal"
               dataKey="terjadwal"
               stackId="i"
@@ -92,7 +92,7 @@ export function InspectionCoverage() {
               fillOpacity={opacity}
               barSize={26}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               name="Mendadak"
               dataKey="mendadak"
               stackId="i"

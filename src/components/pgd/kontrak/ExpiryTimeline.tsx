@@ -53,7 +53,7 @@ export function ExpiryTimeline() {
               formatter={(v: number) => [`${v} kontrak`, "Berakhir"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="jumlah" radius={[4, 4, 0, 0]} barSize={20}>
+            <Bar isAnimationActive={false} dataKey="jumlah" radius={[4, 4, 0, 0]} barSize={20}>
               {expiryTimeline.map((p, i) => (
                 <Cell key={p.month} fill={i < WINDOW_90 ? PALETTE.red : PALETTE.blue} />
               ))}

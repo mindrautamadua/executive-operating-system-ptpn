@@ -69,7 +69,7 @@ export function AddendumAnalysis() {
               formatter={(v: number) => [`${v} addendum`, "Jumlah"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="jumlah" radius={[0, 4, 4, 0]} barSize={13}>
+            <Bar isAnimationActive={false} dataKey="jumlah" radius={[0, 4, 4, 0]} barSize={13}>
               {rows.map((r) => (
                 <Cell key={r.penyebab} fill={TONE_COLOR[r.tone]} />
               ))}

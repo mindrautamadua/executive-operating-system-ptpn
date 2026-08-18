@@ -81,7 +81,7 @@ export function SugarBenchmark() {
                 item?.payload?.entity ?? "Rendemen",
               ]}
             />
-            <Bar dataKey="rendemen" radius={[3, 3, 0, 0]} maxBarSize={34}>
+            <Bar isAnimationActive={false} dataKey="rendemen" radius={[3, 3, 0, 0]} maxBarSize={34}>
               {DATA.map((d) => (
                 <Cell
                   key={d.entity}

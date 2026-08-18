@@ -86,7 +86,7 @@ export function PermitRiskMatrix() {
                 return row?.izin ?? "";
               }}
             />
-            <Scatter data={permitRiskMatrix} fillOpacity={0.72}>
+            <Scatter isAnimationActive={false} data={permitRiskMatrix} fillOpacity={0.72}>
               {permitRiskMatrix.map((r) => (
                 <Cell key={`${r.izin}-${r.unit}`} fill={TONE_COLOR[r.tone]} />
               ))}

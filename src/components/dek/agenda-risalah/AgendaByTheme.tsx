@@ -53,7 +53,7 @@ export function AgendaByTheme() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number) => [`${v.toLocaleString("id-ID")} butir`, "Agenda"]}
             />
-            <Bar dataKey="jumlah" radius={[0, 3, 3, 0]} barSize={12}>
+            <Bar isAnimationActive={false} dataKey="jumlah" radius={[0, 3, 3, 0]} barSize={12}>
               {agendaByTheme.map((t) => (
                 <Cell key={t.tema} fill={t.color} />
               ))}

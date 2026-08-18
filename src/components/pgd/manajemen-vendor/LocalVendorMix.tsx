@@ -24,7 +24,7 @@ export function LocalVendorMix() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, name: string) => [`${v.toLocaleString("id-ID")} vendor`, name]}
             />
-            <Pie
+            <Pie isAnimationActive={false}
               data={localVendorMix}
               dataKey="jumlah"
               nameKey="kelompok"

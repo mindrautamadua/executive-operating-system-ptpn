@@ -60,7 +60,7 @@ export function CompletionTrend() {
               iconSize={10}
               wrapperStyle={{ fontSize: 8.5, color: CHART_AXIS.tick }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               name="Rencana Kumulatif"
               dataKey="rencana"
@@ -69,7 +69,7 @@ export function CompletionTrend() {
               strokeDasharray="4 3"
               dot={false}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               name="Aktual Kumulatif"
               dataKey="aktual"

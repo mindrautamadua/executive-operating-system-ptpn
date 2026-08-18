@@ -33,6 +33,7 @@ export function KebutuhanFungsi() {
       <SectionHead title="Kebutuhan Talenta Berdasarkan Fungsi Utama" />
 
       <div className="scroll-thin mt-2 min-h-0 flex-1 overflow-y-auto">
+      <div className="scroll-thin overflow-x-auto">
       <table className="w-full">
         <thead>
           <tr className="text-[9px] font-semibold uppercase tracking-[0.03em] text-ink-500">
@@ -85,6 +86,7 @@ export function KebutuhanFungsi() {
           </tr>
         </tbody>
       </table>
+      </div>
       </div>
     </div>
   );

@@ -34,7 +34,7 @@ export function BudayaKpiStrip() {
           <ScopeNote />
         </div>
       )}
-      <HseKpiCards items={items} cols="grid-cols-6" />
+      <HseKpiCards items={items} cols="grid-cols-2 md:grid-cols-3 xl:grid-cols-6" />
     </>
   );
 }

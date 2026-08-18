@@ -111,7 +111,7 @@ export function CostPositionCurve() {
               strokeDasharray="3 3"
               strokeWidth={1.2}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="hpp"
               stroke={PALETTE.blue}

@@ -76,9 +76,9 @@ export function GlobalSupplyDemand() {
               formatter={(v: number, name: string) => [`${num(v)} jt ton`, NAMES[name] ?? name]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar yAxisId="vol" dataKey="produksi" fill={PALETTE.blueSoft} radius={[2, 2, 0, 0]} maxBarSize={22} />
-            <Bar yAxisId="vol" dataKey="konsumsi" fill={PALETTE.green} radius={[2, 2, 0, 0]} maxBarSize={22} />
-            <Line
+            <Bar isAnimationActive={false} yAxisId="vol" dataKey="produksi" fill={PALETTE.blueSoft} radius={[2, 2, 0, 0]} maxBarSize={22} />
+            <Bar isAnimationActive={false} yAxisId="vol" dataKey="konsumsi" fill={PALETTE.green} radius={[2, 2, 0, 0]} maxBarSize={22} />
+            <Line isAnimationActive={false}
               yAxisId="stok"
               type="linear"
               dataKey="stokAkhir"

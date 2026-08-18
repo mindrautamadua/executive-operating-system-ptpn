@@ -21,7 +21,7 @@ export function KinerjaSdm() {
         </div>
       </div>
 
-      <div className="mt-2.5 grid grid-cols-3 gap-1">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-3 gap-1">
         {sdmKpi.map((k) => (
           <div key={k.label}>
             <div className="text-[9px] font-medium leading-[1.2] text-ink-500">{k.label}</div>
@@ -80,7 +80,7 @@ export function KinerjaSdm() {
         <div className="h-[88px] w-[88px] shrink-0">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
-              <Pie
+              <Pie isAnimationActive={false}
                 data={komposisiKaryawan}
                 dataKey="value"
                 innerRadius={27}

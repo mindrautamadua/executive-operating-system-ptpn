@@ -14,7 +14,7 @@ export const metadata = { title: "Margin & Profitabilitas Komoditas — PTPN Gro
 
 export default function MarginKomoditasPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <MktSidebar active="Margin Komoditas" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

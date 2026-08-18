@@ -52,7 +52,7 @@ export function NearMissReporting() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, name: string) => [`${num(v)} laporan`, name]}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Target Bulanan"
               type="monotone"
               dataKey="target"
@@ -61,7 +61,7 @@ export function NearMissReporting() {
               strokeDasharray="4 3"
               dot={false}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Laporan Diterima"
               type="monotone"
               dataKey="laporan"

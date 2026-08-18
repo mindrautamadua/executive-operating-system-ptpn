@@ -70,8 +70,8 @@ export function TraceabilityFunnel() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5, color: CHART_AXIS.tick }}
             />
-            <Bar dataKey="ttbPct" name="TTB (ke PKS)" fill={PALETTE.blue} radius={[3, 3, 0, 0]} />
-            <Bar dataKey="ttpPct" name="TTP (ke kebun)" fill={PALETTE.green} radius={[3, 3, 0, 0]} />
+            <Bar isAnimationActive={false} dataKey="ttbPct" name="TTB (ke PKS)" fill={PALETTE.blue} radius={[3, 3, 0, 0]} />
+            <Bar isAnimationActive={false} dataKey="ttpPct" name="TTP (ke kebun)" fill={PALETTE.green} radius={[3, 3, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </div>

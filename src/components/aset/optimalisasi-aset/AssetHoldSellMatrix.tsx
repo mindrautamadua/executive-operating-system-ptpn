@@ -146,7 +146,7 @@ export function AssetHoldSellMatrix() {
                 return [`Rp ${rp(v)} M`, "Nilai Buku"];
               }}
             />
-            <Scatter data={data}>
+            <Scatter isAnimationActive={false} data={data}>
               {data.map((d) => (
                 <Cell key={d.kelompokAset} fill={QUADRAN_COLOR[d.kuadran]} fillOpacity={0.8} />
               ))}

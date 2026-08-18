@@ -15,7 +15,7 @@ export const metadata = { title: "Program & Delivery Digital — PTPN Group" };
 
 export default function ProgramDigitalPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <TikSidebar active="Program & Delivery Digital" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

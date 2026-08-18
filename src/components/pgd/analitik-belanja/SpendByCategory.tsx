@@ -49,7 +49,7 @@ export function SpendByCategory() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number) => [rp(v), "Belanja YTD"]}
             />
-            <Bar dataKey="valueRpT" radius={[0, 3, 3, 0]} barSize={13}>
+            <Bar isAnimationActive={false} dataKey="valueRpT" radius={[0, 3, 3, 0]} barSize={13}>
               {spendByCategory.map((c) => (
                 <Cell key={c.name} fill={c.color} />
               ))}

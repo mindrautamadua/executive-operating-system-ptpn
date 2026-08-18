@@ -89,7 +89,7 @@ export function HeadcountProjection() {
                 name === "total" ? "Total Headcount" : "Net Additional",
               ]}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="linear"
               dataKey="total"
               stroke={PALETTE.blue}
@@ -106,7 +106,7 @@ export function HeadcountProjection() {
                 style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Area>
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="net"
               type="linear"
               dataKey="net"

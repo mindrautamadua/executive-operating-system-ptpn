@@ -57,14 +57,14 @@ export function DmoDpoTracker() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5, color: "var(--chart-tick)" }}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="kewajibanRbTon"
               name="Kewajiban"
               fill={PALETTE.slate}
               radius={[3, 3, 0, 0]}
               maxBarSize={26}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="realisasiRbTon"
               name="Realisasi"
               fill={PALETTE.green}

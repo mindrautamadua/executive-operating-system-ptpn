@@ -29,7 +29,7 @@ export function CaseBreakdown() {
       <SectionHead title="Breakdown Kasus Pelanggaran" />
       <p className="mt-[3px] text-[9px] text-ink-500">Komposisi &amp; Severity 24 Kasus Aktif</p>
 
-      <div className="mt-2 grid grid-cols-4 gap-1">
+      <div className="mt-2 grid grid-cols-2 md:grid-cols-4 gap-1">
         {caseSeverities.map((s) => (
           <div
             key={s.label}

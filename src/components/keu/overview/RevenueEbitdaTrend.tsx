@@ -57,14 +57,14 @@ export function RevenueEbitdaTrend() {
               formatter={(v: number, name: string) => [fmtRpT(v, 2), name]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               name="Pendapatan"
               dataKey="revenue"
               fill={PALETTE.blue}
               barSize={13}
               radius={[2, 2, 0, 0]}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="EBITDA"
               type="monotone"
               dataKey="ebitda"

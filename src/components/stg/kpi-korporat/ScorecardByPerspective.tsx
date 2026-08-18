@@ -70,7 +70,7 @@ export function ScorecardByPerspective() {
               strokeDasharray="3 3"
               strokeWidth={1.2}
             />
-            <Bar dataKey="score" radius={[3, 3, 0, 0]} maxBarSize={42}>
+            <Bar isAnimationActive={false} dataKey="score" radius={[3, 3, 0, 0]} maxBarSize={42}>
               {DATA.map((d, i) => (
                 <Cell key={d.name} fill={COLORS[i % COLORS.length]} />
               ))}

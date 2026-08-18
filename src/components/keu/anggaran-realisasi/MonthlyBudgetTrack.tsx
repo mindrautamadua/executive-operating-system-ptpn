@@ -68,21 +68,21 @@ export function MonthlyBudgetTrack() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, name: string) => [fmtRpT(v, 2), LABEL[name] ?? name]}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               yAxisId="left"
               dataKey="plan"
               fill={PALETTE.blueSoft}
               radius={[2, 2, 0, 0]}
               maxBarSize={16}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               yAxisId="left"
               dataKey="actual"
               fill={PALETTE.green}
               radius={[2, 2, 0, 0]}
               maxBarSize={16}
             />
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="right"
               type="monotone"
               dataKey="planKumulatif"
@@ -91,7 +91,7 @@ export function MonthlyBudgetTrack() {
               strokeDasharray="5 3"
               dot={false}
             />
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="right"
               type="monotone"
               dataKey="actualKumulatif"

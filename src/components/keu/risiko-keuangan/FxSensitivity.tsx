@@ -93,8 +93,8 @@ export function FxSensitivity() {
               ]}
             />
             <ReferenceLine x={0} stroke={CHART_AXIS.axis} />
-            <Bar dataKey="apresiasi" stackId="fx" fill={PALETTE.blue} maxBarSize={14} />
-            <Bar dataKey="depresiasi" stackId="fx" fill={PALETTE.amber} maxBarSize={14} />
+            <Bar isAnimationActive={false} dataKey="apresiasi" stackId="fx" fill={PALETTE.blue} maxBarSize={14} />
+            <Bar isAnimationActive={false} dataKey="depresiasi" stackId="fx" fill={PALETTE.amber} maxBarSize={14} />
           </BarChart>
         </ResponsiveContainer>
       </div>

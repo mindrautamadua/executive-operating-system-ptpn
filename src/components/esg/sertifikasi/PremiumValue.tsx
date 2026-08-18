@@ -32,7 +32,7 @@ export function PremiumValue() {
       </p>
 
       <div
-        className="mt-2 grid grid-cols-3 gap-2 transition-opacity"
+        className="mt-2 grid grid-cols-2 md:grid-cols-3 gap-2 transition-opacity"
         style={{ opacity: outOfScope ? 0.25 : 1 }}
       >
         {KPI.map((k) => (
@@ -70,7 +70,7 @@ export function PremiumValue() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number) => [`Rp ${angka(v)} M`, "Premi CSPO"]}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="rpM"
               stroke={PALETTE.green}

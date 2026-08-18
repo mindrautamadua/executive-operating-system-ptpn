@@ -78,7 +78,7 @@ export function PgDowntimePareto() {
                   }
                   contentStyle={CHART_TOOLTIP_STYLE}
                 />
-                <Bar
+                <Bar isAnimationActive={false}
                   yAxisId="jam"
                   dataKey="jam"
                   fill={PALETTE.amber}
@@ -93,7 +93,7 @@ export function PgDowntimePareto() {
                     style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
                   />
                 </Bar>
-                <Line
+                <Line isAnimationActive={false}
                   yAxisId="kum"
                   type="linear"
                   dataKey="kumulatifPct"

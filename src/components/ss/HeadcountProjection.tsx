@@ -87,7 +87,7 @@ export function HeadcountProjection() {
               ]}
             />
             {projectionSeries.map((s) => (
-              <Line
+              <Line isAnimationActive={false}
                 key={s.key}
                 type="linear"
                 dataKey={s.key}

@@ -72,7 +72,7 @@ export function SeasonalityChart() {
               contentStyle={CHART_TOOLTIP_STYLE}
             />
             {SERIES.map((s) => (
-              <Line
+              <Line isAnimationActive={false}
                 key={s.key}
                 type="linear"
                 dataKey={s.key}

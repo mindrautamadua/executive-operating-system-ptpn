@@ -85,7 +85,7 @@ export function StrukturOrganisasi() {
         {/* kontrol zoom mengambang — CSS scale sederhana */}
         <div className="absolute right-0 top-0 z-10 flex flex-col overflow-hidden rounded-lg border border-[#e3e9ef] bg-white shadow-card">
           <button
-            className="flex h-[22px] w-[22px] items-center justify-center text-ink-500 transition-colors hover:bg-[#f7f9fb] disabled:opacity-40"
+            className="flex h-[24px] w-[24px] items-center justify-center text-ink-500 transition-colors hover:bg-[#f7f9fb] disabled:opacity-40"
             aria-label="Perbesar diagram"
             disabled={zoom >= ZOOM_STEPS[ZOOM_STEPS.length - 1]}
             onClick={() => zoomBy(1)}
@@ -93,7 +93,7 @@ export function StrukturOrganisasi() {
             <Plus size={12} />
           </button>
           <button
-            className="flex h-[22px] w-[22px] items-center justify-center border-t border-[#eef2f6] text-ink-500 transition-colors hover:bg-[#f7f9fb] disabled:opacity-40"
+            className="flex h-[24px] w-[24px] items-center justify-center border-t border-[#eef2f6] text-ink-500 transition-colors hover:bg-[#f7f9fb] disabled:opacity-40"
             aria-label="Perkecil diagram"
             disabled={zoom <= ZOOM_STEPS[0]}
             onClick={() => zoomBy(-1)}
@@ -123,7 +123,7 @@ export function StrukturOrganisasi() {
           <Fork n={strukturDivisi.length} h={12} />
 
           {/* level 2 — divisi */}
-          <div className="grid grid-cols-5 gap-2">
+          <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-2">
             {strukturDivisi.map((n) => (
               <NodeBox key={n.label} node={n} />
             ))}
@@ -131,11 +131,11 @@ export function StrukturOrganisasi() {
 
           {/* level 3 — sub holding; batang penghubung turun dari kolom
               Divisi Operasional (kolom pertama), bukan dari tengah blok */}
-          <div className="grid grid-cols-5">
+          <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5">
             <div className="col-span-3">
               <Stem h={12} at={16.67} />
               <Fork n={strukturSubHolding.length} h={12} />
-              <div className="grid grid-cols-3 gap-2">
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
                 {strukturSubHolding.map((n) => (
                   <NodeBox key={n.label} node={n} />
                 ))}
@@ -146,7 +146,7 @@ export function StrukturOrganisasi() {
           {/* level 4 — anak perusahaan */}
           <Stem h={12} />
           <Fork n={strukturAnakPerusahaan.length} h={12} />
-          <div className="grid grid-cols-6 gap-2">
+          <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-2">
             {strukturAnakPerusahaan.map((l) => (
               <div
                 key={l.label}

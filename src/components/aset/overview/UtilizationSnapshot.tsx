@@ -81,7 +81,7 @@ export function UtilizationSnapshot() {
               formatter={(v: number, name: string) => [`${num(v)}%`, name]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar name="Utilisasi" dataKey="utilisasiPct" barSize={30} radius={[3, 3, 0, 0]}>
+            <Bar isAnimationActive={false} name="Utilisasi" dataKey="utilisasiPct" barSize={30} radius={[3, 3, 0, 0]}>
               {data.map((d) => (
                 <Cell
                   key={d.fasilitas}
@@ -97,7 +97,7 @@ export function UtilizationSnapshot() {
                 style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Bar>
-            <Bar name="Target" dataKey="targetPct" barSize={30} radius={[3, 3, 0, 0]} fill={PALETTE.slate}>
+            <Bar isAnimationActive={false} name="Target" dataKey="targetPct" barSize={30} radius={[3, 3, 0, 0]} fill={PALETTE.slate}>
               {data.map((d) => (
                 <Cell key={d.fasilitas} fillOpacity={0.28 * dim(d.fasilitas)} />
               ))}

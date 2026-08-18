@@ -38,7 +38,7 @@ export function RiskIntelligence() {
         </div>
       </div>
 
-      <div className="mt-2.5 grid grid-cols-3 gap-2">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-3 gap-2">
         {riskIntelligence.map((s, i) => {
           const t = TONE[s.tone];
           return (

@@ -57,7 +57,7 @@ export function SolarRollout() {
               iconSize={8}
               wrapperStyle={{ fontSize: 8.5 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Jalur Target"
               type="monotone"
               dataKey="target"
@@ -66,7 +66,7 @@ export function SolarRollout() {
               strokeDasharray="4 3"
               dot={false}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Aktual"
               type="monotone"
               dataKey="aktual"

@@ -60,7 +60,7 @@ export function MacCurve() {
                 "MAC",
               ]}
             />
-            <Bar dataKey="biayaRbPerTon" radius={[3, 3, 0, 0]} maxBarSize={40}>
+            <Bar isAnimationActive={false} dataKey="biayaRbPerTon" radius={[3, 3, 0, 0]} maxBarSize={40}>
               {macCurve.map((d, i) => (
                 <Cell key={d.lever} fill={FILLS[i]} />
               ))}

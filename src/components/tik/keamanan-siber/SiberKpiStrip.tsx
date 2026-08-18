@@ -20,7 +20,7 @@ export function SiberKpiStrip() {
           <ScopeNote />
         </div>
       )}
-      <TikKpiCards items={items} cols="grid-cols-6" />
+      <TikKpiCards items={items} cols="grid-cols-2 md:grid-cols-3 xl:grid-cols-6" />
     </>
   );
 }

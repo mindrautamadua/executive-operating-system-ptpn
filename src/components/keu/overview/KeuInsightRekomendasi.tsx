@@ -28,7 +28,7 @@ export function KeuInsightRekomendasi() {
         </button>
       </div>
 
-      <div className="mt-2.5 grid grid-cols-3 gap-3">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-3 gap-3">
         {keuInsights.map((ins, i) => {
           const meta = META[i % META.length];
           const Icon = meta.Icon;

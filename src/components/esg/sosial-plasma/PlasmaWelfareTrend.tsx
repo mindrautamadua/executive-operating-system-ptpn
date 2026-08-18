@@ -65,7 +65,7 @@ export function PlasmaWelfareTrend() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5, color: CHART_AXIS.tick }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="linear"
               dataKey="plasma"
               name="Pendapatan plasma"
@@ -74,7 +74,7 @@ export function PlasmaWelfareTrend() {
               dot={{ r: 2.5 }}
               activeDot={{ r: 4 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="linear"
               dataKey="ump"
               name="UMP wilayah operasi"

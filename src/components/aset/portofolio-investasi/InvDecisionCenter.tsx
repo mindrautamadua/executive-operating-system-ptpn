@@ -67,7 +67,7 @@ export function InvDecisionCenter() {
         ))}
       </div>
 
-      <div className="mt-2.5 grid grid-cols-3 gap-2">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-3 gap-2">
         {tab === 0 ? (
           invDecisions.map((d) => {
             const t = TONE[d.tone];

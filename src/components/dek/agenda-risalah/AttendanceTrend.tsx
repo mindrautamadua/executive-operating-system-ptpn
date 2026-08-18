@@ -60,7 +60,7 @@ export function AttendanceTrend() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8.5 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Rapat Dekom & Gabungan"
               type="monotone"
               dataKey="dekom"
@@ -69,7 +69,7 @@ export function AttendanceTrend() {
               dot={{ r: 2.4 }}
               activeDot={{ r: 4 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Rapat Komite"
               type="monotone"
               dataKey="komite"

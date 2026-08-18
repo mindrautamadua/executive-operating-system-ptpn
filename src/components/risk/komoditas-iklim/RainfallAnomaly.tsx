@@ -109,7 +109,7 @@ export function RainfallAnomalyChart() {
                 (p.payload as RainfallRow).lokasi,
               ]}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="anomaliPct"
               name="Anomali"

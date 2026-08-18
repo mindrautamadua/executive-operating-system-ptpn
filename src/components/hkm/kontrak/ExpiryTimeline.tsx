@@ -59,7 +59,7 @@ export function ExpiryTimeline() {
                 return row ? `${l} · Rp ${angka(row.nilaiRpT)} T` : l;
               }}
             />
-            <Bar dataKey="jumlah" radius={[3, 3, 0, 0]} barSize={17}>
+            <Bar isAnimationActive={false} dataKey="jumlah" radius={[3, 3, 0, 0]} barSize={17}>
               {expiryTimeline.map((p) => (
                 <Cell key={p.bulan} fill={SOROT.has(p.bulan) ? PALETTE.red : PALETTE.blueSoft} />
               ))}

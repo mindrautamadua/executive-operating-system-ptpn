@@ -9,5 +9,5 @@ const ICONS = [Layers, TrendingUp, FileSignature, ShieldCheck];
 const items: PgdKpiCardItem[] = kategoriKpi.map((k, i) => ({ ...k, icon: ICONS[i] }));
 
 export function KategoriKpiStrip() {
-  return <PgdKpiCards items={items} cols="grid-cols-4" />;
+  return <PgdKpiCards items={items} cols="grid-cols-2 md:grid-cols-4" />;
 }

@@ -66,5 +66,5 @@ export function PlasmaKpiStrip() {
       </div>
     );
   }
-  return <ProdKpiCards items={plasmaKpi} cols="grid-cols-4" />;
+  return <ProdKpiCards items={plasmaKpi} cols="grid-cols-2 md:grid-cols-4" />;
 }

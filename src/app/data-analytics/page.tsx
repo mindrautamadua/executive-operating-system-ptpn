@@ -18,7 +18,7 @@ export const metadata = { title: "Data & Analytics — PTPN Group" };
 
 export default function DataAnalyticsPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <SdmSidebar
         active="Data & Analytics"
         assistantCard="coach"

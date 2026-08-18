@@ -20,7 +20,7 @@ export function OverdueDetail() {
       </p>
 
       <div className="scroll-thin mt-1.5 min-h-0 flex-1 overflow-y-auto pr-1">
-        <div className="grid grid-cols-3 gap-2">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
           {overdueDetail.map((o) => (
             <div key={o.id} className="rounded-lg border border-[#f5d9d9] bg-[#fdecec] p-2">
               <div className="flex items-start gap-1.5">

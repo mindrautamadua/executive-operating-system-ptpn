@@ -32,7 +32,7 @@ const STATUS_TONE = {
 
 export default function DecisionCenterPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <SdmSidebar active="Executive Overview" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">
@@ -48,7 +48,7 @@ export default function DecisionCenterPage() {
           <DetailKpiStrip items={decKpi} />
 
           {/* Tiga item prioritas — versi besar kartu ringkas di dashboard HC. */}
-          <div className="grid grid-cols-3 gap-3">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
             {bodDecisions.slice(0, 3).map((d, i) => {
               const t = TONE[d.tone];
               const Icon = t.icon;

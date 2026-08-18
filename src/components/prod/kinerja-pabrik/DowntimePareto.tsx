@@ -67,7 +67,7 @@ export function DowntimePareto() {
               }
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar yAxisId="jam" dataKey="jam" fill={PALETTE.red} fillOpacity={0.85} radius={[3, 3, 0, 0]}>
+            <Bar isAnimationActive={false} yAxisId="jam" dataKey="jam" fill={PALETTE.red} fillOpacity={0.85} radius={[3, 3, 0, 0]}>
               <LabelList
                 dataKey="jam"
                 position="top"
@@ -76,7 +76,7 @@ export function DowntimePareto() {
                 style={{ fontSize: 8.5, fill: "var(--text-1)", fontWeight: 700 }}
               />
             </Bar>
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="kum"
               type="linear"
               dataKey="kumulatifPct"

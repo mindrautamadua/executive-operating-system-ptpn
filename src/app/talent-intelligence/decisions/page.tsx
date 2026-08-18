@@ -48,7 +48,7 @@ const num = (v: number) => v.toLocaleString("id-ID");
 
 export default function TalentDecisionsPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <SdmSidebar active="Talent Intelligence" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">
@@ -63,7 +63,7 @@ export default function TalentDecisionsPage() {
         <div className="flex flex-col gap-3 px-5 pb-5 pt-3">
           <DetailKpiStrip items={decisionKpi} />
 
-          <div className="grid grid-cols-3 gap-3">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
             {decisionRows.slice(0, 3).map((d, i) => {
               const t = TONE[d.tone];
               const Icon = t.icon;
@@ -93,7 +93,7 @@ export default function TalentDecisionsPage() {
                     <span className="font-semibold text-ink-700">{d.rekomendasi}</span>
                   </div>
 
-                  <dl className="mt-2 grid grid-cols-3 gap-1.5 border-t border-white/70 pt-1.5 text-[8.5px]">
+                  <dl className="mt-2 grid grid-cols-2 md:grid-cols-3 gap-1.5 border-t border-white/70 pt-1.5 text-[8.5px]">
                     <div>
                       <dt className="font-bold text-ink-400">Talenta</dt>
                       <dd className="font-extrabold text-ink-900">{num(d.talenta)}</dd>

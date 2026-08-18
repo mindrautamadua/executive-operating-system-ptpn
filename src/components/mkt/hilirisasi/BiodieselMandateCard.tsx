@@ -67,8 +67,8 @@ export function BiodieselMandateCard() {
               ]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="alokasi" fill={PALETTE.slate} radius={[2, 2, 0, 0]} maxBarSize={16} />
-            <Bar dataKey="realisasi" fill={PALETTE.green} radius={[2, 2, 0, 0]} maxBarSize={16} />
+            <Bar isAnimationActive={false} dataKey="alokasi" fill={PALETTE.slate} radius={[2, 2, 0, 0]} maxBarSize={16} />
+            <Bar isAnimationActive={false} dataKey="realisasi" fill={PALETTE.green} radius={[2, 2, 0, 0]} maxBarSize={16} />
           </BarChart>
         </ResponsiveContainer>
       </div>

@@ -67,8 +67,8 @@ export function SensitivityTornadoFin() {
               }}
             />
             <ReferenceLine x={0} stroke={CHART_AXIS.axis} />
-            <Bar dataKey="low" stackId="tor" fill={PALETTE.red} maxBarSize={12} />
-            <Bar dataKey="high" stackId="tor" fill={PALETTE.green} maxBarSize={12} />
+            <Bar isAnimationActive={false} dataKey="low" stackId="tor" fill={PALETTE.red} maxBarSize={12} />
+            <Bar isAnimationActive={false} dataKey="high" stackId="tor" fill={PALETTE.green} maxBarSize={12} />
           </BarChart>
         </ResponsiveContainer>
       </div>

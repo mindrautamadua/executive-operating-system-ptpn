@@ -53,7 +53,7 @@ export function ResolutionTrend() {
               formatter={(v: number, name: string) => [`${num(v)} rb ha`, name]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Target Kumulatif"
               type="linear"
               dataKey="targetKumulatifRbHa"
@@ -63,7 +63,7 @@ export function ResolutionTrend() {
               dot={false}
               activeDot={{ r: 3.5 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               name="Realisasi Kumulatif"
               type="linear"
               dataKey="kumulatifRbHa"

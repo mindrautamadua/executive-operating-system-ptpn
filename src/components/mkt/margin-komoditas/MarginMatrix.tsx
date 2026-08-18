@@ -102,7 +102,7 @@ export function MarginMatrix() {
               }
               labelFormatter={() => ""}
             />
-            <Scatter data={rows} name="Komoditas">
+            <Scatter isAnimationActive={false} data={rows} name="Komoditas">
               {rows.map((d: MarginMatrixRow) => (
                 <Cell key={d.komoditas} fill={COLORS[d.komoditas] ?? PALETTE.slate} fillOpacity={0.75} />
               ))}

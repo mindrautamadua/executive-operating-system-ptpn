@@ -35,5 +35,5 @@ export function PkomKpiStrip() {
   const rows = filterBySubholding(items, active, (k) => commodityScope(k.metric));
   if (rows.length === 0) return <ScopeEmpty label={def.fullLabel} />;
 
-  return <ProdKpiCards items={rows} cols="grid-cols-5" />;
+  return <ProdKpiCards items={rows} cols="grid-cols-2 md:grid-cols-3 xl:grid-cols-5" />;
 }

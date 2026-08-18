@@ -63,7 +63,7 @@ export function HppBenchmark() {
               formatter={(v: number) => [`Rp ${rp(v)}/kg`, "HPP CPO"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="hppRpKg" radius={[3, 3, 0, 0]}>
+            <Bar isAnimationActive={false} dataKey="hppRpKg" radius={[3, 3, 0, 0]}>
               {hppBenchmark.map((b) => (
                 <Cell key={b.entitas} fill={b.isPtpn ? PALETTE.navy : PALETTE.slate} />
               ))}

@@ -90,7 +90,7 @@ export function RiskRadarChart() {
               tick={{ fontSize: 8, fill: "var(--chart-tick)" }}
               axisLine={false}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Risk Score"
               dataKey="score"
               stroke={PALETTE.red}

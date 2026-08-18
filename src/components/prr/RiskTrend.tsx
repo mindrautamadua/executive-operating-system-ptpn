@@ -120,7 +120,7 @@ export function RiskTrend() {
         </ResponsiveContainer>
       </div>
 
-      <div className="mt-1 grid grid-cols-4 gap-1.5">
+      <div className="mt-1 grid grid-cols-2 md:grid-cols-4 gap-1.5">
         {BANDS.map((b) => (
           <span
             key={b.label}

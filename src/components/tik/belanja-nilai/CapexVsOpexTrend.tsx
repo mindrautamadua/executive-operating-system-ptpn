@@ -78,7 +78,7 @@ export function CapexVsOpexTrend() {
               iconSize={6}
               wrapperStyle={{ fontSize: 8, color: "var(--text-2)" }}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               yAxisId="nilai"
               dataKey="capexRpT"
               name="Capex"
@@ -86,7 +86,7 @@ export function CapexVsOpexTrend() {
               fill={PALETTE.blue}
               barSize={30}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               yAxisId="nilai"
               dataKey="opexRpT"
               name="Opex"
@@ -103,7 +103,7 @@ export function CapexVsOpexTrend() {
                 style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="rasio"
               type="monotone"
               dataKey="pctPendapatan"

@@ -62,7 +62,7 @@ export function TurnoverTrend() {
               formatter={(v: number) => [persen(v), "Turnover Rate"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="linear"
               dataKey="value"
               stroke={PALETTE.red}

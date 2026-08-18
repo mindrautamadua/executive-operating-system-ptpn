@@ -17,6 +17,7 @@ export function RencanaAksi() {
 
       <div className="mt-2 min-h-0 flex-1">
         {/* leading-none: tanpa ini tiap <tr> mewarisi line-height 24px dan baris jadi tinggi */}
+        <div className="scroll-thin overflow-x-auto">
         <table className="w-full table-fixed border-collapse leading-none">
           <thead>
             <tr className="border-b border-[#eef2f6] text-[9px] font-semibold text-ink-500">
@@ -88,6 +89,7 @@ export function RencanaAksi() {
             ))}
           </tbody>
         </table>
+        </div>
       </div>
 
       <Link href="/succession-planning/rencana-aksi" className="link-more mt-1.5 flex cursor-pointer items-center gap-0.5">

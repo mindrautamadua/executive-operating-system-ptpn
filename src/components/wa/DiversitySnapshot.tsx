@@ -34,7 +34,7 @@ export function DiversitySnapshot() {
       />
       <p className="mt-[3px] text-[9px] text-ink-500">Keragaman Workforce</p>
 
-      <div className="mt-2.5 grid min-h-0 flex-1 grid-cols-4 gap-2">
+      <div className="mt-2.5 grid min-h-0 flex-1 grid-cols-2 md:grid-cols-4 gap-2">
         {diversityTiles.map((t) => {
           const Icon = ICONS[t.icon];
           const tone = TONES[t.tone];

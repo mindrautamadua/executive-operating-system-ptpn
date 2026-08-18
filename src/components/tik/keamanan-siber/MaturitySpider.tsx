@@ -43,7 +43,7 @@ export function MaturitySpider() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, name: string) => [angka(v), name]}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Target 2027"
               dataKey="target"
               stroke={PALETTE.amber}
@@ -52,7 +52,7 @@ export function MaturitySpider() {
               fill={PALETTE.amber}
               fillOpacity={0.05}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Skor 2026"
               dataKey="skor"
               stroke={PALETTE.blue}

@@ -101,7 +101,7 @@ export function Smk3ByUnit() {
               iconSize={6}
               wrapperStyle={{ fontSize: 8, color: CHART_AXIS.tick }}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               name="Tersertifikasi"
               dataKey="tersertifikasi"
               stackId="u"
@@ -112,7 +112,7 @@ export function Smk3ByUnit() {
                 <Cell key={r.jenisUnit} fillOpacity={dim(r.jenisUnit, 0.9)} />
               ))}
             </Bar>
-            <Bar
+            <Bar isAnimationActive={false}
               name="Belum"
               dataKey="belum"
               stackId="u"

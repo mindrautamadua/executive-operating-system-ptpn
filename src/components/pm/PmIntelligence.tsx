@@ -49,7 +49,7 @@ export function PmIntelligence() {
         </div>
       </div>
 
-      <div className="mt-2.5 grid grid-cols-4 gap-2">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-4 gap-2">
         {pmIntelSignals.map((s) => {
           const t = SIGNAL_TONE[s.tone];
           return (

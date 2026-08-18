@@ -40,7 +40,7 @@ export function HkmRiskRadar() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number, name: string) => [v.toLocaleString("id-ID"), name]}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Target 2027"
               dataKey="target"
               stroke={PALETTE.amber}
@@ -49,7 +49,7 @@ export function HkmRiskRadar() {
               fill={PALETTE.amber}
               fillOpacity={0.05}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Skor 2026"
               dataKey="score"
               stroke={PALETTE.green}

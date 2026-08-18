@@ -92,7 +92,7 @@ export function ConnectivityByRegion() {
                   : label;
               }}
             />
-            <Bar dataKey="konektivitasPct" radius={[3, 3, 0, 0]} maxBarSize={34}>
+            <Bar isAnimationActive={false} dataKey="konektivitasPct" radius={[3, 3, 0, 0]} maxBarSize={34}>
               {data.map((d) => (
                 <Cell key={d.regional} fill={FILL[d.status]} fillOpacity={opacity} />
               ))}

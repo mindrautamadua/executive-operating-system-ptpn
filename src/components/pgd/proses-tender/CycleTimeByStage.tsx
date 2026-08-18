@@ -73,7 +73,7 @@ export function CycleTimeByStage() {
               iconSize={7}
               wrapperStyle={{ fontSize: 8, paddingBottom: 2 }}
             />
-            <Bar dataKey="aktualHari" name="Aktual" radius={[0, 3, 3, 0]} barSize={8}>
+            <Bar isAnimationActive={false} dataKey="aktualHari" name="Aktual" radius={[0, 3, 3, 0]} barSize={8}>
               {rows.map((r) => (
                 <Cell key={r.tahap} fill={r.bottleneck ? PALETTE.red : PALETTE.blue} />
               ))}
@@ -83,7 +83,7 @@ export function CycleTimeByStage() {
                 style={{ fontSize: 8.5, fill: "#334155", fontWeight: 700 }}
               />
             </Bar>
-            <Bar
+            <Bar isAnimationActive={false}
               dataKey="targetHari"
               name="Target SLA"
               fill={PALETTE.slate}

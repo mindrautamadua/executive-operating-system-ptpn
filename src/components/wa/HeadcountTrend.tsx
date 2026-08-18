@@ -62,7 +62,7 @@ export function HeadcountTrend() {
               formatter={(v: number) => [ribuan(v), "Headcount"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="linear"
               dataKey="value"
               stroke={PALETTE.green}

@@ -97,7 +97,7 @@ export function MaintenanceBacklog() {
                 "Backlog",
               ]}
             />
-            <Bar dataKey="nilaiRpM" radius={[0, 3, 3, 0]} maxBarSize={18}>
+            <Bar isAnimationActive={false} dataKey="nilaiRpM" radius={[0, 3, 3, 0]} maxBarSize={18}>
               {data.map((d, i) => (
                 <Cell key={d.kategori} fill={FILLS[i]} fillOpacity={0.85} />
               ))}

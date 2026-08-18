@@ -70,7 +70,7 @@ export function HeadcountByAgeGroup() {
               formatter={(v: number) => [ribuan(v), "Karyawan"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar dataKey="value" radius={[3, 3, 0, 0]} maxBarSize={26}>
+            <Bar isAnimationActive={false} dataKey="value" radius={[3, 3, 0, 0]} maxBarSize={26}>
               {headcountByAge.map((d) => (
                 <Cell key={d.name} fill={d.color} />
               ))}

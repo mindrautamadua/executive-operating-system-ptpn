@@ -68,7 +68,7 @@ export function LiquidityRunway() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number) => [`Rp ${fmtId(v, 1)} T`, "Proyeksi Kas"]}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               dataKey="proyeksi"
               stroke={PALETTE.teal}

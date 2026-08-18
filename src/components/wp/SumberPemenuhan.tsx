@@ -59,7 +59,7 @@ export function SumberPemenuhan() {
         <div className="relative shrink-0" style={{ width: 158, height: 158 }}>
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
-              <Pie
+              <Pie isAnimationActive={false}
                 data={sumberPemenuhan}
                 dataKey="value"
                 nameKey="name"

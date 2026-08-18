@@ -100,7 +100,7 @@ export function ProfitPerHectare() {
               }
               labelFormatter={() => ""}
             />
-            <Scatter data={DATA} fillOpacity={0.85}>
+            <Scatter isAnimationActive={false} data={DATA} fillOpacity={0.85}>
               {DATA.map((d) => (
                 <Cell key={d.regional} fill={SEMANTIC[d.tone]} />
               ))}

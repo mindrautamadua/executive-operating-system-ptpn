@@ -19,7 +19,7 @@ export function QuickAccess() {
         </button>
       </div>
 
-      <div className="mt-2.5 grid grid-cols-3 gap-2">
+      <div className="mt-2.5 grid grid-cols-2 md:grid-cols-3 gap-2">
         {quickAccessItems.map(({ label, icon: Icon, tone }) => (
           <button
             key={label}

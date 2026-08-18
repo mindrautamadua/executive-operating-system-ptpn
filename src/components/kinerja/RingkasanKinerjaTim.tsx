@@ -71,6 +71,7 @@ export function RingkasanKinerjaTim() {
           : "Performa Tim berdasarkan Rata-rata Score"}
       </p>
 
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6]">
@@ -123,13 +124,13 @@ export function RingkasanKinerjaTim() {
               <td className="px-2">
                 <span className="flex items-center justify-center gap-2">
                   <button
-                    className="flex h-[19px] w-[19px] items-center justify-center rounded-md border border-[#e3e9ef] text-ink-500 transition-colors hover:bg-[#f5f8fa] hover:text-ptpn-green"
+                    className="flex h-[24px] w-[24px] items-center justify-center rounded-md border border-[#e3e9ef] text-ink-500 transition-colors hover:bg-[#f5f8fa] hover:text-ptpn-green"
                     aria-label="Lihat detail"
                   >
                     <BarChart3 size={11} />
                   </button>
                   <button
-                    className="flex h-[19px] w-[19px] items-center justify-center rounded-md border border-[#e3e9ef] text-ink-500 transition-colors hover:bg-[#f5f8fa] hover:text-ptpn-green"
+                    className="flex h-[24px] w-[24px] items-center justify-center rounded-md border border-[#e3e9ef] text-ink-500 transition-colors hover:bg-[#f5f8fa] hover:text-ptpn-green"
                     aria-label="Lihat anggota"
                   >
                     <UserRound size={11} />
@@ -140,6 +141,7 @@ export function RingkasanKinerjaTim() {
           ))}
         </tbody>
       </table>
+      </div>
     </div>
   );
 }

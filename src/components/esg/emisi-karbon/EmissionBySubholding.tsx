@@ -54,7 +54,7 @@ export function EmissionBySubholding() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number) => [`${v}%`, "Porsi Emisi"]}
             />
-            <Bar dataKey="pct" radius={[3, 3, 0, 0]} barSize={34}>
+            <Bar isAnimationActive={false} dataKey="pct" radius={[3, 3, 0, 0]} barSize={34}>
               {emissionBySubholding.map((d) => (
                 <Cell key={d.name} fill={d.color} fillOpacity={dim(d.name)} />
               ))}

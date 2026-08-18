@@ -75,7 +75,7 @@ export function TrenTalenta() {
               formatter={(v: number) => [fmt(v), "Talenta"]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               dataKey="value"
               stroke={PALETTE.blue}

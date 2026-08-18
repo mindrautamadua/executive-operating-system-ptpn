@@ -39,6 +39,8 @@ export function ModeNavBlock({ collapsed }: { collapsed: boolean }) {
               <Link
                 key={label}
                 href={href}
+                aria-current={on ? "page" : undefined}
+                aria-label={collapsed ? label : undefined}
                 title={collapsed ? label : undefined}
                 className={`mb-[2px] flex w-full items-center rounded-lg py-[7px] text-left text-[10.5px] transition-colors ${
                   collapsed ? "justify-center px-0" : "gap-2.5 px-2.5"

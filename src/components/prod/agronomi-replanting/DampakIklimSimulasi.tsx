@@ -49,7 +49,7 @@ export function DampakIklimSimulasi() {
         Skenario Dampak Produksi &amp; EBITDA (BMKG/NOAA, per Mei 2026)
       </p>
 
-      <div className="mt-2.5 grid min-h-0 flex-1 grid-cols-3 gap-3">
+      <div className="mt-2.5 grid min-h-0 flex-1 grid-cols-2 md:grid-cols-3 gap-3">
         {elNinoScenarios.map((s, i) => {
           const st = STYLES[i];
           const Icon = st.Icon;
@@ -72,7 +72,7 @@ export function DampakIklimSimulasi() {
                 </span>
               </div>
 
-              <div className="mt-2 grid grid-cols-3 gap-1.5">
+              <div className="mt-2 grid grid-cols-2 md:grid-cols-3 gap-1.5">
                 <div>
                   <div className="text-[7.5px] text-ink-400">Produksi H2</div>
                   <div className={`mt-[2px] text-[12px] font-extrabold leading-none ${st.accent}`}>

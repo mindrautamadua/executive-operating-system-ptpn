@@ -78,7 +78,7 @@ export function GenderLeadershipFunnel() {
       </p>
 
       {/* promotion velocity: kecepatan karier, bukan sekadar representasi */}
-      <div className="mt-1.5 grid grid-cols-3 gap-1.5 border-t border-[#eef2f6] pt-1.5">
+      <div className="mt-1.5 grid grid-cols-2 md:grid-cols-3 gap-1.5 border-t border-[#eef2f6] pt-1.5">
         {promotionVelocity.map((v) => (
           <div key={v.label} className="leading-tight">
             <div className="text-[9px] text-ink-500">{v.label}</div>

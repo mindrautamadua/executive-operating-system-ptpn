@@ -77,7 +77,7 @@ export function TrenBenchStrength() {
                 fill: PALETTE.amber,
               }}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               dataKey="value"
               stroke={PALETTE.blue}

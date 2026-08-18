@@ -32,6 +32,7 @@ export function ProgramTipe() {
       </div>
 
       <div className="mt-1.5 min-h-0 flex-1">
+        <div className="scroll-thin overflow-x-auto">
         <table className="w-full">
           <thead>
             <tr className="text-[9px] font-semibold uppercase tracking-[0.03em] text-ink-500">
@@ -74,6 +75,7 @@ export function ProgramTipe() {
             })}
           </tbody>
         </table>
+        </div>
       </div>
 
       <p className="mt-1 truncate text-[8.5px] text-ink-400" title={modalityNote}>

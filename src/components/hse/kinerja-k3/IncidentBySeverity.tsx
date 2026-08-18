@@ -59,7 +59,7 @@ export function IncidentBySeverity() {
                 return [`${v} kasus · ${pct(r.pct)} · ${r.keterangan}`, r.kategori];
               }}
             />
-            <Bar dataKey="jumlah" radius={[3, 3, 0, 0]} barSize={38}>
+            <Bar isAnimationActive={false} dataKey="jumlah" radius={[3, 3, 0, 0]} barSize={38}>
               {incidentBySeverity.map((r) => (
                 <Cell
                   key={r.kategori}

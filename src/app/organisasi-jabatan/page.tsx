@@ -19,7 +19,7 @@ export const metadata = { title: "Organisasi & Jabatan — PTPN Group" };
 
 export default function OrganisasiJabatanPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <SdmSidebar
         active="Organisasi & Jabatan"
         assistantPlaceholder="Tanya tentang struktur organisasi, span of control, atau analisis jabatan..."

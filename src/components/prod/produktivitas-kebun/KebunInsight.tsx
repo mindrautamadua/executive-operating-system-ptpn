@@ -31,7 +31,7 @@ export function KebunInsight() {
   return (
     <div className="flex flex-col gap-1">
       <ScopeNote className="self-end" />
-      <ProdInsightGrid items={items} cols="grid-cols-4" />
+      <ProdInsightGrid items={items} cols="grid-cols-2 md:grid-cols-4" />
     </div>
   );
 }

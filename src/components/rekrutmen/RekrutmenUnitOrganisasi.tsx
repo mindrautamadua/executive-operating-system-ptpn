@@ -12,6 +12,7 @@ export function RekrutmenUnitOrganisasi() {
     >
       <h3 className="card-title-navy">Rekrutmen by Unit Organisasi</h3>
 
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] bg-[#f7f9fb]">
@@ -75,6 +76,7 @@ export function RekrutmenUnitOrganisasi() {
           </tr>
         </tfoot>
       </table>
+      </div>
 
       <button className="link-more mt-auto flex items-center gap-1 self-start pt-2">
         Lihat detail unit <ChevronRight size={11} />

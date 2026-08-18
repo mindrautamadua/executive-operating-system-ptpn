@@ -61,7 +61,7 @@ export function EsgRatingCard() {
               contentStyle={CHART_TOOLTIP_STYLE}
               formatter={(v: number) => [angka(v), "ESG Risk Score"]}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="score"
               stroke={PALETTE.green}

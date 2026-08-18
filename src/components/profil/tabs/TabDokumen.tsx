@@ -87,6 +87,7 @@ function DokumenTerbaruCard() {
         </button>
       </div>
 
+      <div className="scroll-thin overflow-x-auto">
       <table className="mt-2.5 w-full">
         <thead>
           <tr className="border-b border-[#eef2f6] text-left text-[8.5px] font-semibold uppercase tracking-[0.05em] text-ink-400">
@@ -147,6 +148,7 @@ function DokumenTerbaruCard() {
           })}
         </tbody>
       </table>
+      </div>
     </div>
   );
 }
@@ -157,7 +159,7 @@ function KategoriDokumenCard() {
   return (
     <div className="card px-4 pb-4 pt-3.5">
       <h3 className="text-[11px] font-bold text-ink-900">Kategori Dokumen</h3>
-      <div className="mt-3 grid grid-cols-6 gap-2.5">
+      <div className="mt-3 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-2.5">
         {kategoriDokumen.map((k, i) => {
           const tone = KATEGORI_DOKUMEN_STYLE[k.nama];
           const Icon = KATEGORI_ICON[k.nama] ?? Folder;

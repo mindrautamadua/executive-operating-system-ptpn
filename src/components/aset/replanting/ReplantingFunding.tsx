@@ -41,7 +41,7 @@ export function ReplantingFunding() {
       </p>
 
       <div
-        className="mt-2 grid min-h-0 flex-1 grid-cols-3 gap-2.5 transition-opacity"
+        className="mt-2 grid min-h-0 flex-1 grid-cols-2 md:grid-cols-3 gap-2.5 transition-opacity"
         style={{ opacity: outOfScope ? 0.25 : 1 }}
       >
         {replantingFunding.map((f) => (

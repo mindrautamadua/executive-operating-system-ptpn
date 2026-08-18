@@ -83,7 +83,7 @@ export function MillUtilization() {
               }
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               yAxisId="kap"
               name="Kapasitas Terpasang"
               dataKey="kapasitasTerpasang"
@@ -92,7 +92,7 @@ export function MillUtilization() {
               barSize={22}
               radius={[3, 3, 0, 0]}
             />
-            <Bar
+            <Bar isAnimationActive={false}
               yAxisId="kap"
               name="Kapasitas Efektif"
               dataKey="kapasitasEfektif"
@@ -101,7 +101,7 @@ export function MillUtilization() {
               barSize={22}
               radius={[3, 3, 0, 0]}
             />
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="util"
               name="Utilisasi"
               type="linear"
@@ -111,7 +111,7 @@ export function MillUtilization() {
               dot={{ r: 2.4, fill: PALETTE.green, strokeWidth: 0 }}
               activeDot={{ r: 4 }}
             />
-            <Line
+            <Line isAnimationActive={false}
               yAxisId="util"
               name="Target"
               type="linear"

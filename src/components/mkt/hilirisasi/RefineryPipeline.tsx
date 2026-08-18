@@ -21,8 +21,8 @@ const barColor = (pct: number) =>
 const COLS: Record<number, string> = {
   1: "grid-cols-1",
   2: "grid-cols-2",
-  3: "grid-cols-3",
-  4: "grid-cols-4",
+  3: "grid-cols-2 md:grid-cols-3",
+  4: "grid-cols-2 md:grid-cols-4",
 };
 
 /** Pipeline proyek hilirisasi: progress, capex & target COD. */
@@ -61,7 +61,7 @@ export function RefineryPipeline() {
         Progress Proyek Kapasitas Hilir · total capex pipeline Rp 5,7 T
       </p>
 
-      <div className={`mt-2 grid min-h-0 flex-1 gap-3 ${COLS[rows.length] ?? "grid-cols-4"}`}>
+      <div className={`mt-2 grid min-h-0 flex-1 gap-3 ${COLS[rows.length] ?? "grid-cols-2 md:grid-cols-4"}`}>
         {rows.map((p) => (
           <div
             key={p.proyek}

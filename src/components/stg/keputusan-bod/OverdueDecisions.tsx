@@ -31,7 +31,7 @@ export function OverdueDecisions() {
             Tidak ada keputusan overdue untuk cakupan ini.
           </p>
         )}
-        <div className="grid grid-cols-3 gap-2">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
           {rows.map((d) => (
             <div key={d.title} className="rounded-lg border border-[#f5d9d9] bg-[#fdecec] p-2">
               <div className="flex items-start gap-1.5">

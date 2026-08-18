@@ -35,7 +35,7 @@ export function ErmMaturitySpider() {
               formatter={(v: number, n: string) => [String(v).replace(".", ","), n]}
               contentStyle={CHART_TOOLTIP_STYLE}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Target"
               dataKey="target"
               stroke={PALETTE.slate}
@@ -44,7 +44,7 @@ export function ErmMaturitySpider() {
               fill={PALETTE.slate}
               fillOpacity={0.06}
             />
-            <Radar
+            <Radar isAnimationActive={false}
               name="Skor 2026"
               dataKey="skor"
               stroke={PALETTE.green}

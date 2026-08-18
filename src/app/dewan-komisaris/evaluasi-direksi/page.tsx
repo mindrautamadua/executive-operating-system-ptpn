@@ -16,7 +16,7 @@ export const metadata = { title: "Evaluasi Kinerja Direksi — PTPN Group" };
 
 export default function EvaluasiDireksiPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <DekSidebar active="Evaluasi Kinerja Direksi" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">

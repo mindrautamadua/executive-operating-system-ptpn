@@ -73,7 +73,7 @@ export function TrenEngagement() {
                 fontWeight: 700,
               }}
             />
-            <Area
+            <Area isAnimationActive={false}
               type="monotone"
               dataKey="value"
               stroke={PALETTE.blue}

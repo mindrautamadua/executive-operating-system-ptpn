@@ -54,7 +54,7 @@ export function CapexSCurve() {
               ]}
             />
             <ReferenceLine x="Mei" stroke={CHART_AXIS.axis} strokeDasharray="4 3" />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="plan"
               stroke={PALETTE.blueSoft}
@@ -62,7 +62,7 @@ export function CapexSCurve() {
               strokeDasharray="5 3"
               dot={false}
             />
-            <Line
+            <Line isAnimationActive={false}
               type="monotone"
               dataKey="actual"
               stroke={PALETTE.green}

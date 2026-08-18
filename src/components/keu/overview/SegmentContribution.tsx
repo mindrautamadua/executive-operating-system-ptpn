@@ -79,7 +79,7 @@ export function SegmentContribution() {
               contentStyle={CHART_TOOLTIP_STYLE}
             />
             {segmentFinancials.map((s, i) => (
-              <Bar
+              <Bar isAnimationActive={false}
                 key={s.segment}
                 name={s.segment}
                 dataKey={s.segment}

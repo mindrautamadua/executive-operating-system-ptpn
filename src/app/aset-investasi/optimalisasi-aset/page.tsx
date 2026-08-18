@@ -15,7 +15,7 @@ export const metadata = { title: "Optimalisasi Aset — PTPN Group" };
 
 export default function OptimalisasiAsetPage() {
   return (
-    <div className="flex h-screen min-w-0 overflow-hidden bg-[var(--bg-app)]">
+    <div className="flex h-dvh min-w-0 overflow-hidden bg-[var(--bg-app)]">
       <AsetSidebar active="Optimalisasi Aset" />
 
       <main className="scroll-thin min-w-0 flex-1 overflow-y-auto">
