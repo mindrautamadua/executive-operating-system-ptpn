@@ -30,22 +30,22 @@ export default function KeamananSiberPage() {
 
           <SiberKpiStrip />
 
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]">
             <IncidentTrend />
             <IncidentByVector />
           </div>
 
-          <div className="grid auto-rows-[230px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,52fr)_minmax(0,48fr)]">
+          <div className="grid auto-rows-[minmax(230px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,52fr)_minmax(0,48fr)]">
             <VulnerabilityAging />
             <PdpReadiness />
           </div>
 
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,32fr)_minmax(0,68fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,32fr)_minmax(0,68fr)]">
             <MaturitySpider />
             <AwarenessProgram />
           </div>
 
-          <div className="grid auto-rows-[215px] grid-cols-1 gap-3">
+          <div className="grid auto-rows-[minmax(215px,auto)] grid-cols-1 gap-3">
             <DrTest />
           </div>
 

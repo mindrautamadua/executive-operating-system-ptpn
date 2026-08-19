@@ -31,7 +31,7 @@ export default function KinerjaLevelJabatanDetailPage() {
         <div className="flex flex-col gap-3 px-5 pb-5 pt-3">
           <DetailKpiStrip items={levelKpi} />
 
-          <div className="grid auto-rows-[254px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,62fr)_minmax(0,38fr)]">
+          <div className="grid auto-rows-[minmax(254px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,62fr)_minmax(0,38fr)]">
             <KategoriStackBars
               title="Komposisi Kategori per Level Jabatan"
               subtitle="Porsi tiap kategori kinerja dalam satu level, dengan rata-rata skor di kanan"

@@ -173,7 +173,7 @@ function FullHomeView() {
             </div>
 
             <div
-              className="anim-rise grid auto-rows-[248px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,40fr)_minmax(0,30fr)_minmax(0,30fr)]"
+              className="anim-rise grid auto-rows-[minmax(248px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,40fr)_minmax(0,30fr)_minmax(0,30fr)]"
               style={{ "--d": "180ms" } as React.CSSProperties}
             >
               <TrendKeuangan />
@@ -182,7 +182,7 @@ function FullHomeView() {
             </div>
 
             <div
-              className="anim-rise grid auto-rows-[150px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,40fr)_minmax(0,34fr)_minmax(0,26fr)]"
+              className="anim-rise grid auto-rows-[minmax(150px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,40fr)_minmax(0,34fr)_minmax(0,26fr)]"
               style={{ "--d": "240ms" } as React.CSSProperties}
             >
               <KpiStrategis />

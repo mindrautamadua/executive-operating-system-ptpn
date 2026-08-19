@@ -54,7 +54,7 @@ export default function TalentIntelligencePage() {
               <TalentMobilityOverview />
             </div>
 
-            <div className="grid auto-rows-[260px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,34fr)_minmax(0,32fr)_minmax(0,34fr)]">
+            <div className="grid auto-rows-[minmax(260px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,34fr)_minmax(0,32fr)_minmax(0,34fr)]">
               <TrenTalenta />
               <TalentIntelligenceIndex />
               <HeatmapUnitKerja />

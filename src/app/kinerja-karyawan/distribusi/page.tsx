@@ -34,7 +34,7 @@ export default function DistribusiKinerjaDetailPage() {
         <div className="flex flex-col gap-3 px-5 pb-5 pt-3">
           <DetailKpiStrip items={distribusiKpi} />
 
-          <div className="grid auto-rows-[254px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,34fr)_minmax(0,38fr)_minmax(0,28fr)]">
+          <div className="grid auto-rows-[minmax(254px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,34fr)_minmax(0,38fr)_minmax(0,28fr)]">
             <TiDonutCard
               title="Komposisi Kategori Q2 2026"
               subtitle="Jumlah karyawan per kategori kinerja"

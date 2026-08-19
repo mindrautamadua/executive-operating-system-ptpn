@@ -27,12 +27,12 @@ export default function StrukturBiayaPage() {
 
           <KsbKpiStrip />
 
-          <div className="grid auto-rows-[245px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,42fr)_minmax(0,58fr)]">
+          <div className="grid auto-rows-[minmax(245px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,42fr)_minmax(0,58fr)]">
             <CostStructureBreakdown />
             <UnitCostTrend />
           </div>
 
-          <div className="grid auto-rows-[235px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,36fr)_minmax(0,32fr)_minmax(0,32fr)]">
+          <div className="grid auto-rows-[minmax(235px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,36fr)_minmax(0,32fr)_minmax(0,32fr)]">
             <CostPerRegional />
             <FertilizerFuelExposure />
             <CostSavingPrograms />

@@ -29,13 +29,13 @@ export default function RiskRegisterPage() {
           <RegisterKpiStrip />
 
           {/* Komposisi register & efektivitas kontrol */}
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,42fr)_minmax(0,58fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,42fr)_minmax(0,58fr)]">
             <RegisterByCategory />
             <InherentVsResidual />
           </div>
 
           {/* Dinamika register & pemilik risiko */}
-          <div className="grid auto-rows-[240px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,54fr)_minmax(0,46fr)]">
+          <div className="grid auto-rows-[minmax(240px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,54fr)_minmax(0,46fr)]">
             <RiskMovement />
             <RiskOwnerMatrix />
           </div>

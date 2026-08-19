@@ -31,11 +31,11 @@ export default function AsetInvestasiPage() {
             <div className="flex min-w-0 flex-col gap-3">
               <AstKpiStrip />
               <AssetIntelligence />
-              <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,54fr)_minmax(0,46fr)]">
+              <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,54fr)_minmax(0,46fr)]">
                 <LandBankComposition />
                 <AssetRiskRadar />
               </div>
-              <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,52fr)_minmax(0,48fr)]">
+              <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,52fr)_minmax(0,48fr)]">
                 <AssetValueTrend />
                 <UtilizationSnapshot />
               </div>

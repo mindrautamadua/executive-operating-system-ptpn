@@ -35,7 +35,7 @@ export default function TindakanDetailPage() {
         <div className="flex flex-col gap-3 px-5 pb-5 pt-3">
           <DetailKpiStrip items={tindakanKpi} />
 
-          <div className="grid auto-rows-[268px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,32fr)_minmax(0,36fr)_minmax(0,32fr)]">
+          <div className="grid auto-rows-[minmax(268px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,32fr)_minmax(0,36fr)_minmax(0,32fr)]">
             <ProgressListCard
               title="Progres Tindakan Mitigasi"
               subtitle="Realisasi milestone terhadap rencana treatment"

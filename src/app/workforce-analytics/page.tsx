@@ -40,13 +40,13 @@ export default function WorkforceAnalyticsPage() {
           {/* Lapisan intelligence: sintesis + future readiness */}
           <WorkforceIntelligence />
 
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,62fr)_minmax(0,38fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,62fr)_minmax(0,38fr)]">
             <DemandSupplyGap />
             <WorkforceCapacity />
           </div>
 
           {/* Lapisan foundation: komposisi & dinamika current workforce */}
-          <div className="grid auto-rows-[235px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,40fr)_minmax(0,31fr)_minmax(0,29fr)]">
+          <div className="grid auto-rows-[minmax(235px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,40fr)_minmax(0,31fr)_minmax(0,29fr)]">
             <HeadcountTrend />
             <DonutBreakdown
               title="Headcount by Organization"
@@ -65,25 +65,25 @@ export default function WorkforceAnalyticsPage() {
             />
           </div>
 
-          <div className="grid auto-rows-[225px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,33fr)_minmax(0,32fr)_minmax(0,35fr)]">
+          <div className="grid auto-rows-[minmax(225px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,33fr)_minmax(0,32fr)_minmax(0,35fr)]">
             <HeadcountByGeneration />
             <HeadcountByAgeGroup />
             <DiversitySnapshot />
           </div>
 
-          <div className="grid auto-rows-[230px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,32fr)_minmax(0,32fr)_minmax(0,36fr)]">
+          <div className="grid auto-rows-[minmax(230px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,32fr)_minmax(0,32fr)_minmax(0,36fr)]">
             <HeadcountByJobLevel />
             <TurnoverTrend />
             <HeadcountMovement />
           </div>
 
           {/* Lapisan decision: produktivitas, skills, risk, scenario (ringkas, link ke modul spesialis) */}
-          <div className="grid auto-rows-[235px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,55fr)_minmax(0,45fr)]">
+          <div className="grid auto-rows-[minmax(235px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,55fr)_minmax(0,45fr)]">
             <WaProductivity />
             <WaSkillsGap />
           </div>
 
-          <div className="grid auto-rows-[215px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,55fr)_minmax(0,45fr)]">
+          <div className="grid auto-rows-[minmax(215px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,55fr)_minmax(0,45fr)]">
             <WaRiskCompact />
             <WaScenarioCompact />
           </div>

@@ -35,31 +35,31 @@ export default function IndustrialRelationsPage() {
 
           <IrDisruptionBanner />
 
-          <div className="grid auto-rows-[300px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,32fr)_minmax(0,34fr)_minmax(0,34fr)]">
+          <div className="grid auto-rows-[minmax(300px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,32fr)_minmax(0,34fr)_minmax(0,34fr)]">
             <CaseCategoryBreakdown />
             <IrCaseTrend />
             <IrEarlyWarning />
           </div>
 
-          <div className="grid auto-rows-[310px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,38fr)_minmax(0,27fr)_minmax(0,35fr)]">
+          <div className="grid auto-rows-[minmax(310px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,38fr)_minmax(0,27fr)_minmax(0,35fr)]">
             <CaseSeverity />
             <CaseAging />
             <RepeatRootCause />
           </div>
 
-          <div className="grid auto-rows-[300px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,31fr)_minmax(0,35fr)_minmax(0,34fr)]">
+          <div className="grid auto-rows-[minmax(300px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,31fr)_minmax(0,35fr)_minmax(0,34fr)]">
             <CaseResolution />
             <IrCompliance />
             <UnionRelationsHealth />
           </div>
 
-          <div className="grid auto-rows-[330px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,37fr)_minmax(0,28fr)_minmax(0,35fr)]">
+          <div className="grid auto-rows-[minmax(330px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,37fr)_minmax(0,28fr)_minmax(0,35fr)]">
             <RegionIrIndex />
             <TopIrIssues />
             <IrAiIntelligence />
           </div>
 
-          <div className="grid auto-rows-[300px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,37fr)_minmax(0,29fr)_minmax(0,34fr)]">
+          <div className="grid auto-rows-[minmax(300px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,37fr)_minmax(0,29fr)_minmax(0,34fr)]">
             <IrBusinessImpact />
             <IrCostLegal />
             <CrossModuleSignals />

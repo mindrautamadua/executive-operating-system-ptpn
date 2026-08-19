@@ -27,12 +27,12 @@ export default function StokInventoriPage() {
 
           <StokKpiStrip />
 
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]">
             <StokTrendChart />
             <StokByLokasi />
           </div>
 
-          <div className="grid auto-rows-[255px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,36fr)_minmax(0,37fr)_minmax(0,27fr)]">
+          <div className="grid auto-rows-[minmax(255px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,36fr)_minmax(0,37fr)_minmax(0,27fr)]">
             <AgingInventory />
             <StokVsHargaCard />
             <WorkingCapitalImpact />

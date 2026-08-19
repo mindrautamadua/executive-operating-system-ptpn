@@ -42,7 +42,7 @@ export default function TrenRisikoPage() {
         <div className="flex flex-col gap-3 px-5 pb-5 pt-3">
           <DetailKpiStrip items={trenRisikoKpi} />
 
-          <div className="grid auto-rows-[254px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,44fr)_minmax(0,30fr)_minmax(0,26fr)]">
+          <div className="grid auto-rows-[minmax(254px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,44fr)_minmax(0,30fr)_minmax(0,26fr)]">
             <TiTrendCard
               title="Overall Risk Score — Aktual & Forecast"
               subtitle="Aktual Jun 2025–Mei 2026, forecast Jun–Des 2026 dengan confidence band"

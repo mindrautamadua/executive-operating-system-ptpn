@@ -27,13 +27,13 @@ export default function NeracaLeveragePage() {
 
           <KnlKpiStrip />
 
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,38fr)_minmax(0,31fr)_minmax(0,31fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,38fr)_minmax(0,31fr)_minmax(0,31fr)]">
             <BalanceSheetComposition />
             <DebtMaturityProfile />
             <LeverageTrend />
           </div>
 
-          <div className="grid auto-rows-[235px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,45fr)_minmax(0,55fr)]">
+          <div className="grid auto-rows-[minmax(235px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,45fr)_minmax(0,55fr)]">
             <CovenantMonitor />
             <DebtByLenderCurrency />
           </div>

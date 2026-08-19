@@ -34,13 +34,13 @@ export default function AbsensiKehadiranPage() {
         <div className="mx-5 mb-4 flex flex-col gap-3">
           <AbsensiKpiStrip />
 
-          <div className="grid auto-rows-[272px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,383fr)_minmax(0,450fr)_minmax(0,449fr)]">
+          <div className="grid auto-rows-[minmax(272px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,383fr)_minmax(0,450fr)_minmax(0,449fr)]">
             <RingkasanKehadiran />
             <TrenKehadiran />
             <KehadiranUnitOrganisasi />
           </div>
 
-          <div className="grid auto-rows-[236px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,378fr)_minmax(0,355fr)_minmax(0,326fr)_minmax(0,214fr)]">
+          <div className="grid auto-rows-[minmax(236px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,378fr)_minmax(0,355fr)_minmax(0,326fr)_minmax(0,214fr)]">
             <KehadiranLokasi />
             <PolaKehadiranHari />
             <Keterlambatan />
@@ -48,13 +48,13 @@ export default function AbsensiKehadiranPage() {
           </div>
 
           {/* Intelligence layer: ekonomi absensi → early warning → kapasitas */}
-          <div className="grid auto-rows-[248px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,452fr)_minmax(0,415fr)_minmax(0,415fr)]">
+          <div className="grid auto-rows-[minmax(248px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,452fr)_minmax(0,415fr)_minmax(0,415fr)]">
             <EkonomiAbsensi />
             <EarlyWarningAbsensi />
             <KapasitasWorkforce />
           </div>
 
-          <div className="grid auto-rows-[264px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,552fr)_minmax(0,368fr)_minmax(0,367fr)]">
+          <div className="grid auto-rows-[minmax(264px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,552fr)_minmax(0,368fr)_minmax(0,367fr)]">
             <RekapKehadiran />
             <InsightAbsensi />
             <KalenderKehadiran />

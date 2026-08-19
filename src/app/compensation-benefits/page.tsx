@@ -37,35 +37,35 @@ export default function CompensationBenefitsPage() {
         <div className="mx-5 mb-4 flex flex-col gap-3">
           <CompKpiStrip />
 
-          <div className="grid auto-rows-[266px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,380fr)_minmax(0,450fr)_minmax(0,457fr)]">
+          <div className="grid auto-rows-[minmax(266px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,380fr)_minmax(0,450fr)_minmax(0,457fr)]">
             <KomposisiTotalRewards />
             <TrenBiayaKompensasi />
             <BenchmarkGaji />
           </div>
 
-          <div className="grid auto-rows-[230px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,380fr)_minmax(0,308fr)_minmax(0,307fr)_minmax(0,283fr)]">
+          <div className="grid auto-rows-[minmax(230px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,380fr)_minmax(0,308fr)_minmax(0,307fr)_minmax(0,283fr)]">
             <PayGapAnalisis />
             <DistribusiGaji />
             <RealisasiKenaikanGaji />
             <KomposisiBenefits />
           </div>
 
-          <div className="grid auto-rows-[236px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]">
+          <div className="grid auto-rows-[minmax(236px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]">
             <CompaRangePanel />
             <PayEquityRemediation />
           </div>
 
-          <div className="grid auto-rows-[240px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,36fr)_minmax(0,32fr)_minmax(0,32fr)]">
+          <div className="grid auto-rows-[minmax(240px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,36fr)_minmax(0,32fr)_minmax(0,32fr)]">
             <PayForPerformance />
             <PeopleCostEfficiency />
             <CriticalTalentCompRisk />
           </div>
 
-          <div className="grid auto-rows-[228px] grid-cols-1">
+          <div className="grid auto-rows-[minmax(228px,auto)] grid-cols-1">
             <CompDecisionCenter />
           </div>
 
-          <div className="grid auto-rows-[216px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,495fr)_minmax(0,328fr)_minmax(0,468fr)]">
+          <div className="grid auto-rows-[minmax(216px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,495fr)_minmax(0,328fr)_minmax(0,468fr)]">
             <RingkasanUnitKompensasi />
             <RasioKinerja />
             <InsightComp />

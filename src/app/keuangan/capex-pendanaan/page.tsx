@@ -28,14 +28,14 @@ export default function CapexPendanaanPage() {
           <KcxKpiStrip />
 
           {/* Komposisi capex: kategori, subholding, sumber pendanaan */}
-          <div className="grid auto-rows-[240px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,38fr)_minmax(0,31fr)_minmax(0,31fr)]">
+          <div className="grid auto-rows-[minmax(240px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,38fr)_minmax(0,31fr)_minmax(0,31fr)]">
             <CapexByCategory />
             <CapexBySubholding />
             <FundingMix />
           </div>
 
           {/* Eksekusi: kurva realisasi & proyek deviasi terbesar */}
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,52fr)_minmax(0,48fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,52fr)_minmax(0,48fr)]">
             <CapexSCurve />
             <TopCapexVariance />
           </div>

@@ -29,19 +29,19 @@ export default function KepatuhanRegulasiPage() {
           <KepKpiStrip />
 
           {/* Peta kewajiban & pipeline regulasi */}
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,48fr)_minmax(0,52fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,48fr)_minmax(0,52fr)]">
             <ObligationByDomain />
             <RegulatoryChangeRadar />
           </div>
 
           {/* Kewajiban pasar domestik & legalitas lahan */}
-          <div className="grid auto-rows-[240px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,52fr)_minmax(0,48fr)]">
+          <div className="grid auto-rows-[minmax(240px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,52fr)_minmax(0,48fr)]">
             <DmoDpoTracker />
             <HguPortfolio />
           </div>
 
           {/* Kinerja kepatuhan per entitas & sanksi */}
-          <div className="grid auto-rows-[225px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,55fr)_minmax(0,45fr)]">
+          <div className="grid auto-rows-[minmax(225px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,55fr)_minmax(0,45fr)]">
             <ComplianceBySubholding />
             <SanctionLog />
           </div>

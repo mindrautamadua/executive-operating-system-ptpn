@@ -27,17 +27,17 @@ export default function PenjualanKomoditasPage() {
 
           <JualKpiStrip />
 
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,62fr)_minmax(0,38fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,62fr)_minmax(0,38fr)]">
             <SalesTrendChart />
             <PriceVolumeBridge />
           </div>
 
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,56fr)_minmax(0,44fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,56fr)_minmax(0,44fr)]">
             <SalesByKomoditasTable />
             <AspVsBenchmark />
           </div>
 
-          <div className="grid auto-rows-[215px] grid-cols-1 gap-3">
+          <div className="grid auto-rows-[minmax(215px,auto)] grid-cols-1 gap-3">
             <SalesBySubholding />
           </div>
 

@@ -33,7 +33,7 @@ export default function BenchStrengthDetailPage() {
         <div className="flex flex-col gap-3 px-5 pb-5 pt-3">
           <DetailKpiStrip items={benchKpi} />
 
-          <div className="grid auto-rows-[254px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,44fr)_minmax(0,28fr)_minmax(0,28fr)]">
+          <div className="grid auto-rows-[minmax(254px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,44fr)_minmax(0,28fr)_minmax(0,28fr)]">
             <TiTrendCard
               title="Tren Bench Strength vs Target"
               subtitle="Bench grup dan tiga level jabatan kunci"

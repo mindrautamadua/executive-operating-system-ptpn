@@ -34,7 +34,7 @@ export default function TalentMobilityPage() {
         <div className="flex flex-col gap-3 px-5 pb-5 pt-3">
           <DetailKpiStrip items={mobilityKpi} />
 
-          <div className="grid auto-rows-[236px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,34fr)_minmax(0,33fr)_minmax(0,33fr)]">
+          <div className="grid auto-rows-[minmax(236px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,34fr)_minmax(0,33fr)_minmax(0,33fr)]">
             <TiStackedBarCard
               title="Mobilitas per Bulan (YTD 2026)"
               subtitle="Jumlah perpindahan peran per jenis mobilitas"

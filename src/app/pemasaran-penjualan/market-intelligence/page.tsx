@@ -27,17 +27,17 @@ export default function MarketIntelligencePage() {
 
           <MiKpiStrip />
 
-          <div className="grid auto-rows-[300px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]">
+          <div className="grid auto-rows-[minmax(300px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]">
             <SignalFeed />
             <MiAiSynthesis />
           </div>
 
-          <div className="grid auto-rows-[240px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,55fr)_minmax(0,45fr)]">
+          <div className="grid auto-rows-[minmax(240px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,55fr)_minmax(0,45fr)]">
             <CompetitorBenchmark />
             <GlobalSupplyDemand />
           </div>
 
-          <div className="grid auto-rows-[195px] grid-cols-1 gap-3">
+          <div className="grid auto-rows-[minmax(195px,auto)] grid-cols-1 gap-3">
             <PolicyWatchCard />
           </div>
 

@@ -47,7 +47,7 @@ export default function HeadcountMovementPage() {
         <div className="flex flex-col gap-3 px-5 pb-5 pt-3">
           <DetailKpiStrip items={movementKpi} />
 
-          <div className="grid auto-rows-[270px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,40fr)_minmax(0,32fr)_minmax(0,28fr)]">
+          <div className="grid auto-rows-[minmax(270px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,40fr)_minmax(0,32fr)_minmax(0,28fr)]">
             <MovementWaterfall />
             <FlowChart />
             <BarListCard

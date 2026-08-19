@@ -34,40 +34,40 @@ export default function WorkforcePlanningPage() {
         <div className="flex flex-col gap-3 px-5 pb-5">
           <WpKpiStrip />
 
-          <div className="grid auto-rows-[268px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,32fr)_minmax(0,33fr)_minmax(0,35fr)]">
+          <div className="grid auto-rows-[minmax(268px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,32fr)_minmax(0,33fr)_minmax(0,35fr)]">
             <HeadcountProjection />
             <KebutuhanJenjang />
             <KebutuhanFungsi />
           </div>
 
-          <div className="grid auto-rows-[236px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,40fr)_minmax(0,26fr)_minmax(0,34fr)]">
+          <div className="grid auto-rows-[minmax(236px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,40fr)_minmax(0,26fr)_minmax(0,34fr)]">
             <BusinessDemandDrivers />
             <WorkforceCapacity />
             <WorkforceRebalancing />
           </div>
 
-          <div className="grid auto-rows-[258px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,32fr)_minmax(0,34fr)_minmax(0,34fr)]">
+          <div className="grid auto-rows-[minmax(258px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,32fr)_minmax(0,34fr)_minmax(0,34fr)]">
             <GapTalentaKritis />
             <SumberPemenuhan />
             <SupplyDemandBalance />
           </div>
 
-          <div className="grid auto-rows-[240px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,56fr)_minmax(0,44fr)]">
+          <div className="grid auto-rows-[minmax(240px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,56fr)_minmax(0,44fr)]">
             <SkillGap4B />
             <WorkforceWaterfall />
           </div>
 
-          <div className="grid grid-cols-1 gap-3 xl:auto-rows-[248px] xl:grid-cols-[minmax(0,64fr)_minmax(0,36fr)]">
+          <div className="grid grid-cols-1 gap-3 xl:auto-rows-[minmax(248px,auto)] xl:grid-cols-[minmax(0,64fr)_minmax(0,36fr)]">
             <ScenarioPlanning />
             <RekomendasiStrategis />
           </div>
 
-          <div className="grid grid-cols-1 gap-3 xl:auto-rows-[230px] xl:grid-cols-[minmax(0,68fr)_minmax(0,32fr)]">
+          <div className="grid grid-cols-1 gap-3 xl:auto-rows-[minmax(230px,auto)] xl:grid-cols-[minmax(0,68fr)_minmax(0,32fr)]">
             <ScenarioDecisionMatrix />
             <WorkforceRiskOverlay />
           </div>
 
-          <div className="grid grid-cols-1 gap-3 xl:auto-rows-[224px]">
+          <div className="grid grid-cols-1 gap-3 xl:auto-rows-[minmax(224px,auto)]">
             <WpControlTower />
           </div>
 

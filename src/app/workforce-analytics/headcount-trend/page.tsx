@@ -21,12 +21,12 @@ export default function HeadcountTrendDetailPage() {
         <div className="flex flex-col gap-3 px-5 pb-5 pt-3">
           <TrendKpiStrip />
 
-          <div className="grid auto-rows-[300px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,66fr)_minmax(0,34fr)]">
+          <div className="grid auto-rows-[minmax(300px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,66fr)_minmax(0,34fr)]">
             <TrendMainChart />
             <YoyGrowthChart />
           </div>
 
-          <div className="grid auto-rows-[262px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,36fr)_minmax(0,36fr)_minmax(0,28fr)]">
+          <div className="grid auto-rows-[minmax(262px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,36fr)_minmax(0,36fr)_minmax(0,28fr)]">
             <CompositionTrendChart />
             <FlowChart />
             <GrowthContribution />

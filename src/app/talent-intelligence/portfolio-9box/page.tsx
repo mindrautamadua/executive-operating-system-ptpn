@@ -35,7 +35,7 @@ export default function TalentPortfolioDetailPage() {
         <div className="flex flex-col gap-3 px-5 pb-5 pt-3">
           <DetailKpiStrip items={nineBoxKpi} />
 
-          <div className="grid auto-rows-[330px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]">
+          <div className="grid auto-rows-[minmax(330px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]">
             <NineBoxDetailGrid />
             <TiTrendCard
               title="Pergeseran Kuadran (6 Semester)"
@@ -54,7 +54,7 @@ export default function TalentPortfolioDetailPage() {
             />
           </div>
 
-          <div className="grid auto-rows-[236px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)]">
+          <div className="grid auto-rows-[minmax(236px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)]">
             <BarListCard
               title="Porsi Star per Entitas"
               subtitle="Persentase Star terhadap talenta entitas"

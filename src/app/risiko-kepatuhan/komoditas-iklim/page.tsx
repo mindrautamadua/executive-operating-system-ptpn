@@ -30,19 +30,19 @@ export default function KomoditasIklimPage() {
           <KiKpiStrip />
 
           {/* Eksposur harga & skenario iklim */}
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]">
             <CpoPriceBand />
             <ElNinoScenario />
           </div>
 
           {/* Anomali iklim & sensitivitas komoditas */}
-          <div className="grid auto-rows-[240px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,38fr)_minmax(0,62fr)]">
+          <div className="grid auto-rows-[minmax(240px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,38fr)_minmax(0,62fr)]">
             <RainfallAnomalyChart />
             <CommodityScenarioTable />
           </div>
 
           {/* Risiko gula, adaptasi, dan keputusan mitigasi */}
-          <div className="grid auto-rows-[230px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,28fr)_minmax(0,38fr)_minmax(0,34fr)]">
+          <div className="grid auto-rows-[minmax(230px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,28fr)_minmax(0,38fr)_minmax(0,34fr)]">
             <SugarImportRisk />
             <ClimateAdaptasi />
             <KiDecisionCenter />

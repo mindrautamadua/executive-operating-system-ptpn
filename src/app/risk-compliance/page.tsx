@@ -29,26 +29,26 @@ export default function RiskCompliancePage() {
         <div className="flex flex-col gap-3 px-5 pb-5">
           <RcKpiStrip />
 
-          <div className="grid auto-rows-[340px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,33fr)_minmax(0,32fr)_minmax(0,35fr)]">
+          <div className="grid auto-rows-[minmax(340px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,33fr)_minmax(0,32fr)_minmax(0,35fr)]">
             <ComplianceRadarChart />
             <ComplianceSummary />
             <TopComplianceIssues />
           </div>
 
-          <div className="grid auto-rows-[280px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,29fr)_minmax(0,22fr)_minmax(0,23fr)_minmax(0,26fr)]">
+          <div className="grid auto-rows-[minmax(280px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,29fr)_minmax(0,22fr)_minmax(0,23fr)_minmax(0,26fr)]">
             <ComplianceTrend />
             <ComplianceHeatmapOrg />
             <CaseBreakdown />
             <RekomendasiKepatuhan />
           </div>
 
-          <div className="grid auto-rows-[258px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,38fr)_minmax(0,28fr)_minmax(0,34fr)]">
+          <div className="grid auto-rows-[minmax(258px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,38fr)_minmax(0,28fr)_minmax(0,34fr)]">
             <ControlEffectiveness />
             <AuditAging />
             <SpeakUpIntelligence />
           </div>
 
-          <div className="grid auto-rows-[252px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,42fr)_minmax(0,58fr)]">
+          <div className="grid auto-rows-[minmax(252px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,42fr)_minmax(0,58fr)]">
             <RegulatoryChangeRadar />
             <RcBodDecisionCenter />
           </div>

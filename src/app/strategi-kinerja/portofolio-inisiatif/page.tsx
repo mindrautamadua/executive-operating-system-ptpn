@@ -27,17 +27,17 @@ export default function PortofolioInisiatifPage() {
 
           <SpiKpiStrip />
 
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,38fr)_minmax(0,62fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,38fr)_minmax(0,62fr)]">
             <InitiativeByTheme />
             <InitiativeStatusBoard />
           </div>
 
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,45fr)_minmax(0,55fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,45fr)_minmax(0,55fr)]">
             <ImpactVsEffort />
             <InitiativeFunding />
           </div>
 
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3">
             <AtRiskInitiatives />
           </div>
 

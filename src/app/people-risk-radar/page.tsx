@@ -30,25 +30,25 @@ export default function PeopleRiskRadarPage() {
         <div className="flex flex-col gap-3 px-5 pb-5">
           <PrrKpiStrip />
 
-          <div className="grid auto-rows-[340px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,33fr)_minmax(0,32fr)_minmax(0,35fr)]">
+          <div className="grid auto-rows-[minmax(340px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,33fr)_minmax(0,32fr)_minmax(0,35fr)]">
             <RiskRadarChart />
             <RiskSummary />
             <TopRisks />
           </div>
 
-          <div className="grid auto-rows-[280px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,40fr)_minmax(0,31fr)_minmax(0,29fr)]">
+          <div className="grid auto-rows-[minmax(280px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,40fr)_minmax(0,31fr)_minmax(0,29fr)]">
             <RiskTrend />
             <RiskHeatmapOrg />
             <TopRiskDrivers />
           </div>
 
-          <div className="grid auto-rows-[300px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,31fr)_minmax(0,32fr)_minmax(0,37fr)]">
+          <div className="grid auto-rows-[minmax(300px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,31fr)_minmax(0,32fr)_minmax(0,37fr)]">
             <EarlyWarnings />
             <ControlEffectiveness />
             <RekomendasiTindakan />
           </div>
 
-          <div className="grid auto-rows-[290px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,33fr)_minmax(0,34fr)_minmax(0,33fr)]">
+          <div className="grid auto-rows-[minmax(290px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,33fr)_minmax(0,34fr)_minmax(0,33fr)]">
             <RiskInterdependency />
             <ExposureByBusiness />
             <ScenarioImpact />

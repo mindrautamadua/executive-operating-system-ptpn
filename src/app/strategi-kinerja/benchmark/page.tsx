@@ -27,17 +27,17 @@ export default function BenchmarkPage() {
 
           <SbmKpiStrip />
 
-          <div className="grid auto-rows-[240px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,50fr)_minmax(0,50fr)]">
+          <div className="grid auto-rows-[minmax(240px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,50fr)_minmax(0,50fr)]">
             <MarginBenchmark />
             <YieldBenchmark />
           </div>
 
-          <div className="grid auto-rows-[235px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,54fr)_minmax(0,46fr)]">
+          <div className="grid auto-rows-[minmax(235px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,54fr)_minmax(0,46fr)]">
             <CostPositionCurve />
             <SugarBenchmark />
           </div>
 
-          <div className="grid auto-rows-[230px] grid-cols-1 gap-3">
+          <div className="grid auto-rows-[minmax(230px,auto)] grid-cols-1 gap-3">
             <GapToBestInClass />
           </div>
 

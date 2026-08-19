@@ -27,17 +27,17 @@ export default function HilirisasiPage() {
 
           <HilirKpiStrip />
 
-          <div className="grid auto-rows-[255px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]">
+          <div className="grid auto-rows-[minmax(255px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]">
             <HilirRevenueTrend />
             <MarginUpliftChart />
           </div>
 
-          <div className="grid auto-rows-[245px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,55fr)_minmax(0,45fr)]">
+          <div className="grid auto-rows-[minmax(245px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,55fr)_minmax(0,45fr)]">
             <ProdukTurunanTable />
             <BiodieselMandateCard />
           </div>
 
-          <div className="grid auto-rows-[205px] grid-cols-1 gap-3">
+          <div className="grid auto-rows-[minmax(205px,auto)] grid-cols-1 gap-3">
             <RefineryPipeline />
           </div>
 

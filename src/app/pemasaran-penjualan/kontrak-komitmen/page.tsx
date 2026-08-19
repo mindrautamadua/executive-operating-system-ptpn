@@ -27,17 +27,17 @@ export default function KontrakKomitmenPage() {
 
           <KontrakKpiStrip />
 
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,62fr)_minmax(0,38fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,62fr)_minmax(0,38fr)]">
             <ForwardCoverageChart />
             <KontrakMaturityLadder />
           </div>
 
-          <div className="grid auto-rows-[240px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,48fr)_minmax(0,52fr)]">
+          <div className="grid auto-rows-[minmax(240px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,48fr)_minmax(0,52fr)]">
             <TenderKpbnCard />
             <CounterpartyExposure />
           </div>
 
-          <div className="grid auto-rows-[215px] grid-cols-1 gap-3">
+          <div className="grid auto-rows-[minmax(215px,auto)] grid-cols-1 gap-3">
             <HedgingPolicyCard />
           </div>
 

@@ -32,35 +32,35 @@ export default function ScenarioSimulationPage() {
         <div className="flex flex-col gap-3 px-5 pb-5">
           <SsKpiStrip />
 
-          <div className="grid auto-rows-[255px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,40fr)_minmax(0,30fr)_minmax(0,30fr)]">
+          <div className="grid auto-rows-[minmax(255px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,40fr)_minmax(0,30fr)_minmax(0,30fr)]">
             <ScenarioManager />
             <ImpactComparison />
             <HeadcountProjection />
           </div>
 
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,31fr)_minmax(0,33fr)_minmax(0,36fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,31fr)_minmax(0,33fr)_minmax(0,36fr)]">
             <ScenarioAssumptions />
             <FinancialImpact />
             <TalentImpactSummary />
           </div>
 
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,36fr)_minmax(0,33fr)_minmax(0,31fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,36fr)_minmax(0,33fr)_minmax(0,31fr)]">
             <ValueCreationBridge />
             <SensitivityTornado />
             <OutcomeRange />
           </div>
 
-          <div className="grid auto-rows-[260px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,33fr)_minmax(0,36fr)_minmax(0,31fr)]">
+          <div className="grid auto-rows-[minmax(260px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,33fr)_minmax(0,36fr)_minmax(0,31fr)]">
             <ExecutionFeasibility />
             <StressScenario />
             <GoalSeekPanel />
           </div>
 
-          <div className="grid auto-rows-[235px] grid-cols-1">
+          <div className="grid auto-rows-[minmax(235px,auto)] grid-cols-1">
             <SsDecisionCenter />
           </div>
 
-          <div className="grid auto-rows-[225px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,36fr)_minmax(0,32fr)_minmax(0,32fr)]">
+          <div className="grid auto-rows-[minmax(225px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,36fr)_minmax(0,32fr)_minmax(0,32fr)]">
             <SsInsightRekomendasi />
             <NextBestAction />
             <ModelConfidenceRisk />

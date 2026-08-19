@@ -28,13 +28,13 @@ export default function AnggaranRealisasiPage() {
           <KbaKpiStrip />
 
           {/* Sumber deviasi & rapor per subholding */}
-          <div className="grid auto-rows-[245px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,52fr)_minmax(0,48fr)]">
+          <div className="grid auto-rows-[minmax(245px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,52fr)_minmax(0,48fr)]">
             <BudgetVarianceWaterfall />
             <RkapScoreBySubholding />
           </div>
 
           {/* Disiplin bulanan & peta deviasi */}
-          <div className="grid auto-rows-[240px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,55fr)_minmax(0,45fr)]">
+          <div className="grid auto-rows-[minmax(240px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,55fr)_minmax(0,45fr)]">
             <MonthlyBudgetTrack />
             <VarianceHeatmap />
           </div>

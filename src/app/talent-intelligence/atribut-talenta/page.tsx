@@ -33,7 +33,7 @@ export default function TalentAttributesPage() {
         <div className="flex flex-col gap-3 px-5 pb-5 pt-3">
           <DetailKpiStrip items={attributeKpi} />
 
-          <div className="grid auto-rows-[266px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,34fr)_minmax(0,33fr)_minmax(0,33fr)]">
+          <div className="grid auto-rows-[minmax(266px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,34fr)_minmax(0,33fr)_minmax(0,33fr)]">
             <TiRadarCard
               title="Profil Kapabilitas vs Benchmark"
               subtitle="Skala 1–5, area abu-abu = benchmark industri"

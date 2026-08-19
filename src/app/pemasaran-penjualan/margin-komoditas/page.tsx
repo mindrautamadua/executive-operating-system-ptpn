@@ -27,17 +27,17 @@ export default function MarginKomoditasPage() {
 
           <MarginKpiStrip />
 
-          <div className="grid auto-rows-[260px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,55fr)_minmax(0,45fr)]">
+          <div className="grid auto-rows-[minmax(260px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,55fr)_minmax(0,45fr)]">
             <MarginWaterfall />
             <MarginTrendChart />
           </div>
 
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,55fr)_minmax(0,45fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,55fr)_minmax(0,45fr)]">
             <MarginMatrix />
             <MarginBySubholding />
           </div>
 
-          <div className="grid auto-rows-[280px] grid-cols-1 gap-3">
+          <div className="grid auto-rows-[minmax(280px,auto)] grid-cols-1 gap-3">
             <KomoditasMerugi />
           </div>
 

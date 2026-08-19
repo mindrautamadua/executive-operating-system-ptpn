@@ -35,7 +35,8 @@ const popoverTriggerProps = {
 /** Strip Data Trust: kesegaran, cakupan, kualitas, dan sumber data dashboard. */
 export function DataTrustStrip({ data = dataTrust }: { data?: typeof dataTrust }) {
   return (
-    <div className="card anim-rise mb-3 flex items-center gap-4 px-4 py-2">
+    // !overflow-visible: popover as-of & trust berlabuh keluar kartu; tanpa ini terpotong.
+    <div className="card anim-rise relative z-20 mb-3 flex items-center gap-4 !overflow-visible px-4 py-2">
       <span className="text-[8.5px] font-extrabold uppercase tracking-[0.05em] text-ink-400">
         Data Trust{data.domain ? ` · ${data.domain}` : ""}
       </span>

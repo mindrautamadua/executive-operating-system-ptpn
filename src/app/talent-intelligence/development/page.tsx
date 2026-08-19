@@ -42,7 +42,7 @@ export default function TalentDevelopmentPage() {
             note="Kontribusi terestimasi, bukan ROI kausal — atribusi penuh membutuhkan model evaluasi dampak (fase berikutnya)."
           />
 
-          <div className="grid auto-rows-[236px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,36fr)_minmax(0,32fr)_minmax(0,32fr)]">
+          <div className="grid auto-rows-[minmax(236px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,36fr)_minmax(0,32fr)_minmax(0,32fr)]">
             <TiTrendCard
               title="Realisasi Investasi Bulanan"
               subtitle="Investasi development (Rp miliar) dan jumlah peserta per bulan"

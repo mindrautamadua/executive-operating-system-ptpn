@@ -36,41 +36,41 @@ export default function KinerjaKaryawanPage() {
 
           <KinerjaIntelligence />
 
-          <div className="grid auto-rows-[272px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,405fr)_minmax(0,415fr)_minmax(0,475fr)]">
+          <div className="grid auto-rows-[minmax(272px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,405fr)_minmax(0,415fr)_minmax(0,475fr)]">
             <DistribusiKinerja />
             <TrendOverallScore />
             <KinerjaDimensi />
           </div>
 
-          <div className="grid auto-rows-[240px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,340fr)_minmax(0,480fr)_minmax(0,475fr)]">
+          <div className="grid auto-rows-[minmax(240px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,340fr)_minmax(0,480fr)_minmax(0,475fr)]">
             <KinerjaUnitOrganisasi />
             <KinerjaLevelJabatan />
             <PencapaianTarget />
           </div>
 
-          <div className="grid auto-rows-[240px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,52fr)_minmax(0,48fr)]">
+          <div className="grid auto-rows-[minmax(240px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,52fr)_minmax(0,48fr)]">
             <KalibrasiRating />
             <FairnessKinerja />
           </div>
 
           <RisikoKinerjaRadar />
 
-          <div className="grid auto-rows-[240px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,46fr)_minmax(0,54fr)]">
+          <div className="grid auto-rows-[minmax(240px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,46fr)_minmax(0,54fr)]">
             <DekomposisiScore />
             <KonversiTalenta />
           </div>
 
-          <div className="grid auto-rows-[248px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,50fr)_minmax(0,50fr)]">
+          <div className="grid auto-rows-[minmax(248px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,50fr)_minmax(0,50fr)]">
             <GoalAlignment />
             <ContinuousPerformance />
           </div>
 
-          <div className="grid auto-rows-[224px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,46fr)_minmax(0,54fr)]">
+          <div className="grid auto-rows-[minmax(224px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,46fr)_minmax(0,54fr)]">
             <Signal360 />
             <RewardDevelopment />
           </div>
 
-          <div className="grid auto-rows-[228px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,830fr)_minmax(0,475fr)]">
+          <div className="grid auto-rows-[minmax(228px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,830fr)_minmax(0,475fr)]">
             <RingkasanKinerjaTim />
             <InsightRekomendasi />
           </div>

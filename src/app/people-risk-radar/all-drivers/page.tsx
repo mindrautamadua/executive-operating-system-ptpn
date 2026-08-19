@@ -20,7 +20,7 @@ export default function AllDriversPage() {
         <div className="flex flex-col gap-3 px-5 pb-5 pt-3">
           <DriversKpiStrip />
 
-          <div className="grid auto-rows-[280px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,34fr)_minmax(0,26fr)_minmax(0,30fr)_minmax(0,28fr)]">
+          <div className="grid auto-rows-[minmax(280px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,34fr)_minmax(0,26fr)_minmax(0,30fr)_minmax(0,28fr)]">
             <DriverPareto />
             <DriverFamilyDonut />
             <DriverFamilyTrend />

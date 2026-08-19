@@ -28,7 +28,7 @@ export default function TalentDensityPage() {
         <div className="flex flex-col gap-3 px-5 pb-5 pt-3">
           <DetailKpiStrip items={densityKpi} />
 
-          <div className="grid auto-rows-[320px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,42fr)_minmax(0,29fr)_minmax(0,29fr)]">
+          <div className="grid auto-rows-[minmax(320px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,42fr)_minmax(0,29fr)_minmax(0,29fr)]">
             <HeatmapUnitKerja showDetailLink={false} />
             <BarListCard
               title="Density per Region"

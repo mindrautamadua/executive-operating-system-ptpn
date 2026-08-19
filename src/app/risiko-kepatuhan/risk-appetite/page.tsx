@@ -29,13 +29,13 @@ export default function RiskAppetitePage() {
           <AppetiteGaugeGrid />
 
           {/* Breach aktif & tren utilisasi */}
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,60fr)_minmax(0,40fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,60fr)_minmax(0,40fr)]">
             <BreachLog />
             <LimitTrend />
           </div>
 
           {/* Pernyataan appetite & jalur eskalasi */}
-          <div className="grid auto-rows-[235px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]">
+          <div className="grid auto-rows-[minmax(235px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]">
             <ToleranceMatrix />
             <EskalasiStatus />
           </div>

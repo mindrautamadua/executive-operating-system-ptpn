@@ -27,24 +27,24 @@ export default function LearningDevelopmentPage() {
         <div className="mx-5 mb-4 flex flex-col gap-3">
           <LndKpiStrip />
 
-          <div className="grid auto-rows-[280px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,380fr)_minmax(0,473fr)_minmax(0,450fr)]">
+          <div className="grid auto-rows-[minmax(280px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,380fr)_minmax(0,473fr)_minmax(0,450fr)]">
             <DistribusiKompetensi />
             <TrenJamPelatihan />
             <LearningValueChain />
           </div>
 
-          <div className="grid auto-rows-[256px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,865fr)_minmax(0,450fr)]">
+          <div className="grid auto-rows-[minmax(256px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,865fr)_minmax(0,450fr)]">
             <SkillGapClosure />
             <LearningRoi />
           </div>
 
-          <div className="grid auto-rows-[208px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,380fr)_minmax(0,473fr)_minmax(0,450fr)]">
+          <div className="grid auto-rows-[minmax(208px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,380fr)_minmax(0,473fr)_minmax(0,450fr)]">
             <ProgramTipe />
             <TopProgram />
             <PersonalizedLearning />
           </div>
 
-          <div className="grid auto-rows-[262px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,523fr)_minmax(0,318fr)_minmax(0,454fr)]">
+          <div className="grid auto-rows-[minmax(262px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,523fr)_minmax(0,318fr)_minmax(0,454fr)]">
             <EffectivenessUnit />
             <TopInstruktur />
             <InsightLnd />

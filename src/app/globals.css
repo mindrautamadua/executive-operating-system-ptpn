@@ -52,6 +52,20 @@
 html,
 body {
   height: 100%;
+  /* Cegah text-autosizing browser (Blink text inflation / pengaturan "ukuran
+     teks") menggelembungkan blok teks tertentu secara selektif — layout px-padat
+     dashboard pecah bila sebagian blok diboost dan sebagian tidak. */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Sebagian build Blink tetap menjalankan font boosting (Text Autosizing)
+   meski text-size-adjust 100% dipasang di html/body. Boosting dilewati untuk
+   blok yang punya max-height, jadi pasang nilai sangat besar (praktis = none)
+   ke semua elemen. Utility max-h-* (kelas) & inline style tetap menang
+   spesifisitas, jadi layout tidak berubah. */
+body * {
+  max-height: 1000000px;
 }
 
 body {

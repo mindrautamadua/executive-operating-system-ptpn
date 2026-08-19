@@ -58,7 +58,8 @@ export function EconomicProfitCard() {
           <p className="text-[8.5px] leading-snug text-ink-500">{catatan}</p>
         </div>
 
-        <div className="min-w-0 flex-1">
+        {/* Tabel bisa lebih tinggi dari kartu; scroll vertikal di dalam, jangan terpotong. */}
+        <div className="scroll-thin min-h-0 min-w-0 flex-1 overflow-y-auto">
           <div className="scroll-thin overflow-x-auto">
           <table className="w-full border-collapse">
             <thead>

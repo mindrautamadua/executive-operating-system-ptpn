@@ -27,19 +27,19 @@ export default function PeopleProductivityPage() {
 
           <ProduktivitasIntelligence />
 
-          <div className="grid auto-rows-[300px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,430fr)_minmax(0,430fr)_minmax(0,440fr)]">
+          <div className="grid auto-rows-[minmax(300px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,430fr)_minmax(0,430fr)_minmax(0,440fr)]">
             <ProduktivitasTrend />
             <ProduktivitasUnitKerja />
             <ProduktivitasJenisUsaha />
           </div>
 
-          <div className="grid auto-rows-[300px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,375fr)_minmax(0,455fr)_minmax(0,470fr)]">
+          <div className="grid auto-rows-[minmax(300px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,375fr)_minmax(0,455fr)_minmax(0,470fr)]">
             <ProduktivitasBiaya />
             <BreakdownProduktivitas />
             <DriversProduktivitas />
           </div>
 
-          <div className="grid auto-rows-[176px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,720fr)_minmax(0,580fr)]">
+          <div className="grid auto-rows-[minmax(176px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,720fr)_minmax(0,580fr)]">
             <InsightProduktivitas />
             <BenchmarkingEksternal />
           </div>

@@ -37,36 +37,36 @@ export default function SuccessionPlanningPage() {
         <div className="mx-5 mb-4 flex flex-col gap-3">
           <SuksesiKpiStrip />
 
-          <div className="grid auto-rows-[296px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,360fr)_minmax(0,435fr)_minmax(0,482fr)]">
+          <div className="grid auto-rows-[minmax(296px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,360fr)_minmax(0,435fr)_minmax(0,482fr)]">
             <NineBoxGrid />
             <PosisiKritisTabel />
             <PipelineKepemimpinan />
           </div>
 
-          <div className="grid auto-rows-[218px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,360fr)_minmax(0,435fr)_minmax(0,482fr)]">
+          <div className="grid auto-rows-[minmax(218px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,360fr)_minmax(0,435fr)_minmax(0,482fr)]">
             <TalentPoolFungsi />
             <TrenBenchStrength />
             <DistribusiKesiapan />
           </div>
 
-          <div className="grid auto-rows-[240px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,505fr)_minmax(0,300fr)_minmax(0,472fr)]">
+          <div className="grid auto-rows-[minmax(240px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,505fr)_minmax(0,300fr)_minmax(0,472fr)]">
             <RencanaAksi />
             <KandidatSiapSekarang />
             <InsightSuksesi />
           </div>
 
-          <div className="grid auto-rows-[196px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,435fr)_minmax(0,842fr)]">
+          <div className="grid auto-rows-[minmax(196px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,435fr)_minmax(0,842fr)]">
             <EmergencyCoverage />
             <BodDecisionCenter />
           </div>
 
-          <div className="grid auto-rows-[212px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,460fr)_minmax(0,375fr)_minmax(0,442fr)]">
+          <div className="grid auto-rows-[minmax(212px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,460fr)_minmax(0,375fr)_minmax(0,442fr)]">
             <KnowledgeTransfer />
             <SuccessorConcentration />
             <DiversityPipeline />
           </div>
 
-          <div className="grid auto-rows-[178px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,842fr)_minmax(0,435fr)]">
+          <div className="grid auto-rows-[minmax(178px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,842fr)_minmax(0,435fr)]">
             <ExternalBench />
             <TrenSuksesi />
           </div>

@@ -36,7 +36,7 @@ export default function TrenTalentaPage() {
         <div className="flex flex-col gap-3 px-5 pb-5 pt-3">
           <DetailKpiStrip items={trenKpi} />
 
-          <div className="grid auto-rows-[280px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,52fr)_minmax(0,26fr)_minmax(0,22fr)]">
+          <div className="grid auto-rows-[minmax(280px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,52fr)_minmax(0,26fr)_minmax(0,22fr)]">
             <TiTrendCard
               title="Populasi Talenta (12 Bulan)"
               subtitle="Total talenta aktif, HiPo, dan kandidat Ready Now"

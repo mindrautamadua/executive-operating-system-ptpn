@@ -28,18 +28,18 @@ export default function LegalPortfolioPage() {
 
           <LegalKpiStrip />
 
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,33fr)_minmax(0,67fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,33fr)_minmax(0,67fr)]">
             <LegalCaseByType />
             <ExposureByCase />
           </div>
 
-          <div className="grid auto-rows-[240px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,34fr)_minmax(0,34fr)_minmax(0,32fr)]">
+          <div className="grid auto-rows-[minmax(240px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,34fr)_minmax(0,34fr)_minmax(0,32fr)]">
             <CaseStageFunnel />
             <GeoConcentration />
             <OkupasiLahan />
           </div>
 
-          <div className="grid auto-rows-[230px] grid-cols-1 gap-3">
+          <div className="grid auto-rows-[minmax(230px,auto)] grid-cols-1 gap-3">
             <ProvisionAdequacy />
           </div>
 

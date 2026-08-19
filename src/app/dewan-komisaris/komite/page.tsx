@@ -26,16 +26,16 @@ export default function KomitePage() {
 
           <KomiteKpiStrip />
 
-          <div className="grid auto-rows-[270px] grid-cols-1 gap-3">
+          <div className="grid auto-rows-[minmax(270px,auto)] grid-cols-1 gap-3">
             <Committees />
           </div>
 
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,42fr)_minmax(0,58fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,42fr)_minmax(0,58fr)]">
             <WorkPlanProgress />
             <CommitteeFindings />
           </div>
 
-          <div className="grid auto-rows-[230px] grid-cols-1 gap-3">
+          <div className="grid auto-rows-[minmax(230px,auto)] grid-cols-1 gap-3">
             <MeetingCadence />
           </div>
 

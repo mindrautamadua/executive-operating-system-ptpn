@@ -31,7 +31,7 @@ export default function RoleMatchPage() {
         <div className="flex flex-col gap-3 px-5 pb-5 pt-3">
           <DetailKpiStrip items={matchKpi} />
 
-          <div className="grid auto-rows-[212px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)]">
+          <div className="grid auto-rows-[minmax(212px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_minmax(0,1fr)]">
             <BarListCard
               title="Sebaran Match Score"
               subtitle="Jumlah posisi kritikal per rentang kesesuaian kandidat terbaik"

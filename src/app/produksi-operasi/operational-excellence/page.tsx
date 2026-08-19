@@ -27,13 +27,13 @@ export default function OperationalExcellencePage() {
           <OpexKpiStrip />
 
           {/* Portofolio inisiatif + dampak EBITDA */}
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,58fr)_minmax(0,42fr)]">
             <InitiativePortfolio />
             <ImpactWaterfall />
           </div>
 
           {/* Maturitas & roadmap eksekusi */}
-          <div className="grid auto-rows-[240px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,42fr)_minmax(0,58fr)]">
+          <div className="grid auto-rows-[minmax(240px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,42fr)_minmax(0,58fr)]">
             <MaturityRadar />
             <MilestoneTimeline />
           </div>

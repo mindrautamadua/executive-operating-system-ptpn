@@ -26,7 +26,8 @@ export function CriticalPath30Days() {
           : "7 Milestone Kritis Jatuh Tempo s.d. 30 Juni 2026"}
       </p>
 
-      <ul className="mt-2 flex min-h-0 flex-1 flex-col justify-between gap-1">
+      {/* Daftar bisa lebih tinggi dari kartu (7 item); scroll di dalam, jangan terpotong. */}
+      <ul className="scroll-thin mt-2 flex min-h-0 flex-1 flex-col gap-1 overflow-y-auto">
         {rows.length === 0 && (
           <li className="text-[8.5px] text-ink-400">
             Tidak ada milestone kritis untuk cakupan ini.
@@ -35,7 +36,7 @@ export function CriticalPath30Days() {
         {rows.map((c) => (
           <li
             key={c.milestone}
-            className={`rounded-lg border px-2.5 py-[6px] ${
+            className={`shrink-0 rounded-lg border px-2.5 py-[6px] ${
               c.risk === "Tinggi"
                 ? "border-[#f6d5d5] bg-[#fdf5f5]"
                 : "border-[#f3e3c3] bg-[#fdf9f0]"

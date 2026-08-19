@@ -30,17 +30,17 @@ export default function ReplantingPage() {
 
           <ArpKpiStrip />
 
-          <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,55fr)_minmax(0,45fr)]">
+          <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,55fr)_minmax(0,45fr)]">
             <ReplantingProgress />
             <ReplantingSCurve />
           </div>
 
-          <div className="grid auto-rows-[240px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,56fr)_minmax(0,44fr)]">
+          <div className="grid auto-rows-[minmax(240px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,56fr)_minmax(0,44fr)]">
             <AgeProfileProjection />
             <MaintenanceBacklog />
           </div>
 
-          <div className="grid auto-rows-[215px] grid-cols-1 gap-3">
+          <div className="grid auto-rows-[minmax(215px,auto)] grid-cols-1 gap-3">
             <ReplantingFunding />
           </div>
 

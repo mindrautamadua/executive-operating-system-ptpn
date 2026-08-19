@@ -30,11 +30,11 @@ export default function DewanKomisarisPage() {
             <div className="flex min-w-0 flex-col gap-3">
               <DekKpiStrip />
               <DekIntelligence />
-              <div className="grid auto-rows-[250px] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,44fr)_minmax(0,56fr)]">
+              <div className="grid auto-rows-[minmax(250px,auto)] grid-cols-1 gap-3 lg:grid-cols-2 xl:grid-cols-[minmax(0,44fr)_minmax(0,56fr)]">
                 <OversightFocusRadar />
                 <FollowUpTrend />
               </div>
-              <div className="grid auto-rows-[215px] grid-cols-1 gap-3">
+              <div className="grid auto-rows-[minmax(215px,auto)] grid-cols-1 gap-3">
                 <AttendanceByMember />
               </div>
               <DekAlerts />
