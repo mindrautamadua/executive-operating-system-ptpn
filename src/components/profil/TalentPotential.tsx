@@ -22,7 +22,7 @@ export function TalentPotential() {
             <div className="flex items-start gap-1.5">
               <div className="flex flex-col gap-[6px]">
                 {ROWS.map((r) => (
-                  <div key={r} className="flex h-[42px] items-center justify-end">
+                  <div key={r} className="flex h-[46px] items-center justify-end">
                     <span className="text-[9px] text-ink-500">{r}</span>
                   </div>
                 ))}
@@ -35,7 +35,7 @@ export function TalentPotential() {
                       return (
                         <div
                           key={ci}
-                          className={`flex h-[42px] w-[42px] items-center justify-center rounded-md ${tone}`}
+                          className={`flex h-[46px] w-[46px] items-center justify-center rounded-md ${tone}`}
                         >
                           {on && <Star size={15} fill="#f5a524" strokeWidth={0} />}
                         </div>
@@ -47,7 +47,7 @@ export function TalentPotential() {
             </div>
             <div className="ml-[52px] mt-1 flex gap-[6px]">
               {COLS.map((c) => (
-                <span key={c} className="w-[42px] text-center text-[9px] text-ink-500">
+                <span key={c} className="w-[46px] text-center text-[9px] text-ink-500">
                   {c}
                 </span>
               ))}
